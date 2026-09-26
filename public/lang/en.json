@@ -1,0 +1,22 @@
+{
+  "top": {
+    "obstacle_text": "Facing obstacles in business growth?",
+    "connect_link": "Connect with us for guidance",
+    "call_us_label": "Call us:",
+    "send_mail_label": "Send mail:"
+  },
+  "header": {
+    "language_label": "Language",
+    "get_quote": "Get Free Quote"
+  },
+  "nav": {
+    "home": "Home",
+    "industries": "Industries",
+    "about": "About Us",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "contact_primary": "Contact",
+    "contact_secondary": "Contact Two"
+  }
+}

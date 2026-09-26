@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <base href="./">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="template-version" content="1.0.0">
+    <title>ISO 22301 BCMS Singapore | Business Continuity Audit, Consultation & Training | ICFC Pte Ltd</title>
+    <meta name="description" content="ISO 22301 BCMS certification Singapore — Business Continuity Management System. BIA, gap analysis, implementation & training with EDG/MASA grant up to 50%. MAS TRM aligned.">
+    <meta name="keywords" content="ISO 22301 Singapore, BCMS consultation, business continuity plan, EDG grant ISO 22301, BIA Singapore, MAS TRM business continuity, best BCMS consultant">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.webp">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/plugins/flatpickr.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/nouislider.min.css">
+    <link rel="stylesheet" href="./assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/vendor/odometer.min.css">
+    <link rel="stylesheet" href="./assets/css/vendor/spacing.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/whatsapp-float.css">
+    <style>
+        .header-logo img { width: 150px !important; height: auto !important; }
+        .loader-icon img { width: 40px !important; height: auto !important; }
+        #pre-load { background: #fff; position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; }
+        .goog-te-gadget-simple { background-color: #fff !important; border: 1px solid rgba(0,0,0,0.1) !important; border-radius: 8px !important; }
+        .rs-footer-wrapper { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; }
+        .rs-footer-left { flex: 0 0 280px; }
+        .rs-footer-right { flex: 1; }
+        .bcms-stats-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 40px 0; }
+        .bcms-stat-card { background: #f8f9fc; border-radius: 20px; padding: 20px 15px; text-align: center; flex: 1; min-width: 100px; box-shadow: 0 5px 20px rgba(0,0,0,0.03); }
+        .bcms-stat-number { font-size: 36px; font-weight: 800; color: #1a4d7a; line-height: 1; margin-bottom: 5px; }
+        .pillar-card { background: #ffffff; border-radius: 28px; padding: 28px 22px; box-shadow: 0 20px 35px -12px rgba(0,0,0,0.08); height: 100%; transition: 0.2s; }
+        .pillar-card:hover { transform: translateY(-8px); }
+        .component-card { background: white; border-radius: 20px; padding: 20px; height: 100%; border-bottom: 3px solid #1a4d7a; transition: 0.2s; }
+        .component-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.08); }
+        .grant-banner { background: linear-gradient(135deg, #0a2e3b 0%, #051c26 100%); border-radius: 32px; padding: 40px; color: white; }
+        .reg-table th, .reg-table td { padding: 12px; border-bottom: 1px solid #eef2f6; font-size: 14px; vertical-align: top; }
+        .reg-table th { background: #f0f4f8; color: #1a4d7a; }
+        @media (max-width:768px) { .grant-banner { padding: 28px; } }
+        
+        /* FAQ Section - Enhanced Fonts */
+        .faq-section .accordion-button {
+            font-size: 2rem !important;
+            font-weight: 700 !important;
+            background-color: #fff;
+            color: #1a3a5c;
+            padding: 1.2rem 1.5rem;
+            line-height: 1.4;
+        }
+        .faq-section .accordion-button:not(.collapsed) {
+            background-color: #f0f4f8;
+            color: #0a2e3b;
+        }
+        .faq-section .accordion-body {
+            font-size: 1.8rem !important;
+            line-height: 1.65 !important;
+            padding: 1.2rem 1.5rem;
+            color: #2d3e50;
+            background: #ffffff;
+        }
+        .faq-section .accordion-item {
+            margin-bottom: 1rem;
+            border: 1px solid #e9ecef;
+            border-radius: 20px !important;
+            overflow: hidden;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+        }
+        .faq-section .section-title-wrapper h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            color: #0a2e3b;
+        }
+        @media (max-width: 768px) {
+            .faq-section .accordion-button { font-size: 0.95rem !important; padding: 1rem 1.2rem; }
+            .faq-section .accordion-body { font-size: 0.9rem !important; padding: 1rem 1.2rem; }
+            .faq-section .section-title-wrapper h2 { font-size: 1.7rem; }
+        }
+        
+        /* Floating icons */
+        .floating-icons-container {
+            position: fixed;
+            bottom: 62px;
+            right: 25px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .floating-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+            transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            cursor: pointer;
+            text-decoration: none;
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+        .floating-icon:hover {
+            transform: scale(1.12) translateY(-4px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+        }
+        .floating-icon i { font-size: 30px; color: white; }
+        .floating-icon.wechat-float { background: #07C160; }
+        .floating-icon.wechat-float:hover { background: #059c4a; }
+        .floating-icon.whatsapp-float { background: #25D366; }
+        .floating-icon.whatsapp-float:hover { background: #1ebc57; }
+        
+        /* WeChat QR Modal */
+        .wechat-qr-modal {
+            position: fixed;
+            bottom: 160px;
+            right: 95px;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 25px 45px rgba(0,0,0,0.2);
+            padding: 18px;
+            width: 230px;
+            text-align: center;
+            z-index: 10000;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid #eaeaea;
+            animation: fadeInUp 0.2s ease;
+        }
+        .wechat-qr-modal img { width: 170px; height: 170px; object-fit: cover; border-radius: 16px; background: #f5f5f5; }
+        .wechat-qr-modal p { font-size: 13px; color: #222; margin: 0; font-weight: 500; }
+        .wechat-qr-modal .close-qr { position: absolute; top: 8px; right: 12px; background: none; border: none; font-size: 20px; cursor: pointer; color: #999; }
+        .wechat-qr-modal .close-qr:hover { color: #AB052D; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        @media (max-width: 576px) {
+            .floating-icons-container { bottom: 20px; right: 15px; gap: 12px; }
+            .floating-icon { width: 48px; height: 48px; }
+            .floating-icon i { font-size: 26px; }
+            .wechat-qr-modal { width: 190px; right: 70px; bottom: 130px; padding: 12px; }
+            .wechat-qr-modal img { width: 140px; height: 140px; }
+        }
+        
+        /* Back to top button */
+         .backtotop-wrap {
+            position: fixed;
+            bottom: 30px;
+            left: 25px;
+            background: #AB052D;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 999;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        .backtotop-wrap:hover {
+            background: #7a0420;
+            transform: translateY(-3px);
+        }
+        .backtotop-wrap i { color: #fff; font-size: 24px; }
+        
+        
+        /* Sticky Header */
+        .rs-sticky-header.sticky { position: fixed !important; top: 0; left: 0; width: 100%;  box-shadow: 0 5px 20px rgba(0,0,0,0.1); z-index: 999; animation: slideDown 0.3s ease; }
+        @keyframes slideDown { from { transform: translateY(-100%); } to { transform: translateY(0); } }
+        
+        /* Testimonial card */
+        .testimonial-card { background: #fff; border-radius: 20px; padding: 24px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); margin: 15px 0; border-left: 4px solid #1a4d7a; }
+        
+        /* Hide default WhatsApp float from external CSS */
+        #whatsapp-float, #wechat-float { display: none !important; }
+    </style>
+</head>
+
+<body>
+    <!-- preloader start -->
+    <div id="pre-load"><div id="loader" class="loader"><div class="loader-container"><div class="loader-icon"><img src="./assets/images/logo/logo.png" alt=""></div></div></div></div>
+    <script>
+        setTimeout(function() { var preloader = document.getElementById('pre-load'); if (preloader && preloader.style.display !== 'none') { preloader.style.opacity = '0'; setTimeout(function() { preloader.style.display = 'none'; }, 500); } }, 3000);
+        setTimeout(function () { var preloader = document.getElementById('pre-load'); if (preloader && preloader.style.display !== 'none') preloader.style.display = 'none'; }, 5000);
+    </script>
+
+    <!-- Header area start -->
+    <header>
+        <div class="rs-header-area rs-header-one">
+            <div class="container-fluid g-0">
+                <div class="rs-header-top rs-header-top-one">
+                    <div class="header-top-left">
+                        <span class="header-top-icon"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none"><path d="M0.50204 0.439454C0.811629 0.16438 1.28548 0.192407 1.56063 0.501954L5.56063 5.00195C5.81308 5.28608 5.81308 5.71392 5.56063 5.99805L1.56063 10.498C1.28548 10.8076 0.811629 10.8356 0.50204 10.5605C0.192493 10.2854 0.164466 9.81154 0.43954 9.50195L3.99618 5.5L0.43954 1.49805C0.164466 1.18846 0.192493 0.714606 0.50204 0.439454Z" fill="#AB052D"></path></svg></span>
+                        <div class="header-top-content"><p>Facing obstacles in business growth? <a href="contact-us.html">Connect with us for guidance</a></p></div>
+                    </div>
+                    <div class="header-top-right">
+                        <div id="google_translate_element"></div>
+                        <div class="header-top-meta"><span class="header-top-meta-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M12.1641 10.5834C11.6414 10.0673 10.9888 10.0673 10.4694 10.5834C10.0732 10.9762 9.67699 11.3691 9.28744 11.7686C9.1809 11.8785 9.091 11.9018 8.96115 11.8286C8.70479 11.6887 8.43177 11.5755 8.18539 11.4224C7.03673 10.6999 6.07452 9.77097 5.22218 8.72552C4.79934 8.20613 4.42312 7.65011 4.16009 7.02417C4.10682 6.89765 4.11681 6.81442 4.22002 6.7112C4.61622 6.32832 5.00244 5.93544 5.39198 5.54257C5.93469 4.99654 5.93469 4.35728 5.38866 3.80792C5.07902 3.49495 4.76938 3.18865 4.45974 2.87568C4.14011 2.55605 3.82381 2.23309 3.50086 1.9168C2.97813 1.40739 2.32556 1.40739 1.80617 1.92012C1.40663 2.313 1.02375 2.71586 0.617555 3.10208C0.241327 3.45833 0.0515486 3.89449 0.0115952 4.40389C-0.0516643 5.23293 0.151432 6.01535 0.437765 6.77779C1.02375 8.35595 1.91604 9.75765 2.99811 11.0428C4.45974 12.7808 6.20437 14.1558 8.24532 15.148C9.16425 15.5942 10.1165 15.9371 11.1519 15.9937C11.8644 16.0337 12.4837 15.8539 12.9798 15.2979C13.3194 14.9183 13.7023 14.572 14.0619 14.2091C14.5946 13.6697 14.5979 13.0172 14.0685 12.4845C13.4359 11.8485 12.8 11.2159 12.1641 10.5834Z"></path><path d="M11.5271 7.92979L12.7557 7.72003C12.5625 6.59135 12.0298 5.56921 11.2208 4.75682C10.3651 3.90116 9.28304 3.36178 8.0911 3.19531L7.91797 4.43054C8.84023 4.56039 9.67925 4.97657 10.3418 5.63913C10.9677 6.26506 11.3773 7.05747 11.5271 7.92979Z"></path><path d="M13.4493 2.59031C12.0309 1.17197 10.2363 0.276344 8.25531 0L8.08218 1.23523C9.79352 1.47495 11.345 2.25071 12.5703 3.47262C13.7323 4.63459 14.4947 6.10288 14.771 7.71766L15.9996 7.50791C15.6767 5.63676 14.7943 3.93874 13.4493 2.59031Z"></path></svg></span><div class="header-top-meta-content"><span>Call us:</span><a href="tel:+6586017001">+65 8601 7001</a></div></div>
+                        <div class="header-top-meta"><span class="header-top-meta-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><g clip-path="url(#clip0_28535_99)"><path d="M15.8603 3.17969L11.0078 8.00091L15.8603 12.8221C15.948 12.6388 16.0012 12.4361 16.0012 12.2197V3.78216C16.0012 3.56569 15.948 3.36303 15.8603 3.17969Z" fill="white"></path><path d="M14.5947 2.375H1.40716C1.19069 2.375 0.988031 2.42822 0.804688 2.51594L7.00666 8.68666C7.55503 9.23503 8.44678 9.23503 8.99516 8.68666L15.1971 2.51594C15.0138 2.42822 14.8111 2.375 14.5947 2.375Z" fill="white"></path><path d="M0.140938 3.17969C0.0532188 3.36303 0 3.56569 0 3.78216V12.2197C0 12.4361 0.0532188 12.6388 0.140938 12.8221L4.99341 8.00091L0.140938 3.17969Z" fill="white"></path><path d="M10.3447 8.66211L9.658 9.34877C8.74428 10.2625 7.2575 10.2625 6.34378 9.34877L5.65716 8.66211L0.804688 13.4833C0.988031 13.571 1.19069 13.6243 1.40716 13.6243H14.5947C14.8111 13.6243 15.0138 13.571 15.1971 13.4833L10.3447 8.66211Z" fill="white"></path></g><defs><clipPath id="clip0_28535_99"><rect width="16" height="16" fill="white"></rect></clipPath></defs></svg></span><div class="header-top-meta-content"><span>Send mail:</span><a href="mailto:admin@icfc.com.sg">admin@icfc.com.sg</a></div></div>
+                    </div>
+                </div>
+                <div id="rs-sticky-header" class="header-wrapper rs-sticky-header">
+                    <div class="header-left"><div class="header-logo"><a href="index.html"><img src="./assets/images/logo/logo.png" alt="logo" style="width: 150px !important;"></a></div></div>
+                    <div class="header-menu"><nav id="mobile-menu" class="main-menu"><ul class="multipage-menu"><li class="menu-item"><a href="index.html">Home</a></li><li class=""><a href="industry.html">Industries</a></li><li class="rs-mega-menu"><a href="about.html">About Us</a></li><li class=""><a href="services.html">Services</a></li><li><a href="blog.html">Blog</a></li><li class=""><a href="contact-us.html">Contact</a></li></ul></nav></div>
+                    <div class="header-content"><div class="header-btn"><div id="google_translate_element"></div><a class="rs-btn has-icon is-transparent hover-primary border-hover-primary" href="contact-us.html">Get Free Quote<span class="icon-box"><svg class="icon-first" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z" fill="white" /></svg><svg class="icon-second" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z" fill="white" /></svg></span></a></div><div class="header-search-wrapper"><div class="header-search-icon"><i class="ri-close-fill has-close"></i><i class="ri-search-line has-search"></i></div><form class="header-search-inner rs-stickys-form" action="#"><div class="header-search"><input type="text" placeholder="Searching..."><button type="submit"><i class="ri-search-line"></i></button></div></form></div><div class="header-hamburger"><div class="sidebar-toggle"><a class="header-bar-icon" href="javascript:void(0)"><span></span><span></span><span></span></a></div></div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header><div class="rs-header-area rs-header-one"><div class="container-fluid g-0"><div class="header-wrapper"><div class="header-left"><div class="header-logo"><a href="index.html"><img src="./assets/images/logo/logo.png" alt="logo" style="width: 150px !important;"></a></div></div><div class="header-right"><div class="header-menu"><nav id="mobile-menu-two" class="main-menu"><ul class="multipage-menu"><li class="menu-item active"><a href="index.html">Home</a></li><li class=""><a href="industry.html">Industries</a></li><li class=""><a href="about.html">About Us</a></li><li class=""><a href="services.html">Services</a></li><li class=""><a href="blog.html">Blog</a></li><li class=""><a href="contact-us.html">Contact</a></li></ul></nav></div><div class="header-content"><div class="header-btn"><a class="rs-btn has-icon is-transparent hover-primary border-hover-primary" href="contact-us.html">Get Free Quote<span class="icon-box"><svg class="icon-first" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z" fill="white"></path></svg><svg class="icon-second" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z" fill="white"></path></svg></span></a></div><div class="header-search-wrapper"><div class="header-search-icon"><i class="ri-close-fill has-close"></i><i class="ri-search-line has-search"></i></div><form class="header-search-inner rs-stickys-form" action="#"><div class="header-search"><input type="text" placeholder="Searching..."><button type="submit"><i class="ri-search-line"></i></button></div></form></div><div class="header-hamburger"><div class="sidebar-toggle"><a class="header-bar-icon" href="javascript:void(0)"><span></span><span></span><span></span></a></div></div></div></div></div></div></div></header>
+
+    <div class="fix"><div class="offcanvas-area" data-lenis-prevent><div class="offcanvas-wrapper"><div class="offcanvas-content"><div class="offcanvas-top d-flex justify-content-between align-items-center mb-20"><div class="offcanvas-logo"><a class="logo" href="index.html"><img src="./assets/images/logo/logo.png" alt="logo"></a><a class="logo-white" href="index.html"><img alt="logo"></a></div><div class="offcanvas-close"><button class="offcanvas-close-icon animation--flip"><span class="offcanvas-m-lines"><span class="offcanvas-m-line line--1"></span><span class="offcanvas-m-line line--2"></span><span class="offcanvas-m-line line--3"></span></span></button></div></div><div class="offcanvas-about mb-30 d-none d-xl-block"><p>ICFC PTE LTD specializes in helping startups and enterprises craft strategic solutions.</p></div><div class="mobile-menu"><div class="rs-offcanvas-menu mb-30"><nav></nav></div></div><div class="offcanvas-contact mb-30"><h4 class="offcanvas-title-meta">Contact Info</h4><ul><li class="d-flex gap-15"><div class="offcanvas-contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none"><path d="M11.8768 9.68475C11.3059 10.835 10.5331 11.9818 9.74128 13.0109C8.95198 14.0368 8.15999 14.9249 7.5643 15.5572C7.48514 15.6412 7.40956 15.7206 7.33802 15.7951C7.26648 15.7206 7.1909 15.6412 7.11174 15.5572C6.51605 14.9249 5.72406 14.0368 4.93476 13.0109C4.14299 11.9818 3.37019 10.835 2.79925 9.68475C2.22242 8.52266 1.89032 7.43373 1.89032 6.5C1.89032 3.50846 4.32934 1.08333 7.33802 1.08333C10.3467 1.08333 12.7857 3.50846 12.7857 6.5C12.7857 7.43373 12.4536 8.52266 11.8768 9.68475ZM7.33802 17.3333C7.33802 17.3333 13.8753 11.1732 13.8753 6.5C13.8753 2.91015 10.9484 0 7.33802 0C3.7276 0 0.800781 2.91015 0.800781 6.5C0.800781 11.1732 7.33802 17.3333 7.33802 17.3333Z" fill="#6D6D6D"></path><path d="M7.33802 8.66667C6.13455 8.66667 5.15894 7.69662 5.15894 6.5C5.15894 5.30338 6.13455 4.33333 7.33802 4.33333C8.54149 4.33333 9.5171 5.30338 9.5171 6.5C9.5171 7.69662 8.54149 8.66667 7.33802 8.66667ZM7.33802 9.75C9.14323 9.75 10.6066 8.29492 10.6066 6.5C10.6066 4.70507 9.14323 3.25 7.33802 3.25C5.53281 3.25 4.0694 4.70507 4.0694 6.5C4.0694 8.29492 5.53281 9.75 7.33802 9.75Z" fill="#6D6D6D"></path></svg></div><div class="offcanvas-contact-text"><a href="#">10 BUROH STREET #04-05 WEST CONNECT BUILDING SINGAPORE 627564</a></div></li><li class="d-flex gap-15"><div class="offcanvas-contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3.65387 1.32849C3.40343 1.00649 2.92745 0.976861 2.639 1.26531L1.60508 2.29923C1.1216 2.78271 0.94387 3.46766 1.1551 4.06847C2.00338 6.48124 3.39215 8.74671 5.32272 10.6773C7.25329 12.6078 9.51876 13.9966 11.9315 14.8449C12.5323 15.0561 13.2173 14.8784 13.7008 14.3949L14.7347 13.361C15.0231 13.0726 14.9935 12.5966 14.6715 12.3461L12.3653 10.5524C12.2008 10.4245 11.9866 10.3793 11.7845 10.4298L9.59541 10.9771C9.00082 11.1257 8.37183 10.9515 7.93845 10.5181L5.48187 8.06155C5.04849 7.62817 4.87427 6.99919 5.02292 6.40459L5.57019 4.21553C5.62073 4.01336 5.57552 3.79918 5.44758 3.63468L3.65387 1.32849ZM1.88477 0.511076C2.62689 -0.231039 3.8515 -0.154797 4.49583 0.673634L6.28954 2.97983C6.6187 3.40304 6.73502 3.95409 6.60498 4.47423L6.05772 6.66329C5.99994 6.8944 6.06766 7.13888 6.2361 7.30732L8.69268 9.7639C8.86113 9.93235 9.1056 10.0001 9.33671 9.94229L11.5258 9.39502C12.0459 9.26499 12.597 9.3813 13.0202 9.71047L15.3264 11.5042C16.1548 12.1485 16.231 13.3731 15.4889 14.1152L14.455 15.1492C13.7153 15.8889 12.6089 16.2137 11.5778 15.8512C9.01754 14.9511 6.61438 13.4774 4.56849 11.4315C2.5226 9.38562 1.04895 6.98246 0.148838 4.42225C-0.213682 3.39112 0.11113 2.28472 0.85085 1.545L1.88477 0.511076Z" fill="#6D6D6D"></path><path d="M11 0.5C11 0.223858 11.2239 0 11.5 0H15.5C15.7761 0 16 0.223858 16 0.5V4.5C16 4.77614 15.7761 5 15.5 5C15.2239 5 15 4.77614 15 4.5V1.70711L10.8536 5.85355C10.6583 6.04882 10.3417 6.04882 10.1464 5.85355C9.95118 5.65829 9.95118 5.34171 10.1464 5.14645L14.2929 1H11.5C11.2239 1 11 0.776142 11 0.5Z" fill="#6D6D6D"></path></svg></div><div class="offcanvas-contact-text"><a href="tel:+6586017001">+65 8601 7001</a></div></li><li class="d-flex gap-15"><div class="offcanvas-contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 2C0.895431 2 0 2.89543 0 4V12L2.58386e-05 12.0103C0.00555998 13.1101 0.898859 14 2 14H7.5C7.77614 14 8 13.7761 8 13.5C8 13.2239 7.77614 13 7.5 13H2C1.53715 13 1.14774 12.6855 1.03376 12.2586L6.67417 8.7876L8 9.5831L15 5.3831V8.5C15 8.77614 15.2239 9 15.5 9C15.7761 9 16 8.77614 16 8.5V4C16 2.89543 15.1046 2 14 2H2ZM5.70808 8.20794L1 11.1052V5.3831L5.70808 8.20794ZM1 4.2169V4C1 3.44772 1.44772 3 2 3H14C14.5523 3 15 3.44772 15 4V4.2169L8 8.4169L1 4.2169Z" fill="#6D6D6D"></path><path d="M14.2467 14.2686C15.2567 14.2686 15.8339 13.4116 15.8339 12.2442V12.0344C15.8339 10.4297 14.6402 9 12.5197 9H12.4847C10.421 9 9 10.3598 9 12.4322V12.6465C9 14.8195 10.4385 16 12.3579 16H12.4016C12.9963 16 13.4204 15.9257 13.639 15.8251V15.0949C13.3941 15.2042 12.9656 15.2742 12.4585 15.2742H12.4147C11.0812 15.2742 9.84385 14.4872 9.84385 12.6202V12.4628C9.84385 10.8057 10.9019 9.73891 12.4847 9.73891H12.524C14.0587 9.73891 15.0075 10.7883 15.0075 12.065V12.183C15.0075 13.158 14.6839 13.5734 14.3691 13.5734C14.1374 13.5734 13.9582 13.4247 13.9582 13.1537V10.9631H13.0531V11.5315H13.0225C12.9394 11.2342 12.6552 10.9019 12.0693 10.9019C11.2911 10.9019 10.8101 11.4572 10.8101 12.3011V12.8301C10.8101 13.722 11.2998 14.2642 12.0693 14.2642C12.5415 14.2642 12.9656 14.0369 13.0837 13.6215H13.1274C13.2455 14.0412 13.7439 14.2686 14.2467 14.2686ZM11.7939 12.6814V12.4541C11.7939 11.9076 12.0212 11.6627 12.3666 11.6627C12.664 11.6627 12.9394 11.8551 12.9394 12.371V12.7383C12.9394 13.3111 12.6858 13.4816 12.3754 13.4816C12.0212 13.4816 11.7939 13.2673 11.7939 12.6814Z" fill="#6D6D6D"></path></svg></div><div class="offcanvas-contact-text"><a href="mailto:admin@icfc.com.sg">admin@icfc.com.sg</a></div></li></ul></div><div class="offcanvas-social"><h4 class="offcanvas-title-meta">Follow Us</h4><ul><li><a href="#"><i class="ri-facebook-fill"></i></a></li><li><a href="#"><i class="ri-twitter-x-fill"></i></a></li><li><a href="#"><i class="ri-youtube-fill"></i></a></li><li><a href="#"><i class="ri-linkedin-box-fill"></i></a></li></ul></div></div></div></div></div>
+    <div class="offcanvas-overlay"></div><div class="offcanvas-overlay-white"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="rs-banner-area rs-banner-one" style="background:#0a2e3b;"><div class="container"><div class="row align-items-center" style="min-height:70vh;"><div class="col-xl-8"><div class="rs-banner-wrapper"><span class="rs-banner-subtitle wow fadeInUp" style="color:#6bc2e8;">ISO 22301:2019 · Business Continuity Management System · Singapore</span><h1 class="rs-banner-title wow fadeInUp">Business continuity —<br>certified, resilient, and grant-funded</h1><p class="rs-banner-desc">ISO 22301 BCMS certification. BIA, gap analysis, implementation & training. EDG/MASA grant up to 50%. MAS TRM aligned. ICFC since 2014.</p><div class="rs-banner-btn"><a class="rs-btn has-icon has-bg-white hover-primary" href="contact-us.html">Book free BCMS assessment →<span class="icon-box"><svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"><path d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z" fill="white"></path></svg></span></a> <a class="rs-btn has-icon is-transparent hover-primary" href="#grant">Check grant eligibility →</a></div></div></div></div></div></section>
+
+        <!-- Stats -->
+        <div class="container section-space-top"><div class="bcms-stats-grid"><div class="bcms-stat-card"><div class="bcms-stat-number">4–6</div><div>Months typical BCMS timeline</div></div><div class="bcms-stat-card"><div class="bcms-stat-number">50%</div><div>EDG grant co-fund</div></div><div class="bcms-stat-card"><div class="bcms-stat-number">98%</div><div>First-attempt rate</div></div><div class="bcms-stat-card"><div class="bcms-stat-number">25+</div><div>Industries served</div></div><div class="bcms-stat-card"><div class="bcms-stat-number">11+</div><div>Years expertise</div></div><div class="bcms-stat-card"><div class="bcms-stat-number">MAS</div><div>TRM & BCM aligned</div></div></div></div>
+
+        <!-- Climate Amendment Banner -->
+        <div class="container"><div class="alert alert-info border-0 rounded-4 p-3" style="background:#e8f4f8;"><strong>📋 2024 Climate Action Amendment to ISO 22301:2019.</strong> An amendment was adopted in 2024 integrating climate change considerations. ICFC's BCMS implementation includes this amendment as standard — ensuring your BIA and risk assessment address climate-related disruption scenarios.</div></div>
+
+        <!-- Three service pillars -->
+        <section class="section-space"><div class="container"><div class="section-title-wrapper text-center"><span class="section-subtitle">BCMS services</span><h2>Audit · Consultation · Training</h2><p>BIA · ISO 22301 · MAS TRM · EDG grant managed</p></div><div class="row g-4 mt-3"><div class="col-md-4"><div class="pillar-card"><span style="font-size:42px;">🔍</span><h4 class="mt-3">BCMS Audit</h4><p>Gap analysis · Stage 1/Stage 2 · Pre-cert mock audit · Surveillance · Internal audit co-sourcing.</p><a href="contact-us.html" class="rs-btn has-text mt-2">Explore audit →</a></div></div><div class="col-md-4"><div class="pillar-card"><span style="font-size:42px;">📋</span><h4 class="mt-3">BCMS Consultation</h4><p>Full implementation · BIA facilitation · MAS TRM aligned · IMS integration · Crisis management · Post-cert retainer.</p><a href="contact-us.html" class="rs-btn has-text mt-2">Explore consulting →</a></div></div><div class="col-md-4"><div class="pillar-card"><span style="font-size:42px;">🎓</span><h4 class="mt-3">BCMS Training</h4><p>Lead auditor (CQI/IRCA) · Internal auditor · Implementation practitioner · Staff awareness · Tabletop exercises.</p><a href="contact-us.html" class="rs-btn has-text mt-2">Explore training →</a></div></div></div></div></section>
+
+        <!-- Six Core Components -->
+        <section class="section-space theme-secondary"><div class="container"><div class="section-title-wrapper"><h2>The BCMS framework — six core components ICFC implements</h2></div><div class="row g-4 mt-3"><div class="col-md-4"><div class="component-card"><h4>📊 BIA</h4><h6>Business Impact Analysis</h6><p>Identify critical processes, quantify disruption impact, set RTO and RPO for every key activity.</p></div></div><div class="col-md-4"><div class="component-card"><h4>⚠️ RA</h4><h6>Risk Assessment</h6><p>Identify threats and vulnerabilities — cyber, climate, supply chain, pandemic.</p></div></div><div class="col-md-4"><div class="component-card"><h4>🎯 BC Strat</h4><h6>Continuity Strategies</h6><p>Design strategies for people, technology, facilities, data, supply chain covering all disruption scenarios.</p></div></div><div class="col-md-4"><div class="component-card"><h4>📄 BCP</h4><h6>Business Continuity Plans</h6><p>Documented, tested response and recovery procedures — crisis comms, escalation paths, recovery actions.</p></div></div><div class="col-md-4"><div class="component-card"><h4>🏋️ Exercise</h4><h6>Testing & Exercises</h6><p>Desktop exercises, simulations, and live drills — validating plans work before incidents occur.</p></div></div><div class="col-md-4"><div class="component-card"><h4>🔄 PDCA</h4><h6>Continual Improvement</h6><p>Internal audit, management review, and ongoing BCMS refinement as threats evolve.</p></div></div></div></div></section>
+
+        <!-- What is ISO 22301 BCMS? -->
+        <section class="section-space"><div class="container"><div class="section-title-wrapper"><h2>What is ISO 22301 BCMS? Singapore's resilience standard</h2></div><p>ISO 22301:2019 is the internationally recognised standard for Business Continuity Management Systems. It provides a framework for organisations to prepare for, respond to, and recover from disruptive incidents — whether cyberattacks, pandemics, supply chain failures, or natural disasters. In Singapore's position as a global business hub, disruptions carry outsized impact. Several Singapore regulators now require or strongly recommend certified BCMS.</p><p>The 2024 Climate Action Amendment to ISO 22301:2019 integrates climate change considerations into BCMS requirements. ICFC includes this as standard in every implementation.</p></div></section>
+
+        <!-- Singapore Regulatory Landscape Table -->
+        <section class="section-space"><div class="container"><div class="section-title-wrapper"><h2>Singapore's BCMS regulatory landscape</h2></div><div class="table-responsive"><table class="table table-bordered reg-table"><thead><tr><th>Regulator / Framework</th><th>Requirement</th><th>Sectors</th><th>ISO 22301 alignment</th></tr></thead><tbody><tr><td>MAS TRM Guidelines</th><td>Robust BCM capabilities; scenario testing</td><td>Banks, insurers, FinTech</td><td>✓ Direct alignment</td></tr><tr><td>MAS Notice 655 / BCM Guidelines</td><td>Documented BCP, RTO/RPO, annual testing</td><td>All MAS-regulated FIs</td><td>✓ Direct alignment</td></tr><tr><td>CSA Cybersecurity Act</td><td>CII operators must have BCPs for critical systems</td><td>Energy, water, transport, banking, telco, healthcare, govt</td><td>✓ Strong alignment</td></tr><tr><td>MOH guidelines</td><td>Business continuity for essential healthcare services</td><td>Hospitals, clinics, pharma</td><td>✓ Strong alignment</td></tr><tr><td>BCA requirements</td><td>Business continuity for major projects</td><td>Critical infrastructure contractors</td><td>✓ Framework aligned</td></tr><tr><td>Government tender criteria</td><td>ISO 22301 increasingly required or scored</td><td>All government suppliers</td><td>✓ Certification required</td></tr></tbody></table></div></div></section>
+
+        <!-- Grant section -->
+        <div id="grant" class="container section-space"><div class="grant-banner"><div class="row align-items-center"><div class="col-lg-8"><h3 class="text-white">50% EDG / MASA grant co-funding — up to 50% of BCMS consultation costs</h3><p>Enterprise Singapore's EDG covers up to 50% of qualifying ISO 22301 consultation fees for eligible SMEs. ICFC manages your application before project commencement. Integrated IMS engagements (ISO 22301 + ISO 27001) can stack grant funding across both standards.</p><a class="rs-btn has-bg-white" href="contact-us.html">Check grant eligibility →</a></div><div class="col-lg-4 text-center"><i class="ri-government-line" style="font-size: 60px; opacity: 0.5; color: white;"></i></div></div></div></div>
+
+        <!-- BCMS Audit Process -->
+        <section class="section-space pt-0"><div class="container"><div class="section-title-wrapper"><h2>ICFC's BCMS audit process — from first call to certificate</h2></div><div class="row g-4 text-center"><div class="col-md-2"><div class="p-3"><div class="bg-light rounded-circle d-inline-flex p-3 mb-2">01</div><p>Free briefing</p></div></div><div class="col-md-2"><div class="p-3"><div class="bg-light rounded-circle d-inline-flex p-3 mb-2">02</div><p>Gap analysis</p></div></div><div class="col-md-2"><div class="p-3"><div class="bg-light rounded-circle d-inline-flex p-3 mb-2">03</div><p>Grant application</p></div></div><div class="col-md-2"><div class="p-3"><div class="bg-light rounded-circle d-inline-flex p-3 mb-2">04</div><p>Pre-cert audit</p></div></div><div class="col-md-2"><div class="p-3"><div class="bg-light rounded-circle d-inline-flex p-3 mb-2">05</div><p>CB coordination</p></div></div><div class="col-md-2"><div class="p-3"><div class="bg-light rounded-circle d-inline-flex p-3 mb-2">06</div><p>Certificate</p></div></div></div></div></section>
+
+        <!-- Testimonials -->
+        <section class="section-space theme-secondary"><div class="container"><div class="row"><div class="col-md-6 mb-4"><div class="testimonial-card"><div class="d-flex gap-3"><div><h5>Chief Risk Officer</h5><p class="text-muted">Digital bank, Singapore</p></div><div class="ms-auto">★★★★★</div></div><p>"ICFC's BIA facilitation identified three single-point dependencies we hadn't recognised — including a critical vendor with no sub-contractor. Certification achieved on first attempt with MAS TRM fully addressed."</p></div></div><div class="col-md-6 mb-4"><div class="testimonial-card"><div class="d-flex gap-3"><div><h5>IT Director</h5><p class="text-muted">Data centre operator</p></div><div class="ms-auto">★★★★★</div></div><p>"Achieved ISO 22301 and ISO 27001 dual certification under ICFC's integrated IMS approach — saved over S$30,000 compared to separate engagements. EDG grant covered 50% of total cost."</p></div></div><div class="col-md-12 mt-2"><div class="testimonial-card"><div class="d-flex gap-3"><div><h5>General Manager</h5><p class="text-muted">Pharmaceutical manufacturer</p></div><div class="ms-auto">★★★★★</div></div><p>"ICFC's tabletop exercise programme changed how our executive team thinks about business continuity. They ran a realistic cyber-incident scenario that exposed gaps in our crisis communication escalation path that no document review would have found."</p></div></div></div></div></section>
+
+        <!-- FAQ SECTION -->
+        <section class="section-space faq-section"><div class="container"><div class="section-title-wrapper"><h2>FAQs — ISO 22301 BCMS</h2></div><div class="accordion" id="bcmsFaq">
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">How long does ISO 22301 BCMS certification take in Singapore?</button></h2><div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#bcmsFaq"><div class="accordion-body">The typical ISO 22301 certification timeline is 4–6 months from gap analysis to certificate. Organisations with existing ISO 9001 or ISO 27001 certification typically achieve faster timelines through integrated IMS approach as management system infrastructure is already in place.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">How much does ISO 22301 consultation cost in Singapore?</button></h2><div id="faq2" class="accordion-collapse collapse"><div class="accordion-body">Consultancy fees typically S$5,000–S$20,000 depending on scope. Certification audit fees S$3,000–S$8,000. EDG/MASA grant covers up to 50% of consultancy fees for eligible SMEs — net cost S$2,500–S$10,000. Integrated IMS reduces costs by 20–30%.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Is ISO 22301 required for MAS-regulated financial institutions?</button></h2><div id="faq3" class="accordion-collapse collapse"><div class="accordion-body">MAS does not mandate ISO 22301 by name — but MAS Notice 655, TRM Guidelines, and BCM Guidelines require documented BCM practices aligned with ISO 22301. Certification is widely adopted as most efficient way to demonstrate MAS BCM compliance.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Can we integrate ISO 22301 with ISO 27001 or ISO 9001?</button></h2><div id="faq4" class="accordion-collapse collapse"><div class="accordion-body">Yes — ICFC strongly recommends integrated IMS. All three standards share Annex SL structure. Reuses existing policy infrastructure, risk assessment, internal audit programme — reducing total cost by 20–30% with a single EDG grant application.</div></div></div>
+            <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">What is the 2024 Climate Action Amendment to ISO 22301?</button></h2><div id="faq5" class="accordion-collapse collapse"><div class="accordion-body">In 2024, ISO adopted a Climate Action Amendment integrating climate change considerations into BCMS requirements. This requires organisations to consider climate-related threats (flood, extreme heat) in BIA, risk assessment, and BC strategy design. ICFC includes this amendment as standard in every implementation.</div></div></div>
+        </div></div></section>
+
+        <!-- Chinese Language Section -->
+        <div class="container"><div class="bg-dark text-white p-5 rounded-4 text-center" style="background: linear-gradient(135deg, #1a2a3a, #0f1a24);"><h3>新加坡ISO 22301业务持续性管理体系（BCMS）认证 · ICFC Pte Ltd（2014年创立）</h3><p class="mt-3">ICFC专注于新加坡ISO 22301:2019业务持续性管理体系认证，提供业务影响分析（BIA）、全面实施及培训服务，涵盖金融、医疗、物流、制造、建筑、航运等25大行业。与MAS TRM指南、MAS业务持续性管理指南完全一致。EDG/MASA补助金最高资助50%咨询费用。提供中英双语服务，欢迎免费咨询。</p><p><strong>关键词：</strong>业务持续性管理 · ISO 22301新加坡 · BCMS认证 · 业务影响分析 · BIA · MAS TRM合规 · EDG补助金 · 最佳BCMS顾问 · 实惠ISO 22301认证</p><a href="contact-us.html" class="btn btn-outline-light mt-2">中文咨询 · 免费评估 →</a></div></div>
+
+        <!-- Related Services -->
+        <div class="container section-space"><h3 class="text-center mb-4">Related services</h3><div class="row g-4"><div class="col-md-3"><div class="text-center p-3 border rounded-4"><span class="badge bg-primary mb-2" style="background:#1a4d7a;">🔒</span><h5>ISO 27001</h5><p>Annex SL integration — shared policy & audit cycle</p></div></div><div class="col-md-3"><div class="text-center p-3 border rounded-4"><span class="badge bg-primary mb-2" style="background:#1a4d7a;">✅</span><h5>ISO 9001</h5><p>IMS integration · government tender qualification</p></div></div><div class="col-md-3"><div class="text-center p-3 border rounded-4"><span class="badge bg-primary mb-2" style="background:#1a4d7a;">🤖</span><h5>ISO 42001 AIMS</h5><p>AI system disruption governance and continuity</p></div></div><div class="col-md-3"><div class="text-center p-3 border rounded-4"><span class="badge bg-primary mb-2" style="background:#1a4d7a;">🛡️</span><h5>Cyber Trust Mark</h5><p>CII operator mandatory · CSA + BCMS integration</p></div></div></div></div>
+
+        <!-- Final CTA -->
+        <div class="container section-space-bottom"><div class="text-center p-5 rounded-4" style="background:#0a2e3b;"><h3 class="text-white">Start your BCMS certification journey today</h3><p class="text-white-50">Free 30-minute assessment. Honest gap analysis of your BCP maturity against ISO 22301:2019. EDG grant eligibility check. MAS TRM alignment review. No obligation.</p><div class="mt-4"><a class="rs-btn has-bg-white" href="contact-us.html">Book free BCMS assessment →</a> <a class="rs-btn is-transparent text-white ms-3" href="contact-us.html">Check grant eligibility →</a> <a class="rs-btn is-transparent text-white ms-3" href="contact-us.html">Get free quote →</a></div></div></div>
+    </main>
+
+    <!-- Floating Icons Container -->
+   <div class="floating-icons-container">
+        <div class="floating-icon wechat-float" id="wechat-float-btn">
+            <i class="ri-wechat-fill"></i>
+        </div>
+        <a href="https://wa.me/+6586017001" target="_blank" rel="noopener" class="floating-icon whatsapp-float">
+            <i class="ri-whatsapp-fill"></i>
+        </a>
+    </div>
+    <div class="backtotop-wrap cursor-pointer"><i class="ri-arrow-up-s-line"></i></div>
+    <!-- WeChat QR Modal -->
+    <div id="wechat-qr-modal" class="wechat-qr-modal">
+        <button class="close-qr">&times;</button>
+        <img id="wechat-qr-img" src="./assets/images/wechat.jpeg" alt="WeChat QR Code" onerror="this.src='https://via.placeholder.com/170?text=WeChat+ID'">
+        <p>Scan QR code to add ICFC on WeChat</p>
+        <small>WeChat ID: wxid_u43uaoapqr5g22</small>
+    </div>
+    <div class="backtotop-wrap cursor-pointer"><i class="ri-arrow-up-s-line"></i></div>
+
+    <!-- Footer -->
+    <footer class="rs-footer-area rs-footer-one theme-secondary">
+        <div class="rs-footer-shape-one"><img src="./assets/images/shape/footer-shape-01.webp" alt="image"></div>
+        <div class="rs-footer-shape-two"><img src="./assets/images/shape/footer-shape-02.webp" alt="image"></div>
+        <div class="container">
+            <div class="row"><div class="col-xl-12"><div class="rs-footer-wrapper"><div class="rs-footer-left"><div class="rs-footer-widget footer-1-col-1"><div class="offcanvas-logo"><a class="logo" href="index.html"><img src="./assets/images/logo/logo.png" alt="logo"></a><a class="logo-white" href="index.html"><img alt="logo"></a></div><div class="rs-footer-widget-content"><p class="rs-footer-widget-desc">ICFC PTE LTD specializes in helping startups and enterprises craft strategic solutions.</p><div class="rs-footer-widget-contact-info"><div class="rs-footer-content-item"><span>Call us:</span><a href="tel:+6586017001">+65 8601 7001</a></div><div class="rs-footer-content-item"><span>Email:</span><a href="mailto:admin@icfc.com.sg">admin@icfc.com.sg</a></div><div class="rs-footer-content-item"><span>Hours: Mon-Fri: 8.00am - 18.00pm</span></div></div><div class="rs-footer-widget-social"><div class="rs-footer-social theme-social has-border"><a href="#"><svg width="14" height="22" viewBox="0 0 14 22" fill="none"><path d="M11.624 11.9541L12.193 8.54137L8.63572 8.54137V6.32676C8.63572 5.39311 9.13264 4.48303 10.7258 4.48303H12.343V1.57748C12.343 1.57748 10.8755 1.34692 9.47233 1.34692C6.54282 1.34692 4.62796 2.98146 4.62796 5.94041L4.62796 8.54137H1.37158L1.37158 11.9541H4.62796L4.62796 20.2041H8.63572L8.63572 11.9541H11.624Z" fill="white"></path></svg></a><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M17.6045 5.45036C17.5641 4.53485 17.4161 3.9055 17.204 3.3601C16.9852 2.78121 16.6486 2.26294 16.2077 1.83208C15.7768 1.39452 15.2551 1.0545 14.6829 0.839154C14.1344 0.627106 13.5083 0.479009 12.5928 0.438686C11.6705 0.394863 11.3777 0.384766 9.03843 0.384766C6.69917 0.384766 6.40637 0.394863 5.48747 0.435253C4.57199 0.475643 3.94261 0.623808 3.39738 0.835721C2.81832 1.0545 2.30005 1.39108 1.86919 1.83208C1.43163 2.26291 1.09178 2.78461 0.876264 3.3568C0.664216 3.9055 0.516152 4.53148 0.475796 5.44692C0.432006 6.36927 0.421875 6.66206 0.421875 9.00132C0.421875 11.3406 0.432006 11.6334 0.472363 12.5523C0.512753 13.4678 0.660917 14.0971 0.872999 14.6425C1.09178 15.2214 1.43163 15.7397 1.86919 16.1706C2.30005 16.6081 2.82175 16.9481 3.39395 17.1635C3.94258 17.3755 4.56856 17.5236 5.4842 17.564C6.40294 17.6045 6.6959 17.6144 9.03516 17.6144C11.3744 17.6144 11.6672 17.6045 12.5861 17.564C13.5016 17.5236 14.131 17.3756 14.6762 17.1635C15.2489 16.9421 15.7689 16.6035 16.2031 16.1693C16.6372 15.7352 16.9759 15.2152 17.1973 14.6425C17.4092 14.0939 17.5574 13.4678 17.5978 12.5523C17.6382 11.6334 17.6483 11.3406 17.6483 9.00132C17.6483 6.66206 17.6449 6.36923 17.6045 5.45036ZM16.0529 12.485C16.0159 13.3264 15.8745 13.7808 15.7567 14.0837C15.4672 14.8343 14.8715 15.4301 14.1208 15.7196C13.8179 15.8374 13.3603 15.9787 12.5221 16.0157C11.6133 16.0562 11.3408 16.0662 9.04186 16.0662C6.74296 16.0662 6.46699 16.0562 5.56148 16.0157C4.72002 15.9787 4.26563 15.8374 3.96271 15.7196C3.5892 15.5815 3.24922 15.3628 2.97322 15.0767C2.68712 14.7973 2.46834 14.4607 2.33027 14.0872C2.21247 13.7842 2.07114 13.3264 2.03421 12.4884C1.99369 11.5796 1.98373 11.3069 1.98373 9.00802C1.98373 6.70911 1.99369 6.43315 2.03421 5.5278C2.07114 4.68634 2.21247 4.23196 2.33027 3.92903C2.46834 3.55535 2.68712 3.21544 2.97665 2.93937C3.25588 2.65328 3.59246 2.4345 3.96614 2.2966C4.26907 2.17879 4.72689 2.03743 5.56491 2.00037C6.47369 1.95998 6.74639 1.94988 9.04513 1.94988C11.3475 1.94988 11.62 1.95998 12.5255 2.00037C13.367 2.03746 13.8214 2.17876 14.1243 2.29656C14.4978 2.4345 14.8378 2.65328 15.1138 2.93937C15.3999 3.21877 15.6186 3.55535 15.7567 3.92903C15.8745 4.23196 16.0159 4.68961 16.0529 5.5278C16.0933 6.43658 16.1034 6.70911 16.1034 9.00802C16.1034 11.3069 16.0933 11.5762 16.0529 12.485Z" fill="white"></path><path d="M9.0335 4.57741C6.58997 4.57741 4.60742 6.55982 4.60742 9.00349C4.60742 11.4472 6.58997 13.4296 9.0335 13.4296C11.4771 13.4296 13.4596 11.4472 13.4596 9.00349C13.4596 6.55982 11.4771 4.57741 9.0335 4.57741ZM9.0335 11.8746C7.44826 11.8746 6.16237 10.5889 6.16237 9.00349C6.16237 7.41811 7.44826 6.13243 9.03347 6.13243C10.6188 6.13243 11.9046 7.41811 11.9046 9.00349C11.9046 10.5889 10.6188 11.8746 9.0335 11.8746ZM14.668 4.40239C14.668 4.97303 14.2053 5.4357 13.6345 5.4357C13.0639 5.4357 12.6013 4.97303 12.6013 4.40239C12.6013 3.83167 13.0639 3.36914 13.6346 3.36914C14.2053 3.36914 14.668 3.83164 14.668 4.40239Z" fill="white"></path></svg></a><a href="#"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M9.35332 6.88729L14.6472 0.733521H13.3928L8.79603 6.07675L5.12465 0.733521H0.890137L6.44199 8.81343L0.890137 15.2666H2.1447L6.99896 9.62397L10.8762 15.2666H15.1107L9.35332 6.88729ZM7.63502 8.88462L7.0725 8.08004L2.59674 1.67793H4.52367L8.13567 6.84464L8.69818 7.64922L13.3933 14.3651H11.4664L7.63502 8.88462Z" fill="white"></path></svg></a><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M17.7973 17.7992V11.3532C17.7973 8.18522 17.1153 5.76522 13.4193 5.76522C11.6373 5.76522 10.4493 6.73322 9.96527 7.65722H9.92126V6.05122H6.42326V17.7992H10.0753V11.9692C10.0753 10.4292 10.3613 8.95522 12.2533 8.95522C14.1233 8.95522 14.1453 10.6932 14.1453 12.0572V17.7772H17.7973V17.7992ZM0.483266 6.05122H4.13527V17.7992H0.483266V6.05122ZM2.30927 0.199219C1.14327 0.199219 0.197266 1.14522 0.197266 2.31122C0.197266 3.47722 1.14327 4.44522 2.30927 4.44522C3.47527 4.44522 4.42127 3.47722 4.42127 2.31122C4.42127 1.14522 3.47527 0.199219 2.30927 0.199219Z" fill="white"></path></svg></a></div></div></div></div></div><div class="rs-footer-right"><div class="rs-footer-widget-wrapper"><div class="rs-footer-widget footer-1-col-2"><h5 class="rs-footer-widget-title">Industries​</h5><div class="rs-footer-widget-link"><ul><li><a href="industry.html">FinTech</a></li><li><a href="industry.html">HealthTech</a></li><li><a href="industry.html">Logistics</a></li><li><a href="industry.html">Manufacturing</a></li><li><a href="industry.html">Construction</a></li><li><a href="industry.html">E-Commerce</a></li><li><a href="industry.html">SaaS Platforms</a></li><li><a href="industry.html">Food & Beverage</a></li><li><a href="industry.html">Education Services</a></li><li><a href="industry.html">Professional Consulting</a></li><li><a href="industry.html">Renewable Energy</a></li></ul></div></div><div class="rs-footer-widget footer-1-col-3"><h5 class="rs-footer-widget-title">Services</h5><div class="rs-footer-widget-link"><ul><li><a href="services.html">PIMS</a></li><li><a href="services.html">ABMS</a></li><li><a href="services.html">APEC PRP</a></li><li><a href="services.html">BCMS</a></li><li><a href="services.html">CTM</a></li><li><a href="services.html">DPTM</a></li><li><a href="services.html">EMS</a></li><li><a href="services.html">MTCS</a></li><li><a href="services.html">OHMS</a></li><li><a href="services.html">QMS</a></li><li><a href="services.html">EOL</a></li></ul></div></div><div class="rs-footer-widget footer-1-col-4"><h5 class="rs-footer-widget-title">Quick Links</h5><div class="rs-footer-widget-link"><ul><li><a href="about.html">About ICFC</a></li><li><a href="services.html">Our Services</a></li><li><a href="industry.html">Our Industries</a></li><li><a href="">Contact Us</a></li><li><a href="">Blogs</a></li><li><a href="">Industries</a></li><li><a href="">Services</a></li><li><a href="">Privacy Policy</a></li><li><a href="">Resources</a></li><li><a href="">Terms & Conditions</a></li><li><a href="">Expert Teams</a></li></ul></div></div></div><div class="rs-footer-subscribe-from"><h5 class="rs-footer-subscribe-title">Subscribe Newsletter</h5><div class="rs-cta-input"><input id="email2" name="name" type="text" placeholder="Enter your email"><button type="submit" class="rs-btn has-icon has-bg-secondary has-sm-radius">Send Now<span class="icon-box"><svg class="icon-first" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z" fill="white"></path></svg><svg class="icon-second" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z" fill="white"></path></svg></span></button></div></div><div class="rs-footer-brand"><div class="rs-footer-brand-thumb"><img src="./assets/images/brand/brand-thumb-07.webp" alt="image"></div><div class="rs-footer-brand-thumb"><img src="./assets/images/brand/brand-thumb-08.webp" alt="image"></div><div class="rs-footer-brand-thumb"><img src="./assets/images/brand/brand-thumb-09.webp" alt="image"></div></div></div></div></div></div></div>
+        <div class="rs-footer-copyright-area rs-copyright-one"><div class="container"><div class="row"><div class="col-xl-12"><div class="rs-footer-copyright-wrapper"><div class="rs-footer-copyright-left"><div class="rs-footer-copyright-item"><div class="rs-footer-copyright-link"><a href="">Terms & Agreements</a></div></div><div class="rs-footer-copyright-item"><div class="rs-footer-copyright-link"><a href="">Privacy policy</a></div></div></div><div class="rs-footer-copyright-right"><div class="rs-footer-copyright-item"><div class="rs-footer-copyright"><p class="underline">Copyright © <span id="year">2026</span> ICFC PTE LTD</p></div></div></div></div></div></div></div></div>
+    </footer>
+
+    <script src="./assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/plugins/meanmenu.min.js"></script>
+    <script src="./assets/js/plugins/swiper.min.js"></script>
+    <script src="./assets/js/plugins/wow.min.js"></script>
+    <script src="./assets/js/vendor/magnific-popup.min.js"></script>
+    <script src="./assets/js/plugins/lenis.min.js"></script>
+    <script src="./assets/js/plugins/gsap.min.js"></script>
+    <script src="./assets/js/plugins/rs-anim-int.js"></script>
+    <script src="./assets/js/plugins/jquery.appear.min.js"></script>
+    <script src="./assets/js/vendor/odometer.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/whatsapp-float.js"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        // Sticky header
+        (function() { const stickyHeader = document.getElementById('rs-sticky-header'); if (stickyHeader) { let stickyOffset = document.querySelector('.rs-header-top')?.offsetHeight || 0; function handleSticky() { if (window.scrollY > stickyOffset) { if (!stickyHeader.classList.contains('sticky')) { stickyHeader.classList.add('sticky'); document.body.style.paddingTop = stickyHeader.offsetHeight + 'px'; } } else { if (stickyHeader.classList.contains('sticky')) { stickyHeader.classList.remove('sticky'); document.body.style.paddingTop = ''; } } } window.addEventListener('scroll', handleSticky); window.addEventListener('resize', () => { stickyOffset = document.querySelector('.rs-header-top')?.offsetHeight || 0; handleSticky(); }); } document.querySelector('.backtotop-wrap')?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); })();
+        
+        function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,zh-CN,zh-TW,ms,ta', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element'); }
+        
+        // WeChat Modal Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const wechatBtn = document.getElementById('wechat-float-btn');
+            const qrModal = document.getElementById('wechat-qr-modal');
+            const closeBtn = qrModal ? qrModal.querySelector('.close-qr') : null;
+            if (wechatBtn && qrModal) {
+                wechatBtn.addEventListener('click', function(e) {
+                    e.preventDefault(); e.stopPropagation();
+                    qrModal.style.display = qrModal.style.display === 'flex' ? 'none' : 'flex';
+                });
+                if (closeBtn) { closeBtn.addEventListener('click', function() { qrModal.style.display = 'none'; }); }
+                document.addEventListener('click', function(e) { if (!wechatBtn.contains(e.target) && !qrModal.contains(e.target)) qrModal.style.display = 'none'; });
+            }
+        });
+    </script>
+    <style>
+        #rs-sticky-header.sticky, #rs-sticky-header.floating-visible { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; z-index: 1030 !important;  box-shadow: 0 8px 25px rgba(0,0,0,0.08) !important; }
+        .backtotop-wrap { right: 28px; bottom: 12px; left: auto; opacity: 0; visibility: hidden; transform: translateY(20px); transition: all 0.22s ease; }
+        .backtotop-wrap.show { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; }
+    </style>
+    <script>
+        (function() {
+            const sticky = document.getElementById('rs-sticky-header');
+            const backToTop = document.querySelector('.backtotop-wrap');
+            function onScroll() {
+                const s = window.pageYOffset || document.documentElement.scrollTop;
+                if (sticky) { if (s > 200) { sticky.classList.add('sticky'); sticky.classList.add('floating-visible'); } else { sticky.classList.remove('sticky'); sticky.classList.remove('floating-visible'); } }
+                if (backToTop) { if (s > 300) backToTop.classList.add('show'); else backToTop.classList.remove('show'); }
+            }
+            window.addEventListener('scroll', function() { requestAnimationFrame(onScroll); });
+            onScroll(); if (backToTop) backToTop.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+</body>
+</html>

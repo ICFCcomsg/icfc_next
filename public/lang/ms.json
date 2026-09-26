@@ -1,0 +1,22 @@
+{
+  "top": {
+    "obstacle_text": "Menghadapi halangan dalam pertumbuhan perniagaan?",
+    "connect_link": "Berhubung dengan kami untuk panduan",
+    "call_us_label": "Hubungi kami:",
+    "send_mail_label": "Hantar mel:"
+  },
+  "header": {
+    "language_label": "Bahasa",
+    "get_quote": "Dapatkan Sebut Harga Percuma"
+  },
+  "nav": {
+    "home": "Laman Utama",
+    "industries": "Industri",
+    "about": "Tentang Kami",
+    "services": "Perkhidmatan",
+    "blog": "Blog",
+    "contact": "Hubungi",
+    "contact_primary": "Hubungi",
+    "contact_secondary": "Hubungi Dua"
+  }
+}

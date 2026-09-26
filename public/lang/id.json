@@ -1,0 +1,22 @@
+{
+  "top": {
+    "obstacle_text": "Menghadapi hambatan dalam pertumbuhan bisnis?",
+    "connect_link": "Hubungi kami untuk panduan",
+    "call_us_label": "Hubungi kami:",
+    "send_mail_label": "Kirim email:"
+  },
+  "header": {
+    "language_label": "Bahasa",
+    "get_quote": "Dapatkan Penawaran Gratis"
+  },
+  "nav": {
+    "home": "Beranda",
+    "industries": "Industri",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "blog": "Blog",
+    "contact": "Kontak",
+    "contact_primary": "Kontak",
+    "contact_secondary": "Kontak Dua"
+  }
+}
