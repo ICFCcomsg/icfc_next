@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
   getPageTitle,
-  LegacyDocument,
   readSitePage,
   sitePageRoutes,
-} from "../legacy-document";
+} from "@/lib/site-pages";
+import { SitePageTemplate } from "@/components/templates/site-page-template";
 
 type Props = { params: Promise<{ slug: string[] }> };
 
@@ -26,5 +26,5 @@ export default async function SitePage({ params }: Props) {
   const source = await readSitePage(route);
   if (!source) notFound();
 
-  return <LegacyDocument source={source} route={route} />;
+  return <SitePageTemplate source={source} route={route} />;
 }
