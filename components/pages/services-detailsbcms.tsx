@@ -1,27 +1,11 @@
+import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteLink } from "@/components/atoms/site-link";
 import { AccordionItem } from "@/components/molecules/accordion-item";
 
 export function ServicesDetailsbcmsPageContent() {
   return (
-    <SitePageTemplate
-      route="services-detailsbcms.html"
-      stylesheets={[
-        "/assets/css/vendor/bootstrap.min.css",
-        "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
-        "/assets/css/plugins/swiper.min.css",
-        "/assets/css/plugins/nice-select.css",
-        "/assets/css/plugins/flatpickr.min.css",
-        "/assets/css/plugins/nouislider.min.css",
-        "/assets/css/vendor/magnific-popup.css",
-        "/assets/css/vendor/odometer.min.css",
-        "/assets/css/vendor/spacing.css",
-        "https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css",
-        "/assets/css/main.css",
-        "/assets/css/whatsapp-float.css",
-        "/styles/pages/services-detailsbcms.css",
-      ]}
-    >
+    <SitePageTemplate route="services-detailsbcms.html">
       <main>
         <BannerAreaSection />
         <ContainerSection />
@@ -44,41 +28,35 @@ export function ServicesDetailsbcmsPageContent() {
 
 function BannerAreaSection() {
   return (
-    <section
-      className="rs-banner-area rs-banner-one"
-      style={{ background: "#0a2e3b" }}
-    >
-      <div className="container">
-        <div className="row align-items-center" style={{ minHeight: "70vh" }}>
-          <div className="col-xl-8">
-            <div className="rs-banner-wrapper">
-              <span
-                className="rs-banner-subtitle  fadeInUp"
-                style={{ color: "#6bc2e8" }}
-              >
+    <section className="relative z-[1] [overflow-x:clip] [background:#0a2e3b]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6 min-h-[70vh] items-center">
+          <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%]">
+            <div className="relative z-[1] pt-[110px] [padding-inline-start:200px] pb-[330px] max-[1600px]:[padding-inline-start:100px] max-[1600px]:pb-[295px] max-[1199px]:[padding-inline-start:15px] max-[1199px]:[padding-inline-end:15px] max-[1199px]:pb-[110px] max-[991px]:pt-[95px] max-[991px]:pb-[100px] max-[767px]:pt-[75px] max-[767px]:pb-[80px]">
+              <span className="text-[14px] font-medium tracking-[2.4px] uppercase text-[#6bc2e8] mb-[15px] inline-block">
                 {
                   "ISO 22301:2019 · Business Continuity Management System · Singapore"
                 }
               </span>
-              <h1 className="rs-banner-title  fadeInUp">
+              <h1 className="font-bold leading-tight text-[#2B3944] text-4xl md:text-6xl text-[#FFFFFF] font-medium leading-[1.12]">
                 {"Business continuity —"}
-                <br />
+                <br className="max-[480px]:hidden" />
                 {"certified, resilient, and grant-funded"}
               </h1>
-              <p className="rs-banner-desc">
+              <p className="leading-relaxed text-[rgba(255,_255,_255,_0.8)] font-medium tracking-[0.02em] max-w-[580px] mb-[40px] max-[575px]:max-w-full">
                 {
                   "ISO 22301 BCMS certification. BIA, gap analysis, implementation & training. EDG/MASA grant up to 50%. MAS TRM aligned. ICFC since 2014."
                 }
               </p>
-              <div className="rs-banner-btn">
+              <div>
                 <SiteLink
-                  className="rs-btn has-icon has-bg-white hover-primary"
+                  className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF] gap-[8px]"
                   href="/contact-us.html"
                 >
                   {"Book free BCMS assessment →"}
-                  <span className="icon-box">
+                  <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)]">
                     <svg
-                      className="icon-first"
+                      className="in-hover:[transform:translateX(150%)] w-[17px]"
                       width="16"
                       height="16"
                       viewBox="0 0 16 16"
@@ -86,12 +64,13 @@ function BannerAreaSection() {
                       <path
                         d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
                         fill="white"
+                        className="[fill:#2B3944] in-hover:[fill:#FFFFFF]"
                       ></path>
                     </svg>
                   </span>
                 </SiteLink>
                 <SiteLink
-                  className="rs-btn has-icon is-transparent hover-primary"
+                  className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#AB052D] hover:text-[#FFFFFF] gap-[8px] [border:1px_solid_rgba(255,_255,_255,_0.15)]"
                   href="#grant"
                 >
                   {"Check grant eligibility →"}
@@ -107,30 +86,42 @@ function BannerAreaSection() {
 
 function ContainerSection() {
   return (
-    <div className="container section-space-top">
-      <div className="bcms-stats-grid">
-        <div className="bcms-stat-card">
-          <div className="bcms-stat-number">{"4–6"}</div>
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] max-[991px]:pt-[100px] max-[767px]:pt-[70px] max-[480px]:pt-[60px]">
+      <div className="flex flex-wrap gap-[20px] justify-center m-[40px_0]">
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
+          <div className="text-[36px] font-extrabold text-[#1a4d7a] leading-[1] mb-[5px]">
+            {"4–6"}
+          </div>
           <div>{"Months typical BCMS timeline"}</div>
         </div>
-        <div className="bcms-stat-card">
-          <div className="bcms-stat-number">{"50%"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
+          <div className="text-[36px] font-extrabold text-[#1a4d7a] leading-[1] mb-[5px]">
+            {"50%"}
+          </div>
           <div>{"EDG grant co-fund"}</div>
         </div>
-        <div className="bcms-stat-card">
-          <div className="bcms-stat-number">{"98%"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
+          <div className="text-[36px] font-extrabold text-[#1a4d7a] leading-[1] mb-[5px]">
+            {"98%"}
+          </div>
           <div>{"First-attempt rate"}</div>
         </div>
-        <div className="bcms-stat-card">
-          <div className="bcms-stat-number">{"25+"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
+          <div className="text-[36px] font-extrabold text-[#1a4d7a] leading-[1] mb-[5px]">
+            {"25+"}
+          </div>
           <div>{"Industries served"}</div>
         </div>
-        <div className="bcms-stat-card">
-          <div className="bcms-stat-number">{"11+"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
+          <div className="text-[36px] font-extrabold text-[#1a4d7a] leading-[1] mb-[5px]">
+            {"11+"}
+          </div>
           <div>{"Years expertise"}</div>
         </div>
-        <div className="bcms-stat-card">
-          <div className="bcms-stat-number">{"MAS"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
+          <div className="text-[36px] font-extrabold text-[#1a4d7a] leading-[1] mb-[5px]">
+            {"MAS"}
+          </div>
           <div>{"TRM & BCM aligned"}</div>
         </div>
       </div>
@@ -140,11 +131,8 @@ function ContainerSection() {
 
 function ContainerSection2() {
   return (
-    <div className="container">
-      <div
-        className="alert alert-info border-0 rounded-4 p-3"
-        style={{ background: "#e8f4f8" }}
-      >
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+      <div className="[background:#e8f4f8] mb-4 rounded-md border p-4 border-blue-200 bg-blue-50 text-blue-900 border-0">
         <strong>{"📋 2024 Climate Action Amendment to ISO 22301:2019."}</strong>
         {
           " An amendment was adopted in 2024 integrating climate change considerations. ICFC's BCMS implementation includes this amendment as standard — ensuring your BIA and risk assessment address climate-related disruption scenarios."
@@ -156,60 +144,72 @@ function ContainerSection2() {
 
 function SectionSpaceSection() {
   return (
-    <section className="section-space">
-      <div className="container">
-        <div className="section-title-wrapper text-center">
-          <span className="section-subtitle">{"BCMS services"}</span>
-          <h2>{"Audit · Consultation · Training"}</h2>
-          <p>{"BIA · ISO 22301 · MAS TRM · EDG grant managed"}</p>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="text-center">
+          <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
+            {"BCMS services"}
+          </span>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"Audit · Consultation · Training"}
+          </h2>
+          <p className="leading-relaxed mb-4">
+            {"BIA · ISO 22301 · MAS TRM · EDG grant managed"}
+          </p>
         </div>
-        <div className="row g-4 mt-3">
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"🔍"}</span>
-              <h4 className="mt-3">{"BCMS Audit"}</h4>
-              <p>
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[28px_22px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+              <span className="text-[42px]">{"🔍"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"BCMS Audit"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Gap analysis · Stage 1/Stage 2 · Pre-cert mock audit · Surveillance · Internal audit co-sourcing."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-2"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore audit →"}
               </SiteLink>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"📋"}</span>
-              <h4 className="mt-3">{"BCMS Consultation"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[28px_22px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+              <span className="text-[42px]">{"📋"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"BCMS Consultation"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Full implementation · BIA facilitation · MAS TRM aligned · IMS integration · Crisis management · Post-cert retainer."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-2"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore consulting →"}
               </SiteLink>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"🎓"}</span>
-              <h4 className="mt-3">{"BCMS Training"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[28px_22px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+              <span className="text-[42px]">{"🎓"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"BCMS Training"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Lead auditor (CQI/IRCA) · Internal auditor · Implementation practitioner · Staff awareness · Tabletop exercises."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-2"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore training →"}
               </SiteLink>
@@ -223,72 +223,98 @@ function SectionSpaceSection() {
 
 function SectionSpaceSection2() {
   return (
-    <section className="section-space theme-secondary">
-      <div className="container">
-        <div className="section-title-wrapper">
-          <h2>{"The BCMS framework — six core components ICFC implements"}</h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px] [background:#2B3944]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"The BCMS framework — six core components ICFC implements"}
+          </h2>
         </div>
-        <div className="row g-4 mt-3">
-          <div className="col-md-4">
-            <div className="component-card">
-              <h4>{"📊 BIA"}</h4>
-              <h6>{"Business Impact Analysis"}</h6>
-              <p>
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-bottom:3px_solid_#1a4d7a] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"📊 BIA"}
+              </h4>
+              <h6 className="font-bold leading-tight text-[#2B3944] text-lg">
+                {"Business Impact Analysis"}
+              </h6>
+              <p className="leading-relaxed mb-4">
                 {
                   "Identify critical processes, quantify disruption impact, set RTO and RPO for every key activity."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="component-card">
-              <h4>{"⚠️ RA"}</h4>
-              <h6>{"Risk Assessment"}</h6>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-bottom:3px_solid_#1a4d7a] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"⚠️ RA"}
+              </h4>
+              <h6 className="font-bold leading-tight text-[#2B3944] text-lg">
+                {"Risk Assessment"}
+              </h6>
+              <p className="leading-relaxed mb-4">
                 {
                   "Identify threats and vulnerabilities — cyber, climate, supply chain, pandemic."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="component-card">
-              <h4>{"🎯 BC Strat"}</h4>
-              <h6>{"Continuity Strategies"}</h6>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-bottom:3px_solid_#1a4d7a] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"🎯 BC Strat"}
+              </h4>
+              <h6 className="font-bold leading-tight text-[#2B3944] text-lg">
+                {"Continuity Strategies"}
+              </h6>
+              <p className="leading-relaxed mb-4">
                 {
                   "Design strategies for people, technology, facilities, data, supply chain covering all disruption scenarios."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="component-card">
-              <h4>{"📄 BCP"}</h4>
-              <h6>{"Business Continuity Plans"}</h6>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-bottom:3px_solid_#1a4d7a] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"📄 BCP"}
+              </h4>
+              <h6 className="font-bold leading-tight text-[#2B3944] text-lg">
+                {"Business Continuity Plans"}
+              </h6>
+              <p className="leading-relaxed mb-4">
                 {
                   "Documented, tested response and recovery procedures — crisis comms, escalation paths, recovery actions."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="component-card">
-              <h4>{"🏋️ Exercise"}</h4>
-              <h6>{"Testing & Exercises"}</h6>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-bottom:3px_solid_#1a4d7a] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"🏋️ Exercise"}
+              </h4>
+              <h6 className="font-bold leading-tight text-[#2B3944] text-lg">
+                {"Testing & Exercises"}
+              </h6>
+              <p className="leading-relaxed mb-4">
                 {
                   "Desktop exercises, simulations, and live drills — validating plans work before incidents occur."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="component-card">
-              <h4>{"🔄 PDCA"}</h4>
-              <h6>{"Continual Improvement"}</h6>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-bottom:3px_solid_#1a4d7a] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"🔄 PDCA"}
+              </h4>
+              <h6 className="font-bold leading-tight text-[#2B3944] text-lg">
+                {"Continual Improvement"}
+              </h6>
+              <p className="leading-relaxed mb-4">
                 {
                   "Internal audit, management review, and ongoing BCMS refinement as threats evolve."
                 }
@@ -303,17 +329,19 @@ function SectionSpaceSection2() {
 
 function SectionSpaceSection3() {
   return (
-    <section className="section-space">
-      <div className="container">
-        <div className="section-title-wrapper">
-          <h2>{"What is ISO 22301 BCMS? Singapore's resilience standard"}</h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"What is ISO 22301 BCMS? Singapore's resilience standard"}
+          </h2>
         </div>
-        <p>
+        <p className="leading-relaxed mb-4">
           {
             "ISO 22301:2019 is the internationally recognised standard for Business Continuity Management Systems. It provides a framework for organisations to prepare for, respond to, and recover from disruptive incidents — whether cyberattacks, pandemics, supply chain failures, or natural disasters. In Singapore's position as a global business hub, disruptions carry outsized impact. Several Singapore regulators now require or strongly recommend certified BCMS."
           }
         </p>
-        <p>
+        <p className="leading-relaxed mb-4">
           {
             "The 2024 Climate Action Amendment to ISO 22301:2019 integrates climate change considerations into BCMS requirements. ICFC includes this as standard in every implementation."
           }
@@ -325,61 +353,115 @@ function SectionSpaceSection3() {
 
 function SectionSpaceSection4() {
   return (
-    <section className="section-space">
-      <div className="container">
-        <div className="section-title-wrapper">
-          <h2>{"Singapore's BCMS regulatory landscape"}</h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"Singapore's BCMS regulatory landscape"}
+          </h2>
         </div>
-        <div className="table-responsive">
-          <table className="table table-bordered reg-table">
+        <div className="w-full overflow-x-auto">
+          <table className="[border:1px_solid_#DBDEE1] max-[991px]:w-[900px] w-full border-collapse text-left [&_th]:border-b [&_th]:border-slate-300 [&_th]:bg-slate-50 [&_th]:p-3 [&_td]:border-b [&_td]:border-slate-200 [&_td]:p-3 [&_td]:border [&_th]:border">
             <thead>
               <tr>
-                <th>{"Regulator / Framework"}</th>
-                <th>{"Requirement"}</th>
-                <th>{"Sectors"}</th>
-                <th>{"ISO 22301 alignment"}</th>
+                <th className="[border:none] p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top] [background:#f0f4f8] text-[#1a4d7a]">
+                  {"Regulator / Framework"}
+                </th>
+                <th className="[border:none] p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top] [background:#f0f4f8] text-[#1a4d7a]">
+                  {"Requirement"}
+                </th>
+                <th className="[border:none] p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top] [background:#f0f4f8] text-[#1a4d7a]">
+                  {"Sectors"}
+                </th>
+                <th className="[border:none] p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top] [background:#f0f4f8] text-[#1a4d7a]">
+                  {"ISO 22301 alignment"}
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>{"MAS TRM Guidelines"}</td>
-                <td>{"Robust BCM capabilities; scenario testing"}</td>
-                <td>{"Banks, insurers, FinTech"}</td>
-                <td>{"✓ Direct alignment"}</td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"MAS TRM Guidelines"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"Robust BCM capabilities; scenario testing"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"Banks, insurers, FinTech"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"✓ Direct alignment"}
+                </td>
               </tr>
               <tr>
-                <td>{"MAS Notice 655 / BCM Guidelines"}</td>
-                <td>{"Documented BCP, RTO/RPO, annual testing"}</td>
-                <td>{"All MAS-regulated FIs"}</td>
-                <td>{"✓ Direct alignment"}</td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"MAS Notice 655 / BCM Guidelines"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"Documented BCP, RTO/RPO, annual testing"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"All MAS-regulated FIs"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"✓ Direct alignment"}
+                </td>
               </tr>
               <tr>
-                <td>{"CSA Cybersecurity Act"}</td>
-                <td>{"CII operators must have BCPs for critical systems"}</td>
-                <td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"CSA Cybersecurity Act"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"CII operators must have BCPs for critical systems"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
                   {"Energy, water, transport, banking, telco, healthcare, govt"}
                 </td>
-                <td>{"✓ Strong alignment"}</td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"✓ Strong alignment"}
+                </td>
               </tr>
               <tr>
-                <td>{"MOH guidelines"}</td>
-                <td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"MOH guidelines"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
                   {"Business continuity for essential healthcare services"}
                 </td>
-                <td>{"Hospitals, clinics, pharma"}</td>
-                <td>{"✓ Strong alignment"}</td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"Hospitals, clinics, pharma"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"✓ Strong alignment"}
+                </td>
               </tr>
               <tr>
-                <td>{"BCA requirements"}</td>
-                <td>{"Business continuity for major projects"}</td>
-                <td>{"Critical infrastructure contractors"}</td>
-                <td>{"✓ Framework aligned"}</td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"BCA requirements"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"Business continuity for major projects"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"Critical infrastructure contractors"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"✓ Framework aligned"}
+                </td>
               </tr>
               <tr>
-                <td>{"Government tender criteria"}</td>
-                <td>{"ISO 22301 increasingly required or scored"}</td>
-                <td>{"All government suppliers"}</td>
-                <td>{"✓ Certification required"}</td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"Government tender criteria"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"ISO 22301 increasingly required or scored"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"All government suppliers"}
+                </td>
+                <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                  {"✓ Certification required"}
+                </td>
               </tr>
             </tbody>
           </table>
@@ -391,29 +473,35 @@ function SectionSpaceSection4() {
 
 function ContainerSection3() {
   return (
-    <div id="grant" className="container section-space">
-      <div className="grant-banner">
-        <div className="row align-items-center">
-          <div className="col-lg-8">
-            <h3 className="text-white">
+    <div
+      id="grant"
+      className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]"
+    >
+      <div className="[background:linear-gradient(135deg,_#0a2e3b_0%,_#051c26_100%)] rounded-[32px] p-[40px] text-[white] max-[768px]:p-[28px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6 items-center">
+          <div className="w-full shrink-0 px-3 lg:w-[66.66666666666666%]">
+            <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl text-white">
               {
                 "50% EDG / MASA grant co-funding — up to 50% of BCMS consultation costs"
               }
             </h3>
-            <p>
+            <p className="leading-relaxed mb-4">
               {
                 "Enterprise Singapore's EDG covers up to 50% of qualifying ISO 22301 consultation fees for eligible SMEs. ICFC manages your application before project commencement. Integrated IMS engagements (ISO 22301 + ISO 27001) can stack grant funding across both standards."
               }
             </p>
-            <SiteLink className="rs-btn has-bg-white" href="/contact-us.html">
+            <SiteLink
+              className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF]"
+              href="/contact-us.html"
+            >
               {"Check grant eligibility →"}
             </SiteLink>
           </div>
-          <div className="col-lg-4 text-center">
-            <i
-              className="ri-government-line"
-              style={{ fontSize: "60px", opacity: "0.5", color: "white" }}
-            ></i>
+          <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] text-center">
+            <Icon
+              name="building"
+              className="text-[60px] opacity-[0.5] text-[white]"
+            />
           </div>
         </div>
       </div>
@@ -423,60 +511,48 @@ function ContainerSection3() {
 
 function SectionSpaceSection5() {
   return (
-    <section className="section-space pt-0">
-      <div className="container">
-        <div className="section-title-wrapper">
-          <h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
             {"ICFC's BCMS audit process — from first call to certificate"}
           </h2>
         </div>
-        <div className="row g-4 text-center">
-          <div className="col-md-2">
-            <div className="p-3">
-              <div className="bg-light rounded-circle d-inline-flex p-3 mb-2">
-                {"01"}
-              </div>
-              <p>{"Free briefing"}</p>
+        <div className="-mx-3 flex flex-wrap gap-y-6 text-center">
+          <div className="w-full shrink-0 px-3 md:w-[16.666666666666664%]">
+            <div className="p-4">
+              <div className="bg-slate-50 rounded-full p-4">{"01"}</div>
+              <p className="leading-relaxed mb-4">{"Free briefing"}</p>
             </div>
           </div>
-          <div className="col-md-2">
-            <div className="p-3">
-              <div className="bg-light rounded-circle d-inline-flex p-3 mb-2">
-                {"02"}
-              </div>
-              <p>{"Gap analysis"}</p>
+          <div className="w-full shrink-0 px-3 md:w-[16.666666666666664%]">
+            <div className="p-4">
+              <div className="bg-slate-50 rounded-full p-4">{"02"}</div>
+              <p className="leading-relaxed mb-4">{"Gap analysis"}</p>
             </div>
           </div>
-          <div className="col-md-2">
-            <div className="p-3">
-              <div className="bg-light rounded-circle d-inline-flex p-3 mb-2">
-                {"03"}
-              </div>
-              <p>{"Grant application"}</p>
+          <div className="w-full shrink-0 px-3 md:w-[16.666666666666664%]">
+            <div className="p-4">
+              <div className="bg-slate-50 rounded-full p-4">{"03"}</div>
+              <p className="leading-relaxed mb-4">{"Grant application"}</p>
             </div>
           </div>
-          <div className="col-md-2">
-            <div className="p-3">
-              <div className="bg-light rounded-circle d-inline-flex p-3 mb-2">
-                {"04"}
-              </div>
-              <p>{"Pre-cert audit"}</p>
+          <div className="w-full shrink-0 px-3 md:w-[16.666666666666664%]">
+            <div className="p-4">
+              <div className="bg-slate-50 rounded-full p-4">{"04"}</div>
+              <p className="leading-relaxed mb-4">{"Pre-cert audit"}</p>
             </div>
           </div>
-          <div className="col-md-2">
-            <div className="p-3">
-              <div className="bg-light rounded-circle d-inline-flex p-3 mb-2">
-                {"05"}
-              </div>
-              <p>{"CB coordination"}</p>
+          <div className="w-full shrink-0 px-3 md:w-[16.666666666666664%]">
+            <div className="p-4">
+              <div className="bg-slate-50 rounded-full p-4">{"05"}</div>
+              <p className="leading-relaxed mb-4">{"CB coordination"}</p>
             </div>
           </div>
-          <div className="col-md-2">
-            <div className="p-3">
-              <div className="bg-light rounded-circle d-inline-flex p-3 mb-2">
-                {"06"}
-              </div>
-              <p>{"Certificate"}</p>
+          <div className="w-full shrink-0 px-3 md:w-[16.666666666666664%]">
+            <div className="p-4">
+              <div className="bg-slate-50 rounded-full p-4">{"06"}</div>
+              <p className="leading-relaxed mb-4">{"Certificate"}</p>
             </div>
           </div>
         </div>
@@ -487,51 +563,63 @@ function SectionSpaceSection5() {
 
 function SectionSpaceSection6() {
   return (
-    <section className="section-space theme-secondary">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 mb-4">
-            <div className="testimonial-card">
-              <div className="d-flex gap-3">
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px] [background:#2B3944]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
+            <div className="[background:#fff] rounded-[20px] p-[24px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] m-[15px_0] [border-left:4px_solid_#1a4d7a]">
+              <div className="flex">
                 <div>
-                  <h5>{"Chief Risk Officer"}</h5>
-                  <p className="text-muted">{"Digital bank, Singapore"}</p>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Chief Risk Officer"}
+                  </h5>
+                  <p className="leading-relaxed text-slate-500 mb-4">
+                    {"Digital bank, Singapore"}
+                  </p>
                 </div>
-                <div className="ms-auto">{"★★★★★"}</div>
+                <div className="ml-auto">{"★★★★★"}</div>
               </div>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   "\"ICFC's BIA facilitation identified three single-point dependencies we hadn't recognised — including a critical vendor with no sub-contractor. Certification achieved on first attempt with MAS TRM fully addressed.\""
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
-            <div className="testimonial-card">
-              <div className="d-flex gap-3">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
+            <div className="[background:#fff] rounded-[20px] p-[24px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] m-[15px_0] [border-left:4px_solid_#1a4d7a]">
+              <div className="flex">
                 <div>
-                  <h5>{"IT Director"}</h5>
-                  <p className="text-muted">{"Data centre operator"}</p>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"IT Director"}
+                  </h5>
+                  <p className="leading-relaxed text-slate-500 mb-4">
+                    {"Data centre operator"}
+                  </p>
                 </div>
-                <div className="ms-auto">{"★★★★★"}</div>
+                <div className="ml-auto">{"★★★★★"}</div>
               </div>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   '"Achieved ISO 22301 and ISO 27001 dual certification under ICFC\'s integrated IMS approach — saved over S$30,000 compared to separate engagements. EDG grant covered 50% of total cost."'
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-12 mt-2">
-            <div className="testimonial-card">
-              <div className="d-flex gap-3">
+          <div className="w-full shrink-0 px-3 md:w-[100%]">
+            <div className="[background:#fff] rounded-[20px] p-[24px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] m-[15px_0] [border-left:4px_solid_#1a4d7a]">
+              <div className="flex">
                 <div>
-                  <h5>{"General Manager"}</h5>
-                  <p className="text-muted">{"Pharmaceutical manufacturer"}</p>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"General Manager"}
+                  </h5>
+                  <p className="leading-relaxed text-slate-500 mb-4">
+                    {"Pharmaceutical manufacturer"}
+                  </p>
                 </div>
-                <div className="ms-auto">{"★★★★★"}</div>
+                <div className="ml-auto">{"★★★★★"}</div>
               </div>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   '"ICFC\'s tabletop exercise programme changed how our executive team thinks about business continuity. They ran a realistic cyber-incident scenario that exposed gaps in our crisis communication escalation path that no document review would have found."'
                 }
@@ -546,12 +634,14 @@ function SectionSpaceSection6() {
 
 function SectionSpaceSection7() {
   return (
-    <section className="section-space faq-section">
-      <div className="container">
-        <div className="section-title-wrapper">
-          <h2>{"FAQs — ISO 22301 BCMS"}</h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div>
+          <h2 className="text-[2.2rem] font-extrabold mb-[2rem] text-[#0a2e3b] max-[768px]:text-[1.7rem]">
+            {"FAQs — ISO 22301 BCMS"}
+          </h2>
         </div>
-        <div className="accordion" id="bcmsFaq">
+        <div id="bcmsFaq">
           <AccordionItem
             title={
               <>
@@ -560,7 +650,7 @@ function SectionSpaceSection7() {
                 }
               </>
             }
-            className="accordion-item"
+            className="mb-[1rem] [border:1px_solid_#e9ecef] rounded-[20px] overflow-hidden shadow-[0_4px_14px_rgba(0,0,0,0.04)]"
             defaultOpen={false}
           >
             {" "}
@@ -572,7 +662,7 @@ function SectionSpaceSection7() {
             title={
               <>{"How much does ISO 22301 consultation cost in Singapore?"}</>
             }
-            className="accordion-item"
+            className="mb-[1rem] [border:1px_solid_#e9ecef] rounded-[20px] overflow-hidden shadow-[0_4px_14px_rgba(0,0,0,0.04)]"
             defaultOpen={false}
           >
             {" "}
@@ -588,7 +678,7 @@ function SectionSpaceSection7() {
                 }
               </>
             }
-            className="accordion-item"
+            className="mb-[1rem] [border:1px_solid_#e9ecef] rounded-[20px] overflow-hidden shadow-[0_4px_14px_rgba(0,0,0,0.04)]"
             defaultOpen={false}
           >
             {" "}
@@ -600,7 +690,7 @@ function SectionSpaceSection7() {
             title={
               <>{"Can we integrate ISO 22301 with ISO 27001 or ISO 9001?"}</>
             }
-            className="accordion-item"
+            className="mb-[1rem] [border:1px_solid_#e9ecef] rounded-[20px] overflow-hidden shadow-[0_4px_14px_rgba(0,0,0,0.04)]"
             defaultOpen={false}
           >
             {" "}
@@ -612,7 +702,7 @@ function SectionSpaceSection7() {
             title={
               <>{"What is the 2024 Climate Action Amendment to ISO 22301?"}</>
             }
-            className="accordion-item"
+            className="mb-[1rem] [border:1px_solid_#e9ecef] rounded-[20px] overflow-hidden shadow-[0_4px_14px_rgba(0,0,0,0.04)]"
             defaultOpen={false}
           >
             {" "}
@@ -628,22 +718,19 @@ function SectionSpaceSection7() {
 
 function ContainerSection4() {
   return (
-    <div className="container">
-      <div
-        className="bg-dark text-white p-5 rounded-4 text-center"
-        style={{ background: "linear-gradient(135deg, #1a2a3a, #0f1a24)" }}
-      >
-        <h3>
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+      <div className="[background:linear-gradient(135deg,_#1a2a3a,_#0f1a24)] bg-slate-900 text-white p-12 text-center">
+        <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl">
           {
             "新加坡ISO 22301业务持续性管理体系（BCMS）认证 · ICFC Pte Ltd（2014年创立）"
           }
         </h3>
-        <p className="mt-3">
+        <p className="leading-relaxed mb-4">
           {
             "ICFC专注于新加坡ISO 22301:2019业务持续性管理体系认证，提供业务影响分析（BIA）、全面实施及培训服务，涵盖金融、医疗、物流、制造、建筑、航运等25大行业。与MAS TRM指南、MAS业务持续性管理指南完全一致。EDG/MASA补助金最高资助50%咨询费用。提供中英双语服务，欢迎免费咨询。"
           }
         </p>
-        <p>
+        <p className="leading-relaxed mb-4">
           <strong>{"关键词："}</strong>
           {
             "业务持续性管理 · ISO 22301新加坡 · BCMS认证 · 业务影响分析 · BIA · MAS TRM合规 · EDG补助金 · 最佳BCMS顾问 · 实惠ISO 22301认证"
@@ -651,7 +738,7 @@ function ContainerSection4() {
         </p>
         <SiteLink
           href="/contact-us.html"
-          className="btn btn-outline-light mt-2"
+          className="transition-colors hover:text-[#AB052D]"
         >
           {"中文咨询 · 免费评估 →"}
         </SiteLink>
@@ -662,55 +749,61 @@ function ContainerSection4() {
 
 function ContainerSection5() {
   return (
-    <div className="container section-space">
-      <h3 className="text-center mb-4">{"Related services"}</h3>
-      <div className="row g-4">
-        <div className="col-md-3">
-          <div className="text-center p-3 border rounded-4">
-            <span
-              className="badge bg-primary mb-2"
-              style={{ background: "#1a4d7a" }}
-            >
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl text-center">
+        {"Related services"}
+      </h3>
+      <div className="-mx-3 flex flex-wrap gap-y-6">
+        <div className="w-full shrink-0 px-3 md:w-[25%]">
+          <div className="text-center p-4 border border-slate-200">
+            <span className="bg-[#2B3944] [background:#1a4d7a] bg-[#AB052D]">
               {"🔒"}
             </span>
-            <h5>{"ISO 27001"}</h5>
-            <p>{"Annex SL integration — shared policy & audit cycle"}</p>
+            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              {"ISO 27001"}
+            </h5>
+            <p className="leading-relaxed mb-4">
+              {"Annex SL integration — shared policy & audit cycle"}
+            </p>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="text-center p-3 border rounded-4">
-            <span
-              className="badge bg-primary mb-2"
-              style={{ background: "#1a4d7a" }}
-            >
+        <div className="w-full shrink-0 px-3 md:w-[25%]">
+          <div className="text-center p-4 border border-slate-200">
+            <span className="bg-[#2B3944] [background:#1a4d7a] bg-[#AB052D]">
               {"✅"}
             </span>
-            <h5>{"ISO 9001"}</h5>
-            <p>{"IMS integration · government tender qualification"}</p>
+            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              {"ISO 9001"}
+            </h5>
+            <p className="leading-relaxed mb-4">
+              {"IMS integration · government tender qualification"}
+            </p>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="text-center p-3 border rounded-4">
-            <span
-              className="badge bg-primary mb-2"
-              style={{ background: "#1a4d7a" }}
-            >
+        <div className="w-full shrink-0 px-3 md:w-[25%]">
+          <div className="text-center p-4 border border-slate-200">
+            <span className="bg-[#2B3944] [background:#1a4d7a] bg-[#AB052D]">
               {"🤖"}
             </span>
-            <h5>{"ISO 42001 AIMS"}</h5>
-            <p>{"AI system disruption governance and continuity"}</p>
+            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              {"ISO 42001 AIMS"}
+            </h5>
+            <p className="leading-relaxed mb-4">
+              {"AI system disruption governance and continuity"}
+            </p>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="text-center p-3 border rounded-4">
-            <span
-              className="badge bg-primary mb-2"
-              style={{ background: "#1a4d7a" }}
-            >
+        <div className="w-full shrink-0 px-3 md:w-[25%]">
+          <div className="text-center p-4 border border-slate-200">
+            <span className="bg-[#2B3944] [background:#1a4d7a] bg-[#AB052D]">
               {"🛡️"}
             </span>
-            <h5>{"Cyber Trust Mark"}</h5>
-            <p>{"CII operator mandatory · CSA + BCMS integration"}</p>
+            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              {"Cyber Trust Mark"}
+            </h5>
+            <p className="leading-relaxed mb-4">
+              {"CII operator mandatory · CSA + BCMS integration"}
+            </p>
           </div>
         </div>
       </div>
@@ -720,31 +813,31 @@ function ContainerSection5() {
 
 function ContainerSection6() {
   return (
-    <div className="container section-space-bottom">
-      <div
-        className="text-center p-5 rounded-4"
-        style={{ background: "#0a2e3b" }}
-      >
-        <h3 className="text-white">
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pb-[120px] max-[991px]:pb-[100px] max-[767px]:pb-[70px] max-[480px]:pb-[60px]">
+      <div className="[background:#0a2e3b] text-center p-12">
+        <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl text-white">
           {"Start your BCMS certification journey today"}
         </h3>
-        <p className="text-white-50">
+        <p className="leading-relaxed mb-4">
           {
             "Free 30-minute assessment. Honest gap analysis of your BCP maturity against ISO 22301:2019. EDG grant eligibility check. MAS TRM alignment review. No obligation."
           }
         </p>
-        <div className="mt-4">
-          <SiteLink className="rs-btn has-bg-white" href="/contact-us.html">
+        <div>
+          <SiteLink
+            className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF]"
+            href="/contact-us.html"
+          >
             {"Book free BCMS assessment →"}
           </SiteLink>
           <SiteLink
-            className="rs-btn is-transparent text-white ms-3"
+            className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] text-white ml-4"
             href="/contact-us.html"
           >
             {"Check grant eligibility →"}
           </SiteLink>
           <SiteLink
-            className="rs-btn is-transparent text-white ms-3"
+            className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] text-white ml-4"
             href="/contact-us.html"
           >
             {"Get free quote →"}

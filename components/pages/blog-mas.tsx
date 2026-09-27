@@ -1,3 +1,4 @@
+import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { SiteImage } from "@/components/atoms/site-image";
@@ -6,24 +7,7 @@ import { EmailForm } from "@/components/molecules/email-form";
 
 export function BlogMasPageContent() {
   return (
-    <SitePageTemplate
-      route="blog_mas.html"
-      stylesheets={[
-        "/assets/css/vendor/bootstrap.min.css",
-        "/assets/css/vendor/animate.min.css",
-        "/assets/css/plugins/swiper.min.css",
-        "/assets/css/plugins/nice-select.css",
-        "/assets/css/plugins/flatpickr.min.css",
-        "/assets/css/plugins/nouislider.min.css",
-        "/assets/css/vendor/magnific-popup.css",
-        "/assets/css/vendor/odometer.min.css",
-        "/assets/css/vendor/spacing.css",
-        "https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css",
-        "/assets/css/main.css",
-        "/assets/css/whatsapp-float.css",
-        "/styles/pages/blog-mas.css",
-      ]}
-    >
+    <SitePageTemplate route="blog_mas.html">
       <main>
         <BreadcrumbAreaSection />
         <PostboxAreaSection />
@@ -38,57 +22,63 @@ function BreadcrumbAreaSection() {
       title="MAS TRM and ISO 27001: understanding the overlap for Singapore financial institutions"
       description="Governance, risk, incident response and third-party risk — how to build one management system that satisfies both MAS TRM and ISO/IEC 27001."
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
-      className="rs-breadcrumb-area rs-breadcrumb-one p-relative section-space"
     />
   );
 }
 
 function PostboxAreaSection() {
   return (
-    <section className="rs-postbox-area section-space">
-      <div className="container">
-        <div className="row g-5">
-          <div className="col-xl-8 col-lg-7">
-            <div className="rs-postbox-details-wrapper">
-              <div className="rs-post-meta">
-                <ul>
-                  <li>
-                    <span className="rs-meta">
-                      <span className="rs-meta-thumb">
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%] lg:w-[58.333333333333336%]">
+            <div>
+              <div>
+                <ul className="flex gap-[20px] items-center max-[1600px]:flex-wrap">
+                  <li className="list-none">
+                    <span className="flex items-center gap-[8px] text-[13px]">
+                      <span>
                         <SiteImage
                           src="/assets/images/blog/details/blog-details-01.webp"
                           alt=""
+                          className="max-w-full h-auto w-[40px] h-[40px] rounded-full"
                         />
                       </span>
-                      <span className="rs-meta-content">
+                      <span>
                         {"By "}
-                        <SiteLink href="/contact-us.html">
+                        <SiteLink
+                          href="/contact-us.html"
+                          className="transition-colors hover:text-[#AB052D]"
+                        >
                           {"ICFC Pte Ltd"}
                         </SiteLink>
                       </span>
                     </span>
                   </li>
-                  <li>
-                    <span className="rs-meta">
-                      <svg width="14" height="16">
+                  <li className="list-none">
+                    <span className="flex items-center gap-[8px] text-[13px]">
+                      <svg width="14" height="16" className="w-[15px] h-[15px]">
                         <path
                           d="M4.33447 3.8335C4.06114 3.8335 3.83447 3.60683 3.83447 3.3335V1.3335C3.83447 1.06016 4.06114 0.833496 4.33447 0.833496C4.60781 0.833496 4.83447 1.06016 4.83447 1.3335V3.3335C4.83447 3.60683 4.60781 3.8335 4.33447 3.8335Z"
                           fill="white"
+                          className="[fill:#AB052D]"
                         ></path>
                       </svg>
                       <span>{"April 2026"}</span>
                     </span>
                   </li>
-                  <li>
-                    <span className="rs-meta">
-                      <svg width="12" height="12">
+                  <li className="list-none">
+                    <span className="flex items-center gap-[8px] text-[13px]">
+                      <svg width="12" height="12" className="w-[15px] h-[15px]">
                         <path
                           d="M6 12C9.30799 12 12 9.30799 12 6C12 2.69201 9.30803 0 6 0C2.69197 0 0 2.69201 0 6C0 9.30799 2.69201 12 6 12Z"
                           fill="#616C74"
+                          className="[fill:#AB052D]"
                         ></path>
                         <path
                           d="M7.74961 7.9119C7.82362 7.97189 7.91159 7.99991 7.9996 7.99991C8.05955 8.00003 8.11874 7.9866 8.17277 7.96063C8.22679 7.93465 8.27425 7.89681 8.31159 7.84991C8.44959 7.6779 8.42157 7.4259 8.2496 7.2879L6.3996 5.8079V2.7999C6.3996 2.57989 6.21961 2.3999 5.9996 2.3999C5.7796 2.3999 5.59961 2.57989 5.59961 2.7999V5.99991C5.59961 6.12192 5.65562 6.23591 5.74961 6.31189L7.74961 7.9119Z"
                           fill="#616C74"
+                          className="[fill:#AB052D]"
                         ></path>
                       </svg>
                       <span>{"12 min read"}</span>
@@ -96,8 +86,8 @@ function PostboxAreaSection() {
                   </li>
                 </ul>
               </div>
-              <div className="rs-postbox-details-content">
-                <p>
+              <div>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Published by ICFC Pte Ltd"}</strong>
                   {" | April 2026 | 12 min read"}
                   <br />
@@ -107,37 +97,43 @@ function PostboxAreaSection() {
                   }
                 </p>
                 <hr />
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "If you are a compliance officer, CISO, or technology risk manager at a Singapore financial institution, you are almost certainly managing two sets of information security obligations simultaneously: the Monetary Authority of Singapore's Technology Risk Management (TRM) Guidelines, and the growing expectation — from enterprise clients, group headquarters, and your own board — that your organisation hold ISO/IEC 27001 certification."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "The good news: these two frameworks share far more common ground than most financial institutions realise. A well-structured ISO 27001 implementation addresses a significant majority of MAS TRM requirements. The practical challenge is knowing exactly where the overlap lies, where the gaps are, and how to build one management system that satisfies both — without running two parallel compliance programmes."
                   }
                 </p>
-                <p>{"This article provides that map."}</p>
-                <div className="postbox-highlight-box">
+                <p className="leading-relaxed mb-4">
+                  {"This article provides that map."}
+                </p>
+                <div className="[background:#f0f9f4] [border-left:4px_solid_#1a5d3c] p-[1.5rem_1.8rem] m-[1.8rem_0] rounded-[0_16px_16px_0]">
                   <strong>{"📌 Key insight:"}</strong>
                   {
                     " MAS TRM Guidelines (supervisory expectations with legal teeth) and ISO 27001 (independent certification) share ~70-80% control overlap. A single ISMS can satisfy both with targeted supplementary controls for incident reporting thresholds, online financial services security, and MAS-specific governance.\n                                "
                   }
                 </div>
-                <h4>{"Understanding the two frameworks"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Understanding the two frameworks"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   <strong>{"MAS TRM Guidelines"}</strong>
                   {
                     " – comprehensive risk management principles, last revised January 2021. Apply to all MAS-regulated entities (banks, insurers, payment firms). Not strictly legally binding but enforced through supervisory exams; functionally equivalent to regulation. Supplemented by legally binding MAS Cyber Hygiene Notice (May 2024)."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"ISO/IEC 27001"}</strong>
                   {
                     " – international ISMS standard, Annex A 93 controls (2022 version). Risk-based framework, third-party accredited certification. Recognised globally by regulators and procurement panels."
                   }
                 </p>
-                <h4>{"Where the frameworks converge: key overlap areas"}</h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Where the frameworks converge: key overlap areas"}
+                </h4>
                 <ul>
                   <li>
                     <strong>{"Governance & accountability"}</strong>
@@ -176,7 +172,7 @@ function PostboxAreaSection() {
                     }
                   </li>
                 </ul>
-                <div className="postbox-highlight-box">
+                <div className="[background:#f0f9f4] [border-left:4px_solid_#1a5d3c] p-[1.5rem_1.8rem] m-[1.8rem_0] rounded-[0_16px_16px_0]">
                   <strong>
                     {
                       "⚠️ Where ISO 27001 alone is not sufficient (MAS TRM Gaps)"
@@ -213,26 +209,30 @@ function PostboxAreaSection() {
                     " TRM sets RTO/RPO thresholds; ISO 27001 only requires defined objectives, not numerical levels.\n                                "
                   }
                 </div>
-                <h4>{"Three scenarios: banks, FinTechs, and vendors"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Three scenarios: banks, FinTechs, and vendors"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Banks & major FIs with ISO 27001:"}</strong>
                   {
                     " Gap analysis + explicit integration of MAS-specific controls into existing ISMS documentation."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"FinTechs applying for MAS licence:"}</strong>
                   {
                     " Pursue ISO 27001 first – certification demonstrates auditable TRM alignment, speeds up licence review, and satisfies banking client due diligence."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Vendors/TPs to FIs:"}</strong>
                   {
                     " ISO 27001 is commercial necessity; widely accepted as evidence during MAS-regulated vendor due diligence."
                   }
                 </p>
-                <h4>{"Building one integrated system: ICFC approach"}</h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Building one integrated system: ICFC approach"}
+                </h4>
                 <ul>
                   <li>
                     <strong>{"Dual-framework gap analysis"}</strong>
@@ -265,7 +265,9 @@ function PostboxAreaSection() {
                     }
                   </li>
                 </ul>
-                <h4>{"What MAS examiners look for"}</h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"What MAS examiners look for"}
+                </h4>
                 <ul>
                   <li>{"Board minutes / technology risk committee terms"}</li>
                   <li>
@@ -286,25 +288,29 @@ function PostboxAreaSection() {
                   </li>
                   <li>{"DR test results and gap closure plans"}</li>
                 </ul>
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "ISO 27001's documentation architecture naturally creates exactly this evidence trail."
                   }
                 </p>
-                <h4>{"MAS AI Risk Management Guidelines (coming 2026)"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"MAS AI Risk Management Guidelines (coming 2026)"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   {
                     "MAS released AI Risk Management Guidelines (Nov 2025 consultation) – expected finalisation 2026. Built on FEAT principles (Fairness, Ethics, Accountability, Transparency). Institutions with ISO 27001 ISMS can extend to ISO/IEC 42001 (AI Management System) efficiently rather than building standalone AI governance."
                   }
                 </p>
-                <h4>{"Frequently Asked Questions"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Frequently Asked Questions"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Does ISO 27001 satisfy MAS TRM?"}</strong>
                   {
                     " Not entirely, but covers majority. Need to address gap areas (incident thresholds, online security, material outsourcing notification, resilience targets)."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {"Can I show ISO 27001 certificate to MAS examiners?"}
                   </strong>
@@ -312,7 +318,7 @@ function PostboxAreaSection() {
                     " Recognised as strong evidence but does not substitute direct TRM compliance assessment."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {
                       "Our ISMS scope excludes some MAS-regulated systems – is that an issue?"
@@ -322,7 +328,7 @@ function PostboxAreaSection() {
                     " Yes – scope misalignment is a significant examination risk. Alignment between ISO 27001 and TRM scope must be explicit."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {"How long does integrated implementation take?"}
                   </strong>
@@ -330,13 +336,15 @@ function PostboxAreaSection() {
                     " Typically 4–8 months (SMEs) to 8–12 months (complex institutions). ICFC scoping assessment provides realistic timeline."
                   }
                 </p>
-                <h4>{"The bottom line"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"The bottom line"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   {
                     "MAS TRM and ISO 27001 are complementary, not competing. A single integrated ISMS is more efficient and produces a more defensible posture for board, MAS examiners, and enterprise clients. ICFC has supported Singapore financial institutions — from licensed FinTechs to insurers — since 2014."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {
                       "Complimentary dual-framework gap assessment available as part of free initial consultation."
@@ -344,18 +352,21 @@ function PostboxAreaSection() {
                   </strong>
                 </p>
                 <hr />
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"About ICFC Pte Ltd"}</strong>
                   <br />
                   {
                     "Since 2014, Singapore's ISO certification partner. Financial services practice: ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001, ISO 22301, and MAS TRM alignment. Contact: "
                   }
-                  <SiteLink href="mailto:admin@icfc.com.sg">
+                  <SiteLink
+                    href="mailto:admin@icfc.com.sg"
+                    className="transition-colors hover:text-[#AB052D]"
+                  >
                     {"admin@icfc.com.sg"}
                   </SiteLink>
                   {" | +65 8601 7001."}
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <em>
                     {
                       "© 2026 ICFC Pte Ltd. This article is for informational purposes only. MAS Guidelines and ISO standards subject to change. Always refer to official sources."
@@ -363,54 +374,96 @@ function PostboxAreaSection() {
                   </em>
                 </p>
               </div>
-              <div className="rs-postbox-details-social mt-40">
-                <div className="rs-postbox-details-tags tagcloud">
-                  <span>{"Tags:"}</span>
-                  <SiteLink href="/contact-us.html">{"MAS TRM"}</SiteLink>
-                  <SiteLink href="/contact-us.html">{"ISO 27001"}</SiteLink>
-                  <SiteLink href="/contact-us.html">{"Cyber Hygiene"}</SiteLink>
-                  <SiteLink href="/services.html">
+              <div className="items-center justify-between flex gap-[30px] flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1] pt-[20px] pb-[20px] mt-[40px]">
+                <div className="items-center flex flex-wrap gap-[12px]">
+                  <span className="font-semibold [padding-inline-end:10px] text-[#2B3944]">
+                    {"Tags:"}
+                  </span>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"MAS TRM"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"ISO 27001"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"Cyber Hygiene"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/services.html"
+                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
                     {"Financial Services"}
                   </SiteLink>
                 </div>
-                <div className="rs-postbox-social">
-                  <span>{"Share:"}</span>
-                  <div className="rs-theme-social">
-                    <SiteLink href="/contact-us.html">
-                      <i className="ri-facebook-fill"></i>
+                <div>
+                  <span className="font-semibold [padding-inline-end:10px] text-[#2B3944]">
+                    {"Share:"}
+                  </span>
+                  <div className="gap-[15px]">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                    >
+                      <Icon name="facebook" />
                     </SiteLink>
-                    <SiteLink href="/contact-us.html">
-                      <i className="ri-twitter-x-fill"></i>
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                    >
+                      <Icon name="x" />
                     </SiteLink>
-                    <SiteLink href="/contact-us.html">
-                      <i className="ri-linkedin-fill"></i>
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                    >
+                      <Icon name="linkedin" />
                     </SiteLink>
                   </div>
                 </div>
               </div>
-              <div className="rs-postbox-comment-form">
-                <h3>{"Leave a Comment"}</h3>
+              <div>
+                <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl">
+                  {"Leave a Comment"}
+                </h3>
                 <EmailForm>
-                  <div className="row g-4">
-                    <div className="col-xl-6">
+                  <div className="-mx-3 flex flex-wrap gap-y-6">
+                    <div className="w-full shrink-0 px-3 xl:w-[50%]">
                       <input
                         type="text"
                         placeholder="Your Name"
                         aria-label="Your Name"
+                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
                       />
                     </div>
-                    <div className="col-xl-6">
+                    <div className="w-full shrink-0 px-3 xl:w-[50%]">
                       <input
                         type="email"
                         placeholder="Your Email"
                         aria-label="Your Email"
+                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
                       />
                     </div>
-                    <div className="col-xl-12">
-                      <textarea placeholder="Write Message" defaultValue="" />
+                    <div className="w-full shrink-0 px-3 xl:w-[100%]">
+                      <textarea
+                        placeholder="Write Message"
+                        defaultValue=""
+                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
+                      />
                     </div>
-                    <div className="col-xl-12">
-                      <button type="submit" className="rs-btn">
+                    <div className="w-full shrink-0 px-3 xl:w-[100%]">
+                      <button
+                        type="submit"
+                        className="text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#AB052D] hover:[background:#2B3944] hover:text-[#FFFFFF]"
+                      >
                         {"Post Comment"}
                       </button>
                     </div>
@@ -419,19 +472,22 @@ function PostboxAreaSection() {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4">
-            <div className="rs-sidebar-wrapper rs-sidebar-sticky">
-              <div className="sidebar-widget mb-30">
-                <h5>{"Search"}</h5>
-                <div className="sidebar-search">
+          <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%]">
+            <div className="sticky top-[110px] max-[991px]:relative max-[991px]:top-[unset]">
+              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px] mb-[30px]">
+                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                  {"Search"}
+                </h5>
+                <div>
                   <EmailForm>
-                    <div className="sidebar-search-input">
+                    <div className="relative">
                       <input
                         type="text"
                         placeholder="Search..."
                         aria-label="Search..."
+                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D] [padding-inline-end:50px] [background:#FFFFFF] [border:1px_solid_#ddd] h-[60px]"
                       />
-                      <button>
+                      <button className="absolute top-[50%] [inset-inline-end:25px] text-[#000] text-[16px] [transform:translateY(-50%)] hover:text-[#AB052D]">
                         <svg width="18" height="18">
                           <path
                             d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
@@ -449,45 +505,82 @@ function PostboxAreaSection() {
                   </EmailForm>
                 </div>
               </div>
-              <div className="sidebar-widget mb-30">
-                <h5>{"Categories"}</h5>
+              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px] mb-[30px]">
+                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                  {"Categories"}
+                </h5>
                 <ul>
                   <li>
-                    <SiteLink href="/contact-us.html">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D]"
+                    >
                       {"ISO 27001 "}
                       <span>{"(12)"}</span>
                     </SiteLink>
                   </li>
                   <li>
-                    <SiteLink href="/contact-us.html">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D]"
+                    >
                       {"MAS Compliance "}
                       <span>{"(8)"}</span>
                     </SiteLink>
                   </li>
                   <li>
-                    <SiteLink href="/services.html">
+                    <SiteLink
+                      href="/services.html"
+                      className="transition-colors hover:text-[#AB052D]"
+                    >
                       {"Financial Services "}
                       <span>{"(9)"}</span>
                     </SiteLink>
                   </li>
                   <li>
-                    <SiteLink href="/contact-us.html">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D]"
+                    >
                       {"Third-party Risk "}
                       <span>{"(5)"}</span>
                     </SiteLink>
                   </li>
                 </ul>
               </div>
-              <div className="sidebar-widget">
-                <h5>{"Popular Tags"}</h5>
-                <div className="tagcloud">
-                  <SiteLink href="/contact-us.html">{"MAS TRM 2021"}</SiteLink>
-                  <SiteLink href="/contact-us.html">
+              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px]">
+                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                  {"Popular Tags"}
+                </h5>
+                <div className="flex flex-wrap gap-[12px]">
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"MAS TRM 2021"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
                     {"Cyber Hygiene Notice"}
                   </SiteLink>
-                  <SiteLink href="/contact-us.html">{"ISMS"}</SiteLink>
-                  <SiteLink href="/contact-us.html">{"EDG Grant"}</SiteLink>
-                  <SiteLink href="/contact-us.html">
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"ISMS"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"EDG Grant"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
                     {"Incident Response"}
                   </SiteLink>
                 </div>

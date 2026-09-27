@@ -1,27 +1,11 @@
+import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteLink } from "@/components/atoms/site-link";
 import { AccordionItem } from "@/components/molecules/accordion-item";
 
 export function ServicesDetailsfivecyberPageContent() {
   return (
-    <SitePageTemplate
-      route="services-detailsfivecyber.html"
-      stylesheets={[
-        "/assets/css/vendor/bootstrap.min.css",
-        "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
-        "/assets/css/plugins/swiper.min.css",
-        "/assets/css/plugins/nice-select.css",
-        "/assets/css/plugins/flatpickr.min.css",
-        "/assets/css/plugins/nouislider.min.css",
-        "/assets/css/vendor/magnific-popup.css",
-        "/assets/css/vendor/odometer.min.css",
-        "/assets/css/vendor/spacing.css",
-        "https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css",
-        "/assets/css/main.css",
-        "/assets/css/whatsapp-float.css",
-        "/styles/pages/services-detailsfivecyber.css",
-      ]}
-    >
+    <SitePageTemplate route="services-detailsfivecyber.html">
       <main>
         <BannerAreaSection />
         <ContainerSection />
@@ -43,41 +27,35 @@ export function ServicesDetailsfivecyberPageContent() {
 
 function BannerAreaSection() {
   return (
-    <section
-      className="rs-banner-area rs-banner-one"
-      style={{ background: "#0a3b33" }}
-    >
-      <div className="container">
-        <div className="row align-items-center" style={{ minHeight: "70vh" }}>
-          <div className="col-xl-8">
-            <div className="rs-banner-wrapper">
-              <span
-                className="rs-banner-subtitle  fadeInUp"
-                style={{ color: "#6bc2b0" }}
-              >
+    <section className="relative z-[1] [overflow-x:clip] [background:#0a3b33]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6 min-h-[70vh] items-center">
+          <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%]">
+            <div className="relative z-[1] pt-[110px] [padding-inline-start:200px] pb-[330px] max-[1600px]:[padding-inline-start:100px] max-[1600px]:pb-[295px] max-[1199px]:[padding-inline-start:15px] max-[1199px]:[padding-inline-end:15px] max-[1199px]:pb-[110px] max-[991px]:pt-[95px] max-[991px]:pb-[100px] max-[767px]:pt-[75px] max-[767px]:pb-[80px]">
+              <span className="text-[14px] font-medium tracking-[2.4px] uppercase text-[#6bc2b0] mb-[15px] inline-block">
                 {
                   "CSA Cyber Essentials Mark · Singapore Cybersecurity Framework"
                 }
               </span>
-              <h1 className="rs-banner-title  fadeInUp">
+              <h1 className="font-bold leading-tight text-[#2B3944] text-4xl md:text-6xl text-[#FFFFFF] font-medium leading-[1.12]">
                 {"Cyber Essentials Mark —"}
-                <br />
+                <br className="max-[480px]:hidden" />
                 {"certified, compliant, and grant-supported"}
               </h1>
-              <p className="rs-banner-desc">
+              <p className="leading-relaxed text-[rgba(255,_255,_255,_0.8)] font-medium tracking-[0.02em] max-w-[580px] mb-[40px] max-[575px]:max-w-full">
                 {
                   "Mandated for HIMS vendors, ICT vendors, HIA entities. ESG/EDG grant up to 50%. Audit, consultation & training. ICFC since 2014."
                 }
               </p>
-              <div className="rs-banner-btn">
+              <div>
                 <SiteLink
-                  className="rs-btn has-icon has-bg-white hover-primary"
+                  className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF] gap-[8px]"
                   href="/contact-us.html"
                 >
                   {"Book free assessment →"}
-                  <span className="icon-box">
+                  <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)]">
                     <svg
-                      className="icon-first"
+                      className="in-hover:[transform:translateX(150%)] w-[17px]"
                       width="16"
                       height="16"
                       viewBox="0 0 16 16"
@@ -85,12 +63,13 @@ function BannerAreaSection() {
                       <path
                         d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
                         fill="white"
+                        className="[fill:#2B3944] in-hover:[fill:#FFFFFF]"
                       ></path>
                     </svg>
                   </span>
                 </SiteLink>
                 <SiteLink
-                  className="rs-btn has-icon is-transparent hover-primary"
+                  className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#AB052D] hover:text-[#FFFFFF] gap-[8px] [border:1px_solid_rgba(255,_255,_255,_0.15)]"
                   href="#grant"
                 >
                   {"Check grant eligibility →"}
@@ -106,30 +85,42 @@ function BannerAreaSection() {
 
 function ContainerSection() {
   return (
-    <div className="container section-space-top">
-      <div className="ce-stats-grid">
-        <div className="ce-stat-card">
-          <div className="ce-stat-number">{"11+"}</div>
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] max-[991px]:pt-[100px] max-[767px]:pt-[70px] max-[480px]:pt-[60px]">
+      <div className="flex flex-wrap gap-[20px] justify-center m-[40px_0]">
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+          <div className="text-[36px] font-extrabold text-[#AB052D] leading-[1] mb-[5px]">
+            {"11+"}
+          </div>
           <div>{"Years expertise"}</div>
         </div>
-        <div className="ce-stat-card">
-          <div className="ce-stat-number">{"25+"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+          <div className="text-[36px] font-extrabold text-[#AB052D] leading-[1] mb-[5px]">
+            {"25+"}
+          </div>
           <div>{"Industries served"}</div>
         </div>
-        <div className="ce-stat-card">
-          <div className="ce-stat-number">{"3"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+          <div className="text-[36px] font-extrabold text-[#AB052D] leading-[1] mb-[5px]">
+            {"3"}
+          </div>
           <div>{"Service pillars"}</div>
         </div>
-        <div className="ce-stat-card">
-          <div className="ce-stat-number">{"50%"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+          <div className="text-[36px] font-extrabold text-[#AB052D] leading-[1] mb-[5px]">
+            {"50%"}
+          </div>
           <div>{"Max grant co-fund"}</div>
         </div>
-        <div className="ce-stat-card">
-          <div className="ce-stat-number">{"100%"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+          <div className="text-[36px] font-extrabold text-[#AB052D] leading-[1] mb-[5px]">
+            {"100%"}
+          </div>
           <div>{"CSA-aligned"}</div>
         </div>
-        <div className="ce-stat-card">
-          <div className="ce-stat-number">{"5★"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[20px_15px] text-center [flex:1] min-w-[100px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+          <div className="text-[36px] font-extrabold text-[#AB052D] leading-[1] mb-[5px]">
+            {"5★"}
+          </div>
           <div>{"Client rated"}</div>
         </div>
       </div>
@@ -139,34 +130,31 @@ function ContainerSection() {
 
 function ContainerSection2() {
   return (
-    <div className="container">
-      <div
-        className="alert alert-warning border-0 rounded-4 p-4"
-        style={{ background: "#fff3e0" }}
-      >
-        <h4 className="text-dark">
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+      <div className="[background:#fff3e0] mb-4 rounded-md border p-4 border-amber-200 bg-amber-50 text-amber-900 border-0 p-6">
+        <h4 className="font-bold leading-tight text-[#2B3944] text-2xl text-slate-900">
           {
             "🛡️ Why Singapore organisations must certify now — 2026 regulatory pressure is intensifying"
           }
         </h4>
-        <div className="row mt-3">
-          <div className="col-md-6">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
             <strong>{"MOH HIMS vendors & HIA entities:"}</strong>
             {
               " Health Information Act mandates baseline cybersecurity — Cyber Essentials is accepted pathway."
             }
           </div>
-          <div className="col-md-6">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
             <strong>{"IMDA Telecom & ICT vendors:"}</strong>
             {" Technical specifications require demonstrable cyber hygiene."}
           </div>
-          <div className="col-md-6 mt-2">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
             <strong>{"EMA Energy & utilities CII:"}</strong>
             {
               " EMA Cyber Security Code requires Cyber Essentials as minimum baseline."
             }
           </div>
-          <div className="col-md-6 mt-2">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
             <strong>{"CSA Cyber Trust Mark:"}</strong>
             {
               " Cyber Essentials is mandatory foundational level for all applicants."
@@ -180,80 +168,94 @@ function ContainerSection2() {
 
 function SectionSpaceSection() {
   return (
-    <section className="section-space">
-      <div className="container">
-        <div className="section-title-wrapper text-center">
-          <span className="section-subtitle">
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="text-center">
+          <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
             {"Singapore's national baseline cybersecurity certification"}
           </span>
-          <h2>{"What is the CSA Cyber Essentials Mark?"}</h2>
-          <p>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"What is the CSA Cyber Essentials Mark?"}
+          </h2>
+          <p className="leading-relaxed mb-4">
             {
               "5 foundational domains — mandatory for HIMS vendors, HIA entities & ICT vendors"
             }
           </p>
         </div>
-        <div className="row g-4 mt-3">
-          <div className="col-md-4">
-            <div className="domain-card">
-              <div className="fs-2 mb-2">{"🔒"}</div>
-              <h4>{"Asset Management (AM)"}</h4>
-              <p>
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-left:4px_solid_#AB052D] shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:[transform:translateX(5px)]">
+              <div className="text-[32px]">{"🔒"}</div>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"Asset Management (AM)"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Inventory and classification of hardware, software, and data assets. Know what you have before you protect it."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="domain-card">
-              <div className="fs-2 mb-2">{"🔐"}</div>
-              <h4>{"Secure Configuration (SC)"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-left:4px_solid_#AB052D] shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:[transform:translateX(5px)]">
+              <div className="text-[32px]">{"🔐"}</div>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"Secure Configuration (SC)"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Hardening of devices, systems, and services. Removing default credentials, disabling unnecessary services."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="domain-card">
-              <div className="fs-2 mb-2">{"🌐"}</div>
-              <h4>{"Software Security (SS)"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-left:4px_solid_#AB052D] shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:[transform:translateX(5px)]">
+              <div className="text-[32px]">{"🌐"}</div>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"Software Security (SS)"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Patch management, vulnerability remediation, and secure software deployment across the organisation."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="domain-card">
-              <div className="fs-2 mb-2">{"🛡️"}</div>
-              <h4>{"Access Control (AC)"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-left:4px_solid_#AB052D] shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:[transform:translateX(5px)]">
+              <div className="text-[32px]">{"🛡️"}</div>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"Access Control (AC)"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Principle of least privilege, multi-factor authentication (MFA), and privileged account management."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="domain-card">
-              <div className="fs-2 mb-2">{"📡"}</div>
-              <h4>{"Malware Protection (MP)"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-left:4px_solid_#AB052D] shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:[transform:translateX(5px)]">
+              <div className="text-[32px]">{"📡"}</div>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"Malware Protection (MP)"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Anti-malware deployment, endpoint detection, and protection of email and web gateways from threats."
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="domain-card bg-light">
-              <div className="fs-2 mb-2">{"🏥"}</div>
-              <h5>{"HIMS Vendor & HIA Entity requirement"}</h5>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:white] rounded-[20px] p-[20px] h-full [border-left:4px_solid_#AB052D] shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:[transform:translateX(5px)] bg-slate-50">
+              <div className="text-[32px]">{"🏥"}</div>
+              <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                {"HIMS Vendor & HIA Entity requirement"}
+              </h5>
+              <p className="leading-relaxed mb-4">
                 {
                   "The Ministry of Health (MOH) and Health Sciences Authority (HSA) have designated CSA Cyber Essentials as accepted baseline for HIMS vendors and HIA entities. Non-certified vendors risk disqualification from government healthcare procurement panels."
                 }
@@ -268,60 +270,72 @@ function SectionSpaceSection() {
 
 function SectionSpaceSection2() {
   return (
-    <section className="section-space theme-secondary">
-      <div className="container">
-        <div className="section-title-wrapper text-center">
-          <span className="section-subtitle">{"Service pillars"}</span>
-          <h2>{"Audit · Consulting · Training"}</h2>
-          <p>{"5 CSA domains · HIMS/HIA specialist · ESG/EDG grant managed"}</p>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px] [background:#2B3944]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="text-center">
+          <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
+            {"Service pillars"}
+          </span>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"Audit · Consulting · Training"}
+          </h2>
+          <p className="leading-relaxed mb-4">
+            {"5 CSA domains · HIMS/HIA specialist · ESG/EDG grant managed"}
+          </p>
         </div>
-        <div className="row g-4 mt-3">
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"🔍"}</span>
-              <h4 className="mt-3">{"Audits"}</h4>
-              <p>
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[28px_22px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+              <span className="text-[42px]">{"🔍"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"Audits"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Baseline gap assessment · Network & infrastructure audit · HIMS/HIA compliance audit · ICT vendor audit · Pre-cert readiness."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-2"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore audit →"}
               </SiteLink>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"🏗️"}</span>
-              <h4 className="mt-3">{"Consulting"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[28px_22px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+              <span className="text-[42px]">{"🏗️"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"Consulting"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Full certification · HIMS vendor/HIA support · Cyber Trust Mark upgrade · Policy suite · ISO 27001 integration · Annual renewal."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-2"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore consulting →"}
               </SiteLink>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"🎓"}</span>
-              <h4 className="mt-3">{"Training"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[28px_22px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+              <span className="text-[42px]">{"🎓"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"Training"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Staff awareness (English/中文) · Technical workshop · Leadership governance · Industry-specific programmes."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-2"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore training →"}
               </SiteLink>
@@ -335,77 +349,117 @@ function SectionSpaceSection2() {
 
 function ContainerSection3() {
   return (
-    <div className="container section-space pt-0">
-      <div className="card border-0 shadow-sm rounded-4 overflow-hidden">
-        <div className="card-header bg-white border-0 pt-4">
-          <h4>
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="border-0 shadow-sm overflow-hidden">
+        <div className="bg-white border-0">
+          <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
             {"Cyber Essentials vs Cyber Trust Mark — which is right for you?"}
           </h4>
         </div>
-        <div className="card-body">
-          <div className="table-responsive">
-            <table className="table table-bordered comparison-table">
+        <div>
+          <div className="w-full overflow-x-auto">
+            <table className="[border:1px_solid_#DBDEE1] max-[991px]:w-[900px] w-full border-collapse text-left [&_th]:border-b [&_th]:border-slate-300 [&_th]:bg-slate-50 [&_th]:p-3 [&_td]:border-b [&_td]:border-slate-200 [&_td]:p-3 [&_td]:border [&_th]:border">
               <thead>
                 <tr>
-                  <th>{"Criteria"}</th>
-                  <th>{"CSA Cyber Essentials Mark"}</th>
-                  <th>{"CSA Cyber Trust Mark"}</th>
+                  <th className="[border:none] p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Criteria"}
+                  </th>
+                  <th className="[border:none] p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"CSA Cyber Essentials Mark"}
+                  </th>
+                  <th className="[border:none] p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"CSA Cyber Trust Mark"}
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>{"Target organisations"}</td>
-                  <td>{"SMEs, HIMS vendors, ICT vendors, HIA entities"}</td>
-                  <td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Target organisations"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"SMEs, HIMS vendors, ICT vendors, HIA entities"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
                     {
                       "Large enterprises, CII operators, complex IT/OT environments"
                     }
                   </td>
                 </tr>
                 <tr>
-                  <td>{"Assessment method"}</td>
-                  <td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Assessment method"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
                     {
                       "Self-Assessment Questionnaire (SAQ) with CSA-approved assessor review"
                     }
                   </td>
-                  <td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
                     {
                       "Independent third-party assessment across 5 Pillars, 200+ controls"
                     }
                   </td>
                 </tr>
                 <tr>
-                  <td>{"Coverage domains"}</td>
-                  <td>{"5 domains: AM, SC, SS, AC, MP"}</td>
-                  <td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Coverage domains"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"5 domains: AM, SC, SS, AC, MP"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
                     {"5 Pillars: Asset, Govern, Identify, Protect, Respond"}
                   </td>
                 </tr>
                 <tr>
-                  <td>{"Mandatory for HIMS vendors"}</td>
-                  <td>{"✓ Required by MOH"}</td>
-                  <td>{"Optional — advanced pathway"}</td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Mandatory for HIMS vendors"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"✓ Required by MOH"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Optional — advanced pathway"}
+                  </td>
                 </tr>
                 <tr>
-                  <td>{"Mandatory for HIA entities"}</td>
-                  <td>{"✓ Required under HIA framework"}</td>
-                  <td>{"Optional — advanced pathway"}</td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Mandatory for HIA entities"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"✓ Required under HIA framework"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Optional — advanced pathway"}
+                  </td>
                 </tr>
                 <tr>
-                  <td>{"ESG/EDG grant eligible"}</td>
-                  <td>{"✓ Yes — up to 50%"}</td>
-                  <td>{"✓ Yes — up to 50%"}</td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"ESG/EDG grant eligible"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"✓ Yes — up to 50%"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"✓ Yes — up to 50%"}
+                  </td>
                 </tr>
                 <tr>
-                  <td>{"Typical timeline"}</td>
-                  <td>{"4–8 weeks"}</td>
-                  <td>{"3–6 months"}</td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"Typical timeline"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"4–8 weeks"}
+                  </td>
+                  <td className="p-[12px] [border-bottom:1px_solid_#eef2f6] text-[14px] [vertical-align:top]">
+                    {"3–6 months"}
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="mt-3">
+          <p className="leading-relaxed mb-4">
             <strong>{"ICFC recommendation:"}</strong>
             {
               " Most Singapore SMEs, HIMS vendors, ICT vendors, and HIA entities should start with Cyber Essentials. CII operators and large enterprises targeting CTM directly — ICFC's integrated programme ensures Cyber Essentials work never wasted."
@@ -419,29 +473,35 @@ function ContainerSection3() {
 
 function ContainerSection4() {
   return (
-    <div id="grant" className="container section-space">
-      <div className="grant-banner">
-        <div className="row align-items-center">
-          <div className="col-lg-8">
-            <h3 className="text-white">
+    <div
+      id="grant"
+      className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]"
+    >
+      <div className="[background:linear-gradient(135deg,_#0a3b33_0%,_#05261f_100%)] rounded-[32px] p-[40px] text-[white] max-[768px]:p-[28px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6 items-center">
+          <div className="w-full shrink-0 px-3 lg:w-[66.66666666666666%]">
+            <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl text-white">
               {
                 "50% ESG / EDG grant co-funding — up to 50% of Cyber Essentials consultation costs"
               }
             </h3>
-            <p>
+            <p className="leading-relaxed mb-4">
               {
                 "Enterprise Singapore's EDG and PSG cover qualifying cybersecurity consultation fees for eligible SMEs. ICFC manages your grant application before project commencement. Integrated engagements maximise total co-funding. Transparent fixed pricing."
               }
             </p>
-            <SiteLink className="rs-btn has-bg-white" href="/contact-us.html">
+            <SiteLink
+              className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF]"
+              href="/contact-us.html"
+            >
               {"Check grant eligibility →"}
             </SiteLink>
           </div>
-          <div className="col-lg-4 text-center">
-            <i
-              className="ri-government-line"
-              style={{ fontSize: "60px", opacity: "0.5", color: "white" }}
-            ></i>
+          <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] text-center">
+            <Icon
+              name="building"
+              className="text-[60px] opacity-[0.5] text-[white]"
+            />
           </div>
         </div>
       </div>
@@ -451,57 +511,63 @@ function ContainerSection4() {
 
 function SectionSpaceSection3() {
   return (
-    <section className="section-space theme-secondary">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 mb-4">
-            <div className="testimonial-card">
-              <div className="d-flex gap-3">
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px] [background:#2B3944]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
+            <div className="[background:#fff] rounded-[20px] p-[24px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] m-[15px_0] [border-left:4px_solid_#AB052D]">
+              <div className="flex">
                 <div>
-                  <h5>{"Chief Financial Officer"}</h5>
-                  <p className="text-muted">
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Chief Financial Officer"}
+                  </h5>
+                  <p className="leading-relaxed text-slate-500 mb-4">
                     {"Regional Private Clinic Group · Healthcare"}
                   </p>
                 </div>
-                <div className="ms-auto">{"★★★★★"}</div>
+                <div className="ml-auto">{"★★★★★"}</div>
               </div>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   '"ICFC guided our clinic group through full Cyber Essentials certification including HIA compliance in under 6 weeks. Their HIMS vendor expertise is unmatched, and they managed our ESG grant seamlessly."'
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
-            <div className="testimonial-card">
-              <div className="d-flex gap-3">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
+            <div className="[background:#fff] rounded-[20px] p-[24px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] m-[15px_0] [border-left:4px_solid_#AB052D]">
+              <div className="flex">
                 <div>
-                  <h5>{"Director of Technology"}</h5>
-                  <p className="text-muted">
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Director of Technology"}
+                  </h5>
+                  <p className="leading-relaxed text-slate-500 mb-4">
                     {"ICT Solutions Vendor · Government Technology"}
                   </p>
                 </div>
-                <div className="ms-auto">{"★★★★★"}</div>
+                <div className="ml-auto">{"★★★★★"}</div>
               </div>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   '"Cyber Essentials was non-negotiable for our procurement qualification. ICFC delivered in 5 weeks, helped us claim 50% via EDG grant, and upskilled our IT team. Truly budget-friendly."'
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-12 mt-2">
-            <div className="testimonial-card">
-              <div className="d-flex gap-3">
+          <div className="w-full shrink-0 px-3 md:w-[100%]">
+            <div className="[background:#fff] rounded-[20px] p-[24px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] m-[15px_0] [border-left:4px_solid_#AB052D]">
+              <div className="flex">
                 <div>
-                  <h5>{"Head of Compliance"}</h5>
-                  <p className="text-muted">
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Head of Compliance"}
+                  </h5>
+                  <p className="leading-relaxed text-slate-500 mb-4">
                     {"Colocation Data Centre Operator · Data Centres"}
                   </p>
                 </div>
-                <div className="ms-auto">{"★★★★★"}</div>
+                <div className="ml-auto">{"★★★★★"}</div>
               </div>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   "\"We needed both Cyber Essentials and ISO 27001 for our data centre customers. ICFC's integrated programme achieved both certifications in a single engagement — saving us time, cost, and admin burden. The team's bilingual capability was a huge bonus for our Chinese-speaking leadership.\""
                 }
@@ -516,17 +582,19 @@ function SectionSpaceSection3() {
 
 function FaqModernSection() {
   return (
-    <div className="faq-modern">
-      <div className="container">
-        <div className="faq-title">
-          <h2>{"FAQs — CSA Cyber Essentials Mark"}</h2>
-          <p>
+    <div className="[background:#f8faff] rounded-[32px] p-[60px_40px] m-[50px_0] max-[768px]:p-[30px_20px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="text-center mb-[50px]">
+          <h2 className="text-[3.5rem] font-extrabold text-[#1a2a3a] mb-[15px]">
+            {"FAQs — CSA Cyber Essentials Mark"}
+          </h2>
+          <p className="leading-relaxed text-[1.5rem] text-[#5a6a7a] max-w-[600px] m-[0_auto]">
             {
               "Everything Singapore organisations need to know about Cyber Essentials certification, grants, and ICFC's services"
             }
           </p>
         </div>
-        <div className="accordion" id="ceFaq">
+        <div id="ceFaq">
           <AccordionItem
             title={
               <>
@@ -535,7 +603,7 @@ function FaqModernSection() {
                 }
               </>
             }
-            className="accordion-item"
+            className="[border:none] [background:transparent] mb-[20px]"
             defaultOpen={false}
           >
             {" "}
@@ -551,7 +619,7 @@ function FaqModernSection() {
                 }
               </>
             }
-            className="accordion-item"
+            className="[border:none] [background:transparent] mb-[20px]"
             defaultOpen={false}
           >
             {" "}
@@ -567,7 +635,7 @@ function FaqModernSection() {
                 }
               </>
             }
-            className="accordion-item"
+            className="[border:none] [background:transparent] mb-[20px]"
             defaultOpen={false}
           >
             {" "}
@@ -579,7 +647,7 @@ function FaqModernSection() {
             title={
               <>{"How long does CSA Cyber Essentials certification take?"}</>
             }
-            className="accordion-item"
+            className="[border:none] [background:transparent] mb-[20px]"
             defaultOpen={false}
           >
             {" "}
@@ -595,7 +663,7 @@ function FaqModernSection() {
                 }
               </>
             }
-            className="accordion-item"
+            className="[border:none] [background:transparent] mb-[20px]"
             defaultOpen={false}
           >
             {" "}
@@ -611,20 +679,19 @@ function FaqModernSection() {
 
 function ContainerSection5() {
   return (
-    <div className="container">
-      <div
-        className="bg-dark text-white p-5 rounded-4 text-center"
-        style={{ background: "linear-gradient(135deg, #1a2a3a, #0f1a24)" }}
-      >
-        <h3>{"中文服务 · CSA 网络安全基本标志认证 · ICFC新加坡"}</h3>
-        <p className="mt-3">
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+      <div className="[background:linear-gradient(135deg,_#1a2a3a,_#0f1a24)] bg-slate-900 text-white p-12 text-center">
+        <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl">
+          {"中文服务 · CSA 网络安全基本标志认证 · ICFC新加坡"}
+        </h3>
+        <p className="leading-relaxed mb-4">
           {
             "ICFC为新加坡各类企业提供全面的CSA网络安全基本标志（Cyber Essentials Mark）认证服务，涵盖医疗信息管理系统（HIMS）供应商、ICT供应商及健康信息法（HIA）实体的合规需求。我们的服务覆盖三大核心支柱：审核（Audit）、咨询（Consulting）、培训（Training），从差距评估到认证取得，全程管理，一站式服务。提供中英双语服务，帮助企业在符合IMDA、EMA、HSA、MOH及HIA监管框架的同时，申请ESG补助金及企业发展补助金（EDG），最高获得50%费用补贴。"
           }
         </p>
         <SiteLink
           href="/contact-us.html"
-          className="btn btn-outline-light mt-2"
+          className="transition-colors hover:text-[#AB052D]"
         >
           {"中文咨询 · 免费评估 →"}
         </SiteLink>
@@ -635,47 +702,57 @@ function ContainerSection5() {
 
 function ContainerSection6() {
   return (
-    <div className="container section-space">
-      <h3 className="text-center mb-4">{"Related services"}</h3>
-      <div className="row g-4">
-        <div className="col-md-3">
-          <div className="text-center p-3 border rounded-4">
-            <span className="badge bg-danger mb-2">{"🔐"}</span>
-            <h5>{"ISO 27001:2022"}</h5>
-            <p>
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl text-center">
+        {"Related services"}
+      </h3>
+      <div className="-mx-3 flex flex-wrap gap-y-6">
+        <div className="w-full shrink-0 px-3 md:w-[25%]">
+          <div className="text-center p-4 border border-slate-200">
+            <span className="bg-red-700">{"🔐"}</span>
+            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              {"ISO 27001:2022"}
+            </h5>
+            <p className="leading-relaxed mb-4">
               {
                 "International ISMS standard. Integrates seamlessly with Cyber Essentials."
               }
             </p>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="text-center p-3 border rounded-4">
-            <span className="badge bg-danger mb-2">{"🏅"}</span>
-            <h5>{"Cyber Trust Mark"}</h5>
-            <p>
+        <div className="w-full shrink-0 px-3 md:w-[25%]">
+          <div className="text-center p-4 border border-slate-200">
+            <span className="bg-red-700">{"🏅"}</span>
+            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              {"Cyber Trust Mark"}
+            </h5>
+            <p className="leading-relaxed mb-4">
               {
                 "Advanced tier — 5 Pillars, 200+ controls. Mandatory pathway for CII operators."
               }
             </p>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="text-center p-3 border rounded-4">
-            <span className="badge bg-danger mb-2">{"🤖"}</span>
-            <h5>{"ISO 42001 AIMS"}</h5>
-            <p>
+        <div className="w-full shrink-0 px-3 md:w-[25%]">
+          <div className="text-center p-4 border border-slate-200">
+            <span className="bg-red-700">{"🤖"}</span>
+            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              {"ISO 42001 AIMS"}
+            </h5>
+            <p className="leading-relaxed mb-4">
               {
                 "World's first AI governance standard. MAS AI guidelines aligned."
               }
             </p>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="text-center p-3 border rounded-4">
-            <span className="badge bg-danger mb-2">{"📋"}</span>
-            <h5>{"PDPA Compliance"}</h5>
-            <p>
+        <div className="w-full shrink-0 px-3 md:w-[25%]">
+          <div className="text-center p-4 border border-slate-200">
+            <span className="bg-red-700">{"📋"}</span>
+            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              {"PDPA Compliance"}
+            </h5>
+            <p className="leading-relaxed mb-4">
               {
                 "Singapore data protection. Integrates with Cyber Essentials data governance."
               }
@@ -689,31 +766,31 @@ function ContainerSection6() {
 
 function ContainerSection7() {
   return (
-    <div className="container section-space-bottom">
-      <div
-        className="text-center p-5 rounded-4"
-        style={{ background: "#0a3b33" }}
-      >
-        <h3 className="text-white">
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pb-[120px] max-[991px]:pb-[100px] max-[767px]:pb-[70px] max-[480px]:pb-[60px]">
+      <div className="[background:#0a3b33] text-center p-12">
+        <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl text-white">
           {"Start your CSA Cyber Essentials journey today"}
         </h3>
-        <p className="text-white-50">
+        <p className="leading-relaxed mb-4">
           {
             "Free 30-minute cybersecurity readiness assessment. Honest gap analysis against CSA Cyber Essentials. ESG/EDG grant eligibility check included. HIMS vendor, HIA entity, and ICT vendor specialists. No obligation."
           }
         </p>
-        <div className="mt-4">
-          <SiteLink className="rs-btn has-bg-white" href="/contact-us.html">
+        <div>
+          <SiteLink
+            className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF]"
+            href="/contact-us.html"
+          >
             {"Book free assessment →"}
           </SiteLink>
           <SiteLink
-            className="rs-btn is-transparent text-white ms-3"
+            className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] text-white ml-4"
             href="/contact-us.html"
           >
             {"Check grant eligibility →"}
           </SiteLink>
           <SiteLink
-            className="rs-btn is-transparent text-white ms-3"
+            className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] text-white ml-4"
             href="/contact-us.html"
           >
             {"Get free quote →"}
@@ -726,31 +803,77 @@ function ContainerSection7() {
 
 function SeoKeywordsSection() {
   return (
-    <div className="seo-keywords">
-      <div className="seo-label">{"🔍 Related searches & keywords"}</div>
-      <div className="keywords-list">
-        <span>{"CSA Cyber Essentials Mark Singapore"}</span>
-        <span>{"cybersecurity certification Singapore 2026"}</span>
-        <span>{"HIMS vendor certification MOH"}</span>
-        <span>{"HIA entity cybersecurity Singapore"}</span>
-        <span>{"ICT vendor Cyber Essentials"}</span>
-        <span>{"ESG grant cybersecurity Singapore"}</span>
-        <span>{"EDG grant Cyber Essentials"}</span>
-        <span>{"best cybersecurity consultant Singapore"}</span>
-        <span>{"budget-friendly Cyber Essentials"}</span>
-        <span>{"CII cybersecurity Singapore"}</span>
-        <span>{"Cyber Trust Mark Singapore"}</span>
-        <span>{"CSA Cyber Essentials audit"}</span>
-        <span>{"CSA certification healthcare Singapore"}</span>
-        <span>{"fintech cybersecurity MAS Singapore"}</span>
-        <span>{"data centre cybersecurity certification"}</span>
-        <span>{"IMDA ICT vendor compliance"}</span>
-        <span>{"construction cybersecurity Singapore"}</span>
-        <span>{"logistics cyber essentials"}</span>
-        <span>{"manufacturing OT cybersecurity SG"}</span>
-        <span>{"新加坡网络安全认证"}</span>
-        <span>{"CSA网络安全基本标志"}</span>
-        <span>{"新加坡最佳网络安全顾问"}</span>
+    <div className="m-[50px_0_30px] p-[25px_20px] [background:#f0f4f8] rounded-[20px] text-center">
+      <div className="text-[1.4rem] font-bold text-[#AB052D] inline-block mb-[15px] tracking-[1px]">
+        {"🔍 Related searches & keywords"}
+      </div>
+      <div className="text-[1.4rem] text-[#2c3e50] leading-[1.8] [word-break:break-word]">
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"CSA Cyber Essentials Mark Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"cybersecurity certification Singapore 2026"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"HIMS vendor certification MOH"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"HIA entity cybersecurity Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"ICT vendor Cyber Essentials"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"ESG grant cybersecurity Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"EDG grant Cyber Essentials"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"best cybersecurity consultant Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"budget-friendly Cyber Essentials"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"CII cybersecurity Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"Cyber Trust Mark Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"CSA Cyber Essentials audit"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"CSA certification healthcare Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"fintech cybersecurity MAS Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"data centre cybersecurity certification"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"IMDA ICT vendor compliance"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"construction cybersecurity Singapore"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"logistics cyber essentials"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"manufacturing OT cybersecurity SG"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"新加坡网络安全认证"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"CSA网络安全基本标志"}
+        </span>
+        <span className="inline-block [background:white] p-[5px_12px] m-[4px] rounded-[30px] text-[1.5rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] max-[768px]:text-[0.75rem] max-[768px]:p-[4px_10px]">
+          {"新加坡最佳网络安全顾问"}
+        </span>
       </div>
     </div>
   );

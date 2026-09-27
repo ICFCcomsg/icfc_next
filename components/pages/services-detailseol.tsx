@@ -5,24 +5,7 @@ import { AccordionItem } from "@/components/molecules/accordion-item";
 
 export function ServicesDetailseolPageContent() {
   return (
-    <SitePageTemplate
-      route="services-detailseol.html"
-      stylesheets={[
-        "/assets/css/vendor/bootstrap.min.css",
-        "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
-        "/assets/css/plugins/swiper.min.css",
-        "/assets/css/plugins/nice-select.css",
-        "/assets/css/plugins/flatpickr.min.css",
-        "/assets/css/plugins/nouislider.min.css",
-        "/assets/css/vendor/magnific-popup.css",
-        "/assets/css/vendor/odometer.min.css",
-        "/assets/css/vendor/spacing.css",
-        "https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css",
-        "/assets/css/main.css",
-        "/assets/css/whatsapp-float.css",
-        "/styles/pages/services-detailseol.css",
-      ]}
-    >
+    <SitePageTemplate route="services-detailseol.html">
       <main>
         <BannerAreaSection />
         <ContainerSection />
@@ -41,44 +24,47 @@ export function ServicesDetailseolPageContent() {
 
 function BannerAreaSection() {
   return (
-    <section
-      className="rs-banner-area rs-banner-one"
-      style={{ background: "#0a1924" }}
-    >
-      <div className="container">
-        <div className="row align-items-center" style={{ minHeight: "70vh" }}>
-          <div className="col-xl-8">
-            <div className="rs-banner-wrapper">
-              <span className="rs-banner-subtitle" style={{ color: "#AB052D" }}>
+    <section className="relative z-[1] [overflow-x:clip] [background:#0a1924]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6 min-h-[70vh] items-center">
+          <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%]">
+            <div className="relative z-[1] pt-[110px] [padding-inline-start:200px] pb-[330px] max-[1600px]:[padding-inline-start:100px] max-[1600px]:pb-[295px] max-[1199px]:[padding-inline-start:15px] max-[1199px]:[padding-inline-end:15px] max-[1199px]:pb-[110px] max-[991px]:pt-[95px] max-[991px]:pb-[100px] max-[767px]:pt-[75px] max-[767px]:pb-[80px]">
+              <span className="text-[14px] font-medium tracking-[2.4px] uppercase text-[#AB052D] mb-[15px] inline-block">
                 {"Singapore Standard SS 587 : 2022"}
               </span>
-              <h1 className="rs-banner-title">
+              <h1 className="font-bold leading-tight text-[#2B3944] text-4xl md:text-6xl text-[#FFFFFF] font-medium leading-[1.12]">
                 {"End-of-Life ICT Management "}
-                <br />
+                <br className="max-[480px]:hidden" />
                 {"Audits, Consulting & Training"}
               </h1>
-              <p className="rs-banner-desc">
+              <p className="leading-relaxed text-[rgba(255,_255,_255,_0.8)] font-medium tracking-[0.02em] max-w-[580px] mb-[40px] max-[575px]:max-w-full">
                 {
                   "Responsible disposal, data security & ESG compliance for 25+ Singapore industries — Fintech, Data Centres, CII, Telco, Pharma, Marine, Logistics."
                 }
               </p>
-              <div className="rs-banner-btn">
+              <div>
                 <SiteLink
-                  className="rs-btn has-icon has-bg-white hover-primary"
+                  className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF] gap-[8px]"
                   href="/contact-us.html"
                 >
                   {"Free SS 587 Gap Assessment ↗"}
-                  <span className="icon-box">
-                    <svg width="16" height="16" viewBox="0 0 16 16">
+                  <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)]">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      className="w-[17px]"
+                    >
                       <path
                         d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
                         fill="white"
+                        className="[fill:#2B3944] in-hover:[fill:#FFFFFF]"
                       ></path>
                     </svg>
                   </span>
                 </SiteLink>
                 <SiteLink
-                  className="rs-btn has-icon is-transparent hover-primary"
+                  className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#AB052D] hover:text-[#FFFFFF] gap-[8px] [border:1px_solid_rgba(255,_255,_255,_0.15)]"
                   href="#grant"
                 >
                   {"ESG grant eligibility ↗"}
@@ -94,30 +80,42 @@ function BannerAreaSection() {
 
 function ContainerSection() {
   return (
-    <div className="container section-space-top">
-      <div className="ss587-stats-grid">
-        <div className="ss587-stat-card">
-          <div className="ss587-stat-number">{"6"}</div>
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] max-[991px]:pt-[100px] max-[767px]:pt-[70px] max-[480px]:pt-[60px]">
+      <div className="flex flex-wrap gap-[30px] justify-center m-[40px_0]">
+        <div className="[background:#f8f9fc] rounded-[20px] p-[25px_20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+          <div className="text-[48px] font-extrabold text-[#AB052D] leading-[1] mb-[8px]">
+            {"6"}
+          </div>
           <div>{"Core process phases"}</div>
         </div>
-        <div className="ss587-stat-card">
-          <div className="ss587-stat-number">{"25+"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[25px_20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+          <div className="text-[48px] font-extrabold text-[#AB052D] leading-[1] mb-[8px]">
+            {"25+"}
+          </div>
           <div>{"Industries served"}</div>
         </div>
-        <div className="ss587-stat-card">
-          <div className="ss587-stat-number">{"98%"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[25px_20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+          <div className="text-[48px] font-extrabold text-[#AB052D] leading-[1] mb-[8px]">
+            {"98%"}
+          </div>
           <div>{"First-attempt cert"}</div>
         </div>
-        <div className="ss587-stat-card">
-          <div className="ss587-stat-number">{"11+"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[25px_20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+          <div className="text-[48px] font-extrabold text-[#AB052D] leading-[1] mb-[8px]">
+            {"11+"}
+          </div>
           <div>{"Years expertise"}</div>
         </div>
-        <div className="ss587-stat-card">
-          <div className="ss587-stat-number">{"500+"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[25px_20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+          <div className="text-[48px] font-extrabold text-[#AB052D] leading-[1] mb-[8px]">
+            {"500+"}
+          </div>
           <div>{"Organisations guided"}</div>
         </div>
-        <div className="ss587-stat-card">
-          <div className="ss587-stat-number">{"70%"}</div>
+        <div className="[background:#f8f9fc] rounded-[20px] p-[25px_20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+          <div className="text-[48px] font-extrabold text-[#AB052D] leading-[1] mb-[8px]">
+            {"70%"}
+          </div>
           <div>{"Avg ESG grant"}</div>
         </div>
       </div>
@@ -127,80 +125,96 @@ function ContainerSection() {
 
 function SectionSpaceSection() {
   return (
-    <section className="section-space">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="section-title-wrapper">
-              <span className="section-subtitle">{"Singapore standard"}</span>
-              <h2>{"What is SS 587"}</h2>
-              <p>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 lg:w-[100%]">
+            <div>
+              <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
+                {"Singapore standard"}
+              </span>
+              <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+                {"What is SS 587"}
+              </h2>
+              <p className="leading-relaxed mb-4">
                 {
                   "Singapore's national standard for end-of-life ICT equipment — secure, traceable, environmentally responsible retirement of computers, servers, storage, networking devices."
                 }
               </p>
             </div>
-            <div className="row g-4 mt-2">
-              <div className="col-md-4">
-                <div className="pillar-card">
-                  <div className="fw-bold text-danger">{"01"}</div>
-                  <h5 className="mt-2">{"ICT asset inventory"}</h5>
-                  <p>
+            <div className="-mx-3 flex flex-wrap gap-y-6">
+              <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                  <div className="font-bold text-red-700">{"01"}</div>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"ICT asset inventory"}
+                  </h5>
+                  <p className="leading-relaxed mb-4">
                     {
                       "Catalogue assets with serial numbers, data classification, retirement trigger."
                     }
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="pillar-card">
-                  <div className="fw-bold text-danger">{"02"}</div>
-                  <h5 className="mt-2">{"Data sanitisation"}</h5>
-                  <p>
+              <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                  <div className="font-bold text-red-700">{"02"}</div>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Data sanitisation"}
+                  </h5>
+                  <p className="leading-relaxed mb-4">
                     {
                       "NIST 800-88, DoD 5220.22-M, PDPA obligations certified wiping/destruction."
                     }
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="pillar-card">
-                  <div className="fw-bold text-danger">{"03"}</div>
-                  <h5 className="mt-2">{"Chain-of-custody"}</h5>
-                  <p>
+              <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                  <div className="font-bold text-red-700">{"03"}</div>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Chain-of-custody"}
+                  </h5>
+                  <p className="leading-relaxed mb-4">
                     {
                       "End-to-end documentation collection → transport → processing."
                     }
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="pillar-card">
-                  <div className="fw-bold text-danger">{"04"}</div>
-                  <h5 className="mt-2">{"ITAD vendor vetting"}</h5>
-                  <p>
+              <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                  <div className="font-bold text-red-700">{"04"}</div>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"ITAD vendor vetting"}
+                  </h5>
+                  <p className="leading-relaxed mb-4">
                     {
                       "Due diligence & audit downstream recyclers under SS 587 criteria."
                     }
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="pillar-card">
-                  <div className="fw-bold text-danger">{"05"}</div>
-                  <h5 className="mt-2">{"Environmental compliance"}</h5>
-                  <p>
+              <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                  <div className="font-bold text-red-700">{"05"}</div>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Environmental compliance"}
+                  </h5>
+                  <p className="leading-relaxed mb-4">
                     {
                       "NEA Resource Sustainability Act, Basel Convention, Green Plan 2030."
                     }
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="pillar-card">
-                  <div className="fw-bold text-danger">{"06"}</div>
-                  <h5 className="mt-2">{"Reporting & certification"}</h5>
-                  <p>
+              <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                  <div className="font-bold text-red-700">{"06"}</div>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Reporting & certification"}
+                  </h5>
+                  <p className="leading-relaxed mb-4">
                     {
                       "Management review, audit prep, third-party certification body engagement."
                     }
@@ -217,59 +231,69 @@ function SectionSpaceSection() {
 
 function SectionSpaceSection2() {
   return (
-    <section className="section-space theme-secondary pt-0">
-      <div className="container">
-        <div className="section-title-wrapper text-center">
-          <span className="section-subtitle">{"End-to-end support"}</span>
-          <h2>{"Our three service pillars — Audit, Consulting, Training"}</h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px] [background:#2B3944]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="text-center">
+          <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
+            {"End-to-end support"}
+          </span>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"Our three service pillars — Audit, Consulting, Training"}
+          </h2>
         </div>
-        <div className="row g-4 mt-3">
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"🔍"}</span>
-              <h4 className="mt-3">{"SS 587 Audit services"}</h4>
-              <p>
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+              <span className="text-[42px]">{"🔍"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"SS 587 Audit services"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Gap assessments, pre-certification review, ITAD vendor audits, internal audits, surveillance readiness, data destruction audit."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-3"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore audit ↗"}
               </SiteLink>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"📝"}</span>
-              <h4 className="mt-3">{"SS 587 Consulting"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+              <span className="text-[42px]">{"📝"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"SS 587 Consulting"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Policy & procedure design, ITAD procurement frameworks, data sanitisation standards, NEA RSA alignment, PDPA integration, ESG grant advisory."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-3"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore consulting ↗"}
               </SiteLink>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="pillar-card">
-              <span style={{ fontSize: "42px" }}>{"🏫"}</span>
-              <h4 className="mt-3">{"SS 587 Training"}</h4>
-              <p>
+          <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+            <div className="[background:#ffffff] rounded-[28px] p-[32px_24px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+              <span className="text-[42px]">{"🏫"}</span>
+              <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                {"SS 587 Training"}
+              </h4>
+              <p className="leading-relaxed mb-4">
                 {
                   "Foundation awareness, lead implementer, internal auditor, data sanitisation officer, ITAD manager programme, WSQ-aligned modules."
                 }
               </p>
               <SiteLink
                 href="/contact-us.html"
-                className="rs-btn has-text mt-3"
+                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[0] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset]"
               >
                 {"Explore training ↗"}
               </SiteLink>
@@ -283,54 +307,58 @@ function SectionSpaceSection2() {
 
 function SectionSpaceSection3() {
   return (
-    <section className="section-space">
-      <div className="container">
-        <div className="section-title-wrapper">
-          <span className="section-subtitle">{"Regulatory alignment"}</span>
-          <h2>{"SS 587 within Singapore legal framework"}</h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div>
+          <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
+            {"Regulatory alignment"}
+          </span>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"SS 587 within Singapore legal framework"}
+          </h2>
         </div>
-        <div className="regulatory-grid">
-          <div className="reg-item">
+        <div className="grid [grid-template-columns:repeat(auto-fill,_minmax(240px,1fr))] gap-[16px] m-[30px_0]">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"NEA — Resource Sustainability Act"}</strong>
             <br />
             {"E-waste producer responsibility obligations."}
           </div>
-          <div className="reg-item">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"IMDA — ICT governance"}</strong>
             <br />
             {"Government-linked ICT asset retirement."}
           </div>
-          <div className="reg-item">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"CSA — Cybersecurity Act"}</strong>
             <br />
             {"CII secure decommissioning."}
           </div>
-          <div className="reg-item">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"PDPA — Data Protection"}</strong>
             <br />
             {"Certified data destruction."}
           </div>
-          <div className="reg-item">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"EMA — Energy Market Authority"}</strong>
             <br />
             {"Grid/SCADA ICT decommission."}
           </div>
-          <div className="reg-item">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"MOM — WSH Act"}</strong>
             <br />
             {"Safe handling of hazardous components."}
           </div>
-          <div className="reg-item">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"SCDF — Fire & hazmat"}</strong>
             <br />
             {"Lithium battery / hazmat storage."}
           </div>
-          <div className="reg-item">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"GovTech IM8"}</strong>
             <br />
             {"Public sector ICT retirement."}
           </div>
-          <div className="reg-item">
+          <div className="[background:#fff] [border-left:4px_solid_#AB052D] p-[14px_18px] rounded-[12px] shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong>{"ESG — Green Plan 2030"}</strong>
             <br />
             {"Circular economy & e-waste reduction."}
@@ -343,41 +371,92 @@ function SectionSpaceSection3() {
 
 function SectionSpaceSection4() {
   return (
-    <section
-      className="section-space theme-secondary"
-      style={{ backgroundColor: "gray" }}
-    >
-      <div className="container">
-        <div className="section-title-wrapper text-center">
-          <span className="section-subtitle">{"Sector expertise"}</span>
-          <h2>{"25+ industries across Singapore"}</h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px] [background:#2B3944] bg-[gray]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="text-center">
+          <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
+            {"Sector expertise"}
+          </span>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"25+ industries across Singapore"}
+          </h2>
         </div>
-        <div className="text-center mt-4">
-          <span className="industry-badge">{"Fintech & Payments"}</span>
-          <span className="industry-badge">{"Telecommunications"}</span>
-          <span className="industry-badge">{"Data Centres"}</span>
-          <span className="industry-badge">{"CII sectors"}</span>
-          <span className="industry-badge">{"Construction"}</span>
-          <span className="industry-badge">{"Marine & Offshore"}</span>
-          <span className="industry-badge">{"Logistics"}</span>
-          <span className="industry-badge">{"Pharmaceutical"}</span>
-          <span className="industry-badge">{"Manufacturing"}</span>
-          <span className="industry-badge">{"Healthcare"}</span>
-          <span className="industry-badge">{"Banking & Finance"}</span>
-          <span className="industry-badge">{"Energy & Utilities"}</span>
-          <span className="industry-badge">{"Aviation"}</span>
-          <span className="industry-badge">{"Retail"}</span>
-          <span className="industry-badge">{"Government"}</span>
-          <span className="industry-badge">{"Insurance"}</span>
-          <span className="industry-badge">{"Hospitality"}</span>
-          <span className="industry-badge">{"Cybersecurity"}</span>
-          <span className="industry-badge">{"Education"}</span>
-          <span className="industry-badge">{"Real Estate"}</span>
-          <span className="industry-badge">{"Waste Mgmt"}</span>
-          <span className="industry-badge">{"Food & Beverage"}</span>
-          <span className="industry-badge">{"Professional Services"}</span>
-          <span className="industry-badge">{"Media & Entertainment"}</span>
-          <span className="industry-badge">{"Transport & Mobility"}</span>
+        <div className="text-center">
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Fintech & Payments"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Telecommunications"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Data Centres"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"CII sectors"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Construction"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Marine & Offshore"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Logistics"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Pharmaceutical"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Manufacturing"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Healthcare"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Banking & Finance"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Energy & Utilities"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Aviation"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Retail"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Government"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Insurance"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Hospitality"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Cybersecurity"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Education"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Real Estate"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Waste Mgmt"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Food & Beverage"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Professional Services"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Media & Entertainment"}
+          </span>
+          <span className="inline-block [background:#f0f2f5] rounded-[40px] p-[6px_20px] m-[5px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+            {"Transport & Mobility"}
+          </span>
         </div>
       </div>
     </section>
@@ -386,27 +465,33 @@ function SectionSpaceSection4() {
 
 function ContainerSection2() {
   return (
-    <div id="grant" className="container section-space">
-      <div className="grant-banner">
-        <div className="row align-items-center">
-          <div className="col-lg-8">
-            <h3 className="text-white">
+    <div
+      id="grant"
+      className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]"
+    >
+      <div className="[background:linear-gradient(135deg,_#1a2a3a_0%,_#0f1a24_100%)] rounded-[32px] p-[40px] text-[white] max-[768px]:p-[28px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6 items-center">
+          <div className="w-full shrink-0 px-3 lg:w-[66.66666666666666%]">
+            <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl text-white">
               {"Fund your SS 587 compliance — up to 70% co-funding"}
             </h3>
-            <p className="opacity-75">
+            <p className="leading-relaxed mb-4">
               {
                 "Enterprise Singapore MASA grant, SkillsFuture WSQ training grants, NEA producer responsibility integration, ESG Business Improvement Fund (BIF). ICFC manages grant application alongside your project."
               }
             </p>
-            <SiteLink className="rs-btn has-bg-white" href="/contact-us.html">
+            <SiteLink
+              className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF]"
+              href="/contact-us.html"
+            >
               {"Check MASA grant eligibility ↗"}
             </SiteLink>
           </div>
-          <div className="col-lg-4 text-center">
+          <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] text-center">
             <SiteImage
               src="/assets/images/favicon.webp"
               alt="grant"
-              style={{ width: "80px", opacity: "0.8" }}
+              className="max-w-full h-auto w-[80px] opacity-[0.8]"
             />
           </div>
         </div>
@@ -417,37 +502,43 @@ function ContainerSection2() {
 
 function SectionSpaceSection5() {
   return (
-    <section className="section-space pt-0">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-            <div className="p-4 bg-white rounded-4 shadow-sm">
-              <div className="d-flex gap-3">
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
+            <div className="p-6 bg-white shadow-sm">
+              <div className="flex">
                 <div>
-                  <h5>{"Head of IT governance"}</h5>
-                  <p className="text-muted">
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Head of IT governance"}
+                  </h5>
+                  <p className="leading-relaxed text-slate-500 mb-4">
                     {"Licensed financial institution"}
                   </p>
                 </div>
-                <div className="ms-auto">{"★★★★★"}</div>
+                <div className="ml-auto">{"★★★★★"}</div>
               </div>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   "“ICFC designed our SS 587 programme to satisfy PDPA data destruction and MAS TRM decommissioning. ITAD vendor audit gave us documented assurance.”"
                 }
               </p>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="p-4 bg-white rounded-4 shadow-sm">
-              <div className="d-flex gap-3">
+          <div className="w-full shrink-0 px-3 md:w-[50%]">
+            <div className="p-6 bg-white shadow-sm">
+              <div className="flex">
                 <div>
-                  <h5>{"Infrastructure director"}</h5>
-                  <p className="text-muted">{"Data centre operator"}</p>
+                  <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                    {"Infrastructure director"}
+                  </h5>
+                  <p className="leading-relaxed text-slate-500 mb-4">
+                    {"Data centre operator"}
+                  </p>
                 </div>
-                <div className="ms-auto">{"★★★★★"}</div>
+                <div className="ml-auto">{"★★★★★"}</div>
               </div>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   "“Retired thousands of servers, ICFC established chain-of-custody & ITAD framework under 3 months + MASA grant recovered significant costs.”"
                 }
@@ -462,15 +553,16 @@ function SectionSpaceSection5() {
 
 function SectionSpaceSection6() {
   return (
-    <section className="section-space faq-section">
-      <div className="container">
-        <div className="section-title-wrapper">
-          <h2>{"Frequently asked questions — SS 587"}</h2>
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div>
+          <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px]">
+            {"Frequently asked questions — SS 587"}
+          </h2>
         </div>
-        <div className="accordion" id="ss587faq">
+        <div id="ss587faq">
           <AccordionItem
             title={<>{"What is SS 587 and who must comply?"}</>}
-            className="accordion-item"
             defaultOpen={false}
           >
             {" "}
@@ -480,7 +572,6 @@ function SectionSpaceSection6() {
           </AccordionItem>
           <AccordionItem
             title={<>{"How long does SS 587 certification take?"}</>}
-            className="accordion-item"
             defaultOpen={false}
           >
             {" "}
@@ -490,7 +581,6 @@ function SectionSpaceSection6() {
           </AccordionItem>
           <AccordionItem
             title={<>{"Can ICFC help with MASA grant?"}</>}
-            className="accordion-item"
             defaultOpen={false}
           >
             {" "}
@@ -500,7 +590,6 @@ function SectionSpaceSection6() {
           </AccordionItem>
           <AccordionItem
             title={<>{"Do we need SS 587 if we already have ISO 14001?"}</>}
-            className="accordion-item"
             defaultOpen={false}
           >
             {" "}
@@ -514,7 +603,6 @@ function SectionSpaceSection6() {
                 {"How does SS 587 relate to PDPA data destruction obligations?"}
               </>
             }
-            className="accordion-item"
             defaultOpen={false}
           >
             {" "}
@@ -530,25 +618,25 @@ function SectionSpaceSection6() {
 
 function ContainerSection3() {
   return (
-    <div className="container section-space-bottom">
-      <div
-        className="text-center p-5 rounded-4"
-        style={{ background: "#1e2a36" }}
-      >
-        <h3 className="text-white">
+    <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px] pb-[120px] max-[991px]:pb-[100px] max-[767px]:pb-[70px] max-[480px]:pb-[60px]">
+      <div className="[background:#1e2a36] text-center p-12">
+        <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl text-white">
           {"Start your SS 587 compliance journey with ICFC"}
         </h3>
-        <p className="text-white-50">
+        <p className="leading-relaxed mb-4">
           {
             "Whether a handful of laptops or whole data centre — get a practical path to certification backed by 11+ years Singapore expertise."
           }
         </p>
-        <div className="mt-4">
-          <SiteLink className="rs-btn has-bg-white" href="/contact-us.html">
+        <div>
+          <SiteLink
+            className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#FFFFFF] hover:[background:#AB052D] hover:text-[#FFFFFF]"
+            href="/contact-us.html"
+          >
             {"Book a free consultation ↗"}
           </SiteLink>
           <SiteLink
-            className="rs-btn is-transparent text-white ms-3"
+            className="transition-colors hover:text-[#AB052D] text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:transparent] hover:[background:#2B3944] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] text-white ml-4"
             href="/contact-us.html"
           >
             {"Get a quote + grant check ↗"}

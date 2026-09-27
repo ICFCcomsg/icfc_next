@@ -27,33 +27,40 @@ export function IndustryExplorer() {
   const label = categories.find(([key]) => key === category)?.[1];
 
   return (
-    <section className="industry-section section-space-top pb-40">
-      <div className="industry-container">
-        <div className="hero-industry">
-          <div className="hero-tag">All-Industry ISO Solutions · Singapore</div>
-          <h1 className="hero-h">ISO standards tailored to your industry</h1>
-          <p className="hero-sub">
+    <section className="pt-12 pb-10 md:pt-20">
+      <div className="mx-auto max-w-[1280px] px-5">
+        <div className="border-b border-slate-200 pt-12 pb-8">
+          <div className="mb-4 inline-block rounded-full bg-[#AB052D]/10 px-3.5 py-1 text-xs font-semibold tracking-wider text-[#AB052D] uppercase">
+            All-Industry ISO Solutions · Singapore
+          </div>
+          <h1 className="mb-4 text-3xl font-bold leading-tight text-[#111] md:text-[38px]">
+            ISO standards tailored to your industry
+          </h1>
+          <p className="max-w-[780px] text-base leading-relaxed text-[#5A5A5A]">
             Singapore&apos;s fastest-growing industries each carry unique
             compliance, quality, and security obligations. Explore the standards
             that apply to your sector — and how we help you achieve them.
           </p>
         </div>
-        <div style={{ marginTop: 30 }}>
+        <div className="mt-8">
           <input
-            className="search-box"
+            className="mb-4 w-full rounded-full border border-slate-200 bg-white px-5 py-3.5 text-[15px] text-slate-800 shadow-sm focus:border-[#AB052D] focus:outline-none focus:ring-4 focus:ring-[#AB052D]/10"
             type="search"
             aria-label="Search industries"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search industry (e.g. fintech, healthcare, logistics...)"
           />
-          <div className="filter-row" aria-label="Industry categories">
+          <div
+            className="flex flex-wrap gap-2.5 pt-6 pb-4"
+            aria-label="Industry categories"
+          >
             {categories.map(([key, name]) => (
               <button
                 key={key}
                 type="button"
                 aria-pressed={category === key}
-                className={`filter-btn${category === key ? " active" : ""}`}
+                className={`rounded-full border px-5 py-2 text-sm font-medium transition-colors ${category === key ? "border-[#AB052D] bg-[#AB052D] text-white shadow-md" : "border-slate-200 bg-white text-slate-700 hover:border-[#AB052D] hover:bg-rose-50 hover:text-[#AB052D]"}`}
                 onClick={() => {
                   setCategory(key);
                   setExpanded(null);
@@ -63,11 +70,17 @@ export function IndustryExplorer() {
               </button>
             ))}
           </div>
-          <div className="count-badge" role="status">
+          <div
+            className="inline-block border-b border-slate-100 py-2 text-sm font-medium text-slate-600"
+            role="status"
+          >
             Showing {filtered.length} industries
             {category !== "all" && ` in ${label}`}
           </div>
-          <div className="grid" id="cardGrid">
+          <div
+            className="grid gap-5 py-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7"
+            id="cardGrid"
+          >
             {filtered.map((industry) => (
               <IndustryCard
                 key={industry.name}
@@ -80,7 +93,7 @@ export function IndustryExplorer() {
             ))}
           </div>
           {filtered.length === 0 && (
-            <p className="no-results" style={{ display: "block" }}>
+            <p className="py-16 text-center text-slate-500">
               No industries match your search.
             </p>
           )}

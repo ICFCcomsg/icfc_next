@@ -19,10 +19,10 @@ bun run build
 - `components/templates/`: shared page composition.
 - `components/pages/`: native JSX for every page, divided into named section components.
 - `lib/`: route registry and typed industry data.
-- `public/assets/`: reference images, fonts, and stylesheets.
-- `public/styles/`: page styles and native component styles.
+- `public/assets/`: reference images and downloadable documents.
+- `app/globals.css`: Tailwind entry point; all styling is in TSX utility classes.
 
-Edit TSX components directly. `scripts/convert-reference.cjs` is the one-time migration utility; rerunning it overwrites converted pages.
+Edit TSX components directly. Tailwind CSS 4 is the only styling system. Bootstrap, icon fonts, reference stylesheets, and inline styles have been removed. SVG icons are native React components.
 
 ## Interactions
 

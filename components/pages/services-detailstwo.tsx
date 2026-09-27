@@ -1,3 +1,4 @@
+import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { SiteImage } from "@/components/atoms/site-image";
@@ -6,24 +7,7 @@ import { AccordionItem } from "@/components/molecules/accordion-item";
 
 export function ServicesDetailstwoPageContent() {
   return (
-    <SitePageTemplate
-      route="services-detailstwo.html"
-      stylesheets={[
-        "/assets/css/vendor/bootstrap.min.css",
-        "/assets/css/vendor/animate.min.css",
-        "/assets/css/plugins/swiper.min.css",
-        "/assets/css/plugins/nice-select.css",
-        "/assets/css/plugins/flatpickr.min.css",
-        "/assets/css/plugins/nouislider.min.css",
-        "/assets/css/vendor/magnific-popup.css",
-        "/assets/css/vendor/odometer.min.css",
-        "/assets/css/vendor/spacing.css",
-        "https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css",
-        "/assets/css/main.css?v=20260503",
-        "/assets/css/whatsapp-float.css",
-        "/styles/pages/services-detailstwo.css",
-      ]}
-    >
+    <SitePageTemplate route="services-detailstwo.html">
       <main>
         <BreadcrumbAreaSection />
         <ServicesAreaSection />
@@ -39,70 +23,86 @@ function BreadcrumbAreaSection() {
       title="ISO 37001:2025 · Anti-Bribery Management System · Singapore · CPIB endorsed"
       description="Anti-bribery management — ISO 37001:2025 certified, PCA-aligned, grant-funded"
       background="/assets/images/services/services-thumb-30.webp"
-      className="rs-breadcrumb-area rs-breadcrumb-one p-relative section-space"
     />
   );
 }
 
 function ServicesAreaSection() {
   return (
-    <section className="rs-services-area section-space">
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-12">
-            <div className="rs-services-details-wrapper">
-              <div className="rs-services-details-thumb">
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 xl:w-[100%]">
+            <div>
+              <div>
                 <SiteImage
                   src="/assets/images/banner/services-details-01.webp"
                   alt="ISO 37001 Anti-Bribery Management System"
+                  className="max-w-full h-auto w-full rounded-[6px]"
                 />
               </div>
-              <p className="mt-30">
+              <p className="leading-relaxed mt-[30px] mb-4">
                 {
                   "ISO 37001:2025 is the world's leading standard for Anti-Bribery Management Systems (ABMS). In Singapore, it is nationally adopted as SS ISO 37001 — jointly launched by SPRING Singapore and the Corrupt Practices Investigation Bureau (CPIB) — and aligned to the Prevention of Corruption Act (PCA). The 2025 edition introduces critical updates including climate change risk, enhanced conflicts of interest management, and stronger compliance culture requirements. ICFC delivers full ABMS audit, consultation, and training with EDG grant management built into every engagement, across all 35 major Singapore industries."
                 }
               </p>
-              <div className="row mb-40 mt-30 g-4">
-                <div className="col-md-3 col-6">
-                  <div className="abms-stat-box">
-                    <div className="abms-stat-number">{"2025"}</div>
-                    <p className="mb-0">{"New ISO 37001 edition"}</p>
+              <div className="-mx-3 flex flex-wrap gap-y-6 mt-[30px] mb-[40px]">
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="[background:#f8f9fa] rounded-[16px] p-[1.5rem] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                    <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2] mb-[8px]">
+                      {"2025"}
+                    </div>
+                    <p className="leading-relaxed mb-[0]">
+                      {"New ISO 37001 edition"}
+                    </p>
                     <small>{"climate risk + CoI"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="abms-stat-box">
-                    <div className="abms-stat-number">{"6–12"}</div>
-                    <p className="mb-0">{"Months typical ABMS"}</p>
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="[background:#f8f9fa] rounded-[16px] p-[1.5rem] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                    <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2] mb-[8px]">
+                      {"6–12"}
+                    </div>
+                    <p className="leading-relaxed mb-[0]">
+                      {"Months typical ABMS"}
+                    </p>
                     <small>{"certification timeline"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="abms-stat-box">
-                    <div className="abms-stat-number">{"50%"}</div>
-                    <p className="mb-0">{"EDG grant co-funding"}</p>
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="[background:#f8f9fa] rounded-[16px] p-[1.5rem] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                    <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2] mb-[8px]">
+                      {"50%"}
+                    </div>
+                    <p className="leading-relaxed mb-[0]">
+                      {"EDG grant co-funding"}
+                    </p>
                     <small>{"for qualifying SMEs"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="abms-stat-box">
-                    <div className="abms-stat-number">{"35+"}</div>
-                    <p className="mb-0">{"Singapore industries"}</p>
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="[background:#f8f9fa] rounded-[16px] p-[1.5rem] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                    <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2] mb-[8px]">
+                      {"35+"}
+                    </div>
+                    <p className="leading-relaxed mb-[0]">
+                      {"Singapore industries"}
+                    </p>
                     <small>{"served"}</small>
                   </div>
                 </div>
               </div>
-              <div className="bg-soft-red p-4 rounded-4 mb-40">
-                <h4 className="mb-3">
-                  <i className="ri-alert-line me-2 text-pims-red"></i>
+              <div className="mb-[40px] [background:rgba(200,16,46,0.05)] rounded-[24px] p-6">
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                  <Icon name="alert" className="mr-2" />
                   {
                     "ISO 37001:2025 — what changed and why it matters for Singapore organisations"
                   }
                 </h4>
-                <div className="row g-3">
-                  <div className="col-md-6">
-                    <div className="d-flex gap-2">
-                      <i className="ri-leaf-line fs-5 text-pims-red"></i>
+                <div className="-mx-3 flex flex-wrap gap-y-6">
+                  <div className="w-full shrink-0 px-3 md:w-[50%]">
+                    <div className="flex">
+                      <Icon name="leaf" className="text-xl" />
                       <div>
                         <strong>{"Climate risk"}</strong>
                         {
@@ -111,18 +111,18 @@ function ServicesAreaSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <div className="d-flex gap-2">
-                      <i className="ri-hand-heart-line fs-5 text-pims-red"></i>
+                  <div className="w-full shrink-0 px-3 md:w-[50%]">
+                    <div className="flex">
+                      <Icon name="heart" className="text-xl" />
                       <div>
                         <strong>{"Conflicts of interest"}</strong>
                         {" — Enhanced CoI guidance and management requirements"}
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <div className="d-flex gap-2">
-                      <i className="ri-group-line fs-5 text-pims-red"></i>
+                  <div className="w-full shrink-0 px-3 md:w-[50%]">
+                    <div className="flex">
+                      <Icon name="user" className="text-xl" />
                       <div>
                         <strong>{"Compliance culture"}</strong>
                         {
@@ -131,18 +131,18 @@ function ServicesAreaSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <div className="d-flex gap-2">
-                      <i className="ri-shield-user-line fs-5 text-pims-red"></i>
+                  <div className="w-full shrink-0 px-3 md:w-[50%]">
+                    <div className="flex">
+                      <Icon name="shield" className="text-xl" />
                       <div>
                         <strong>{"Whistleblower"}</strong>
                         {" — Improved whistleblower protection provisions"}
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <div className="d-flex gap-2">
-                      <i className="ri-shuffle-line fs-5 text-pims-red"></i>
+                  <div className="w-full shrink-0 px-3 md:w-[50%]">
+                    <div className="flex">
+                      <Icon name="merge" className="text-xl" />
                       <div>
                         <strong>{"Integration"}</strong>
                         {
@@ -153,112 +153,118 @@ function ServicesAreaSection() {
                   </div>
                 </div>
               </div>
-              <h3 className="rs-services-details-title mt-15 mb-20">
+              <h3 className="text-[45px] max-[1199px]:text-[40px] max-[991px]:text-[37px] max-[767px]:text-[32px] max-[575px]:text-[27px] mt-[15px] mb-[20px] font-bold">
                 {
                   "What is ISO 37001 ABMS? Singapore's anti-bribery certification — why ISO 37001:2025 matters in 2026"
                 }
               </h3>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   "ISO 37001 is the international standard dedicated to establishing, implementing, maintaining, and improving an Anti-Bribery Management System. It offers requirements and guidance for preventing, detecting, and responding to bribery — covering direct and indirect bribery across public, private, and non-profit sectors. In Singapore, it is nationally adopted as SS ISO 37001 and aligns directly with the Prevention of Corruption Act."
                 }
               </p>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   "SS ISO 37001 was jointly launched by SPRING Singapore and the Corrupt Practices Investigation Bureau (CPIB). The Singapore Standard (SS) ISO 37001 on anti-bribery management systems is a voluntary standard designed to help companies establish, implement, maintain and improve their anti-bribery compliance programmes. It includes a series of measures which represents globally recognised anti-bribery good practice. Critically, SS ISO 37001 helps in the event of an investigation to provide evidence to the prosecutors or courts that the company had taken reasonable steps to prevent bribery. For Singapore organisations facing CPIB investigations, this evidentiary protection is the most compelling reason to certify."
                 }
               </p>
-              <p>
+              <p className="leading-relaxed mb-4">
                 {
                   "ISO 37001:2025 is now the current edition. Organisations certified under ISO 37001:2016 should plan their transition to the 2025 edition. ICFC manages 2016-to-2025 transition audits alongside new implementation engagements. The 2025 edition adopts the ISO harmonized structure — making integration with ISO 9001, ISO 14001, ISO 27001, and ISO 22301 more efficient than ever before."
                 }
               </p>
-              <h3 className="rs-services-details-title mt-40 mb-20">
+              <h3 className="text-[45px] max-[1199px]:text-[40px] max-[991px]:text-[37px] max-[767px]:text-[32px] max-[575px]:text-[27px] mt-[40px] mb-[20px] font-bold">
                 {"ISO 37001:2025 ABMS — eight core components ICFC implements"}
               </h3>
-              <div className="row g-4 mb-40">
-                <div className="col-md-3 col-6">
-                  <div className="text-center p-3 bg-light rounded h-100">
-                    <i className="ri-file-text-line fs-2 text-pims-red"></i>
-                    <p className="mt-2 fw-bold mb-0">{"Anti-bribery policy"}</p>
+              <div className="-mx-3 flex flex-wrap gap-y-6 mb-[40px]">
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] text-center p-4 bg-slate-50 rounded-md h-full">
+                    <Icon name="file" className="text-[32px]" />
+                    <p className="leading-relaxed mb-[0] font-bold">
+                      {"Anti-bribery policy"}
+                    </p>
                     <small>{"Board-endorsed zero tolerance"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="text-center p-3 bg-light rounded h-100">
-                    <i className="ri-shield-flash-line fs-2 text-pims-red"></i>
-                    <p className="mt-2 fw-bold mb-0">
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] text-center p-4 bg-slate-50 rounded-md h-full">
+                    <Icon name="shield" className="text-[32px]" />
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"Bribery risk assessment"}
                     </p>
                     <small>{"Activities, geographies, third parties"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="text-center p-3 bg-light rounded h-100">
-                    <i className="ri-search-eye-line fs-2 text-pims-red"></i>
-                    <p className="mt-2 fw-bold mb-0">{"Due diligence"}</p>
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] text-center p-4 bg-slate-50 rounded-md h-full">
+                    <Icon name="search" className="text-[32px]" />
+                    <p className="leading-relaxed mb-[0] font-bold">
+                      {"Due diligence"}
+                    </p>
                     <small>{"Third-party, transaction, personnel"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="text-center p-3 bg-light rounded h-100">
-                    <i className="ri-bank-card-line fs-2 text-pims-red"></i>
-                    <p className="mt-2 fw-bold mb-0">
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] text-center p-4 bg-slate-50 rounded-md h-full">
+                    <Icon name="card" className="text-[32px]" />
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"Financial & non-financial controls"}
                     </p>
                     <small>{"Gift register, expense controls"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="text-center p-3 bg-light rounded h-100">
-                    <i className="ri-chat-quote-line fs-2 text-pims-red"></i>
-                    <p className="mt-2 fw-bold mb-0">
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] text-center p-4 bg-slate-50 rounded-md h-full">
+                    <Icon name="quote" className="text-[32px]" />
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"Whistleblowing channel"}
                     </p>
                     <small>{"Anonymous + protection"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="text-center p-3 bg-light rounded h-100">
-                    <i className="ri-git-merge-line fs-2 text-pims-red"></i>
-                    <p className="mt-2 fw-bold mb-0">
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] text-center p-4 bg-slate-50 rounded-md h-full">
+                    <Icon name="merge" className="text-[32px]" />
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"Conflicts of interest"}
                     </p>
                     <small>{"Enhanced 2025 CoI management"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="text-center p-3 bg-light rounded h-100">
-                    <i className="ri-earth-line fs-2 text-pims-red"></i>
-                    <p className="mt-2 fw-bold mb-0">
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] text-center p-4 bg-slate-50 rounded-md h-full">
+                    <Icon name="globe" className="text-[32px]" />
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"Climate change risk (new 2025)"}
                     </p>
                     <small>{"Carbon trading, green financing"}</small>
                   </div>
                 </div>
-                <div className="col-md-3 col-6">
-                  <div className="text-center p-3 bg-light rounded h-100">
-                    <i className="ri-bar-chart-2-line fs-2 text-pims-red"></i>
-                    <p className="mt-2 fw-bold mb-0">
+                <div className="w-full shrink-0 px-3 md:w-[25%] w-[50%]">
+                  <div className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] text-center p-4 bg-slate-50 rounded-md h-full">
+                    <Icon name="chart" className="text-[32px]" />
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"Monitoring & investigation"}
                     </p>
                     <small>{"Internal audit, management review"}</small>
                   </div>
                 </div>
               </div>
-              <h3 className="rs-services-details-title mb-20">
+              <h3 className="text-[45px] max-[1199px]:text-[40px] max-[991px]:text-[37px] max-[767px]:text-[32px] max-[575px]:text-[27px] mb-[20px] font-bold">
                 {
                   "Singapore's anti-bribery legal and regulatory framework — ISO 37001 alignment"
                 }
               </h3>
-              <div className="table-responsive mb-40">
-                <table className="table table-bordered">
-                  <thead className="bg-light">
+              <div className="mb-[40px] w-full overflow-x-auto">
+                <table className="[border:1px_solid_#DBDEE1] max-[991px]:w-[900px] w-full border-collapse text-left [&_th]:border-b [&_th]:border-slate-300 [&_th]:bg-slate-50 [&_th]:p-3 [&_td]:border-b [&_td]:border-slate-200 [&_td]:p-3 [&_td]:border [&_th]:border">
+                  <thead className="bg-[#f8f9fa] rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] bg-slate-50">
                     <tr>
-                      <th>{"Framework / Legislation"}</th>
-                      <th>{"Key obligation"}</th>
-                      <th>{"Sectors"}</th>
-                      <th>{"ISO 37001 alignment"}</th>
+                      <th className="[border:none]">
+                        {"Framework / Legislation"}
+                      </th>
+                      <th className="[border:none]">{"Key obligation"}</th>
+                      <th className="[border:none]">{"Sectors"}</th>
+                      <th className="[border:none]">{"ISO 37001 alignment"}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -349,210 +355,273 @@ function ServicesAreaSection() {
                   </tbody>
                 </table>
               </div>
-              <div className="row g-4 mt-4 mb-5">
-                <div className="col-md-4">
-                  <div className="service-card p-4 border rounded h-100 bg-white">
-                    <i className="ri-survey-line pillar-icon"></i>
-                    <h4>{"ABMS Audit Services"}</h4>
-                    <p>
+              <div className="-mx-3 flex flex-wrap gap-y-6 mb-[5px]">
+                <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                  <div className="rounded-[16px] [background:#fff] [border:1px_solid_#e2e8f0] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] p-6 border border-slate-200 rounded-md h-full bg-white">
+                    <Icon
+                      name="survey"
+                      className="text-[2.2rem] text-[#C8102E] mb-[1rem] inline-block"
+                    />
+                    <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                      {"ABMS Audit Services"}
+                    </h4>
+                    <p className="leading-relaxed mb-4">
                       {
                         "Gap analysis, Stage 1 & 2 audits, pre-certification, internal audit, 2016→2025 transition."
                       }
                     </p>
                     <SiteLink
                       href="/services.html"
-                      className="service-card-btn"
+                      className="transition-colors hover:text-[#AB052D] inline-flex items-center gap-[8px] [background:#C8102E] text-[#fff] p-[10px_24px] rounded-[50px] text-[13px] font-semibold [text-decoration:none] [border:none] hover:[background:#8B0A1E] hover:[transform:translateX(5px)] hover:text-[#fff]"
                     >
                       {"Explore audit →"}
                     </SiteLink>
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="service-card p-4 border rounded h-100 bg-white">
-                    <i className="ri-file-copy-line pillar-icon"></i>
-                    <h4>{"ABMS Consultation"}</h4>
-                    <p>
+                <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                  <div className="rounded-[16px] [background:#fff] [border:1px_solid_#e2e8f0] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] p-6 border border-slate-200 rounded-md h-full bg-white">
+                    <Icon
+                      name="file"
+                      className="text-[2.2rem] text-[#C8102E] mb-[1rem] inline-block"
+                    />
+                    <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                      {"ABMS Consultation"}
+                    </h4>
+                    <p className="leading-relaxed mb-4">
                       {
                         "Full implementation, IMS integration, PCA alignment, EDG grant managed."
                       }
                     </p>
                     <SiteLink
                       href="/services.html"
-                      className="service-card-btn"
+                      className="transition-colors hover:text-[#AB052D] inline-flex items-center gap-[8px] [background:#C8102E] text-[#fff] p-[10px_24px] rounded-[50px] text-[13px] font-semibold [text-decoration:none] [border:none] hover:[background:#8B0A1E] hover:[transform:translateX(5px)] hover:text-[#fff]"
                     >
                       {"Explore consulting →"}
                     </SiteLink>
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="service-card p-4 border rounded h-100 bg-white">
-                    <i className="ri-bar-chart-grouped-line pillar-icon"></i>
-                    <h4>{"ABMS Training"}</h4>
-                    <p>
+                <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                  <div className="rounded-[16px] [background:#fff] [border:1px_solid_#e2e8f0] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] p-6 border border-slate-200 rounded-md h-full bg-white">
+                    <Icon
+                      name="user"
+                      className="text-[2.2rem] text-[#C8102E] mb-[1rem] inline-block"
+                    />
+                    <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                      {"ABMS Training"}
+                    </h4>
+                    <p className="leading-relaxed mb-4">
                       {
                         "Lead Auditor (PECB), Internal Auditor, Implementer, Board governance, Staff awareness."
                       }
                     </p>
                     <SiteLink
                       href="/services.html"
-                      className="service-card-btn"
+                      className="transition-colors hover:text-[#AB052D] inline-flex items-center gap-[8px] [background:#C8102E] text-[#fff] p-[10px_24px] rounded-[50px] text-[13px] font-semibold [text-decoration:none] [border:none] hover:[background:#8B0A1E] hover:[transform:translateX(5px)] hover:text-[#fff]"
                     >
                       {"Explore training →"}
                     </SiteLink>
                   </div>
                 </div>
               </div>
-              <div className="alert alert-success border-0 p-4 rounded-3 mb-5">
-                <i
-                  className="ri-government-line fs-3 me-3 float-start"
-                  style={{ color: "#3B6D11" }}
-                ></i>
-                <h5 className="text-dark">
+              <div className="mb-[5px] [background:linear-gradient(135deg,_#EAF3DE,_#d4edbd)] [border-left:5px_solid_#3B6D11] rounded-[16px] mb-4 rounded-md border p-4 border-0 p-6 rounded-lg">
+                <Icon
+                  name="star"
+                  className="text-[#3B6D11] text-[28px] mr-4 float-left"
+                />
+                <h5 className="font-bold leading-tight text-[#2B3944] text-xl text-slate-900">
                   {
                     "EDG / MASA grant — up to 50% co-funding for ISO 37001 consultation"
                   }
                 </h5>
-                <p className="mb-0">
+                <p className="leading-relaxed mb-[0]">
                   {
                     "Enterprise Singapore's EDG covers up to 50% of qualifying ISO 37001 consultation fees for eligible Singapore SMEs. ICFC manages your application before project commencement. Integrated ABMS + ISO 9001 / ISO 27001 projects can qualify for EDG co-funding across all standards in a single application."
                   }
                 </p>
                 <SiteLink
                   href="/contact-us.html"
-                  className="btn btn-success mt-3"
-                  style={{ background: "#3B6D11", padding: "10px 24px" }}
+                  className="transition-colors hover:text-[#AB052D] inline-flex items-center justify-center gap-[10px] p-[10px_24px] text-[14px] font-semibold rounded-[8px] [text-decoration:none] [border:none] [background:#3B6D11] text-[#fff] hover:[background:#2D550D] hover:[transform:translateY(-2px)]"
                 >
                   {"Check eligibility →"}
                 </SiteLink>
               </div>
-              <h3 className="rs-services-details-title mt-40 mb-20">
+              <h3 className="text-[45px] max-[1199px]:text-[40px] max-[991px]:text-[37px] max-[767px]:text-[32px] max-[575px]:text-[27px] mt-[40px] mb-[20px] font-bold">
                 {
                   "ICFC's ABMS audit process — bribery risk mapping to certificate"
                 }
               </h3>
-              <div className="step-timeline">
-                <div className="step-item">
-                  <div className="step-number">{"01. Free briefing"}</div>
-                  <p>{"ABMS scope, PCA obligations, grant eligibility"}</p>
+              <div className="[border-left:3px_solid_#C8102E] pl-[20px] mb-[30px]">
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"01. Free briefing"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
+                    {"ABMS scope, PCA obligations, grant eligibility"}
+                  </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"02. Bribery risk map"}</div>
-                  <p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"02. Bribery risk map"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
                     {"Activities, geographies, third parties — risk register"}
                   </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"03. Gap analysis"}</div>
-                  <p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"03. Gap analysis"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
                     {
                       "Full ISO 37001:2025 gap assessment including 2025 updates"
                     }
                   </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"04. Grant application"}</div>
-                  <p>{"EDG submitted and approved before any billable work"}</p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"04. Grant application"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
+                    {"EDG submitted and approved before any billable work"}
+                  </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"05. Pre-cert audit"}</div>
-                  <p>{"Mock audit — close NCPs before SAC-accredited CB"}</p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"05. Pre-cert audit"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
+                    {"Mock audit — close NCPs before SAC-accredited CB"}
+                  </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"06. Certification"}</div>
-                  <p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"06. Certification"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
                     {"Stage 1 + Stage 2 CB audit — ISO 37001:2025 certificate"}
                   </p>
                 </div>
               </div>
-              <h3 className="rs-services-details-title mt-40 mb-20">
+              <h3 className="text-[45px] max-[1199px]:text-[40px] max-[991px]:text-[37px] max-[767px]:text-[32px] max-[575px]:text-[27px] mt-[40px] mb-[20px] font-bold">
                 {
                   "ABMS consultation — from bribery risk assessment to ISO 37001:2025 certificate"
                 }
               </h3>
-              <div className="step-timeline">
-                <div className="step-item">
-                  <div className="step-number">{"01. Free assessment"}</div>
-                  <p>{"ABMS scope, PCA exposure, grant eligibility check"}</p>
+              <div className="[border-left:3px_solid_#C8102E] pl-[20px] mb-[30px]">
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"01. Free assessment"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
+                    {"ABMS scope, PCA exposure, grant eligibility check"}
+                  </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"02. Grant application"}</div>
-                  <p>{"EDG submitted and approved before any work begins"}</p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"02. Grant application"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
+                    {"EDG submitted and approved before any work begins"}
+                  </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
                     {"03. Bribery risk assessment"}
                   </div>
-                  <p>
+                  <p className="leading-relaxed mb-4">
                     {"Activities, geographies, third parties — risk register"}
                   </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"04. ABMS build"}</div>
-                  <p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"04. ABMS build"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
                     {"Policy, controls, due diligence, whistleblowing, CoI"}
                   </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"05. 2025 updates"}</div>
-                  <p>{"Climate risk, enhanced CoI, compliance culture"}</p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"05. 2025 updates"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
+                    {"Climate risk, enhanced CoI, compliance culture"}
+                  </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"06. Internal audit"}</div>
-                  <p>{"Mock audit and corrective actions before CB"}</p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"06. Internal audit"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
+                    {"Mock audit and corrective actions before CB"}
+                  </p>
                 </div>
-                <div className="step-item">
-                  <div className="step-number">{"07. Certification"}</div>
-                  <p>{"SAC-accredited CB Stage 1 + Stage 2 — certificate"}</p>
+                <div className="mb-[20px]">
+                  <div className="font-extrabold text-[#C8102E] mb-[5px]">
+                    {"07. Certification"}
+                  </div>
+                  <p className="leading-relaxed mb-4">
+                    {"SAC-accredited CB Stage 1 + Stage 2 — certificate"}
+                  </p>
                 </div>
               </div>
-              <h3 className="rs-services-details-title mt-40 mb-20">
+              <h3 className="text-[45px] max-[1199px]:text-[40px] max-[991px]:text-[37px] max-[767px]:text-[32px] max-[575px]:text-[27px] mt-[40px] mb-[20px] font-bold">
                 {"Client outcomes · Singapore"}
               </h3>
-              <div className="row g-4 mb-40">
-                <div className="col-md-4">
-                  <div className="testimonial-card">
-                    <i className="ri-double-quotes-L"></i>
-                    <p className="mt-2">
+              <div className="-mx-3 flex flex-wrap gap-y-6 mb-[40px]">
+                <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                  <div className="p-[1.5rem] rounded-[20px] [background:#fff] shadow-[0_5px_20px_rgba(0,0,0,0.05)] h-full">
+                    <Icon
+                      name="quote"
+                      className="text-[2rem] text-[#C8102E] opacity-[0.3]"
+                    />
+                    <p className="leading-relaxed mb-4">
                       {
                         '"ICFC helped us achieve ISO 37001 certification in eight months — from scratch. Their third-party due diligence framework identified three overseas agents who had never been properly assessed for bribery risk."'
                       }
                     </p>
-                    <p className="fw-bold mb-0 mt-3">
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"— GM, Infrastructure contractor"}
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="testimonial-card">
-                    <i className="ri-double-quotes-L"></i>
-                    <p className="mt-2">
+                <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                  <div className="p-[1.5rem] rounded-[20px] [background:#fff] shadow-[0_5px_20px_rgba(0,0,0,0.05)] h-full">
+                    <Icon
+                      name="quote"
+                      className="text-[2rem] text-[#C8102E] opacity-[0.3]"
+                    />
+                    <p className="leading-relaxed mb-4">
                       {
                         '"Integrated ISO 9001 + ISO 37001 approach meant one project, one EDG grant application, and certification to both standards simultaneously. Total cost was significantly less than budgeted."'
                       }
                     </p>
-                    <p className="fw-bold mb-0 mt-3">
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"— COO, Logistics provider"}
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="testimonial-card">
-                    <i className="ri-double-quotes-L"></i>
-                    <p className="mt-2">
+                <div className="w-full shrink-0 px-3 md:w-[33.33333333333333%]">
+                  <div className="p-[1.5rem] rounded-[20px] [background:#fff] shadow-[0_5px_20px_rgba(0,0,0,0.05)] h-full">
+                    <Icon
+                      name="quote"
+                      className="text-[2rem] text-[#C8102E] opacity-[0.3]"
+                    />
+                    <p className="leading-relaxed mb-4">
                       {
                         '"ICFC\'s ISO 37001:2025 transition audit identified gaps in conflicts of interest register and climate change risk for renewable energy procurement. We transitioned on first attempt."'
                       }
                     </p>
-                    <p className="fw-bold mb-0 mt-3">
+                    <p className="leading-relaxed mb-[0] font-bold">
                       {"— CCO, Energy company"}
                     </p>
                   </div>
                 </div>
               </div>
-              <h3 className="rs-services-details-title mb-10">
+              <h3 className="text-[45px] max-[1199px]:text-[40px] max-[991px]:text-[37px] max-[767px]:text-[32px] max-[575px]:text-[27px] mb-[10px] font-bold">
                 {"Frequently asked questions — ISO 37001 ABMS"}
               </h3>
-              <div className="accordion" id="faqAccordion">
+              <div id="faqAccordion">
                 <AccordionItem
                   title={
                     <>
@@ -561,7 +630,7 @@ function ServicesAreaSection() {
                       }
                     </>
                   }
-                  className="accordion-item"
+                  className="[border:1px_solid_#e2e8f0] rounded-[12px] mb-[16px] overflow-hidden"
                   defaultOpen={false}
                 >
                   {" "}
@@ -577,7 +646,7 @@ function ServicesAreaSection() {
                       }
                     </>
                   }
-                  className="accordion-item"
+                  className="[border:1px_solid_#e2e8f0] rounded-[12px] mb-[16px] overflow-hidden"
                   defaultOpen={false}
                 >
                   {" "}
@@ -593,7 +662,7 @@ function ServicesAreaSection() {
                       }
                     </>
                   }
-                  className="accordion-item"
+                  className="[border:1px_solid_#e2e8f0] rounded-[12px] mb-[16px] overflow-hidden"
                   defaultOpen={false}
                 >
                   {" "}
@@ -609,7 +678,7 @@ function ServicesAreaSection() {
                       }
                     </>
                   }
-                  className="accordion-item"
+                  className="[border:1px_solid_#e2e8f0] rounded-[12px] mb-[16px] overflow-hidden"
                   defaultOpen={false}
                 >
                   {" "}
@@ -618,32 +687,31 @@ function ServicesAreaSection() {
                   }
                 </AccordionItem>
               </div>
-              <div className="bg-soft-red p-5 rounded-4 mt-50 text-center">
-                <h3 className="mb-3">
+              <div className="mt-[50px] [background:rgba(200,16,46,0.05)] rounded-[24px] p-12 text-center">
+                <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl">
                   {"Start your ISO 37001:2025 ABMS journey today"}
                 </h3>
-                <p className="mb-4">
+                <p className="leading-relaxed mb-4">
                   {
                     "Free 30-minute anti-bribery assessment. Honest gap analysis against ISO 37001:2025. PCA and CPIB framework alignment review. EDG grant eligibility check. No obligation."
                   }
                 </p>
-                <div className="d-flex flex-wrap justify-content-center gap-3">
+                <div className="flex flex-wrap justify-center">
                   <SiteLink
                     href="/contact-us.html"
-                    className="btn btn-primary"
-                    style={{ background: "#C8102E" }}
+                    className="transition-colors hover:text-[#AB052D] inline-flex items-center justify-center gap-[10px] p-[12px_28px] text-[14px] font-semibold rounded-[8px] [text-decoration:none] [border:none] [background:#C8102E] text-[#fff] hover:[background:#8B0A1E] hover:[transform:translateY(-2px)]"
                   >
                     {"Book free ABMS assessment →"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="btn btn-outline-primary"
+                    className="transition-colors hover:text-[#AB052D] inline-flex items-center justify-center gap-[10px] p-[12px_28px] text-[14px] font-semibold rounded-[8px] [text-decoration:none] [border:2px_solid_#C8102E] [background:transparent] text-[#C8102E] hover:[background:#C8102E] hover:text-[#fff] hover:[transform:translateY(-2px)]"
                   >
                     {"Check grant eligibility"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="btn btn-outline-primary"
+                    className="transition-colors hover:text-[#AB052D] inline-flex items-center justify-center gap-[10px] p-[12px_28px] text-[14px] font-semibold rounded-[8px] [text-decoration:none] [border:2px_solid_#C8102E] [background:transparent] text-[#C8102E] hover:[background:#C8102E] hover:text-[#fff] hover:[transform:translateY(-2px)]"
                   >
                     {"Get free quote"}
                   </SiteLink>
@@ -659,12 +727,12 @@ function ServicesAreaSection() {
 
 function CtaAreaSection() {
   return (
-    <div className="rs-cta-area rs-cta-six">
-      <div className="container-fluid g-0">
-        <div className="row">
-          <div className="col-xl-12">
-            <div className="rs-cta-content-wrapper">
-              <span className="rs-cta-icon">
+    <div className="mt-[-70px] relative z-[2] [overflow-x:clip]">
+      <div className="w-full px-6 !mx-0 [&>*]:!px-0">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 xl:w-[100%]">
+            <div className="[background:radial-gradient(174.58%_135.27%_at_35.14%_-15.53%,_rgba(47,_62,_75,_0.6)_0%,_rgba(47,_62,_75,_0.036)_100%)] [backdrop-filter:blur(21px)] flex items-center gap-[15px] justify-center pt-[21px] pb-[21px] [padding-inline:15px]">
+              <span className="bg-[#FFFFFF] w-[17px] min-w-[17px] h-[24px] flex items-center justify-center rounded-[4px] max-[575px]:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="6"
@@ -677,12 +745,15 @@ function CtaAreaSection() {
                   ></path>
                 </svg>
               </span>
-              <div className="rs-cta-content">
-                <p>
+              <div className="text-[14px] font-medium">
+                <p className="leading-relaxed text-[rgba(255,_255,_255,_0.8)] text-[14px] font-medium max-[575px]:text-center mb-4">
                   {
                     "ISO 37001:2025 ABMS certification — CPIB endorsed, PCA aligned. "
                   }
-                  <SiteLink href="/contact-us.html">
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] [text-decoration:underline] inline-block hover:text-[#AB052D]"
+                  >
                     {"Start your anti-bribery governance journey today →"}
                   </SiteLink>
                 </p>

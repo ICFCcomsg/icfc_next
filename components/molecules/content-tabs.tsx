@@ -10,10 +10,10 @@ export function ContentTabs({
   const [selected, setSelected] = useState(0);
   const id = useId();
   return (
-    <div className="rs-portfolio-tab-wrapper">
-      <div className="rs-portfolio-tab">
+    <div className="space-y-8">
+      <div>
         <div
-          className="nav nav-pills"
+          className="flex flex-wrap justify-center gap-3"
           role="tablist"
           aria-label="Featured work"
         >
@@ -26,7 +26,7 @@ export function ContentTabs({
               aria-selected={selected === index}
               aria-controls={`${id}-panel-${index}`}
               tabIndex={selected === index ? 0 : -1}
-              className={`nav-link${selected === index ? " active" : ""}`}
+              className={`rounded-full border px-6 py-3 font-semibold transition-colors ${selected === index ? "border-[#AB052D] bg-[#AB052D] text-white" : "border-slate-200 bg-white text-[#2B3944] hover:border-[#AB052D] hover:text-[#AB052D]"}`}
               onClick={() => setSelected(index)}
               onKeyDown={(event) => {
                 if (
@@ -54,7 +54,7 @@ export function ContentTabs({
           ))}
         </div>
       </div>
-      <div className="tab-content">
+      <div>
         {items.map((item, index) => (
           <div
             key={item.label}
@@ -62,7 +62,7 @@ export function ContentTabs({
             id={`${id}-panel-${index}`}
             aria-labelledby={`${id}-tab-${index}`}
             hidden={selected !== index}
-            className={`tab-pane${selected === index ? " show active" : ""}`}
+            className="focus-visible:outline-2 focus-visible:outline-[#AB052D]"
           >
             {item.content}
           </div>

@@ -1,3 +1,4 @@
+import { Icon } from "@/components/atoms/icon";
 import { useId } from "react";
 import type { industries } from "@/lib/industries";
 
@@ -14,49 +15,73 @@ export function IndustryCard({
 }) {
   const id = useId();
   return (
-    <article className={`card${expanded ? " expanded" : ""}`}>
+    <article
+      className={`relative overflow-hidden rounded-2xl border bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl before:absolute before:inset-x-0 before:top-0 before:h-1 before:bg-gradient-to-r before:from-[#AB052D] before:to-rose-500 ${expanded ? "border-[#AB052D] before:opacity-100" : "border-slate-200 before:opacity-25"}`}
+    >
       <button
         type="button"
-        className="card-inner native-industry-trigger"
+        className="block w-full bg-transparent p-5 text-left focus-visible:outline-2 focus-visible:-outline-offset-4 focus-visible:outline-[#AB052D] lg:p-7"
         aria-expanded={expanded}
         aria-controls={id}
         onClick={onToggle}
       >
-        <span className="card-header">
-          <span className="icon-box-large">
-            <i className={industry.icon} aria-hidden="true" />
+        <span className="flex items-start gap-4">
+          <span className="flex size-14 shrink-0 items-center justify-center rounded-2xl border border-rose-200 bg-rose-50 text-2xl text-[#AB052D]">
+            <Icon name={industry.icon} />
           </span>
-          <span className="card-meta">
-            <span className="card-title">{industry.name}</span>
-            <span className="card-cagr">{industry.cagr}</span>
-            <span className="card-sub">{industry.sub}</span>
-            <span className="badge-strip">
+          <span className="min-w-0 flex-1">
+            <span className="mb-1.5 block text-xl font-bold tracking-tight text-slate-900">
+              {industry.name}
+            </span>
+            <span className="mb-2 inline-block rounded-full bg-green-100 px-2.5 py-1 text-[11px] font-semibold text-green-800 uppercase">
+              {industry.cagr}
+            </span>
+            <span className="block text-sm leading-relaxed text-slate-600">
+              {industry.sub}
+            </span>
+            <span className="mt-3.5 flex flex-wrap gap-2">
               {industry.standards.map((standard) => (
-                <span key={standard} className="mini-standard">
+                <span
+                  key={standard}
+                  className="rounded-full bg-slate-100 px-2.5 py-1 text-[11px] font-semibold text-slate-800"
+                >
                   {standard}
                 </span>
               ))}
             </span>
           </span>
-          <span className="expand-arrow">
-            <i className="ri-arrow-down-s-line" aria-hidden="true" />
+          <span
+            className={`${expanded ? "rotate-180" : ""} ml-auto flex size-8 shrink-0 items-center justify-center rounded-full border border-slate-200 bg-slate-100 text-lg text-slate-500 transition-transform`}
+          >
+            <Icon name="down" />
           </span>
         </span>
       </button>
-      <div id={id} className="details" hidden={!expanded}>
-        <p className="det-label">Priority Standards</p>
-        <div className="iso-row">
+      <div
+        id={id}
+        className="border-t border-slate-100 px-5 pt-5 pb-5 lg:px-7 lg:pb-7"
+        hidden={!expanded}
+      >
+        <p className="mb-3 text-xs font-bold tracking-wider text-slate-500 uppercase">
+          Priority Standards
+        </p>
+        <div className="mb-5 flex flex-wrap gap-2">
           {industry.standards.map((standard, index) => (
             <span
               key={standard}
-              className={`iso-tag ${["t-blue", "t-green", "t-amber", "t-purple", "t-red"][index % 5]}`}
+              className={`rounded-full px-3.5 py-1 text-xs font-semibold ${["bg-blue-50 text-blue-800", "bg-green-50 text-green-800", "bg-amber-50 text-amber-700", "bg-purple-50 text-purple-800", "bg-red-50 text-red-800"][index % 5]}`}
             >
               {standard}
             </span>
           ))}
         </div>
-        <p className="why-text">{industry.why}</p>
-        <a className="cta-mini" href="/contact-us.html">
+        <p className="mb-5 text-sm leading-relaxed text-slate-700">
+          {industry.why}
+        </p>
+        <a
+          className="inline-flex items-center gap-2 rounded-full bg-[#AB052D] px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#8E0425]"
+          href="/contact-us.html"
+        >
           Get ISO Guidance ↗
         </a>
       </div>

@@ -1,3 +1,4 @@
+import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { SiteImage } from "@/components/atoms/site-image";
@@ -6,24 +7,7 @@ import { EmailForm } from "@/components/molecules/email-form";
 
 export function Bloggreenplan2030PageContent() {
   return (
-    <SitePageTemplate
-      route="blogGreenPlan2030.html"
-      stylesheets={[
-        "/assets/css/vendor/bootstrap.min.css",
-        "/assets/css/vendor/animate.min.css",
-        "/assets/css/plugins/swiper.min.css",
-        "/assets/css/plugins/nice-select.css",
-        "/assets/css/plugins/flatpickr.min.css",
-        "/assets/css/plugins/nouislider.min.css",
-        "/assets/css/vendor/magnific-popup.css",
-        "/assets/css/vendor/odometer.min.css",
-        "/assets/css/vendor/spacing.css",
-        "https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css",
-        "/assets/css/main.css",
-        "/assets/css/whatsapp-float.css",
-        "/styles/pages/bloggreenplan2030.css",
-      ]}
-    >
+    <SitePageTemplate route="blogGreenPlan2030.html">
       <main>
         <BreadcrumbAreaSection />
         <PostboxAreaSection />
@@ -38,57 +22,63 @@ function BreadcrumbAreaSection() {
       title="Singapore Green Plan 2030 and ISO 14001: what manufacturers need to do now"
       description="Carbon tax S$45/t, mandatory energy management, waste reduction targets – the ISO 14001 roadmap for manufacturers"
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
-      className="rs-breadcrumb-area rs-breadcrumb-one p-relative section-space"
     />
   );
 }
 
 function PostboxAreaSection() {
   return (
-    <section className="rs-postbox-area section-space">
-      <div className="container">
-        <div className="row g-5">
-          <div className="col-xl-8 col-lg-7">
-            <div className="rs-postbox-details-wrapper">
-              <div className="rs-post-meta">
-                <ul>
-                  <li>
-                    <span className="rs-meta">
-                      <span className="rs-meta-thumb">
+    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
+      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
+        <div className="-mx-3 flex flex-wrap gap-y-6">
+          <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%] lg:w-[58.333333333333336%]">
+            <div>
+              <div>
+                <ul className="flex gap-[20px] items-center max-[1600px]:flex-wrap">
+                  <li className="list-none">
+                    <span className="flex items-center gap-[8px] text-[13px]">
+                      <span>
                         <SiteImage
                           src="/assets/images/blog/details/blog-details-01.webp"
                           alt=""
+                          className="max-w-full h-auto w-[40px] h-[40px] rounded-full"
                         />
                       </span>
-                      <span className="rs-meta-content">
+                      <span>
                         {"By "}
-                        <SiteLink href="/contact-us.html">
+                        <SiteLink
+                          href="/contact-us.html"
+                          className="transition-colors hover:text-[#AB052D]"
+                        >
                           {"ICFC Pte Ltd"}
                         </SiteLink>
                       </span>
                     </span>
                   </li>
-                  <li>
-                    <span className="rs-meta">
-                      <svg width="14" height="16">
+                  <li className="list-none">
+                    <span className="flex items-center gap-[8px] text-[13px]">
+                      <svg width="14" height="16" className="w-[15px] h-[15px]">
                         <path
                           d="M4.33447 3.8335C4.06114 3.8335 3.83447 3.60683 3.83447 3.3335V1.3335C3.83447 1.06016 4.06114 0.833496 4.33447 0.833496C4.60781 0.833496 4.83447 1.06016 4.83447 1.3335V3.3335C4.83447 3.60683 4.60781 3.8335 4.33447 3.8335Z"
                           fill="white"
+                          className="[fill:#AB052D]"
                         ></path>
                       </svg>
                       <span>{"April 2026"}</span>
                     </span>
                   </li>
-                  <li>
-                    <span className="rs-meta">
-                      <svg width="12" height="12">
+                  <li className="list-none">
+                    <span className="flex items-center gap-[8px] text-[13px]">
+                      <svg width="12" height="12" className="w-[15px] h-[15px]">
                         <path
                           d="M6 12C9.30799 12 12 9.30799 12 6C12 2.69201 9.30803 0 6 0C2.69197 0 0 2.69201 0 6C0 9.30799 2.69201 12 6 12Z"
                           fill="#616C74"
+                          className="[fill:#AB052D]"
                         ></path>
                         <path
                           d="M7.74961 7.9119C7.82362 7.97189 7.91159 7.99991 7.9996 7.99991C8.05955 8.00003 8.11874 7.9866 8.17277 7.96063C8.22679 7.93465 8.27425 7.89681 8.31159 7.84991C8.44959 7.6779 8.42157 7.4259 8.2496 7.2879L6.3996 5.8079V2.7999C6.3996 2.57989 6.21961 2.3999 5.9996 2.3999C5.7796 2.3999 5.59961 2.57989 5.59961 2.7999V5.99991C5.59961 6.12192 5.65562 6.23591 5.74961 6.31189L7.74961 7.9119Z"
                           fill="#616C74"
+                          className="[fill:#AB052D]"
                         ></path>
                       </svg>
                       <span>{"12 min read"}</span>
@@ -96,8 +86,8 @@ function PostboxAreaSection() {
                   </li>
                 </ul>
               </div>
-              <div className="rs-postbox-details-content">
-                <p>
+              <div>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Published by ICFC Pte Ltd"}</strong>
                   {" | April 2026 | 12 min read"}
                   <br />
@@ -107,39 +97,39 @@ function PostboxAreaSection() {
                   }
                 </p>
                 <hr />
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "Singapore's manufacturers are operating in a fundamentally changed regulatory environment. What was voluntary two years ago is now either mandatory or on a firm legislative path to becoming so. Carbon taxes are rising sharply. SGX climate disclosure requirements are expanding. Supply chains are under sustained pressure from multinational buyers demanding Scope 3 emissions data. And the Singapore Green Plan 2030 — five years into its ten-year arc — is accelerating, not slowing."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "For manufacturers in Singapore, the question is no longer whether to take environmental management seriously. It is whether the system you currently have in place is structured, measurable, and defensible — to your regulators, your customers, and your investors."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "ISO 14001 is the international framework that makes environmental management systematic. This article explains exactly what Singapore manufacturers need to understand about the regulatory landscape, what ISO 14001 requires, where the two frameworks converge, and — most importantly — what you need to do now."
                   }
                 </p>
-                <div className="postbox-highlight-box">
+                <div className="[background:#f0f9f4] [border-left:4px_solid_#2e7d32] p-[1.5rem_1.8rem] m-[1.8rem_0] rounded-[0_16px_16px_0]">
                   <strong>{"📌 Carbon tax alert (2026):"}</strong>
                   {
                     " S$45 per tonne of CO₂e from 1 Jan 2026 (up from S$25). Facilities emitting ≥25,000 tCO₂e are directly liable. Impact cascades through supply chains. ISO 14001 provides the systematic framework to measure, manage and reduce emissions.\n                                "
                   }
                 </div>
-                <h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
                   {
                     "The regulatory landscape: what has changed and what is coming"
                   }
                 </h4>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Singapore Green Plan 2030"}</strong>
                   {
                     " – launched in February 2021, targeting net-zero by 2050. For manufacturers, the Green Economy and Energy Reset pillars are key: reduce energy intensity, resource efficiency, cut waste to Semakau Landfill by 30% by 2030."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {"Carbon tax: S$45 per tonne from 1 January 2026"}
                   </strong>
@@ -147,35 +137,37 @@ function PostboxAreaSection() {
                     " – up 80% from 2024's S$25, moving to S$50–80 by 2030. Creates direct liability for high emitters and cascading cost pressure on all manufacturers via energy prices and supply chain qualification."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"SGX mandatory climate disclosure in force"}</strong>
                   {
                     " – Listed companies report Scope 1 & 2 from FY2025, STI constituents Scope 3 from FY2026. Non-listed large companies will follow from 2030. Manufacturers in supply chains of listed firms are already asked for emissions data."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Energy Conservation Act (ECA)"}</strong>
                   {
                     " – Facilities consuming ≥54 TJ/year (≈15,000 MWh) must implement structured Energy Management System aligning with ISO 50001."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Waste reduction obligations"}</strong>
                   {
                     " – target 30% reduction to Semakau Landfill by 2030, with packaging/resource efficiency regulations tightening."
                   }
                 </p>
-                <h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
                   {
                     "What is ISO 14001, and why does it matter for Singapore manufacturers?"
                   }
                 </h4>
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "ISO 14001:2015 is the international standard for Environmental Management Systems (EMS). It provides a risk-based Plan-Do-Check-Act framework to identify significant environmental aspects, set objectives, implement controls, and drive continual improvement. Certification is independent and audited – a credible signal to customers, regulators and partners."
                   }
                 </p>
-                <h4>{"Who needs ISO 14001 in Singapore manufacturing?"}</h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Who needs ISO 14001 in Singapore manufacturing?"}
+                </h4>
                 <ul>
                   <li>
                     {
@@ -193,10 +185,10 @@ function PostboxAreaSection() {
                     }
                   </li>
                 </ul>
-                <h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
                   {"How ISO 14001 maps to Singapore's Green Plan obligations"}
                 </h4>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {
                       "Clause 6.1 – Environmental aspects → carbon tax & emissions:"
@@ -206,7 +198,7 @@ function PostboxAreaSection() {
                     " ISO 14001 requires identification of significant aspects (GHG emissions, energy, waste). This creates baseline data for Carbon Pricing Act reports and SGX disclosures."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {
                       "Clause 6.2 – Environmental objectives → decarbonisation plans:"
@@ -216,7 +208,7 @@ function PostboxAreaSection() {
                     " Set measurable targets aligned with Green Plan, forming auditable evidence of climate governance."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {"Annex A controls – waste, chemicals, NEA compliance:"}
                   </strong>
@@ -224,7 +216,7 @@ function PostboxAreaSection() {
                     " Documented procedures for waste segregation, scheduled waste consignment, spill response – directly mapping to EPMA regulations."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {
                       "Clause 9 – Performance evaluation → SGX sustainability data:"
@@ -234,7 +226,7 @@ function PostboxAreaSection() {
                     " Monitoring and internal audit infrastructure provides reliable Scope 1 & 2 data for disclosure and customer reporting."
                   }
                 </p>
-                <div className="postbox-highlight-box">
+                <div className="[background:#f0f9f4] [border-left:4px_solid_#2e7d32] p-[1.5rem_1.8rem] m-[1.8rem_0] rounded-[0_16px_16px_0]">
                   <strong>
                     {"⚠️ Where ISO 14001 alone is not sufficient:"}
                   </strong>
@@ -242,14 +234,16 @@ function PostboxAreaSection() {
                     " Carbon Pricing Act requires NEA-specific measurement methodology; ECA demands formal energy efficiency opportunity assessments; NEA scheduled waste documentation (consignment notes) must be embedded; Scope 3 supply chain data requires separate methodology. ICFC bridges these gaps.\n                                "
                   }
                 </div>
-                <h4>{"Three scenarios: why act now"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Three scenarios: why act now"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   <strong>{"1. Directly liable for carbon tax"}</strong>
                   {
                     " – Paying S$45/tCO₂e (rising further). ISO 14001 gives systematic framework to identify emission reductions, set targets, and track progress; aligns with ICC usage up to 5% offset."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {"2. Supplier to SGX-listed or multinational brands"}
                   </strong>
@@ -257,26 +251,26 @@ function PostboxAreaSection() {
                     " – ISO 14001 demonstrates audited environmental management, provides reliable Scope 1 & 2 data for customers' Scope 3, and is becoming baseline expectation for procurement panels."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"3. Bidding for government contracts"}</strong>
                   {
                     " – GreenGov.SG embeds sustainability criteria. ISO 14001 certification is increasingly weighted or mandatory."
                   }
                 </p>
-                <h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
                   {
                     "ISO 14001 + ISO 50001: the efficient combination for manufacturers"
                   }
                 </h4>
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "For ECA-liable manufacturers, integrated ISO 14001 & ISO 50001 implementation reduces duplication by ~30-40%: shared High Level Structure, single internal audit and management review. ISO 50001 directly addresses energy performance improvement to cut carbon tax exposure."
                   }
                 </p>
-                <h4>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
                   {"ISO 14001 implementation roadmap (typical 4–6 months)"}
                 </h4>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Phase 1:"}</strong>
                   {" Environmental review & gap analysis (weeks 1-3)"}
                   <br />
@@ -298,8 +292,10 @@ function PostboxAreaSection() {
                   <strong>{"Phase 7:"}</strong>
                   {" Certification audit (Stage 1 & 2)"}
                 </p>
-                <h4>{"Funding your ISO 14001 implementation"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Funding your ISO 14001 implementation"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   {
                     "Enterprise Singapore EDG (Standards Adoption) covers up to 50% qualifying costs for SMEs, with enhanced 70% for sustainability standards until 31 March 2026 (ISO 14001, ISO 50001). Qualifying costs include consultant fees (TR43/SS680 certified), internal manpower, and relevant software. "
                   }
@@ -308,8 +304,10 @@ function PostboxAreaSection() {
                     " apply before any project work commences. Enterprise Sustainability Programme (ESP) also links to bank ESG programmes (DBS, UOB, OCBC) providing financing benefits alongside certification."
                   }
                 </p>
-                <h4>{"Frequently asked questions"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"Frequently asked questions"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {"Does ISO 14001 satisfy Carbon Pricing Act reporting?"}
                   </strong>
@@ -317,13 +315,13 @@ function PostboxAreaSection() {
                     " Not directly – CPA requires NEA's methodology. But ISO 14001 provides the monitoring and data collection infrastructure. ICFC implements CPA-aligned procedures within EMS."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"Is ISO 14001 mandatory for manufacturers?"}</strong>
                   {
                     " Not by law for most, but ECA mandates EMS for large energy users, government procurement increasingly requires it, and supply chain pressure makes it commercial necessity."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>
                     {"Can a small manufacturer implement ISO 14001?"}
                   </strong>
@@ -331,36 +329,41 @@ function PostboxAreaSection() {
                     " Yes – scalable. ICFC has implemented for 10-person workshops to multinational chemical plants."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"ISO 14001 + ISO 50001 together?"}</strong>
                   {
                     " Highly recommended for ECA-liable manufacturers. Integrated system reduces total effort by ~30–40%."
                   }
                 </p>
-                <h4>{"The bottom line"}</h4>
-                <p>
+                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                  {"The bottom line"}
+                </h4>
+                <p className="leading-relaxed mb-4">
                   {
                     "Singapore Green Plan 2030 is reshaping manufacturing through carbon tax escalation, mandatory reporting, waste reduction, and procurement requirements. ISO 14001 gives manufacturers the management system to respond systematically – identify risks, set credible targets, implement controls, monitor performance and demonstrate accountability. Carbon tax at S$45/t is already here. Act proactively."
                   }
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   {
                     "ICFC offers a complimentary gap assessment for manufacturers to map current practices against ISO 14001 and Green Plan obligations."
                   }
                 </p>
                 <hr />
-                <p>
+                <p className="leading-relaxed mb-4">
                   <strong>{"About ICFC Pte Ltd"}</strong>
                   <br />
                   {
                     "Since 2014, Singapore's ISO certification partner. We provide ISO consultation, third-party audit, and training across 25 industries. Environmental & sustainability practice: ISO 14001, ISO 50001, ISO 14064, integrated management systems. Contact: "
                   }
-                  <SiteLink href="mailto:admin@icfc.com.sg">
+                  <SiteLink
+                    href="mailto:admin@icfc.com.sg"
+                    className="transition-colors hover:text-[#AB052D]"
+                  >
                     {"admin@icfc.com.sg"}
                   </SiteLink>
                   {" | +65 8601 7001."}
                 </p>
-                <p>
+                <p className="leading-relaxed mb-4">
                   <em>
                     {
                       "© 2026 ICFC Pte Ltd. This article is for informational purposes only. Regulatory requirements, carbon tax rates, and grant terms subject to change. Refer to NEA, MSE, Enterprise Singapore official sources."
@@ -368,54 +371,96 @@ function PostboxAreaSection() {
                   </em>
                 </p>
               </div>
-              <div className="rs-postbox-details-social mt-40">
-                <div className="rs-postbox-details-tags tagcloud">
-                  <span>{"Tags:"}</span>
-                  <SiteLink href="/contact-us.html">
+              <div className="items-center justify-between flex gap-[30px] flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1] pt-[20px] pb-[20px] mt-[40px]">
+                <div className="items-center flex flex-wrap gap-[12px]">
+                  <span className="font-semibold [padding-inline-end:10px] text-[#2B3944]">
+                    {"Tags:"}
+                  </span>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
                     {"Green Plan 2030"}
                   </SiteLink>
-                  <SiteLink href="/contact-us.html">{"ISO 14001"}</SiteLink>
-                  <SiteLink href="/contact-us.html">{"Carbon Tax"}</SiteLink>
-                  <SiteLink href="/contact-us.html">{"Manufacturing"}</SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"ISO 14001"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"Carbon Tax"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"Manufacturing"}
+                  </SiteLink>
                 </div>
-                <div className="rs-postbox-social">
-                  <span>{"Share:"}</span>
-                  <div className="rs-theme-social">
-                    <SiteLink href="/contact-us.html">
-                      <i className="ri-facebook-fill"></i>
+                <div>
+                  <span className="font-semibold [padding-inline-end:10px] text-[#2B3944]">
+                    {"Share:"}
+                  </span>
+                  <div className="gap-[15px]">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                    >
+                      <Icon name="facebook" />
                     </SiteLink>
-                    <SiteLink href="/contact-us.html">
-                      <i className="ri-twitter-x-fill"></i>
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                    >
+                      <Icon name="x" />
                     </SiteLink>
-                    <SiteLink href="/contact-us.html">
-                      <i className="ri-linkedin-fill"></i>
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                    >
+                      <Icon name="linkedin" />
                     </SiteLink>
                   </div>
                 </div>
               </div>
-              <div className="rs-postbox-comment-form">
-                <h3>{"Leave a Comment"}</h3>
+              <div>
+                <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl">
+                  {"Leave a Comment"}
+                </h3>
                 <EmailForm>
-                  <div className="row g-4">
-                    <div className="col-xl-6">
+                  <div className="-mx-3 flex flex-wrap gap-y-6">
+                    <div className="w-full shrink-0 px-3 xl:w-[50%]">
                       <input
                         type="text"
                         placeholder="Your Name"
                         aria-label="Your Name"
+                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
                       />
                     </div>
-                    <div className="col-xl-6">
+                    <div className="w-full shrink-0 px-3 xl:w-[50%]">
                       <input
                         type="email"
                         placeholder="Your Email"
                         aria-label="Your Email"
+                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
                       />
                     </div>
-                    <div className="col-xl-12">
-                      <textarea placeholder="Write Message" defaultValue="" />
+                    <div className="w-full shrink-0 px-3 xl:w-[100%]">
+                      <textarea
+                        placeholder="Write Message"
+                        defaultValue=""
+                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
+                      />
                     </div>
-                    <div className="col-xl-12">
-                      <button type="submit" className="rs-btn">
+                    <div className="w-full shrink-0 px-3 xl:w-[100%]">
+                      <button
+                        type="submit"
+                        className="text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#AB052D] hover:[background:#2B3944] hover:text-[#FFFFFF]"
+                      >
                         {"Post Comment"}
                       </button>
                     </div>
@@ -424,19 +469,22 @@ function PostboxAreaSection() {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4">
-            <div className="rs-sidebar-wrapper rs-sidebar-sticky">
-              <div className="sidebar-widget mb-30">
-                <h5>{"Search"}</h5>
-                <div className="sidebar-search">
+          <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%]">
+            <div className="sticky top-[110px] max-[991px]:relative max-[991px]:top-[unset]">
+              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px] mb-[30px]">
+                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                  {"Search"}
+                </h5>
+                <div>
                   <EmailForm>
-                    <div className="sidebar-search-input">
+                    <div className="relative">
                       <input
                         type="text"
                         placeholder="Search..."
                         aria-label="Search..."
+                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D] [padding-inline-end:50px] [background:#FFFFFF] [border:1px_solid_#ddd] h-[60px]"
                       />
-                      <button>
+                      <button className="absolute top-[50%] [inset-inline-end:25px] text-[#000] text-[16px] [transform:translateY(-50%)] hover:text-[#AB052D]">
                         <svg width="18" height="18">
                           <path
                             d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
@@ -454,45 +502,82 @@ function PostboxAreaSection() {
                   </EmailForm>
                 </div>
               </div>
-              <div className="sidebar-widget mb-30">
-                <h5>{"Categories"}</h5>
+              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px] mb-[30px]">
+                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                  {"Categories"}
+                </h5>
                 <ul>
                   <li>
-                    <SiteLink href="/contact-us.html">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D]"
+                    >
                       {"Sustainability "}
                       <span>{"(8)"}</span>
                     </SiteLink>
                   </li>
                   <li>
-                    <SiteLink href="/contact-us.html">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D]"
+                    >
                       {"ISO 14001 "}
                       <span>{"(6)"}</span>
                     </SiteLink>
                   </li>
                   <li>
-                    <SiteLink href="/contact-us.html">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D]"
+                    >
                       {"Manufacturing "}
                       <span>{"(5)"}</span>
                     </SiteLink>
                   </li>
                   <li>
-                    <SiteLink href="/contact-us.html">
+                    <SiteLink
+                      href="/contact-us.html"
+                      className="transition-colors hover:text-[#AB052D]"
+                    >
                       {"Carbon Tax "}
                       <span>{"(4)"}</span>
                     </SiteLink>
                   </li>
                 </ul>
               </div>
-              <div className="sidebar-widget">
-                <h5>{"Popular Tags"}</h5>
-                <div className="tagcloud">
-                  <SiteLink href="/contact-us.html">{"Green Plan"}</SiteLink>
-                  <SiteLink href="/contact-us.html">
+              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px]">
+                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+                  {"Popular Tags"}
+                </h5>
+                <div className="flex flex-wrap gap-[12px]">
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"Green Plan"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
                     {"ISO 14001:2015"}
                   </SiteLink>
-                  <SiteLink href="/contact-us.html">{"EMS"}</SiteLink>
-                  <SiteLink href="/contact-us.html">{"EDG Grant"}</SiteLink>
-                  <SiteLink href="/contact-us.html">
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"EMS"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
+                    {"EDG Grant"}
+                  </SiteLink>
+                  <SiteLink
+                    href="/contact-us.html"
+                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                  >
                     {"Energy Efficiency"}
                   </SiteLink>
                 </div>

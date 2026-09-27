@@ -1,4 +1,5 @@
 "use client";
+import { Icon } from "@/components/atoms/icon";
 
 import { useState } from "react";
 import { Modal } from "@/components/atoms/modal";
@@ -31,8 +32,8 @@ export function SiteHeader({ route }: { route: string }) {
     return href === `/${route}`;
   }
   return (
-    <header className="native-site-header rs-header-area rs-header-one">
-      <div className="rs-header-top">
+    <header className="sticky top-0 z-50 bg-[#2B3944] text-white">
+      <div className="flex justify-between gap-4 bg-[#AB052D] px-4 py-2 text-xs md:px-6 md:py-3 md:text-sm [&>div]:hidden [&>div]:gap-6 md:[&>div]:flex [&_a]:text-white [&_a]:underline">
         <span>
           {copy.top.obstacle_text}{" "}
           <SiteLink href="/contact-us.html">{copy.top.connect_link}</SiteLink>
@@ -46,8 +47,12 @@ export function SiteHeader({ route }: { route: string }) {
           </SiteLink>
         </div>
       </div>
-      <div className="native-header-bar header-wrapper">
-        <SiteLink href="/" className="header-logo" aria-label="ICFC home">
+      <div className="flex items-center justify-between gap-3 px-4 py-4 md:gap-6 md:px-6 md:py-5">
+        <SiteLink
+          href="/"
+          className="shrink-0 [&_img]:w-28 md:[&_img]:w-[150px] [&_img]:h-auto"
+          aria-label="ICFC home"
+        >
           <SiteImage
             src="/assets/images/logo/logo.png"
             alt="ICFC"
@@ -55,12 +60,12 @@ export function SiteHeader({ route }: { route: string }) {
           />
         </SiteLink>
         <nav
-          className="main-menu native-desktop-nav"
+          className="hidden xl:block [&_ul]:flex [&_ul]:items-center [&_ul]:gap-7 [&_a]:text-white [&_a]:hover:text-[#C8102E] [&_a[aria-current]]:text-[#C8102E]"
           aria-label="Main navigation"
         >
           <ul>
             {navigation.map(([label, href]) => (
-              <li key={href} className={isCurrent(href) ? "active" : ""}>
+              <li key={href}>
                 <SiteLink
                   href={href}
                   aria-current={isCurrent(href) ? "page" : undefined}
@@ -71,9 +76,9 @@ export function SiteHeader({ route }: { route: string }) {
             ))}
           </ul>
         </nav>
-        <div className="native-header-actions">
+        <div className="flex items-center gap-2 md:gap-4">
           <select
-            className="native-language-select"
+            className="max-w-16 rounded-md border border-white/20 bg-[#2B3944] p-2 text-xs text-white md:max-w-28 md:text-sm"
             aria-label={copy.header.language_label}
             value={language}
             onChange={(event) =>
@@ -88,40 +93,40 @@ export function SiteHeader({ route }: { route: string }) {
           </select>
           <SiteLink
             href="/contact-us.html"
-            className="rs-btn has-icon has-transparent has-border has-radius native-quote"
+            className="hidden items-center gap-3 whitespace-nowrap rounded-full border border-white/20 px-6 py-3 text-white transition-colors hover:bg-[#AB052D] md:inline-flex"
           >
             {copy.header.get_quote} ↗
           </SiteLink>
           <button
-            className="native-round-button"
+            className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-12"
             type="button"
             aria-label="Search site"
             onClick={() => setPanel("search")}
           >
-            <i className="ri-search-line" aria-hidden="true" />
+            <Icon name="search" />
           </button>
           <button
-            className="native-round-button"
+            className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-12"
             type="button"
             aria-label="Open navigation menu"
             aria-expanded={panel === "menu"}
             onClick={() => setPanel("menu")}
           >
-            <i className="ri-menu-line" aria-hidden="true" />
+            <Icon name="menu" />
           </button>
         </div>
       </div>
       {panel && (
         <Modal
           label={panel === "menu" ? "Navigation menu" : "Search site"}
-          className="native-header-panel"
+          className="fixed inset-y-0 right-0 left-auto m-0 h-dvh max-h-dvh w-[430px] max-w-full overflow-y-auto border-0 bg-white p-10 text-[#2B3944] backdrop:bg-black/50 [&_h2]:mb-6 [&_h2]:text-3xl [&_h2]:font-bold [&_nav]:my-6 [&_nav]:grid [&_nav]:gap-5 [&_nav_a]:text-xl [&_a[aria-current]]:text-[#AB052D] [&_input]:w-full [&_input]:rounded-lg [&_input]:border [&_input]:border-slate-300 [&_input]:p-3"
           onClose={() => setPanel(null)}
         >
           <button
             type="button"
             autoFocus
             aria-label="Close panel"
-            className="native-panel-close"
+            className="absolute top-3 right-4 text-3xl text-[#2B3944] hover:text-[#AB052D]"
             onClick={() => setPanel(null)}
           >
             ×

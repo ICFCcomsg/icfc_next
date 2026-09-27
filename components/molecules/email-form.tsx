@@ -20,7 +20,7 @@ export function EmailForm({
       <form {...props} aria-describedby={hintId} onSubmit={submit}>
         {children}
       </form>
-      <p id={hintId} className="native-email-hint">
+      <p id={hintId} className="mt-2.5 text-xs leading-relaxed">
         Submitting opens your email app with a draft.
       </p>
     </>

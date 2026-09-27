@@ -2,7 +2,7 @@ export const industries = [
   {
     name: "FinTech",
     category: "digital",
-    icon: "ri-bank-card-line",
+    icon: "card",
     sub: "Secure digital finance and payment ecosystems.",
     cagr: "CAGR 18%",
     standards: ["ISO 27001", "ISO 22301", "ISO 20000"],
@@ -11,7 +11,7 @@ export const industries = [
   {
     name: "HealthTech",
     category: "health",
-    icon: "ri-heart-pulse-line",
+    icon: "heart",
     sub: "Digital health platforms and patient-tech services.",
     cagr: "CAGR 16%",
     standards: ["ISO 13485", "ISO 27001", "ISO 9001"],
@@ -20,7 +20,7 @@ export const industries = [
   {
     name: "Logistics",
     category: "services",
-    icon: "ri-truck-line",
+    icon: "truck",
     sub: "Modern supply chain and delivery operations.",
     cagr: "CAGR 12%",
     standards: ["ISO 9001", "ISO 28000", "ISO 14001"],
@@ -29,7 +29,7 @@ export const industries = [
   {
     name: "Manufacturing",
     category: "industry",
-    icon: "ri-building-2-line",
+    icon: "building",
     sub: "Smart and process-driven production facilities.",
     cagr: "CAGR 10%",
     standards: ["ISO 9001", "ISO 14001", "ISO 45001"],
@@ -38,7 +38,7 @@ export const industries = [
   {
     name: "Construction",
     category: "industry",
-    icon: "ri-hammer-line",
+    icon: "hammer",
     sub: "Projects requiring strict safety and quality control.",
     cagr: "CAGR 9%",
     standards: ["ISO 9001", "ISO 45001", "ISO 14001"],
@@ -47,7 +47,7 @@ export const industries = [
   {
     name: "E-Commerce",
     category: "digital",
-    icon: "ri-shopping-bag-3-line",
+    icon: "shopping",
     sub: "Fast-growth online retail and marketplaces.",
     cagr: "CAGR 20%",
     standards: ["ISO 27001", "ISO 9001", "ISO 22301"],
@@ -56,7 +56,7 @@ export const industries = [
   {
     name: "SaaS Platforms",
     category: "digital",
-    icon: "ri-cloud-line",
+    icon: "cloud",
     sub: "Cloud-native products with global user bases.",
     cagr: "CAGR 22%",
     standards: ["ISO 27001", "ISO 20000", "ISO 22301"],
@@ -65,7 +65,7 @@ export const industries = [
   {
     name: "Food & Beverage",
     category: "industry",
-    icon: "ri-restaurant-line",
+    icon: "food",
     sub: "Processing and distribution for food safety compliance.",
     cagr: "CAGR 8%",
     standards: ["ISO 22000", "ISO 9001", "ISO 14001"],
@@ -74,7 +74,7 @@ export const industries = [
   {
     name: "Education Services",
     category: "services",
-    icon: "ri-graduation-cap-line",
+    icon: "education",
     sub: "Institutes modernizing quality and data practices.",
     cagr: "CAGR 11%",
     standards: ["ISO 21001", "ISO 27001", "ISO 9001"],
@@ -83,7 +83,7 @@ export const industries = [
   {
     name: "Professional Consulting",
     category: "services",
-    icon: "ri-briefcase-4-line",
+    icon: "briefcase",
     sub: "Advisory firms scaling standardized delivery.",
     cagr: "CAGR 13%",
     standards: ["ISO 9001", "ISO 27001", "ISO 22301"],
@@ -92,7 +92,7 @@ export const industries = [
   {
     name: "Renewable Energy",
     category: "sustainability",
-    icon: "ri-leaf-line",
+    icon: "leaf",
     sub: "Clean energy operations and sustainability programs.",
     cagr: "CAGR 19%",
     standards: ["ISO 14001", "ISO 50001", "ISO 45001"],
@@ -101,7 +101,7 @@ export const industries = [
   {
     name: "Oil & Gas",
     category: "sustainability",
-    icon: "ri-flask-line",
+    icon: "flask",
     sub: "High-risk operations with strict compliance demands.",
     cagr: "CAGR 7%",
     standards: ["ISO 45001", "ISO 14001", "ISO 9001"],

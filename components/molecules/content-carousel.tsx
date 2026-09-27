@@ -1,7 +1,16 @@
 "use client";
-
 import { useRef, type ReactNode } from "react";
+import { Icon } from "@/components/atoms/icon";
 
+const widths = [
+  "",
+  "xl:[&>*]:basis-full",
+  "xl:[&>*]:basis-[calc((100%-24px)/2)]",
+  "xl:[&>*]:basis-[calc((100%-48px)/3)]",
+  "xl:[&>*]:basis-[calc((100%-72px)/4)]",
+  "xl:[&>*]:basis-[calc((100%-96px)/5)]",
+  "xl:[&>*]:basis-[calc((100%-120px)/6)]",
+];
 export function ContentCarousel({
   children,
   items = 3,
@@ -17,31 +26,25 @@ export function ContentCarousel({
     });
   }
   return (
-    <div className="native-carousel">
+    <div>
       <div
         ref={track}
-        className="native-carousel-track"
-        style={{ "--carousel-items": items } as React.CSSProperties}
+        className={`flex snap-x snap-mandatory gap-6 overflow-x-auto pt-1 pb-3 [&>*]:min-w-0 [&>*]:shrink-0 [&>*]:basis-full [&>*]:snap-start md:[&>*]:basis-[calc((100%-24px)/2)] ${widths[items] ?? widths[3]}`}
       >
         {children}
       </div>
-      <div className="rs-swiper-btn-wrapper native-carousel-controls">
-        <button
-          type="button"
-          className="rs-swiper-btn"
-          aria-label="Previous slides"
-          onClick={() => move(-1)}
-        >
-          <i className="ri-arrow-left-line" aria-hidden="true" />
-        </button>
-        <button
-          type="button"
-          className="rs-swiper-btn"
-          aria-label="Next slides"
-          onClick={() => move(1)}
-        >
-          <i className="ri-arrow-right-line" aria-hidden="true" />
-        </button>
+      <div className="mt-5 flex justify-center gap-4">
+        {([-1, 1] as const).map((direction) => (
+          <button
+            key={direction}
+            type="button"
+            className="grid size-12 place-items-center rounded-full border border-current transition-colors hover:bg-[#AB052D] hover:text-white"
+            aria-label={direction === -1 ? "Previous slides" : "Next slides"}
+            onClick={() => move(direction)}
+          >
+            <Icon name={direction === -1 ? "left" : "right"} />
+          </button>
+        ))}
       </div>
     </div>
   );
