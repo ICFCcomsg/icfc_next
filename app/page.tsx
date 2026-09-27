@@ -1,5 +1,6 @@
-import { redirect } from "next/navigation";
+import { LegacyDocument, readSitePage } from "./legacy-document";
 
-export default function Home() {
-  redirect("/index.html");
+export default async function Home() {
+  const source = await readSitePage("index.html");
+  return source ? <LegacyDocument source={source} route="index.html" /> : null;
 }
