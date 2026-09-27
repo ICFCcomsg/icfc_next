@@ -16,11 +16,11 @@ export function IndustryCard({
   const id = useId();
   return (
     <article
-      className={`relative overflow-hidden rounded-2xl border bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl before:absolute before:inset-x-0 before:top-0 before:h-1 before:bg-gradient-to-r before:from-[#AB052D] before:to-rose-500 ${expanded ? "border-[#AB052D] before:opacity-100" : "border-slate-200 before:opacity-25"}`}
+      className={`relative overflow-hidden rounded-2xl border bg-gradient-to-b from-white to-[#FCFDFF] shadow-sm transition-all hover:-translate-y-[7px] hover:shadow-xl before:absolute before:inset-x-0 before:top-0 before:h-1 before:bg-gradient-to-r before:from-[#AB052D] before:to-rose-500 ${expanded ? "border-[#AB052D] before:opacity-100" : "border-slate-200 before:opacity-25"}`}
     >
       <button
         type="button"
-        className="block w-full bg-transparent p-5 text-left focus-visible:outline-2 focus-visible:-outline-offset-4 focus-visible:outline-[#AB052D] lg:p-7"
+        className="block w-full bg-transparent p-5 text-left focus-visible:outline-2 focus-visible:-outline-offset-4 focus-visible:outline-[#AB052D] md:p-7"
         aria-expanded={expanded}
         aria-controls={id}
         onClick={onToggle}
@@ -59,7 +59,7 @@ export function IndustryCard({
       </button>
       <div
         id={id}
-        className="border-t border-slate-100 px-5 pt-5 pb-5 lg:px-7 lg:pb-7"
+        className="border-t border-slate-100 px-5 pt-5 pb-5 md:px-7 md:pb-7"
         hidden={!expanded}
       >
         <p className="mb-3 text-xs font-bold tracking-wider text-slate-500 uppercase">

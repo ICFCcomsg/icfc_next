@@ -28,27 +28,27 @@ function BreadcrumbAreaSection() {
 
 function PostboxAreaSection() {
   return (
-    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
-      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
-        <div className="-mx-3 flex flex-wrap gap-y-6">
-          <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%] lg:w-[58.333333333333336%]">
+    <section className="pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px]">
+      <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
+        <div className="flex flex-wrap mt-[calc(-1_*_3rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
+          <div className="[flex-shrink:0] w-[66.66666667%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[58.33333333%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
             <div>
               <div>
-                <ul className="flex gap-[20px] items-center max-[1600px]:flex-wrap">
+                <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] flex gap-[20px] items-center max-[1600px]:flex-wrap">
                   <li className="list-none">
                     <span className="flex items-center gap-[8px] text-[13px]">
                       <span>
                         <SiteImage
                           src="/assets/images/blog/details/blog-details-01.webp"
                           alt=""
-                          className="max-w-full h-auto w-[40px] h-[40px] rounded-full"
+                          className="[vertical-align:middle] max-w-full w-[40px] h-[40px] rounded-full"
                         />
                       </span>
                       <span>
                         {"By "}
                         <SiteLink
                           href="/contact-us.html"
-                          className="transition-colors hover:text-[#AB052D]"
+                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                         >
                           {"ICFC Pte Ltd"}
                         </SiteLink>
@@ -57,7 +57,11 @@ function PostboxAreaSection() {
                   </li>
                   <li className="list-none">
                     <span className="flex items-center gap-[8px] text-[13px]">
-                      <svg width="14" height="16" className="w-[15px] h-[15px]">
+                      <svg
+                        width="14"
+                        height="16"
+                        className="[vertical-align:middle] w-[15px] h-[15px]"
+                      >
                         <path
                           d="M4.33447 3.8335C4.06114 3.8335 3.83447 3.60683 3.83447 3.3335V1.3335C3.83447 1.06016 4.06114 0.833496 4.33447 0.833496C4.60781 0.833496 4.83447 1.06016 4.83447 1.3335V3.3335C4.83447 3.60683 4.60781 3.8335 4.33447 3.8335Z"
                           fill="white"
@@ -69,7 +73,11 @@ function PostboxAreaSection() {
                   </li>
                   <li className="list-none">
                     <span className="flex items-center gap-[8px] text-[13px]">
-                      <svg width="12" height="12" className="w-[15px] h-[15px]">
+                      <svg
+                        width="12"
+                        height="12"
+                        className="[vertical-align:middle] w-[15px] h-[15px]"
+                      >
                         <path
                           d="M6 12C9.30799 12 12 9.30799 12 6C12 2.69201 9.30803 0 6 0C2.69197 0 0 2.69201 0 6C0 9.30799 2.69201 12 6 12Z"
                           fill="#616C74"
@@ -87,41 +95,45 @@ function PostboxAreaSection() {
                 </ul>
               </div>
               <div>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"Published by ICFC Pte Ltd"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"Published by ICFC Pte Ltd"}
+                  </strong>
                   {" | April 2026 | 12 min read"}
                   <br />
-                  <strong>{"Categories:"}</strong>
+                  <strong className="[font-weight:bolder]">
+                    {"Categories:"}
+                  </strong>
                   {
                     " ISO 45001 · WSH Act · Construction · Occupational safety · bizSAFE · Singapore"
                   }
                 </p>
-                <hr />
-                <p className="leading-relaxed mb-4">
+                <hr className="mt-[0] mr-[0] mb-[0] ml-[0] text-[inherit] [border:none] [border-top:1px_solid] opacity-[1] h-[1px] bg-[#ececec]" />
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "Most Singapore contractors treat the Workplace Safety and Health (WSH) Act and ISO 45001 as two separate compliance obligations — running a WSH programme to satisfy MOM inspectors and a management system to keep their ISO certificate. The result is duplication: two sets of documents, two audit programmes, two training schedules, and two sets of records that never quite align with each other."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "It does not have to work this way — and for contractors looking to win government tenders, satisfy main contractors, and genuinely protect their workers, it should not."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "The WSH Act and ISO 45001 are not competing frameworks. They are deeply complementary — the Act sets Singapore's legal obligations, and ISO 45001 provides the internationally recognised management system structure that makes those obligations systematic, auditable, and continuously improving. For Singapore contractors who build the integration deliberately, one management system satisfies both."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "This guide maps the key WSH Act requirements to ISO 45001 clauses, explains the unique role of bizSAFE in Singapore's safety landscape, identifies the gaps that must be addressed beyond the standard, and gives you a practical roadmap for implementation."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"Understanding the two frameworks"}
                 </h4>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "The WSH Act: performance-based, multi-party accountability"
                     }
@@ -130,8 +142,8 @@ function PostboxAreaSection() {
                     " — The Workplace Safety and Health Act 2006 (as amended, most recently by Act 30 of 2024 with effect from 1 January 2025) places a general duty of care on all stakeholders: employers, employees, occupiers, manufacturers, suppliers, and contractors. Fines up to S$500,000 for companies and personal liability for directors. Key recent developments: increased financial penalties (from 1 June 2024, fines up to S$50,000 for first convictions) and mandatory video surveillance systems for construction sector."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "ISO 45001:2018 — the international OH&S management system standard"
                     }
@@ -140,47 +152,49 @@ function PostboxAreaSection() {
                     " — Follows Annex SL High Level Structure, making it compatible with ISO 9001 and ISO 14001. Singapore has adopted ISO 45001 as SS ISO 45001. Certification by SAC-accredited body provides pathway to bizSAFE STAR."
                   }
                 </p>
-                <div className="[background:#f0f9f4] [border-left:4px_solid_#2e7d32] p-[1.5rem_1.8rem] m-[1.8rem_0] rounded-[0_16px_16px_0]">
-                  <strong>{"📌 SHMS audit requirement:"}</strong>
+                <div className="mt-[1.8rem] mr-[0] mb-[1.8rem] ml-[0] pt-[1.5rem] pr-[1.8rem] pb-[1.5rem] pl-[1.8rem] [background:#f0f9f4] [border-left:4px_solid_#2e7d32] rounded-[0_16px_16px_0]">
+                  <strong className="[font-weight:bolder]">
+                    {"📌 SHMS audit requirement:"}
+                  </strong>
                   {
                     " Construction worksites with contract sum ≥ S$30 million must have formal Safety and Health Management System (SHMS) audit. ISO 45001 certificate from SAC-accredited CB satisfies this legal requirement.\n                                "
                   }
                 </div>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "The mandatory SHMS audit requirement: when ISO 45001 becomes effectively obligatory"
                   }
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "MOM requires SHMS audits for: Construction worksites with contract sum ≥ S$30 million; Shipyards employing ≥200 people; Factories in metalworking, petrochemicals exceeding thresholds. ISO 45001 certification by SAC-accredited CB recognised as meeting SHMS requirements."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "The bizSAFE connection: ISO 45001 as the fast track to bizSAFE STAR"
                   }
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "Companies certified to ISO 45001 by SAC-accredited CB can submit certificate (plus valid Risk Management Implementation Audit Report) to apply for bizSAFE STAR — bypassing Levels 1-4. ISO 45001 simultaneously satisfies international best practice, MOM SHMS audit requirement, and bizSAFE STAR qualification."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "The integration map: WSH Act obligations and ISO 45001 clauses"
                   }
                 </h4>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"Duty to conduct risk assessments → ISO 45001 Clause 6.1:"}
                   </strong>
                   {
                     " WSH (Risk Management) Regulations require risk assessments every 3 years. ISO 45001 HIRA satisfies this requirement. Critical: explicit three-year review cycle and post-incident review trigger must be referenced."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "Duty to appoint competent persons → ISO 45001 Clauses 7.1 & 7.2:"
                     }
@@ -189,16 +203,16 @@ function PostboxAreaSection() {
                     " WSHO/WSHC registration requirements must be captured in competence framework."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"Duty to investigate accidents → ISO 45001 Clause 10.2:"}
                   </strong>
                   {
                     " MOM incident reporting timelines (immediate for fatal, 10 days for incapacity) are Singapore-specific gaps that must be built into incident management procedure."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "Duty for safe work procedures & PTW → ISO 45001 Clause 8.1:"
                     }
@@ -207,24 +221,24 @@ function PostboxAreaSection() {
                     " Permit-to-work systems for work at height (>3m), confined space, hot work, excavation per WSH (Construction) Regulations."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"Duty to manage subcontractors → ISO 45001 Clause 8.1.4:"}
                   </strong>
                   {
                     " Tiered contractor pre-qualification system recommended (bizSAFE Level 3 minimum for high-risk)."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"Duty for safety training → ISO 45001 Clauses 7.2 & 7.3:"}
                   </strong>
                   {
                     " CSOC mandatory for all construction workers; training matrix must track MOM-mandated courses with expiry dates."
                   }
                 </p>
-                <div className="[background:#fff5f5] [border-left:4px_solid_#AB052D] p-[1.5rem_1.8rem] m-[1.8rem_0] rounded-[0_16px_16px_0]">
-                  <strong>
+                <div className="mt-[1.8rem] mr-[0] mb-[1.8rem] ml-[0] pt-[1.5rem] pr-[1.8rem] pb-[1.5rem] pl-[1.8rem] [background:#fff5f5] [border-left:4px_solid_#AB052D] rounded-[0_16px_16px_0]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "⚠️ Critical gaps — where ISO 45001 alone is not sufficient:"
                     }
@@ -233,29 +247,29 @@ function PostboxAreaSection() {
                     " MOM incident reporting timelines (immediate/10 days); Mandatory safety appointments (WSHO/WSHC registration); Construction Safety Orientation Course (CSOC); Approved Codes of Practice including SS 679:2021; Mandatory video surveillance system obligations (from June 2024); Psychosocial risks and mental health guidance.\n                                "
                   }
                 </div>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "Building one integrated system: ICFC's implementation approach"
                   }
                 </h4>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"Step 1 — Legal register and WSH Act mapping:"}
                   </strong>
                   {
                     " Compile comprehensive legal register listing all applicable WSH Act obligations, subsidiary legislation, and ACOPs."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"Step 2 — HIRA that satisfies the WSH RM Regulations:"}
                   </strong>
                   {
                     " Cover routine, non-routine, emergency activities; include contractors/visitors; hierarchy of controls; three-year review cycles."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "Step 3 — Incident management that meets MOM reporting requirements:"
                     }
@@ -264,8 +278,8 @@ function PostboxAreaSection() {
                     " Clear classification by MOM category, specific reporting timelines, responsible person for MOM reports, root cause investigation, learning loop."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "Step 4 — Contractor management as a competitive differentiator:"
                     }
@@ -274,8 +288,8 @@ function PostboxAreaSection() {
                     " Tiered pre-qualification: Tier 1 (high-risk) bizSAFE Level 3+; Tier 2 (medium-risk) bizSAFE Level 2+; Tier 3 basic induction + CSOC."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "Step 5 — Integrating ISO 45001 with ISO 9001 and ISO 14001:"
                     }
@@ -284,35 +298,35 @@ function PostboxAreaSection() {
                     " IMS reduces overhead by ~30-40% with one policy suite, one risk assessment, one audit programme, one management review."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"The bizSAFE STAR pathway after ISO 45001 certification"}
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "Submit ISO 45001 certificate (SAC-accredited) + valid Risk Management Implementation Audit Report to WSH Council via bizSAFE portal."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"Penalties, enforcement, and why getting this right matters"}
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "Composition fines: up to S$5,000; Court fines (serious harm): up to S$50,000 per count; Serious cases: fines up to S$500,000 for corporations; Personal liability for directors; Stop-work orders; Work pass revocation. An ISO 45001-certified OHSMS provides defensible due diligence evidence during MOM investigations."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"Frequently asked questions"}
                 </h4>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"Is ISO 45001 mandatory for Singapore contractors?"}
                   </strong>
                   {
                     " Not universally — but functionally mandatory for projects ≥S$30 million (SHMS audit requirement), for bizSAFE STAR, and increasingly for major developers' supply chains."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "Can we achieve bizSAFE STAR without going through all five levels?"
                     }
@@ -321,49 +335,53 @@ function PostboxAreaSection() {
                     " Yes — ISO 45001 certification provides direct entry to bizSAFE STAR."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"How long does implementation take?"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"How long does implementation take?"}
+                  </strong>
                   {
                     " Typically 4-6 months from gap analysis to certification for small to medium contractors."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"Can we integrate with existing ISO 9001/ISO 14001?"}
                   </strong>
                   {
                     " Yes — ICFC strongly recommends integrated management system (IMS)."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"The bottom line"}
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "The WSH Act sets your legal obligations; ISO 45001 provides the management system to make those obligations systematic and demonstrable. For contractors, ISO 45001 satisfies SHMS audit requirements, provides bizSAFE STAR fast-track, opens tender doors, and creates due diligence trail that matters when incidents occur."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "ICFC offers a complimentary dual-framework gap assessment as part of free initial consultation."
                   }
                 </p>
-                <hr />
-                <p className="leading-relaxed mb-4">
-                  <strong>{"About ICFC Pte Ltd"}</strong>
+                <hr className="mt-[0] mr-[0] mb-[0] ml-[0] text-[inherit] [border:none] [border-top:1px_solid] opacity-[1] h-[1px] bg-[#ececec]" />
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"About ICFC Pte Ltd"}
+                  </strong>
                   <br />
                   {
                     "Since 2014, Singapore's ISO certification partner. We provide ISO consultation, third-party audit, and training across 25 industries. OH&S practice: ISO 45001, integrated management systems (ISO 9001 + ISO 14001 + ISO 45001), WSH Act alignment for construction, manufacturing, marine, and engineering contractors. Contact: "
                   }
                   <SiteLink
                     href="mailto:admin@icfc.com.sg"
-                    className="transition-colors hover:text-[#AB052D]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     {"admin@icfc.com.sg"}
                   </SiteLink>
                   {" | +65 8601 7001."}
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   <em>
                     {
                       "© 2026 ICFC Pte Ltd. This article is for informational purposes only. WSH Act obligations, penalty amounts, and bizSAFE requirements subject to change. Refer to official MOM and WSH Council sources."
@@ -371,38 +389,38 @@ function PostboxAreaSection() {
                   </em>
                 </p>
               </div>
-              <div className="items-center justify-between flex gap-[30px] flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1] pt-[20px] pb-[20px] mt-[40px]">
+              <div className="mt-[40px] pt-[20px] pb-[20px] items-center justify-between flex gap-[30px] flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1]">
                 <div className="items-center flex flex-wrap gap-[12px]">
                   <span className="font-semibold [padding-inline-end:10px] text-[#2B3944]">
                     {"Tags:"}
                   </span>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"ISO 45001"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"WSH Act"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"bizSAFE"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Construction Safety"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Contractors"}
                   </SiteLink>
@@ -414,58 +432,67 @@ function PostboxAreaSection() {
                   <div className="gap-[15px]">
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
-                      <Icon name="facebook" />
+                      <Icon
+                        name="facebook"
+                        className="inline-block [font-style:normal]"
+                      />
                     </SiteLink>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
-                      <Icon name="x" />
+                      <Icon
+                        name="x"
+                        className="inline-block [font-style:normal]"
+                      />
                     </SiteLink>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
-                      <Icon name="linkedin" />
+                      <Icon
+                        name="linkedin"
+                        className="inline-block [font-style:normal]"
+                      />
                     </SiteLink>
                   </div>
                 </div>
               </div>
               <div>
-                <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl">
+                <h3 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                   {"Leave a Comment"}
                 </h3>
                 <EmailForm>
-                  <div className="-mx-3 flex flex-wrap gap-y-6">
-                    <div className="w-full shrink-0 px-3 xl:w-[50%]">
+                  <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
+                    <div className="[flex-shrink:0] w-[50%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <input
                         type="text"
                         placeholder="Your Name"
                         aria-label="Your Name"
-                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
                       />
                     </div>
-                    <div className="w-full shrink-0 px-3 xl:w-[50%]">
+                    <div className="[flex-shrink:0] w-[50%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <input
                         type="email"
                         placeholder="Your Email"
                         aria-label="Your Email"
-                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
                       />
                     </div>
-                    <div className="w-full shrink-0 px-3 xl:w-[100%]">
+                    <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <textarea
                         placeholder="Write Message"
                         defaultValue=""
-                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[14px] pr-[24px] pb-[14px] pl-[24px] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
                       />
                     </div>
-                    <div className="w-full shrink-0 px-3 xl:w-[100%]">
+                    <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <button
                         type="submit"
-                        className="text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#AB052D] hover:[background:#2B3944] hover:text-[#FFFFFF]"
+                        className="rounded-[50px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF]"
                       >
                         {"Post Comment"}
                       </button>
@@ -475,10 +502,10 @@ function PostboxAreaSection() {
               </div>
             </div>
           </div>
-          <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[41.66666666666667%]">
-            <div className="sticky top-[110px] max-[991px]:relative max-[991px]:top-[unset]">
-              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px] mb-[30px]">
-                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+          <div className="[flex-shrink:0] w-[33.33333333%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[41.66666667%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
+            <div className="sticky max-[991px]:relative top-[110px] max-[991px]:top-[unset]">
+              <div className="mb-[30px] pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
+                <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {"Search"}
                 </h5>
                 <div>
@@ -488,10 +515,14 @@ function PostboxAreaSection() {
                         type="text"
                         placeholder="Search..."
                         aria-label="Search..."
-                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D] [padding-inline-end:50px] [background:#FFFFFF] [border:1px_solid_#ddd] h-[60px]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[60px] w-full [border:1px_solid_#ddd] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:50px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [background:#FFFFFF]"
                       />
-                      <button className="absolute top-[50%] [inset-inline-end:25px] text-[#000] text-[16px] [transform:translateY(-50%)] hover:text-[#AB052D]">
-                        <svg width="18" height="18">
+                      <button className="rounded-[0] mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] text-[#000] [border:none] [background:transparent] absolute top-[50%] [inset-inline-end:25px] [transform:translateY(-50%)] hover:text-[#AB052D]">
+                        <svg
+                          width="18"
+                          height="18"
+                          className="[vertical-align:middle]"
+                        >
                           <path
                             d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
                             stroke="currentColor"
@@ -508,108 +539,108 @@ function PostboxAreaSection() {
                   </EmailForm>
                 </div>
               </div>
-              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px] mb-[30px]">
-                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              <div className="mb-[30px] pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
+                <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {"Categories"}
                 </h5>
-                <ul className="list-none pl-[0]">
-                  <li className="mb-[10px]">
+                <ul className="pl-[0]! mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] list-none!">
+                  <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#333]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ISO 45001 "}
-                      <span className="[float:right]">{"(6)"}</span>
+                      <span className="[float:right]!">{"(6)"}</span>
                     </SiteLink>
                   </li>
-                  <li className="mb-[10px]">
+                  <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#333]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"WSH Act "}
-                      <span className="[float:right]">{"(5)"}</span>
+                      <span className="[float:right]!">{"(5)"}</span>
                     </SiteLink>
                   </li>
-                  <li className="mb-[10px]">
+                  <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#333]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Construction Safety "}
-                      <span className="[float:right]">{"(4)"}</span>
+                      <span className="[float:right]!">{"(4)"}</span>
                     </SiteLink>
                   </li>
-                  <li className="mb-[10px]">
+                  <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#333]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"bizSAFE "}
-                      <span className="[float:right]">{"(4)"}</span>
+                      <span className="[float:right]!">{"(4)"}</span>
                     </SiteLink>
                   </li>
-                  <li className="mb-[10px]">
+                  <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#333]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Contractors "}
-                      <span className="[float:right]">{"(3)"}</span>
+                      <span className="[float:right]!">{"(3)"}</span>
                     </SiteLink>
                   </li>
                 </ul>
               </div>
-              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px]">
-                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              <div className="pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
+                <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {"Popular Tags"}
                 </h5>
                 <div className="flex flex-wrap gap-[12px]">
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"ISO 45001:2018"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"WSH Act"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"bizSAFE STAR"}
                   </SiteLink>
                   <SiteLink
                     href="/services.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"SHMS Audit"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Risk Assessment"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Contractor Safety"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"MOM Compliance"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"SS ISO 45001"}
                   </SiteLink>

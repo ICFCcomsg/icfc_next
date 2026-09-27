@@ -27,13 +27,13 @@ export function IndustryExplorer() {
   const label = categories.find(([key]) => key === category)?.[1];
 
   return (
-    <section className="pt-12 pb-10 md:pt-20">
+    <section className="pt-[120px] pb-10 max-[991px]:pt-[100px] max-[767px]:pt-[70px] max-[480px]:pt-[60px]">
       <div className="mx-auto max-w-[1280px] px-5">
         <div className="border-b border-slate-200 pt-12 pb-8">
           <div className="mb-4 inline-block rounded-full bg-[#AB052D]/10 px-3.5 py-1 text-xs font-semibold tracking-wider text-[#AB052D] uppercase">
             All-Industry ISO Solutions · Singapore
           </div>
-          <h1 className="mb-4 text-3xl font-bold leading-tight text-[#111] md:text-[38px]">
+          <h1 className="mb-4 text-[28px] font-bold leading-[1.2] text-[#111] md:text-[38px]">
             ISO standards tailored to your industry
           </h1>
           <p className="max-w-[780px] text-base leading-relaxed text-[#5A5A5A]">
@@ -42,9 +42,9 @@ export function IndustryExplorer() {
             that apply to your sector — and how we help you achieve them.
           </p>
         </div>
-        <div className="mt-8">
+        <div className="mt-[30px]">
           <input
-            className="mb-4 w-full rounded-full border border-slate-200 bg-white px-5 py-3.5 text-[15px] text-slate-800 shadow-sm focus:border-[#AB052D] focus:outline-none focus:ring-4 focus:ring-[#AB052D]/10"
+            className="mb-[15px] w-full rounded-full border border-slate-200 bg-white px-5 py-3.5 text-[15px] text-slate-800 shadow-sm focus:border-[#AB052D] focus:outline-none focus:ring-4 focus:ring-[#AB052D]/10"
             type="search"
             aria-label="Search industries"
             value={query}
@@ -52,7 +52,7 @@ export function IndustryExplorer() {
             placeholder="Search industry (e.g. fintech, healthcare, logistics...)"
           />
           <div
-            className="flex flex-wrap gap-2.5 pt-6 pb-4"
+            className="flex flex-wrap gap-2.5 pt-8 pb-4"
             aria-label="Industry categories"
           >
             {categories.map(([key, name]) => (

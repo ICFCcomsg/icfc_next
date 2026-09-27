@@ -28,27 +28,27 @@ function BreadcrumbAreaSection() {
 
 function PostboxAreaSection() {
   return (
-    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px]">
-      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
-        <div className="-mx-3 flex flex-wrap gap-y-6">
-          <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%] lg:w-[58.333333333333336%]">
+    <section className="pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px]">
+      <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
+        <div className="flex flex-wrap mt-[calc(-1_*_3rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
+          <div className="[flex-shrink:0] w-[66.66666667%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[58.33333333%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
             <div>
               <div>
-                <ul className="flex gap-[20px] items-center max-[1600px]:flex-wrap">
+                <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] flex gap-[20px] items-center max-[1600px]:flex-wrap">
                   <li className="list-none">
                     <span className="flex items-center gap-[8px] text-[13px]">
                       <span>
                         <SiteImage
                           src="/assets/images/blog/details/blog-details-01.webp"
                           alt=""
-                          className="max-w-full h-auto w-[40px] h-[40px] rounded-full"
+                          className="[vertical-align:middle] max-w-full w-[40px] h-[40px] rounded-full"
                         />
                       </span>
                       <span>
                         {"By "}
                         <SiteLink
                           href="/contact-us.html"
-                          className="transition-colors hover:text-[#AB052D]"
+                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                         >
                           {"ICFC Pte Ltd"}
                         </SiteLink>
@@ -57,7 +57,11 @@ function PostboxAreaSection() {
                   </li>
                   <li className="list-none">
                     <span className="flex items-center gap-[8px] text-[13px]">
-                      <svg width="14" height="16" className="w-[15px] h-[15px]">
+                      <svg
+                        width="14"
+                        height="16"
+                        className="[vertical-align:middle] w-[15px] h-[15px]"
+                      >
                         <path
                           d="M4.33447 3.8335C4.06114 3.8335 3.83447 3.60683 3.83447 3.3335V1.3335C3.83447 1.06016 4.06114 0.833496 4.33447 0.833496C4.60781 0.833496 4.83447 1.06016 4.83447 1.3335V3.3335C4.83447 3.60683 4.60781 3.8335 4.33447 3.8335Z"
                           fill="white"
@@ -69,7 +73,11 @@ function PostboxAreaSection() {
                   </li>
                   <li className="list-none">
                     <span className="flex items-center gap-[8px] text-[13px]">
-                      <svg width="12" height="12" className="w-[15px] h-[15px]">
+                      <svg
+                        width="12"
+                        height="12"
+                        className="[vertical-align:middle] w-[15px] h-[15px]"
+                      >
                         <path
                           d="M6 12C9.30799 12 12 9.30799 12 6C12 2.69201 9.30803 0 6 0C2.69197 0 0 2.69201 0 6C0 9.30799 2.69201 12 6 12Z"
                           fill="#616C74"
@@ -87,183 +95,191 @@ function PostboxAreaSection() {
                 </ul>
               </div>
               <div>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"Published by ICFC Pte Ltd"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"Published by ICFC Pte Ltd"}
+                  </strong>
                   {" | April 2026 | 13 min read"}
                   <br />
-                  <strong>{"Categories:"}</strong>
+                  <strong className="[font-weight:bolder]">
+                    {"Categories:"}
+                  </strong>
                   {
                     " ISO 45001 · WSH Act · bizSAFE · Codes of Practice · Occupational safety · Singapore · All industries"
                   }
                 </p>
-                <hr />
-                <p className="leading-relaxed mb-4">
+                <hr className="mt-[0] mr-[0] mb-[0] ml-[0] text-[inherit] [border:none] [border-top:1px_solid] opacity-[1] h-[1px] bg-[#ececec]" />
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "If you run a company in Singapore — any company, in any industry — you are subject to the Workplace Safety and Health Act. Not just construction firms. Not just factories. Every employer, every occupier, every principal across every sector bears duties under the WSHA and its subsidiary legislation."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "Most business leaders are aware of this in principle. Far fewer have sat down and mapped exactly how Singapore's four-layer workplace safety framework — the WSH Act, the Approved Codes of Practice (ACOPs), the bizSAFE programme, and ISO 45001 — fits together and what it means for their specific operations."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "This article is that map. It is written for Singapore employers across all industries — manufacturing, healthcare, logistics, retail, professional services, F&B, hospitality, and beyond — who want to understand the full framework, where the layers overlap, and how to build one coherent safety management system rather than managing each element in isolation."
                   }
                 </p>
-                <div className="[background:#fff8e7] [border-left:4px_solid_#d32f2f] p-[1.5rem_1.8rem] m-[1.8rem_0] rounded-[0_16px_16px_0]">
-                  <strong>{"📌 Key insight:"}</strong>
+                <div className="mt-[1.8rem] mr-[0] mb-[1.8rem] ml-[0] pt-[1.5rem] pr-[1.8rem] pb-[1.5rem] pl-[1.8rem] [background:#fff8e7] [border-left:4px_solid_#d32f2f] rounded-[0_16px_16px_0]">
+                  <strong className="[font-weight:bolder]">
+                    {"📌 Key insight:"}
+                  </strong>
                   {" The WSH Act applies to "}
-                  <strong>{"ALL"}</strong>
+                  <strong className="[font-weight:bolder]">{"ALL"}</strong>
                   {
                     " Singapore workplaces — offices, restaurants, retail, healthcare, manufacturing, logistics. Director personal liability (Section 48) means senior management cannot delegate safety responsibility. Integration of ACOPs + bizSAFE + ISO 45001 is the most efficient compliance path.\n                                "
                   }
                 </div>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "Layer 1 — The WSH Act: the legal foundation for every Singapore workplace"
                   }
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "The Workplace Safety and Health Act 2006, as amended most recently by Act 30 of 2024 (effective 1 January 2025), is Singapore's primary workplace safety legislation. It covers employers, employees, supervisors, contractors, occupiers, and visitors. Key obligations applicable to all employers: risk assessment (WSH RM Regulations), incident reporting (notifiable accidents to MOM), safe plant and systems of work, information/training/supervision, and "
                   }
-                  <strong>
+                  <strong className="[font-weight:bolder]">
                     {
                       "personal liability for company directors under Section 48(1)"
                     }
                   </strong>
                   {"."}
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"Penalty escalation:"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"Penalty escalation:"}
+                  </strong>
                   {
                     " As of 1 June 2024, maximum fines for safety breaches increased from S$20,000 to S$50,000 for first convictions. Corporate fines can reach S$500,000, with personal imprisonment for gross negligence."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "Layer 2 — The Approved Codes of Practice: translating the Act"
                   }
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "WSH Council publishes 102+ ACOPs (as of January 2025). They are not legislation but carry significant legal weight — if an accident occurs, the relevant ACOP becomes the benchmark. Key cross-industry ACOPs: WSH Risk Management (2021), Chief Executives' and Board of Directors' WSH Duties (2022), Working Safely at Heights (2013), Safe Lifting Operations (2014)."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "Layer 3 — bizSAFE: Singapore's progressive capability-building programme"
                   }
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "Five-level programme: Level 1 (CEO commitment), Level 2 (Risk Management Champion), Level 3 (RM Implementation Audit — minimum for government tenders), Level 4 (Safety Management System), Level 5/bizSAFE Star (ISO 45001 certification). bizSAFE Level 3 or higher is effectively mandatory for government procurement and major private sector contracts."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"Layer 4 — ISO 45001: the international OHSMS standard"}
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "ISO 45001:2018 (SS ISO 45001 in Singapore) provides a risk-based Plan-Do-Check-Act framework. Certification by SAC-accredited body grants direct entry to bizSAFE Star. For higher-risk workplaces (construction ≥S$30M, shipyards ≥200 persons), MOM requires formal SHMS audits — ISO 45001 certification satisfies this requirement."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "Core overlap: where WSH Act meets ISO 45001 clause by clause"
                   }
                 </h4>
-                <table className="w-full [border-collapse:collapse] m-[1.5rem_0]">
-                  <tbody>
-                    <tr>
-                      <th className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                <table className="[caption-side:bottom] [border-collapse:collapse] mt-[1.5rem] mr-[0] mb-[1.5rem] ml-[0] w-full">
+                  <tbody className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                    <tr className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                      <th className="[text-align:-webkit-match-parent] [border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"WSH Requirement"}
                       </th>
-                      <th className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <th className="[text-align:-webkit-match-parent] [border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"ISO 45001 Clause"}
                       </th>
-                      <th className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <th className="[text-align:-webkit-match-parent] [border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"Integration note"}
                       </th>
                     </tr>
                   </tbody>
-                  <tbody>
-                    <tr>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                  <tbody className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                    <tr className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {
                           "Risk Management Regulations (3‑year review, post‑incident trigger)"
                         }
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"Clause 6.1 (HIRAC)"}
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {
                           "Explicitly add SG‑specific review triggers into HIRAC procedure"
                         }
                       </td>
                     </tr>
                   </tbody>
-                  <tbody>
-                    <tr>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                  <tbody className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                    <tr className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {
                           "Director liability (Section 48) + CoP on Directors' Duties"
                         }
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"Clause 5 (Leadership)"}
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {
                           "Document board walkabouts, management reviews, OH&S reporting to board"
                         }
                       </td>
                     </tr>
                   </tbody>
-                  <tbody>
-                    <tr>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                  <tbody className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                    <tr className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"Incident Reporting Regulations (MOM timelines)"}
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {
                           "Clause 10.2 (Incident investigation & corrective action)"
                         }
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {
                           "Embed MOM notification categories & deadlines into incident procedure"
                         }
                       </td>
                     </tr>
                   </tbody>
-                  <tbody>
-                    <tr>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                  <tbody className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                    <tr className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"Competence (WSHO/CSOC/work-at-height certificates)"}
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"Clause 7.2 (Competence)"}
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {
                           "Training matrix must track MOM‑mandated registrations & expiry dates"
                         }
                       </td>
                     </tr>
                   </tbody>
-                  <tbody>
-                    <tr>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                  <tbody className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                    <tr className="[border-color:inherit] [border-style:solid] [border-width:0]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"Worker participation (safety committees)"}
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {"Clause 5.4 (Consultation & participation)"}
                       </td>
-                      <td className="[border:1px_solid_#e2e8f0] p-[10px] [vertical-align:top]">
+                      <td className="[border-color:inherit] [border-style:solid] [border-width:0] pt-[10px] pr-[10px] pb-[10px] pl-[10px] [border:1px_solid_#e2e8f0] [vertical-align:top]">
                         {
                           "Toolbox meetings, safety committee minutes = ISO evidence"
                         }
@@ -271,8 +287,8 @@ function PostboxAreaSection() {
                     </tr>
                   </tbody>
                 </table>
-                <div className="[background:#fff8e7] [border-left:4px_solid_#d32f2f] p-[1.5rem_1.8rem] m-[1.8rem_0] rounded-[0_16px_16px_0]">
-                  <strong>
+                <div className="mt-[1.8rem] mr-[0] mb-[1.8rem] ml-[0] pt-[1.5rem] pr-[1.8rem] pb-[1.5rem] pl-[1.8rem] [background:#fff8e7] [border-left:4px_solid_#d32f2f] rounded-[0_16px_16px_0]">
+                  <strong className="[font-weight:bolder]">
                     {"⚠️ Critical Singapore-specific gaps in ISO 45001:"}
                   </strong>
                   <br />
@@ -292,110 +308,138 @@ function PostboxAreaSection() {
                     "\n                                    • Mandatory SHMS audit thresholds (construction ≥S$30M, shipyards ≥200 persons)\n                                "
                   }
                 </div>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"Industry‑specific considerations"}
                 </h4>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"Manufacturing:"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"Manufacturing:"}
+                  </strong>
                   {
                     " WSH (Factories) Regulations, machinery guarding, noise control. ACOPs: machinery safety (SS ISO 12100:2024), noise control (CP 99)."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"Healthcare:"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"Healthcare:"}
+                  </strong>
                   {
                     " Patient handling, sharps injuries, biological hazards, psychosocial risks. WSH Council healthcare guidelines."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"Logistics:"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"Logistics:"}
+                  </strong>
                   {
                     " Forklift safety, work at heights (racking), loading docks, pedestrian‑vehicle separation."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"F&B/Hospitality:"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"F&B/Hospitality:"}
+                  </strong>
                   {
                     " Slip resistance (SS 485:2022), heat stress (WSHC advisory March 2026), manual handling."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>{"Professional services/offices:"}</strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"Professional services/offices:"}
+                  </strong>
                   {
                     " Ergonomics, psychosocial hazards (stress, workload), fire evacuation, remote work safety."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
                     "Strategic decision: which level is right for your organisation?"
                   }
                 </h4>
-                <ul>
+                <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
                   <li>
-                    <strong>{"Start with bizSAFE Level 3:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"Start with bizSAFE Level 3:"}
+                    </strong>
                     {
                       " Smaller orgs (\u003c30 staff), need govt tenders, lower risk profile."
                     }
                   </li>
                   <li>
-                    <strong>{"Pursue bizSAFE Level 4 → ISO 45001:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"Pursue bizSAFE Level 4 → ISO 45001:"}
+                    </strong>
                     {
                       " Medium‑large orgs (30‑200 staff), higher risk industry, approaching SHMS threshold."
                     }
                   </li>
                   <li>
-                    <strong>{"ISO 45001 directly:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"ISO 45001 directly:"}
+                    </strong>
                     {
                       " Already on ISO 9001/14001, international clients require ISO 45001, SHMS audit threshold applies."
                     }
                   </li>
                 </ul>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"Building the integrated system: ICFC practical approach"}
                 </h4>
-                <ul>
+                <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
                   <li>
-                    <strong>{"Step 1:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"Step 1:"}
+                    </strong>
                     {
                       " Legal register + ACOP identification (list all applicable WSHA provisions & sector ACOPs)"
                     }
                   </li>
                   <li>
-                    <strong>{"Step 2:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"Step 2:"}
+                    </strong>
                     {
                       " HIRAC covering all work activities (include 3‑year review & post‑incident triggers)"
                     }
                   </li>
                   <li>
-                    <strong>{"Step 3:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"Step 3:"}
+                    </strong>
                     {
                       " Incident management with MOM notification built in (categories, timelines, report formats)"
                     }
                   </li>
                   <li>
-                    <strong>{"Step 4:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"Step 4:"}
+                    </strong>
                     {
                       " Competence framework with Singapore‑specific roles (WSHO, WSHC, CSOC, etc.)"
                     }
                   </li>
                   <li>
-                    <strong>{"Step 5:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"Step 5:"}
+                    </strong>
                     {
                       " Director & management engagement documentation (CoP on Directors' Duties alignment)"
                     }
                   </li>
                   <li>
-                    <strong>{"Step 6:"}</strong>
+                    <strong className="[font-weight:bolder]">
+                      {"Step 6:"}
+                    </strong>
                     {
                       " Internal audit programme covering ISO 45001 clauses + WSH Act/ACOP obligations"
                     }
                   </li>
                 </ul>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"Frequently asked questions"}
                 </h4>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "Does my company need to be in a high‑risk industry for the WSH Act to apply?"
                     }
@@ -404,8 +448,8 @@ function PostboxAreaSection() {
                     " No. It applies to all workplaces — offices, shops, restaurants, clinics. The extent scales with risk, but no employer is exempt."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "We are not in construction or manufacturing. Do we need bizSAFE?"
                     }
@@ -414,8 +458,8 @@ function PostboxAreaSection() {
                     " Not legally mandatory, but commercially necessary for government contracts and large enterprise clients. Contact ICFC to confirm your specific situation."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {
                       "Can we skip straight to ISO 45001 without bizSAFE levels 1‑4?"
                     }
@@ -424,51 +468,53 @@ function PostboxAreaSection() {
                     " Yes. ISO 45001 certification provides direct entry to bizSAFE Star."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"What is the difference between an ACOP and a guideline?"}
                   </strong>
                   {
                     ' ACOP is formally approved by MOM and can be cited in court as benchmark for "reasonably practicable". Guidelines do not carry the same legal weight.'
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
-                  <strong>
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
                     {"How does director personal liability work?"}
                   </strong>
                   {
                     " Under Section 48(1), a director may be convicted if they did not exercise due diligence. Demonstrating engagement consistent with the CoP on Directors' WSH Duties (2022) is the primary defence."
                   }
                 </p>
-                <h4 className="font-bold leading-tight text-[#2B3944] text-2xl mt-[1.8rem] mb-[0.8rem] font-bold">
+                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {"The bottom line"}
                 </h4>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "Singapore's workplace safety framework is a coherent, multi‑layered system. The Act creates legal obligations. ACOPs translate into industry‑specific standards. bizSAFE provides a progressive pathway. ISO 45001 delivers the internationally recognised management system that brings it all together."
                   }
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "ICFC offers a complimentary WSH Act and ISO 45001 gap assessment as part of our free initial consultation — for companies of all sizes and across all sectors."
                   }
                 </p>
-                <hr />
-                <p className="leading-relaxed mb-4">
-                  <strong>{"About ICFC Pte Ltd"}</strong>
+                <hr className="mt-[0] mr-[0] mb-[0] ml-[0] text-[inherit] [border:none] [border-top:1px_solid] opacity-[1] h-[1px] bg-[#ececec]" />
+                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <strong className="[font-weight:bolder]">
+                    {"About ICFC Pte Ltd"}
+                  </strong>
                   <br />
                   {
                     "Since 2014, Singapore's ISO certification partner. Occupational health & safety practice: ISO 45001, integrated management systems (ISO 9001+14001+45001), bizSAFE advisory, WSH Act alignment. Contact: "
                   }
                   <SiteLink
                     href="mailto:admin@icfc.com.sg"
-                    className="transition-colors hover:text-[#AB052D]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     {"admin@icfc.com.sg"}
                   </SiteLink>
                   {" | +65 8601 7001."}
                 </p>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   <em>
                     {
                       "© 2026 ICFC Pte Ltd. This article is for informational purposes only. WSH Act obligations, penalties, and ACOP content subject to change. Refer to official MOM and WSH Council sources."
@@ -476,38 +522,38 @@ function PostboxAreaSection() {
                   </em>
                 </p>
               </div>
-              <div className="items-center justify-between flex gap-[30px] flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1] pt-[20px] pb-[20px] mt-[40px]">
+              <div className="mt-[40px] pt-[20px] pb-[20px] items-center justify-between flex gap-[30px] flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1]">
                 <div className="items-center flex flex-wrap gap-[12px]">
                   <span className="font-semibold [padding-inline-end:10px] text-[#2B3944]">
                     {"Tags:"}
                   </span>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"WSH Act"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"ISO 45001"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"bizSAFE"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Workplace Safety"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] p-[6px_15px] mb-[0px] [margin-inline-end:0px] [border:1px_solid_#DBDEE1] rounded-[6px] text-[16px] relative font-medium [background:#FFFFFF] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"ACOP"}
                   </SiteLink>
@@ -519,58 +565,67 @@ function PostboxAreaSection() {
                   <div className="gap-[15px]">
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
-                      <Icon name="facebook" />
+                      <Icon
+                        name="facebook"
+                        className="inline-block [font-style:normal]"
+                      />
                     </SiteLink>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
-                      <Icon name="x" />
+                      <Icon
+                        name="x"
+                        className="inline-block [font-style:normal]"
+                      />
                     </SiteLink>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D] text-[#616C74] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
-                      <Icon name="linkedin" />
+                      <Icon
+                        name="linkedin"
+                        className="inline-block [font-style:normal]"
+                      />
                     </SiteLink>
                   </div>
                 </div>
               </div>
               <div>
-                <h3 className="font-bold leading-tight text-[#2B3944] text-2xl md:text-4xl">
+                <h3 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                   {"Leave a Comment"}
                 </h3>
                 <EmailForm>
-                  <div className="-mx-3 flex flex-wrap gap-y-6">
-                    <div className="w-full shrink-0 px-3 xl:w-[50%]">
+                  <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
+                    <div className="[flex-shrink:0] w-[50%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <input
                         type="text"
                         placeholder="Your Name"
                         aria-label="Your Name"
-                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
                       />
                     </div>
-                    <div className="w-full shrink-0 px-3 xl:w-[50%]">
+                    <div className="[flex-shrink:0] w-[50%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <input
                         type="email"
                         placeholder="Your Email"
                         aria-label="Your Email"
-                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
                       />
                     </div>
-                    <div className="w-full shrink-0 px-3 xl:w-[100%]">
+                    <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <textarea
                         placeholder="Write Message"
                         defaultValue=""
-                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[14px] pr-[24px] pb-[14px] pl-[24px] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
                       />
                     </div>
-                    <div className="w-full shrink-0 px-3 xl:w-[100%]">
+                    <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <button
                         type="submit"
-                        className="text-[17px] text-[#FFFFFF] inline-flex items-center justify-center p-[14px_26px] rounded-[50px] font-medium relative z-[1] overflow-hidden [background:#AB052D] hover:[background:#2B3944] hover:text-[#FFFFFF]"
+                        className="rounded-[50px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF]"
                       >
                         {"Post Comment"}
                       </button>
@@ -580,10 +635,10 @@ function PostboxAreaSection() {
               </div>
             </div>
           </div>
-          <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%]">
-            <div className="sticky top-[110px] max-[991px]:relative max-[991px]:top-[unset]">
-              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px] mb-[30px]">
-                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+          <div className="[flex-shrink:0] w-[33.33333333%] max-[992px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
+            <div className="sticky max-[991px]:relative top-[110px] max-[991px]:top-[unset]">
+              <div className="mb-[30px] pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
+                <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {"Search"}
                 </h5>
                 <div>
@@ -593,10 +648,14 @@ function PostboxAreaSection() {
                         type="text"
                         placeholder="Search..."
                         aria-label="Search..."
-                        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#AB052D] [padding-inline-end:50px] [background:#FFFFFF] [border:1px_solid_#ddd] h-[60px]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[60px] w-full [border:1px_solid_#ddd] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:50px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [background:#FFFFFF]"
                       />
-                      <button className="absolute top-[50%] [inset-inline-end:25px] text-[#000] text-[16px] [transform:translateY(-50%)] hover:text-[#AB052D]">
-                        <svg width="18" height="18">
+                      <button className="rounded-[0] mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] text-[#000] [border:none] [background:transparent] absolute top-[50%] [inset-inline-end:25px] [transform:translateY(-50%)] hover:text-[#AB052D]">
+                        <svg
+                          width="18"
+                          height="18"
+                          className="[vertical-align:middle]"
+                        >
                           <path
                             d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
                             stroke="currentColor"
@@ -613,15 +672,15 @@ function PostboxAreaSection() {
                   </EmailForm>
                 </div>
               </div>
-              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px] mb-[30px]">
-                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              <div className="mb-[30px] pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
+                <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {"Categories"}
                 </h5>
-                <ul>
+                <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
                   <li>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ISO 45001 "}
                       <span>{"(10)"}</span>
@@ -630,7 +689,7 @@ function PostboxAreaSection() {
                   <li>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"WSH Act "}
                       <span>{"(7)"}</span>
@@ -639,7 +698,7 @@ function PostboxAreaSection() {
                   <li>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"bizSAFE "}
                       <span>{"(5)"}</span>
@@ -648,7 +707,7 @@ function PostboxAreaSection() {
                   <li>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Workplace Safety "}
                       <span>{"(12)"}</span>
@@ -656,38 +715,38 @@ function PostboxAreaSection() {
                   </li>
                 </ul>
               </div>
-              <div className="relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] p-[30px_30px_38px_30px] rounded-[8px] max-[1600px]:p-[10px_20px_20px_20px] max-[991px]:p-[20px_30px_30px_30px] max-[480px]:p-[10px_20px_20px_20px]">
-                <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+              <div className="pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
+                <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {"Popular Tags"}
                 </h5>
                 <div className="flex flex-wrap gap-[12px]">
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"ISO 45001:2018"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"bizSAFE Level 3"}
                   </SiteLink>
                   <SiteLink
                     href="/services.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"SHMS Audit"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Director Liability"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D] text-[16px] [border:1px_solid_#DBDEE1] p-[7px_15px] relative font-medium [background:#FFFFFF] rounded-[6px] text-[#2B3944] max-[480px]:text-[14px] max-[480px]:p-[6px_13px] hover:text-[#FFFFFF] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Risk Assessment"}
                   </SiteLink>

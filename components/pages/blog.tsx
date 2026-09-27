@@ -31,30 +31,33 @@ function BreadcrumbAreaSection() {
 
 function RowSection() {
   return (
-    <div className="-mx-3 flex flex-wrap gap-y-6">
-      <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+    <div className="flex flex-wrap mt-[calc(-1_*_3rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
+      <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
         <div>
           <div>
             <SiteLink
               href="/blogcybersecurity.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
                 src="/assets/images/blog/blog-thumb-01.webp"
                 alt="image"
-                className="max-w-full h-auto"
+                className="[vertical-align:middle] max-w-full"
               />
             </SiteLink>
             <div>
               <div>
                 <div>
                   <div>
-                    <Icon name="user" />
+                    <Icon
+                      name="user"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
                     </SiteLink>
@@ -62,13 +65,19 @@ function RowSection() {
                 </div>
                 <div>
                   <div>
-                    <Icon name="tag" />
+                    <Icon
+                      name="tag"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"Cybersecurity"}</span>
                 </div>
                 <div>
                   <div>
-                    <Icon name="calendar" />
+                    <Icon
+                      name="calendar"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"March 15, 2026"}</span>
                 </div>
@@ -76,25 +85,25 @@ function RowSection() {
             </div>
           </div>
           <div>
-            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+            <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
                 href="/blogcybersecurity.html"
-                className="transition-colors hover:text-[#AB052D]"
+                className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
                   "Singapore Cybersecurity Act 2024 amendments: what CII operators need to certify now"
                 }
               </SiteLink>
             </h5>
-            <p className="leading-relaxed mb-4">
+            <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
               {
                 "Understand the latest amendments and mandatory CTM Level 5 requirements for CII operators by 2027. Complete guide to compliance."
               }
             </p>
             <div>
               <SiteLink
-                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
                 href="/blogcybersecurity.html"
+                className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
               </SiteLink>
@@ -102,29 +111,32 @@ function RowSection() {
           </div>
         </div>
       </div>
-      <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+      <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
         <div>
           <div>
             <SiteLink
               href="/blogedg.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
                 src="/assets/images/blog/blog-thumb-04.webp"
                 alt="image"
-                className="max-w-full h-auto"
+                className="[vertical-align:middle] max-w-full"
               />
             </SiteLink>
             <div>
               <div>
                 <div>
                   <div>
-                    <Icon name="user" />
+                    <Icon
+                      name="user"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
                     </SiteLink>
@@ -132,13 +144,19 @@ function RowSection() {
                 </div>
                 <div>
                   <div>
-                    <Icon name="tag" />
+                    <Icon
+                      name="tag"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"Funding"}</span>
                 </div>
                 <div>
                   <div>
-                    <Icon name="calendar" />
+                    <Icon
+                      name="calendar"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"March 10, 2026"}</span>
                 </div>
@@ -146,25 +164,25 @@ function RowSection() {
             </div>
           </div>
           <div>
-            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+            <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
                 href="/blogedg.html"
-                className="transition-colors hover:text-[#AB052D]"
+                className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
                   "How to apply for the Enterprise Singapore EDG grant for ISO certification in Singapore (2026 guide)"
                 }
               </SiteLink>
             </h5>
-            <p className="leading-relaxed mb-4">
+            <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
               {
                 "Step-by-step guide to EDG grant application, eligibility criteria, and how ICFC helps maximise your co-funding for ISO certifications."
               }
             </p>
             <div>
               <SiteLink
-                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
                 href="/blogedg.html"
+                className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
               </SiteLink>
@@ -172,29 +190,32 @@ function RowSection() {
           </div>
         </div>
       </div>
-      <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+      <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
         <div>
           <div>
             <SiteLink
               href="/blogGreenPlan2030.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
                 src="/assets/images/blog/blog-thumb-08.webp"
                 alt="image"
-                className="max-w-full h-auto"
+                className="[vertical-align:middle] max-w-full"
               />
             </SiteLink>
             <div>
               <div>
                 <div>
                   <div>
-                    <Icon name="user" />
+                    <Icon
+                      name="user"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
                     </SiteLink>
@@ -202,13 +223,19 @@ function RowSection() {
                 </div>
                 <div>
                   <div>
-                    <Icon name="tag" />
+                    <Icon
+                      name="tag"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"Sustainability"}</span>
                 </div>
                 <div>
                   <div>
-                    <Icon name="calendar" />
+                    <Icon
+                      name="calendar"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"March 5, 2026"}</span>
                 </div>
@@ -216,25 +243,25 @@ function RowSection() {
             </div>
           </div>
           <div>
-            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+            <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
                 href="/blogGreenPlan2030.html"
-                className="transition-colors hover:text-[#AB052D]"
+                className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
                   "Singapore Green Plan 2030 and ISO 14001: what manufacturers need to do now"
                 }
               </SiteLink>
             </h5>
-            <p className="leading-relaxed mb-4">
+            <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
               {
                 "Align your environmental management system with Singapore's national sustainability targets and ESG reporting requirements."
               }
             </p>
             <div>
               <SiteLink
-                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
                 href="/blogGreenPlan2030.html"
+                className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
               </SiteLink>
@@ -242,29 +269,32 @@ function RowSection() {
           </div>
         </div>
       </div>
-      <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+      <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
         <div>
           <div>
             <SiteLink
               href="/blog_ISO42001_AI.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
                 src="/assets/images/blog/blog-thumb-05.webp"
                 alt="image"
-                className="max-w-full h-auto"
+                className="[vertical-align:middle] max-w-full"
               />
             </SiteLink>
             <div>
               <div>
                 <div>
                   <div>
-                    <Icon name="user" />
+                    <Icon
+                      name="user"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
                     </SiteLink>
@@ -272,13 +302,19 @@ function RowSection() {
                 </div>
                 <div>
                   <div>
-                    <Icon name="tag" />
+                    <Icon
+                      name="tag"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"AI Governance"}</span>
                 </div>
                 <div>
                   <div>
-                    <Icon name="calendar" />
+                    <Icon
+                      name="calendar"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"February 28, 2026"}</span>
                 </div>
@@ -286,25 +322,25 @@ function RowSection() {
             </div>
           </div>
           <div>
-            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+            <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
                 href="/blog_ISO42001_AI.html"
-                className="transition-colors hover:text-[#AB052D]"
+                className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
                   "ISO/IEC 42001: what Singapore AI companies need to know in 2026"
                 }
               </SiteLink>
             </h5>
-            <p className="leading-relaxed mb-4">
+            <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
               {
                 "First international AI management system standard — alignment with IMDA AI Verify, MAS AI guidelines, and EDG grant."
               }
             </p>
             <div>
               <SiteLink
-                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
                 href="/blog_ISO42001_AI.html"
+                className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
               </SiteLink>
@@ -312,29 +348,32 @@ function RowSection() {
           </div>
         </div>
       </div>
-      <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+      <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
         <div>
           <div>
             <SiteLink
               href="/blog_ISO27701_vs_PDPA_Singapore.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
                 src="/assets/images/blog/blog-thumb-04.webp"
                 alt="image"
-                className="max-w-full h-auto"
+                className="[vertical-align:middle] max-w-full"
               />
             </SiteLink>
             <div>
               <div>
                 <div>
                   <div>
-                    <Icon name="user" />
+                    <Icon
+                      name="user"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
                     </SiteLink>
@@ -342,13 +381,19 @@ function RowSection() {
                 </div>
                 <div>
                   <div>
-                    <Icon name="tag" />
+                    <Icon
+                      name="tag"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"Data Privacy"}</span>
                 </div>
                 <div>
                   <div>
-                    <Icon name="calendar" />
+                    <Icon
+                      name="calendar"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"February 20, 2026"}</span>
                 </div>
@@ -356,25 +401,25 @@ function RowSection() {
             </div>
           </div>
           <div>
-            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+            <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
                 href="/blog_ISO27701_vs_PDPA_Singapore.html"
-                className="transition-colors hover:text-[#AB052D]"
+                className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
                   "ISO 27701 vs PDPA compliance: which comes first for Singapore businesses?"
                 }
               </SiteLink>
             </h5>
-            <p className="leading-relaxed mb-4">
+            <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
               {
                 "Compare international privacy certification and Singapore's PDPA — sequencing recommendations and integrated approach."
               }
             </p>
             <div>
               <SiteLink
-                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
                 href="/blog_ISO27701_vs_PDPA_Singapore.html"
+                className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
               </SiteLink>
@@ -382,29 +427,32 @@ function RowSection() {
           </div>
         </div>
       </div>
-      <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+      <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
         <div>
           <div>
             <SiteLink
               href="/blog_LeadAuditor_vs_InternalAuditor.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
                 src="/assets/images/blog/blog-thumb-05.webp"
                 alt="image"
-                className="max-w-full h-auto"
+                className="[vertical-align:middle] max-w-full"
               />
             </SiteLink>
             <div>
               <div>
                 <div>
                   <div>
-                    <Icon name="user" />
+                    <Icon
+                      name="user"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
                     </SiteLink>
@@ -412,13 +460,19 @@ function RowSection() {
                 </div>
                 <div>
                   <div>
-                    <Icon name="tag" />
+                    <Icon
+                      name="tag"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"Training"}</span>
                 </div>
                 <div>
                   <div>
-                    <Icon name="calendar" />
+                    <Icon
+                      name="calendar"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"February 15, 2026"}</span>
                 </div>
@@ -426,25 +480,25 @@ function RowSection() {
             </div>
           </div>
           <div>
-            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+            <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
                 href="/blog_LeadAuditor_vs_InternalAuditor.html"
-                className="transition-colors hover:text-[#AB052D]"
+                className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
                   "Lead auditor vs internal auditor training: which course does your team need?"
                 }
               </SiteLink>
             </h5>
-            <p className="leading-relaxed mb-4">
+            <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
               {
                 "Difference between CQI/IRCA lead auditor and internal auditor certifications — who needs which and SkillsFuture funding."
               }
             </p>
             <div>
               <SiteLink
-                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
                 href="/blog_LeadAuditor_vs_InternalAuditor.html"
+                className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
               </SiteLink>
@@ -452,29 +506,32 @@ function RowSection() {
           </div>
         </div>
       </div>
-      <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+      <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
         <div>
           <div>
             <SiteLink
               href="/blog_ISO27701.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
                 src="/assets/images/blog/blog-thumb-01.webp"
                 alt="image"
-                className="max-w-full h-auto"
+                className="[vertical-align:middle] max-w-full"
               />
             </SiteLink>
             <div>
               <div>
                 <div>
                   <div>
-                    <Icon name="user" />
+                    <Icon
+                      name="user"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
                     </SiteLink>
@@ -482,13 +539,19 @@ function RowSection() {
                 </div>
                 <div>
                   <div>
-                    <Icon name="tag" />
+                    <Icon
+                      name="tag"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"Cybersecurity"}</span>
                 </div>
                 <div>
                   <div>
-                    <Icon name="calendar" />
+                    <Icon
+                      name="calendar"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"February 10, 2026"}</span>
                 </div>
@@ -496,25 +559,25 @@ function RowSection() {
             </div>
           </div>
           <div>
-            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+            <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
                 href="/blog_ISO27701.html"
-                className="transition-colors hover:text-[#AB052D]"
+                className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
                   "ISO 27001 certification for cloud migration: what Singapore enterprises need to know"
                 }
               </SiteLink>
             </h5>
-            <p className="leading-relaxed mb-4">
+            <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
               {
                 "How to maintain ISMS compliance while migrating legacy systems to AWS, Azure, or GCP."
               }
             </p>
             <div>
               <SiteLink
-                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
                 href="/blog_LegacyToCloud_ISO27001.html"
+                className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
               </SiteLink>
@@ -522,29 +585,32 @@ function RowSection() {
           </div>
         </div>
       </div>
-      <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+      <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
         <div>
           <div>
             <SiteLink
               href="/blog_mas.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
                 src="/assets/images/blog/blog-thumb-08.webp"
                 alt="image"
-                className="max-w-full h-auto"
+                className="[vertical-align:middle] max-w-full"
               />
             </SiteLink>
             <div>
               <div>
                 <div>
                   <div>
-                    <Icon name="user" />
+                    <Icon
+                      name="user"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>
                     <SiteLink
                       href="/contact-us.html"
-                      className="transition-colors hover:text-[#AB052D]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
                     </SiteLink>
@@ -552,13 +618,19 @@ function RowSection() {
                 </div>
                 <div>
                   <div>
-                    <Icon name="tag" />
+                    <Icon
+                      name="tag"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"Financial Services"}</span>
                 </div>
                 <div>
                   <div>
-                    <Icon name="calendar" />
+                    <Icon
+                      name="calendar"
+                      className="inline-block [font-style:normal]"
+                    />
                   </div>
                   <span>{"February 5, 2026"}</span>
                 </div>
@@ -566,25 +638,25 @@ function RowSection() {
             </div>
           </div>
           <div>
-            <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+            <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
                 href="/blog_mas.html"
-                className="transition-colors hover:text-[#AB052D]"
+                className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
                   "MAS Technology Risk Management Guidelines and ISO 27001: aligning compliance for financial institutions"
                 }
               </SiteLink>
             </h5>
-            <p className="leading-relaxed mb-4">
+            <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
               {
                 "How Singapore banks, insurers, and FinTech can satisfy MAS TRM requirements through ISO 27001 certification."
               }
             </p>
             <div>
               <SiteLink
-                className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
                 href="/blog_mas.html"
+                className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
               </SiteLink>
@@ -602,24 +674,27 @@ function BlogItemSection() {
       <div>
         <SiteLink
           href="/blog_wsh_mom.html"
-          className="transition-colors hover:text-[#AB052D]"
+          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
         >
           <SiteImage
             src="/assets/images/blog/blog-thumb-04.webp"
             alt="image"
-            className="max-w-full h-auto"
+            className="[vertical-align:middle] max-w-full"
           />
         </SiteLink>
         <div>
           <div>
             <div>
               <div>
-                <Icon name="user" />
+                <Icon
+                  name="user"
+                  className="inline-block [font-style:normal]"
+                />
               </div>
               <span>
                 <SiteLink
                   href="/contact-us.html"
-                  className="transition-colors hover:text-[#AB052D]"
+                  className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                 >
                   {"ICFC"}
                 </SiteLink>
@@ -627,13 +702,16 @@ function BlogItemSection() {
             </div>
             <div>
               <div>
-                <Icon name="tag" />
+                <Icon name="tag" className="inline-block [font-style:normal]" />
               </div>
               <span>{"E-Waste"}</span>
             </div>
             <div>
               <div>
-                <Icon name="calendar" />
+                <Icon
+                  name="calendar"
+                  className="inline-block [font-style:normal]"
+                />
               </div>
               <span>{"January 28, 2026"}</span>
             </div>
@@ -648,7 +726,7 @@ function ASection() {
   return (
     <SiteLink
       href="/blog_wsh_mom.html"
-      className="transition-colors hover:text-[#AB052D]"
+      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
     >
       {
         "MOM WSH Act and ISO 45001: a practical integration guide for Singapore contractors"
@@ -661,8 +739,8 @@ function ASection() {
 function BtnSection() {
   return (
     <SiteLink
-      className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
       href="/contact-us.html"
+      className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
     >
       {"Read More"}
     </SiteLink>
@@ -671,29 +749,32 @@ function BtnSection() {
 
 function ColXl4Section() {
   return (
-    <div className="w-full shrink-0 px-3 xl:w-[33.33333333333333%] lg:w-[33.33333333333333%] md:w-[50%]">
+    <div className="[flex:0_0_auto] w-[33.33333333%] min-[768px]:max-[992px]:w-[50%]">
       <div>
         <div>
           <SiteLink
             href="/blog_bizsafe.html"
-            className="transition-colors hover:text-[#AB052D]"
+            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
           >
             <SiteImage
               src="/assets/images/blog/blog-thumb-05.webp"
               alt="image"
-              className="max-w-full h-auto"
+              className="[vertical-align:middle] max-w-full"
             />
           </SiteLink>
           <div>
             <div>
               <div>
                 <div>
-                  <Icon name="user" />
+                  <Icon
+                    name="user"
+                    className="inline-block [font-style:normal]"
+                  />
                 </div>
                 <span>
                   <SiteLink
                     href="/contact-us.html"
-                    className="transition-colors hover:text-[#AB052D]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     {"ICFC"}
                   </SiteLink>
@@ -701,13 +782,19 @@ function ColXl4Section() {
               </div>
               <div>
                 <div>
-                  <Icon name="tag" />
+                  <Icon
+                    name="tag"
+                    className="inline-block [font-style:normal]"
+                  />
                 </div>
                 <span>{"Workplace Safety"}</span>
               </div>
               <div>
                 <div>
-                  <Icon name="calendar" />
+                  <Icon
+                    name="calendar"
+                    className="inline-block [font-style:normal]"
+                  />
                 </div>
                 <span>{"January 20, 2026"}</span>
               </div>
@@ -715,25 +802,25 @@ function ColXl4Section() {
           </div>
         </div>
         <div>
-          <h5 className="font-bold leading-tight text-[#2B3944] text-xl">
+          <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
             <SiteLink
               href="/blog_bizsafe.html"
-              className="transition-colors hover:text-[#AB052D]"
+              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               {
                 "bizSAFE STAR and ISO 45001: the direct pathway for Singapore contractors"
               }
             </SiteLink>
           </h5>
-          <p className="leading-relaxed mb-4">
+          <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
             {
               "How ISO 45001 certification gives you direct entry to bizSAFE STAR, bypassing Levels 1–4."
             }
           </p>
           <div>
             <SiteLink
-              className="transition-colors hover:text-[#AB052D] text-[17px] text-[#2B3944] inline-flex items-center justify-center p-[0] rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] [background:transparent] hover:[background:#2B3944] hover:text-[#AB052D] w-[unset] h-[unset] gap-[8px] [text-decoration:underline]"
               href="/contact-us.html"
+              className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
             >
               {"Read More"}
             </SiteLink>

@@ -27,18 +27,18 @@ function BreadcrumbAreaSection() {
 
 function ServicesAreaSection() {
   return (
-    <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px] relative z-[1] before:absolute before:[content:none] before:w-full before:h-[calc(100%_-_490px)] before:[background:#2B3944] before:bottom-[0] before:left-[0] before:z-[-1]">
-      <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
-        <div className="-mx-3 flex flex-wrap gap-y-6 justify-center">
-          <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%] lg:w-[83.33333333333334%]">
-            <div className="mb-[45px] text-center">
-              <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
+    <section className="pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px] relative z-[1] before:absolute before:[content:none] before:w-full before:h-[calc(100%_-_490px)] before:[background:#2B3944] before:bottom-[0] before:left-[0] before:z-[-1]">
+      <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
+        <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] justify-center!">
+          <div className="[flex-shrink:0] w-[66.66666667%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[83.33333333%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
+            <div className="text-center! mb-[45px]">
+              <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                 {"Our Strategic Services"}
               </span>
-              <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px] text-[#2B3944] mb-[15px]">
+              <h2 className="mt-[0px] mb-[15px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
                 {"High-Impact Strategy Services"}
               </h2>
-              <p className="leading-relaxed mb-4">
+              <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                 {
                   "Focus on serving mid-size to enterprise-level companies looking for scalable strategic."
                 }
@@ -47,18 +47,18 @@ function ServicesAreaSection() {
           </div>
         </div>
         <div className="relative min-h-[400px]">
-          <div className="hidden" id="page-1">
-            <div className="-mx-3 flex flex-wrap gap-y-6">
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+          <div id="page-1" className="hidden">
+            <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 39 44"
-                            className="w-[50px]"
+                            className="[vertical-align:middle] w-[50px]"
                           >
                             <path
                               d="M38.1299 14.3499L34.8829 14.2568C34.5257 13.0258 33.9981 11.8432 33.3134 10.7387L35.5382 8.53967C35.6992 8.38203 35.7873 8.17191 35.7837 7.95445C35.78 7.737 35.6848 7.52956 35.5186 7.3767L31.0581 3.2333C30.8937 3.07921 30.6711 2.99104 30.4378 2.98763C30.2044 2.98422 29.9789 3.06584 29.8094 3.21505L27.4414 5.28264C26.2515 4.64564 24.9776 4.15529 23.6519 3.82391L23.5509 0.80879C23.5445 0.591567 23.447 0.385291 23.2793 0.234128C23.1115 0.0829643 22.8868 -0.00107223 22.6533 1.03308e-05L16.3447 1.03308e-05C15.8572 1.03308e-05 15.4629 0.355107 15.4472 0.80879L15.3461 3.82391C14.0199 4.15528 12.7466 4.64639 11.5537 5.28446L9.18865 3.21596C9.01936 3.06641 8.79387 2.98449 8.56047 2.98773C8.32707 2.99097 8.10431 3.07912 7.93989 3.2333L3.48143 7.3767C3.3151 7.52957 3.21995 7.73712 3.21646 7.95464C3.21298 8.17216 3.30144 8.38225 3.46279 8.53967L5.68859 10.7351C5.00192 11.8423 4.47318 13.0263 4.11611 14.2595L0.8711 14.3499C0.637453 14.3552 0.415362 14.4456 0.2525 14.6016C0.0896384 14.7576 -0.00101154 14.9668 8.51627e-06 15.1843V21.0429C8.51627e-06 21.4975 0.382582 21.8635 0.8711 21.8772L4.11611 21.9676C4.47318 23.1999 5.00094 24.3839 5.68859 25.4921L3.46181 27.6875C3.30046 27.8449 3.212 28.055 3.21548 28.2725C3.21897 28.49 3.31412 28.6976 3.48045 28.8504L7.94087 32.9929C8.10531 33.1471 8.32806 33.2352 8.56145 33.2385C8.79484 33.2417 9.02032 33.1598 9.18963 33.0103L11.5547 30.9418C11.9255 31.1399 12.3071 31.3252 12.6946 31.4959L10.9495 38.3048H10.6777C8.9905 38.3048 7.61814 39.5818 7.61814 41.1519V43.4523C7.61814 43.7544 7.88201 44 8.20671 44H30.7923C31.117 44 31.3809 43.7544 31.3809 43.4523V41.1528C31.3809 39.5827 30.0085 38.3057 28.3213 38.3057H28.0515L26.3397 31.4803C26.7135 31.3151 27.0813 31.1362 27.4404 30.9445L29.8084 33.0121C29.9777 33.1616 30.2032 33.2435 30.4366 33.2403C30.67 33.237 30.8927 33.1489 31.0572 32.9948L35.5186 28.8514C35.8639 28.53 35.8727 28.0198 35.5382 27.6893L33.3134 25.4903C33.9985 24.3859 34.5261 23.2033 34.8829 21.9722L38.1299 21.8781C38.3633 21.8725 38.5851 21.782 38.7477 21.626C38.9103 21.4701 39.0009 21.2611 39 21.0438V15.1843C39 14.7306 38.6174 14.3645 38.1299 14.3499Z"
@@ -66,16 +66,16 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsone.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO/IEC 27701 PIMS"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {
                           "Privacy Information Management System for global compliance."
                         }
@@ -84,26 +84,26 @@ function ServicesAreaSection() {
                     <SiteImage
                       src="/assets/images/services/services-thumb-07.webp"
                       alt="image"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-08.webp"
                       alt="image"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 47"
-                            className="w-[50px]"
+                            className="[vertical-align:middle] w-[50px]"
                           >
                             <path
                               fillRule="evenodd"
@@ -113,37 +113,37 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailstwo.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 37001 Anti-bribery MS"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Anti-bribery management system certification."}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-09.webp"
                       alt="image"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 50 50"
-                            className="w-[50px]"
+                            className="[vertical-align:middle] w-[50px]"
                           >
                             <path
                               d="M43.1959 20.4138C43.5649 20.2819 43.9698 20.4641 44.1185 20.8219L44.1321 20.8571L49.9573 37.1608C50.0827 37.5117 49.9246 37.9008 49.59 38.0649L36.4875 44.4887C36.2841 44.5884 36.046 44.5884 35.8426 44.4886L29.8875 41.5688L29.8541 41.5513C29.5153 41.3633 29.3798 40.9405 29.5524 40.5887C29.7249 40.2369 30.142 40.085 30.4981 40.2377L30.5325 40.2536L36.165 43.0153L48.3577 37.0375L42.7526 21.3499C42.6166 20.969 42.815 20.5499 43.1959 20.4138ZM0 22.6328C2.7374e-06 18.7596 1.33391 15.1962 3.56665 12.3799L3.59087 12.351C3.84667 12.0599 4.2886 12.0176 4.59566 12.261C4.91262 12.5123 4.96585 12.973 4.71458 13.2899L4.61979 13.4108C2.64207 15.958 1.46485 19.1568 1.46484 22.6328C1.46484 27.8922 4.16242 32.5225 8.25214 35.2135L8.34904 35.2767L8.38022 35.298C8.69444 35.5247 8.77896 35.9605 8.56609 36.2895C8.35321 36.6185 7.92099 36.72 7.58543 36.5262L7.55329 36.5066L7.44705 36.4372C2.96288 33.4867 0 28.4057 0 22.6328ZM16.5166 6.11621C23.0946 6.11621 28.7736 9.96286 31.4286 15.5263C31.6028 15.8914 31.4481 16.3286 31.083 16.5028C30.7179 16.677 30.2808 16.5223 30.1065 16.1573C27.6854 11.084 22.5089 7.58105 16.5166 7.58105C12.9055 7.58106 9.5933 8.85179 6.99959 10.9715C6.68639 11.2274 6.22502 11.181 5.96905 10.8678C5.71308 10.5546 5.75942 10.0931 6.07262 9.83716C8.91835 7.51153 12.5554 6.11621 16.5166 6.11621Z"
@@ -159,37 +159,37 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsthree.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 42001 AI Management"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Artificial Intelligence Management Systems."}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-34.webp"
                       alt="image"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 50 50"
-                            className="w-[50px]"
+                            className="[vertical-align:middle] w-[50px]"
                           >
                             <path
                               fillRule="evenodd"
@@ -199,37 +199,37 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsfour.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 14001 Environmental MS"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Environmental Management System certification."}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-35.webp"
                       alt="image"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 36 42"
-                            className="w-[50px]"
+                            className="[vertical-align:middle] w-[50px]"
                           >
                             <path
                               d="M32.8483 25.1542V15.1923C34.4425 14.944 35.6671 13.5612 35.6671 11.8984C35.6671 10.0602 34.1718 8.56484 32.3327 8.56484C31.286 8.56484 30.3518 9.04953 29.74 9.80664L21.1101 4.82313C21.2545 4.45016 21.3344 4.04625 21.3344 3.62344C21.3344 1.78437 19.8382 0.289062 18 0.289062C16.1618 0.289062 14.6657 1.78438 14.6657 3.62258C14.6657 4.04539 14.7456 4.45016 14.89 4.82227L6.26012 9.80492C5.64824 9.04867 4.71324 8.56312 3.66738 8.56312C1.82918 8.56312 0.333008 10.0584 0.333008 11.8966C0.333008 13.5595 1.55676 14.9423 3.15176 15.1906V25.1525C1.55762 25.4009 0.333008 26.7836 0.333008 28.4465C0.333008 30.2847 1.82832 31.7809 3.66738 31.7809C4.7141 31.7809 5.64824 31.2962 6.26012 30.5391L12.2182 33.9783V36.1319H12.0953C11.1843 36.1319 10.4436 36.8727 10.4436 37.7836V38.4041H9.3573C9.07285 38.4041 8.84168 38.6352 8.84168 38.9197V41.1953C8.84168 41.4798 9.07285 41.7109 9.3573 41.7109H26.4382C26.7227 41.7109 26.9539 41.4798 26.9539 41.1953V38.9223C26.9539 38.6378 26.7227 38.4066 26.4382 38.4066H25.352V37.7862C25.352 36.8812 24.6207 36.1448 23.7183 36.1353V34.0178L29.7408 30.5408C30.3527 31.297 31.2877 31.7826 32.3336 31.7826C34.1718 31.7826 35.6679 30.2873 35.6679 28.4482C35.6671 26.7853 34.4425 25.4026 32.8483 25.1542Z M32.3327 9.59523C33.602 9.59523 34.6358 10.6282 34.6358 11.8975C34.6358 13.1677 33.6029 14.2006 32.3327 14.2006C31.0625 14.2006 30.0296 13.1677 30.0296 11.8975C30.0296 10.6282 31.0634 9.59523 32.3327 9.59523Z M18 1.32031C19.2693 1.32031 20.3032 2.35328 20.3032 3.62258C20.3032 4.89273 19.2702 5.9257 18 5.9257C16.7299 5.9257 15.6969 4.89273 15.6969 3.62258C15.6969 2.35328 16.7307 1.32031 18 1.32031Z M1.36426 11.8984C1.36426 10.6291 2.39723 9.59609 3.66738 9.59609C4.93668 9.59609 5.97051 10.6291 5.97051 11.8984C5.97051 13.1685 4.93754 14.2015 3.66738 14.2015C2.39723 14.2006 1.36426 13.1677 1.36426 11.8984Z M3.66738 30.7505C2.39723 30.7505 1.36426 29.7175 1.36426 28.4473C1.36426 27.1772 2.39723 26.1442 3.66738 26.1442C4.93668 26.1442 5.97051 27.1772 5.97051 28.4473C5.97051 29.7175 4.93668 30.7505 3.66738 30.7505Z M12.2577 30.9868L11.0013 29.7304C10.5759 29.305 10.3516 28.8023 10.3155 28.1955L10.0568 23.8007C10.0646 18.8361 14.1698 14.4842 18.8491 14.4842C20.8179 14.4842 22.7223 15.1425 24.2657 16.3465L22.7438 18.1795L21.5596 17.1715C21.343 16.9867 21.0173 17.0134 20.8325 17.2299C20.6478 17.4465 20.6744 17.7722 20.891 17.957L25.2609 21.6763C25.8229 22.1541 26.1134 22.8253 26.1263 23.6709C26.1375 24.4427 25.8736 25.1138 25.3417 25.6647C25.3047 25.7034 25.2704 25.7171 25.2171 25.7137C25.1638 25.7102 25.1311 25.6939 25.0985 25.6509L24.087 24.3352C23.8472 24.0233 23.4983 23.848 23.1047 23.8394L18.2733 23.744C17.8479 23.7354 17.5016 23.3822 17.5016 22.9568V22.4463C17.5016 22.1619 17.2704 21.9307 16.986 21.9307C16.7015 21.9307 16.4704 22.1619 16.4704 22.4463V22.9568C16.4704 23.9399 17.2704 24.7555 18.2527 24.7752L19.705 24.8036V27.8183C18.6377 27.2743 17.4062 26.9538 16.0003 26.8515C15.7158 26.8309 15.4692 27.0448 15.4486 27.3284C15.4279 27.612 15.6419 27.8595 15.9255 27.8802C18.9978 28.1027 21.1282 29.4949 22.4387 32.1349C22.6089 32.477 22.6845 32.7992 22.6845 33.1816V36.1327H13.2494V33.3793C13.2494 32.4503 12.916 31.6451 12.2577 30.9868Z M25.9226 40.6797H9.87207V39.4379H25.9218L25.9226 40.6797Z M24.3199 37.7862V38.4066H11.4748V37.7862C11.4748 37.4441 11.7532 37.1657 12.0953 37.1657H23.6994C24.0414 37.1648 24.3199 37.4433 24.3199 37.7862Z M23.7003 32.8362C23.6616 32.4314 23.5525 32.0567 23.3643 31.6769C22.6854 30.3096 21.8139 29.2388 20.738 28.4534V24.8242L23.085 24.8706C23.1657 24.8723 23.2207 24.8998 23.2697 24.9634L24.2812 26.2791C24.4961 26.5584 24.808 26.7226 25.1595 26.7423C25.1827 26.7441 25.2059 26.7441 25.2291 26.7441C25.5548 26.7441 25.8556 26.616 26.0842 26.3788C26.8112 25.6243 27.1721 24.7082 27.1575 23.6546C27.1412 22.5151 26.7167 21.5595 25.9295 20.89L23.5293 18.8464L25.3889 16.606C25.5677 16.3912 25.5419 16.0732 25.3322 15.8893C23.5384 14.3172 21.2343 13.4507 18.8491 13.4513C16.2443 13.4513 13.7719 14.5727 11.8856 16.6095C10.068 18.5731 9.02473 21.1994 9.02473 23.8145C9.02473 23.8248 9.02473 23.8351 9.02559 23.8445L9.28512 28.2548C9.33582 29.1134 9.66754 29.855 10.2708 30.4583L11.5272 31.7147C11.8314 32.0189 12.0325 32.3584 12.1357 32.7408L6.77574 29.6462C6.92012 29.2732 7.00004 28.8693 7.00004 28.4465C7.00004 26.7836 5.77629 25.4009 4.18129 25.1525V15.1923C5.77543 14.944 7.00004 13.5612 7.00004 11.8984C7.00004 11.4755 6.92012 11.0708 6.77574 10.6987L15.4056 5.71602C16.0175 6.47227 16.9525 6.95781 17.9983 6.95781C19.0442 6.95781 19.9792 6.47312 20.5911 5.71602L29.2209 10.6987C29.0725 11.0812 28.9965 11.488 28.9966 11.8984C28.9966 13.5612 30.2204 14.944 31.8154 15.1923V25.1542C30.2212 25.4026 28.9966 26.7853 28.9966 28.4482C28.9966 28.871 29.0765 29.2758 29.2209 29.6479L23.7003 32.8362Z M32.3327 30.7505C31.0625 30.7505 30.0296 29.7175 30.0296 28.4473C30.0296 27.1772 31.0625 26.1442 32.3327 26.1442C33.602 26.1442 34.6358 27.1772 34.6358 28.4473C34.6358 29.7175 33.6029 30.7505 32.3327 30.7505Z M12.8653 22.7884C12.8546 22.9171 12.7959 23.0372 12.7009 23.1247C12.6059 23.2122 12.4814 23.2609 12.3522 23.261C12.3376 23.261 12.3239 23.2602 12.3093 23.2593C12.2418 23.2538 12.1761 23.235 12.1159 23.2041C12.0557 23.1731 12.0022 23.1306 11.9585 23.079C11.9147 23.0273 11.8816 22.9676 11.861 22.9031C11.8404 22.8386 11.8327 22.7707 11.8383 22.7033C12.1142 19.3706 14.7258 16.6773 18.0482 16.2992C18.3309 16.2674 18.587 16.4702 18.6188 16.753C18.6506 17.0357 18.4478 17.2909 18.165 17.3236C15.3291 17.6467 13.1007 19.9447 12.8653 22.7884Z"
@@ -237,37 +237,37 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsfive.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 9001 Quality Management"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Quality Management System for excellence."}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-36.webp"
                       alt="image"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 40 40"
-                            className="w-[50px]"
+                            className="[vertical-align:middle] w-[50px]"
                           >
                             <path
                               d="M32.1852 24.9574C28.1952 24.9574 24.9607 28.1919 24.9607 32.1819C24.9607 36.1719 28.1952 39.4063 32.1852 39.4063C36.1752 39.4063 39.4096 36.1719 39.4096 32.1819C39.4048 28.1938 36.1733 24.9623 32.1852 24.9574ZM32.1852 38.0928C28.9206 38.0928 26.2743 35.4465 26.2743 32.1819C26.2743 28.9173 28.9206 26.271 32.1852 26.271C35.4498 26.271 38.0961 28.9173 38.0961 32.1819C38.0926 35.4449 35.4482 38.0893 32.1852 38.0928ZM13.7957 24.9574H7.88475V18.0049L9.82238 19.9422C10.0798 20.1914 10.4897 20.1876 10.743 19.9342C10.8648 19.8125 10.9339 19.6478 10.9354 19.4757C10.9369 19.3035 10.8707 19.1376 10.7511 19.0138L7.69232 15.955C7.56912 15.832 7.40211 15.7629 7.22798 15.7629C7.05386 15.7629 6.88685 15.832 6.76365 15.955L3.70524 19.0137C3.58564 19.1376 3.51945 19.3034 3.52094 19.4755C3.52243 19.6477 3.59147 19.8123 3.71321 19.934C3.83494 20.0559 3.99968 20.125 4.17191 20.1265C4.34414 20.128 4.51007 20.0618 4.63391 19.9421L6.57122 18.0049V24.9573H0.660299C0.486113 24.9573 0.319061 25.0265 0.195893 25.1497C0.0727252 25.2729 0.00353013 25.4399 0.00353013 25.6141V38.7495C0.00353013 38.9237 0.0727252 39.0907 0.195893 39.2139C0.319061 39.3371 0.486113 39.4062 0.660299 39.4062H13.7957C13.9699 39.4062 14.1369 39.3371 14.2601 39.2139C14.3832 39.0907 14.4524 38.9237 14.4524 38.7495V25.6141C14.4524 25.4399 14.3832 25.2729 14.2601 25.1497C14.1369 25.0265 13.9699 24.9574 13.7957 24.9574ZM13.1389 38.0928H1.31707V26.271H13.1389V38.0928ZM19.7396 3.7016C19.6585 3.61782 19.5567 3.55711 19.4444 3.5257C19.3321 3.49428 19.2135 3.49329 19.1008 3.52283C18.988 3.55237 18.8851 3.61137 18.8027 3.69378C18.7202 3.77619 18.6612 3.87905 18.6316 3.99181C18.6021 4.10457 18.6032 4.22317 18.6347 4.33539C18.6662 4.44762 18.727 4.54943 18.8109 4.63035L20.7481 6.5679H14.4191C14.0679 2.72194 10.7539 -0.168084 6.89582 0.00760134C3.03772 0.183287 0 3.36262 0 7.22467C0 11.0867 3.03756 14.266 6.89574 14.4417C10.7539 14.6174 14.0679 11.7275 14.419 7.88144H20.7481L18.8109 9.81907C18.727 9.89998 18.6662 10.0018 18.6347 10.114C18.6032 10.2262 18.6021 10.3448 18.6316 10.4575C18.6612 10.5703 18.7203 10.6732 18.8027 10.7556C18.8852 10.8381 18.988 10.8971 19.1008 10.9267C19.2136 10.9562 19.3322 10.9551 19.4445 10.9236C19.5567 10.8921 19.6586 10.8313 19.7396 10.7474L22.7981 7.689C22.8591 7.62804 22.9075 7.55565 22.9405 7.47598C22.9735 7.3963 22.9905 7.31091 22.9905 7.22467C22.9905 7.13843 22.9735 7.05303 22.9405 6.97336C22.9075 6.89369 22.8591 6.8213 22.7981 6.76033L19.7396 3.7016ZM7.22798 13.1356C3.96335 13.1356 1.31707 10.4893 1.31707 7.22467C1.31707 3.96012 3.96335 1.31375 7.22798 1.31375C10.4926 1.31375 13.1389 3.96012 13.1389 7.22467C13.1354 10.4877 10.491 13.1321 7.22798 13.1356ZM39.7591 6.71641L32.6002 0.87117C32.4829 0.775205 32.3361 0.722773 32.1846 0.722773C32.0331 0.722773 31.8862 0.775205 31.769 0.87117L24.6102 6.71641C24.5348 6.77797 24.4741 6.8555 24.4324 6.94341C24.3907 7.03131 24.3691 7.12738 24.3691 7.22467C24.3691 7.32197 24.3907 7.41806 24.4324 7.50597C24.4741 7.59389 24.5348 7.67144 24.6102 7.73301L31.5284 13.3812V21.4017L29.5911 19.464C29.4674 19.3439 29.3013 19.2772 29.1287 19.2785C28.9562 19.2797 28.7911 19.3488 28.6691 19.4708C28.5472 19.5928 28.4781 19.7579 28.4768 19.9304C28.4756 20.103 28.5422 20.269 28.6624 20.3928L31.7209 23.4515C31.8441 23.5745 32.0111 23.6436 32.1852 23.6436C32.3593 23.6436 32.5263 23.5745 32.6495 23.4515L35.7083 20.3928C35.8285 20.269 35.8951 20.103 35.8939 19.9304C35.8926 19.7579 35.8236 19.5928 35.7016 19.4708C35.5796 19.3488 35.4145 19.2797 35.242 19.2785C35.0695 19.2772 34.9034 19.3439 34.7796 19.464L32.842 21.4017V13.3812L39.7592 7.73301C39.8345 7.67137 39.8951 7.5938 39.9367 7.5059C39.9784 7.41799 40 7.32194 40 7.22467C40 7.12741 39.9784 7.03137 39.9367 6.94348C39.8951 6.85559 39.8344 6.77804 39.7591 6.71641ZM32.1852 12.2213L26.0655 7.22467L32.1852 2.22805L38.3049 7.22467L32.1852 12.2213Z"
@@ -275,16 +275,16 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-details.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"APEC PRP"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"APEC Privacy Recognition framework."}
                       </p>
                     </div>
@@ -293,226 +293,226 @@ function ServicesAreaSection() {
               </div>
             </div>
           </div>
-          <div className="hidden" id="page-2">
-            <div className="-mx-3 flex flex-wrap gap-y-6">
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+          <div id="page-2" className="hidden">
+            <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <Icon
                             name="hammer"
-                            className="text-[36px] text-[#AB052D]"
+                            className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsohms.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 45001 OH&S Management"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Occupational Health & Safety management system."}
                       </p>
                     </div>
                     <SiteImage
                       src="/assets/images/services/services-thumb-07.webp"
                       alt="OH&S"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-08.webp"
                       alt="Energy"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <Icon
                             name="leaf"
-                            className="text-[36px] text-[#AB052D]"
+                            className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsfivecyber.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"CSA Cyber Essentials Mark "}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Optimize energy performance globally."}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-09.webp"
                       alt="Security"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <Icon
                             name="shield"
-                            className="text-[36px] text-[#AB052D]"
+                            className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsctm.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"SS 712:2025 Cyber Trust Mark (CTM) "}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Information Security Management System."}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-34.webp"
                       alt="BCMS"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <Icon
                             name="chart"
-                            className="text-[36px] text-[#AB052D]"
+                            className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsbcms.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 22301 BCMS"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Business Continuity Management System."}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-36.webp"
                       alt="bizSAFE"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <Icon
                             name="shield"
-                            className="text-[36px] text-[#AB052D]"
+                            className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailscbpr.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"Global Cross-Border Privacy Rules (CBPR )"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Workplace safety accreditation."}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <Icon
                             name="presentation"
-                            className="text-[36px] text-[#AB052D]"
+                            className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailsdptm.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"DPTM Certification"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"SS 584:2020 Multi-Tier Cloud Security"}
                       </p>
                     </div>
                     <SiteImage
                       src="/assets/images/services/services-thumb-07.webp"
                       alt="DPTM"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
                   </div>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="relative overflow-hidden rounded-[6px]">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="relative overflow-hidden rounded-[6px] group/services-item">
                   <div className="relative z-[1]">
                     <SiteImage
                       src="/assets/images/services/services-thumb-08.webp"
                       alt="Cyber"
-                      className="max-w-full h-auto w-full rounded-[6px]"
+                      className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                     />
-                    <div className="[background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] pt-[35px] pb-[0px] [padding-inline-start:30px] [padding-inline-end:30px] [margin-inline-end:30px] rounded-[0_6px_0_6px] max-[575px]:pt-[25px] max-[575px]:[padding-inline-start:25px] max-[575px]:[padding-inline-end:25px]">
+                    <div className="pt-[35px] max-[575px]:pt-[25px] pb-[0px] [background:radial-gradient(187.38%_200.79%_at_5.44%_-12.25%,_rgba(0,_0,_0,_0.3)_0%,_rgba(0,_0,_0,_0.3)_100%)] [backdrop-filter:blur(21px)] absolute bottom-[0px] [padding-inline-start:30px] max-[575px]:[padding-inline-start:25px] [padding-inline-end:30px] max-[575px]:[padding-inline-end:25px] [margin-inline-end:30px] rounded-[0_6px_0_6px]">
                       <div className="flex gap-[22px] max-[480px]:flex-wrap">
                         <div>
                           <Icon
                             name="shield"
-                            className="text-[36px] text-[#AB052D]"
+                            className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="font-bold leading-tight text-[#2B3944] text-xl after:in-hover:w-full text-[#FFFFFF] relative pb-[23px] before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
                             href="/services-detailseol.html"
-                            className="transition-colors hover:text-[#AB052D] hover:text-[#AB052D]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"SS 587:2022 End-of-Life ICT Management"}
                           </SiteLink>
                         </h5>
                       </div>
-                      <p className="leading-relaxed text-[rgba(255,_255,_255,_0.83)] mt-[40px] mb-4">
+                      <p className="mt-[40px] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.83)] leading-[28px]">
                         {"Data privacy and cyber resilience."}
                       </p>
                     </div>
@@ -522,109 +522,112 @@ function ServicesAreaSection() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center gap-[12px] mt-[50px] mb-[30px]">
+        <div className="mt-[50px] mb-[30px] flex justify-center gap-[12px]">
           <div
-            className="w-[auto] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] p-[0_20px] gap-[8px]"
             id="prevPageBtn"
+            className="pt-[0] pr-[20px] pb-[0] pl-[20px] w-[auto] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] gap-[8px]"
           >
-            <Icon name="left" />
+            <Icon name="left" className="inline-block [font-style:normal]" />
             {" Prev"}
           </div>
           <div
-            className="w-[48px] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)]"
             data-page="1"
+            className="w-[48px] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)]"
           >
             {"1"}
           </div>
           <div
-            className="w-[48px] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)]"
             data-page="2"
+            className="w-[48px] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)]"
           >
             {"2"}
           </div>
           <div
-            className="w-[auto] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] p-[0_20px] gap-[8px]"
             id="nextPageBtn"
+            className="pt-[0] pr-[20px] pb-[0] pl-[20px] w-[auto] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] gap-[8px]"
           >
             {"Next "}
-            <Icon name="right" />
+            <Icon name="right" className="inline-block [font-style:normal]" />
           </div>
         </div>
-        <section className="pt-[120px] pb-[120px] max-[991px]:pt-[100px] max-[991px]:pb-[100px] max-[767px]:pt-[70px] max-[767px]:pb-[70px] max-[480px]:pt-[60px] max-[480px]:pb-[60px] mt-[70px] bg-slate-50">
-          <div className="mx-auto w-full max-w-[1310px] px-6 min-[1441px]:max-w-[1310px]">
-            <div className="-mx-3 flex flex-wrap gap-y-6 justify-center">
-              <div className="w-full shrink-0 px-3 xl:w-[66.66666666666666%] mb-[45px] text-center">
-                <span className="text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] mb-[10px] inline-block tracking-[2.5px]">
+        <section className="bg-[rgba(248,249,250,1)]! mt-[70px] pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px]">
+          <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
+            <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] justify-center!">
+              <div className="[flex-shrink:0] w-[66.66666667%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto] text-center! mb-[45px]">
+                <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                   {"Excellence Guaranteed"}
                 </span>
-                <h2 className="font-bold leading-tight text-[#2B3944] text-3xl md:text-[52px] text-[#2B3944] mb-[15px]">
+                <h2 className="mt-[0px] mb-[15px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
                   {"Providing Standard & "}
-                  <span className="text-[#AB052D]">{"Premium Services"}</span>
+                  <span className="text-[#AB052D]!">{"Premium Services"}</span>
                 </h2>
-                <p className="leading-relaxed mb-4">
+                <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "We offer specialized compliance and management system solutions extracted directly from our expert training modules."
                   }
                 </p>
               </div>
             </div>
-            <div className="-mx-3 flex flex-wrap gap-y-6 justify-center">
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="[background:#fff] rounded-[24px] p-[45px_35px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)]">
-                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] in-hover:opacity-[0.15] in-hover:[transform:scale(1)] in-hover:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-07.webp')]"></div>
-                  <span className="[background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] p-[6px_18px] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] mb-[25px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
-                    <Icon name="star" className="mr-[6px]" />
+            <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] justify-center!">
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card">
+                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-07.webp')]!"></div>
+                  <span className="mb-[25px] pt-[6px] pr-[18px] pb-[6px] pl-[18px] [background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
+                    <Icon
+                      name="star"
+                      className="mr-[6px]! inline-block [font-style:normal]"
+                    />
                     {" Global Accreditation"}
                   </span>
-                  <div className="w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center mb-[30px] relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] in-hover:[background:#AB052D] in-hover:[transform:rotateY(180deg)_scale(1.1)] in-hover:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:in-hover:opacity-[0.3]">
+                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3]">
                     <Icon
                       name="check"
-                      className="text-[42px] text-[#AB052D] in-hover:text-[#fff] in-hover:[transform:rotateY(-180deg)]"
+                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)]"
                     />
                   </div>
-                  <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                  <h4 className="mt-[0px] mb-[1rem]! [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                     {"Audit & Certification"}
                   </h4>
-                  <p className="leading-relaxed text-sm text-slate-500 mb-4">
+                  <p className="mt-[0] mb-[1.5rem]! text-[.875em] text-[rgba(33,_37,_41,_0.75)]! [font-weight:normal] leading-[28px]">
                     {"Independent verification for global recognition."}
                   </p>
-                  <ul className="list-none p-[0] m-[0]">
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                  <ul className="pl-[0] mt-[0] mb-[0] mr-[0] ml-[0] pt-[0] pr-[0] pb-[0] list-none">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 9001:2015 Quality Management"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 14001:2015 Environmental"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 45001:2018 Health & Safety"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 13485:2016 Medical Devices"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 50001:2018 Energy Audit"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:none] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:none] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
@@ -634,62 +637,65 @@ function ServicesAreaSection() {
                   </ul>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="[background:#fff] rounded-[24px] p-[45px_35px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)]">
-                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] in-hover:opacity-[0.15] in-hover:[transform:scale(1)] in-hover:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-08.webp')]"></div>
-                  <span className="[background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] p-[6px_18px] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] mb-[25px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
-                    <Icon name="bulb" className="mr-[6px]" />
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card">
+                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-08.webp')]!"></div>
+                  <span className="mb-[25px] pt-[6px] pr-[18px] pb-[6px] pl-[18px] [background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
+                    <Icon
+                      name="bulb"
+                      className="mr-[6px]! inline-block [font-style:normal]"
+                    />
                     {" Tailored Strategy"}
                   </span>
-                  <div className="w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center mb-[30px] relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] in-hover:[background:#AB052D] in-hover:[transform:rotateY(180deg)_scale(1.1)] in-hover:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:in-hover:opacity-[0.3]">
+                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3]">
                     <Icon
                       name="briefcase"
-                      className="text-[42px] text-[#AB052D] in-hover:text-[#fff] in-hover:[transform:rotateY(-180deg)]"
+                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)]"
                     />
                   </div>
-                  <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                  <h4 className="mt-[0px] mb-[1rem]! [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                     {"Specialist Consulting"}
                   </h4>
-                  <p className="leading-relaxed text-sm text-slate-500 mb-4">
+                  <p className="mt-[0] mb-[1.5rem]! text-[.875em] text-[rgba(33,_37,_41,_0.75)]! [font-weight:normal] leading-[28px]">
                     {"Strategic advisory for regulatory landscapes."}
                   </p>
-                  <ul className="list-none p-[0] m-[0]">
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                  <ul className="pl-[0] mt-[0] mb-[0] mr-[0] ml-[0] pt-[0] pr-[0] pb-[0] list-none">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" bizSAFE Level 1,2,3 & Star"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" GDPMD Singapore Consultancy"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 42001 AI Management"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" Cybersecurity & Data Privacy"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 37001 Anti-Bribery Path"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:none] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:none] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
@@ -699,62 +705,65 @@ function ServicesAreaSection() {
                   </ul>
                 </div>
               </div>
-              <div className="w-full shrink-0 px-3 lg:w-[33.33333333333333%] md:w-[50%]">
-                <div className="[background:#fff] rounded-[24px] p-[45px_35px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)]">
-                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] in-hover:opacity-[0.15] in-hover:[transform:scale(1)] in-hover:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-09.webp')]"></div>
-                  <span className="[background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] p-[6px_18px] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] mb-[25px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
-                    <Icon name="presentation" className="mr-[6px]" />
+              <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
+                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card">
+                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-09.webp')]!"></div>
+                  <span className="mb-[25px] pt-[6px] pr-[18px] pb-[6px] pl-[18px] [background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
+                    <Icon
+                      name="presentation"
+                      className="mr-[6px]! inline-block [font-style:normal]"
+                    />
                     {" Skill Mastery"}
                   </span>
-                  <div className="w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center mb-[30px] relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] in-hover:[background:#AB052D] in-hover:[transform:rotateY(180deg)_scale(1.1)] in-hover:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:in-hover:opacity-[0.3]">
+                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3]">
                     <Icon
                       name="user"
-                      className="text-[42px] text-[#AB052D] in-hover:text-[#fff] in-hover:[transform:rotateY(-180deg)]"
+                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)]"
                     />
                   </div>
-                  <h4 className="font-bold leading-tight text-[#2B3944] text-2xl">
+                  <h4 className="mt-[0px] mb-[1rem]! [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                     {"Professional Training"}
                   </h4>
-                  <p className="leading-relaxed text-sm text-slate-500 mb-4">
+                  <p className="mt-[0] mb-[1.5rem]! text-[.875em] text-[rgba(33,_37,_41,_0.75)]! [font-weight:normal] leading-[28px]">
                     {"Empowering workforces with knowledge."}
                   </p>
-                  <ul className="list-none p-[0] m-[0]">
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                  <ul className="pl-[0] mt-[0] mb-[0] mr-[0] ml-[0] pt-[0] pr-[0] pb-[0] list-none">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 9001 Training Excellence"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 14001 Essential Courses"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" DPTM Training & Certification"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" GDPMD Internal Auditor"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:1px_solid_rgba(0,_0,_0,_0.03)] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"
                       />
                       {" ISO 45001 Safety Awareness"}
                     </li>
-                    <li className="p-[12px_0] [border-bottom:none] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
+                    <li className="pt-[12px] pr-[0] pb-[12px] pl-[0] [border-bottom:none] flex items-center gap-[14px] text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-[22px] h-[22px] [background:#fdf2f4] rounded-[6px] text-[#AB052D] flex items-center justify-center text-[10px] [font-weight:900]"

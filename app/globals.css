@@ -2,3 +2,16 @@
 
 @source "./";
 @source "../components";
+
+@theme inline {
+  --font-sans: var(--font-inter-tight), sans-serif;
+}
+
+@theme {
+  --animate-marquee: marquee 80s linear infinite;
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}

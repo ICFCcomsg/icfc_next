@@ -33,21 +33,42 @@ export function SiteHeader({ route }: { route: string }) {
   }
   return (
     <header className="sticky top-0 z-50 bg-[#2B3944] text-white">
-      <div className="flex justify-between gap-4 bg-[#AB052D] px-4 py-2 text-xs md:px-6 md:py-3 md:text-sm [&>div]:hidden [&>div]:gap-6 md:[&>div]:flex [&_a]:text-white [&_a]:underline">
-        <span>
+      <div className="flex items-center justify-between gap-4 bg-[#AB052D] px-[15px] py-[7px] md:min-h-[47.5px] text-xs font-medium md:text-base [&>div]:hidden [&>div]:items-center [&>div]:gap-5 md:[&>div]:flex [&_a]:text-white">
+        <span className="flex flex-wrap items-center gap-x-1">
+          <span className="mr-2 hidden rounded bg-white px-1 text-[#AB052D] sm:inline-flex">
+            <Icon name="right" />
+          </span>
           {copy.top.obstacle_text}{" "}
-          <SiteLink href="/contact-us.html">{copy.top.connect_link}</SiteLink>
+          <SiteLink href="/contact-us.html" className="underline">
+            {copy.top.connect_link}
+          </SiteLink>
         </span>
         <div>
+          <select
+            className="w-[144px] rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-[13px] font-medium text-[#111]"
+            aria-label={copy.header.language_label}
+            value={language}
+            onChange={(event) =>
+              setLanguage(event.target.value as keyof typeof translations)
+            }
+          >
+            <option value="en">Select Language</option>
+            <option value="zh">中文</option>
+            <option value="ms">Melayu</option>
+            <option value="ko">한국어</option>
+            <option value="id">Bahasa</option>
+          </select>
           <SiteLink href="tel:+6586017001">
-            ☎ {copy.top.call_us_label} +65 8601 7001
+            <Icon name="phone" className="mr-2" /> {copy.top.call_us_label} +65
+            8601 7001
           </SiteLink>
           <SiteLink href="mailto:admin@icfc.com.sg">
-            ✉ {copy.top.send_mail_label} admin@icfc.com.sg
+            <Icon name="mail" className="mr-2" /> {copy.top.send_mail_label}{" "}
+            admin@icfc.com.sg
           </SiteLink>
         </div>
       </div>
-      <div className="flex items-center justify-between gap-3 px-4 py-4 md:gap-6 md:px-6 md:py-5">
+      <div className="flex items-center justify-between gap-3 px-[15px] py-2 md:gap-6 md:py-0">
         <SiteLink
           href="/"
           className="shrink-0 [&_img]:w-28 md:[&_img]:w-[150px] [&_img]:h-auto"
@@ -60,7 +81,7 @@ export function SiteHeader({ route }: { route: string }) {
           />
         </SiteLink>
         <nav
-          className="hidden xl:block [&_ul]:flex [&_ul]:items-center [&_ul]:gap-7 [&_a]:text-white [&_a]:hover:text-[#C8102E] [&_a[aria-current]]:text-[#C8102E]"
+          className="ml-auto hidden min-[1200px]:block [&_ul]:flex [&_ul]:items-center [&_ul]:gap-10 [&_a]:text-[17px] [&_a]:font-medium [&_a]:text-white [&_a]:hover:text-[#C8102E] [&_a[aria-current]]:text-[#C8102E]"
           aria-label="Main navigation"
         >
           <ul>
@@ -76,9 +97,9 @@ export function SiteHeader({ route }: { route: string }) {
             ))}
           </ul>
         </nav>
-        <div className="flex items-center gap-2 md:gap-4">
+        <div className="flex items-center gap-2 md:gap-[18px]">
           <select
-            className="max-w-16 rounded-md border border-white/20 bg-[#2B3944] p-2 text-xs text-white md:max-w-28 md:text-sm"
+            className="w-16 rounded border border-white/20 bg-[#2B3944] p-1 text-xs text-white md:hidden"
             aria-label={copy.header.language_label}
             value={language}
             onChange={(event) =>
@@ -93,12 +114,12 @@ export function SiteHeader({ route }: { route: string }) {
           </select>
           <SiteLink
             href="/contact-us.html"
-            className="hidden items-center gap-3 whitespace-nowrap rounded-full border border-white/20 px-6 py-3 text-white transition-colors hover:bg-[#AB052D] md:inline-flex"
+            className="hidden items-center gap-3 whitespace-nowrap rounded-full border border-white/20 px-[26px] py-[14px] text-[17px] font-medium text-white transition-colors hover:bg-[#AB052D] md:inline-flex"
           >
             {copy.header.get_quote} ↗
           </SiteLink>
           <button
-            className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-12"
+            className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-[54px]"
             type="button"
             aria-label="Search site"
             onClick={() => setPanel("search")}
@@ -106,7 +127,7 @@ export function SiteHeader({ route }: { route: string }) {
             <Icon name="search" />
           </button>
           <button
-            className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-12"
+            className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-[54px]"
             type="button"
             aria-label="Open navigation menu"
             aria-expanded={panel === "menu"}
@@ -132,6 +153,35 @@ export function SiteHeader({ route }: { route: string }) {
             ×
           </button>
           <h2>{panel === "menu" ? "Menu" : "Search site"}</h2>
+          {panel === "menu" && (
+            <>
+              <SiteImage
+                src="/assets/images/logo/logo.png"
+                alt="ICFC"
+                className="mb-6 w-[150px] h-auto"
+              />
+              <p>
+                ICFC specializes in helping startups and enterprises craft
+                strategic solutions.
+              </p>
+              <div className="my-6 grid grid-cols-3 gap-2">
+                {["01", "02", "03", "04", "05", "06"].map((number) => (
+                  <a
+                    key={number}
+                    href={`/assets/images/gallery/gallery-thumb-${number}.webp`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <SiteImage
+                      src={`/assets/images/gallery/gallery-thumb-${number}.webp`}
+                      alt={`ICFC gallery ${number}`}
+                      className="aspect-square w-full rounded-md object-cover"
+                    />
+                  </a>
+                ))}
+              </div>
+            </>
+          )}
           {panel === "search" && (
             <input
               aria-label="Search pages"
@@ -163,6 +213,9 @@ export function SiteHeader({ route }: { route: string }) {
               ))}
           </nav>
           <p>
+            <span className="mb-3 block">
+              10 BUROH STREET #04-05 WEST CONNECT BUILDING SINGAPORE 627564
+            </span>
             <SiteLink href="tel:+6586017001">+65 8601 7001</SiteLink>
             <br />
             <SiteLink href="mailto:admin@icfc.com.sg">
