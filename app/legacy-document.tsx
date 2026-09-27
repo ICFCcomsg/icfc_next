@@ -30,8 +30,9 @@ function attribute(tag: string, name: string) {
 }
 
 export function LegacyDocument({ source, route }: { source: string; route: string }) {
-  const head = source.match(/<head[^>]*>([\s\S]*?)<\/head>/i)?.[1] ?? "";
-  let body = source.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? source;
+  const normalized = source.replace(/\r\n?/g, "\n");
+  const head = normalized.match(/<head[^>]*>([\s\S]*?)<\/head>/i)?.[1] ?? "";
+  let body = normalized.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? normalized;
   body = body.replaceAll("contact-us.php", "contact-us.html");
 
   if (route === "contact-us.html") {

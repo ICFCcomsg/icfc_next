@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className="no-js">
+    <html lang="en" dir="ltr" className="no-js" suppressHydrationWarning>
       <head>
         <base href="/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
