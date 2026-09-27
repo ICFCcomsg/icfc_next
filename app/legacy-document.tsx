@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
+import { LegacyScripts } from "./legacy-scripts";
 
 const sourceRoot = join(process.cwd(), "doc/icfc.com.sg/public_html");
 const sitePages = [
@@ -34,6 +35,15 @@ export function LegacyDocument({ source, route }: { source: string; route: strin
   const head = normalized.match(/<head[^>]*>([\s\S]*?)<\/head>/i)?.[1] ?? "";
   let body = normalized.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? normalized;
   body = body.replaceAll("contact-us.php", "contact-us.html");
+  body = body.replace(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi, (_, attrs: string, content: string) => {
+    const typeMatch = attrs.match(/\s+type\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+    const originalType = typeMatch?.[1] ?? typeMatch?.[2] ?? typeMatch?.[3];
+    const remainingAttrs = attrs.replace(/\s+type\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)/i, "");
+    const typeAttr = originalType
+      ? ` data-legacy-original-type="${originalType.replaceAll('"', "&quot;")}"`
+      : "";
+    return `<script${remainingAttrs} data-legacy-script=""${typeAttr} type="application/x-legacy-inert">${content}</script>`;
+  });
 
   if (route === "contact-us.html") {
     body = body.replace(
@@ -53,8 +63,12 @@ export function LegacyDocument({ source, route }: { source: string; route: strin
       {styles.map((css, index) => (
         <style key={index} dangerouslySetInnerHTML={{ __html: css }} />
       ))}
-      {/* ponytail: keep trusted source markup; convert sections when they need React behavior. */}
-      <div className="legacy-site" dangerouslySetInnerHTML={{ __html: body }} />
+      <div
+        className="legacy-site"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: body }}
+      />
+      <LegacyScripts />
     </>
   );
 }
