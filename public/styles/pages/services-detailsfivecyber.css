@@ -1,0 +1,162 @@
+
+        .header-logo img { width: 150px !important; height: auto !important; }
+        .loader-icon img { width: 40px !important; height: auto !important; }
+        #pre-load { background: #fff; position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; }
+        .goog-te-gadget-simple { background-color: #fff !important; border: 1px solid rgba(0,0,0,0.1) !important; border-radius: 8px !important; }
+        .rs-footer-wrapper { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; }
+        .rs-footer-left { flex: 0 0 280px; }
+        .rs-footer-right { flex: 1; }
+        .ce-stats-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 40px 0; }
+        .ce-stat-card { background: #f8f9fc; border-radius: 20px; padding: 20px 15px; text-align: center; flex: 1; min-width: 100px; box-shadow: 0 5px 20px rgba(0,0,0,0.03); transition: all 0.3s; }
+        .ce-stat-card:hover { transform: translateY(-5px); }
+        .ce-stat-number { font-size: 36px; font-weight: 800; color: #AB052D; line-height: 1; margin-bottom: 5px; }
+        .pillar-card { background: #ffffff; border-radius: 28px; padding: 28px 22px; box-shadow: 0 20px 35px -12px rgba(0,0,0,0.08); height: 100%; transition: 0.2s; }
+        .pillar-card:hover { transform: translateY(-8px); }
+        .domain-card { background: white; border-radius: 20px; padding: 20px; height: 100%; border-left: 4px solid #AB052D; transition: 0.2s; box-shadow: 0 5px 15px rgba(0,0,0,0.03); }
+        .domain-card:hover { transform: translateX(5px); }
+        .grant-banner { background: linear-gradient(135deg, #0a3b33 0%, #05261f 100%); border-radius: 32px; padding: 40px; color: white; }
+        .comparison-table th, .comparison-table td { padding: 12px; border-bottom: 1px solid #eef2f6; font-size: 14px; vertical-align: top; }
+        .testimonial-card { background: #fff; border-radius: 20px; padding: 24px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); margin: 15px 0; border-left: 4px solid #AB052D; }
+        @media (max-width:768px) { .grant-banner { padding: 28px; } }
+        
+        
+        
+        /* ========== FLOATING ICONS - FIXED POSITION, NEVER HIDE ========== */
+       
+        
+        /* ========== FAQ SECTION - MODERN DESIGN ========== */
+        .faq-modern {
+            background: #f8faff;
+            border-radius: 32px;
+            padding: 60px 40px;
+            margin: 50px 0;
+        }
+        .faq-modern .faq-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .faq-modern .faq-title h2 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: #1a2a3a;
+            margin-bottom: 15px;
+        }
+        .faq-modern .faq-title p {
+            font-size: 1.5rem;
+            color: #5a6a7a;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .faq-modern .accordion-item {
+            border: none;
+            background: transparent;
+            margin-bottom: 20px;
+        }
+        .faq-modern .accordion-button {
+            background: white;
+            border-radius: 20px !important;
+            padding: 22px 28px;
+            font-size: 2.1rem;
+            font-weight: 700;
+            color: #1a2a3a;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            border: 1px solid #eef2f8;
+            transition: all 0.3s;
+        }
+        .faq-modern .accordion-button:not(.collapsed) {
+            background: #AB052D;
+            color: white;
+            border-color: #AB052D;
+            box-shadow: 0 8px 25px rgba(171,5,45,0.15);
+        }
+        .faq-modern .accordion-button:not(.collapsed)::after {
+            filter: brightness(0) invert(1);
+        }
+        .faq-modern .accordion-button:focus {
+            box-shadow: none;
+            border-color: #AB052D;
+        }
+        .faq-modern .accordion-body {
+            background: white;
+            border-radius: 0 0 20px 20px;
+            padding: 28px 28px;
+            font-size: 1.4rem;
+            line-height: 1.7;
+            color: #3a4a5a;
+            border: 1px solid #eef2f8;
+            border-top: none;
+            margin-top: -5px;
+        }
+        @media (max-width: 768px) {
+            .faq-modern { padding: 30px 20px; }
+            .faq-modern .accordion-button { padding: 16px 20px; font-size: 1rem; }
+            .faq-modern .accordion-body { padding: 20px; font-size: 0.95rem; }
+        }
+        
+        /* ========== RELATED SEARCHES / SEO KEYWORDS ========== */
+        .seo-keywords {
+            margin: 50px 0 30px;
+            padding: 25px 20px;
+            background: #f0f4f8;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .seo-keywords .seo-label {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #AB052D;
+            display: inline-block;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        .seo-keywords .keywords-list {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            line-height: 1.8;
+            word-break: break-word;
+        }
+        .seo-keywords .keywords-list span {
+            display: inline-block;
+            background: white;
+            padding: 5px 12px;
+            margin: 4px;
+            border-radius: 30px;
+            font-size: 1.5rem;
+            color: #1a2a3a;
+            transition: all 0.2s;
+        }
+        .seo-keywords .keywords-list span:hover {
+            background: #AB052D;
+            color: white;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .seo-keywords .keywords-list span { font-size: 0.75rem; padding: 4px 10px; }
+        }
+        
+        /* Back to top button */
+        .backtotop-wrap {
+            position: fixed;
+            bottom: 30px;
+            left: 25px;
+            background: #AB052D;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 999;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        .backtotop-wrap:hover {
+            background: #7a0420;
+            transform: translateY(-3px);
+        }
+        .backtotop-wrap i { color: #fff; font-size: 24px; }
+        
+        /* Hide default WhatsApp float from external CSS */
+        #whatsapp-float, #wechat-float { display: none !important; }
+    

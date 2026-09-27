@@ -1,0 +1,30 @@
+
+        .postbox-highlight-box {
+            background: #eef2ff;
+            border-left: 4px solid #1e3a8a;
+            padding: 1.5rem 1.8rem;
+            margin: 1.8rem 0;
+            border-radius: 0 16px 16px 0;
+        }
+        .controls-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        .controls-table td, .controls-table th {
+            border: 1px solid #e2e8f0;
+            padding: 10px;
+            vertical-align: top;
+        }
+        .bg-soft-blue {
+            background: #e0f2fe;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        .rs-postbox-details-content h4 {
+            margin-top: 1.8rem;
+            margin-bottom: 0.8rem;
+            font-weight: 700;
+        }
+    

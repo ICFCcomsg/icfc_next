@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ICFC Next.js site
 
-## Getting Started
+All 34 reference routes render native React TSX. HTML files in `doc/` are migration references only; the app does not read them at build time or runtime.
 
-First, run the development server:
+## Development
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+```sh
+bun install
 bun dev
+bun run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `app/`: Next.js routes, layout, and metadata.
+- `components/atoms/`: links, images, and accessible native dialogs.
+- `components/molecules/`: accordions, tabs, carousels, forms, breadcrumbs, and industry cards.
+- `components/organisms/`: header, footer, industry explorer, and floating contact controls.
+- `components/templates/`: shared page composition.
+- `components/pages/`: native JSX for every page, divided into named section components.
+- `lib/`: route registry and typed industry data.
+- `public/assets/`: reference images, fonts, and stylesheets.
+- `public/styles/`: page styles and native component styles.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit TSX components directly. `scripts/convert-reference.cjs` is the one-time migration utility; rerunning it overwrites converted pages.
 
-## Learn More
+## Interactions
 
-To learn more about Next.js, take a look at the following resources:
+Filtering, search, card expansion, accordions, tabs, carousels, menus, WeChat dialogs, and scrolling use React or native browser controls. No jQuery or legacy script injection is used. The header language picker uses the five supplied navigation dictionaries; page articles remain in their reference language.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contact and newsletter forms open an email draft addressed to ICFC. Automatic email delivery and newsletter storage require a backend integration. No email is sent by the app itself.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The reference provides 12 industry records. `/Version/index.html` reproduces the reference's missing-page message.

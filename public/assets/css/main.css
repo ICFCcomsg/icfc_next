@@ -2000,7 +2000,7 @@ textarea:focus {
   visibility: hidden;
 }
 .offcanvas-overlay:hover {
-  cursor: url(../images/shape/cross-out.html), pointer;
+  cursor: pointer;
 }
 .offcanvas-overlay.overlay-open {
   opacity: 1;
@@ -13214,7 +13214,7 @@ html.lenis body {
   z-index: -1;
 }
 .rs-feature-bg-thumb {
-    background-image: url('assets/images/bg/feature-bg-thumb-01.webp');
+    background-image: url('/assets/bg/feature-bg-thumb-01.webp');
     background-size: cover;
     background-position: center;
     height: 400px; /* IMPORTANT */
@@ -23454,11 +23454,6 @@ html.lenis body {
   .checkout-place-total .checkout-place-order-title {
     font-size: 26px;
   }
-}
-
-/* Reveal images remain visible when legacy animation initialization is missed. */
-.legacy-site .rs-image.scroll_reveal {
-  visibility: visible;
 }
 
 /*# sourceMappingURL=main.css.map */

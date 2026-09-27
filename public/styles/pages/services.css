@@ -1,0 +1,343 @@
+
+        /* Modernized Google Translate Widget Styling */
+        #google_translate_element {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 11px;
+        }
+
+        .goog-te-gadget-simple {
+            background-color: #fff !important;
+            border: 1px solid rgba(0, 0, 0, 0.1) !important;
+            padding: 6px 12px !important;
+            border-radius: 8px !important;
+            cursor: pointer !important;
+            font-family: inherit !important;
+            display: flex !important;
+            align-items: center !important;
+            gap: 5px !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .goog-te-gadget-simple:hover {
+            border-color: #AB052D !important;
+            box-shadow: 0 5px 15px rgba(171, 5, 45, 0.1) !important;
+        }
+
+        .goog-te-gadget-simple img {
+            display: none !important;
+            /* Hide Google logo inside button for cleaner look */
+        }
+
+        .goog-te-gadget-simple span {
+            color: #111 !important;
+            font-size: 13px !important;
+            font-weight: 500 !important;
+        }
+
+        .goog-te-banner-frame {
+            display: none !important;
+            /* Hide the top Google bar */
+        }
+
+        body {
+            top: 0px !important;
+        }
+
+        .goog-te-menu-frame {
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15) !important;
+            border: none !important;
+            border-radius: 12px !important;
+        }
+        
+        /* Pagination Styles */
+        .services-pagination {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        .services-pagination .page-btn {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            background: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            font-weight: 600;
+            font-size: 16px;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .services-pagination .page-btn:hover {
+            border-color: #AB052D;
+            color: #AB052D;
+            transform: translateY(-2px);
+        }
+        .services-pagination .page-btn.active {
+            background: #AB052D;
+            border-color: #AB052D;
+            color: #fff;
+            box-shadow: 0 8px 20px rgba(171, 5, 45, 0.25);
+        }
+        .services-pagination .page-btn.prev-next {
+            width: auto;
+            padding: 0 20px;
+            gap: 8px;
+        }
+        .services-grid-container {
+            position: relative;
+            min-height: 400px;
+        }
+        .services-page {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        .services-page.active-page {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .mt-70 { margin-top: 70px; }
+    
+
+        /* LUXURY PREMIUM SERVICES SECTION */
+        .service-category-card {
+            background: #fff;
+            border-radius: 24px;
+            padding: 45px 35px;
+            height: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .card-bg-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            transform: scale(1.1);
+            transition: all 0.6s ease;
+            z-index: -1;
+            filter: grayscale(100%) brightness(50%);
+        }
+
+        .service-category-card:hover .card-bg-img {
+            opacity: 0.15;
+            transform: scale(1);
+            filter: grayscale(0%) brightness(80%);
+        }
+
+        .service-category-card:hover {
+            transform: translateY(-12px);
+            border-color: #AB052D;
+            box-shadow: 0 30px 60px rgba(171, 5, 45, 0.15);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .category-icon {
+            width: 80px;
+            height: 80px;
+            background: #fdf2f4;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            transition: 0.4s;
+            position: relative;
+            box-shadow: 0 10px 20px rgba(171, 5, 45, 0.08);
+        }
+
+        .category-icon::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #AB052D;
+            filter: blur(20px);
+            opacity: 0;
+            transition: 0.4s;
+            z-index: -1;
+        }
+
+        .category-icon i {
+            font-size: 42px;
+            color: #AB052D;
+            transition: 0.4s;
+        }
+
+        .service-category-card:hover .category-icon {
+            background: #AB052D;
+            transform: rotateY(180deg) scale(1.1);
+            box-shadow: 0 15px 30px rgba(171, 5, 45, 0.3);
+        }
+
+        .service-category-card:hover .category-icon::after {
+            opacity: 0.3;
+        }
+
+        .service-category-card:hover .category-icon i {
+            color: #fff;
+            transform: rotateY(-180deg);
+        }
+
+        .service-list-premium {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .service-list-premium li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+            transition: 0.3s;
+        }
+
+        .service-list-premium li:last-child {
+            border-bottom: none;
+        }
+
+        .service-list-premium li i {
+            width: 22px;
+            height: 22px;
+            background: #fdf2f4;
+            border-radius: 6px;
+            color: #AB052D;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            transition: 0.3s;
+            font-weight: 900;
+        }
+
+        .premium-badge {
+            background: linear-gradient(90deg, #AB052D, #d40638);
+            color: #fff;
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 25px;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(171, 5, 45, 0.2);
+        }
+        
+        /* Fixed floating icons styling (WeChat + WhatsApp) */
+        .fixed-floating-icons {
+            position: fixed;
+            bottom: 70px;
+            right: 21px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .float-icon {
+            width: 60px;
+            height: 60px;
+            background: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            text-decoration: none;
+        }
+        .float-icon i {
+            font-size: 32px;
+            transition: transform 0.3s ease;
+        }
+        .float-icon.whatsapp {
+            background: #25D366;
+            color: #fff;
+            border: 2px solid #fff;
+        }
+        .float-icon.wechat {
+            background: #25D366;
+            color: #fff;
+            border: 2px solid #fff;
+        }
+        .float-icon:hover {
+            transform: scale(1.12);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        .float-icon:hover i {
+            transform: rotate(5deg);
+        }
+        /* WeChat QR Modal */
+        .wechat-modal {
+            display: none;
+            position: fixed;
+            bottom: 110px;
+            right: 90px;
+            background: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            z-index: 10000;
+            text-align: center;
+            flex-direction: column;
+            gap: 12px;
+            min-width: 200px;
+            border: 1px solid #eee;
+            animation: fadeInUp 0.2s ease;
+        }
+        .wechat-modal img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .wechat-modal p {
+            margin: 0;
+            font-size: 13px;
+            color: #333;
+            font-weight: 500;
+        }
+        .wechat-modal .close-modal {
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            font-size: 18px;
+            cursor: pointer;
+            color: #999;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 768px) {
+            .fixed-floating-icons { bottom: 20px; right: 20px; gap: 12px; }
+            .float-icon { width: 50px; height: 50px; }
+            .float-icon i { font-size: 26px; }
+            .wechat-modal { right: 70px; bottom: 90px; }
+            .wechat-modal img { width: 130px; height: 130px; }
+        }
+    

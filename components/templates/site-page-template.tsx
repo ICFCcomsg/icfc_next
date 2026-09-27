@@ -1,14 +1,31 @@
-import { DocumentResources } from "@/components/molecules/document-resources";
-import { LegacyContent } from "@/components/organisms/legacy-content";
-import { parseSiteDocument } from "@/lib/parse-site-document";
+import type { ReactNode } from "react";
+import { SiteHeader } from "@/components/organisms/site-header";
+import { SiteFooter } from "@/components/organisms/site-footer";
+import { FloatingContact } from "@/components/organisms/floating-contact";
 
-export function SitePageTemplate({ source, route }: { source: string; route: string }) {
-  const { body, links, styles } = parseSiteDocument(source, route);
-
+export function SitePageTemplate({
+  route,
+  stylesheets,
+  children,
+}: {
+  route: string;
+  stylesheets: string[];
+  children: ReactNode;
+}) {
   return (
     <>
-      <DocumentResources links={links} styles={styles} />
-      <LegacyContent html={body} />
+      {stylesheets.map((href) => (
+        <link key={href} rel="stylesheet" href={href} />
+      ))}
+      {/* Static public styles preserve the reference CSS cascade. */}
+      {/* eslint-disable-next-line @next/next/no-css-tags */}
+      <link rel="stylesheet" href="/styles/native-components.css" />
+      <div className="icfc-site">
+        <SiteHeader route={route} />
+        {children}
+        <SiteFooter />
+        <FloatingContact />
+      </div>
     </>
   );
 }

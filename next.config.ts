@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  experimental: {
+    // AppleDouble files on the mounted volume corrupt Turbopack's persisted cache.
+    turbopackFileSystemCacheForDev: false,
+    turbopackFileSystemCacheForBuild: false,
+  },
 };
 
 export default nextConfig;

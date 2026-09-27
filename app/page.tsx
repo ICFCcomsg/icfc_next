@@ -1,7 +1,5 @@
-import { SitePageTemplate } from "@/components/templates/site-page-template";
-import { readSitePage } from "@/lib/site-pages";
+import { IndexPageContent } from "@/components/pages/index";
 
-export default async function Home() {
-  const source = await readSitePage("index.html");
-  return source ? <SitePageTemplate source={source} route="index.html" /> : null;
+export default function Home() {
+  return <IndexPageContent />;
 }
