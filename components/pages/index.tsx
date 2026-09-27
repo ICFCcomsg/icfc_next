@@ -12,7 +12,7 @@ import { EmailForm } from "@/components/molecules/email-form";
 
 export function IndexPageContent() {
   return (
-    <SitePageTemplate route="index.html">
+    <SitePageTemplate route="index">
       <main>
         <BannerAreaSection />
         <FeatureAreaSection />
@@ -119,7 +119,7 @@ function BannerAreaSection() {
                 </p>
                 <div data-wow-delay=".9s" data-wow-duration="1.1s">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] group/btn group/has-bg-white"
                   >
                     {
@@ -177,7 +177,7 @@ function FeatureAreaSection() {
             >
               <div className="flex [flex-direction:column]">
                 <SiteLink
-                  href="/services.html"
+                  href="/services"
                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] flex items-center justify-between relative [flex:1] overflow-hidden gap-[30px] max-[480px]:gap-[15px] flex-wrap max-[991px]:pt-[15px] max-[991px]:pb-[15px] before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.2)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] hover:[flex:1.15] after:hover:w-full after:hover:[inset-inline-start:0] group/feature-info-list-item"
                 >
                   <div className="flex items-center gap-[30px_40px] max-[575px]:gap-[30px_20px] min-[575px]:max-[767px]:gap-[30px_30px]">
@@ -228,7 +228,7 @@ function FeatureAreaSection() {
                   </div>
                 </SiteLink>
                 <SiteLink
-                  href="/services.html"
+                  href="/services"
                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] flex items-center justify-between relative [flex:1] overflow-hidden gap-[30px] max-[480px]:gap-[15px] flex-wrap max-[991px]:pt-[15px] max-[991px]:pb-[15px] before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.2)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] hover:[flex:1.15] after:hover:w-full after:hover:[inset-inline-start:0] group/feature-info-list-item"
                 >
                   <div className="flex items-center gap-[30px_40px] max-[575px]:gap-[30px_20px] min-[575px]:max-[767px]:gap-[30px_30px]">
@@ -279,7 +279,7 @@ function FeatureAreaSection() {
                   </div>
                 </SiteLink>
                 <SiteLink
-                  href="/services.html"
+                  href="/services"
                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] flex items-center justify-between relative [flex:1] overflow-hidden gap-[30px] max-[480px]:gap-[15px] flex-wrap max-[991px]:pt-[15px] max-[991px]:pb-[15px] before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.2)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] hover:[flex:1.15] after:hover:w-full after:hover:[inset-inline-start:0] group/feature-info-list-item"
                 >
                   <div className="flex items-center gap-[30px_40px] max-[575px]:gap-[30px_20px] min-[575px]:max-[767px]:gap-[30px_30px]">
@@ -413,7 +413,7 @@ function AboutAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/about.html"
+                        href="/about"
                         className="text-[#AB052D] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#AB052D] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] group/btn group/border-red"
                       >
                         {
@@ -629,7 +629,7 @@ function ServicesAreaSection() {
                 </div>
                 <div>
                   <SiteLink
-                    href="/industry.html"
+                    href="/industry"
                     className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[4px] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[0] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [border-style:solid] [border-width:0px_0px_1px_0px] [border-color:rgba(255,_255,_255,_0.31)] group/btn group/has-text group/is-white"
                   >
                     {
@@ -711,7 +711,7 @@ function ServicesAreaSection() {
                 </div>
                 <div>
                   <SiteLink
-                    href="/services.html"
+                    href="/services"
                     className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[4px] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[0] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [border-style:solid] [border-width:0px_0px_1px_0px] [border-color:rgba(255,_255,_255,_0.31)] group/btn group/has-text group/is-white group/has-icon"
                   >
                     {
@@ -793,7 +793,7 @@ function ServicesAreaSection() {
                 </div>
                 <div>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[4px] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[0] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [border-style:solid] [border-width:0px_0px_1px_0px] [border-color:rgba(255,_255,_255,_0.31)] group/btn group/has-text group/is-white"
                   >
                     {
@@ -1323,7 +1323,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1336,7 +1336,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1346,7 +1346,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1388,7 +1388,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1401,7 +1401,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1411,7 +1411,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1453,7 +1453,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1466,7 +1466,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1476,7 +1476,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1518,7 +1518,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1531,7 +1531,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1541,7 +1541,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1583,7 +1583,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1596,7 +1596,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1606,7 +1606,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1648,7 +1648,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1661,7 +1661,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1671,7 +1671,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1713,7 +1713,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1726,7 +1726,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1736,7 +1736,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1778,7 +1778,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1791,7 +1791,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1801,7 +1801,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1843,7 +1843,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1856,7 +1856,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1866,7 +1866,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1908,7 +1908,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1921,7 +1921,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1931,7 +1931,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1973,7 +1973,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -1986,7 +1986,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -1996,7 +1996,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2038,7 +2038,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2051,7 +2051,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2061,7 +2061,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2103,7 +2103,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2116,7 +2116,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2126,7 +2126,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2168,7 +2168,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2181,7 +2181,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2191,7 +2191,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2233,7 +2233,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2246,7 +2246,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2256,7 +2256,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2309,7 +2309,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2322,7 +2322,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2332,7 +2332,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2374,7 +2374,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2387,7 +2387,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2397,7 +2397,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2439,7 +2439,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2452,7 +2452,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2462,7 +2462,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2504,7 +2504,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2517,7 +2517,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2527,7 +2527,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2569,7 +2569,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2582,7 +2582,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2592,7 +2592,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2634,7 +2634,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2647,7 +2647,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2657,7 +2657,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2710,7 +2710,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2723,7 +2723,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2733,7 +2733,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2775,7 +2775,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2788,7 +2788,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2798,7 +2798,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2840,7 +2840,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2853,7 +2853,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2863,7 +2863,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2905,7 +2905,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2918,7 +2918,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2928,7 +2928,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2970,7 +2970,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -2983,7 +2983,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -2993,7 +2993,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3035,7 +3035,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3048,7 +3048,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3058,7 +3058,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3100,7 +3100,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3113,7 +3113,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3123,7 +3123,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3165,7 +3165,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3178,7 +3178,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3188,7 +3188,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3241,7 +3241,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3254,7 +3254,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3264,7 +3264,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3306,7 +3306,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3319,7 +3319,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3329,7 +3329,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3371,7 +3371,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3384,7 +3384,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3394,7 +3394,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3436,7 +3436,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3449,7 +3449,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3459,7 +3459,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3501,7 +3501,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3514,7 +3514,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3524,7 +3524,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3566,7 +3566,7 @@ function PortfolioAreaSection() {
                           <div className="group/portfolio-tab-item">
                             <div className="overflow-hidden rounded-[6px]">
                               <SiteLink
-                                href="/contact-us.html"
+                                href="/contact-us"
                                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                               >
                                 <SiteImage
@@ -3579,7 +3579,7 @@ function PortfolioAreaSection() {
                             <div className="mt-[30px] pb-[30px] after:group-hover/portfolio-tab-item:w-full after:group-hover/portfolio-tab-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
                               <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] hover:text-[#AB052D]">
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                                 >
                                   {
@@ -3589,7 +3589,7 @@ function PortfolioAreaSection() {
                               </h5>
                               <div>
                                 <SiteLink
-                                  href="/contact-us.html"
+                                  href="/contact-us"
                                   className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text group/is-white"
                                 >
                                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -3753,7 +3753,7 @@ function WhyChooseAreaSection() {
                 </div>
                 <div className="mt-[45px] mb-[45px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn"
                   >
                     {"Get Start Now\n                                        "}
@@ -3836,7 +3836,7 @@ function WhyChooseAreaSection() {
                   </p>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#AB052D] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       {
@@ -3920,7 +3920,7 @@ function FaqAreaSection() {
                   </div>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn group/has-bg-white"
                     >
                       {
@@ -4194,7 +4194,7 @@ function TeamAreaSection() {
               >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     <SiteImage
@@ -4208,7 +4208,7 @@ function TeamAreaSection() {
                   <div>
                     <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -4222,7 +4222,7 @@ function TeamAreaSection() {
                   </div>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -4266,7 +4266,7 @@ function TeamAreaSection() {
               >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     <SiteImage
@@ -4280,7 +4280,7 @@ function TeamAreaSection() {
                   <div>
                     <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Cameron Williamson"}
@@ -4292,7 +4292,7 @@ function TeamAreaSection() {
                   </div>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -4336,7 +4336,7 @@ function TeamAreaSection() {
               >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     <SiteImage
@@ -4350,7 +4350,7 @@ function TeamAreaSection() {
                   <div>
                     <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Darrell Steward"}
@@ -4362,7 +4362,7 @@ function TeamAreaSection() {
                   </div>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -4935,7 +4935,7 @@ function CtaAreaSection() {
                       "Facing obstacles in business growth?\n                                        "
                     }
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent]"
                     >
                       {"Connect with us for guidance"}
@@ -5020,7 +5020,7 @@ function BlogAreaSection() {
                 <div className="w-full">
                   <div className="pt-[35px] pr-[35px] pb-[35px] pl-[35px] absolute top-[0] left-[0] z-[2]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[6px] pr-[12px] pb-[6px] pl-[12px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:#2B3944] group-hover/blog-item:[background:#FFFFFF] group-hover/blog-item:text-[#2B3944] text-[14px] rounded-[3px] inline-flex items-center justify-center font-medium hover:[background:#FFFFFF]"
                     >
                       {"September 23, 2025 "}
@@ -5035,7 +5035,7 @@ function BlogAreaSection() {
                             className="inline-block [font-style:normal]"
                           />
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                           >
                             {
@@ -5058,7 +5058,7 @@ function BlogAreaSection() {
                     </div>
                     <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -5078,7 +5078,7 @@ function BlogAreaSection() {
                             className="inline-block [font-style:normal]"
                           />
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                           >
                             {
@@ -5101,7 +5101,7 @@ function BlogAreaSection() {
                     </div>
                     <h5 className="mt-[0px] mb-[27px] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[27px] [word-break:break-word] [border-bottom:1px_solid_rgba(255,_255,_255,_0.1254901961)]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -5116,7 +5116,7 @@ function BlogAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#FFFFFF] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#000] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset]"
                       >
                         {
@@ -5142,7 +5142,7 @@ function BlogAreaSection() {
                 <div className="w-full">
                   <div className="pt-[35px] pr-[35px] pb-[35px] pl-[35px] absolute top-[0] left-[0] z-[2]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[6px] pr-[12px] pb-[6px] pl-[12px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:#2B3944] group-hover/blog-item:[background:#FFFFFF] group-hover/blog-item:text-[#2B3944] text-[14px] rounded-[3px] inline-flex items-center justify-center font-medium hover:[background:#FFFFFF]"
                     >
                       {"August 26, 2025"}
@@ -5157,7 +5157,7 @@ function BlogAreaSection() {
                             className="inline-block [font-style:normal]"
                           />
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                           >
                             {
@@ -5180,7 +5180,7 @@ function BlogAreaSection() {
                     </div>
                     <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -5200,7 +5200,7 @@ function BlogAreaSection() {
                             className="inline-block [font-style:normal]"
                           />
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                           >
                             {
@@ -5223,7 +5223,7 @@ function BlogAreaSection() {
                     </div>
                     <h5 className="mt-[0px] mb-[27px] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[27px] [word-break:break-word] [border-bottom:1px_solid_rgba(255,_255,_255,_0.1254901961)]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -5238,7 +5238,7 @@ function BlogAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#FFFFFF] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#000] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset]"
                       >
                         {
@@ -5264,7 +5264,7 @@ function BlogAreaSection() {
                 <div className="w-full">
                   <div className="pt-[35px] pr-[35px] pb-[35px] pl-[35px] absolute top-[0] left-[0] z-[2]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[6px] pr-[12px] pb-[6px] pl-[12px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:#2B3944] group-hover/blog-item:[background:#FFFFFF] group-hover/blog-item:text-[#2B3944] text-[14px] rounded-[3px] inline-flex items-center justify-center font-medium hover:[background:#FFFFFF]"
                     >
                       {"Feb 17, 2025"}
@@ -5279,7 +5279,7 @@ function BlogAreaSection() {
                             className="inline-block [font-style:normal]"
                           />
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                           >
                             {
@@ -5302,7 +5302,7 @@ function BlogAreaSection() {
                     </div>
                     <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {" Planning Your Business for Long-Term Growth"}
@@ -5320,7 +5320,7 @@ function BlogAreaSection() {
                             className="inline-block [font-style:normal]"
                           />
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                           >
                             {
@@ -5343,7 +5343,7 @@ function BlogAreaSection() {
                     </div>
                     <h5 className="mt-[0px] mb-[27px] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[27px] [word-break:break-word] [border-bottom:1px_solid_rgba(255,_255,_255,_0.1254901961)]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {" Planning Your Business for Long-Term Growth"}
@@ -5356,7 +5356,7 @@ function BlogAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#FFFFFF] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#000] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset]"
                       >
                         {
@@ -5426,7 +5426,7 @@ function ContactAreaSection() {
                     </div>
                     <div>
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[#2B3944] [text-decoration:none] pt-[7px] pr-[16px] pb-[7px] pl-[16px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[14px] inline-flex items-center justify-center rounded-[3px] font-normal relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn group/has-bg-white"
                       >
                         {
@@ -5594,7 +5594,7 @@ function VideoAreaSection() {
             <div className="text-center!">
               <div>
                 <SiteLink
-                  href="/contact-us.html"
+                  href="/contact-us"
                   className="text-[#2B3944] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] w-[90px] h-[90px] text-[30px] inline-flex rounded-full justify-center items-center relative z-[1] before:w-[90px] before:h-[90px] before:[background:#FFFFFF] hover:[background:#AB052D] hover:[border-color:#AB052D] before:[content:''] before:absolute before:z-[-1] before:left-[50%] before:top-[50%] before:[transform:translateX(-50%)_translateY(-50%)] before:block before:rounded-full after:[content:''] after:absolute after:z-[1] after:left-[50%] after:top-[50%] after:[transform:translateX(-50%)_translateY(-50%)] after:block after:rounded-full"
                 >
                   <Icon
@@ -5639,7 +5639,7 @@ function CtaAreaSection2() {
                     "Real Consulting Success: Inspiring Case Studies for Growth & Innovation.\n                                    "
                   }
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block"
                   >
                     {"Got A Industries in mind ?"}

@@ -7,7 +7,7 @@ import { ContentCarousel } from "@/components/molecules/content-carousel";
 
 export function AboutPageContent() {
   return (
-    <SitePageTemplate route="about.html">
+    <SitePageTemplate route="about">
       <main>
         <BreadcrumbAreaSection />
         <AboutAreaSection />
@@ -227,7 +227,7 @@ function AboutAreaSection() {
                   </p>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#AB052D] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       {"Join Now"}
@@ -298,13 +298,13 @@ function JourneyExpertiseSectionSection() {
           </p>
           <div className="mt-[20px]! flex! gap-[16px]! flex-wrap!">
             <a
-              href="/contact-us.html"
+              href="/contact-us"
               className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)]"
             >
               {"Get to know us ↗"}
             </a>
             <a
-              href="/services.html"
+              href="/services"
               className="text-[#111] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:1px_solid_#e0e0e0] [background:transparent] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[border-color:#AB052D]"
             >
               {"Our services"}
@@ -761,7 +761,7 @@ function JourneyExpertiseSectionSection() {
               }
             </p>
             <a
-              href="/contact-us.html"
+              href="/contact-us"
               className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)]"
             >
               {"Check MASA grant eligibility ↗"}
@@ -831,13 +831,13 @@ function JourneyExpertiseSectionSection() {
           </p>
           <div>
             <a
-              href="/contact-us.html"
+              href="/contact-us"
               className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)]"
             >
               {"Book a free consultation ↗"}
             </a>
             <a
-              href="/industry.html"
+              href="/industry"
               className="text-[#111] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:1px_solid_#e0e0e0] [background:transparent] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[border-color:#AB052D]"
             >
               {"Explore our industries"}
@@ -1123,7 +1123,7 @@ function WhyChooseAreaSection() {
                 </div>
                 <div className="mt-[45px] mb-[45px]">
                   <SiteLink
-                    href="/about.html"
+                    href="/about"
                     className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn"
                   >
                     {"Get Start Now"}
@@ -1202,7 +1202,7 @@ function WhyChooseAreaSection() {
                   </p>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#AB052D] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       {"Join Now"}
@@ -1508,7 +1508,7 @@ function TeamAreaSection() {
               <div data-wow-delay=".3s" className="group/team-item">
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     <SiteImage
@@ -1522,7 +1522,7 @@ function TeamAreaSection() {
                   <div>
                     <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Leslie Alexander"}
@@ -1534,7 +1534,7 @@ function TeamAreaSection() {
                   </div>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1574,7 +1574,7 @@ function TeamAreaSection() {
               <div data-wow-delay=".5s" className="group/team-item">
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     <SiteImage
@@ -1588,7 +1588,7 @@ function TeamAreaSection() {
                   <div>
                     <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Cameron Williamson"}
@@ -1600,7 +1600,7 @@ function TeamAreaSection() {
                   </div>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1640,7 +1640,7 @@ function TeamAreaSection() {
               <div data-wow-delay=".7s" className="group/team-item">
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     <SiteImage
@@ -1654,7 +1654,7 @@ function TeamAreaSection() {
                   <div>
                     <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Darrell Steward"}
@@ -1666,7 +1666,7 @@ function TeamAreaSection() {
                   </div>
                   <div>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1734,7 +1734,7 @@ function FeatureAreaSection2() {
                 </div>
                 <div className="mt-[42px] max-[991px]:mt-[30px]">
                   <SiteLink
-                    href="/industry.html"
+                    href="/industry"
                     className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn"
                   >
                     {"View All Industries"}
@@ -1786,7 +1786,7 @@ function FeatureAreaSection2() {
                     </div>
                     <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Advanced Manufacturing"}
@@ -1795,7 +1795,7 @@ function FeatureAreaSection2() {
                   </div>
                   <div className="flex items-center">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1845,7 +1845,7 @@ function FeatureAreaSection2() {
                     </div>
                     <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/services.html"
+                        href="/services"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Financial Services "}
@@ -1854,7 +1854,7 @@ function FeatureAreaSection2() {
                   </div>
                   <div className="flex items-center">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1904,7 +1904,7 @@ function FeatureAreaSection2() {
                     </div>
                     <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Energy & Natural Resources"}
@@ -1913,7 +1913,7 @@ function FeatureAreaSection2() {
                   </div>
                   <div className="flex items-center">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1963,7 +1963,7 @@ function FeatureAreaSection2() {
                     </div>
                     <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Government"}
@@ -1972,7 +1972,7 @@ function FeatureAreaSection2() {
                   </div>
                   <div className="flex items-center">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2022,7 +2022,7 @@ function FeatureAreaSection2() {
                     </div>
                     <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {" Healthcare & Life Sciences "}
@@ -2031,7 +2031,7 @@ function FeatureAreaSection2() {
                   </div>
                   <div className="flex items-center">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -2081,7 +2081,7 @@ function FeatureAreaSection2() {
                     </div>
                     <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {"Agribusiness"}
@@ -2090,7 +2090,7 @@ function FeatureAreaSection2() {
                   </div>
                   <div className="flex items-center">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">

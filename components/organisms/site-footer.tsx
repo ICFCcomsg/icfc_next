@@ -28,7 +28,7 @@ export function SiteFooter() {
                   <div>
                     <SiteLink
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
-                      href="/index.html"
+                      href="/"
                     >
                       <SiteImage
                         src="/assets/images/logo/logo.png"
@@ -38,7 +38,7 @@ export function SiteFooter() {
                     </SiteLink>
                     <SiteLink
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
-                      href="/index.html"
+                      href="/"
                     ></SiteLink>
                   </div>
                   <div>
@@ -79,7 +79,7 @@ export function SiteFooter() {
                     <div>
                       <div className="inline-flex gap-[12px] items-center">
                         <SiteLink
-                          href="/contact-us.html"
+                          href="/contact-us"
                           className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a"
                         >
                           <svg
@@ -98,7 +98,7 @@ export function SiteFooter() {
                           </svg>
                         </SiteLink>
                         <SiteLink
-                          href="/contact-us.html"
+                          href="/contact-us"
                           className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a"
                         >
                           <svg
@@ -122,7 +122,7 @@ export function SiteFooter() {
                           </svg>
                         </SiteLink>
                         <SiteLink
-                          href="/contact-us.html"
+                          href="/contact-us"
                           className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a"
                         >
                           <svg
@@ -141,7 +141,7 @@ export function SiteFooter() {
                           </svg>
                         </SiteLink>
                         <SiteLink
-                          href="/contact-us.html"
+                          href="/contact-us"
                           className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a"
                         >
                           <svg
@@ -174,7 +174,7 @@ export function SiteFooter() {
                       <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"FinTech"}
@@ -182,7 +182,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"HealthTech"}
@@ -190,7 +190,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Logistics"}
@@ -198,7 +198,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Manufacturing"}
@@ -206,7 +206,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Construction"}
@@ -214,7 +214,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"E-Commerce"}
@@ -222,7 +222,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"SaaS Platforms"}
@@ -230,7 +230,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Food & Beverage"}
@@ -238,7 +238,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Education Services"}
@@ -246,7 +246,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Professional Consulting"}
@@ -254,7 +254,7 @@ export function SiteFooter() {
                         </li>
                         <li className="list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Renewable Energy"}
@@ -271,7 +271,7 @@ export function SiteFooter() {
                       <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"PIMS"}
@@ -279,7 +279,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"ABMS"}
@@ -287,7 +287,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"APEC PRP"}
@@ -295,7 +295,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"BCMS"}
@@ -303,7 +303,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"CTM"}
@@ -311,7 +311,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"DPTM"}
@@ -319,7 +319,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"EMS"}
@@ -327,7 +327,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"MTCS"}
@@ -335,7 +335,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"OHMS"}
@@ -343,7 +343,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"QMS"}
@@ -351,7 +351,7 @@ export function SiteFooter() {
                         </li>
                         <li className="list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"EOL"}
@@ -368,7 +368,7 @@ export function SiteFooter() {
                       <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/about.html"
+                            href="/about"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"About ICFC"}
@@ -376,7 +376,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Our Services"}
@@ -384,7 +384,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Our Industries"}
@@ -392,7 +392,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Contact Us"}
@@ -400,7 +400,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/blog.html"
+                            href="/blog"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Blogs"}
@@ -408,7 +408,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/industry.html"
+                            href="/industry"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Industries"}
@@ -416,7 +416,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/services.html"
+                            href="/services"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Services"}
@@ -424,7 +424,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/privacy-policy.html"
+                            href="/privacy-policy"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Privacy Policy"}
@@ -432,7 +432,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Resources"}
@@ -440,7 +440,7 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/privacy-policy.html"
+                            href="/privacy-policy"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Terms & Conditions"}
@@ -448,7 +448,7 @@ export function SiteFooter() {
                         </li>
                         <li className="list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
-                            href="/contact-us.html"
+                            href="/contact-us"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
                           >
                             {"Expert Teams"}
@@ -496,7 +496,7 @@ export function SiteFooter() {
                   <div>
                     <div>
                       <SiteLink
-                        href="/privacy-policy.html"
+                        href="/privacy-policy"
                         className="text-[#BFC4C7] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px]"
                       >
                         {"Terms & Agreements"}
@@ -506,7 +506,7 @@ export function SiteFooter() {
                   <div>
                     <div>
                       <SiteLink
-                        href="/privacy-policy.html"
+                        href="/privacy-policy"
                         className="text-[#BFC4C7] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px]"
                       >
                         {"Privacy policy"}

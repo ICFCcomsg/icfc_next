@@ -10,7 +10,7 @@ import {
 
 export function ServicesDetailsohmsPageContent() {
   return (
-    <SitePageTemplate route="services-detailsohms.html">
+    <SitePageTemplate route="services-detailsohms">
       <main>
         <BreadcrumbAreaSection />
         <ServicesAreaSection />
@@ -154,7 +154,7 @@ function ServicesAreaSection() {
                       }
                     </p>
                     <SiteLink
-                      href="/services.html"
+                      href="/services"
                       className="text-[#AB052D] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#AB052D] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#AB052D] hover:[transform:translateY(-2px)]"
                     >
                       {"Explore audit →"}
@@ -173,7 +173,7 @@ function ServicesAreaSection() {
                       }
                     </p>
                     <SiteLink
-                      href="/services.html"
+                      href="/services"
                       className="text-[#AB052D] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#AB052D] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#AB052D] hover:[transform:translateY(-2px)]"
                     >
                       {"Explore consulting →"}
@@ -192,7 +192,7 @@ function ServicesAreaSection() {
                       }
                     </p>
                     <SiteLink
-                      href="/services.html"
+                      href="/services"
                       className="text-[#AB052D] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#AB052D] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#AB052D] hover:[transform:translateY(-2px)]"
                     >
                       {"Explore training →"}
@@ -291,7 +291,7 @@ function ServicesAreaSection() {
                       }
                     </p>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#000] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#f8f9fa] hover:text-[#000] hover:bg-[#d3d4d5] hover:[border-color:#c6c7c8] focus-visible:text-[#000] focus-visible:bg-[#d3d4d5] focus-visible:[border-color:#c6c7c8] focus-visible:shadow-[0_0_0_0.25rem_rgba(211,212,213,_.5)] active:text-[#000] active:bg-[#c6c7c8] active:[border-color:#babbbc] active:shadow-[0_0_0_0.25rem_rgba(211,212,213,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px]"
                     >
                       {"Check funding eligibility →"}
@@ -499,7 +499,7 @@ function ServicesAreaSection() {
                   }
                 </p>
                 <SiteLink
-                  href="/contact-us.html"
+                  href="/contact-us"
                   className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#AB052D] items-center justify-center gap-[10px] hover:[background:#15472d] hover:[transform:translateY(-2px)]"
                 >
                   {"中文咨询 · 免费评估 →"}
@@ -516,19 +516,19 @@ function ServicesAreaSection() {
                 </p>
                 <div className="flex! flex-wrap! justify-center! gap-[1rem]!">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#AB052D] items-center justify-center gap-[10px] hover:[background:#15472d] hover:[transform:translateY(-2px)]"
                   >
                     {"Book free OHSMS assessment →"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#AB052D] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#AB052D] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#AB052D] hover:[transform:translateY(-2px)]"
                   >
                     {"Check funding eligibility →"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#AB052D] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#AB052D] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#AB052D] hover:[transform:translateY(-2px)]"
                   >
                     {"bizSAFE STAR pathway →"}
@@ -578,7 +578,7 @@ function CtaAreaSection() {
                     "ISO 45001 OHSMS certification — WSH Act aligned, bizSAFE STAR ready. "
                   }
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block"
                   >
                     {"Start your safety management journey today →"}

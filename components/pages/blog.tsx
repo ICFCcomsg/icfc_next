@@ -6,7 +6,7 @@ import { SiteImage } from "@/components/atoms/site-image";
 
 export function BlogPageContent() {
   return (
-    <SitePageTemplate route="blog.html">
+    <SitePageTemplate route="blog">
       <main>
         <BreadcrumbAreaSection />
         <RowSection />
@@ -36,7 +36,7 @@ function RowSection() {
         <div>
           <div>
             <SiteLink
-              href="/blogcybersecurity.html"
+              href="/blogcybersecurity"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
@@ -56,7 +56,7 @@ function RowSection() {
                   </div>
                   <span>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
@@ -87,7 +87,7 @@ function RowSection() {
           <div>
             <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
-                href="/blogcybersecurity.html"
+                href="/blogcybersecurity"
                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
@@ -102,7 +102,7 @@ function RowSection() {
             </p>
             <div>
               <SiteLink
-                href="/blogcybersecurity.html"
+                href="/blogcybersecurity"
                 className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
@@ -115,7 +115,7 @@ function RowSection() {
         <div>
           <div>
             <SiteLink
-              href="/blogedg.html"
+              href="/blogedg"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
@@ -135,7 +135,7 @@ function RowSection() {
                   </div>
                   <span>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
@@ -166,7 +166,7 @@ function RowSection() {
           <div>
             <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
-                href="/blogedg.html"
+                href="/blogedg"
                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
@@ -181,7 +181,7 @@ function RowSection() {
             </p>
             <div>
               <SiteLink
-                href="/blogedg.html"
+                href="/blogedg"
                 className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
@@ -194,7 +194,7 @@ function RowSection() {
         <div>
           <div>
             <SiteLink
-              href="/blogGreenPlan2030.html"
+              href="/blogGreenPlan2030"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
@@ -214,7 +214,7 @@ function RowSection() {
                   </div>
                   <span>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
@@ -245,7 +245,7 @@ function RowSection() {
           <div>
             <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
-                href="/blogGreenPlan2030.html"
+                href="/blogGreenPlan2030"
                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
@@ -260,7 +260,7 @@ function RowSection() {
             </p>
             <div>
               <SiteLink
-                href="/blogGreenPlan2030.html"
+                href="/blogGreenPlan2030"
                 className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
@@ -273,7 +273,7 @@ function RowSection() {
         <div>
           <div>
             <SiteLink
-              href="/blog_ISO42001_AI.html"
+              href="/blog_ISO42001_AI"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
@@ -293,7 +293,7 @@ function RowSection() {
                   </div>
                   <span>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
@@ -324,7 +324,7 @@ function RowSection() {
           <div>
             <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
-                href="/blog_ISO42001_AI.html"
+                href="/blog_ISO42001_AI"
                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
@@ -339,7 +339,7 @@ function RowSection() {
             </p>
             <div>
               <SiteLink
-                href="/blog_ISO42001_AI.html"
+                href="/blog_ISO42001_AI"
                 className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
@@ -352,7 +352,7 @@ function RowSection() {
         <div>
           <div>
             <SiteLink
-              href="/blog_ISO27701_vs_PDPA_Singapore.html"
+              href="/blog_ISO27701_vs_PDPA_Singapore"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
@@ -372,7 +372,7 @@ function RowSection() {
                   </div>
                   <span>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
@@ -403,7 +403,7 @@ function RowSection() {
           <div>
             <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
-                href="/blog_ISO27701_vs_PDPA_Singapore.html"
+                href="/blog_ISO27701_vs_PDPA_Singapore"
                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
@@ -418,7 +418,7 @@ function RowSection() {
             </p>
             <div>
               <SiteLink
-                href="/blog_ISO27701_vs_PDPA_Singapore.html"
+                href="/blog_ISO27701_vs_PDPA_Singapore"
                 className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
@@ -431,7 +431,7 @@ function RowSection() {
         <div>
           <div>
             <SiteLink
-              href="/blog_LeadAuditor_vs_InternalAuditor.html"
+              href="/blog_LeadAuditor_vs_InternalAuditor"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
@@ -451,7 +451,7 @@ function RowSection() {
                   </div>
                   <span>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
@@ -482,7 +482,7 @@ function RowSection() {
           <div>
             <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
-                href="/blog_LeadAuditor_vs_InternalAuditor.html"
+                href="/blog_LeadAuditor_vs_InternalAuditor"
                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
@@ -497,7 +497,7 @@ function RowSection() {
             </p>
             <div>
               <SiteLink
-                href="/blog_LeadAuditor_vs_InternalAuditor.html"
+                href="/blog_LeadAuditor_vs_InternalAuditor"
                 className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
@@ -510,7 +510,7 @@ function RowSection() {
         <div>
           <div>
             <SiteLink
-              href="/blog_ISO27701.html"
+              href="/blog_ISO27701"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
@@ -530,7 +530,7 @@ function RowSection() {
                   </div>
                   <span>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
@@ -561,7 +561,7 @@ function RowSection() {
           <div>
             <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
-                href="/blog_ISO27701.html"
+                href="/blog_ISO27701"
                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
@@ -576,7 +576,7 @@ function RowSection() {
             </p>
             <div>
               <SiteLink
-                href="/blog_LegacyToCloud_ISO27001.html"
+                href="/blog_LegacyToCloud_ISO27001"
                 className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
@@ -589,7 +589,7 @@ function RowSection() {
         <div>
           <div>
             <SiteLink
-              href="/blog_mas.html"
+              href="/blog_mas"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               <SiteImage
@@ -609,7 +609,7 @@ function RowSection() {
                   </div>
                   <span>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ICFC"}
@@ -640,7 +640,7 @@ function RowSection() {
           <div>
             <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
               <SiteLink
-                href="/blog_mas.html"
+                href="/blog_mas"
                 className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
               >
                 {
@@ -655,7 +655,7 @@ function RowSection() {
             </p>
             <div>
               <SiteLink
-                href="/blog_mas.html"
+                href="/blog_mas"
                 className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
               >
                 {"Read More"}
@@ -673,7 +673,7 @@ function BlogItemSection() {
     <div>
       <div>
         <SiteLink
-          href="/blog_wsh_mom.html"
+          href="/blog_wsh_mom"
           className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
         >
           <SiteImage
@@ -693,7 +693,7 @@ function BlogItemSection() {
               </div>
               <span>
                 <SiteLink
-                  href="/contact-us.html"
+                  href="/contact-us"
                   className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                 >
                   {"ICFC"}
@@ -725,7 +725,7 @@ function BlogItemSection() {
 function ASection() {
   return (
     <SiteLink
-      href="/blog_wsh_mom.html"
+      href="/blog_wsh_mom"
       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
     >
       {
@@ -739,7 +739,7 @@ function ASection() {
 function BtnSection() {
   return (
     <SiteLink
-      href="/contact-us.html"
+      href="/contact-us"
       className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
     >
       {"Read More"}
@@ -753,7 +753,7 @@ function ColXl4Section() {
       <div>
         <div>
           <SiteLink
-            href="/blog_bizsafe.html"
+            href="/blog_bizsafe"
             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
           >
             <SiteImage
@@ -773,7 +773,7 @@ function ColXl4Section() {
                 </div>
                 <span>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                   >
                     {"ICFC"}
@@ -804,7 +804,7 @@ function ColXl4Section() {
         <div>
           <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
             <SiteLink
-              href="/blog_bizsafe.html"
+              href="/blog_bizsafe"
               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
             >
               {
@@ -819,7 +819,7 @@ function ColXl4Section() {
           </p>
           <div>
             <SiteLink
-              href="/contact-us.html"
+              href="/contact-us"
               className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
             >
               {"Read More"}

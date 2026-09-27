@@ -7,7 +7,7 @@ import { EmailForm } from "@/components/molecules/email-form";
 
 export function BlogSidebarPageContent() {
   return (
-    <SitePageTemplate route="blog-sidebar.html">
+    <SitePageTemplate route="blog-sidebar">
       <main>
         <BreadcrumbAreaSection />
         <PostboxAreaSection />
@@ -37,7 +37,7 @@ function PostboxAreaSection() {
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       <SiteImage
@@ -57,7 +57,7 @@ function PostboxAreaSection() {
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
-                              href="/contact-us.html"
+                              href="/contact-us"
                               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent]"
                             >
                               {"Icfc"}
@@ -92,7 +92,7 @@ function PostboxAreaSection() {
                   <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
                     <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -107,7 +107,7 @@ function PostboxAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
                       >
                         {
@@ -122,7 +122,7 @@ function PostboxAreaSection() {
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       <SiteImage
@@ -142,7 +142,7 @@ function PostboxAreaSection() {
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
-                              href="/contact-us.html"
+                              href="/contact-us"
                               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent]"
                             >
                               {"Icfc"}
@@ -177,7 +177,7 @@ function PostboxAreaSection() {
                   <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
                     <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -192,7 +192,7 @@ function PostboxAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
                       >
                         {
@@ -207,7 +207,7 @@ function PostboxAreaSection() {
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       <SiteImage
@@ -227,7 +227,7 @@ function PostboxAreaSection() {
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
-                              href="/contact-us.html"
+                              href="/contact-us"
                               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent]"
                             >
                               {"Icfc"}
@@ -262,7 +262,7 @@ function PostboxAreaSection() {
                   <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
                     <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -277,7 +277,7 @@ function PostboxAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
                       >
                         {
@@ -292,7 +292,7 @@ function PostboxAreaSection() {
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       <SiteImage
@@ -312,7 +312,7 @@ function PostboxAreaSection() {
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
-                              href="/contact-us.html"
+                              href="/contact-us"
                               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent]"
                             >
                               {"Icfc"}
@@ -347,7 +347,7 @@ function PostboxAreaSection() {
                   <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
                     <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -362,7 +362,7 @@ function PostboxAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
                       >
                         {
@@ -377,7 +377,7 @@ function PostboxAreaSection() {
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       <SiteImage
@@ -397,7 +397,7 @@ function PostboxAreaSection() {
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
-                              href="/contact-us.html"
+                              href="/contact-us"
                               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent]"
                             >
                               {"Icfc"}
@@ -432,7 +432,7 @@ function PostboxAreaSection() {
                   <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
                     <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -447,7 +447,7 @@ function PostboxAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
                       >
                         {
@@ -462,7 +462,7 @@ function PostboxAreaSection() {
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
-                      href="/blog-details.html"
+                      href="/blog-details"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       <SiteImage
@@ -482,7 +482,7 @@ function PostboxAreaSection() {
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
-                              href="/contact-us.html"
+                              href="/contact-us"
                               className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent]"
                             >
                               {"Icfc"}
@@ -517,7 +517,7 @@ function PostboxAreaSection() {
                   <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
                     <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                       >
                         {
@@ -532,7 +532,7 @@ function PostboxAreaSection() {
                     </p>
                     <div>
                       <SiteLink
-                        href="/blog-details.html"
+                        href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px]"
                       >
                         {
@@ -601,7 +601,7 @@ function PostboxAreaSection() {
                     <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
                       <li className="mb-[12px] list-none">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D]"
                         >
                           {
@@ -612,7 +612,7 @@ function PostboxAreaSection() {
                       </li>
                       <li className="mb-[12px] list-none">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D]"
                         >
                           {
@@ -623,7 +623,7 @@ function PostboxAreaSection() {
                       </li>
                       <li className="mb-[12px] list-none">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D]"
                         >
                           {
@@ -634,7 +634,7 @@ function PostboxAreaSection() {
                       </li>
                       <li className="mb-[12px] list-none">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D]"
                         >
                           {
@@ -645,7 +645,7 @@ function PostboxAreaSection() {
                       </li>
                       <li className="mb-[12px] list-none">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D]"
                         >
                           {
@@ -656,7 +656,7 @@ function PostboxAreaSection() {
                       </li>
                       <li className="list-none">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D]"
                         >
                           {
@@ -678,7 +678,7 @@ function PostboxAreaSection() {
                     <div className="mb-[20px] pb-[20px] flex max-[480px]:grid items-center gap-[20px] max-[480px]:[grid-template-columns:auto] [border-bottom:1px_solid_#DBDEE1] group/sidebar-blog-item">
                       <div className="overflow-hidden [flex:0_0_auto] w-[85px] max-[480px]:w-full rounded-[4px]">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                         >
                           <SiteImage
@@ -698,7 +698,7 @@ function PostboxAreaSection() {
                         </div>
                         <h6 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
-                            href="/blog-details.html"
+                            href="/blog-details"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {" Insights That Drive Business Smarter Forward"}
@@ -709,7 +709,7 @@ function PostboxAreaSection() {
                     <div className="mb-[20px] pb-[20px] flex max-[480px]:grid items-center gap-[20px] max-[480px]:[grid-template-columns:auto] [border-bottom:1px_solid_#DBDEE1] group/sidebar-blog-item">
                       <div className="overflow-hidden [flex:0_0_auto] w-[85px] max-[480px]:w-full rounded-[4px]">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                         >
                           <SiteImage
@@ -729,7 +729,7 @@ function PostboxAreaSection() {
                         </div>
                         <h6 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
-                            href="/blog-details.html"
+                            href="/blog-details"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {
@@ -742,7 +742,7 @@ function PostboxAreaSection() {
                     <div className="flex max-[480px]:grid items-center gap-[20px] max-[480px]:[grid-template-columns:auto] group/sidebar-blog-item">
                       <div className="overflow-hidden [flex:0_0_auto] w-[85px] max-[480px]:w-full rounded-[4px]">
                         <SiteLink
-                          href="/blog-details.html"
+                          href="/blog-details"
                           className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                         >
                           <SiteImage
@@ -762,7 +762,7 @@ function PostboxAreaSection() {
                         </div>
                         <h6 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
-                            href="/blog-details.html"
+                            href="/blog-details"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {
@@ -781,49 +781,49 @@ function PostboxAreaSection() {
                 </h5>
                 <div className="flex flex-wrap gap-[12px]">
                   <SiteLink
-                    href="/blog-details.html"
+                    href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Technology"}
                   </SiteLink>
                   <SiteLink
-                    href="/blog-details.html"
+                    href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Business"}
                   </SiteLink>
                   <SiteLink
-                    href="/blog-details.html"
+                    href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Video"}
                   </SiteLink>
                   <SiteLink
-                    href="/blog-details.html"
+                    href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Agency"}
                   </SiteLink>
                   <SiteLink
-                    href="/blog-details.html"
+                    href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Consulting"}
                   </SiteLink>
                   <SiteLink
-                    href="/blog-details.html"
+                    href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Financial"}
                   </SiteLink>
                   <SiteLink
-                    href="/blog-details.html"
+                    href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Corporate"}
                   </SiteLink>
                   <SiteLink
-                    href="/blog-details.html"
+                    href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Marketing"}
@@ -841,7 +841,7 @@ function PostboxAreaSection() {
                   <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] inline-flex gap-[10px]">
                     <li className="list-none">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] w-[40px] h-[40px] flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:[border-color:#AB052D]"
                       >
                         {"1"}
@@ -849,7 +849,7 @@ function PostboxAreaSection() {
                     </li>
                     <li className="list-none">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[#000] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-[40px] h-[40px] flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:[border-color:#AB052D]"
                       >
                         {"2"}
@@ -857,7 +857,7 @@ function PostboxAreaSection() {
                     </li>
                     <li className="list-none">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[#000] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-[40px] h-[40px] flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:[border-color:#AB052D]"
                       >
                         {"3"}
@@ -865,7 +865,7 @@ function PostboxAreaSection() {
                     </li>
                     <li className="list-none">
                       <SiteLink
-                        href="/contact-us.html"
+                        href="/contact-us"
                         className="text-[#000] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-[40px] h-[40px] flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:[border-color:#AB052D] before:absolute before:text-[16px] before:leading-[1] before:opacity-[1] before:left-[50%] before:top-[50%] before:[transform:translate(-50%,_-50%)]"
                       ></SiteLink>
                     </li>

@@ -4,7 +4,7 @@ import { SiteLink } from "@/components/atoms/site-link";
 
 export function PrivacyPolicyPageContent() {
   return (
-    <SitePageTemplate route="privacy-policy.html">
+    <SitePageTemplate route="privacy-policy">
       <main>
         <BreadcrumbAreaSection />
         <PolicyAreaSection />
@@ -165,7 +165,7 @@ function PolicyAreaSection() {
                 <div>
                   <p className="mt-[0] mb-[0]! text-[16px] [font-weight:normal] text-[#616C74] leading-[1.5]">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {

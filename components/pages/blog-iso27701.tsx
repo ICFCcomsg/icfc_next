@@ -7,7 +7,7 @@ import { EmailForm } from "@/components/molecules/email-form";
 
 export function BlogIso27701PageContent() {
   return (
-    <SitePageTemplate route="blog_ISO27701.html">
+    <SitePageTemplate route="blog_ISO27701">
       <main>
         <BreadcrumbAreaSection />
         <PostboxAreaSection />
@@ -47,7 +47,7 @@ function PostboxAreaSection() {
                       <span>
                         {"By "}
                         <SiteLink
-                          href="/contact-us.html"
+                          href="/contact-us"
                           className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                         >
                           {"ICFC Pte Ltd"}
@@ -411,25 +411,25 @@ function PostboxAreaSection() {
                     {"Tags:"}
                   </span>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"Green Plan 2030"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"ISO 14001"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"Carbon Tax"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"Manufacturing"}
@@ -441,7 +441,7 @@ function PostboxAreaSection() {
                   </span>
                   <div className="gap-[15px]">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
                       <Icon
@@ -450,7 +450,7 @@ function PostboxAreaSection() {
                       />
                     </SiteLink>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
                       <Icon
@@ -459,7 +459,7 @@ function PostboxAreaSection() {
                       />
                     </SiteLink>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
                       <Icon
@@ -557,7 +557,7 @@ function PostboxAreaSection() {
                 <ul className="pl-[0]! mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] list-none!">
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Sustainability "}
@@ -566,7 +566,7 @@ function PostboxAreaSection() {
                   </li>
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ISO 14001 "}
@@ -575,7 +575,7 @@ function PostboxAreaSection() {
                   </li>
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Manufacturing "}
@@ -584,7 +584,7 @@ function PostboxAreaSection() {
                   </li>
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Carbon Tax "}
@@ -593,7 +593,7 @@ function PostboxAreaSection() {
                   </li>
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Green Plan 2030 "}
@@ -608,49 +608,49 @@ function PostboxAreaSection() {
                 </h5>
                 <div className="flex flex-wrap gap-[12px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"Green Plan"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"ISO 14001:2015"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"EMS"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"EDG Grant"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"Energy Efficiency"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"Carbon Tax"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"Sustainability"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
                   >
                     {"NEA Compliance"}

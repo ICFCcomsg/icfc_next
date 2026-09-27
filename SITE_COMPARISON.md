@@ -11,10 +11,10 @@ Compared all 34 reference HTML pages against the supplied `doc/icfc.com.sg/publi
 - Restored visible section images and background images; replaced unavailable reference assets with existing local assets.
 - Used native SVG icons, React accordions, tabs, carousels, dialogs, and industry filtering.
 - Retained atomic component folders and Tailwind utilities. No injected HTML, inline styles, vendor stylesheets, or legacy DOM scripts are used.
-- Preserved the correct active navigation and single page composition. Added `/contact-us.php` as an alias for the contact page.
+- Preserved the correct active navigation and single page composition. Changed internal links and routes to extension-free URLs such as `/about`. Legacy `.html` URLs and `/contact-us.php` redirect to their clean equivalents; `/index.html` redirects to `/`.
 - The reference advertises 25 industries but defines 12 records. The app displays those 12 records and the actual filtered count.
 
-## Checks
+## Comparison checks (before the clean URL migration)
 
 - Production build, TypeScript, lint, and whitespace checks pass.
 - All 34 page routes and the contact PHP alias return HTTP 200. Each content page has one main and one footer; the reference's `Version/index.html` is a placeholder page.

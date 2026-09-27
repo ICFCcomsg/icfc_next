@@ -6,7 +6,7 @@ import { SiteLink } from "@/components/atoms/site-link";
 
 export function ServicesDetailsonePageContent() {
   return (
-    <SitePageTemplate route="services-detailsone.html">
+    <SitePageTemplate route="services-detailsone">
       <main>
         <BreadcrumbAreaSection />
         <ServicesAreaSection />
@@ -135,7 +135,7 @@ function ServicesAreaSection() {
                       }
                     </p>
                     <SiteLink
-                      href="/services.html"
+                      href="/services"
                       className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
                     >
                       {"Explore Audit "}
@@ -161,7 +161,7 @@ function ServicesAreaSection() {
                       }
                     </p>
                     <SiteLink
-                      href="/services.html"
+                      href="/services"
                       className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
                     >
                       {"Explore Consulting "}
@@ -187,7 +187,7 @@ function ServicesAreaSection() {
                       }
                     </p>
                     <SiteLink
-                      href="/services.html"
+                      href="/services"
                       className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
                     >
                       {"Explore Training "}
@@ -548,7 +548,7 @@ function ServicesAreaSection() {
                   }
                 </p>
                 <SiteLink
-                  href="/contact-us.html"
+                  href="/contact-us"
                   className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#3B6D11]! rounded-[40px] font-semibold text-[14px] inline-flex items-center gap-[8px] hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
                 >
                   {"Check Eligibility "}
@@ -789,7 +789,7 @@ function ServicesAreaSection() {
                       </li>
                     </ul>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] rounded-[40px] font-semibold text-[14px] inline-flex items-center gap-[8px] hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
                     >
                       {"Start Your PIMS Journey "}
@@ -954,7 +954,7 @@ function CtaAreaSection() {
                     "Join 200+ Singapore organisations that trust Bustar to navigate ISO 27701, PDPA compliance, and privacy governance — on time, on budget, and with grant support. "
                   }
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block"
                   >
                     {"Get Free Quote →"}

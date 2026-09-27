@@ -7,7 +7,7 @@ import { EmailForm } from "@/components/molecules/email-form";
 
 export function BlogWshMomPageContent() {
   return (
-    <SitePageTemplate route="blog_wsh_mom.html">
+    <SitePageTemplate route="blog_wsh_mom">
       <main>
         <BreadcrumbAreaSection />
         <PostboxAreaSection />
@@ -47,7 +47,7 @@ function PostboxAreaSection() {
                       <span>
                         {"By "}
                         <SiteLink
-                          href="/contact-us.html"
+                          href="/contact-us"
                           className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                         >
                           {"ICFC Pte Ltd"}
@@ -395,31 +395,31 @@ function PostboxAreaSection() {
                     {"Tags:"}
                   </span>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"ISO 45001"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"WSH Act"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"bizSAFE"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Construction Safety"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Contractors"}
@@ -431,7 +431,7 @@ function PostboxAreaSection() {
                   </span>
                   <div className="gap-[15px]">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
                       <Icon
@@ -440,7 +440,7 @@ function PostboxAreaSection() {
                       />
                     </SiteLink>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
                       <Icon
@@ -449,7 +449,7 @@ function PostboxAreaSection() {
                       />
                     </SiteLink>
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
                     >
                       <Icon
@@ -546,7 +546,7 @@ function PostboxAreaSection() {
                 <ul className="pl-[0]! mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] list-none!">
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"ISO 45001 "}
@@ -555,7 +555,7 @@ function PostboxAreaSection() {
                   </li>
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"WSH Act "}
@@ -564,7 +564,7 @@ function PostboxAreaSection() {
                   </li>
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Construction Safety "}
@@ -573,7 +573,7 @@ function PostboxAreaSection() {
                   </li>
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"bizSAFE "}
@@ -582,7 +582,7 @@ function PostboxAreaSection() {
                   </li>
                   <li className="mb-[10px]!">
                     <SiteLink
-                      href="/contact-us.html"
+                      href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
                     >
                       {"Contractors "}
@@ -597,49 +597,49 @@ function PostboxAreaSection() {
                 </h5>
                 <div className="flex flex-wrap gap-[12px]">
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"ISO 45001:2018"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"WSH Act"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"bizSAFE STAR"}
                   </SiteLink>
                   <SiteLink
-                    href="/services.html"
+                    href="/services"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"SHMS Audit"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Risk Assessment"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"Contractor Safety"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"MOM Compliance"}
                   </SiteLink>
                   <SiteLink
-                    href="/contact-us.html"
+                    href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
                   >
                     {"SS ISO 45001"}

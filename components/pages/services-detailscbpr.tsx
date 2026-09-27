@@ -8,7 +8,7 @@ import {
 
 export function ServicesDetailscbprPageContent() {
   return (
-    <SitePageTemplate route="services-detailscbpr.html">
+    <SitePageTemplate route="services-detailscbpr">
       <main>
         <BannerAreaSection />
         <ContainerSection />
@@ -53,7 +53,7 @@ function BannerAreaSection() {
               </p>
               <div>
                 <SiteLink
-                  href="/contact-us.html"
+                  href="/contact-us"
                   className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] group/btn group/has-bg-white"
                 >
                   {"Book free assessment →"}
@@ -204,7 +204,7 @@ function SectionSpaceSection() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore audit →"}
@@ -223,7 +223,7 @@ function SectionSpaceSection() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore consulting →"}
@@ -242,7 +242,7 @@ function SectionSpaceSection() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore training →"}
@@ -511,7 +511,7 @@ function SectionSpaceSection3() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore Cloud Security →"}
@@ -532,7 +532,7 @@ function SectionSpaceSection3() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore OT Security →"}
@@ -553,7 +553,7 @@ function SectionSpaceSection3() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore AI Security →"}
@@ -586,7 +586,7 @@ function ContainerSection3() {
               }
             </p>
             <SiteLink
-              href="/contact-us.html"
+              href="/contact-us"
               className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D]"
             >
               {"Check grant eligibility →"}
@@ -966,7 +966,7 @@ function ContainerSection6() {
           }
         </p>
         <SiteLink
-          href="/contact-us.html"
+          href="/contact-us"
           className="text-[#f8f9fa] [text-decoration:none] inline-block pt-[0.375rem] pr-[0.75rem] pb-[0.375rem] pl-[0.75rem] text-[1rem] [font-weight:400] leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:1px_solid_#f8f9fa] rounded-[0.375rem] bg-[transparent] hover:text-[#000] hover:bg-[#f8f9fa] hover:[border-color:#f8f9fa] focus-visible:text-[#000] focus-visible:bg-[#f8f9fa] focus-visible:[border-color:#f8f9fa] focus-visible:shadow-[0_0_0_0.25rem_rgba(248,249,250,_.5)] active:text-[#000] active:bg-[#f8f9fa] active:[border-color:#f8f9fa] active:shadow-[0_0_0_0.25rem_rgba(248,249,250,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent]"
         >
           {"中文咨询 · 免费评估 →"}
@@ -1207,19 +1207,19 @@ function ContainerSection7() {
         </p>
         <div className="mt-[1.5rem]!">
           <SiteLink
-            href="/contact-us.html"
+            href="/contact-us"
             className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D]"
           >
             {"Book free assessment →"}
           </SiteLink>
           <SiteLink
-            href="/contact-us.html"
+            href="/contact-us"
             className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944]"
           >
             {"Check grant eligibility →"}
           </SiteLink>
           <SiteLink
-            href="/contact-us.html"
+            href="/contact-us"
             className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944]"
           >
             {"Get free quote →"}

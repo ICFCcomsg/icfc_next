@@ -13,12 +13,12 @@ import { SiteImage } from "@/components/atoms/site-image";
 
 const translations = { en, zh, ms, ko, id };
 const navigation = [
-  ["home", "/index.html"],
-  ["industries", "/industry.html"],
-  ["about", "/about.html"],
-  ["services", "/services.html"],
-  ["blog", "/blog.html"],
-  ["contact", "/contact-us.html"],
+  ["home", "/"],
+  ["industries", "/industry"],
+  ["about", "/about"],
+  ["services", "/services"],
+  ["blog", "/blog"],
+  ["contact", "/contact-us"],
 ] as const;
 
 export function SiteHeader({ route }: { route: string }) {
@@ -27,8 +27,9 @@ export function SiteHeader({ route }: { route: string }) {
   const [language, setLanguage] = useState<keyof typeof translations>("en");
   const copy = translations[language];
   function isCurrent(href: string) {
-    if (href === "/services.html") return route.startsWith("services");
-    if (href === "/blog.html") return route.startsWith("blog");
+    if (href === "/") return route === "index";
+    if (href === "/services") return route.startsWith("services");
+    if (href === "/blog") return route.startsWith("blog");
     return href === `/${route}`;
   }
   return (
@@ -39,7 +40,7 @@ export function SiteHeader({ route }: { route: string }) {
             <Icon name="right" />
           </span>
           {copy.top.obstacle_text}{" "}
-          <SiteLink href="/contact-us.html" className="underline">
+          <SiteLink href="/contact-us" className="underline">
             {copy.top.connect_link}
           </SiteLink>
         </span>
@@ -113,7 +114,7 @@ export function SiteHeader({ route }: { route: string }) {
             <option value="id">Bahasa</option>
           </select>
           <SiteLink
-            href="/contact-us.html"
+            href="/contact-us"
             className="hidden items-center gap-3 whitespace-nowrap rounded-full border border-white/20 px-[26px] py-[14px] text-[17px] font-medium text-white transition-colors hover:bg-[#AB052D] md:inline-flex"
           >
             {copy.header.get_quote} ↗

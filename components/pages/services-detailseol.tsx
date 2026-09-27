@@ -8,7 +8,7 @@ import {
 
 export function ServicesDetailseolPageContent() {
   return (
-    <SitePageTemplate route="services-detailseol.html">
+    <SitePageTemplate route="services-detailseol">
       <main>
         <BannerAreaSection />
         <ContainerSection />
@@ -47,7 +47,7 @@ function BannerAreaSection() {
               </p>
               <div>
                 <SiteLink
-                  href="/contact-us.html"
+                  href="/contact-us"
                   className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] group/has-bg-white"
                 >
                   {"Free SS 587 Gap Assessment ↗"}
@@ -269,7 +269,7 @@ function SectionSpaceSection2() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore audit ↗"}
@@ -288,7 +288,7 @@ function SectionSpaceSection2() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore consulting ↗"}
@@ -307,7 +307,7 @@ function SectionSpaceSection2() {
                 }
               </p>
               <SiteLink
-                href="/contact-us.html"
+                href="/contact-us"
                 className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
               >
                 {"Explore training ↗"}
@@ -510,7 +510,7 @@ function ContainerSection2() {
               }
             </p>
             <SiteLink
-              href="/contact-us.html"
+              href="/contact-us"
               className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D]"
             >
               {"Check MASA grant eligibility ↗"}
@@ -664,13 +664,13 @@ function ContainerSection3() {
         </p>
         <div className="mt-[1.5rem]!">
           <SiteLink
-            href="/contact-us.html"
+            href="/contact-us"
             className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D]"
           >
             {"Book a free consultation ↗"}
           </SiteLink>
           <SiteLink
-            href="/contact-us.html"
+            href="/contact-us"
             className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944]"
           >
             {"Get a quote + grant check ↗"}

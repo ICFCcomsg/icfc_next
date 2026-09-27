@@ -6,7 +6,7 @@ import { SiteImage } from "@/components/atoms/site-image";
 
 export function ServicesPageContent() {
   return (
-    <SitePageTemplate route="services.html">
+    <SitePageTemplate route="services">
       <main>
         <BreadcrumbAreaSection />
         <ServicesAreaSection />
@@ -68,7 +68,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsone.html"
+                            href="/services-detailsone"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO/IEC 27701 PIMS"}
@@ -115,7 +115,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailstwo.html"
+                            href="/services-detailstwo"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 37001 Anti-bribery MS"}
@@ -161,7 +161,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsthree.html"
+                            href="/services-detailsthree"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 42001 AI Management"}
@@ -201,7 +201,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsfour.html"
+                            href="/services-detailsfour"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 14001 Environmental MS"}
@@ -239,7 +239,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsfive.html"
+                            href="/services-detailsfive"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 9001 Quality Management"}
@@ -277,7 +277,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-details.html"
+                            href="/services-details"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"APEC PRP"}
@@ -308,7 +308,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsohms.html"
+                            href="/services-detailsohms"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 45001 OH&S Management"}
@@ -345,7 +345,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsfivecyber.html"
+                            href="/services-detailsfivecyber"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"CSA Cyber Essentials Mark "}
@@ -377,7 +377,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsctm.html"
+                            href="/services-detailsctm"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"SS 712:2025 Cyber Trust Mark (CTM) "}
@@ -409,7 +409,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsbcms.html"
+                            href="/services-detailsbcms"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"ISO 22301 BCMS"}
@@ -441,7 +441,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailscbpr.html"
+                            href="/services-detailscbpr"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"Global Cross-Border Privacy Rules (CBPR )"}
@@ -468,7 +468,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailsdptm.html"
+                            href="/services-detailsdptm"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"DPTM Certification"}
@@ -505,7 +505,7 @@ function ServicesAreaSection() {
                         </div>
                         <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
                           <SiteLink
-                            href="/services-detailseol.html"
+                            href="/services-detailseol"
                             className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
                           >
                             {"SS 587:2022 End-of-Life ICT Management"}

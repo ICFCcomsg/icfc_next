@@ -5,7 +5,7 @@ import { SiteLink } from "@/components/atoms/site-link";
 
 export function ContactUsPageContent() {
   return (
-    <SitePageTemplate route="contact-us.html">
+    <SitePageTemplate route="contact-us">
       <main>
         <BreadcrumbAreaSection />
         <ContactAreaSection />

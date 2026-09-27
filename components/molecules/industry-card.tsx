@@ -80,7 +80,7 @@ export function IndustryCard({
         </p>
         <a
           className="inline-flex items-center gap-2 rounded-full bg-[#AB052D] px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#8E0425]"
-          href="/contact-us.html"
+          href="/contact-us"
         >
           Get ISO Guidance ↗
         </a>
