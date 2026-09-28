@@ -1,3 +1,4 @@
+import { AnimatedElement } from "@/components/atoms/animated-element";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -35,9 +36,15 @@ function ServicesAreaSection() {
               <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                 {"Our Strategic Services"}
               </span>
-              <h2 className="mt-[0px] mb-[15px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+              <AnimatedElement
+                as="h2"
+                effect="split"
+                delay={0}
+                duration={0.8}
+                className="mt-[0px] mb-[15px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+              >
                 {"High-Impact Strategy Services"}
-              </h2>
+              </AnimatedElement>
               <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                 {
                   "Focus on serving mid-size to enterprise-level companies looking for scalable strategic."
@@ -557,10 +564,16 @@ function ServicesAreaSection() {
                 <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                   {"Excellence Guaranteed"}
                 </span>
-                <h2 className="mt-[0px] mb-[15px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+                <AnimatedElement
+                  as="h2"
+                  effect="split"
+                  delay={0}
+                  duration={0.8}
+                  className="mt-[0px] mb-[15px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+                >
                   {"Providing Standard & "}
                   <span className="text-[#AB052D]!">{"Premium Services"}</span>
-                </h2>
+                </AnimatedElement>
                 <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
                     "We offer specialized compliance and management system solutions extracted directly from our expert training modules."

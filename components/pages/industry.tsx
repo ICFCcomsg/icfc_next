@@ -1,3 +1,4 @@
+import { AnimatedElement } from "@/components/atoms/animated-element";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -43,9 +44,15 @@ function WorkingAreaSection() {
                   <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                     {"Best BUSINESS Strategy"}
                   </span>
-                  <h2 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+                  <AnimatedElement
+                    as="h2"
+                    effect="split"
+                    delay={0}
+                    duration={0.8}
+                    className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+                  >
                     {"Welcome to ICFC team"}
-                  </h2>
+                  </AnimatedElement>
                   <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                     {
                       "Position your agency as the bridge between a client's big-picture vision and achievable action plans. data-driven strategies and your track."
@@ -177,7 +184,11 @@ function WorkingAreaSection() {
                   </SiteLink>
                 </div>
               </div>
-              <div
+              <AnimatedElement
+                as="div"
+                effect="reveal-right"
+                delay={0}
+                duration={1}
                 data-dir="reveal_right"
                 className="relative z-[1] visible overflow-hidden"
               >
@@ -186,7 +197,7 @@ function WorkingAreaSection() {
                   alt="image"
                   className="[vertical-align:middle] max-w-full rounded-[6px] w-full h-full object-cover"
                 />
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -212,11 +223,17 @@ function FeatureAreaSection() {
                   "\n                        All-Industry IT Solutions\n                     "
                 }
               </span>
-              <h2 className="mt-[0px] mb-[15px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+              <AnimatedElement
+                as="h2"
+                effect="split"
+                delay={0}
+                duration={0.8}
+                className="mt-[0px] mb-[15px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+              >
                 {
                   "Solving IT Challenges Everywhere\n                            "
                 }
-              </h2>
+              </AnimatedElement>
               <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                 {
                   "Position your agency as the bridge between a client's big-picture vision\n                                and achievable\n                            "
@@ -227,7 +244,11 @@ function FeatureAreaSection() {
         </div>
         <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
-            <div
+            <AnimatedElement
+              as="div"
+              effect="up"
+              delay={0.3}
+              duration={1}
               data-wow-delay=".3s"
               data-wow-duration="1s"
               className="pt-[60px] max-[480px]:pt-[25px] min-[480px]:max-[991px]:pt-[30px] min-[991px]:max-[1600px]:pt-[40px] pb-[60px] max-[480px]:pb-[25px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[40px] grid [grid-template-columns:repeat(3,_1fr)] max-[767px]:[grid-template-columns:repeat(1,_1fr)] min-[767px]:max-[991px]:[grid-template-columns:repeat(2,_1fr)] gap-[0_30px] items-center [background:#F8F8F9] [padding-inline-start:60px] max-[480px]:[padding-inline-start:25px] min-[480px]:max-[991px]:[padding-inline-start:30px] min-[991px]:max-[1600px]:[padding-inline-start:40px] [padding-inline-end:60px] max-[480px]:[padding-inline-end:25px] min-[480px]:max-[991px]:[padding-inline-end:30px] min-[991px]:max-[1600px]:[padding-inline-end:40px] rounded-[6px]"
@@ -904,7 +925,7 @@ function FeatureAreaSection() {
                   </SiteLink>
                 </div>
               </div>
-            </div>
+            </AnimatedElement>
           </div>
         </div>
       </div>
@@ -924,16 +945,26 @@ function TeamAreaSection() {
                   "\n                        The expert teams member\n                     "
                 }
               </span>
-              <h2 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+              <AnimatedElement
+                as="h2"
+                effect="split"
+                delay={0}
+                duration={0.8}
+                className="mt-[0px] mb-[0] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+              >
                 {"Meet with consultant expert"}
-              </h2>
+              </AnimatedElement>
             </div>
           </div>
         </div>
         <div className="flex flex-wrap mt-[calc(-1_*_3rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
             <div className="grid [grid-template-columns:repeat(3,_1fr)] max-[767px]:[grid-template-columns:repeat(1,_1fr)] min-[767px]:max-[991px]:[grid-template-columns:repeat(2,_1fr)] gap-[30px]">
-              <div
+              <AnimatedElement
+                as="div"
+                effect="up"
+                delay={0.3}
+                duration={1}
                 data-wow-delay=".3s"
                 data-wow-duration="1s"
                 className="group/team-item"
@@ -1004,8 +1035,12 @@ function TeamAreaSection() {
                     </SiteLink>
                   </div>
                 </div>
-              </div>
-              <div
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="up"
+                delay={0.5}
+                duration={1}
                 data-wow-delay=".5s"
                 data-wow-duration="1s"
                 className="group/team-item"
@@ -1074,8 +1109,12 @@ function TeamAreaSection() {
                     </SiteLink>
                   </div>
                 </div>
-              </div>
-              <div
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="up"
+                delay={0.7}
+                duration={1}
                 data-wow-delay=".7s"
                 data-wow-duration="1s"
                 className="group/team-item"
@@ -1144,7 +1183,7 @@ function TeamAreaSection() {
                     </SiteLink>
                   </div>
                 </div>
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -1168,11 +1207,17 @@ function ContactAreaSection() {
                       "\n                              Contact with us now\n                           "
                     }
                   </span>
-                  <h2 className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[991px]:text-[30px] min-[991px]:max-[1366px]:text-[35px] min-[1366px]:max-[1600px]:text-[40px] [word-break:break-word]">
+                  <AnimatedElement
+                    as="h2"
+                    effect="split"
+                    delay={0}
+                    duration={0.8}
+                    className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[991px]:text-[30px] min-[991px]:max-[1366px]:text-[35px] min-[1366px]:max-[1600px]:text-[40px] [word-break:break-word]"
+                  >
                     {
                       "Let's Collaborate\n                                        with Us!"
                     }
-                  </h2>
+                  </AnimatedElement>
                   <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#FFFFFF] leading-[28px]">
                     {
                       "read and update the latest news from us. done eu magna quis felis.\n                                    "

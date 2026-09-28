@@ -7,6 +7,7 @@ import {
   type ComponentProps,
   type ReactNode,
 } from "react";
+import { motion } from "motion/react";
 import { Icon } from "@/components/atoms/icon";
 
 const AccordionContext = createContext<{
@@ -67,17 +68,25 @@ export function AccordionItem({
           />
         </button>
       </h3>
-      <div
+      <motion.div
         id={id}
-        hidden={!open}
-        className={
-          dark
-            ? "pt-0 pr-[50px] pb-5 pl-5 text-[17px] leading-normal text-white/55"
-            : "px-5 pb-5 text-base leading-7 text-[#616C74]"
-        }
+        aria-hidden={!open}
+        inert={!open}
+        initial={false}
+        animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+        className="overflow-hidden"
       >
-        {children}
-      </div>
+        <div
+          className={
+            dark
+              ? "pt-0 pr-[50px] pb-5 pl-5 text-[17px] leading-normal text-white/55"
+              : "px-5 pb-5 text-base leading-7 text-[#616C74]"
+          }
+        >
+          {children}
+        </div>
+      </motion.div>
     </div>
   );
 }

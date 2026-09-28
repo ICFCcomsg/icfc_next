@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "motion/react";
 import { useId, useState, type ReactNode } from "react";
 
 export function ContentTabs({
@@ -64,7 +65,16 @@ export function ContentTabs({
             hidden={selected !== index}
             className="focus-visible:outline-2 focus-visible:outline-[#AB052D]"
           >
-            {item.content}
+            <motion.div
+              initial={false}
+              animate={{
+                opacity: selected === index ? 1 : 0,
+                y: selected === index ? 0 : 12,
+              }}
+              transition={{ duration: 0.35 }}
+            >
+              {item.content}
+            </motion.div>
           </div>
         ))}
       </div>

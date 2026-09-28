@@ -1,3 +1,7 @@
+import {
+  AnimatedCounter,
+  AnimatedElement,
+} from "@/components/atoms/animated-element";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -47,9 +51,15 @@ function AboutAreaSection() {
                   <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                     {"Best Business Strategy"}
                   </span>
-                  <h2 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+                  <AnimatedElement
+                    as="h2"
+                    effect="split"
+                    delay={0}
+                    duration={0.8}
+                    className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+                  >
                     {"Build for business growth"}
-                  </h2>
+                  </AnimatedElement>
                   <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                     {
                       "Position your agency as the bridge between a client's big-picture vision and achievable action plans. data-driven strategies and your track."
@@ -153,7 +163,11 @@ function AboutAreaSection() {
                       </span>
                     </div>
                     <div className="flex h-[14px] [overflow:visible] text-[0.75rem] bg-[#F8F8F9] rounded-[0px] pt-[3px] pr-[3px] pb-[3px] pl-[3px] leading-[14px] [border:1px_solid_#DBDEE1]">
-                      <div
+                      <AnimatedElement
+                        as="div"
+                        effect="left"
+                        delay={0.3}
+                        duration={1}
                         className="flex [flex-direction:column] justify-center [overflow:visible] text-[#fff] text-center whitespace-nowrap bg-[#2B3944] rounded-[0px] w-[95%]! h-full"
                         data-wow-duration="1s"
                         data-wow-delay=".3s"
@@ -161,7 +175,7 @@ function AboutAreaSection() {
                         aria-valuenow={95}
                         aria-valuemin={0}
                         aria-valuemax={100}
-                      ></div>
+                      ></AnimatedElement>
                     </div>
                   </div>
                   <div className="mb-[25px] relative overflow-hidden">
@@ -174,7 +188,11 @@ function AboutAreaSection() {
                       </span>
                     </div>
                     <div className="flex h-[14px] [overflow:visible] text-[0.75rem] bg-[#F8F8F9] rounded-[0px] pt-[3px] pr-[3px] pb-[3px] pl-[3px] leading-[14px] [border:1px_solid_#DBDEE1]">
-                      <div
+                      <AnimatedElement
+                        as="div"
+                        effect="left"
+                        delay={0.3}
+                        duration={1}
                         className="flex [flex-direction:column] justify-center [overflow:visible] text-[#fff] text-center whitespace-nowrap bg-[#2B3944] rounded-[0px] w-[95%]! h-full"
                         data-wow-duration="1s"
                         data-wow-delay=".3s"
@@ -182,7 +200,7 @@ function AboutAreaSection() {
                         aria-valuenow={95}
                         aria-valuemin={0}
                         aria-valuemax={100}
-                      ></div>
+                      ></AnimatedElement>
                     </div>
                   </div>
                   <div className="relative overflow-hidden">
@@ -195,7 +213,11 @@ function AboutAreaSection() {
                       </span>
                     </div>
                     <div className="flex h-[14px] [overflow:visible] text-[0.75rem] bg-[#F8F8F9] rounded-[0px] pt-[3px] pr-[3px] pb-[3px] pl-[3px] leading-[14px] [border:1px_solid_#DBDEE1]">
-                      <div
+                      <AnimatedElement
+                        as="div"
+                        effect="left"
+                        delay={0.5}
+                        duration={1}
                         className="flex [flex-direction:column] justify-center [overflow:visible] text-[#fff] text-center whitespace-nowrap bg-[#2B3944] rounded-[0px] w-[90%]! h-full"
                         data-wow-duration="1s"
                         data-wow-delay=".5s"
@@ -203,7 +225,7 @@ function AboutAreaSection() {
                         aria-valuenow={90}
                         aria-valuemin={0}
                         aria-valuemax={100}
-                      ></div>
+                      ></AnimatedElement>
                     </div>
                   </div>
                 </div>
@@ -859,9 +881,15 @@ function ServicesAreaSection() {
               <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#FFFFFF] inline-block tracking-[2.5px]">
                 {"Your Business Our Expertise"}
               </span>
-              <h2 className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+              <AnimatedElement
+                as="h2"
+                effect="split"
+                delay={0}
+                duration={0.8}
+                className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+              >
                 {"Services for Your Business Growth"}
-              </h2>
+              </AnimatedElement>
               <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[rgba(255,_255,_255,_0.8)] leading-[28px]">
                 {
                   "We deliver tailored solutions that help businesses grow, scale, and succeed in a competitive market."
@@ -1026,9 +1054,15 @@ function WhyChooseAreaSection() {
                   <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                     {"Why choose us ICFC"}
                   </span>
-                  <h2 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+                  <AnimatedElement
+                    as="h2"
+                    effect="split"
+                    delay={0}
+                    duration={0.8}
+                    className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+                  >
                     {"Scaling new heights with strategic excellence."}
-                  </h2>
+                  </AnimatedElement>
                   <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                     {
                       "We provide the best services, ensuring your outstanding growth, lorem ipsum dolor sit amet. Nulla ultrices vitae neque non sodales."
@@ -1170,7 +1204,11 @@ function WhyChooseAreaSection() {
                       </span>
                     </div>
                     <div className="flex h-[14px] [overflow:visible] text-[0.75rem] bg-[#F8F8F9] rounded-[0px] pt-[3px] pr-[3px] pb-[3px] pl-[3px] leading-[14px] [border:1px_solid_#DBDEE1]">
-                      <div
+                      <AnimatedElement
+                        as="div"
+                        effect="left"
+                        delay={0.3}
+                        duration={0.8}
                         className="flex [flex-direction:column] justify-center [overflow:visible] text-[#fff] text-center whitespace-nowrap bg-[#2B3944] rounded-[0px] w-[90%]! h-full"
                         data-wow-duration="0.8s"
                         data-wow-delay=".3s"
@@ -1178,7 +1216,7 @@ function WhyChooseAreaSection() {
                         aria-valuenow={90}
                         aria-valuemin={0}
                         aria-valuemax={100}
-                      ></div>
+                      ></AnimatedElement>
                     </div>
                   </div>
                 </div>
@@ -1255,7 +1293,11 @@ function CounterAreaSection() {
         <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
             <div className="grid [grid-template-columns:repeat(4,_1fr)] max-[480px]:[grid-template-columns:repeat(1,_1fr)] min-[480px]:max-[767px]:[grid-template-columns:repeat(2,_1fr)] min-[767px]:max-[1199px]:[grid-template-columns:repeat(3,_1fr)] gap-[30px]">
-              <div
+              <AnimatedElement
+                as="div"
+                effect="fade"
+                delay={0.3}
+                duration={0.8}
                 data-wow-delay=".3s"
                 className="pt-[30px] max-[1600px]:pt-[20px] pr-[30px] max-[1600px]:pr-[20px] pb-[30px] max-[1600px]:pb-[20px] pl-[30px] max-[1600px]:pl-[20px] flex [border:1px_solid_#DBDEE1] gap-[20px] rounded-[6px] [background:#F8F8F9] max-[991px]:flex-wrap"
               >
@@ -1274,20 +1316,22 @@ function CounterAreaSection() {
                 </div>
                 <div>
                   <div className="mb-[12px] flex items-center">
-                    <span
-                      data-count="25.5"
+                    <AnimatedCounter
+                      value={25.5}
                       className="text-[40px] max-[1600px]:text-[30px] text-[#2B3944] font-semibold leading-[0.8]"
-                    >
-                      {"25.5"}
-                    </span>
+                    />
                     <span className="text-[40px] max-[1600px]:text-[30px] text-[#2B3944] font-semibold leading-[0.8]">
                       {"K"}
                     </span>
                   </div>
                   <span>{"Projects Completed"}</span>
                 </div>
-              </div>
-              <div
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="fade"
+                delay={0.5}
+                duration={0.8}
                 data-wow-delay=".5s"
                 className="pt-[30px] max-[1600px]:pt-[20px] pr-[30px] max-[1600px]:pr-[20px] pb-[30px] max-[1600px]:pb-[20px] pl-[30px] max-[1600px]:pl-[20px] flex [border:1px_solid_#DBDEE1] gap-[20px] rounded-[6px] [background:#F8F8F9] max-[991px]:flex-wrap"
               >
@@ -1306,20 +1350,22 @@ function CounterAreaSection() {
                 </div>
                 <div>
                   <div className="mb-[12px] flex items-center">
-                    <span
-                      data-count="10.5"
+                    <AnimatedCounter
+                      value={10.5}
                       className="text-[40px] max-[1600px]:text-[30px] text-[#2B3944] font-semibold leading-[0.8]"
-                    >
-                      {"10.5"}
-                    </span>
+                    />
                     <span className="text-[40px] max-[1600px]:text-[30px] text-[#2B3944] font-semibold leading-[0.8]">
                       {"K"}
                     </span>
                   </div>
                   <span>{"Customer Satisfaction"}</span>
                 </div>
-              </div>
-              <div
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="fade"
+                delay={0.7}
+                duration={0.8}
                 data-wow-delay=".7s"
                 className="pt-[30px] max-[1600px]:pt-[20px] pr-[30px] max-[1600px]:pr-[20px] pb-[30px] max-[1600px]:pb-[20px] pl-[30px] max-[1600px]:pl-[20px] flex [border:1px_solid_#DBDEE1] gap-[20px] rounded-[6px] [background:#F8F8F9] max-[991px]:flex-wrap"
               >
@@ -1335,20 +1381,22 @@ function CounterAreaSection() {
                 </div>
                 <div>
                   <div className="mb-[12px] flex items-center">
-                    <span
-                      data-count="1.5"
+                    <AnimatedCounter
+                      value={1.5}
                       className="text-[40px] max-[1600px]:text-[30px] text-[#2B3944] font-semibold leading-[0.8]"
-                    >
-                      {"1.5"}
-                    </span>
+                    />
                     <span className="text-[40px] max-[1600px]:text-[30px] text-[#2B3944] font-semibold leading-[0.8]">
                       {"K"}
                     </span>
                   </div>
                   <span>{"Consulting Award"}</span>
                 </div>
-              </div>
-              <div
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="fade"
+                delay={0.9}
+                duration={0.8}
                 data-wow-delay=".9s"
                 className="pt-[30px] max-[1600px]:pt-[20px] pr-[30px] max-[1600px]:pr-[20px] pb-[30px] max-[1600px]:pb-[20px] pl-[30px] max-[1600px]:pl-[20px] flex [border:1px_solid_#DBDEE1] gap-[20px] rounded-[6px] [background:#F8F8F9] max-[991px]:flex-wrap"
               >
@@ -1363,19 +1411,17 @@ function CounterAreaSection() {
                 </div>
                 <div>
                   <div className="mb-[12px] flex items-center">
-                    <span
-                      data-count="4.5"
+                    <AnimatedCounter
+                      value={4.5}
                       className="text-[40px] max-[1600px]:text-[30px] text-[#2B3944] font-semibold leading-[0.8]"
-                    >
-                      {"4.5"}
-                    </span>
+                    />
                     <span className="text-[40px] max-[1600px]:text-[30px] text-[#2B3944] font-semibold leading-[0.8]">
                       {"K"}
                     </span>
                   </div>
                   <span>{"Strategic Partners"}</span>
                 </div>
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -1392,7 +1438,14 @@ function FeatureAreaSection() {
         <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
             <div className="mb-[-160px] pt-[50px] max-[575px]:pt-[30px] min-[575px]:max-[1600px]:pt-[40px] pb-[40px] max-[575px]:pb-[20px] min-[575px]:max-[1600px]:pb-[30px] [background:#AB052D] [padding-inline-start:100px] max-[575px]:[padding-inline-start:30px] min-[575px]:max-[1600px]:[padding-inline-start:40px] [padding-inline-end:100px] max-[575px]:[padding-inline-end:30px] min-[575px]:max-[1600px]:[padding-inline-end:40px] grid [grid-template-columns:repeat(3,_1fr)] max-[767px]:[grid-template-columns:repeat(1,_1fr)] min-[767px]:max-[991px]:[grid-template-columns:repeat(2,_1fr)] gap-[30px_120px] max-[1600px]:gap-[30px_30px] rounded-[6px]">
-              <div data-wow-delay=".3s" className="group/feature-item">
+              <AnimatedElement
+                as="div"
+                effect="fade"
+                delay={0.3}
+                duration={0.8}
+                data-wow-delay=".3s"
+                className="group/feature-item"
+              >
                 <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1418,8 +1471,15 @@ function FeatureAreaSection() {
                     " We provide a antenna base on facts hype, to help improve returns your."
                   }
                 </p>
-              </div>
-              <div data-wow-delay=".5s" className="group/feature-item">
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="fade"
+                delay={0.5}
+                duration={0.8}
+                data-wow-delay=".5s"
+                className="group/feature-item"
+              >
                 <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1443,8 +1503,15 @@ function FeatureAreaSection() {
                     " Our mission is to empower businesses with the insight structure and tools."
                   }
                 </p>
-              </div>
-              <div data-wow-delay=".7s" className="group/feature-item">
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="fade"
+                delay={0.7}
+                duration={0.8}
+                data-wow-delay=".7s"
+                className="group/feature-item"
+              >
                 <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1477,7 +1544,7 @@ function FeatureAreaSection() {
                     " We begin by understanding your current state goals challenges. "
                   }
                 </p>
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -1496,16 +1563,29 @@ function TeamAreaSection() {
               <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                 {"The expert teams member"}
               </span>
-              <h2 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+              <AnimatedElement
+                as="h2"
+                effect="split"
+                delay={0}
+                duration={0.8}
+                className="mt-[0px] mb-[0] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+              >
                 {"Meet with consultant expert"}
-              </h2>
+              </AnimatedElement>
             </div>
           </div>
         </div>
         <div className="flex flex-wrap mt-[calc(-1_*_3rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
             <div className="grid [grid-template-columns:repeat(3,_1fr)] max-[767px]:[grid-template-columns:repeat(1,_1fr)] min-[767px]:max-[991px]:[grid-template-columns:repeat(2,_1fr)] gap-[30px]">
-              <div data-wow-delay=".3s" className="group/team-item">
+              <AnimatedElement
+                as="div"
+                effect="up"
+                delay={0.3}
+                duration={0.8}
+                data-wow-delay=".3s"
+                className="group/team-item"
+              >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
@@ -1570,8 +1650,15 @@ function TeamAreaSection() {
                     </SiteLink>
                   </div>
                 </div>
-              </div>
-              <div data-wow-delay=".5s" className="group/team-item">
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="up"
+                delay={0.5}
+                duration={0.8}
+                data-wow-delay=".5s"
+                className="group/team-item"
+              >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
@@ -1636,8 +1723,15 @@ function TeamAreaSection() {
                     </SiteLink>
                   </div>
                 </div>
-              </div>
-              <div data-wow-delay=".7s" className="group/team-item">
+              </AnimatedElement>
+              <AnimatedElement
+                as="div"
+                effect="up"
+                delay={0.7}
+                duration={0.8}
+                data-wow-delay=".7s"
+                className="group/team-item"
+              >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
@@ -1702,7 +1796,7 @@ function TeamAreaSection() {
                     </SiteLink>
                   </div>
                 </div>
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -1723,9 +1817,15 @@ function FeatureAreaSection2() {
                   <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#2B3944] inline-block tracking-[2.5px]">
                     {"Build Your Industries"}
                   </span>
-                  <h2 className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+                  <AnimatedElement
+                    as="h2"
+                    effect="split"
+                    delay={0}
+                    duration={0.8}
+                    className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+                  >
                     {"Industries we help"}
-                  </h2>
+                  </AnimatedElement>
                   <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                     {
                       "We support businesses in tech, retail, real estate, finance, healthcare, and more providing custom strategies that work in your world."
@@ -1772,7 +1872,11 @@ function FeatureAreaSection2() {
                 </div>
               </div>
               <div className="grid [grid-template-columns:repeat(2,_1fr)] max-[767px]:[grid-template-columns:repeat(1,_1fr)] gap-[0_30px]">
-                <div
+                <AnimatedElement
+                  as="div"
+                  effect="fade"
+                  delay={0.1}
+                  duration={0.8}
                   data-wow-delay=".1s"
                   className="mb-[15px] max-[767px]:mb-[0] pt-[15px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] max-[767px]:[border-bottom:0] gap-[15px] [border-top:1px_solid_#DBDEE1] group/feature-item"
                 >
@@ -1830,8 +1934,12 @@ function FeatureAreaSection2() {
                       </span>
                     </SiteLink>
                   </div>
-                </div>
-                <div
+                </AnimatedElement>
+                <AnimatedElement
+                  as="div"
+                  effect="fade"
+                  delay={0.2}
+                  duration={0.8}
                   data-wow-delay=".2s"
                   className="mb-[15px] pt-[15px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] [border-top:1px_solid_#DBDEE1] group/feature-item"
                 >
@@ -1889,8 +1997,12 @@ function FeatureAreaSection2() {
                       </span>
                     </SiteLink>
                   </div>
-                </div>
-                <div
+                </AnimatedElement>
+                <AnimatedElement
+                  as="div"
+                  effect="fade"
+                  delay={0.3}
+                  duration={0.8}
                   data-wow-delay=".3s"
                   className="mb-[15px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] group/feature-item"
                 >
@@ -1948,8 +2060,12 @@ function FeatureAreaSection2() {
                       </span>
                     </SiteLink>
                   </div>
-                </div>
-                <div
+                </AnimatedElement>
+                <AnimatedElement
+                  as="div"
+                  effect="fade"
+                  delay={0.4}
+                  duration={0.8}
                   data-wow-delay=".4s"
                   className="mb-[15px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] group/feature-item"
                 >
@@ -2007,8 +2123,12 @@ function FeatureAreaSection2() {
                       </span>
                     </SiteLink>
                   </div>
-                </div>
-                <div
+                </AnimatedElement>
+                <AnimatedElement
+                  as="div"
+                  effect="fade"
+                  delay={0.5}
+                  duration={0.8}
                   data-wow-delay=".5s"
                   className="mb-[0px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] group/feature-item"
                 >
@@ -2066,8 +2186,12 @@ function FeatureAreaSection2() {
                       </span>
                     </SiteLink>
                   </div>
-                </div>
-                <div
+                </AnimatedElement>
+                <AnimatedElement
+                  as="div"
+                  effect="fade"
+                  delay={0.6}
+                  duration={0.8}
                   data-wow-delay=".6s"
                   className="mb-[0px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] max-[767px]:pt-[15px] group/feature-item"
                 >
@@ -2125,7 +2249,7 @@ function FeatureAreaSection2() {
                       </span>
                     </SiteLink>
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
             </div>
           </div>
@@ -2152,9 +2276,15 @@ function TestimonialAreaSection() {
               <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#FFFFFF] inline-block tracking-[2.5px]">
                 {"Our Clients Testimonials"}
               </span>
-              <h2 className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]">
+              <AnimatedElement
+                as="h2"
+                effect="split"
+                delay={0}
+                duration={0.8}
+                className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
+              >
                 {"What our customers say?"}
-              </h2>
+              </AnimatedElement>
               <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#FFFFFF] leading-[28px]">
                 {
                   "Find Answers to our Question about Our Consulting Coverage Options."
@@ -2166,12 +2296,10 @@ function TestimonialAreaSection() {
             <div className="flex [justify-content:end] max-[991px]:[justify-content:start]">
               <div>
                 <div className="mb-[5px] flex items-center">
-                  <span
-                    data-count="98"
+                  <AnimatedCounter
+                    value={98}
                     className="text-[100px] max-[575px]:text-[60px] min-[575px]:max-[767px]:text-[70px] min-[767px]:max-[1199px]:text-[80px] text-[#FFFFFF] font-medium leading-[0.8]"
-                  >
-                    {"98"}
-                  </span>
+                  />
                   <span className="text-[100px] max-[575px]:text-[60px] min-[575px]:max-[767px]:text-[70px] min-[767px]:max-[1199px]:text-[80px] text-[#AB052D] font-medium leading-[0.8]">
                     {"%"}
                   </span>
@@ -2186,13 +2314,20 @@ function TestimonialAreaSection() {
         <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
             <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:#FFFFFF] rounded-[6px] grid max-[991px]:block [grid-template-columns:500px_644px] max-[1199px]:[grid-template-columns:auto_480px] min-[1199px]:max-[1600px]:[grid-template-columns:400px_630px] items-center gap-[30px_60px] max-[1600px]:gap-[30px_30px] relative z-[1]">
-              <div data-dir="left" className="overflow-hidden visible">
+              <AnimatedElement
+                as="div"
+                effect="reveal-left"
+                delay={0}
+                duration={1}
+                data-dir="left"
+                className="overflow-hidden visible"
+              >
                 <SiteImage
                   src="/assets/images/testimonial/testimonial-thumb-03.webp"
                   alt="image"
                   className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
                 />
-              </div>
+              </AnimatedElement>
               <div className="relative z-[1]">
                 <ContentCarousel variant="testimonials" items={1}>
                   <div>

@@ -1,3 +1,4 @@
+import { AnimatedElement } from "@/components/atoms/animated-element";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteLink } from "@/components/atoms/site-link";
@@ -35,16 +36,28 @@ function BannerAreaSection() {
         <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] items-center! min-h-[70vh]!">
           <div className="[flex-shrink:0] w-[66.66666667%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
             <div className="pt-[110px] max-[767px]:pt-[75px] min-[767px]:max-[991px]:pt-[95px] pb-[330px] max-[767px]:pb-[80px] min-[767px]:max-[991px]:pb-[100px] min-[991px]:max-[1199px]:pb-[110px] min-[1199px]:max-[1600px]:pb-[295px] relative z-[1] [padding-inline-start:200px] max-[1199px]:[padding-inline-start:15px] min-[1199px]:max-[1600px]:[padding-inline-start:100px] max-[1199px]:[padding-inline-end:15px]">
-              <span className="mb-[15px] text-[14px] font-medium tracking-[2.4px] uppercase text-[#6bc2b0]! inline-block">
+              <AnimatedElement
+                as="span"
+                effect="up"
+                delay={0}
+                duration={0.8}
+                className="mb-[15px] text-[14px] font-medium tracking-[2.4px] uppercase text-[#6bc2b0]! inline-block"
+              >
                 {
                   "CSA Cyber Essentials Mark · Singapore Cybersecurity Framework"
                 }
-              </span>
-              <h1 className="mt-[0px] mb-[0] font-medium leading-[1.12] text-[#FFFFFF] text-[66px] max-[480px]:text-[40px] min-[480px]:max-[575px]:text-[45px] min-[575px]:max-[767px]:text-[50px] min-[767px]:max-[991px]:text-[55px] min-[991px]:max-[1600px]:text-[60px] [word-break:break-word]">
+              </AnimatedElement>
+              <AnimatedElement
+                as="h1"
+                effect="up"
+                delay={0}
+                duration={0.8}
+                className="mt-[0px] mb-[0] font-medium leading-[1.12] text-[#FFFFFF] text-[66px] max-[480px]:text-[40px] min-[480px]:max-[575px]:text-[45px] min-[575px]:max-[767px]:text-[50px] min-[767px]:max-[991px]:text-[55px] min-[991px]:max-[1600px]:text-[60px] [word-break:break-word]"
+              >
                 {"Cyber Essentials Mark —"}
                 <br className="max-[480px]:hidden" />
                 {"certified, compliant, and grant-supported"}
-              </h1>
+              </AnimatedElement>
               <p className="mt-[0] mb-[40px] text-[17px] font-medium text-[rgba(255,_255,_255,_0.8)] leading-[28px] tracking-[0.02em] max-w-[580px] max-[575px]:max-w-full">
                 {
                   "Mandated for HIMS vendors, ICT vendors, HIA entities. ESG/EDG grant up to 50%. Audit, consultation & training. ICFC since 2014."

@@ -1,3 +1,4 @@
+import { AnimatedElement } from "@/components/atoms/animated-element";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { EmailForm } from "@/components/molecules/email-form";
@@ -37,9 +38,15 @@ function ContactAreaSection() {
                   <span className="mb-[10px] text-[14px]! font-semibold! leading-[28px] uppercase! text-[#AB052D]! inline-block tracking-[0.05em]!">
                     {"Start Your Journey Today"}
                   </span>
-                  <h2 className="mt-[0px] mb-[10px] font-bold! leading-[1.2]! text-[#111]! text-[28px]! [word-break:break-word]">
+                  <AnimatedElement
+                    as="h2"
+                    effect="split"
+                    delay={0}
+                    duration={0.8}
+                    className="mt-[0px] mb-[10px] font-bold! leading-[1.2]! text-[#111]! text-[28px]! [word-break:break-word]"
+                  >
                     {"Let's Discuss your Option"}
-                  </h2>
+                  </AnimatedElement>
                 </div>
                 <EmailForm id="contact-form">
                   <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">

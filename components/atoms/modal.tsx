@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "motion/react";
 import { useEffect, useRef, type ReactNode } from "react";
 
 export function Modal({
@@ -20,7 +21,10 @@ export function Modal({
     return () => element?.close();
   }, []);
   return (
-    <dialog
+    <motion.dialog
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.25 }}
       ref={dialog}
       aria-label={label}
       className={className}
@@ -33,6 +37,6 @@ export function Modal({
       }}
     >
       <div>{children}</div>
-    </dialog>
+    </motion.dialog>
   );
 }
