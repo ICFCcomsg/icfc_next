@@ -21,10 +21,14 @@ Compared all 34 reference HTML pages against the supplied `doc/icfc.com.sg/publi
 - Browser inspection covered home, industry, about, services, service detail, blog, and contact page families, including mobile navigation and industry filtering.
 - Inspected pages have no broken images or horizontal overflow. Service FAQ switching leaves one answer open, with no browser console errors in that inspection.
 
+## Header behavior
+
+The top banner scrolls out of view. After 200px, navigation slides into its fixed position over 0.6 seconds. Tablet content wraps and centers; below 480px the guidance message hides while language and contact controls remain available.
+
 ## Motion animation migration
 
 Restored source-marked staggered headings, delayed fade/slide entrances, directional image reveals, scroll decoration movement, the marquee, and numeric counters using `motion/react`. Shared accordions, tabs, and dialogs also animate. Reduced-motion preferences disable decorative movement and count-up effects.
 
 ## Remaining integrations
 
-Contact and newsletter forms open an email draft; the reference's PHP submission backend is not implemented in Next.js. The language selector translates the shared header, rather than providing the reference's whole-page Google translation. Some broken or empty reference links point to relevant existing pages in the app.
+Contact and newsletter forms open an email draft; the reference's PHP submission backend is not implemented in Next.js. The language selector uses the supplied JSON translations and remembers the selection across navigation and reloads. Those files only contain header and banner strings; page content remains English until translated page content is supplied. Some broken or empty reference links point to relevant existing pages in the app.
