@@ -32,58 +32,58 @@ function BreadcrumbAreaSection() {
 
 function ServicesAreaSection() {
   return (
-    <section className="pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px]">
-      <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
-        <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
-          <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
+    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
+      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
+        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
+          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
             <div>
               <div>
                 <SiteImage
                   src="/assets/images/banner/services-details-01.webp"
                   alt="APEC PRP Privacy Recognition for Processors"
-                  className="[vertical-align:middle] max-w-full w-full rounded-[6px]"
+                  className="align-middle max-w-full w-full rounded-md"
                 />
               </div>
-              <p className="mt-[30px] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+              <p className="mt-7.5 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
                   "The APEC Privacy Recognition for Processors (PRP) is a voluntary international accountability framework designed specifically for data processors — organisations that process personal data on behalf of client controllers across APEC economies. It operates alongside the APEC Cross-Border Privacy Rules (CBPR) system, covering 21 APEC member economies including Singapore, the United States, Japan, South Korea, Australia, Mexico, the Philippines, and Canada. ICFC — Singapore's trusted APEC PRP specialist since 2014 — delivers audit, consultation, and training with ESG MASA grant management built in."
                 }
               </p>
-              <div className="mt-[20px] mr-[0] mb-[20px] ml-[0] grid [grid-template-columns:repeat(4,_1fr)] max-[768px]:[grid-template-columns:1fr] gap-[20px]">
-                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
+              <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(4,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
+                <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#1A4D8C] leading-[1.2]">
                     {"9"}
                   </div>
-                  <p className="mt-[0] mb-[0]! text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {"APEC privacy principles"}
                   </p>
                   <small className="text-[.875em]">{"covered"}</small>
                 </div>
-                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
+                <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#1A4D8C] leading-[1.2]">
                     {"25+"}
                   </div>
-                  <p className="mt-[0] mb-[0]! text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {"Industries served"}
                   </p>
                   <small className="text-[.875em]">{"in Singapore"}</small>
                 </div>
-                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
+                <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#1A4D8C] leading-[1.2]">
                     {"21"}
                   </div>
-                  <p className="mt-[0] mb-[0]! text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {"APEC economies"}
                   </p>
                   <small className="text-[.875em]">
                     {"in CBPR/PRP system"}
                   </small>
                 </div>
-                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
+                <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#1A4D8C] leading-[1.2]">
                     {"98%"}
                   </div>
-                  <p className="mt-[0] mb-[0]! text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {"First-attempt rate"}
                   </p>
                   <small className="text-[.875em]">
@@ -91,12 +91,12 @@ function ServicesAreaSection() {
                   </small>
                 </div>
               </div>
-              <div className="mb-[1.5rem]! mt-[20px] mr-[0] ml-[0] grid [grid-template-columns:repeat(2,_1fr)] max-[768px]:[grid-template-columns:1fr] gap-[20px]">
-                <div className="pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! rounded-[0.375rem]! [background:#e3f2fd]!">
-                  <h4 className="mt-[0px] mb-[.5rem]! [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+              <div className="mb-6! mt-5 mr-0 ml-0 grid grid-cols-[repeat(2,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
+                <div className="pt-6! pr-6! pb-6! pl-6! rounded-md! [background:#e3f2fd]!">
+                  <h4 className="mt-0 mb-2! font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                     {"📋 APEC CBPR"}
                   </h4>
-                  <p className="mt-[0] mb-[0]! text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     <strong className="[font-weight:bolder]">
                       {"For Data Controllers"}
                     </strong>
@@ -105,11 +105,11 @@ function ServicesAreaSection() {
                     }
                   </p>
                 </div>
-                <div className="pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! rounded-[0.375rem]! [background:#e8f5e9]!">
-                  <h4 className="mt-[0px] mb-[.5rem]! [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+                <div className="pt-6! pr-6! pb-6! pl-6! rounded-md! [background:#e8f5e9]!">
+                  <h4 className="mt-0 mb-2! font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                     {"🔒 APEC PRP"}
                   </h4>
-                  <p className="mt-[0] mb-[0]! text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     <strong className="[font-weight:bolder]">
                       {"For Data Processors"}
                     </strong>
@@ -119,36 +119,36 @@ function ServicesAreaSection() {
                   </p>
                 </div>
               </div>
-              <h3 className="mt-[0px] mb-[10px] [font-weight:600] leading-[1.46] text-[#2B3944] text-[45px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[40px] [word-break:break-word]">
+              <h3 className="mt-0 mb-2.5 font-semibold leading-[1.46] text-[#2B3944] text-[45px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[40px] [word-break:break-word]">
                 {
                   "What is APEC PRP? Singapore's cross-border data processor certification — why it matters in 2025"
                 }
               </h3>
-              <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+              <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
                   "The APEC Privacy Recognition for Processors (PRP) is a voluntary international accountability framework designed specifically for data processors — organisations that process personal data on behalf of client controllers across APEC economies. It operates alongside the APEC Cross-Border Privacy Rules (CBPR) system, which applies to data controllers. Together they form the only internationally recognised cross-border privacy accountability framework covering 21 APEC member economies including Singapore, the United States, Japan, South Korea, Australia, Mexico, the Philippines, and Canada."
                 }
               </p>
-              <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+              <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
                   "Singapore's PDPA establishes a Transfer Limitation Obligation requiring organisations to ensure comparable protection when transferring personal data overseas. APEC PRP certification provides the structured accountability mechanism that satisfies both Singapore's PDPA transfer requirements and the data privacy laws of 20 other APEC economies simultaneously — making it the most efficient cross-border data compliance tool available to Singapore-based processors serving multinational clients."
                 }
               </p>
-              <div className="relative pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! mb-[1.5rem]! text-[#055160] bg-[#cff4fc] [border:0]! rounded-[0.375rem] [background:#e8f4fd]!">
+              <div className="relative pt-4! pr-4! pb-4! pl-4! mb-6! text-[#055160] bg-[#cff4fc] [border:0]! rounded-md [background:#e8f4fd]!">
                 <Icon
                   name="info"
-                  className="mr-[.5rem]! inline-block [font-style:normal]"
+                  className="mr-2! inline-block not-italic"
                 />
                 <strong className="[font-weight:bolder]">{"中文说明："}</strong>
                 {
                   ' APEC"数据处理者隐私认证"（PRP）是专为数据处理者（如云服务商、外包服务商、数据分析公司等）设计的国际隐私问责框架，覆盖21个亚太经济体。取得APEC PRP认证，可向您的企业客户证明您具备符合APEC标准的隐私保护能力。ICFC提供全程辅导，并协助申请ESG MASA资助，最高可补贴70%费用。'
                 }
               </div>
-              <h3 className="mt-[40px] mb-[20px] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
+              <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                 {"Nine privacy principles — what APEC PRP covers"}
               </h3>
-              <div className="mt-[20px] mr-[0] mb-[20px] ml-[0] grid [grid-template-columns:repeat(3,_1fr)] max-[768px]:[grid-template-columns:1fr] gap-[20px]">
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+              <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(3,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"🔒 Preventing Harm"}
                   </strong>
@@ -157,7 +157,7 @@ function ServicesAreaSection() {
                     "Identify and mitigate privacy-related harms from processing activities"
                   }
                 </div>
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"📋 Notice"}
                   </strong>
@@ -166,7 +166,7 @@ function ServicesAreaSection() {
                     "Documentation of processing activities, data types, retention, sub-processors"
                   }
                 </div>
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"🎯 Collection Limitation"}
                   </strong>
@@ -175,7 +175,7 @@ function ServicesAreaSection() {
                     "Limit collection strictly to controller instructions — no secondary use"
                   }
                 </div>
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"📂 Uses of Personal Information"}
                   </strong>
@@ -184,7 +184,7 @@ function ServicesAreaSection() {
                     "Process only for authorised purposes with documented controls"
                   }
                 </div>
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"✅ Choice"}
                   </strong>
@@ -193,7 +193,7 @@ function ServicesAreaSection() {
                     "Respect data subject choices — opt-outs, requests, consent preferences"
                   }
                 </div>
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"🔐 Integrity of Information"}
                   </strong>
@@ -202,7 +202,7 @@ function ServicesAreaSection() {
                     "Data accuracy, completeness, and currency through quality processes"
                   }
                 </div>
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"🛡️ Security Safeguards"}
                   </strong>
@@ -211,7 +211,7 @@ function ServicesAreaSection() {
                     "Technical, administrative, physical controls — CSA/ISO 27001 aligned"
                   }
                 </div>
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"🌐 Access & Correction"}
                   </strong>
@@ -220,7 +220,7 @@ function ServicesAreaSection() {
                     "Support controller clients in handling data subject requests"
                   }
                 </div>
-                <div className="mb-[15px] pt-[15px] pr-[15px] pb-[15px] pl-[15px] [background:#f8f9fa] rounded-[12px] [border-left:3px_solid_#1A4D8C]">
+                <div className="mb-3.75 pt-3.75 pr-3.75 pb-3.75 pl-3.75 [background:#f8f9fa] rounded-xl [border-left:3px_solid_#1A4D8C]">
                   <strong className="[font-weight:bolder]">
                     {"📊 Accountability"}
                   </strong>
@@ -230,78 +230,78 @@ function ServicesAreaSection() {
                   }
                 </div>
               </div>
-              <h3 className="mt-[40px] mb-[20px] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
+              <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                 {"Three service pillars — End-to-end APEC PRP support"}
               </h3>
-              <div className="mt-[20px] mr-[0] mb-[20px] ml-[0] grid [grid-template-columns:repeat(3,_1fr)] max-[768px]:[grid-template-columns:1fr] gap-[20px]">
-                <div className="pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! rounded-[16px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
+              <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(3,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
+                <div className="pt-6! pr-6! pb-6! pl-6! rounded-2xl [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:transform-[translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                   <Icon
                     name="survey"
-                    className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]! inline-block [font-style:normal] text-[#1A4D8C]!"
+                    className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem+1.5vw)]! inline-block not-italic text-[#1A4D8C]!"
                   />
-                  <h4 className="mt-[.5rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+                  <h4 className="mt-2! mb-0 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                     {"🔍 Audit Services"}
                   </h4>
-                  <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {
                       "Gap audits, accountability agent readiness assessments, pre-certification reviews, data processing activity audits, sub-processor vetting audits, surveillance support."
                     }
                   </p>
                   <SiteLink
                     href="/services"
-                    className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#1A4D8C] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#0E3359] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
+                    className="text-white [text-decoration:none] mt-2! pt-2.5 pr-6 pb-2.5 pl-6 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-white [border:none] [background:#1A4D8C] inline-flex items-center gap-2 rounded-[50px] text-[13px] font-semibold hover:[background:#0E3359] hover:transform-[translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Explore audit →"}
                   </SiteLink>
                 </div>
-                <div className="pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! rounded-[16px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
+                <div className="pt-6! pr-6! pb-6! pl-6! rounded-2xl [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:transform-[translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                   <Icon
                     name="file"
-                    className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]! inline-block [font-style:normal] text-[#1A4D8C]!"
+                    className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem+1.5vw)]! inline-block not-italic text-[#1A4D8C]!"
                   />
-                  <h4 className="mt-[.5rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+                  <h4 className="mt-2! mb-0 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                     {"📝 Consulting"}
                   </h4>
-                  <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {
                       "Full implementation, controller-processor agreements, data processing inventory, nine-principle controls, sub-processor management, PDPA integration, CSA alignment, MASA grant advisory."
                     }
                   </p>
                   <SiteLink
                     href="/services"
-                    className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#1A4D8C] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#0E3359] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
+                    className="text-white [text-decoration:none] mt-2! pt-2.5 pr-6 pb-2.5 pl-6 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-white [border:none] [background:#1A4D8C] inline-flex items-center gap-2 rounded-[50px] text-[13px] font-semibold hover:[background:#0E3359] hover:transform-[translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Explore consulting →"}
                   </SiteLink>
                 </div>
-                <div className="pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! rounded-[16px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
+                <div className="pt-6! pr-6! pb-6! pl-6! rounded-2xl [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:transform-[translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                   <Icon
                     name="user"
-                    className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]! inline-block [font-style:normal] text-[#1A4D8C]!"
+                    className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem+1.5vw)]! inline-block not-italic text-[#1A4D8C]!"
                   />
-                  <h4 className="mt-[.5rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+                  <h4 className="mt-2! mb-0 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                     {"🎓 Training"}
                   </h4>
-                  <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                  <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {
                       "Foundation awareness, lead implementer, internal auditor, DPO privacy essentials, controller-processor contract training, cross-border transfer masterclass, executive briefing."
                     }
                   </p>
                   <SiteLink
                     href="/services"
-                    className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#1A4D8C] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#0E3359] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
+                    className="text-white [text-decoration:none] mt-2! pt-2.5 pr-6 pb-2.5 pl-6 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-white [border:none] [background:#1A4D8C] inline-flex items-center gap-2 rounded-[50px] text-[13px] font-semibold hover:[background:#0E3359] hover:transform-[translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Explore training →"}
                   </SiteLink>
                 </div>
               </div>
-              <h3 className="mt-[40px] mb-[20px] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
+              <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                 {
                   "Singapore regulatory alignment — APEC PRP within Singapore's legal framework"
                 }
               </h3>
-              <div className="mt-[20px] mr-[0] mb-[20px] ml-[0] grid [grid-template-columns:repeat(2,_1fr)] max-[768px]:[grid-template-columns:1fr] gap-[20px]">
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
+              <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(2,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
+                <div className="pt-4! pr-4! pb-4! pl-4! bg-[#f8f9fa]! rounded-md! hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"🇸🇬 PDPA — Transfer Limitation Obligation"}
                   </strong>
@@ -310,7 +310,7 @@ function ServicesAreaSection() {
                     "APEC PRP certification satisfies the Transfer Limitation Obligation for data processors handling cross-border flows."
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
+                <div className="pt-4! pr-4! pb-4! pl-4! bg-[#f8f9fa]! rounded-md! hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"🏦 MAS — Technology Risk Management"}
                   </strong>
@@ -319,7 +319,7 @@ function ServicesAreaSection() {
                     "MAS-regulated entities require PRP from their processor service providers."
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
+                <div className="pt-4! pr-4! pb-4! pl-4! bg-[#f8f9fa]! rounded-md! hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"🛡️ CSA — Cybersecurity Act"}
                   </strong>
@@ -328,7 +328,7 @@ function ServicesAreaSection() {
                     "Security safeguards principle complements CSA obligations for CII sector data processors."
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
+                <div className="pt-4! pr-4! pb-4! pl-4! bg-[#f8f9fa]! rounded-md! hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"📊 SGX — ESG Data & Sustainability"}
                   </strong>
@@ -337,7 +337,7 @@ function ServicesAreaSection() {
                     "PRP provides auditable evidence of responsible data stewardship for ESG reporting."
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
+                <div className="pt-4! pr-4! pb-4! pl-4! bg-[#f8f9fa]! rounded-md! hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"🏥 HSA — Healthcare Data Processors"}
                   </strong>
@@ -346,7 +346,7 @@ function ServicesAreaSection() {
                     "CROs, clinical data managers, health analytics processors handling patient data across APEC economies."
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
+                <div className="pt-4! pr-4! pb-4! pl-4! bg-[#f8f9fa]! rounded-md! hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"💼 MOM — Workforce Data Processors"}
                   </strong>
@@ -356,77 +356,77 @@ function ServicesAreaSection() {
                   }
                 </div>
               </div>
-              <h3 className="mt-[40px] mb-[20px] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
+              <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                 {"Industry coverage — 25+ sectors"}
               </h3>
-              <div className="mb-[1.5rem]!">
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+              <div className="mb-6!">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Fintech & Payment Processing"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Telecommunications"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Cloud & IT Services"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Data Centre & Colocation"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Critical Infrastructure (CII)"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Banking & Financial Services"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Healthcare & Clinical Data"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Pharmaceutical & Life Sciences"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Logistics & Supply Chain"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Manufacturing & Industry 4.0"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"HR Technology & Payroll"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Marketing Technology & Analytics"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Business Process Outsourcing"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Insurance & InsurTech"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Aviation & Aerospace"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Retail & E-commerce"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Education & EdTech"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Government & Public Sector ICT"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Professional Services"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Transport & Mobility"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"Cybersecurity & MSSPs"}
                 </span>
-                <span className="mt-[3px] mr-[3px] mb-[3px] ml-[3px] pt-[5px] pr-[12px] pb-[5px] pl-[12px] [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
+                <span className="mt-0.75 mr-0.75 mb-0.75 ml-0.75 pt-1.25 pr-3 pb-1.25 pl-3 [background:#e9ecef] rounded-[20px] text-[12px] inline-block">
                   {"ESG Data & Sustainability"}
                 </span>
-                <p className="mt-[1rem]! mb-[0] text-[rgba(33,_37,_41,_0.75)]! text-[17px] [font-weight:normal] leading-[28px]">
+                <p className="mt-4! mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
                   <small className="text-[.875em]">
                     {
                       "My sector is not listed — ICFC can still help across all industries."
@@ -434,33 +434,33 @@ function ServicesAreaSection() {
                   </small>
                 </p>
               </div>
-              <div className="relative pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! mb-[1.5rem]! text-[#0a3622] bg-[#d1e7dd] [border:0]! rounded-[0.5rem]! [background:linear-gradient(135deg,_#EAF3DE,_#d4edbd)] [border-left:5px_solid_#2E7D32]">
+              <div className="relative pt-6! pr-6! pb-6! pl-6! mb-6! text-[#0a3622] bg-[#d1e7dd] [border:0]! rounded-lg! [background:linear-gradient(135deg,#EAF3DE,#d4edbd)] [border-left:5px_solid_#2E7D32]">
                 <Icon
                   name="star"
-                  className="[float:left]! mr-[1rem]! text-[1.75rem]! max-[1200px]:text-[calc(1.3rem_+_.6vw)]! inline-block [font-style:normal] text-[#2E7D32]!"
+                  className="float-left! mr-4! text-[1.75rem]! max-[1200px]:text-[calc(1.3rem+.6vw)]! inline-block not-italic text-[#2E7D32]!"
                 />
-                <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[rgba(33,37,41,1)]! text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
+                <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[rgba(33,37,41,1)]! text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {
                     "💰 ESG MASA grant — up to 70% co-funding for APEC PRP certification"
                   }
                 </h5>
-                <p className="mt-[0] mb-[0]! text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
                     "Enterprise Singapore's Market Access Standards Adoption (MASA) programme supports qualifying Singapore SMEs in adopting internationally recognised frameworks — including APEC PRP certification. Eligible companies can recover a significant share of ICFC's consultation fees and assessor costs. We assess your eligibility upfront, prepare all required documentation, manage milestone claims, and coordinate with your accountability agent — adding zero delay to your project timeline."
                   }
                 </p>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#fff] [text-decoration:none] inline-flex pt-[10px]! pr-[24px]! pb-[10px]! pl-[24px]! text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#198754] hover:text-[#fff] hover:bg-[#157347] hover:[border-color:#146c43] focus-visible:text-[#fff] focus-visible:bg-[#157347] focus-visible:[border-color:#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] active:text-[#fff] active:bg-[#146c43] active:[border-color:#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] mt-[1rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#2E7D32]! items-center justify-center gap-[10px] hover:[background:#1B5E20] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
+                  className="text-white [text-decoration:none] inline-flex pt-2.5! pr-6! pb-2.5! pl-6! text-[14px] font-semibold leading-normal text-center align-middle [user-select:none] [border:none] rounded-lg bg-[#198754] hover:text-white hover:bg-[#157347] hover:border-[#146c43] focus-visible:text-white focus-visible:bg-[#157347] focus-visible:border-[#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,.5)] active:text-white active:bg-[#146c43] active:border-[#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,.5)] mt-4! focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] [background:#2E7D32]! items-center justify-center gap-2.5 hover:[background:#1B5E20] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                 >
                   {"Check MASA grant eligibility →"}
                 </SiteLink>
               </div>
-              <h3 className="mt-[40px] mb-[20px] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
+              <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                 {"Client testimonials"}
               </h3>
-              <div className="mt-[15px] mr-[0] mb-[15px] ml-[0] pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#fff] rounded-[16px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
-                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+              <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
+                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
                     "\"ICFC's team understood the nuances of the APEC PRP framework — particularly how it interacts with Singapore's PDPA Transfer Limitation Obligation and our US and Japan client requirements. They designed our processor accountability programme so a single framework satisfied PRP, PDPA, and our MAS clients' third-party risk management requirements. The MASA grant advisory was handled entirely by ICFC with zero impact on our project timeline.\""
                   }
@@ -471,8 +471,8 @@ function ServicesAreaSection() {
                   }
                 </strong>
               </div>
-              <div className="mt-[15px] mr-[0] mb-[15px] ml-[0] pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#fff] rounded-[16px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
-                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+              <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
+                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
                     '"As a clinical trial data management company processing patient data across Singapore, Japan, Australia, and the US, APEC PRP was the only framework that addressed all our cross-border obligations efficiently. ICFC built our entire privacy programme from ground up — controller-processor agreements, sub-processor vetting, the nine-principle controls, and staff training — in under four months."'
                   }
@@ -481,8 +481,8 @@ function ServicesAreaSection() {
                   {"— Chief privacy officer, Contract research organisation"}
                 </strong>
               </div>
-              <div className="mt-[15px] mr-[0] mb-[15px] ml-[0] pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#fff] rounded-[16px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
-                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+              <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
+                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
                     '"The APEC PRP internal auditor training ICFC ran for our DPO and privacy team was the most practically useful privacy training we have attended. It was tailored specifically to our payroll processing environment — including cross-border employee data flows to our APEC clients — and gave our team the confidence to manage PRP surveillance cycles independently."'
                   }
@@ -493,7 +493,7 @@ function ServicesAreaSection() {
                   }
                 </strong>
               </div>
-              <h3 className="mt-[40px] mb-[20px] [font-weight:600] leading-[1.46] text-[#2B3944] text-[45px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[40px] [word-break:break-word]">
+              <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[45px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[40px] [word-break:break-word]">
                 {"Frequently asked questions — APEC PRP"}
               </h3>
               <AccordionGroup id="faqAccordion">
@@ -501,7 +501,7 @@ function ServicesAreaSection() {
                   title={<>{"What is APEC PRP and who needs it?"}</>}
 
                   defaultOpen={false}
-                  className="text-[#212529] bg-[#fff] [border:1px_solid_#e2e8f0] [border-top-left-radius:0.375rem] [border-top-right-radius:0.375rem] mb-[16px] rounded-[12px] overflow-hidden"
+                  className="text-[#212529] bg-white [border:1px_solid_#e2e8f0] rounded-tl-md rounded-tr-md mb-4 rounded-xl overflow-hidden"
                 >
                   {" "}
                   {
@@ -518,7 +518,7 @@ function ServicesAreaSection() {
                   }
 
                   defaultOpen={false}
-                  className="text-[#212529] bg-[#fff] [border:1px_solid_#e2e8f0] [border-top:0] mb-[16px] rounded-[12px] overflow-hidden"
+                  className="text-[#212529] bg-white [border:1px_solid_#e2e8f0] [border-top:0] mb-4 rounded-xl overflow-hidden"
                 >
                   {" "}
                   {
@@ -533,7 +533,7 @@ function ServicesAreaSection() {
                   }
 
                   defaultOpen={false}
-                  className="text-[#212529] bg-[#fff] [border:1px_solid_#e2e8f0] [border-top:0] mb-[16px] rounded-[12px] overflow-hidden"
+                  className="text-[#212529] bg-white [border:1px_solid_#e2e8f0] [border-top:0] mb-4 rounded-xl overflow-hidden"
                 >
                   {" "}
                   {
@@ -548,7 +548,7 @@ function ServicesAreaSection() {
                   }
 
                   defaultOpen={false}
-                  className="text-[#212529] bg-[#fff] [border:1px_solid_#e2e8f0] [border-top:0] mb-[16px] rounded-[12px] overflow-hidden"
+                  className="text-[#212529] bg-white [border:1px_solid_#e2e8f0] [border-top:0] mb-4 rounded-xl overflow-hidden"
                 >
                   {" "}
                   {
@@ -565,7 +565,7 @@ function ServicesAreaSection() {
                   }
 
                   defaultOpen={false}
-                  className="text-[#212529] bg-[#fff] [border:1px_solid_#e2e8f0] [border-top:0] mb-[16px] rounded-[12px] overflow-hidden"
+                  className="text-[#212529] bg-white [border:1px_solid_#e2e8f0] [border-top:0] mb-4 rounded-xl overflow-hidden"
                 >
                   {" "}
                   {
@@ -578,7 +578,7 @@ function ServicesAreaSection() {
                   }
 
                   defaultOpen={false}
-                  className="text-[#212529] bg-[#fff] [border:1px_solid_#e2e8f0] [border-top:0] [border-bottom-right-radius:0.375rem] [border-bottom-left-radius:0.375rem] mb-[16px] rounded-[12px] overflow-hidden"
+                  className="text-[#212529] bg-white [border:1px_solid_#e2e8f0] [border-top:0] rounded-br-md rounded-bl-md mb-4 rounded-xl overflow-hidden"
                 >
                   {" "}
                   {
@@ -586,49 +586,49 @@ function ServicesAreaSection() {
                   }
                 </AccordionItem>
               </AccordionGroup>
-              <h3 className="mt-[40px] mb-[20px] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
+              <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                 {
                   "APEC PRP认证如何帮助新加坡数据处理者满足跨境数据传输合规要求？"
                 }
               </h3>
-              <div className="pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! rounded-[0.375rem]! [background:#1a1a2e]! text-[white]!">
-                <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+              <div className="pt-6! pr-6! pb-6! pl-6! rounded-md! [background:#1a1a2e]! text-[white]!">
+                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
                     'APEC"数据处理者隐私认证"（PRP）是专为代表客户企业处理个人数据的机构（即数据处理者）设计的国际隐私问责认证框架，覆盖21个亚太经济体，包括新加坡、美国、日本、韩国、澳大利亚、加拿大及菲律宾等。取得APEC PRP认证，可向您的企业客户（数据控制者）证明您符合APEC隐私框架九项原则的要求，同时满足新加坡《个人资料保护法》（PDPA）跨境传输义务中对数据处理者的合规要求。ICFC Pte Ltd 提供全程辅导，包括数据处理活动清单、控制者-处理者协议框架、九项原则实施、下游处理者审查及员工培训，并协助申请企业发展局（ESG）MASA资助，最高可补贴70%费用。'
                   }
                 </p>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#1A4D8C]! items-center justify-center gap-[10px] hover:[background:#0E3359] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
+                  className="text-white [text-decoration:none] inline-flex pt-3 pr-7 pb-3 pl-7 text-[14px] font-semibold leading-normal text-center align-middle [user-select:none] [border:none] rounded-lg bg-[#0d6efd] hover:text-white hover:bg-[#0b5ed7] hover:border-[#0a58ca] focus-visible:text-white focus-visible:bg-[#0b5ed7] focus-visible:border-[#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,.5)] active:text-white active:bg-[#0a58ca] active:border-[#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,.5)] mt-2! focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] [background:#1A4D8C]! items-center justify-center gap-2.5 hover:[background:#0E3359] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                 >
                   {"中文咨询 · 免费评估 →"}
                 </SiteLink>
               </div>
-              <div className="pt-[3rem]! pr-[3rem]! pb-[3rem]! pl-[3rem]! text-center! rounded-[1rem]! mt-[40px] [background:linear-gradient(135deg,_#e8f4fd,_#f8f9fa)]!">
-                <h3 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
+              <div className="pt-12! pr-12! pb-12! pl-12! text-center! rounded-2xl! mt-10 [background:linear-gradient(135deg,#e8f4fd,#f8f9fa)]!">
+                <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                   {"Start your APEC PRP certification with ICFC Pte Ltd"}
                 </h3>
-                <p className="mt-[0] mb-[1rem]! text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                <p className="mt-0 mb-4! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
                     "Whether you are responding to a client requirement, satisfying a regulatory obligation, or proactively building cross-border privacy accountability — ICFC gives you a practical, honest, and budget-friendly path to APEC PRP certification backed by 11 years of Singapore compliance expertise and a 98% first-attempt success rate."
                   }
                 </p>
-                <div className="flex! flex-wrap! justify-center! gap-[1rem]!">
+                <div className="flex! flex-wrap! justify-center! gap-4!">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#1A4D8C] items-center justify-center gap-[10px] hover:[background:#0E3359] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
+                    className="text-white [text-decoration:none] inline-flex pt-3 pr-7 pb-3 pl-7 text-[14px] font-semibold leading-normal text-center align-middle [user-select:none] [border:none] rounded-lg bg-[#0d6efd] hover:text-white hover:bg-[#0b5ed7] hover:border-[#0a58ca] focus-visible:text-white focus-visible:bg-[#0b5ed7] focus-visible:border-[#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,.5)] active:text-white active:bg-[#0a58ca] active:border-[#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,.5)] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] [background:#1A4D8C] items-center justify-center gap-2.5 hover:[background:#0E3359] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Book a free consultation →"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#1A4D8C] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#1A4D8C] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#1A4D8C] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
+                    className="text-[#1A4D8C] [text-decoration:none] inline-flex pt-3 pr-7 pb-3 pl-7 text-[14px] font-semibold leading-normal text-center align-middle [user-select:none] [border:2px_solid_#1A4D8C] rounded-lg bg-transparent hover:text-white hover:bg-[#0d6efd] hover:border-[#0d6efd] focus-visible:text-white focus-visible:bg-[#0d6efd] focus-visible:border-[#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,.5)] active:text-white active:bg-[#0d6efd] active:border-[#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,.5)] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] [background:transparent] items-center justify-center gap-2.5 hover:[background:#1A4D8C] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Get a quote + grant check →"}
                   </SiteLink>
                 </div>
               </div>
-              <div className="text-[.875em] text-[rgba(33,_37,_41,_0.75)]! mt-[40px]">
+              <div className="text-[.875em] text-[rgba(33,37,41,0.75)]! mt-10">
                 <strong className="[font-weight:bolder]">
                   {"Page optimised for:"}
                 </strong>
@@ -646,18 +646,18 @@ function ServicesAreaSection() {
 
 function CtaAreaSection() {
   return (
-    <div className="mt-[-70px] relative z-[2] [overflow-x:clip]">
-      <div className="w-full pr-[calc(0_*_.5)] pl-[calc(0_*_.5)] mr-[auto] ml-[auto]">
-        <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
-          <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
-            <div className="pt-[21px] pb-[21px] [background:radial-gradient(174.58%_135.27%_at_35.14%_-15.53%,_rgba(47,_62,_75,_0.6)_0%,_rgba(47,_62,_75,_0.036)_100%)] [backdrop-filter:blur(21px)] flex items-center gap-[15px] justify-center [padding-inline:15px]">
-              <span className="bg-[#FFFFFF] w-[17px] min-w-[17px] h-[24px] flex max-[575px]:hidden items-center justify-center rounded-[4px]">
+    <div className="-mt-17.5 relative z-2 overflow-x-clip">
+      <div className="w-full pr-0 pl-0 mr-auto ml-auto">
+        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
+          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
+            <div className="pt-5.25 pb-5.25 [background:radial-gradient(174.58%_135.27%_at_35.14%_-15.53%,rgba(47,62,75,0.6)_0%,rgba(47,62,75,0.036)_100%)] [backdrop-filter:blur(21px)] flex items-center gap-3.75 justify-center px-3.75">
+              <span className="bg-[#FFFFFF] w-4.25 min-w-4.25 h-6 flex max-[575px]:hidden items-center justify-center rounded-sm">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="6"
                   height="11"
                   viewBox="0 0 6 11"
-                  className="[vertical-align:middle]"
+                  className="align-middle"
                 >
                   <path
                     d="M0.50204 0.439454C0.811629 0.16438 1.28548 0.192407 1.56063 0.501954L5.56063 5.00195C5.81308 5.28608 5.81308 5.71392 5.56063 5.99805L1.56063 10.498C1.28548 10.8076 0.811629 10.8356 0.50204 10.5605C0.192493 10.2854 0.164466 9.81154 0.43954 9.50195L3.99618 5.5L0.43954 1.49805C0.164466 1.18846 0.192493 0.714606 0.50204 0.439454Z"
@@ -666,13 +666,13 @@ function CtaAreaSection() {
                 </svg>
               </span>
               <div className="text-[14px] font-medium">
-                <p className="mt-[0] mb-[0] text-[14px] font-medium text-[rgba(255,_255,_255,_0.8)] leading-[28px] max-[575px]:text-center">
+                <p className="mt-0 mb-0 text-[14px] font-medium text-[rgba(255,255,255,0.8)] leading-7 max-[575px]:text-center">
                   {
                     "APEC PRP certification — cross-border privacy accountability, MASA grant funded. "
                   }
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                    className="text-inherit [text-decoration:underline] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     {"Start your privacy certification journey today →"}
                   </SiteLink>

@@ -28,58 +28,58 @@ function BreadcrumbAreaSection() {
 
 function PostboxAreaSection() {
   return (
-    <section className="pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px]">
-      <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
-        <div className="flex flex-wrap mt-[calc(-1_*_3rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
-          <div className="[flex-shrink:0] w-[66.66666667%] max-[992px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto] relative z-[1]">
-            <div className="flex flex-wrap mt-[calc(-1_*_3rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
-              <div className="[flex-shrink:0] w-[50%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
+    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
+      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
+        <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
+          <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto] relative z-1">
+            <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
+              <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
                       href="/blog-details"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
                         src="/assets/images/logo/logo.png"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/blog-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
+                        className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </SiteLink>
-                    <div className="absolute bottom-[0]">
-                      <div className="pt-[13px] pb-[13px] group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex [padding-inline-start:16px] [padding-inline-end:16px] items-center gap-[12px] flex-wrap [transition:0.5s] motion-reduce:transition-none">
-                        <div className="flex items-center gap-[8px]">
+                    <div className="absolute bottom-0">
+                      <div className="pt-3.25 pb-3.25 group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex ps-4 pe-4 items-center gap-3 flex-wrap [transition:0.5s] motion-reduce:transition-none">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="user"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
                               href="/contact-us"
-                              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                              className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
                               {"Icfc"}
                             </SiteLink>
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="tag"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             {" Corporate "}
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="calendar"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
@@ -89,18 +89,18 @@ function PostboxAreaSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
-                    <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
+                  <div className="pt-7.5 max-[575px]:pt-6.25 min-[575px]:max-[1199px]:pt-5 pb-8.75 max-[575px]:pb-6.25 min-[575px]:max-[1199px]:pb-5 min-[1199px]:max-[1600px]:pb-7.5 [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] ps-8.75 max-[575px]:ps-6.25 min-[575px]:max-[1199px]:ps-5 min-[1199px]:max-[1600px]:ps-7.5 pe-10 max-[575px]:pe-6.25 min-[575px]:max-[1199px]:pe-5 min-[1199px]:max-[1600px]:pe-7.5 [border-top:0]">
+                    <h5 className="mt-0 mb-5 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-5 [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-0 before:h-px after:absolute after:[content:''] after:w-17.5 after:[background:#000] after:inset-s-0 after:h-px after:bottom-0 [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                       <SiteLink
                         href="/blog-details"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {
                           "Smarter Thinking for Smarter\n                                                Business\n                                                Solutions"
                         }
                       </SiteLink>
                     </h5>
-                    <p className="mt-[0] mb-[15px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                    <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
                         "This retains a dynamic action oriented feel and aligns with\n                                            consulting core."
                       }
@@ -108,7 +108,7 @@ function PostboxAreaSection() {
                     <div>
                       <SiteLink
                         href="/blog-details"
-                        className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
+                        className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
                         {
                           "Read\n                                                More\n                                            "
@@ -118,53 +118,53 @@ function PostboxAreaSection() {
                   </div>
                 </div>
               </div>
-              <div className="[flex-shrink:0] w-[50%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
+              <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
                       href="/blog-details"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
                         src="/assets/images/logo/logo.png"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/blog-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
+                        className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </SiteLink>
-                    <div className="absolute bottom-[0]">
-                      <div className="pt-[13px] pb-[13px] group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex [padding-inline-start:16px] [padding-inline-end:16px] items-center gap-[12px] flex-wrap [transition:0.5s] motion-reduce:transition-none">
-                        <div className="flex items-center gap-[8px]">
+                    <div className="absolute bottom-0">
+                      <div className="pt-3.25 pb-3.25 group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex ps-4 pe-4 items-center gap-3 flex-wrap [transition:0.5s] motion-reduce:transition-none">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="user"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
                               href="/contact-us"
-                              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                              className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
                               {"Icfc"}
                             </SiteLink>
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="tag"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             {" Corporate "}
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="calendar"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
@@ -174,18 +174,18 @@ function PostboxAreaSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
-                    <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
+                  <div className="pt-7.5 max-[575px]:pt-6.25 min-[575px]:max-[1199px]:pt-5 pb-8.75 max-[575px]:pb-6.25 min-[575px]:max-[1199px]:pb-5 min-[1199px]:max-[1600px]:pb-7.5 [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] ps-8.75 max-[575px]:ps-6.25 min-[575px]:max-[1199px]:ps-5 min-[1199px]:max-[1600px]:ps-7.5 pe-10 max-[575px]:pe-6.25 min-[575px]:max-[1199px]:pe-5 min-[1199px]:max-[1600px]:pe-7.5 [border-top:0]">
+                    <h5 className="mt-0 mb-5 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-5 [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-0 before:h-px after:absolute after:[content:''] after:w-17.5 after:[background:#000] after:inset-s-0 after:h-px after:bottom-0 [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                       <SiteLink
                         href="/blog-details"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {
                           "From the Minds of Business Growth\n                                                Strategists"
                         }
                       </SiteLink>
                     </h5>
-                    <p className="mt-[0] mb-[15px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                    <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
                         "Consulting empowers businesses with data-driven strategies and\n                                            innovative solutions"
                       }
@@ -193,7 +193,7 @@ function PostboxAreaSection() {
                     <div>
                       <SiteLink
                         href="/blog-details"
-                        className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
+                        className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
                         {
                           "Read\n                                                More\n                                            "
@@ -203,53 +203,53 @@ function PostboxAreaSection() {
                   </div>
                 </div>
               </div>
-              <div className="[flex-shrink:0] w-[50%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
+              <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
                       href="/blog-details"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
                         src="/assets/images/logo/logo.png"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/blog-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
+                        className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </SiteLink>
-                    <div className="absolute bottom-[0]">
-                      <div className="pt-[13px] pb-[13px] group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex [padding-inline-start:16px] [padding-inline-end:16px] items-center gap-[12px] flex-wrap [transition:0.5s] motion-reduce:transition-none">
-                        <div className="flex items-center gap-[8px]">
+                    <div className="absolute bottom-0">
+                      <div className="pt-3.25 pb-3.25 group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex ps-4 pe-4 items-center gap-3 flex-wrap [transition:0.5s] motion-reduce:transition-none">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="user"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
                               href="/contact-us"
-                              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                              className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
                               {"Icfc"}
                             </SiteLink>
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="tag"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             {" Corporate "}
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="calendar"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
@@ -259,18 +259,18 @@ function PostboxAreaSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
-                    <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
+                  <div className="pt-7.5 max-[575px]:pt-6.25 min-[575px]:max-[1199px]:pt-5 pb-8.75 max-[575px]:pb-6.25 min-[575px]:max-[1199px]:pb-5 min-[1199px]:max-[1600px]:pb-7.5 [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] ps-8.75 max-[575px]:ps-6.25 min-[575px]:max-[1199px]:ps-5 min-[1199px]:max-[1600px]:ps-7.5 pe-10 max-[575px]:pe-6.25 min-[575px]:max-[1199px]:pe-5 min-[1199px]:max-[1600px]:pe-7.5 [border-top:0]">
+                    <h5 className="mt-0 mb-5 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-5 [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-0 before:h-px after:absolute after:[content:''] after:w-17.5 after:[background:#000] after:inset-s-0 after:h-px after:bottom-0 [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                       <SiteLink
                         href="/blog-details"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {
                           "Insights That Drive Business\n                                                Smarter\n                                                Forward"
                         }
                       </SiteLink>
                     </h5>
-                    <p className="mt-[0] mb-[15px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                    <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
                         "Consulting empowers businesses with data-driven strategies and\n                                            innovative solutions"
                       }
@@ -278,7 +278,7 @@ function PostboxAreaSection() {
                     <div>
                       <SiteLink
                         href="/blog-details"
-                        className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
+                        className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
                         {
                           "Read\n                                                More\n                                            "
@@ -288,53 +288,53 @@ function PostboxAreaSection() {
                   </div>
                 </div>
               </div>
-              <div className="[flex-shrink:0] w-[50%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
+              <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
                       href="/blog-details"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
                         src="/assets/images/logo/logo.png"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/blog-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
+                        className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </SiteLink>
-                    <div className="absolute bottom-[0]">
-                      <div className="pt-[13px] pb-[13px] group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex [padding-inline-start:16px] [padding-inline-end:16px] items-center gap-[12px] flex-wrap [transition:0.5s] motion-reduce:transition-none">
-                        <div className="flex items-center gap-[8px]">
+                    <div className="absolute bottom-0">
+                      <div className="pt-3.25 pb-3.25 group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex ps-4 pe-4 items-center gap-3 flex-wrap [transition:0.5s] motion-reduce:transition-none">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="user"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
                               href="/contact-us"
-                              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                              className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
                               {"Icfc"}
                             </SiteLink>
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="tag"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             {" Corporate "}
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="calendar"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
@@ -344,18 +344,18 @@ function PostboxAreaSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
-                    <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
+                  <div className="pt-7.5 max-[575px]:pt-6.25 min-[575px]:max-[1199px]:pt-5 pb-8.75 max-[575px]:pb-6.25 min-[575px]:max-[1199px]:pb-5 min-[1199px]:max-[1600px]:pb-7.5 [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] ps-8.75 max-[575px]:ps-6.25 min-[575px]:max-[1199px]:ps-5 min-[1199px]:max-[1600px]:ps-7.5 pe-10 max-[575px]:pe-6.25 min-[575px]:max-[1199px]:pe-5 min-[1199px]:max-[1600px]:pe-7.5 [border-top:0]">
+                    <h5 className="mt-0 mb-5 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-5 [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-0 before:h-px after:absolute after:[content:''] after:w-17.5 after:[background:#000] after:inset-s-0 after:h-px after:bottom-0 [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                       <SiteLink
                         href="/blog-details"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {
                           "Actionable Insights for Real World\n                                                Results"
                         }
                       </SiteLink>
                     </h5>
-                    <p className="mt-[0] mb-[15px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                    <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
                         "Helping companies thrive through expert consulting, smart\n                                            strategies,\n                                        "
                       }
@@ -363,7 +363,7 @@ function PostboxAreaSection() {
                     <div>
                       <SiteLink
                         href="/blog-details"
-                        className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
+                        className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
                         {
                           "Read\n                                                More\n                                            "
@@ -373,53 +373,53 @@ function PostboxAreaSection() {
                   </div>
                 </div>
               </div>
-              <div className="[flex-shrink:0] w-[50%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
+              <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
                       href="/blog-details"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
                         src="/assets/images/logo/logo.png"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/blog-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
+                        className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </SiteLink>
-                    <div className="absolute bottom-[0]">
-                      <div className="pt-[13px] pb-[13px] group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex [padding-inline-start:16px] [padding-inline-end:16px] items-center gap-[12px] flex-wrap [transition:0.5s] motion-reduce:transition-none">
-                        <div className="flex items-center gap-[8px]">
+                    <div className="absolute bottom-0">
+                      <div className="pt-3.25 pb-3.25 group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex ps-4 pe-4 items-center gap-3 flex-wrap [transition:0.5s] motion-reduce:transition-none">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="user"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
                               href="/contact-us"
-                              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                              className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
                               {"Icfc"}
                             </SiteLink>
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="tag"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             {" Corporate "}
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="calendar"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
@@ -429,18 +429,18 @@ function PostboxAreaSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
-                    <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
+                  <div className="pt-7.5 max-[575px]:pt-6.25 min-[575px]:max-[1199px]:pt-5 pb-8.75 max-[575px]:pb-6.25 min-[575px]:max-[1199px]:pb-5 min-[1199px]:max-[1600px]:pb-7.5 [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] ps-8.75 max-[575px]:ps-6.25 min-[575px]:max-[1199px]:ps-5 min-[1199px]:max-[1600px]:ps-7.5 pe-10 max-[575px]:pe-6.25 min-[575px]:max-[1199px]:pe-5 min-[1199px]:max-[1600px]:pe-7.5 [border-top:0]">
+                    <h5 className="mt-0 mb-5 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-5 [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-0 before:h-px after:absolute after:[content:''] after:w-17.5 after:[background:#000] after:inset-s-0 after:h-px after:bottom-0 [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                       <SiteLink
                         href="/blog-details"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {
                           "Mastering Markets, Models &\n                                                Momentum"
                         }
                       </SiteLink>
                     </h5>
-                    <p className="mt-[0] mb-[15px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                    <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
                         "We help businesses unlock potential with clear strategies, expert\n                                        "
                       }
@@ -448,7 +448,7 @@ function PostboxAreaSection() {
                     <div>
                       <SiteLink
                         href="/blog-details"
-                        className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
+                        className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
                         {
                           "Read\n                                                More\n                                            "
@@ -458,53 +458,53 @@ function PostboxAreaSection() {
                   </div>
                 </div>
               </div>
-              <div className="[flex-shrink:0] w-[50%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
+              <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
                 <div className="group/blog-item">
                   <div className="relative overflow-hidden rounded-[6px_6px_0_0]">
                     <SiteLink
                       href="/blog-details"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
                         src="/assets/images/logo/logo.png"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/blog-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
+                        className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </SiteLink>
-                    <div className="absolute bottom-[0]">
-                      <div className="pt-[13px] pb-[13px] group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex [padding-inline-start:16px] [padding-inline-end:16px] items-center gap-[12px] flex-wrap [transition:0.5s] motion-reduce:transition-none">
-                        <div className="flex items-center gap-[8px]">
+                    <div className="absolute bottom-0">
+                      <div className="pt-3.25 pb-3.25 group-hover/blog-item:[background:#AB052D] [background:#2B3944] flex ps-4 pe-4 items-center gap-3 flex-wrap [transition:0.5s] motion-reduce:transition-none">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="user"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             <SiteLink
                               href="/contact-us"
-                              className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                              className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
                               {"Icfc"}
                             </SiteLink>
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="tag"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
                             {" Corporate "}
                           </span>
                         </div>
-                        <div className="flex items-center gap-[8px]">
+                        <div className="flex items-center gap-2">
                           <div className="text-[14px] text-[#FFFFFF]">
                             <Icon
                               name="calendar"
-                              className="inline-block [font-style:normal]"
+                              className="inline-block not-italic"
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
@@ -514,18 +514,18 @@ function PostboxAreaSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="pt-[30px] max-[575px]:pt-[25px] min-[575px]:max-[1199px]:pt-[20px] pb-[35px] max-[575px]:pb-[25px] min-[575px]:max-[1199px]:pb-[20px] min-[1199px]:max-[1600px]:pb-[30px] [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] [padding-inline-start:35px] max-[575px]:[padding-inline-start:25px] min-[575px]:max-[1199px]:[padding-inline-start:20px] min-[1199px]:max-[1600px]:[padding-inline-start:30px] [padding-inline-end:40px] max-[575px]:[padding-inline-end:25px] min-[575px]:max-[1199px]:[padding-inline-end:20px] min-[1199px]:max-[1600px]:[padding-inline-end:30px] [border-top:0]">
-                    <h5 className="mt-[0px] mb-[20px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[20px] [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-[0] before:h-[1px] after:absolute after:[content:''] after:w-[70px] after:[background:#000] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
+                  <div className="pt-7.5 max-[575px]:pt-6.25 min-[575px]:max-[1199px]:pt-5 pb-8.75 max-[575px]:pb-6.25 min-[575px]:max-[1199px]:pb-5 min-[1199px]:max-[1600px]:pb-7.5 [background:#FFFFFF] [border:1px_solid_#DBDEE1] rounded-[0_0_6px_6px] ps-8.75 max-[575px]:ps-6.25 min-[575px]:max-[1199px]:ps-5 min-[1199px]:max-[1600px]:ps-7.5 pe-10 max-[575px]:pe-6.25 min-[575px]:max-[1199px]:pe-5 min-[1199px]:max-[1600px]:pe-7.5 [border-top:0]">
+                    <h5 className="mt-0 mb-5 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-5 [word-break:break-word] after:group-hover/blog-item:w-full relative hover:text-[#AB052D] before:absolute before:[content:''] before:w-full before:[background:#DBDEE1] before:bottom-0 before:h-px after:absolute after:[content:''] after:w-17.5 after:[background:#000] after:inset-s-0 after:h-px after:bottom-0 [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                       <SiteLink
                         href="/blog-details"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {
                           "Strategic Thinking for a Changing\n                                                World"
                         }
                       </SiteLink>
                     </h5>
-                    <p className="mt-[0] mb-[15px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
+                    <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
                         "From insights to execution, we guide businesses to smarter"
                       }
@@ -533,7 +533,7 @@ function PostboxAreaSection() {
                     <div>
                       <SiteLink
                         href="/blog-details"
-                        className="text-[#2B3944] [text-decoration:underline] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] [font-weight:500] relative z-[1] [overflow:visible] hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
+                        className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
                         {
                           "Read\n                                                More\n                                            "
@@ -545,10 +545,10 @@ function PostboxAreaSection() {
               </div>
             </div>
           </div>
-          <div className="[flex-shrink:0] w-[33.33333333%] max-[992px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[3rem] [flex:0_0_auto]">
-            <div className="sticky max-[991px]:relative top-[110px] max-[991px]:top-[unset]">
-              <div className="mb-[30px] pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
-                <h5 className="mt-[0px] mb-[30px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[22px] pb-[12px] [word-break:break-word] relative before:[content:''] before:w-[20px] before:h-[2px] before:absolute before:[inset-inline-start:0px] before:bottom-[0] before:[background:#2B3944] after:[content:''] after:w-[65px] after:h-[2px] after:absolute after:[inset-inline-start:30px] after:bottom-[0] after:[background:#AB052D]">
+          <div className="shrink-0 w-[33.33333333%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
+            <div className="sticky max-[991px]:relative top-27.5 max-[991px]:top-[unset]">
+              <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
+                <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
                   {"Search"}
                 </h5>
                 <div>
@@ -558,11 +558,11 @@ function PostboxAreaSection() {
                         type="text"
                         placeholder="Searching..."
                         aria-label="Searching..."
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[60px] w-full [border:1px_solid_#ddd] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:50px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] bg-transparent h-15 w-full [border:1px_solid_#ddd] rounded-md text-black ps-6.25 pe-12.5 focus:border-[#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
                       <button
                         type="submit"
-                        className="rounded-[0] mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] text-[#000] [border:none] [background:transparent] absolute top-[50%] [inset-inline-end:25px] [transform:translateY(-50%)] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="rounded-none mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] normal-case text-black [border:none] [background:transparent] absolute top-[50%] inset-e-6.25 transform-[translateY(-50%)] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         <svg
                           width="18"
@@ -570,7 +570,7 @@ function PostboxAreaSection() {
                           viewBox="0 0 18 18"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle]"
+                          className="align-middle"
                         >
                           <path
                             d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
@@ -592,17 +592,17 @@ function PostboxAreaSection() {
                   </EmailForm>
                 </div>
               </div>
-              <div className="mb-[30px] pt-[30px] max-[1199px]:pt-[20px] pr-[30px] max-[1199px]:pr-[20px] pb-[40px] max-[1199px]:pb-[20px] pl-[30px] max-[1199px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
-                <h5 className="mt-[0px] mb-[30px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[22px] pb-[12px] [word-break:break-word] relative before:[content:''] before:w-[20px] before:h-[2px] before:absolute before:[inset-inline-start:0px] before:bottom-[0] before:[background:#2B3944] after:[content:''] after:w-[65px] after:h-[2px] after:absolute after:[inset-inline-start:30px] after:bottom-[0] after:[background:#AB052D]">
+              <div className="mb-7.5 pt-7.5 max-[1199px]:pt-5 pr-7.5 max-[1199px]:pr-5 pb-10 max-[1199px]:pb-5 pl-7.5 max-[1199px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
+                <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
                   {"Categories"}
                 </h5>
                 <div>
                   <div>
-                    <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
-                      <li className="mb-[12px] list-none">
+                    <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
+                      <li className="mb-3 list-none">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {
                             "\n                                                    Business\n                                                    "
@@ -610,10 +610,10 @@ function PostboxAreaSection() {
                           <span className="">{"(5)"}</span>
                         </SiteLink>
                       </li>
-                      <li className="mb-[12px] list-none">
+                      <li className="mb-3 list-none">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {
                             "\n                                                    Corporate\n                                                    "
@@ -621,10 +621,10 @@ function PostboxAreaSection() {
                           <span className="">{"(4)"}</span>
                         </SiteLink>
                       </li>
-                      <li className="mb-[12px] list-none">
+                      <li className="mb-3 list-none">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {
                             "\n                                                    Consulting\n                                                    "
@@ -632,10 +632,10 @@ function PostboxAreaSection() {
                           <span className="">{"(7)"}</span>
                         </SiteLink>
                       </li>
-                      <li className="mb-[12px] list-none">
+                      <li className="mb-3 list-none">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {
                             "\n                                                    AI Technology\n                                                    "
@@ -643,10 +643,10 @@ function PostboxAreaSection() {
                           <span className="">{"(3)"}</span>
                         </SiteLink>
                       </li>
-                      <li className="mb-[12px] list-none">
+                      <li className="mb-3 list-none">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {
                             "\n                                                    Oil & Gas Energy\n                                                    "
@@ -657,7 +657,7 @@ function PostboxAreaSection() {
                       <li className="list-none">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] pt-[12px] pr-[20px] pb-[12px] pl-[20px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,_1,_1,_0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-[6px] text-[17px] hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {
                             "\n                                                    IT Solutions\n                                                    "
@@ -669,68 +669,68 @@ function PostboxAreaSection() {
                   </div>
                 </div>
               </div>
-              <div className="mb-[30px] pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
-                <h5 className="mt-[0px] mb-[30px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[22px] pb-[12px] [word-break:break-word] relative before:[content:''] before:w-[20px] before:h-[2px] before:absolute before:[inset-inline-start:0px] before:bottom-[0] before:[background:#2B3944] after:[content:''] after:w-[65px] after:h-[2px] after:absolute after:[inset-inline-start:30px] after:bottom-[0] after:[background:#AB052D]">
+              <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
+                <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
                   {"Recent Posts"}
                 </h5>
                 <div>
                   <div>
-                    <div className="mb-[20px] pb-[20px] flex max-[480px]:grid items-center gap-[20px] max-[480px]:[grid-template-columns:auto] [border-bottom:1px_solid_#DBDEE1] group/sidebar-blog-item">
-                      <div className="overflow-hidden [flex:0_0_auto] w-[85px] max-[480px]:w-full rounded-[4px]">
+                    <div className="mb-5 pb-5 flex max-[480px]:grid items-center gap-5 max-[480px]:grid-cols-[auto] [border-bottom:1px_solid_#DBDEE1] group/sidebar-blog-item">
+                      <div className="overflow-hidden flex-[0_0_auto] w-21.25 max-[480px]:w-full rounded-sm">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           <SiteImage
                             src="/assets/images/logo/logo.png"
                             alt="image"
-                            className="[vertical-align:middle] max-w-full group-hover/sidebar-blog-item:[transform:scale3d(1.07,_1.07,_1.07)] w-full rounded-[4px] [transition:all_1s_cubic-bezier(0,_0,_0.2,_1)] motion-reduce:transition-none"
+                            className="align-middle max-w-full group-hover/sidebar-blog-item:transform-[scale3d(1.07,1.07,1.07)] w-full rounded-sm [transition:all_1s_cubic-bezier(0,0,0.2,1)] motion-reduce:transition-none"
                           />
                         </SiteLink>
                       </div>
                       <div>
-                        <div className="mb-[10px] text-[16px] flex items-center gap-[10px]">
+                        <div className="mb-2.5 text-[16px] flex items-center gap-2.5">
                           <Icon
                             name="calendar"
-                            className="inline-block [font-style:normal] text-[#AB052D]"
+                            className="inline-block not-italic text-[#AB052D]"
                           />
                           <span className="">{"May 20, 2024"}</span>
                         </div>
-                        <h6 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
+                        <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog-details"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                            className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {" Insights That Drive Business Smarter Forward"}
                           </SiteLink>
                         </h6>
                       </div>
                     </div>
-                    <div className="mb-[20px] pb-[20px] flex max-[480px]:grid items-center gap-[20px] max-[480px]:[grid-template-columns:auto] [border-bottom:1px_solid_#DBDEE1] group/sidebar-blog-item">
-                      <div className="overflow-hidden [flex:0_0_auto] w-[85px] max-[480px]:w-full rounded-[4px]">
+                    <div className="mb-5 pb-5 flex max-[480px]:grid items-center gap-5 max-[480px]:grid-cols-[auto] [border-bottom:1px_solid_#DBDEE1] group/sidebar-blog-item">
+                      <div className="overflow-hidden flex-[0_0_auto] w-21.25 max-[480px]:w-full rounded-sm">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           <SiteImage
                             src="/assets/images/logo/logo.png"
                             alt="image"
-                            className="[vertical-align:middle] max-w-full group-hover/sidebar-blog-item:[transform:scale3d(1.07,_1.07,_1.07)] w-full rounded-[4px] [transition:all_1s_cubic-bezier(0,_0,_0.2,_1)] motion-reduce:transition-none"
+                            className="align-middle max-w-full group-hover/sidebar-blog-item:transform-[scale3d(1.07,1.07,1.07)] w-full rounded-sm [transition:all_1s_cubic-bezier(0,0,0.2,1)] motion-reduce:transition-none"
                           />
                         </SiteLink>
                       </div>
                       <div>
-                        <div className="mb-[10px] text-[16px] flex items-center gap-[10px]">
+                        <div className="mb-2.5 text-[16px] flex items-center gap-2.5">
                           <Icon
                             name="calendar"
-                            className="inline-block [font-style:normal] text-[#AB052D]"
+                            className="inline-block not-italic text-[#AB052D]"
                           />
                           <span className="">{"May 20, 2024"}</span>
                         </div>
-                        <h6 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
+                        <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog-details"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                            className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {
                               "\n                                                        From the Minds of Business Growth Strategists "
@@ -739,31 +739,31 @@ function PostboxAreaSection() {
                         </h6>
                       </div>
                     </div>
-                    <div className="flex max-[480px]:grid items-center gap-[20px] max-[480px]:[grid-template-columns:auto] group/sidebar-blog-item">
-                      <div className="overflow-hidden [flex:0_0_auto] w-[85px] max-[480px]:w-full rounded-[4px]">
+                    <div className="flex max-[480px]:grid items-center gap-5 max-[480px]:grid-cols-[auto] group/sidebar-blog-item">
+                      <div className="overflow-hidden flex-[0_0_auto] w-21.25 max-[480px]:w-full rounded-sm">
                         <SiteLink
                           href="/blog-details"
-                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                          className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           <SiteImage
                             src="/assets/images/logo/logo.png"
                             alt="image"
-                            className="[vertical-align:middle] max-w-full group-hover/sidebar-blog-item:[transform:scale3d(1.07,_1.07,_1.07)] w-full rounded-[4px] [transition:all_1s_cubic-bezier(0,_0,_0.2,_1)] motion-reduce:transition-none"
+                            className="align-middle max-w-full group-hover/sidebar-blog-item:transform-[scale3d(1.07,1.07,1.07)] w-full rounded-sm [transition:all_1s_cubic-bezier(0,0,0.2,1)] motion-reduce:transition-none"
                           />
                         </SiteLink>
                       </div>
                       <div>
-                        <div className="mb-[10px] text-[16px] flex items-center gap-[10px]">
+                        <div className="mb-2.5 text-[16px] flex items-center gap-2.5">
                           <Icon
                             name="calendar"
-                            className="inline-block [font-style:normal] text-[#AB052D]"
+                            className="inline-block not-italic text-[#AB052D]"
                           />
                           <span className="">{"May 20, 2024"}</span>
                         </div>
-                        <h6 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
+                        <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog-details"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                            className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {
                               "\n                                                        Smarter Thinking for Smarter Business Solutions "
@@ -775,56 +775,56 @@ function PostboxAreaSection() {
                   </div>
                 </div>
               </div>
-              <div className="pt-[30px] max-[480px]:pt-[10px] min-[480px]:max-[991px]:pt-[20px] min-[991px]:max-[1600px]:pt-[10px] pr-[30px] max-[480px]:pr-[20px] min-[991px]:max-[1600px]:pr-[20px] pb-[38px] max-[480px]:pb-[20px] min-[480px]:max-[991px]:pb-[30px] min-[991px]:max-[1600px]:pb-[20px] pl-[30px] max-[480px]:pl-[20px] min-[991px]:max-[1600px]:pl-[20px] relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-[8px]">
-                <h5 className="mt-[0px] mb-[30px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[22px] pb-[12px] [word-break:break-word] relative before:[content:''] before:w-[20px] before:h-[2px] before:absolute before:[inset-inline-start:0px] before:bottom-[0] before:[background:#2B3944] after:[content:''] after:w-[65px] after:h-[2px] after:absolute after:[inset-inline-start:30px] after:bottom-[0] after:[background:#AB052D]">
+              <div className="pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
+                <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
                   {"Popular Tags"}
                 </h5>
-                <div className="flex flex-wrap gap-[12px]">
+                <div className="flex flex-wrap gap-3">
                   <SiteLink
                     href="/blog-details"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
+                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Technology"}
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
+                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Business"}
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
+                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Video"}
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
+                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Agency"}
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
+                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Consulting"}
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
+                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Financial"}
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
+                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Corporate"}
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
+                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Marketing"}
                   </SiteLink>
@@ -833,16 +833,16 @@ function PostboxAreaSection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] justify-center!">
-          <div className="[flex-shrink:0] w-[50%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
-            <div className="mt-[40px]">
-              <div className="text-left! mt-[45px]">
+        <div className="flex flex-wrap mt-0 -mr-6 -ml-6 justify-center!">
+          <div className="shrink-0 w-[50%] max-[1200px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
+            <div className="mt-10">
+              <div className="text-left! mt-11.25">
                 <nav>
-                  <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] inline-flex gap-[10px]">
+                  <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0 inline-flex gap-2.5">
                     <li className="list-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] w-[40px] h-[40px] flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] w-10 h-10 flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"1"}
                       </SiteLink>
@@ -850,7 +850,7 @@ function PostboxAreaSection() {
                     <li className="list-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[#000] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-[40px] h-[40px] flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-black [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-10 h-10 flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"2"}
                       </SiteLink>
@@ -858,7 +858,7 @@ function PostboxAreaSection() {
                     <li className="list-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[#000] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-[40px] h-[40px] flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:[border-color:#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-black [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-10 h-10 flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"3"}
                       </SiteLink>
@@ -866,7 +866,7 @@ function PostboxAreaSection() {
                     <li className="list-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[#000] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-[40px] h-[40px] flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:[border-color:#AB052D] before:absolute before:text-[16px] before:leading-[1] before:opacity-[1] before:left-[50%] before:top-[50%] before:[transform:translate(-50%,_-50%)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+                        className="text-black [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#F8F8F9] w-10 h-10 flex items-center justify-center rounded-full relative hover:[background:#AB052D] hover:border-[#AB052D] before:absolute before:text-[16px] before:leading-none before:opacity-[1] before:left-[50%] before:top-[50%] before:transform-[translate(-50%,-50%)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       ></SiteLink>
                     </li>
                   </ul>

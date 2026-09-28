@@ -210,8 +210,8 @@ export function AnimatedElement({
           aria-hidden="true"
           className={
             loop
-              ? "pointer-events-none absolute left-1/2 top-1/2 -z-10 size-[90px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white"
-              : "pointer-events-none absolute top-[7px] left-[7px] z-[1] size-5 rounded-full bg-[#2B3944]"
+              ? "pointer-events-none absolute left-1/2 top-1/2 -z-10 size-22.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white"
+              : "pointer-events-none absolute top-1.75 left-1.75 z-1 size-5 rounded-full bg-[#2B3944]"
           }
           initial={false}
           animate={
@@ -513,7 +513,7 @@ export function CursorFollower() {
   return (
     <motion.div
       aria-hidden="true"
-      className="pointer-events-none fixed left-0 top-0 z-[999999] size-10 -translate-x-1/2 -translate-y-1/2 rounded-full border max-[991px]:hidden [@media(pointer:coarse)]:hidden"
+      className="pointer-events-none fixed left-0 top-0 z-999999 size-10 -translate-x-1/2 -translate-y-1/2 rounded-full border max-[991px]:hidden pointer-coarse:hidden"
       style={{ x: smoothX, y: smoothY }}
       animate={{
         opacity: visible ? (active ? 0.15 : 1) : 0,
@@ -523,7 +523,7 @@ export function CursorFollower() {
       }}
       transition={{ duration: 0.15 }}
     >
-      <span className="absolute left-1/2 top-1/2 size-[3px] -translate-x-1/2 rounded-full bg-[#AB052D]" />
+      <span className="absolute left-1/2 top-1/2 size-0.75 -translate-x-1/2 rounded-full bg-[#AB052D]" />
     </motion.div>
   );
 }

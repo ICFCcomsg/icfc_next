@@ -29,7 +29,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
           setActive(false);
       }}
     >
-      <div className="relative overflow-hidden rounded-t-[6px]">
+      <div className="relative overflow-hidden rounded-t-md">
         <SiteLink href={post.href} aria-label={post.title} className="block">
           <motion.div
             initial={false}
@@ -47,7 +47,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
           initial={false}
           animate={{ backgroundColor: active ? "#AB052D" : "#2B3944" }}
           transition={{ duration: reduced ? 0 : 0.5, ease }}
-          className="absolute bottom-0 left-0 flex flex-wrap items-center gap-3 px-4 py-[13px] text-sm font-medium text-white"
+          className="absolute bottom-0 left-0 flex flex-wrap items-center gap-3 px-4 py-3.25 text-sm font-medium text-white"
         >
           <span className="flex items-center gap-2">
             <Icon name="user" />
@@ -63,7 +63,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
           </span>
         </motion.div>
       </div>
-      <div className="rounded-b-[6px] border border-t-0 border-[#DBDEE1] bg-white pt-[30px] pr-10 pb-[35px] pl-[35px] max-[1600px]:px-[30px] max-[1600px]:pb-[30px] max-[1199px]:p-5 max-[575px]:p-[25px]">
+      <div className="rounded-b-md border border-t-0 border-[#DBDEE1] bg-white pt-7.5 pr-10 pb-8.75 pl-8.75 max-[1600px]:px-7.5 max-[1600px]:pb-7.5 max-[1199px]:p-5 max-[575px]:p-6.25">
         <h2 className="relative mb-5 pb-5 text-[24px] leading-[1.4] font-semibold text-[#2B3944] max-[1600px]:text-[22px] max-[1199px]:text-[20px] max-[991px]:text-[22px] max-[575px]:text-[20px] before:absolute before:inset-x-0 before:bottom-0 before:h-px before:bg-[#DBDEE1]">
           <SiteLink
             href={post.href}
@@ -80,7 +80,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
           />
         </h2>
         {post.description && (
-          <p className="mb-[15px] text-[17px] leading-7 font-normal text-[#616C74]">
+          <p className="mb-3.75 text-[17px] leading-7 font-normal text-[#616C74]">
             {post.description}
           </p>
         )}

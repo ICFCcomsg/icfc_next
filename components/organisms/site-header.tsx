@@ -77,10 +77,10 @@ export function SiteHeader({ route }: { route: string }) {
     return href === `/${route}`;
   }
   const navigationBar = (
-    <div className="flex items-center justify-between gap-3 bg-[#2B3944] px-[60px] py-0 max-[1600px]:px-[15px] max-[1199px]:py-[10px] max-[575px]:py-[13px] md:gap-6">
+    <div className="flex items-center justify-between gap-3 bg-[#2B3944] px-15 py-0 max-[1600px]:px-3.75 max-[1199px]:py-2.5 max-[575px]:py-3.25 md:gap-6">
       <SiteLink
         href="/"
-        className="shrink-0 [&_img]:w-28 md:[&_img]:w-[150px] [&_img]:h-auto"
+        className="shrink-0 [&_img]:w-28 md:[&_img]:w-37.5 [&_img]:h-auto"
         aria-label="ICFC home"
       >
         <SiteImage src="/assets/images/logo/logo.png" alt="ICFC" width={150} />
@@ -102,15 +102,15 @@ export function SiteHeader({ route }: { route: string }) {
           ))}
         </ul>
       </nav>
-      <div className="flex items-center gap-2 md:gap-[18px]">
+      <div className="flex items-center gap-2 md:gap-4.5">
         <SiteLink
           href="/contact-us"
-          className="hidden items-center gap-3 whitespace-nowrap rounded-full border border-white/20 px-[26px] py-[14px] text-[17px] font-medium text-white transition-colors hover:bg-[#AB052D] md:inline-flex"
+          className="hidden items-center gap-3 whitespace-nowrap rounded-full border border-white/20 px-6.5 py-3.5 text-[17px] font-medium text-white transition-colors hover:bg-[#AB052D] md:inline-flex"
         >
           {copy.header.get_quote} ↗
         </SiteLink>
         <button
-          className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-[54px]"
+          className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-13.5"
           type="button"
           aria-label="Search site"
           onClick={() => setPanel("search")}
@@ -119,7 +119,7 @@ export function SiteHeader({ route }: { route: string }) {
         </button>
         <motion.button
           whileHover="hover"
-          className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-[54px]"
+          className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-13.5"
           type="button"
           aria-label="Open navigation menu"
           aria-expanded={panel === "menu"}
@@ -132,24 +132,24 @@ export function SiteHeader({ route }: { route: string }) {
   );
   return (
     <header className="relative z-50 bg-[#2B3944] text-white">
-      <div className="flex flex-wrap items-center justify-between gap-[10px] bg-[#AB052D] px-[60px] py-[7px] text-sm font-medium max-[1600px]:px-[15px] max-[991px]:justify-center max-[991px]:pt-2 max-[991px]:pb-[10px] [&_a]:text-white">
-        <span className="flex items-center gap-[10px] text-center text-white/90 max-[480px]:hidden">
-          <span className="flex h-5 w-[17px] shrink-0 items-center justify-center rounded bg-white text-[9px] text-[#AB052D]">
+      <div className="flex flex-wrap items-center justify-between gap-2.5 bg-[#AB052D] px-15 py-1.75 text-sm font-medium max-[1600px]:px-3.75 max-[991px]:justify-center max-[991px]:pt-2 max-[991px]:pb-2.5 [&_a]:text-white">
+        <span className="flex items-center gap-2.5 text-center text-white/90 max-[480px]:hidden">
+          <span className="flex h-5 w-4.25 shrink-0 items-center justify-center rounded bg-white text-[9px] text-[#AB052D]">
             <Icon name="right" />
           </span>
           <span>
             {copy.top.obstacle_text}{" "}
             <SiteLink
               href="/contact-us"
-              className="underline hover:!text-[#2B3944]"
+              className="underline hover:text-[#2B3944]!"
             >
               {copy.top.connect_link}
             </SiteLink>
           </span>
         </span>
-        <div className="flex items-center gap-[30px] max-[575px]:flex-wrap max-[575px]:justify-center max-[575px]:gap-x-[30px] max-[575px]:gap-y-[5px]">
+        <div className="flex items-center gap-7.5 max-[575px]:flex-wrap max-[575px]:justify-center max-[575px]:gap-x-7.5 max-[575px]:gap-y-1.25">
           <select
-            className="w-[144px] rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-[13px] font-medium text-[#111]"
+            className="w-36 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-[13px] font-medium text-[#111]"
             aria-label={copy.header.language_label}
             value={language}
             onChange={(event) => selectLanguage(event.target.value)}
@@ -162,7 +162,7 @@ export function SiteHeader({ route }: { route: string }) {
           </select>
           <SiteLink
             href="tel:+6586017001"
-            className="relative whitespace-nowrap min-[576px]:border-r min-[576px]:border-white/50 min-[576px]:pr-[15px] min-[576px]:-mr-[15px]"
+            className="relative whitespace-nowrap min-[576px]:border-r min-[576px]:border-white/50 min-[576px]:pr-3.75 min-[576px]:-mr-3.75"
           >
             <Icon name="phone" className="mr-2" /> {copy.top.call_us_label} +65
             8601 7001
@@ -202,7 +202,7 @@ export function SiteHeader({ route }: { route: string }) {
           drawer
           closeLabel="Close panel"
           label={panel === "menu" ? "Navigation menu" : "Search site"}
-          className="fixed inset-y-0 right-0 left-auto m-0 h-dvh max-h-dvh w-[430px] max-w-full overflow-y-auto border-0 bg-white p-10 text-[#2B3944] backdrop:bg-black/50 [&_h2]:mb-6 [&_h2]:text-3xl [&_h2]:font-bold [&_nav]:my-6 [&_nav]:grid [&_nav]:gap-5 [&_nav_a]:text-xl [&_a[aria-current]]:text-[#AB052D] [&_input]:w-full [&_input]:rounded-lg [&_input]:border [&_input]:border-slate-300 [&_input]:p-3"
+          className="fixed inset-y-0 right-0 left-auto m-0 h-dvh max-h-dvh w-107.5 max-w-full overflow-y-auto border-0 bg-white p-10 text-[#2B3944] backdrop:bg-black/50 [&_h2]:mb-6 [&_h2]:text-3xl [&_h2]:font-bold [&_nav]:my-6 [&_nav]:grid [&_nav]:gap-5 [&_nav_a]:text-xl [&_a[aria-current]]:text-[#AB052D] [&_input]:w-full [&_input]:rounded-lg [&_input]:border [&_input]:border-slate-300 [&_input]:p-3"
           onClose={() => setPanel(null)}
         >
           <h2>{panel === "menu" ? "Menu" : "Search site"}</h2>
@@ -211,7 +211,7 @@ export function SiteHeader({ route }: { route: string }) {
               <SiteImage
                 src="/assets/images/logo/logo.png"
                 alt="ICFC"
-                className="mb-6 w-[150px] h-auto"
+                className="mb-6 w-37.5 h-auto"
               />
               <p>
                 ICFC specializes in helping startups and enterprises craft

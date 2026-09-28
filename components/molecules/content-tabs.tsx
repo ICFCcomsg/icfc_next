@@ -11,10 +11,10 @@ export function ContentTabs({
   const [selected, setSelected] = useState(0);
   const id = useId();
   return (
-    <div className="space-y-[60px]">
+    <div className="space-y-15">
       <div>
         <div
-          className="flex flex-wrap justify-center gap-[22px] border-y border-white/5 py-[22px]"
+          className="flex flex-wrap justify-center gap-5.5 border-y border-white/5 py-5.5"
           role="tablist"
           aria-label="Featured work"
         >
@@ -27,7 +27,7 @@ export function ContentTabs({
               aria-selected={selected === index}
               aria-controls={`${id}-panel-${index}`}
               tabIndex={selected === index ? 0 : -1}
-              className={`rounded-full border px-[15px] py-[5px] text-[15px] font-medium transition-colors max-[480px]:w-full max-[480px]:py-2.5 ${selected === index ? "border-[#AB052D] bg-[#AB052D] text-white" : "border-white/10 bg-transparent text-white hover:border-[#AB052D] hover:bg-[#AB052D]"}`}
+              className={`rounded-full border px-3.75 py-1.25 text-[15px] font-medium transition-colors max-[480px]:w-full max-[480px]:py-2.5 ${selected === index ? "border-[#AB052D] bg-[#AB052D] text-white" : "border-white/10 bg-transparent text-white hover:border-[#AB052D] hover:bg-[#AB052D]"}`}
               onClick={() => setSelected(index)}
               onKeyDown={(event) => {
                 if (

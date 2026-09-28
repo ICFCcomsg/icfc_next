@@ -63,7 +63,7 @@ export function PaginationButton({
       disabled={disabled}
       aria-current={selected ? "page" : undefined}
       onClick={() => state.setPage(target)}
-      className={`${className} transition-all duration-300 disabled:pointer-events-none disabled:opacity-40 ${selected ? "!border-[#AB052D] !bg-[#AB052D] !text-white" : ""}`}
+      className={`${className} transition-all duration-300 disabled:pointer-events-none disabled:opacity-40 ${selected ? "border-[#AB052D]! bg-[#AB052D]! text-white!" : ""}`}
     />
   );
 }

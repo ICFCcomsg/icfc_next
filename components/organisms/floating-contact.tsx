@@ -23,7 +23,7 @@ export function FloatingContact() {
   }, []);
   return (
     <>
-      <div className="fixed right-[18px] bottom-[88px] z-50 grid gap-[14px] max-[480px]:right-3 max-[480px]:bottom-[78px] [&_a]:grid [&_a]:size-14 [&_a]:place-items-center [&_a]:rounded-full [&_a]:bg-[#25D366] [&_a]:text-2xl [&_a]:text-white [&_a]:shadow-lg [&_button]:grid [&_button]:size-14 [&_button]:place-items-center [&_button]:rounded-full [&_button]:bg-[#07C160] [&_button]:text-2xl [&_button]:text-white [&_button]:shadow-lg">
+      <div className="fixed right-4.5 bottom-22 z-50 grid gap-3.5 max-[480px]:right-3 max-[480px]:bottom-19.5 [&_a]:grid [&_a]:size-14 [&_a]:place-items-center [&_a]:rounded-full [&_a]:bg-[#25D366] [&_a]:text-2xl [&_a]:text-white [&_a]:shadow-lg [&_button]:grid [&_button]:size-14 [&_button]:place-items-center [&_button]:rounded-full [&_button]:bg-[#07C160] [&_button]:text-2xl [&_button]:text-white [&_button]:shadow-lg">
         <button
           type="button"
           aria-label="Show WeChat contact"
@@ -48,7 +48,7 @@ export function FloatingContact() {
             exit={{ opacity: 0, y: reduced ? 0 : 20 }}
             transition={{ duration: reduced ? 0 : 0.4, ease: "linear" }}
             type="button"
-            className="fixed right-[18px] bottom-5 z-50 grid size-10 place-items-center rounded-md bg-[#AB052D] text-xl text-white shadow-lg max-[480px]:right-3"
+            className="fixed right-4.5 bottom-5 z-50 grid size-10 place-items-center rounded-md bg-[#AB052D] text-xl text-white shadow-lg max-[480px]:right-3"
             aria-label="Back to top"
             onClick={() => {
               if (reduced) {
@@ -70,7 +70,7 @@ export function FloatingContact() {
       {wechat && (
         <Modal
           closeLabel="Close WeChat contact"
-          className="relative m-auto max-w-[calc(100%-2rem)] rounded-xl border-0 bg-white p-10 text-center text-[#2B3944] backdrop:bg-black/50 [&_h2]:text-2xl [&_h2]:font-bold [&_img]:mx-auto [&_img]:my-5 [&_img]:w-[280px] [&_img]:max-w-full [&_img]:h-auto"
+          className="relative m-auto max-w-[calc(100%-2rem)] rounded-xl border-0 bg-white p-10 text-center text-[#2B3944] backdrop:bg-black/50 [&_h2]:text-2xl [&_h2]:font-bold [&_img]:mx-auto [&_img]:my-5 [&_img]:w-70 [&_img]:max-w-full [&_img]:h-auto"
           label="WeChat contact"
           onClose={() => setWechat(false)}
         >

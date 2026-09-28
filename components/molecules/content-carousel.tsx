@@ -82,12 +82,12 @@ export function ContentCarousel({
   }, [move, reduced, variant]);
   const widths =
     items === 1
-      ? "[&>*]:basis-full"
+      ? "*:basis-full"
       : variant === "brands"
-        ? "[&>*]:basis-full min-[481px]:[&>*]:basis-1/2 min-[768px]:[&>*]:basis-1/3 min-[992px]:[&>*]:basis-1/4 min-[1200px]:[&>*]:basis-1/5 min-[1600px]:[&>*]:basis-1/6"
+        ? "*:basis-full min-[481px]:*:basis-1/2 min-[768px]:*:basis-1/3 min-[992px]:*:basis-1/4 min-[1200px]:*:basis-1/5 min-[1600px]:*:basis-1/6"
         : variant === "testimonials"
-          ? "[&>*]:basis-full min-[768px]:[&>*]:basis-[calc((100%-30px)/2)] min-[1600px]:[&>*]:basis-[calc((100%-60px)/3)]"
-          : "[&>*]:basis-full min-[768px]:[&>*]:basis-[calc((100%-30px)/2)] min-[1200px]:[&>*]:basis-[calc((100%-60px)/3)]";
+          ? "*:basis-full min-[768px]:*:basis-[calc((100%-30px)/2)] min-[1600px]:*:basis-[calc((100%-60px)/3)]"
+          : "*:basis-full min-[768px]:*:basis-[calc((100%-30px)/2)] min-[1200px]:*:basis-[calc((100%-60px)/3)]";
   return (
     <div
       onMouseEnter={() => (paused.current = true)}
@@ -100,7 +100,7 @@ export function ContentCarousel({
     >
       <div
         ref={track}
-        className={`flex snap-x snap-mandatory [&[data-animating]]:snap-none overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [&>*]:min-w-0 [&>*]:shrink-0 [&>*]:snap-start ${variant === "brands" ? "gap-0 [&>*]:flex [&>*]:items-center [&>*]:justify-center" : "gap-[30px]"} ${widths}`}
+        className={`flex snap-x snap-mandatory data-animating:snap-none overflow-x-auto scrollbar-none [&::-webkit-scrollbar]:hidden *:min-w-0 *:shrink-0 *:snap-start ${variant === "brands" ? "gap-0 *:flex *:items-center *:justify-center" : "gap-7.5"} ${widths}`}
       >
         {children}
         {loop &&

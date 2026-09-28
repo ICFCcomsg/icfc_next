@@ -20,7 +20,7 @@ export function IndustryCard({
   const reduced = useReducedMotion();
   return (
     <article
-      className={`relative overflow-hidden rounded-2xl border bg-gradient-to-b from-white to-[#FCFDFF] shadow-sm transition-all hover:-translate-y-[7px] hover:shadow-xl before:absolute before:inset-x-0 before:top-0 before:h-1 before:bg-gradient-to-r before:from-[#AB052D] before:to-rose-500 ${expanded ? "border-[#AB052D] before:opacity-100" : "border-slate-200 before:opacity-25"}`}
+      className={`relative overflow-hidden rounded-2xl border bg-linear-to-b from-white to-[#FCFDFF] shadow-sm transition-all hover:-translate-y-1.75 hover:shadow-xl before:absolute before:inset-x-0 before:top-0 before:h-1 before:bg-linear-to-r before:from-[#AB052D] before:to-rose-500 ${expanded ? "border-[#AB052D] before:opacity-100" : "border-slate-200 before:opacity-25"}`}
     >
       <button
         type="button"

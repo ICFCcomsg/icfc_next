@@ -27,8 +27,8 @@ export function IndustryExplorer() {
   const label = categories.find(([key]) => key === category)?.[1];
 
   return (
-    <section className="pt-[120px] pb-10 max-[991px]:pt-[100px] max-[767px]:pt-[70px] max-[480px]:pt-[60px]">
-      <div className="mx-auto max-w-[1280px] px-5">
+    <section className="pt-30 pb-10 max-[991px]:pt-25 max-[767px]:pt-17.5 max-[480px]:pt-15">
+      <div className="mx-auto max-w-7xl px-5">
         <div className="border-b border-slate-200 pt-12 pb-8">
           <div className="mb-4 inline-block rounded-full bg-[#AB052D]/10 px-3.5 py-1 text-xs font-semibold tracking-wider text-[#AB052D] uppercase">
             All-Industry ISO Solutions · Singapore
@@ -36,15 +36,15 @@ export function IndustryExplorer() {
           <h1 className="mb-4 text-[28px] font-bold leading-[1.2] text-[#111] md:text-[38px]">
             ISO standards tailored to your industry
           </h1>
-          <p className="max-w-[780px] text-base leading-relaxed text-[#5A5A5A]">
+          <p className="max-w-195 text-base leading-relaxed text-[#5A5A5A]">
             Singapore&apos;s fastest-growing industries each carry unique
             compliance, quality, and security obligations. Explore the standards
             that apply to your sector — and how we help you achieve them.
           </p>
         </div>
-        <div className="mt-[30px]">
+        <div className="mt-7.5">
           <input
-            className="mb-[15px] w-full rounded-full border border-slate-200 bg-white px-5 py-3.5 text-[15px] text-slate-800 shadow-sm focus:border-[#AB052D] focus:outline-none focus:ring-4 focus:ring-[#AB052D]/10"
+            className="mb-3.75 w-full rounded-full border border-slate-200 bg-white px-5 py-3.5 text-[15px] text-slate-800 shadow-sm focus:border-[#AB052D] focus:outline-none focus:ring-4 focus:ring-[#AB052D]/10"
             type="search"
             aria-label="Search industries"
             value={query}
