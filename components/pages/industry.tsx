@@ -1228,7 +1228,7 @@ function ContactAreaSection() {
                   </p>
                 </div>
                 <div className="pt-15.5 max-[1366px]:pt-8.75 pb-15.5 max-[1366px]:pb-8.75 [background:#FFFFFF] ps-15 max-[1199px]:ps-0 min-[1199px]:max-[1366px]:ps-7.5 min-[1366px]:max-[1600px]:ps-10 pe-10 max-[1199px]:pe-0 min-[1199px]:max-[1366px]:pe-7.5">
-                  <EmailForm id="contact-form">
+                  <EmailForm id="contact-form" crm>
                     <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
                       <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
                         <div className="mb-5">

@@ -48,7 +48,7 @@ function ContactAreaSection() {
                     {"Let's Discuss your Option"}
                   </AnimatedElement>
                 </div>
-                <EmailForm id="contact-form">
+                <EmailForm id="contact-form" crm>
                   <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
                     <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
                       <div className="mb-5">

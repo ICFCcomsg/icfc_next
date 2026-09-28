@@ -28,6 +28,8 @@ Edit TSX components directly. Tailwind CSS 4 is the only styling system. Bootstr
 
 Filtering, search, card expansion, accordions, tabs, carousels, menus, WeChat dialogs, and scrolling use React or native browser controls. No jQuery or legacy script injection is used. The header language picker uses the five supplied navigation dictionaries; page articles remain in their reference language.
 
-Contact and newsletter forms open an email draft addressed to ICFC. Automatic email delivery and newsletter storage require a backend integration. No email is sent by the app itself.
+Contact forms on home, industry, and contact pages submit leads through `/api/contact` to the CRM. Set `CRM_API_HOST`, `CRM_API_KEY`, and `CRM_API_SECRET` in the root `.env` (and the deployment environment). The host is `https://icfc.digital`; credentials stay on the server. Restart the dev server after changing configuration. Name, email, phone, message, and selected options are stored on the lead; this does not send email. Newsletter and blog forms still open an email draft.
+
+Run the CRM handler checks with `node --test app/api/contact/route.test.mjs`.
 
 The reference provides 12 industry records. `/Version/index.html` reproduces the reference's missing-page message.
