@@ -10,6 +10,8 @@ bun dev
 bun run build
 ```
 
+Check deployment adapter output paths with `NEXT_ADAPTER_PATH="$PWD/scripts/check-build-output.mjs" bun run build`.
+
 ## Structure
 
 - `app/`: Next.js routes, layout, and metadata.

@@ -13,7 +13,6 @@ import { BlogMasPageContent } from "@/components/pages/blog-mas";
 import { BlogWshMomPageContent } from "@/components/pages/blog-wsh-mom";
 import { BlogcybersecurityPageContent } from "@/components/pages/blogcybersecurity";
 import { BlogedgPageContent } from "@/components/pages/blogedg";
-import { IndexPageContent } from "@/components/pages/index";
 import { IndustryPageContent } from "@/components/pages/industry";
 import { PrivacyPolicyPageContent } from "@/components/pages/privacy-policy";
 import { ServicesDetailsPageContent } from "@/components/pages/services-details";
@@ -123,11 +122,6 @@ export const sitePages = {
     title: "Enterprise Singapore EDG Grant for ISO Certification 2026 | ICFC",
     description:
       "Step-by-step guide: How to apply for Enterprise Singapore EDG grant for ISO certification. Up to 50% co-funding for SMEs. Includes EDGE grant 2026 updates.",
-  },
-  "index": {
-    component: IndexPageContent,
-    title: "ICFC PTE LTD- Business Consulting HTML Template",
-    description: "",
   },
   "industry": {
     component: IndustryPageContent,
