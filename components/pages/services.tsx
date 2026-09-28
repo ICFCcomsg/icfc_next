@@ -1,3 +1,8 @@
+import {
+  PaginationGroup,
+  PaginationPage,
+  PaginationButton,
+} from "@/components/molecules/content-pagination";
 import { AnimatedElement } from "@/components/atoms/animated-element";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
@@ -28,7 +33,7 @@ function BreadcrumbAreaSection() {
 
 function ServicesAreaSection() {
   return (
-    <section className="pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px] relative z-[1] before:absolute before:[content:none] before:w-full before:h-[calc(100%_-_490px)] before:[background:#2B3944] before:bottom-[0] before:left-[0] before:z-[-1]">
+    <PaginationGroup className="pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px] relative z-[1] before:absolute before:[content:none] before:w-full before:h-[calc(100%_-_490px)] before:[background:#2B3944] before:bottom-[0] before:left-[0] before:z-[-1]">
       <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
         <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] justify-center!">
           <div className="[flex-shrink:0] w-[66.66666667%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[83.33333333%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
@@ -54,7 +59,7 @@ function ServicesAreaSection() {
           </div>
         </div>
         <div className="relative min-h-[400px]">
-          <div id="page-1" className="hidden">
+          <PaginationPage page={1} id="page-1" className="">
             <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                 <div className="relative overflow-hidden rounded-[6px] group/services-item">
@@ -73,10 +78,10 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsone"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"ISO/IEC 27701 PIMS"}
                           </SiteLink>
@@ -120,10 +125,10 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailstwo"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"ISO 37001 Anti-bribery MS"}
                           </SiteLink>
@@ -166,10 +171,10 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsthree"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"ISO 42001 AI Management"}
                           </SiteLink>
@@ -206,10 +211,10 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsfour"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"ISO 14001 Environmental MS"}
                           </SiteLink>
@@ -244,10 +249,10 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsfive"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"ISO 9001 Quality Management"}
                           </SiteLink>
@@ -282,10 +287,10 @@ function ServicesAreaSection() {
                             ></path>
                           </svg>
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-details"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"APEC PRP"}
                           </SiteLink>
@@ -299,8 +304,8 @@ function ServicesAreaSection() {
                 </div>
               </div>
             </div>
-          </div>
-          <div id="page-2" className="hidden">
+          </PaginationPage>
+          <PaginationPage page={2} id="page-2" className="">
             <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                 <div className="relative overflow-hidden rounded-[6px] group/services-item">
@@ -313,10 +318,10 @@ function ServicesAreaSection() {
                             className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsohms"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"ISO 45001 OH&S Management"}
                           </SiteLink>
@@ -350,10 +355,10 @@ function ServicesAreaSection() {
                             className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsfivecyber"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"CSA Cyber Essentials Mark "}
                           </SiteLink>
@@ -382,10 +387,10 @@ function ServicesAreaSection() {
                             className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsctm"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"SS 712:2025 Cyber Trust Mark (CTM) "}
                           </SiteLink>
@@ -414,10 +419,10 @@ function ServicesAreaSection() {
                             className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsbcms"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"ISO 22301 BCMS"}
                           </SiteLink>
@@ -446,10 +451,10 @@ function ServicesAreaSection() {
                             className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailscbpr"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"Global Cross-Border Privacy Rules (CBPR )"}
                           </SiteLink>
@@ -473,10 +478,10 @@ function ServicesAreaSection() {
                             className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailsdptm"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"DPTM Certification"}
                           </SiteLink>
@@ -510,10 +515,10 @@ function ServicesAreaSection() {
                             className="text-[36px]! text-[#AB052D]!"
                           />
                         </div>
-                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0]">
+                        <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] pb-[23px] [word-break:break-word] after:group-hover/services-item:w-full relative before:absolute before:[content:''] before:w-full before:[background:rgba(255,_255,_255,_0.15)] before:bottom-[0] before:h-[1px] max-[1199px]:w-full after:absolute after:[content:''] after:w-[70px] after:[background:#FFFFFF] after:[inset-inline-start:0] after:h-[1px] after:bottom-[0] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none after:[transition:0.6s] after:motion-reduce:transition-none">
                           <SiteLink
                             href="/services-detailseol"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {"SS 587:2022 End-of-Life ICT Management"}
                           </SiteLink>
@@ -527,37 +532,41 @@ function ServicesAreaSection() {
                 </div>
               </div>
             </div>
-          </div>
+          </PaginationPage>
         </div>
         <div className="mt-[50px] mb-[30px] flex justify-center gap-[12px]">
-          <div
+          <PaginationButton
+            direction={-1}
             id="prevPageBtn"
-            className="pt-[0] pr-[20px] pb-[0] pl-[20px] w-[auto] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] gap-[8px]"
+            className="pt-[0] pr-[20px] pb-[0] pl-[20px] w-[auto] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] gap-[8px] [transition:all_0.3s_ease] motion-reduce:transition-none"
           >
             <Icon name="left" className="inline-block [font-style:normal]" />
             {" Prev"}
-          </div>
-          <div
+          </PaginationButton>
+          <PaginationButton
+            page={1}
             data-page="1"
-            className="w-[48px] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)]"
+            className="w-[48px] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
           >
             {"1"}
-          </div>
-          <div
+          </PaginationButton>
+          <PaginationButton
+            page={2}
             data-page="2"
-            className="w-[48px] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)]"
+            className="w-[48px] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
           >
             {"2"}
-          </div>
-          <div
+          </PaginationButton>
+          <PaginationButton
+            direction={1}
             id="nextPageBtn"
-            className="pt-[0] pr-[20px] pb-[0] pl-[20px] w-[auto] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] gap-[8px]"
+            className="pt-[0] pr-[20px] pb-[0] pl-[20px] w-[auto] h-[48px] flex items-center justify-center rounded-[12px] [background:#fff] [border:1px_solid_rgba(0,_0,_0,_0.08)] font-semibold text-[16px] text-[#333] hover:[border-color:#AB052D] hover:text-[#AB052D] hover:[transform:translateY(-2px)] gap-[8px] [transition:all_0.3s_ease] motion-reduce:transition-none"
           >
             {"Next "}
             <Icon name="right" className="inline-block [font-style:normal]" />
-          </div>
+          </PaginationButton>
         </div>
-        <section className="bg-[rgba(248,249,250,1)]! mt-[70px] pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px]">
+        <PaginationGroup className="bg-[rgba(248,249,250,1)]! mt-[70px] pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px] pb-[120px] max-[480px]:pb-[60px] min-[480px]:max-[767px]:pb-[70px] min-[767px]:max-[991px]:pb-[100px]">
           <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
             <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] justify-center!">
               <div className="[flex-shrink:0] w-[66.66666667%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto] text-center! mb-[45px]">
@@ -583,8 +592,8 @@ function ServicesAreaSection() {
             </div>
             <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] justify-center!">
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card">
-                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-07.webp')]!"></div>
+                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card [transition:all_0.5s_cubic-bezier(0.4,_0,_0.2,_1)] motion-reduce:transition-none">
+                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-07.webp')]! [transition:all_0.6s_ease] motion-reduce:transition-none"></div>
                   <span className="mb-[25px] pt-[6px] pr-[18px] pb-[6px] pl-[18px] [background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
                     <Icon
                       name="star"
@@ -592,10 +601,10 @@ function ServicesAreaSection() {
                     />
                     {" Global Accreditation"}
                   </span>
-                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3]">
+                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3] [transition:0.4s] motion-reduce:transition-none after:[transition:0.4s] after:motion-reduce:transition-none">
                     <Icon
                       name="check"
-                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)]"
+                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)] [transition:0.4s] motion-reduce:transition-none"
                     />
                   </div>
                   <h4 className="mt-[0px] mb-[1rem]! [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
@@ -651,8 +660,8 @@ function ServicesAreaSection() {
                 </div>
               </div>
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card">
-                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-08.webp')]!"></div>
+                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card [transition:all_0.5s_cubic-bezier(0.4,_0,_0.2,_1)] motion-reduce:transition-none">
+                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-08.webp')]! [transition:all_0.6s_ease] motion-reduce:transition-none"></div>
                   <span className="mb-[25px] pt-[6px] pr-[18px] pb-[6px] pl-[18px] [background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
                     <Icon
                       name="bulb"
@@ -660,10 +669,10 @@ function ServicesAreaSection() {
                     />
                     {" Tailored Strategy"}
                   </span>
-                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3]">
+                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3] [transition:0.4s] motion-reduce:transition-none after:[transition:0.4s] after:motion-reduce:transition-none">
                     <Icon
                       name="briefcase"
-                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)]"
+                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)] [transition:0.4s] motion-reduce:transition-none"
                     />
                   </div>
                   <h4 className="mt-[0px] mb-[1rem]! [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
@@ -719,8 +728,8 @@ function ServicesAreaSection() {
                 </div>
               </div>
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card">
-                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-09.webp')]!"></div>
+                <div className="pt-[45px] pr-[35px] pb-[45px] pl-[35px] [background:#fff] rounded-[24px] h-full [border:1px_solid_rgba(0,_0,_0,_0.05)] relative overflow-hidden z-[1] hover:[transform:translateY(-12px)] hover:[border-color:#AB052D] hover:shadow-[0_30px_60px_rgba(171,_5,_45,_0.15)] hover:[background:rgba(255,_255,_255,_0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card [transition:all_0.5s_cubic-bezier(0.4,_0,_0.2,_1)] motion-reduce:transition-none">
+                  <div className="absolute top-[0] left-[0] w-full h-full bg-cover bg-center opacity-[0] [transform:scale(1.1)] z-[-1] [filter:grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:[transform:scale(1)] group-hover/service-category-card:[filter:grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-09.webp')]! [transition:all_0.6s_ease] motion-reduce:transition-none"></div>
                   <span className="mb-[25px] pt-[6px] pr-[18px] pb-[6px] pl-[18px] [background:linear-gradient(90deg,_#AB052D,_#d40638)] text-[#fff] rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,_5,_45,_0.2)]">
                     <Icon
                       name="presentation"
@@ -728,10 +737,10 @@ function ServicesAreaSection() {
                     />
                     {" Skill Mastery"}
                   </span>
-                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3]">
+                  <div className="mb-[30px] w-[80px] h-[80px] [background:#fdf2f4] rounded-[24px] flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,_5,_45,_0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:[filter:blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:[transform:rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,_5,_45,_0.3)] after:group-hover/service-category-card:opacity-[0.3] [transition:0.4s] motion-reduce:transition-none after:[transition:0.4s] after:motion-reduce:transition-none">
                     <Icon
                       name="user"
-                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)]"
+                      className="text-[42px] text-[#AB052D] group-hover/service-category-card:text-[#fff] group-hover/service-category-card:[transform:rotateY(-180deg)] [transition:0.4s] motion-reduce:transition-none"
                     />
                   </div>
                   <h4 className="mt-[0px] mb-[1rem]! [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
@@ -788,8 +797,8 @@ function ServicesAreaSection() {
               </div>
             </div>
           </div>
-        </section>
+        </PaginationGroup>
       </div>
-    </section>
+    </PaginationGroup>
   );
 }

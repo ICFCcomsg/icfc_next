@@ -40,7 +40,7 @@ function BannerAreaSection() {
                 as="span"
                 effect="up"
                 delay={0}
-                duration={0.8}
+                duration={1}
                 className="mb-[15px] text-[14px] font-medium tracking-[2.4px] uppercase text-[#6bc2e8]! inline-block"
               >
                 {
@@ -51,7 +51,7 @@ function BannerAreaSection() {
                 as="h1"
                 effect="up"
                 delay={0}
-                duration={0.8}
+                duration={1}
                 className="mt-[0px] mb-[0] font-medium leading-[1.12] text-[#FFFFFF] text-[66px] max-[480px]:text-[40px] min-[480px]:max-[575px]:text-[45px] min-[575px]:max-[767px]:text-[50px] min-[767px]:max-[991px]:text-[55px] min-[991px]:max-[1600px]:text-[60px] [word-break:break-word]"
               >
                 {
@@ -66,7 +66,7 @@ function BannerAreaSection() {
               <div>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] group/btn group/has-bg-white"
+                  className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] group/btn group/has-bg-white [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                 >
                   {"Book free assessment →"}
                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -74,7 +74,7 @@ function BannerAreaSection() {
                       width="16"
                       height="16"
                       viewBox="0 0 16 16"
-                      className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)]"
+                      className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <path
                         d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -86,7 +86,7 @@ function BannerAreaSection() {
                 </SiteLink>
                 <SiteLink
                   href="#grant"
-                  className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px]"
+                  className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                 >
                   {"Check grant eligibility →"}
                 </SiteLink>
@@ -103,37 +103,37 @@ function ContainerSection() {
   return (
     <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px] pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px]">
       <div className="mt-[40px] mr-[0] mb-[40px] ml-[0] flex flex-wrap gap-[20px] justify-center">
-        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-[5px] text-[38px] font-extrabold text-[#AB052D] leading-[1]">
             {"5"}
           </div>
           <div>{"Tiers"}</div>
         </div>
-        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-[5px] text-[38px] font-extrabold text-[#AB052D] leading-[1]">
             {"22"}
           </div>
           <div>{"Domains"}</div>
         </div>
-        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-[5px] text-[38px] font-extrabold text-[#AB052D] leading-[1]">
             {"3"}
           </div>
           <div>{"Specialisations"}</div>
         </div>
-        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-[5px] text-[38px] font-extrabold text-[#AB052D] leading-[1]">
             {"25+"}
           </div>
           <div>{"Industries"}</div>
         </div>
-        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-[5px] text-[38px] font-extrabold text-[#AB052D] leading-[1]">
             {"50%"}
           </div>
           <div>{"Grant"}</div>
         </div>
-        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)]">
+        <div className="pt-[20px] pr-[15px] pb-[20px] pl-[15px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[110px] shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-[5px] text-[38px] font-extrabold text-[#AB052D] leading-[1]">
             {"11+"}
           </div>
@@ -203,7 +203,7 @@ function SectionSpaceSection() {
         </div>
         <div className="flex flex-wrap mt-[1rem]! mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[28px] pr-[22px] pb-[28px] pl-[22px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+            <div className="pt-[28px] pr-[22px] pb-[28px] pl-[22px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)] [transition:0.2s] motion-reduce:transition-none">
               <span className="text-[42px]!">{"🔍"}</span>
               <h4 className="mt-[1rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                 {"Audits"}
@@ -215,14 +215,14 @@ function SectionSpaceSection() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore audit →"}
               </SiteLink>
             </div>
           </div>
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[28px] pr-[22px] pb-[28px] pl-[22px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+            <div className="pt-[28px] pr-[22px] pb-[28px] pl-[22px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)] [transition:0.2s] motion-reduce:transition-none">
               <span className="text-[42px]!">{"🏗️"}</span>
               <h4 className="mt-[1rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                 {"Consulting"}
@@ -234,14 +234,14 @@ function SectionSpaceSection() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore consulting →"}
               </SiteLink>
             </div>
           </div>
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[28px] pr-[22px] pb-[28px] pl-[22px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)]">
+            <div className="pt-[28px] pr-[22px] pb-[28px] pl-[22px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:[transform:translateY(-8px)] [transition:0.2s] motion-reduce:transition-none">
               <span className="text-[42px]!">{"🎓"}</span>
               <h4 className="mt-[1rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                 {"Training"}
@@ -253,7 +253,7 @@ function SectionSpaceSection() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore training →"}
               </SiteLink>
@@ -279,7 +279,7 @@ function SectionSpaceSection2() {
         </div>
         <div className="flex flex-wrap mt-[.5rem]! mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full [border:1px_solid_#eef2f6] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)]">
+            <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full [border:1px_solid_#eef2f6] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)] [transition:0.2s] motion-reduce:transition-none">
               <span className="mb-[12px] pt-[4px] pr-[14px] pb-[4px] pl-[14px] inline-block [background:#AB052D] text-[white] rounded-[30px] text-[12px] font-semibold">
                 {"Tier 1 — Entry"}
               </span>
@@ -321,7 +321,7 @@ function SectionSpaceSection2() {
             </div>
           </div>
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full [border:1px_solid_#eef2f6] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)]">
+            <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full [border:1px_solid_#eef2f6] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)] [transition:0.2s] motion-reduce:transition-none">
               <span className="mb-[12px] pt-[4px] pr-[14px] pb-[4px] pl-[14px] inline-block [background:#AB052D] text-[white] rounded-[30px] text-[12px] font-semibold">
                 {"Tier 2 — Developing"}
               </span>
@@ -357,7 +357,7 @@ function SectionSpaceSection2() {
             </div>
           </div>
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full [border:1px_solid_#eef2f6] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)]">
+            <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full [border:1px_solid_#eef2f6] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)] [transition:0.2s] motion-reduce:transition-none">
               <span className="mb-[12px] pt-[4px] pr-[14px] pb-[4px] pl-[14px] inline-block [background:#AB052D] text-[white] rounded-[30px] text-[12px] font-semibold">
                 {"Tier 3 — Established"}
               </span>
@@ -387,7 +387,7 @@ function SectionSpaceSection2() {
             </div>
           </div>
           <div className="[flex-shrink:0] w-[50%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1rem]! [flex:0_0_auto]">
-            <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full [border:1px_solid_#eef2f6] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)]">
+            <div className="pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full [border:1px_solid_#eef2f6] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)] [transition:0.2s] motion-reduce:transition-none">
               <span className="mb-[12px] pt-[4px] pr-[14px] pb-[4px] pl-[14px] inline-block [background:#AB052D] text-[white] rounded-[30px] text-[12px] font-semibold">
                 {"Tier 4 — Proficient"}
               </span>
@@ -417,7 +417,7 @@ function SectionSpaceSection2() {
             </div>
           </div>
           <div className="[flex-shrink:0] w-[50%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1rem]! [flex:0_0_auto]">
-            <div className="[border:1px_solid_#dee2e6]! [border-color:rgba(13,110,253,1)]! pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)]">
+            <div className="[border:1px_solid_#dee2e6]! [border-color:rgba(13,110,253,1)]! pt-[20px] pr-[20px] pb-[20px] pl-[20px] [background:white] rounded-[24px] h-full hover:[transform:translateY(-5px)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)] [transition:0.2s] motion-reduce:transition-none">
               <span className="mb-[12px] pt-[4px] pr-[14px] pb-[4px] pl-[14px] inline-block [background:#e67e22]! text-[white] rounded-[30px] text-[12px] font-semibold">
                 {"Tier 5 — Exemplary"}
               </span>
@@ -465,7 +465,7 @@ function SectionSpaceSection3() {
         </div>
         <div className="flex flex-wrap mt-[1rem]! mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#f0f4f8] rounded-[20px] h-full hover:[transform:translateY(-5px)] hover:[background:#e8f0f8]">
+            <div className="pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#f0f4f8] rounded-[20px] h-full hover:[transform:translateY(-5px)] hover:[background:#e8f0f8] [transition:0.2s] motion-reduce:transition-none">
               <div className="mb-[.5rem]! text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]!">
                 {"☁️"}
               </div>
@@ -479,14 +479,14 @@ function SectionSpaceSection3() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore Cloud Security →"}
               </SiteLink>
             </div>
           </div>
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#f0f4f8] rounded-[20px] h-full hover:[transform:translateY(-5px)] hover:[background:#e8f0f8]">
+            <div className="pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#f0f4f8] rounded-[20px] h-full hover:[transform:translateY(-5px)] hover:[background:#e8f0f8] [transition:0.2s] motion-reduce:transition-none">
               <div className="mb-[.5rem]! text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]!">
                 {"⚙️"}
               </div>
@@ -500,14 +500,14 @@ function SectionSpaceSection3() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore OT Security →"}
               </SiteLink>
             </div>
           </div>
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#f0f4f8] rounded-[20px] h-full hover:[transform:translateY(-5px)] hover:[background:#e8f0f8]">
+            <div className="pt-[24px] pr-[24px] pb-[24px] pl-[24px] [background:#f0f4f8] rounded-[20px] h-full hover:[transform:translateY(-5px)] hover:[background:#e8f0f8] [transition:0.2s] motion-reduce:transition-none">
               <div className="mb-[.5rem]! text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]!">
                 {"🤖"}
               </div>
@@ -521,7 +521,7 @@ function SectionSpaceSection3() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[.5rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore AI Security →"}
               </SiteLink>
@@ -554,7 +554,7 @@ function ContainerSection3() {
             </p>
             <SiteLink
               href="/contact-us"
-              className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D]"
+              className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
             >
               {"Check grant eligibility →"}
             </SiteLink>
@@ -800,7 +800,7 @@ function ContainerSection5() {
         </p>
         <SiteLink
           href="/contact-us"
-          className="text-[#f8f9fa] [text-decoration:none] inline-block pt-[0.375rem] pr-[0.75rem] pb-[0.375rem] pl-[0.75rem] text-[1rem] [font-weight:400] leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:1px_solid_#f8f9fa] rounded-[0.375rem] bg-[transparent] hover:text-[#000] hover:bg-[#f8f9fa] hover:[border-color:#f8f9fa] focus-visible:text-[#000] focus-visible:bg-[#f8f9fa] focus-visible:[border-color:#f8f9fa] focus-visible:shadow-[0_0_0_0.25rem_rgba(248,249,250,_.5)] active:text-[#000] active:bg-[#f8f9fa] active:[border-color:#f8f9fa] active:shadow-[0_0_0_0.25rem_rgba(248,249,250,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent]"
+          className="text-[#f8f9fa] [text-decoration:none] inline-block pt-[0.375rem] pr-[0.75rem] pb-[0.375rem] pl-[0.75rem] text-[1rem] [font-weight:400] leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:1px_solid_#f8f9fa] rounded-[0.375rem] bg-[transparent] hover:text-[#000] hover:bg-[#f8f9fa] hover:[border-color:#f8f9fa] focus-visible:text-[#000] focus-visible:bg-[#f8f9fa] focus-visible:[border-color:#f8f9fa] focus-visible:shadow-[0_0_0_0.25rem_rgba(248,249,250,_.5)] active:text-[#000] active:bg-[#f8f9fa] active:[border-color:#f8f9fa] active:shadow-[0_0_0_0.25rem_rgba(248,249,250,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
         >
           {"中文咨询 · 免费评估 →"}
         </SiteLink>
@@ -916,19 +916,19 @@ function ContainerSection6() {
         <div className="mt-[1.5rem]!">
           <SiteLink
             href="/contact-us"
-            className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D]"
+            className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
           >
             {"Book free assessment →"}
           </SiteLink>
           <SiteLink
             href="/contact-us"
-            className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944]"
+            className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
           >
             {"Check grant eligibility →"}
           </SiteLink>
           <SiteLink
             href="/contact-us"
-            className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944]"
+            className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
           >
             {"Get free quote →"}
           </SiteLink>
@@ -945,82 +945,82 @@ function SeoKeywordsSection() {
         {"🔍 Related searches & keywords"}
       </div>
       <div className="text-[1.7rem] text-[#2c3e50] leading-[1.8] [word-break:break-word]">
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"CSA Cyber Trust Mark Singapore"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"Cyber Trust Mark 5 tiers"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"Cyber Trust Mark certification 2026"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"Cyber Trust Mark audit Singapore"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"best Cyber Trust Mark consultant SG"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"budget-friendly CTM consultant"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"ESG grant Cyber Trust Mark"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"EDG grant cybersecurity certification"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"cloud security certification Singapore"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"OT ICS cybersecurity Singapore"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"AI security governance Singapore"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"SS 712 2025 AI security"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"CII cybersecurity Cyber Trust Mark"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"IMDA cloud security certification"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"EMA cybersecurity code OT"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"data centre Cyber Trust Mark"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"SaaS PaaS cybersecurity certification SG"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"fintech Cyber Trust Mark MAS"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"manufacturing OT cybersecurity Singapore"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"ISO 27001 Cyber Trust Mark integrated"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"ISO 42001 AI security CTM"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"ICFC Cyber Trust Mark consultant"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"CSA网络信任标志新加坡"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"网络信任标志认证"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"云安全认证新加坡"}
         </span>
-        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white]">
+        <span className="mt-[4px] mr-[4px] mb-[4px] ml-[4px] pt-[5px] max-[768px]:pt-[4px] pr-[12px] max-[768px]:pr-[10px] pb-[5px] max-[768px]:pb-[4px] pl-[12px] max-[768px]:pl-[10px] inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"OT网络安全顾问"}
         </span>
       </div>

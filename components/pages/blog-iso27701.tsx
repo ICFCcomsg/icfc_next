@@ -37,18 +37,18 @@ function PostboxAreaSection() {
                 <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] flex gap-[20px] items-center max-[1600px]:flex-wrap">
                   <li className="list-none">
                     <span className="flex items-center gap-[8px] text-[13px]">
-                      <span>
+                      <span className="">
                         <SiteImage
                           src="/assets/images/blog/details/blog-details-01.webp"
                           alt=""
                           className="[vertical-align:middle] max-w-full w-[40px] h-[40px] rounded-full"
                         />
                       </span>
-                      <span>
+                      <span className="">
                         {"By "}
                         <SiteLink
                           href="/contact-us"
-                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {"ICFC Pte Ltd"}
                         </SiteLink>
@@ -68,7 +68,7 @@ function PostboxAreaSection() {
                           className="[fill:#AB052D]"
                         ></path>
                       </svg>
-                      <span>{"April 2026"}</span>
+                      <span className="">{"April 2026"}</span>
                     </span>
                   </li>
                   <li className="list-none">
@@ -89,7 +89,7 @@ function PostboxAreaSection() {
                           className="[fill:#AB052D]"
                         ></path>
                       </svg>
-                      <span>{"12 min read"}</span>
+                      <span className="">{"12 min read"}</span>
                     </span>
                   </li>
                 </ul>
@@ -191,17 +191,17 @@ function PostboxAreaSection() {
                   {"Who needs ISO 14001 in Singapore manufacturing?"}
                 </h4>
                 <ul className="pl-[1.5rem] mt-[0px] mb-[1.2rem] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
-                  <li>
+                  <li className="">
                     {
                       "Manufacturers with direct regulatory obligations under Carbon Pricing Act, ECA or NEA waste rules needing structured compliance management."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     {
                       "Suppliers to SGX-listed or multinational firms facing Scope 3 data requests."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     {
                       "Bidders for government contracts where green credentials and certified EMS are weighted."
                     }
@@ -391,7 +391,7 @@ function PostboxAreaSection() {
                   }
                   <SiteLink
                     href="mailto:admin@icfc.com.sg"
-                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     {"admin@icfc.com.sg"}
                   </SiteLink>
@@ -412,25 +412,25 @@ function PostboxAreaSection() {
                   </span>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Green Plan 2030"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"ISO 14001"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Carbon Tax"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] [margin-inline-end:0px] rounded-[6px] text-[13px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Manufacturing"}
                   </SiteLink>
@@ -442,7 +442,7 @@ function PostboxAreaSection() {
                   <div className="gap-[15px]">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <Icon
                         name="facebook"
@@ -451,7 +451,7 @@ function PostboxAreaSection() {
                     </SiteLink>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <Icon
                         name="x"
@@ -460,7 +460,7 @@ function PostboxAreaSection() {
                     </SiteLink>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <Icon
                         name="linkedin"
@@ -481,7 +481,7 @@ function PostboxAreaSection() {
                         type="text"
                         placeholder="Your Name"
                         aria-label="Your Name"
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
                     </div>
                     <div className="[flex-shrink:0] w-[50%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
@@ -489,20 +489,20 @@ function PostboxAreaSection() {
                         type="email"
                         placeholder="Your Email"
                         aria-label="Your Email"
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
                     </div>
                     <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <textarea
                         placeholder="Write Message"
                         defaultValue=""
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[14px] pr-[24px] pb-[14px] pl-[24px] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[14px] pr-[24px] pb-[14px] pl-[24px] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
                     </div>
                     <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <button
                         type="submit"
-                        className="rounded-[50px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF]"
+                        className="rounded-[50px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
                         {"Post Comment"}
                       </button>
@@ -525,9 +525,9 @@ function PostboxAreaSection() {
                         type="text"
                         placeholder="Search..."
                         aria-label="Search..."
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] pt-[12px] pr-[45px] pb-[12px] pl-[15px] bg-[transparent] h-[60px] w-full [border:1px_solid_#e0e0e0] rounded-[8px] text-[#000] [padding-inline-start:25px] [padding-inline-end:50px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [background:#FFFFFF]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] pt-[12px] pr-[45px] pb-[12px] pl-[15px] bg-[transparent] h-[60px] w-full [border:1px_solid_#e0e0e0] rounded-[8px] text-[#000] [padding-inline-start:25px] [padding-inline-end:50px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
-                      <button className="rounded-[0] mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] text-[#000] [border:none] [background:none] absolute top-[50%] [inset-inline-end:25px] [transform:translateY(-50%)] hover:text-[#AB052D] right-[10px]">
+                      <button className="rounded-[0] mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] text-[#000] [border:none] [background:none] absolute top-[50%] [inset-inline-end:25px] [transform:translateY(-50%)] hover:text-[#AB052D] right-[10px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
                         <svg
                           width="18"
                           height="18"
@@ -558,7 +558,7 @@ function PostboxAreaSection() {
                   <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Sustainability "}
                       <span className="[float:right]!">{"(8)"}</span>
@@ -567,7 +567,7 @@ function PostboxAreaSection() {
                   <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"ISO 14001 "}
                       <span className="[float:right]!">{"(6)"}</span>
@@ -576,7 +576,7 @@ function PostboxAreaSection() {
                   <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Manufacturing "}
                       <span className="[float:right]!">{"(5)"}</span>
@@ -585,7 +585,7 @@ function PostboxAreaSection() {
                   <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Carbon Tax "}
                       <span className="[float:right]!">{"(4)"}</span>
@@ -594,7 +594,7 @@ function PostboxAreaSection() {
                   <li className="mb-[10px]!">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Green Plan 2030 "}
                       <span className="[float:right]!">{"(7)"}</span>
@@ -609,49 +609,49 @@ function PostboxAreaSection() {
                 <div className="flex flex-wrap gap-[12px]">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Green Plan"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"ISO 14001:2015"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"EMS"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"EDG Grant"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Energy Efficiency"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Carbon Tax"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Sustainability"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D]"
+                    className="text-[#333] [text-decoration:none] mr-[8px] mb-[10px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:1px_solid_#DBDEE1] [background:#eef2f6] text-[13px] relative font-medium rounded-[30px] hover:bg-[#AB052D] hover:[border-color:#AB052D] inline-block hover:[background:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"NEA Compliance"}
                   </SiteLink>

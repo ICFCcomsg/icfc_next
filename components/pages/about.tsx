@@ -250,7 +250,7 @@ function AboutAreaSection() {
                   <div>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#AB052D] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#AB052D] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       {"Join Now"}
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -260,7 +260,7 @@ function AboutAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -274,7 +274,7 @@ function AboutAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -319,18 +319,18 @@ function JourneyExpertiseSectionSection() {
             }
           </p>
           <div className="mt-[20px]! flex! gap-[16px]! flex-wrap!">
-            <a
+            <SiteLink
               href="/contact-us"
-              className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)]"
+              className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
               {"Get to know us ↗"}
-            </a>
-            <a
+            </SiteLink>
+            <SiteLink
               href="/services"
-              className="text-[#111] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:1px_solid_#e0e0e0] [background:transparent] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[border-color:#AB052D]"
+              className="text-[#111] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:1px_solid_#e0e0e0] [background:transparent] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[border-color:#AB052D] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
               {"Our services"}
-            </a>
+            </SiteLink>
           </div>
         </div>
         <div className="mb-[60px] pt-[0] pr-[0] pb-[0] pl-[0] [border-bottom:none]">
@@ -338,7 +338,7 @@ function JourneyExpertiseSectionSection() {
             {"By the numbers"}
           </div>
           <div className="mt-[30px] grid [grid-template-columns:repeat(auto-fit,_minmax(180px,_1fr))] gap-[30px] max-[768px]:gap-[15px]">
-            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)]">
+            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[8px] text-[42px] font-bold text-[#AB052D] leading-[1]">
                 {"11+"}
               </div>
@@ -346,7 +346,7 @@ function JourneyExpertiseSectionSection() {
                 {"Years in operation"}
               </div>
             </div>
-            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)]">
+            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[8px] text-[42px] font-bold text-[#AB052D] leading-[1]">
                 {"500+"}
               </div>
@@ -354,7 +354,7 @@ function JourneyExpertiseSectionSection() {
                 {"Organisations certified"}
               </div>
             </div>
-            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)]">
+            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[8px] text-[42px] font-bold text-[#AB052D] leading-[1]">
                 {"25"}
               </div>
@@ -362,7 +362,7 @@ function JourneyExpertiseSectionSection() {
                 {"Industries served"}
               </div>
             </div>
-            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)]">
+            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[8px] text-[42px] font-bold text-[#AB052D] leading-[1]">
                 {"98%"}
               </div>
@@ -370,7 +370,7 @@ function JourneyExpertiseSectionSection() {
                 {"First-attempt cert rate"}
               </div>
             </div>
-            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)]">
+            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[8px] text-[42px] font-bold text-[#AB052D] leading-[1]">
                 {"20+"}
               </div>
@@ -378,7 +378,7 @@ function JourneyExpertiseSectionSection() {
                 {"ISO standards portfolio"}
               </div>
             </div>
-            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)]">
+            <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#F8F8F9] rounded-[24px] text-center [border:1px_solid_#f0f0f0] hover:[transform:translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[8px] text-[42px] font-bold text-[#AB052D] leading-[1]">
                 {"1,500+"}
               </div>
@@ -401,7 +401,7 @@ function JourneyExpertiseSectionSection() {
             }
           </p>
           <div className="mt-[40px] mr-[0] mb-[20px] ml-[0] grid [grid-template-columns:repeat(auto-fit,_minmax(280px,_1fr))] gap-[30px] max-[768px]:gap-[20px]">
-            <div className="pt-[30px] pr-[25px] pb-[30px] pl-[25px] [background:#fff] rounded-[28px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] [border:1px_solid_#ebebeb] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#AB052D20]">
+            <div className="pt-[30px] pr-[25px] pb-[30px] pl-[25px] [background:#fff] rounded-[28px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] [border:1px_solid_#ebebeb] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#AB052D20] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[15px] text-[36px] font-bold text-[#AB052D] opacity-[0.7]">
                 {"01"}
               </div>
@@ -425,7 +425,7 @@ function JourneyExpertiseSectionSection() {
                 </span>
               </div>
             </div>
-            <div className="pt-[30px] pr-[25px] pb-[30px] pl-[25px] [background:#fff] rounded-[28px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] [border:1px_solid_#ebebeb] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#AB052D20]">
+            <div className="pt-[30px] pr-[25px] pb-[30px] pl-[25px] [background:#fff] rounded-[28px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] [border:1px_solid_#ebebeb] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#AB052D20] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[15px] text-[36px] font-bold text-[#AB052D] opacity-[0.7]">
                 {"02"}
               </div>
@@ -449,7 +449,7 @@ function JourneyExpertiseSectionSection() {
                 </span>
               </div>
             </div>
-            <div className="pt-[30px] pr-[25px] pb-[30px] pl-[25px] [background:#fff] rounded-[28px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] [border:1px_solid_#ebebeb] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#AB052D20]">
+            <div className="pt-[30px] pr-[25px] pb-[30px] pl-[25px] [background:#fff] rounded-[28px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] [border:1px_solid_#ebebeb] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#AB052D20] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-[15px] text-[36px] font-bold text-[#AB052D] opacity-[0.7]">
                 {"03"}
               </div>
@@ -782,12 +782,12 @@ function JourneyExpertiseSectionSection() {
                 "We assess eligibility, prepare documentation, manage milestone reporting, and coordinate with the certification body — so the grant process runs in parallel with your ISO project."
               }
             </p>
-            <a
+            <SiteLink
               href="/contact-us"
-              className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)]"
+              className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
               {"Check MASA grant eligibility ↗"}
-            </a>
+            </SiteLink>
           </div>
         </div>
         <div className="mb-[60px] pt-[0] pr-[0] pb-[0] pl-[0] [border-bottom:none]">
@@ -852,18 +852,18 @@ function JourneyExpertiseSectionSection() {
             }
           </p>
           <div>
-            <a
+            <SiteLink
               href="/contact-us"
-              className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)]"
+              className="text-[#fff] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[background:#8a0424] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
               {"Book a free consultation ↗"}
-            </a>
-            <a
+            </SiteLink>
+            <SiteLink
               href="/industry"
-              className="text-[#111] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:1px_solid_#e0e0e0] [background:transparent] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[border-color:#AB052D]"
+              className="text-[#111] [text-decoration:none] pt-[12px] pr-[28px] pb-[12px] pl-[28px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:1px_solid_#e0e0e0] [background:transparent] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-[8px] hover:[border-color:#AB052D] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
               {"Explore our industries"}
-            </a>
+            </SiteLink>
           </div>
         </div>
       </div>
@@ -1158,7 +1158,7 @@ function WhyChooseAreaSection() {
                 <div className="mt-[45px] mb-[45px]">
                   <SiteLink
                     href="/about"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     {"Get Start Now"}
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1168,7 +1168,7 @@ function WhyChooseAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1182,7 +1182,7 @@ function WhyChooseAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1241,7 +1241,7 @@ function WhyChooseAreaSection() {
                   <div>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#AB052D] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#AB052D] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       {"Join Now"}
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1251,7 +1251,7 @@ function WhyChooseAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1265,7 +1265,7 @@ function WhyChooseAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1297,7 +1297,7 @@ function CounterAreaSection() {
                 as="div"
                 effect="fade"
                 delay={0.3}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".3s"
                 className="pt-[30px] max-[1600px]:pt-[20px] pr-[30px] max-[1600px]:pr-[20px] pb-[30px] max-[1600px]:pb-[20px] pl-[30px] max-[1600px]:pl-[20px] flex [border:1px_solid_#DBDEE1] gap-[20px] rounded-[6px] [background:#F8F8F9] max-[991px]:flex-wrap"
               >
@@ -1324,14 +1324,14 @@ function CounterAreaSection() {
                       {"K"}
                     </span>
                   </div>
-                  <span>{"Projects Completed"}</span>
+                  <span className="">{"Projects Completed"}</span>
                 </div>
               </AnimatedElement>
               <AnimatedElement
                 as="div"
                 effect="fade"
                 delay={0.5}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".5s"
                 className="pt-[30px] max-[1600px]:pt-[20px] pr-[30px] max-[1600px]:pr-[20px] pb-[30px] max-[1600px]:pb-[20px] pl-[30px] max-[1600px]:pl-[20px] flex [border:1px_solid_#DBDEE1] gap-[20px] rounded-[6px] [background:#F8F8F9] max-[991px]:flex-wrap"
               >
@@ -1358,14 +1358,14 @@ function CounterAreaSection() {
                       {"K"}
                     </span>
                   </div>
-                  <span>{"Customer Satisfaction"}</span>
+                  <span className="">{"Customer Satisfaction"}</span>
                 </div>
               </AnimatedElement>
               <AnimatedElement
                 as="div"
                 effect="fade"
                 delay={0.7}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".7s"
                 className="pt-[30px] max-[1600px]:pt-[20px] pr-[30px] max-[1600px]:pr-[20px] pb-[30px] max-[1600px]:pb-[20px] pl-[30px] max-[1600px]:pl-[20px] flex [border:1px_solid_#DBDEE1] gap-[20px] rounded-[6px] [background:#F8F8F9] max-[991px]:flex-wrap"
               >
@@ -1389,14 +1389,14 @@ function CounterAreaSection() {
                       {"K"}
                     </span>
                   </div>
-                  <span>{"Consulting Award"}</span>
+                  <span className="">{"Consulting Award"}</span>
                 </div>
               </AnimatedElement>
               <AnimatedElement
                 as="div"
                 effect="fade"
                 delay={0.9}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".9s"
                 className="pt-[30px] max-[1600px]:pt-[20px] pr-[30px] max-[1600px]:pr-[20px] pb-[30px] max-[1600px]:pb-[20px] pl-[30px] max-[1600px]:pl-[20px] flex [border:1px_solid_#DBDEE1] gap-[20px] rounded-[6px] [background:#F8F8F9] max-[991px]:flex-wrap"
               >
@@ -1419,7 +1419,7 @@ function CounterAreaSection() {
                       {"K"}
                     </span>
                   </div>
-                  <span>{"Strategic Partners"}</span>
+                  <span className="">{"Strategic Partners"}</span>
                 </div>
               </AnimatedElement>
             </div>
@@ -1442,25 +1442,27 @@ function FeatureAreaSection() {
                 as="div"
                 effect="fade"
                 delay={0.3}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".3s"
                 className="group/feature-item"
               >
-                <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px]">
-                  <svg
+                <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none">
+                  <AnimatedElement
+                    as="svg"
+                    effect="skew"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 44 38"
                     className="[vertical-align:middle] w-[44px] h-[40px]"
                   >
                     <path
                       d="M35.8847 11.5495C35.5146 11.5495 35.1463 11.5762 34.7833 11.6289C34.8477 7.02454 29.8368 4.18955 25.9611 6.46509C24.6953 2.65196 21.1546 0.0604248 17.0599 0.0604248C11.8811 0.0604248 7.66792 4.2736 7.66792 9.45219C7.66792 10.1662 7.74732 10.8695 7.90459 11.5524C3.81104 11.6669 0.516113 15.0302 0.516113 19.1481C0.516113 23.3382 3.92732 26.747 8.12012 26.747L10.5092 26.6906C10.6421 32.9156 15.7436 37.9394 21.9999 37.9394C25.054 37.9394 27.9275 36.7581 30.0912 34.6125C30.1495 34.5547 30.1959 34.4859 30.2277 34.4101C30.2594 34.3344 30.276 34.2531 30.2763 34.1709C30.2767 34.0887 30.2608 34.0073 30.2297 33.9313C30.1985 33.8552 30.1527 33.7861 30.0949 33.7277C30.037 33.6694 29.9682 33.623 29.8925 33.5912C29.8167 33.5595 29.7354 33.5429 29.6532 33.5426C29.571 33.5422 29.4896 33.5581 29.4136 33.5892C29.3375 33.6204 29.2684 33.6662 29.21 33.724C27.2826 35.6353 24.7219 36.6879 22 36.6879C16.3506 36.6879 11.7545 32.0918 11.7545 26.4425C11.7545 20.7931 16.3506 16.197 22 16.197C27.6493 16.197 32.2454 20.7931 32.2454 26.4425C32.2454 28.129 31.8271 29.7981 31.0353 31.2687C30.9589 31.4146 30.9432 31.5848 30.9914 31.7422C31.0397 31.8997 31.1481 32.0318 31.2931 32.1099C31.4381 32.1879 31.6081 32.2057 31.7661 32.1593C31.9241 32.1129 32.0575 32.006 32.1372 31.8619C32.9826 30.2915 33.4439 28.5205 33.4882 26.7237C34.748 26.7521 35.9633 26.7464 36.1052 26.747L36.0604 26.745C40.1697 26.651 43.4837 23.2794 43.4837 19.1481C43.4837 14.9583 40.0749 11.5495 35.8847 11.5495ZM35.8847 25.4956C35.821 25.4959 34.7021 25.4907 33.4566 25.5197C32.9844 19.6105 28.0284 14.9457 21.9999 14.9457C15.9601 14.9457 10.9969 19.6281 10.5407 25.5529L8.12012 25.4957C4.61722 25.4957 1.76762 22.6483 1.76762 19.1483C1.76762 15.3704 5.0696 12.4679 8.67605 12.8285C9.1298 12.8714 9.47536 12.4362 9.3315 12.007C9.05813 11.1915 8.91943 10.3318 8.91943 9.45236C8.91943 4.96385 12.5712 1.31202 17.0599 1.31202C20.8738 1.31202 24.1334 3.90621 24.9864 7.62078C25.0899 8.07126 25.6326 8.25955 25.9928 7.96461C29.2307 5.31241 34.1685 8.04746 33.4688 12.3089C33.3952 12.76 33.8126 13.1313 34.2481 13.0147C34.7819 12.8724 35.3321 12.8005 35.8846 12.8011C39.3846 12.8011 42.232 15.6485 42.232 19.1483C42.2322 22.6482 39.3848 25.4956 35.8847 25.4956Z"
-                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF]"
+                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none"
                     ></path>
                     <path
                       d="M29.3726 26.4432C29.3726 26.7889 29.6527 27.0689 29.9983 27.0689C30.3439 27.0689 30.624 26.7889 30.624 26.4432C30.624 21.6879 26.7551 17.819 21.9997 17.819C21.6541 17.819 21.374 18.099 21.374 18.4447C21.374 18.7903 21.6541 19.0704 21.9997 19.0704C26.0652 19.0704 29.3726 22.3777 29.3726 26.4432ZM21.9997 33.816C17.9343 33.816 14.6269 30.5087 14.6269 26.4431C14.6269 26.0975 14.3468 25.8174 14.0012 25.8174C13.6556 25.8174 13.3755 26.0975 13.3755 26.4431C13.3755 31.1985 17.2444 35.0674 21.9997 35.0674C22.0819 35.0674 22.1633 35.0512 22.2392 35.0198C22.3151 34.9884 22.3841 34.9423 22.4422 34.8842C22.5003 34.8261 22.5464 34.7571 22.5778 34.6812C22.6093 34.6052 22.6255 34.5239 22.6255 34.4417C22.6255 34.3595 22.6093 34.2781 22.5778 34.2022C22.5464 34.1263 22.5003 34.0573 22.4422 33.9992C22.3841 33.9411 22.3151 33.895 22.2392 33.8636C22.1633 33.8321 22.0819 33.816 21.9997 33.816ZM22.6267 30.8637C23.9871 30.8269 25.0833 29.7113 25.0833 28.3422C25.0833 26.9499 23.9505 25.8174 22.5583 25.8174H21.4413C20.7392 25.8174 20.1678 25.2461 20.1678 24.5439C20.1678 23.8418 20.7391 23.2707 21.4413 23.2707H22.5026C23.2047 23.2707 23.7758 23.8418 23.7758 24.5439C23.7758 24.8896 24.0559 25.1696 24.4015 25.1696C24.7472 25.1696 25.0272 24.8896 25.0272 24.5439C25.0272 23.1936 23.9611 22.0908 22.6267 22.0254V21.2649C22.6267 20.9193 22.3467 20.6392 22.001 20.6392C21.6554 20.6392 21.3753 20.9193 21.3753 21.2649V22.0225C20.0138 22.0579 18.9164 23.1742 18.9164 24.5442C18.9164 25.9365 20.0491 27.0689 21.4413 27.0689H22.5583C23.2604 27.0689 23.8318 27.6401 23.8318 28.3422C23.8318 29.0443 23.2605 29.6157 22.5583 29.6157H21.497C20.7949 29.6157 20.2238 29.0444 20.2238 28.3422C20.2238 27.9965 19.9437 27.7165 19.5981 27.7165C19.2524 27.7165 18.9723 27.9965 18.9723 28.3422C18.9723 29.6933 20.0398 30.7968 21.3753 30.861V31.6215C21.3753 31.9671 21.6554 32.2472 22.001 32.2472C22.3467 32.2472 22.6267 31.9671 22.6267 31.6215V30.8637Z"
-                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF]"
+                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none"
                     ></path>
-                  </svg>
+                  </AnimatedElement>
                 </div>
                 <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em]">
                   {" Cost-Effectiveness"}
@@ -1476,12 +1478,14 @@ function FeatureAreaSection() {
                 as="div"
                 effect="fade"
                 delay={0.5}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".5s"
                 className="group/feature-item"
               >
-                <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px]">
-                  <svg
+                <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none">
+                  <AnimatedElement
+                    as="svg"
+                    effect="skew"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 36 38"
                     className="[vertical-align:middle] w-[44px] h-[40px]"
@@ -1490,9 +1494,9 @@ function FeatureAreaSection() {
                       fillRule="evenodd"
                       clipRule="evenodd"
                       d="M10.5959 36.5456C10.0034 36.5456 9.52067 36.0625 9.52067 35.4686C9.52067 34.8755 10.0034 34.3925 10.5959 34.3925C11.1884 34.3925 11.6758 34.8756 11.6758 35.4686C11.6758 36.0626 11.1884 36.5456 10.5959 36.5456ZM10.5959 1.45436C11.1884 1.45436 11.6758 1.93651 11.6758 2.53042C11.6758 3.12345 11.1884 3.60657 10.5959 3.60657C10.0034 3.60657 9.52067 3.12345 9.52067 2.53042C9.52067 1.93651 10.0034 1.45436 10.5959 1.45436ZM10.5959 33.2605C9.97941 33.2605 9.42519 33.5147 9.02373 33.9232L1.98989 29.9241V8.07486L9.02373 4.07676C9.4251 4.48481 9.97941 4.73861 10.5959 4.73861C11.8144 4.73861 12.8035 3.74755 12.8035 2.53051C12.8035 1.3125 11.8144 0.322415 10.5959 0.322415C9.13189 0.322415 8.09401 1.71968 8.45992 3.09248L1.14413 7.25303C1.05726 7.30259 0.985011 7.3742 0.934672 7.46062C0.884332 7.54704 0.857686 7.64521 0.857422 7.74521V30.2539C0.857515 30.354 0.884089 30.4522 0.934446 30.5387C0.984803 30.6251 1.05715 30.6967 1.14413 30.7461L8.45992 34.9067C8.09401 36.2795 9.13215 37.6777 10.5959 37.6777C11.8144 37.6777 12.8035 36.6867 12.8035 35.4687C12.8035 34.2515 11.8143 33.2605 10.5959 33.2605ZM25.3994 36.5456C24.8069 36.5456 24.3242 36.0625 24.3242 35.4686C24.3242 34.8755 24.8068 34.3925 25.3994 34.3925C25.992 34.3925 26.4746 34.8756 26.4746 35.4686C26.4746 36.0626 25.9919 36.5456 25.3994 36.5456ZM25.3994 3.60657C24.8069 3.60657 24.3242 3.12345 24.3242 2.53042C24.3242 1.93651 24.8068 1.45436 25.3994 1.45436C25.992 1.45436 26.4746 1.93651 26.4746 2.53042C26.4746 3.12345 25.9919 3.60657 25.3994 3.60657ZM34.8511 7.25294L27.5353 3.09239C27.9013 1.72012 26.8636 0.322327 25.3994 0.322327C24.1809 0.322327 23.1917 1.31241 23.1917 2.53042C23.1917 3.74746 24.1809 4.73852 25.3994 4.73852C26.0158 4.73852 26.5749 4.48481 26.9763 4.07667L34.0101 8.07477V29.9241L26.9763 33.9232C26.5749 33.5146 26.0158 33.2605 25.3994 33.2605C24.1809 33.2605 23.1917 34.2515 23.1917 35.4686C23.1917 36.6866 24.1809 37.6776 25.3994 37.6776C26.8634 37.6776 27.9013 36.279 27.5353 34.9066L34.8511 30.746C34.9394 30.6977 35.013 30.6265 35.0643 30.5399C35.1155 30.4533 35.1426 30.3545 35.1426 30.2539V7.74513C35.1426 7.54202 35.0327 7.35423 34.8511 7.25294ZM17.9976 30.2194L6.72535 24.6507L11.1693 22.4564L17.7491 25.7063C17.9045 25.785 18.0931 25.7837 18.2509 25.7063L24.826 22.4564L29.2699 24.6507L17.9976 30.2194ZM6.72535 18.9997L11.1693 16.8054L17.7491 20.0547C17.9063 20.1339 18.0918 20.1324 18.2509 20.0547L24.826 16.8054L29.2699 18.9997L17.9976 24.5676L6.72535 18.9997ZM6.72535 13.3483L17.9976 7.78041L29.2699 13.3483L17.9976 18.9161L6.72535 13.3483ZM31.1144 24.6507C31.1144 24.8667 30.9901 25.0626 30.799 25.1587L18.2509 31.3582C18.0922 31.4346 17.9059 31.4361 17.7491 31.3572L5.19617 25.1587C4.77782 24.9503 4.77677 24.3517 5.19617 24.1437L9.8886 21.8252L5.19617 19.5072C4.77756 19.2992 4.77668 18.7008 5.19617 18.4918L9.8886 16.1738L5.19617 13.8553C4.77729 13.6476 4.77729 13.049 5.19617 12.8414L17.7491 6.64187C17.8271 6.60323 17.913 6.58313 18 6.58313C18.087 6.58313 18.1729 6.60323 18.2509 6.64187L30.799 12.8414C31.2179 13.0491 31.2179 13.6476 30.799 13.8553L26.1066 16.1738L30.799 18.4918C31.2185 18.7008 31.2176 19.2992 30.799 19.5072L26.1066 21.8252L30.799 24.1437C30.9901 24.2388 31.1144 24.4356 31.1144 24.6507Z"
-                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF]"
+                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none"
                     ></path>
-                  </svg>
+                  </AnimatedElement>
                 </div>
                 <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em]">
                   {" Innovative Technology"}
@@ -1508,12 +1512,14 @@ function FeatureAreaSection() {
                 as="div"
                 effect="fade"
                 delay={0.7}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".7s"
                 className="group/feature-item"
               >
-                <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px]">
-                  <svg
+                <div className="mb-[20px] group-hover/feature-item:[background:#FFFFFF] [background:#9D0026] w-[70px] h-[70px] flex items-center justify-center rounded-[3px] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none">
+                  <AnimatedElement
+                    as="svg"
+                    effect="skew"
                     xmlns="http://www.w3.org/2000/svg"
                     width="44"
                     height="44"
@@ -1523,17 +1529,17 @@ function FeatureAreaSection() {
                   >
                     <path
                       d="M5.29375 29.5969L3.67812 30.1194L2.30312 25.9119L0.996875 26.3381L2.37188 30.5387C2.48188 30.8894 2.72938 31.1781 3.0525 31.3431C3.37563 31.5081 3.74687 31.5425 4.10437 31.4256L5.72 30.9031C6.47625 32.285 7.40437 33.5706 8.4975 34.7325L7.50062 36.1075C7.28062 36.4031 7.19125 36.7675 7.24625 37.125C7.30125 37.4894 7.50063 37.8125 7.79625 38.0325L11.1306 40.4525C11.4331 40.6725 11.7975 40.7619 12.1619 40.7C12.5262 40.645 12.8425 40.4456 13.0556 40.15L14.0594 38.7819C15.4894 39.4694 17.0019 39.9575 18.5556 40.2463V41.9444C18.5556 42.7006 19.1744 43.3194 19.9306 43.3194H24.0556C24.8119 43.3194 25.4306 42.7006 25.4306 41.9444V40.2463C26.9844 39.9575 28.4969 39.4625 29.9338 38.775L30.9237 40.1431C31.1369 40.4456 31.4531 40.6381 31.8175 40.7C32.1887 40.7619 32.5531 40.6725 32.8487 40.4525L36.1831 38.0325C36.4856 37.8125 36.6781 37.4894 36.7331 37.125C36.7881 36.7606 36.6987 36.4031 36.4856 36.1075L35.4956 34.7256C36.5819 33.5775 37.5169 32.2919 38.2663 30.8962L39.8819 31.4256C40.2325 31.5356 40.6038 31.5081 40.9338 31.3431C41.2638 31.1712 41.5044 30.8894 41.6144 30.5387L42.9894 26.3312L41.6831 25.905L40.3081 30.1194L38.6925 29.59C38.0737 29.3838 37.3931 29.6588 37.0563 30.2431C36.357 31.5264 35.4951 32.7142 34.4919 33.7769C34.0312 34.265 33.9831 35.0075 34.375 35.53L35.3719 36.905L32.0375 39.325L31.0338 37.9431C30.8431 37.6854 30.5687 37.502 30.2577 37.4242C29.9467 37.3465 29.6183 37.3792 29.3288 37.5169C28.0019 38.1494 26.6063 38.6031 25.1831 38.8713C24.53 38.995 24.0487 39.5588 24.0487 40.2188V41.9169H19.9237V40.2188C19.9237 39.5588 19.4494 38.9881 18.7894 38.8713C17.3594 38.6031 15.9637 38.1494 14.63 37.51C14.025 37.235 13.3237 37.4069 12.9319 37.9431L11.935 39.3181L8.60063 36.8981L9.59062 35.53C9.98938 35.0006 9.94125 34.2581 9.47375 33.77C8.46719 32.7034 7.60293 31.511 6.9025 30.2225C6.5725 29.6519 5.89188 29.3769 5.27313 29.5831L5.29375 29.5969Z"
-                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF]"
+                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none"
                     ></path>
                     <path
                       d="M22 36.4375C28.3456 36.4375 33.88 32.3744 35.7706 26.3312L34.4575 25.9188C32.7456 31.3844 27.7406 35.0625 21.9931 35.0625C16.2456 35.0625 11.2406 31.3913 9.52875 25.9188L8.21562 26.3312C10.1062 32.3744 15.6406 36.4375 21.9862 36.4375H22ZM0.6875 23.375H43.3125V24.75H0.6875V23.375ZM40.5625 22V12.375C40.5625 11.9969 40.2531 11.6875 39.875 11.6875H34.375V1.375C34.375 0.996875 34.0656 0.6875 33.6875 0.6875H25.4375C25.0594 0.6875 24.75 0.996875 24.75 1.375V8.25H19.25V5.5C19.25 5.29375 19.1606 5.10125 19.0025 4.97062L14.8775 1.53313C14.7541 1.42985 14.5984 1.37326 14.4375 1.37326C14.2766 1.37326 14.1209 1.42985 13.9975 1.53313L9.8725 4.97062C9.71437 5.10125 9.625 5.29375 9.625 5.5V11H4.125C3.74688 11 3.4375 11.3094 3.4375 11.6875V22H4.8125V12.375H9.625V22H11V5.82313L14.4375 2.95625L17.875 5.82313V22H19.25V9.625H24.75V22H26.125V2.0625H33V22H34.375V13.0625H39.1875V22H40.5625Z"
-                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF]"
+                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none"
                     ></path>
                     <path
                       d="M27.5 4.125H28.875V5.5H27.5V4.125ZM30.25 4.125H31.625V5.5H30.25V4.125ZM27.5 7.5625H28.875V8.9375H27.5V7.5625ZM30.25 7.5625H31.625V8.9375H30.25V7.5625ZM27.5 11H28.875V12.375H27.5V11ZM30.25 11H31.625V12.375H30.25V11ZM12.375 6.875H16.5V8.25H12.375V6.875ZM12.375 10.3125H16.5V11.6875H12.375V10.3125Z"
-                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF]"
+                      className="group-hover/feature-item:[fill:#2B3944] [fill:#FFFFFF] [transition:all_0.5s_ease-in-out] motion-reduce:transition-none"
                     ></path>
-                  </svg>
+                  </AnimatedElement>
                 </div>
                 <h5 className="mt-[0px] mb-[0] [font-weight:600] leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em]">
                   {" Industry Expertise"}
@@ -1582,28 +1588,28 @@ function TeamAreaSection() {
                 as="div"
                 effect="up"
                 delay={0.3}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".3s"
                 className="group/team-item"
               >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     <SiteImage
                       src="/assets/images/services/services-thumb-09.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)]"
+                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </SiteLink>
                 </div>
-                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
+                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
                   <div>
-                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
+                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Leslie Alexander"}
                       </SiteLink>
@@ -1615,7 +1621,7 @@ function TeamAreaSection() {
                   <div>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -1624,7 +1630,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1638,7 +1644,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1655,28 +1661,28 @@ function TeamAreaSection() {
                 as="div"
                 effect="up"
                 delay={0.5}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".5s"
                 className="group/team-item"
               >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     <SiteImage
                       src="/assets/images/services/services-thumb-09.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)]"
+                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </SiteLink>
                 </div>
-                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
+                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
                   <div>
-                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
+                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Cameron Williamson"}
                       </SiteLink>
@@ -1688,7 +1694,7 @@ function TeamAreaSection() {
                   <div>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -1697,7 +1703,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1711,7 +1717,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1728,28 +1734,28 @@ function TeamAreaSection() {
                 as="div"
                 effect="up"
                 delay={0.7}
-                duration={0.8}
+                duration={1}
                 data-wow-delay=".7s"
                 className="group/team-item"
               >
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     <SiteImage
                       src="/assets/images/services/services-thumb-08.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)]"
+                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </SiteLink>
                 </div>
-                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
+                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
                   <div>
-                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
+                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Darrell Steward"}
                       </SiteLink>
@@ -1761,7 +1767,7 @@ function TeamAreaSection() {
                   <div>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -1770,7 +1776,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1784,7 +1790,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1835,7 +1841,7 @@ function FeatureAreaSection2() {
                 <div className="mt-[42px] max-[991px]:mt-[30px]">
                   <SiteLink
                     href="/industry"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     {"View All Industries"}
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -1845,7 +1851,7 @@ function FeatureAreaSection2() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1859,7 +1865,7 @@ function FeatureAreaSection2() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1876,7 +1882,7 @@ function FeatureAreaSection2() {
                   as="div"
                   effect="fade"
                   delay={0.1}
-                  duration={0.8}
+                  duration={1}
                   data-wow-delay=".1s"
                   className="mb-[15px] max-[767px]:mb-[0] pt-[15px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] max-[767px]:[border-bottom:0] gap-[15px] [border-top:1px_solid_#DBDEE1] group/feature-item"
                 >
@@ -1885,13 +1891,13 @@ function FeatureAreaSection2() {
                       <SiteImage
                         src="/assets/images/feature/feature-thumb-01.webp"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </div>
-                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Advanced Manufacturing"}
                       </SiteLink>
@@ -1900,7 +1906,7 @@ function FeatureAreaSection2() {
                   <div className="flex items-center">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -1909,7 +1915,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1923,7 +1929,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1939,7 +1945,7 @@ function FeatureAreaSection2() {
                   as="div"
                   effect="fade"
                   delay={0.2}
-                  duration={0.8}
+                  duration={1}
                   data-wow-delay=".2s"
                   className="mb-[15px] pt-[15px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] [border-top:1px_solid_#DBDEE1] group/feature-item"
                 >
@@ -1948,13 +1954,13 @@ function FeatureAreaSection2() {
                       <SiteImage
                         src="/assets/images/feature/feature-thumb-02.webp"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </div>
-                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                       <SiteLink
                         href="/services"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Financial Services "}
                       </SiteLink>
@@ -1963,7 +1969,7 @@ function FeatureAreaSection2() {
                   <div className="flex items-center">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -1972,7 +1978,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1986,7 +1992,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2002,7 +2008,7 @@ function FeatureAreaSection2() {
                   as="div"
                   effect="fade"
                   delay={0.3}
-                  duration={0.8}
+                  duration={1}
                   data-wow-delay=".3s"
                   className="mb-[15px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] group/feature-item"
                 >
@@ -2011,13 +2017,13 @@ function FeatureAreaSection2() {
                       <SiteImage
                         src="/assets/images/feature/feature-thumb-03.webp"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </div>
-                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Energy & Natural Resources"}
                       </SiteLink>
@@ -2026,7 +2032,7 @@ function FeatureAreaSection2() {
                   <div className="flex items-center">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -2035,7 +2041,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2049,7 +2055,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2065,7 +2071,7 @@ function FeatureAreaSection2() {
                   as="div"
                   effect="fade"
                   delay={0.4}
-                  duration={0.8}
+                  duration={1}
                   data-wow-delay=".4s"
                   className="mb-[15px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] group/feature-item"
                 >
@@ -2074,13 +2080,13 @@ function FeatureAreaSection2() {
                       <SiteImage
                         src="/assets/images/feature/feature-thumb-04.webp"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </div>
-                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Government"}
                       </SiteLink>
@@ -2089,7 +2095,7 @@ function FeatureAreaSection2() {
                   <div className="flex items-center">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -2098,7 +2104,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2112,7 +2118,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2128,7 +2134,7 @@ function FeatureAreaSection2() {
                   as="div"
                   effect="fade"
                   delay={0.5}
-                  duration={0.8}
+                  duration={1}
                   data-wow-delay=".5s"
                   className="mb-[0px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] group/feature-item"
                 >
@@ -2137,13 +2143,13 @@ function FeatureAreaSection2() {
                       <SiteImage
                         src="/assets/images/feature/feature-thumb-05.webp"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </div>
-                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {" Healthcare & Life Sciences "}
                       </SiteLink>
@@ -2152,7 +2158,7 @@ function FeatureAreaSection2() {
                   <div className="flex items-center">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -2161,7 +2167,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2175,7 +2181,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2191,7 +2197,7 @@ function FeatureAreaSection2() {
                   as="div"
                   effect="fade"
                   delay={0.6}
-                  duration={0.8}
+                  duration={1}
                   data-wow-delay=".6s"
                   className="mb-[0px] pb-[15px] flex items-center justify-between [border-bottom:1px_solid_#DBDEE1] gap-[15px] max-[767px]:pt-[15px] group/feature-item"
                 >
@@ -2200,13 +2206,13 @@ function FeatureAreaSection2() {
                       <SiteImage
                         src="/assets/images/feature/feature-thumb-06.webp"
                         alt="image"
-                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                        className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
                     </div>
-                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                    <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Agribusiness"}
                       </SiteLink>
@@ -2215,7 +2221,7 @@ function FeatureAreaSection2() {
                   <div className="flex items-center">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -2224,7 +2230,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2238,7 +2244,7 @@ function FeatureAreaSection2() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -2570,81 +2576,123 @@ function BrandAreaSection() {
           <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [border-top:1px_solid_rgba(255,_255,_255,_0.12)]">
             <ContentCarousel items={6}>
               <div>
-                <div className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item">
+                <AnimatedElement
+                  as="div"
+                  effect="none"
+                  className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item"
+                >
                   <div className="relative overflow-hidden">
-                    <SiteImage
+                    <AnimatedElement
+                      as="SiteImage"
+                      effect="logo"
                       src="/assets/images/brand/brand-thumb-01.webp"
                       alt="image"
                       className="[vertical-align:middle] max-w-full [filter:brightness(0)_invert(1)] w-[180px] max-[1366px]:w-[150px] group-hover/brand-item:[filter:unset]"
                     />
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
               <div>
-                <div className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item">
+                <AnimatedElement
+                  as="div"
+                  effect="none"
+                  className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item"
+                >
                   <div className="relative overflow-hidden">
-                    <SiteImage
+                    <AnimatedElement
+                      as="SiteImage"
+                      effect="logo"
                       src="/assets/images/brand/brand-thumb-01.webp"
                       alt="image"
                       className="[vertical-align:middle] max-w-full [filter:brightness(0)_invert(1)] w-[180px] max-[1366px]:w-[150px] group-hover/brand-item:[filter:unset]"
                     />
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
               <div>
-                <div className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item">
+                <AnimatedElement
+                  as="div"
+                  effect="none"
+                  className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item"
+                >
                   <div className="relative overflow-hidden">
-                    <SiteImage
+                    <AnimatedElement
+                      as="SiteImage"
+                      effect="logo"
                       src="/assets/images/brand/brand-thumb-01.webp"
                       alt="image"
                       className="[vertical-align:middle] max-w-full [filter:brightness(0)_invert(1)] w-[180px] max-[1366px]:w-[150px] group-hover/brand-item:[filter:unset]"
                     />
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
               <div>
-                <div className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item">
+                <AnimatedElement
+                  as="div"
+                  effect="none"
+                  className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item"
+                >
                   <div className="relative overflow-hidden">
-                    <SiteImage
+                    <AnimatedElement
+                      as="SiteImage"
+                      effect="logo"
                       src="/assets/images/brand/brand-thumb-02.webp"
                       alt="image"
                       className="[vertical-align:middle] max-w-full [filter:brightness(0)_invert(1)] w-[180px] max-[1366px]:w-[150px] group-hover/brand-item:[filter:unset]"
                     />
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
               <div>
-                <div className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item">
+                <AnimatedElement
+                  as="div"
+                  effect="none"
+                  className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item"
+                >
                   <div className="relative overflow-hidden">
-                    <SiteImage
+                    <AnimatedElement
+                      as="SiteImage"
+                      effect="logo"
                       src="/assets/images/brand/brand-thumb-03.webp"
                       alt="image"
                       className="[vertical-align:middle] max-w-full [filter:brightness(0)_invert(1)] w-[180px] max-[1366px]:w-[150px] group-hover/brand-item:[filter:unset]"
                     />
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
               <div>
-                <div className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item">
+                <AnimatedElement
+                  as="div"
+                  effect="none"
+                  className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item"
+                >
                   <div className="relative overflow-hidden">
-                    <SiteImage
+                    <AnimatedElement
+                      as="SiteImage"
+                      effect="logo"
                       src="/assets/images/brand/brand-thumb-04.webp"
                       alt="image"
                       className="[vertical-align:middle] max-w-full [filter:brightness(0)_invert(1)] w-[180px] max-[1366px]:w-[150px] group-hover/brand-item:[filter:unset]"
                     />
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
               <div>
-                <div className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item">
+                <AnimatedElement
+                  as="div"
+                  effect="none"
+                  className="h-[120px] flex items-center justify-center [border-inline-start:1px_solid_rgba(255,_255,_255,_0.12)] [border-bottom:1px_solid_rgba(255,_255,_255,_0.12)] group/brand-item"
+                >
                   <div className="relative overflow-hidden">
-                    <SiteImage
+                    <AnimatedElement
+                      as="SiteImage"
+                      effect="logo"
                       src="/assets/images/brand/brand-thumb-05.webp"
                       alt="image"
                       className="[vertical-align:middle] max-w-full [filter:brightness(0)_invert(1)] w-[180px] max-[1366px]:w-[150px] group-hover/brand-item:[filter:unset]"
                     />
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
             </ContentCarousel>
           </div>

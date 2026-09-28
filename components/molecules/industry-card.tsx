@@ -1,3 +1,6 @@
+"use client";
+import { motion, useReducedMotion } from "motion/react";
+import { SiteLink } from "@/components/atoms/site-link";
 import { Icon } from "@/components/atoms/icon";
 import { useId } from "react";
 import type { industries } from "@/lib/industries";
@@ -14,6 +17,7 @@ export function IndustryCard({
   onToggle: () => void;
 }) {
   const id = useId();
+  const reduced = useReducedMotion();
   return (
     <article
       className={`relative overflow-hidden rounded-2xl border bg-gradient-to-b from-white to-[#FCFDFF] shadow-sm transition-all hover:-translate-y-[7px] hover:shadow-xl before:absolute before:inset-x-0 before:top-0 before:h-1 before:bg-gradient-to-r before:from-[#AB052D] before:to-rose-500 ${expanded ? "border-[#AB052D] before:opacity-100" : "border-slate-200 before:opacity-25"}`}
@@ -57,7 +61,10 @@ export function IndustryCard({
           </span>
         </span>
       </button>
-      <div
+      <motion.div
+        initial={false}
+        animate={{ opacity: expanded ? 1 : 0, y: expanded || reduced ? 0 : 8 }}
+        transition={{ duration: reduced ? 0 : 0.35, ease: "easeOut" }}
         id={id}
         className="border-t border-slate-100 px-5 pt-5 pb-5 md:px-7 md:pb-7"
         hidden={!expanded}
@@ -78,13 +85,13 @@ export function IndustryCard({
         <p className="mb-5 text-sm leading-relaxed text-slate-700">
           {industry.why}
         </p>
-        <a
+        <SiteLink
           className="inline-flex items-center gap-2 rounded-full bg-[#AB052D] px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#8E0425]"
           href="/contact-us"
         >
           Get ISO Guidance ↗
-        </a>
-      </div>
+        </SiteLink>
+      </motion.div>
     </article>
   );
 }

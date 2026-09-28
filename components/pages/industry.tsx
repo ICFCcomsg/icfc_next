@@ -1,4 +1,7 @@
-import { AnimatedElement } from "@/components/atoms/animated-element";
+import {
+  AnimatedElement,
+  RotatingHotspots,
+} from "@/components/atoms/animated-element";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -148,7 +151,7 @@ function WorkingAreaSection() {
                 <div>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] gap-[8px] group/btn [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     {"Join a global team "}
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
@@ -158,7 +161,7 @@ function WorkingAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -172,7 +175,7 @@ function WorkingAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -259,13 +262,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-05.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Advanced Manufacturing"}
                     </SiteLink>
@@ -274,7 +277,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -283,7 +286,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -297,7 +300,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -315,13 +318,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-06.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/services"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Financial Services "}
                     </SiteLink>
@@ -330,7 +333,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -339,7 +342,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -353,7 +356,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -371,13 +374,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-07.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Energy & Natural Resources"}
                     </SiteLink>
@@ -386,7 +389,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -395,7 +398,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -409,7 +412,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -427,13 +430,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-08.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Government"}
                     </SiteLink>
@@ -442,7 +445,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -451,7 +454,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -465,7 +468,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -483,13 +486,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-09.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {" Healthcare & Life Sciences "}
                     </SiteLink>
@@ -498,7 +501,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -507,7 +510,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -521,7 +524,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -539,13 +542,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-08.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Government"}
                     </SiteLink>
@@ -554,7 +557,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -563,7 +566,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -577,7 +580,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -595,13 +598,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-13.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Cybersecurity in Finance"}
                     </SiteLink>
@@ -610,7 +613,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -619,7 +622,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -633,7 +636,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -651,13 +654,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-14.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Financial Data Analytics"}
                     </SiteLink>
@@ -666,7 +669,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -675,7 +678,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -689,7 +692,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -707,13 +710,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-10.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Agribusiness"}
                     </SiteLink>
@@ -722,7 +725,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -731,7 +734,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -745,7 +748,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -763,13 +766,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-15.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Payment Processing"}
                     </SiteLink>
@@ -778,7 +781,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -787,7 +790,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -801,7 +804,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -819,13 +822,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-16.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"FinTech Solutions"}
                     </SiteLink>
@@ -834,7 +837,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -843,7 +846,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -857,7 +860,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -875,13 +878,13 @@ function FeatureAreaSection() {
                     <SiteImage
                       src="/assets/images/feature/feature-thumb-13.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)]"
+                      className="[vertical-align:middle] max-w-full group-hover/feature-item:[transform:scale3d(1.1,_1.1,_1)] w-full [transform:scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </div>
-                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D]">
+                  <h6 className="mt-[0px] mb-[0] font-medium leading-[1.44] text-[#2B3944] text-[20px] max-[1199px]:text-[18px] [word-break:break-word] group-hover/feature-item:text-[#AB052D] hover:text-[#AB052D] [transition:unset] motion-reduce:transition-none">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Digital Banking"}
                     </SiteLink>
@@ -890,7 +893,7 @@ function FeatureAreaSection() {
                 <div className="flex items-center">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                    className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
                     <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                       <svg
@@ -899,7 +902,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[18px] group-hover/icon-box:[transform:translateX(150%)] group-hover/feature-item:[transform:translateX(150%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -913,7 +916,7 @@ function FeatureAreaSection() {
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px]"
+                        className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[18px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/feature-item:[transform:translateX(0%)] h-[18px] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                       >
                         <path
                           d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -972,21 +975,21 @@ function TeamAreaSection() {
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     <SiteImage
                       src="/assets/images/team/team-thumb-01.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)]"
+                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </SiteLink>
                 </div>
-                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
+                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
                   <div>
-                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
+                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {
                           "Leslie\n                                                Alexander"
@@ -1000,7 +1003,7 @@ function TeamAreaSection() {
                   <div>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -1009,7 +1012,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1023,7 +1026,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1048,21 +1051,21 @@ function TeamAreaSection() {
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     <SiteImage
                       src="/assets/images/team/team-thumb-02.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)]"
+                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </SiteLink>
                 </div>
-                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
+                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
                   <div>
-                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
+                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Cameron Williamson"}
                       </SiteLink>
@@ -1074,7 +1077,7 @@ function TeamAreaSection() {
                   <div>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -1083,7 +1086,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1097,7 +1100,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1122,21 +1125,21 @@ function TeamAreaSection() {
                 <div className="mb-[21px] relative overflow-hidden rounded-[6px]">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     <SiteImage
                       src="/assets/images/team/team-thumb-03.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)]"
+                      className="[vertical-align:middle] max-w-full w-full [transform:scale(1.02)] group-hover/team-item:[transform:scale3d(1.1,_1.1,_1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
                   </SiteLink>
                 </div>
-                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0]">
+                <div className="pb-[25px] after:group-hover/team-item:w-full after:group-hover/team-item:[inset-inline-start:0] flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-[1px] before:[background:#DBDEE1] before:bottom-[0] before:[inset-inline-end:0] after:absolute after:[content:''] after:w-[0] after:h-[1px] after:[background:#AB052D] after:bottom-[0] after:[inset-inline-end:0] after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
                   <div>
-                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D]">
+                    <h5 className="mt-[0px] mb-[5px] [font-weight:600] leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
                       <SiteLink
                         href="/contact-us"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Darrell Steward"}
                       </SiteLink>
@@ -1148,7 +1151,7 @@ function TeamAreaSection() {
                   <div>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text"
+                      className="text-[#FFFFFF] [text-decoration:none] pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-[8px] group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
                       <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)] group/icon-box">
                         <svg
@@ -1157,7 +1160,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(150%)] w-[17px] group-hover/icon-box:[transform:translateX(150%)] group-hover/team-item:[transform:translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1171,7 +1174,7 @@ function TeamAreaSection() {
                           viewBox="0 0 16 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)]"
+                          className="[vertical-align:middle] group-hover/btn:[transform:translateX(0%)] w-[17px] group-hover/icon-box:[transform:translateX(0%)] absolute [transform:translateX(-150%)] group-hover/team-item:[transform:translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
                         >
                           <path
                             d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
@@ -1199,7 +1202,7 @@ function ContactAreaSection() {
       <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px]">
         <div className="flex flex-wrap mt-[calc(-1_*_0)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
-            <div className="grid [grid-template-columns:740px_851px] max-[1199px]:[grid-template-columns:auto] min-[1199px]:max-[1366px]:[grid-template-columns:450px_851px] min-[1366px]:max-[1600px]:[grid-template-columns:550px_851px]">
+            <RotatingHotspots className="grid [grid-template-columns:740px_851px] max-[1199px]:[grid-template-columns:auto] min-[1199px]:max-[1366px]:[grid-template-columns:450px_851px] min-[1366px]:max-[1600px]:[grid-template-columns:550px_851px]">
               <div>
                 <div className="pt-[50px] max-[1600px]:pt-[30px] pb-[55px] max-[1600px]:pb-[30px] [background:#AB052D] [padding-inline-start:60px] max-[1600px]:[padding-inline-start:30px] [padding-inline-end:60px] max-[1600px]:[padding-inline-end:30px]">
                   <span className="mb-[10px] text-[13px] font-medium leading-[28px] uppercase text-[#FFFFFF] inline-block tracking-[2.5px]">
@@ -1236,7 +1239,7 @@ function ContactAreaSection() {
                               type="text"
                               placeholder="Full name*"
                               aria-label="Full name*"
-                              className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[100px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF]"
+                              className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[100px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             />
                           </div>
                         </div>
@@ -1250,7 +1253,7 @@ function ContactAreaSection() {
                               placeholder="Email Address*"
                               aria-label="Email Address*"
                               type="email"
-                              className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[100px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF]"
+                              className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[100px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             />
                           </div>
                         </div>
@@ -1264,7 +1267,7 @@ function ContactAreaSection() {
                               type="text"
                               placeholder="Phone Number*"
                               aria-label="Phone Number*"
-                              className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[100px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF]"
+                              className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[100px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             />
                           </div>
                         </div>
@@ -1275,7 +1278,7 @@ function ContactAreaSection() {
                             <select
                               id="subject"
                               name="subject"
-                              className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] [word-wrap:normal] w-full h-[60px] max-[767px]:h-[50px] pt-[0] pr-[20px] pb-[0] pl-[20px] font-normal text-[#6D6D6D] bg-[#fff] [border:1px_solid_#E5E5E5] rounded-[5px] [appearance:none] bg-no-repeat [background-position:right_20px_center] focus:[border-color:#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                              className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] [word-wrap:normal] w-full h-[60px] max-[767px]:h-[50px] pt-[0] pr-[20px] pb-[0] pl-[20px] font-normal text-[#6D6D6D] bg-[#fff] [border:1px_solid_#E5E5E5] rounded-[5px] [appearance:none] bg-no-repeat [background-position:right_20px_center] focus:[border-color:#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_ease-in-out] motion-reduce:transition-none"
                             >
                               <option>{"Your Business"}</option>
                               <option value="one">{"Business Strategy"}</option>
@@ -1299,7 +1302,7 @@ function ContactAreaSection() {
                               name="message"
                               placeholder="Message*"
                               defaultValue=""
-                              className="mt-[0] max-[767px]:mt-[20px] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[15px] pr-[20px] pb-[15px] pl-[20px] bg-[transparent] h-[174px] w-full [border:1px_solid_#DBDEE1] rounded-[16px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF]"
+                              className="mt-[0] max-[767px]:mt-[20px] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[15px] pr-[20px] pb-[15px] pl-[20px] bg-[transparent] h-[174px] w-full [border:1px_solid_#DBDEE1] rounded-[16px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             />
                           </div>
                         </div>
@@ -1308,7 +1311,7 @@ function ContactAreaSection() {
                         <div>
                           <button
                             type="submit"
-                            className="rounded-[16px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] w-full! pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#2B3944] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] hover:text-[#FFFFFF]"
+                            className="rounded-[16px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] w-full! pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#2B3944] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                           >
                             {
                               "\n                                                        Send Massage\n                                                    "
@@ -1328,7 +1331,7 @@ function ContactAreaSection() {
                     </span>
                     <SiteLink
                       href="mailto:admin@icfc.com.sg"
-                      className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[20px]"
+                      className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[20px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"admin@icfc.com.sg"}
                     </SiteLink>
@@ -1339,7 +1342,7 @@ function ContactAreaSection() {
                     </span>
                     <SiteLink
                       href="tel:+65 8601 7001"
-                      className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[20px]"
+                      className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[20px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"+65 8601 7001"}
                     </SiteLink>
@@ -1352,8 +1355,17 @@ function ContactAreaSection() {
                     className="[vertical-align:middle] max-w-full w-full h-full object-cover"
                   />
                   <div>
-                    <div className="absolute [inset-inline-start:17%] max-[991px]:[inset-inline-start:24%] top-[30%] group/ripple-item">
-                      <div className="pt-[8px] pr-[8px] pb-[8px] pl-[8px] group-hover/ripple-item:opacity-[1] group-hover/ripple-item:[transform:translate3d(-50%,_-35px,_0)] group-hover/ripple-item:[visibility:visible] flex max-[767px]:hidden [background:#F8F8F9] rounded-[6px] gap-[20px] shadow-[0px_0px_0px_0px_rgba(0,_0,_0,_0.5)] min-w-[370px] absolute bottom-[0] left-[8px] z-[99] opacity-[0] [transform:translate3d(-50%,_-70px,_0)] [visibility:hidden] before:[content:''] before:absolute before:left-[0] before:bottom-[0] before:w-[0] before:h-[0] before:[border-left:15px_solid_transparent] before:[border-right:15px_solid_transparent] before:[border-top:18px_solid_#2B3944] before:top-[100%] before:right-[0] before:mt-[0] before:mr-[auto] before:mb-[0] before:ml-[auto]">
+                    <AnimatedElement
+                      as="div"
+                      effect="hotspot"
+                      index={0}
+                      className="absolute [inset-inline-start:17%] max-[991px]:[inset-inline-start:24%] top-[30%] group/ripple-item"
+                    >
+                      <AnimatedElement
+                        as="div"
+                        effect="figure"
+                        className="pt-[8px] pr-[8px] pb-[8px] pl-[8px] group-hover/ripple-item:opacity-[1] group-hover/ripple-item:[transform:translate3d(-50%,_-35px,_0)] group-hover/ripple-item:[visibility:visible] flex max-[767px]:hidden [background:#F8F8F9] rounded-[6px] gap-[20px] shadow-[0px_0px_0px_0px_rgba(0,_0,_0,_0.5)] min-w-[370px] absolute bottom-[0] left-[8px] z-[99] before:[content:''] before:absolute before:left-[0] before:bottom-[0] before:w-[0] before:h-[0] before:[border-left:15px_solid_transparent] before:[border-right:15px_solid_transparent] before:[border-top:18px_solid_#2B3944] before:top-[100%] before:right-[0] before:mt-[0] before:mr-[auto] before:mb-[0] before:ml-[auto]"
+                      >
                         <div className="w-[130px] min-w-[130px]">
                           <SiteImage
                             src="/assets/images/contact/contact-thumb-06.webp"
@@ -1368,11 +1380,15 @@ function ContactAreaSection() {
                             </h6>
                           </div>
                         </div>
-                      </div>
-                      <div className="before:group-hover/ripple-item:opacity-[1] relative before:[content:''] before:absolute before:top-[7px] before:left-[7px] before:h-[20px] before:w-[20px] before:rounded-full before:[background:#2B3944] before:[transform-origin:center_center] before:z-[1] before:opacity-[0] before:[pointer-events:none] after:[content:''] after:absolute after:top-[3px] after:left-[3px] after:h-[8px] after:w-[8px] after:rounded-full after:[background:rgba(255,_255,_255,_0.7607843137)] after:z-[9] after:[border:1px_solid_#2B3944]">
+                      </AnimatedElement>
+                      <AnimatedElement
+                        as="div"
+                        effect="pulse"
+                        className="relative after:[content:''] after:absolute after:top-[3px] after:left-[3px] after:h-[8px] after:w-[8px] after:rounded-full after:[background:rgba(255,_255,_255,_0.7607843137)] after:z-[9] after:[border:1px_solid_#2B3944]"
+                      >
                         <div className="absolute left-[7px] bottom-[-19px] w-[1px] h-[8px] [background:#2B3944]"></div>
-                      </div>
-                    </div>
+                      </AnimatedElement>
+                    </AnimatedElement>
                     <div className="pt-[30px] max-[767px]:pt-[15px] pr-[30px] max-[767px]:pr-[15px] pb-[30px] max-[767px]:pb-[15px] pl-[30px] max-[767px]:pl-[15px] hidden max-[767px]:block! absolute left-[50%] top-[40%] [transform:translate(-50%,_-50%)] w-full max-w-[280px] text-[#000] [background:#FFFFFF] rounded-[5px] opacity-[0] [visibility:hidden] z-[10] text-center shadow-[0_0_40px_rgba(0,_0,_0,_0.08)]">
                       <Icon
                         name="close"
@@ -1384,8 +1400,17 @@ function ContactAreaSection() {
                         </h6>
                       </div>
                     </div>
-                    <div className="absolute [inset-inline-start:50%] top-[22%] group/ripple-item">
-                      <div className="pt-[8px] pr-[8px] pb-[8px] pl-[8px] group-hover/ripple-item:opacity-[1] group-hover/ripple-item:[transform:translate3d(-50%,_-35px,_0)] group-hover/ripple-item:[visibility:visible] flex max-[767px]:hidden [background:#F8F8F9] rounded-[6px] gap-[20px] shadow-[0px_0px_0px_0px_rgba(0,_0,_0,_0.5)] min-w-[370px] absolute bottom-[0] left-[8px] z-[99] opacity-[0] [transform:translate3d(-50%,_-70px,_0)] [visibility:hidden] before:[content:''] before:absolute before:left-[0] before:bottom-[0] before:w-[0] before:h-[0] before:[border-left:15px_solid_transparent] before:[border-right:15px_solid_transparent] before:[border-top:18px_solid_#2B3944] before:top-[100%] before:right-[0] before:mt-[0] before:mr-[auto] before:mb-[0] before:ml-[auto]">
+                    <AnimatedElement
+                      as="div"
+                      effect="hotspot"
+                      index={1}
+                      className="absolute [inset-inline-start:50%] top-[22%] group/ripple-item"
+                    >
+                      <AnimatedElement
+                        as="div"
+                        effect="figure"
+                        className="pt-[8px] pr-[8px] pb-[8px] pl-[8px] group-hover/ripple-item:opacity-[1] group-hover/ripple-item:[transform:translate3d(-50%,_-35px,_0)] group-hover/ripple-item:[visibility:visible] flex max-[767px]:hidden [background:#F8F8F9] rounded-[6px] gap-[20px] shadow-[0px_0px_0px_0px_rgba(0,_0,_0,_0.5)] min-w-[370px] absolute bottom-[0] left-[8px] z-[99] before:[content:''] before:absolute before:left-[0] before:bottom-[0] before:w-[0] before:h-[0] before:[border-left:15px_solid_transparent] before:[border-right:15px_solid_transparent] before:[border-top:18px_solid_#2B3944] before:top-[100%] before:right-[0] before:mt-[0] before:mr-[auto] before:mb-[0] before:ml-[auto]"
+                      >
                         <div className="w-[130px] min-w-[130px]">
                           <SiteImage
                             src="/assets/images/contact/contact-thumb-07.webp"
@@ -1400,11 +1425,15 @@ function ContactAreaSection() {
                             </h6>
                           </div>
                         </div>
-                      </div>
-                      <div className="before:group-hover/ripple-item:opacity-[1] relative before:[content:''] before:absolute before:top-[7px] before:left-[7px] before:h-[20px] before:w-[20px] before:rounded-full before:[background:#2B3944] before:[transform-origin:center_center] before:z-[1] before:opacity-[0] before:[pointer-events:none] after:[content:''] after:absolute after:top-[3px] after:left-[3px] after:h-[8px] after:w-[8px] after:rounded-full after:[background:rgba(255,_255,_255,_0.7607843137)] after:z-[9] after:[border:1px_solid_#2B3944]">
+                      </AnimatedElement>
+                      <AnimatedElement
+                        as="div"
+                        effect="pulse"
+                        className="relative after:[content:''] after:absolute after:top-[3px] after:left-[3px] after:h-[8px] after:w-[8px] after:rounded-full after:[background:rgba(255,_255,_255,_0.7607843137)] after:z-[9] after:[border:1px_solid_#2B3944]"
+                      >
                         <div className="absolute left-[7px] bottom-[-19px] w-[1px] h-[8px] [background:#2B3944]"></div>
-                      </div>
-                    </div>
+                      </AnimatedElement>
+                    </AnimatedElement>
                     <div className="pt-[30px] max-[767px]:pt-[15px] pr-[30px] max-[767px]:pr-[15px] pb-[30px] max-[767px]:pb-[15px] pl-[30px] max-[767px]:pl-[15px] hidden max-[767px]:block! absolute left-[50%] top-[40%] [transform:translate(-50%,_-50%)] w-full max-w-[280px] text-[#000] [background:#FFFFFF] rounded-[5px] opacity-[0] [visibility:hidden] z-[10] text-center shadow-[0_0_40px_rgba(0,_0,_0,_0.08)]">
                       <Icon
                         name="close"
@@ -1417,8 +1446,17 @@ function ContactAreaSection() {
                       </div>
                       <div></div>
                     </div>
-                    <div className="absolute [inset-inline-start:55%] top-[46%] group/ripple-item">
-                      <div className="pt-[8px] pr-[8px] pb-[8px] pl-[8px] group-hover/ripple-item:opacity-[1] group-hover/ripple-item:[transform:translate3d(-50%,_-35px,_0)] group-hover/ripple-item:[visibility:visible] flex max-[767px]:hidden [background:#F8F8F9] rounded-[6px] gap-[20px] shadow-[0px_0px_0px_0px_rgba(0,_0,_0,_0.5)] min-w-[370px] absolute bottom-[0] left-[8px] z-[99] opacity-[0] [transform:translate3d(-50%,_-70px,_0)] [visibility:hidden] before:[content:''] before:absolute before:left-[0] before:bottom-[0] before:w-[0] before:h-[0] before:[border-left:15px_solid_transparent] before:[border-right:15px_solid_transparent] before:[border-top:18px_solid_#2B3944] before:top-[100%] before:right-[0] before:mt-[0] before:mr-[auto] before:mb-[0] before:ml-[auto]">
+                    <AnimatedElement
+                      as="div"
+                      effect="hotspot"
+                      index={2}
+                      className="absolute [inset-inline-start:55%] top-[46%] group/ripple-item"
+                    >
+                      <AnimatedElement
+                        as="div"
+                        effect="figure"
+                        className="pt-[8px] pr-[8px] pb-[8px] pl-[8px] group-hover/ripple-item:opacity-[1] group-hover/ripple-item:[transform:translate3d(-50%,_-35px,_0)] group-hover/ripple-item:[visibility:visible] flex max-[767px]:hidden [background:#F8F8F9] rounded-[6px] gap-[20px] shadow-[0px_0px_0px_0px_rgba(0,_0,_0,_0.5)] min-w-[370px] absolute bottom-[0] left-[8px] z-[99] before:[content:''] before:absolute before:left-[0] before:bottom-[0] before:w-[0] before:h-[0] before:[border-left:15px_solid_transparent] before:[border-right:15px_solid_transparent] before:[border-top:18px_solid_#2B3944] before:top-[100%] before:right-[0] before:mt-[0] before:mr-[auto] before:mb-[0] before:ml-[auto]"
+                      >
                         <div className="w-[130px] min-w-[130px]">
                           <SiteImage
                             src="/assets/images/contact/contact-thumb-08.webp"
@@ -1434,11 +1472,15 @@ function ContactAreaSection() {
                           </div>
                           <div></div>
                         </div>
-                      </div>
-                      <div className="before:group-hover/ripple-item:opacity-[1] relative before:[content:''] before:absolute before:top-[7px] before:left-[7px] before:h-[20px] before:w-[20px] before:rounded-full before:[background:#2B3944] before:[transform-origin:center_center] before:z-[1] before:opacity-[0] before:[pointer-events:none] after:[content:''] after:absolute after:top-[3px] after:left-[3px] after:h-[8px] after:w-[8px] after:rounded-full after:[background:rgba(255,_255,_255,_0.7607843137)] after:z-[9] after:[border:1px_solid_#2B3944]">
+                      </AnimatedElement>
+                      <AnimatedElement
+                        as="div"
+                        effect="pulse"
+                        className="relative after:[content:''] after:absolute after:top-[3px] after:left-[3px] after:h-[8px] after:w-[8px] after:rounded-full after:[background:rgba(255,_255,_255,_0.7607843137)] after:z-[9] after:[border:1px_solid_#2B3944]"
+                      >
                         <div className="absolute left-[7px] bottom-[-19px] w-[1px] h-[8px] [background:#2B3944]"></div>
-                      </div>
-                    </div>
+                      </AnimatedElement>
+                    </AnimatedElement>
                     <div className="pt-[30px] max-[767px]:pt-[15px] pr-[30px] max-[767px]:pr-[15px] pb-[30px] max-[767px]:pb-[15px] pl-[30px] max-[767px]:pl-[15px] hidden max-[767px]:block! absolute left-[50%] top-[40%] [transform:translate(-50%,_-50%)] w-full max-w-[280px] text-[#000] [background:#FFFFFF] rounded-[5px] opacity-[0] [visibility:hidden] z-[10] text-center shadow-[0_0_40px_rgba(0,_0,_0,_0.08)]">
                       <Icon
                         name="close"
@@ -1450,8 +1492,17 @@ function ContactAreaSection() {
                         </h6>
                       </div>
                     </div>
-                    <div className="absolute [inset-inline-start:37%] bottom-[33%] group/ripple-item">
-                      <div className="pt-[8px] pr-[8px] pb-[8px] pl-[8px] group-hover/ripple-item:opacity-[1] group-hover/ripple-item:[transform:translate3d(-50%,_-35px,_0)] group-hover/ripple-item:[visibility:visible] flex max-[767px]:hidden [background:#F8F8F9] rounded-[6px] gap-[20px] shadow-[0px_0px_0px_0px_rgba(0,_0,_0,_0.5)] min-w-[370px] absolute bottom-[0] left-[8px] z-[99] opacity-[0] [transform:translate3d(-50%,_-70px,_0)] [visibility:hidden] before:[content:''] before:absolute before:left-[0] before:bottom-[0] before:w-[0] before:h-[0] before:[border-left:15px_solid_transparent] before:[border-right:15px_solid_transparent] before:[border-top:18px_solid_#2B3944] before:top-[100%] before:right-[0] before:mt-[0] before:mr-[auto] before:mb-[0] before:ml-[auto]">
+                    <AnimatedElement
+                      as="div"
+                      effect="hotspot"
+                      index={3}
+                      className="absolute [inset-inline-start:37%] bottom-[33%] group/ripple-item"
+                    >
+                      <AnimatedElement
+                        as="div"
+                        effect="figure"
+                        className="pt-[8px] pr-[8px] pb-[8px] pl-[8px] group-hover/ripple-item:opacity-[1] group-hover/ripple-item:[transform:translate3d(-50%,_-35px,_0)] group-hover/ripple-item:[visibility:visible] flex max-[767px]:hidden [background:#F8F8F9] rounded-[6px] gap-[20px] shadow-[0px_0px_0px_0px_rgba(0,_0,_0,_0.5)] min-w-[370px] absolute bottom-[0] left-[8px] z-[99] before:[content:''] before:absolute before:left-[0] before:bottom-[0] before:w-[0] before:h-[0] before:[border-left:15px_solid_transparent] before:[border-right:15px_solid_transparent] before:[border-top:18px_solid_#2B3944] before:top-[100%] before:right-[0] before:mt-[0] before:mr-[auto] before:mb-[0] before:ml-[auto]"
+                      >
                         <div className="w-[130px] min-w-[130px]">
                           <SiteImage
                             src="/assets/images/contact/contact-thumb-09.webp"
@@ -1466,8 +1517,8 @@ function ContactAreaSection() {
                             </h6>
                           </div>
                         </div>
-                      </div>
-                    </div>
+                      </AnimatedElement>
+                    </AnimatedElement>
                     <div className="pt-[30px] max-[767px]:pt-[15px] pr-[30px] max-[767px]:pr-[15px] pb-[30px] max-[767px]:pb-[15px] pl-[30px] max-[767px]:pl-[15px] hidden max-[767px]:block! absolute left-[50%] top-[40%] [transform:translate(-50%,_-50%)] w-full max-w-[280px] text-[#000] [background:#FFFFFF] rounded-[5px] opacity-[0] [visibility:hidden] z-[10] text-center shadow-[0_0_40px_rgba(0,_0,_0,_0.08)]">
                       <Icon
                         name="close"
@@ -1478,7 +1529,7 @@ function ContactAreaSection() {
                   </div>
                 </div>
               </div>
-            </div>
+            </RotatingHotspots>
           </div>
         </div>
       </div>

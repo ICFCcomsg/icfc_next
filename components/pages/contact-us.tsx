@@ -60,7 +60,7 @@ function ContactAreaSection() {
                             placeholder="Full name*"
                             defaultValue=""
                             aria-label="Full name*"
-                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[3px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF]"
+                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[3px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           />
                         </div>
                       </div>
@@ -75,7 +75,7 @@ function ContactAreaSection() {
                             defaultValue=""
                             aria-label="Email Address*"
                             type="email"
-                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[3px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF]"
+                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[3px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           />
                         </div>
                       </div>
@@ -90,7 +90,7 @@ function ContactAreaSection() {
                             placeholder="Phone Number*"
                             defaultValue=""
                             aria-label="Phone Number*"
-                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[3px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF]"
+                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[3px] text-[#000] [padding-inline-start:20px] [padding-inline-end:20px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           />
                         </div>
                       </div>
@@ -101,7 +101,7 @@ function ContactAreaSection() {
                           <select
                             id="industry"
                             name="subject"
-                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[58px] [text-transform:none] [word-wrap:normal] w-full h-[60px] pt-[0] pr-[20px] pb-[0] pl-[20px] font-normal text-[#6D6D6D] bg-[#fff] [border:1px_solid_#E5E5E5] rounded-[5px] [appearance:none] bg-no-repeat! [background-position:right_20px_center]! focus:[border-color:#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[58px] [text-transform:none] [word-wrap:normal] w-full h-[60px] pt-[0] pr-[20px] pb-[0] pl-[20px] font-normal text-[#6D6D6D] bg-[#fff] [border:1px_solid_#E5E5E5] rounded-[5px] [appearance:none] bg-no-repeat! [background-position:right_20px_center]! focus:[border-color:#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_ease-in-out] motion-reduce:transition-none"
                           >
                             <option value="">
                               {"— Select your industry —"}
@@ -185,7 +185,7 @@ function ContactAreaSection() {
                           <select
                             id="topicSelect"
                             name="topic"
-                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[58px] [text-transform:none] [word-wrap:normal] w-full h-[60px] pt-[0] pr-[20px] pb-[0] pl-[20px] font-normal text-[#6D6D6D] bg-[#fff] [border:1px_solid_#E5E5E5] rounded-[5px] [appearance:none] bg-no-repeat! [background-position:right_20px_center]! focus:[border-color:#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                            className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[58px] [text-transform:none] [word-wrap:normal] w-full h-[60px] pt-[0] pr-[20px] pb-[0] pl-[20px] font-normal text-[#6D6D6D] bg-[#fff] [border:1px_solid_#E5E5E5] rounded-[5px] [appearance:none] bg-no-repeat! [background-position:right_20px_center]! focus:[border-color:#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_ease-in-out] motion-reduce:transition-none"
                           >
                             <option value="">{"— Area of interest * —"}</option>
                             <optgroup
@@ -348,7 +348,7 @@ function ContactAreaSection() {
                             name="message"
                             placeholder="Message*"
                             defaultValue=""
-                            className="mt-[0] max-[767px]:mt-[20px] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[15px] pr-[20px] pb-[15px] pl-[20px] bg-[transparent] h-[174px] w-full [border:1px_solid_#DBDEE1] rounded-[3px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF]"
+                            className="mt-[0] max-[767px]:mt-[20px] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[15px] pr-[20px] pb-[15px] pl-[20px] bg-[transparent] h-[174px] w-full [border:1px_solid_#DBDEE1] rounded-[3px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[#2B3944] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           />
                         </div>
                       </div>
@@ -358,7 +358,7 @@ function ContactAreaSection() {
                         <button
                           type="submit"
                           name="submit_contact"
-                          className="rounded-[3px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] w-full! pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#2B3944] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] hover:text-[#FFFFFF]"
+                          className="rounded-[3px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] w-full! pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#2B3944] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                         >
                           {"Send Message"}
                         </button>
@@ -371,7 +371,7 @@ function ContactAreaSection() {
               <ul className="pl-[40px] max-[1600px]:pl-[30px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[40px] max-[1600px]:pt-[30px] pr-[40px] max-[1600px]:pr-[30px] pb-[40px] max-[1600px]:pb-[30px] [border:1px_solid_#DBDEE1] rounded-[6px]">
                 <li className="mb-[35px] pb-[35px] list-none flex items-center gap-[25px] flex-wrap [border-bottom:1px_solid_#DBDEE1]">
                   <div className="w-[80px] min-w-[80px] h-[80px] [background:#F8F8F9] rounded-full flex items-center justify-center">
-                    <span>
+                    <span className="">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="512"
@@ -420,7 +420,7 @@ function ContactAreaSection() {
                     </span>
                     <SiteLink
                       href="mailto:admin@icfc.com.sg"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"admin@icfc.com.sg"}
                     </SiteLink>
@@ -428,7 +428,7 @@ function ContactAreaSection() {
                 </li>
                 <li className="mb-[35px] pb-[35px] list-none flex items-center gap-[25px] flex-wrap [border-bottom:1px_solid_#DBDEE1] [visibility:visible]!">
                   <div className="w-[80px] min-w-[80px] h-[80px] [background:#F8F8F9] rounded-full flex items-center justify-center">
-                    <span>
+                    <span className="">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 34 34"
@@ -451,7 +451,7 @@ function ContactAreaSection() {
                     </span>
                     <SiteLink
                       href="tel:+990123%20456%20789"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"+65 8601 7001"}
                     </SiteLink>
@@ -459,7 +459,7 @@ function ContactAreaSection() {
                 </li>
                 <li className="mb-[35px] pb-[35px] list-none flex items-center gap-[25px] flex-wrap [border-bottom:1px_solid_#DBDEE1]">
                   <div className="w-[80px] min-w-[80px] h-[80px] [background:#F8F8F9] rounded-full flex items-center justify-center">
-                    <span>
+                    <span className="">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="300"
@@ -517,7 +517,7 @@ function ContactAreaSection() {
                 </li>
                 <li className="list-none flex items-center gap-[25px] flex-wrap">
                   <div className="w-[80px] min-w-[80px] h-[80px] [background:#F8F8F9] rounded-full flex items-center justify-center">
-                    <span>
+                    <span className="">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
@@ -536,7 +536,7 @@ function ContactAreaSection() {
                     </span>
                     <SiteLink
                       href="tel:+990123%20456%20789"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"+65 8601 7001"}
                     </SiteLink>
@@ -581,8 +581,10 @@ function ContainerSection() {
               </p>
               <div className="mt-[12px] mr-[0] mb-[12px] ml-[0]">
                 <div className="mb-[5px] flex justify-between text-[14px] text-[#4a4a4a] font-medium">
-                  <span>{"ISO consultation & implementation"}</span>
-                  <span>{"95%"}</span>
+                  <span className="">
+                    {"ISO consultation & implementation"}
+                  </span>
+                  <span className="">{"95%"}</span>
                 </div>
                 <div className="h-[6px] [background:#eee] rounded-[3px] overflow-hidden">
                   <div className="h-[6px] rounded-[3px] [background:#E24B4A] w-[95%]!"></div>
@@ -590,8 +592,10 @@ function ContainerSection() {
               </div>
               <div className="mt-[12px] mr-[0] mb-[12px] ml-[0]">
                 <div className="mb-[5px] flex justify-between text-[14px] text-[#4a4a4a] font-medium">
-                  <span>{"First-attempt certification success"}</span>
-                  <span>{"98%"}</span>
+                  <span className="">
+                    {"First-attempt certification success"}
+                  </span>
+                  <span className="">{"98%"}</span>
                 </div>
                 <div className="h-[6px] [background:#eee] rounded-[3px] overflow-hidden">
                   <div className="h-[6px] rounded-[3px] [background:#E24B4A] w-[98%]!"></div>

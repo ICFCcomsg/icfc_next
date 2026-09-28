@@ -51,7 +51,7 @@ function ServicesAreaSection() {
               </p>
               <div className="flex flex-wrap mt-[30px] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] mb-[40px]">
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"2025"}
                     </div>
@@ -64,7 +64,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"6–12"}
                     </div>
@@ -77,7 +77,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"50%"}
                     </div>
@@ -90,7 +90,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"35+"}
                     </div>
@@ -215,7 +215,7 @@ function ServicesAreaSection() {
               </h3>
               <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] mb-[40px]">
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <Icon
                       name="file"
                       className="text-[2rem]! max-[1200px]:text-[calc(1.325rem_+_.9vw)]! inline-block [font-style:normal]"
@@ -229,7 +229,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <Icon
                       name="shield"
                       className="text-[2rem]! max-[1200px]:text-[calc(1.325rem_+_.9vw)]! inline-block [font-style:normal]"
@@ -243,7 +243,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <Icon
                       name="search"
                       className="text-[2rem]! max-[1200px]:text-[calc(1.325rem_+_.9vw)]! inline-block [font-style:normal]"
@@ -257,7 +257,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <Icon
                       name="card"
                       className="text-[2rem]! max-[1200px]:text-[calc(1.325rem_+_.9vw)]! inline-block [font-style:normal]"
@@ -271,7 +271,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <Icon
                       name="quote"
                       className="text-[2rem]! max-[1200px]:text-[calc(1.325rem_+_.9vw)]! inline-block [font-style:normal]"
@@ -285,7 +285,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <Icon
                       name="merge"
                       className="text-[2rem]! max-[1200px]:text-[calc(1.325rem_+_.9vw)]! inline-block [font-style:normal]"
@@ -299,7 +299,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <Icon
                       name="globe"
                       className="text-[2rem]! max-[1200px]:text-[calc(1.325rem_+_.9vw)]! inline-block [font-style:normal]"
@@ -313,7 +313,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <div className="h-full! pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! text-center! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <Icon
                       name="chart"
                       className="text-[2rem]! max-[1200px]:text-[calc(1.325rem_+_.9vw)]! inline-block [font-style:normal]"
@@ -334,7 +334,7 @@ function ServicesAreaSection() {
               </h3>
               <div className="[overflow-x:auto] mb-[40px]">
                 <table className="[caption-side:bottom] [border-collapse:collapse] w-full max-[991px]:w-[900px] mb-[1rem] [vertical-align:top] [border-color:#dee2e6] [border:1px_solid_#DBDEE1]">
-                  <thead className="[border-color:inherit] [border-style:solid] [border-width:0] [vertical-align:bottom] bg-[#f8f9fa]! rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                  <thead className="[border-color:inherit] [border-style:solid] [border-width:0] [vertical-align:bottom] bg-[#f8f9fa]! rounded-[12px] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                     <tr className="[border-color:inherit] [border-style:solid] [border-width:1px_0]">
                       <th className="[text-align:-webkit-match-parent] [border-color:inherit] [border-style:solid] [border-width:0_1px] pt-[.5rem] pr-[.5rem] pb-[.5rem] pl-[.5rem] text-[initial] bg-[#fff] [border-bottom-width:1px] shadow-[inset_0_0_0_9999px_initial] [border:none]">
                         {"Framework / Legislation"}
@@ -462,7 +462,7 @@ function ServicesAreaSection() {
               </div>
               <div className="flex flex-wrap mt-[1.5rem]! mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] mb-[5px]!">
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)]">
+                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="survey"
                       className="mb-[1rem] inline-block [font-style:normal] text-[2.2rem] text-[#C8102E]"
@@ -477,14 +477,14 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
+                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                     >
                       {"Explore audit →"}
                     </SiteLink>
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)]">
+                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="file"
                       className="mb-[1rem] inline-block [font-style:normal] text-[2.2rem] text-[#C8102E]"
@@ -499,14 +499,14 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
+                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                     >
                       {"Explore consulting →"}
                     </SiteLink>
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)]">
+                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="user"
                       className="mb-[1rem] inline-block [font-style:normal] text-[2.2rem] text-[#C8102E]"
@@ -521,7 +521,7 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
+                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                     >
                       {"Explore training →"}
                     </SiteLink>
@@ -545,7 +545,7 @@ function ServicesAreaSection() {
                 </p>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#fff] [text-decoration:none] inline-flex pt-[10px]! pr-[24px]! pb-[10px]! pl-[24px]! text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#198754] hover:text-[#fff] hover:bg-[#157347] hover:[border-color:#146c43] focus-visible:text-[#fff] focus-visible:bg-[#157347] focus-visible:[border-color:#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] active:text-[#fff] active:bg-[#146c43] active:[border-color:#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] mt-[1rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#3B6D11]! items-center justify-center gap-[10px] hover:[background:#2D550D] hover:[transform:translateY(-2px)]"
+                  className="text-[#fff] [text-decoration:none] inline-flex pt-[10px]! pr-[24px]! pb-[10px]! pl-[24px]! text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#198754] hover:text-[#fff] hover:bg-[#157347] hover:[border-color:#146c43] focus-visible:text-[#fff] focus-visible:bg-[#157347] focus-visible:[border-color:#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] active:text-[#fff] active:bg-[#146c43] active:[border-color:#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] mt-[1rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#3B6D11]! items-center justify-center gap-[10px] hover:[background:#2D550D] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                 >
                   {"Check eligibility →"}
                 </SiteLink>
@@ -808,19 +808,19 @@ function ServicesAreaSection() {
                 <div className="flex! flex-wrap! justify-center! gap-[1rem]!">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#C8102E]! items-center justify-center gap-[10px] hover:[background:#8B0A1E] hover:[transform:translateY(-2px)]"
+                    className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#C8102E]! items-center justify-center gap-[10px] hover:[background:#8B0A1E] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Book free ABMS assessment →"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#C8102E] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#C8102E] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
+                    className="text-[#C8102E] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#C8102E] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#C8102E] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Check grant eligibility"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#C8102E] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#C8102E] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
+                    className="text-[#C8102E] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#C8102E] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#C8102E] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Get free quote"}
                   </SiteLink>
@@ -862,7 +862,7 @@ function CtaAreaSection() {
                   }
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block"
+                    className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     {"Start your anti-bribery governance journey today →"}
                   </SiteLink>

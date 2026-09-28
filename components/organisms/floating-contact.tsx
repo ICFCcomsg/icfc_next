@@ -1,15 +1,22 @@
 "use client";
 import { Icon } from "@/components/atoms/icon";
 
+import {
+  AnimatePresence,
+  animate,
+  motion,
+  useReducedMotion,
+} from "motion/react";
 import { useEffect, useState } from "react";
 import { Modal } from "@/components/atoms/modal";
 import { SiteImage } from "@/components/atoms/site-image";
 
 export function FloatingContact() {
+  const reduced = useReducedMotion();
   const [wechat, setWechat] = useState(false);
   const [showTop, setShowTop] = useState(false);
   useEffect(() => {
-    const onScroll = () => setShowTop(window.scrollY > 400);
+    const onScroll = () => setShowTop(window.scrollY > 150);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -33,31 +40,40 @@ export function FloatingContact() {
           <Icon name="whatsapp" />
         </a>
       </div>
-      {showTop && (
-        <button
-          type="button"
-          className="fixed right-[18px] bottom-5 z-50 grid size-10 place-items-center rounded-md bg-[#AB052D] text-xl text-white shadow-lg max-[480px]:right-3"
-          aria-label="Back to top"
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        >
-          ↑
-        </button>
-      )}
+      <AnimatePresence>
+        {showTop && (
+          <motion.button
+            initial={{ opacity: 0, y: reduced ? 0 : 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: reduced ? 0 : 20 }}
+            transition={{ duration: reduced ? 0 : 0.4, ease: "linear" }}
+            type="button"
+            className="fixed right-[18px] bottom-5 z-50 grid size-10 place-items-center rounded-md bg-[#AB052D] text-xl text-white shadow-lg max-[480px]:right-3"
+            aria-label="Back to top"
+            onClick={() => {
+              if (reduced) {
+                window.scrollTo({ top: 0, behavior: "instant" });
+                return;
+              }
+              animate(window.scrollY, 0, {
+                duration: 0.5,
+                ease: "easeInOut",
+                onUpdate: (value) =>
+                  window.scrollTo({ top: value, behavior: "instant" }),
+              });
+            }}
+          >
+            ↑
+          </motion.button>
+        )}
+      </AnimatePresence>
       {wechat && (
         <Modal
+          closeLabel="Close WeChat contact"
           className="relative m-auto max-w-[calc(100%-2rem)] rounded-xl border-0 bg-white p-10 text-center text-[#2B3944] backdrop:bg-black/50 [&_h2]:text-2xl [&_h2]:font-bold [&_img]:mx-auto [&_img]:my-5 [&_img]:w-[280px] [&_img]:max-w-full [&_img]:h-auto"
           label="WeChat contact"
           onClose={() => setWechat(false)}
         >
-          <button
-            type="button"
-            autoFocus
-            aria-label="Close WeChat contact"
-            className="absolute top-3 right-4 text-3xl hover:text-[#AB052D]"
-            onClick={() => setWechat(false)}
-          >
-            ×
-          </button>
           <h2>Connect on WeChat</h2>
           <SiteImage
             src="/assets/images/wechat.jpeg"

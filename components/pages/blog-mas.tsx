@@ -37,18 +37,18 @@ function PostboxAreaSection() {
                 <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px] flex gap-[20px] items-center max-[1600px]:flex-wrap">
                   <li className="list-none">
                     <span className="flex items-center gap-[8px] text-[13px]">
-                      <span>
+                      <span className="">
                         <SiteImage
                           src="/assets/images/blog/details/blog-details-01.webp"
                           alt=""
                           className="[vertical-align:middle] max-w-full w-[40px] h-[40px] rounded-full"
                         />
                       </span>
-                      <span>
+                      <span className="">
                         {"By "}
                         <SiteLink
                           href="/contact-us"
-                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                          className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {"ICFC Pte Ltd"}
                         </SiteLink>
@@ -68,7 +68,7 @@ function PostboxAreaSection() {
                           className="[fill:#AB052D]"
                         ></path>
                       </svg>
-                      <span>{"April 2026"}</span>
+                      <span className="">{"April 2026"}</span>
                     </span>
                   </li>
                   <li className="list-none">
@@ -89,7 +89,7 @@ function PostboxAreaSection() {
                           className="[fill:#AB052D]"
                         ></path>
                       </svg>
-                      <span>{"12 min read"}</span>
+                      <span className="">{"12 min read"}</span>
                     </span>
                   </li>
                 </ul>
@@ -153,7 +153,7 @@ function PostboxAreaSection() {
                   {"Where the frameworks converge: key overlap areas"}
                 </h4>
                 <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Governance & accountability"}
                     </strong>
@@ -161,7 +161,7 @@ function PostboxAreaSection() {
                       " – Board-level oversight (Clause 5 & TRM Sections 3-4). Both require documented security roles and management commitment."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Risk management"}
                     </strong>
@@ -169,7 +169,7 @@ function PostboxAreaSection() {
                       " – Systematic risk assessment processes (Clause 6.1 vs TRM risk identification/mitigation)."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Access control & MFA"}
                     </strong>
@@ -177,7 +177,7 @@ function PostboxAreaSection() {
                       " – Annex A.5.15–A.5.18 aligns with MAS Cyber Hygiene Notice and privileged access rules."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Vulnerability & patch management"}
                     </strong>
@@ -185,7 +185,7 @@ function PostboxAreaSection() {
                       " – Annex A.8.8 directly maps to TRM vulnerability assessment and patching expectations."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Incident management (partial)"}
                     </strong>
@@ -193,7 +193,7 @@ function PostboxAreaSection() {
                       " – Annex A.5.24–A.5.28 covers operational incident response; MAS-specific notification thresholds remain gap."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Third-party risk"}
                     </strong>
@@ -280,19 +280,19 @@ function PostboxAreaSection() {
                   {"Building one integrated system: ICFC approach"}
                 </h4>
                 <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Dual-framework gap analysis"}
                     </strong>
                     {" – single roadmap labelled ISO-only, TRM-only, common."}
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Unified scope definition"}
                     </strong>
                     {" – ensure all MAS-regulated systems inside ISMS scope."}
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Integrated policy framework"}
                     </strong>
@@ -300,7 +300,7 @@ function PostboxAreaSection() {
                       " – cross-reference TRM sections within ISMS documents for clear traceability."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"TRM supplementary controls module"}
                     </strong>
@@ -308,13 +308,13 @@ function PostboxAreaSection() {
                       " – incident reporting thresholds, online security, material outsourcing notification."
                     }
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Single internal audit programme"}
                     </strong>
                     {" – covers ISO clauses + TRM sections simultaneously."}
                   </li>
-                  <li>
+                  <li className="">
                     <strong className="[font-weight:bolder]">
                       {"Examination-ready evidence packages"}
                     </strong>
@@ -327,24 +327,28 @@ function PostboxAreaSection() {
                   {"What MAS examiners look for"}
                 </h4>
                 <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
-                  <li>{"Board minutes / technology risk committee terms"}</li>
-                  <li>
+                  <li className="">
+                    {"Board minutes / technology risk committee terms"}
+                  </li>
+                  <li className="">
                     {"Complete technology risk assessments and action logs"}
                   </li>
-                  <li>
+                  <li className="">
                     {"Incident records including timeliness of MAS reporting"}
                   </li>
-                  <li>
+                  <li className="">
                     {
                       "Vendor due diligence files for all material third parties"
                     }
                   </li>
-                  <li>
+                  <li className="">
                     {
                       "Penetration testing schedules, findings, remediation evidence"
                     }
                   </li>
-                  <li>{"DR test results and gap closure plans"}</li>
+                  <li className="">
+                    {"DR test results and gap closure plans"}
+                  </li>
                 </ul>
                 <p className="mt-[0] mb-[30px] text-[17px] [font-weight:normal] text-[#616C74] leading-[28px]">
                   {
@@ -422,7 +426,7 @@ function PostboxAreaSection() {
                   }
                   <SiteLink
                     href="mailto:admin@icfc.com.sg"
-                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                    className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     {"admin@icfc.com.sg"}
                   </SiteLink>
@@ -443,25 +447,25 @@ function PostboxAreaSection() {
                   </span>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"MAS TRM"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"ISO 27001"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Cyber Hygiene"}
                   </SiteLink>
                   <SiteLink
                     href="/services"
-                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] mb-[0px] pt-[6px] pr-[15px] pb-[6px] pl-[15px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] [margin-inline-end:0px] rounded-[6px] text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Financial Services"}
                   </SiteLink>
@@ -473,7 +477,7 @@ function PostboxAreaSection() {
                   <div className="gap-[15px]">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <Icon
                         name="facebook"
@@ -482,7 +486,7 @@ function PostboxAreaSection() {
                     </SiteLink>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <Icon
                         name="x"
@@ -491,7 +495,7 @@ function PostboxAreaSection() {
                     </SiteLink>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px]"
+                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <Icon
                         name="linkedin"
@@ -512,7 +516,7 @@ function PostboxAreaSection() {
                         type="text"
                         placeholder="Your Name"
                         aria-label="Your Name"
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
                     </div>
                     <div className="[flex-shrink:0] w-[50%] max-[1200px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
@@ -520,20 +524,20 @@ function PostboxAreaSection() {
                         type="email"
                         placeholder="Your Email"
                         aria-label="Your Email"
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
                     </div>
                     <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <textarea
                         placeholder="Write Message"
                         defaultValue=""
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[14px] pr-[24px] pb-[14px] pl-[24px] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [resize:vertical] pt-[14px] pr-[24px] pb-[14px] pl-[24px] bg-[transparent] h-[50px] w-full [border:1px_solid_#DBDEE1] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:25px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
                     </div>
                     <div className="[flex-shrink:0] w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
                       <button
                         type="submit"
-                        className="rounded-[50px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF]"
+                        className="rounded-[50px] mt-[0] mr-[0] mb-[0] ml-[0] text-[17px] leading-[inherit] [text-transform:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
                         {"Post Comment"}
                       </button>
@@ -556,9 +560,9 @@ function PostboxAreaSection() {
                         type="text"
                         placeholder="Search..."
                         aria-label="Search..."
-                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[60px] w-full [border:1px_solid_#ddd] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:50px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [background:#FFFFFF]"
+                        className="mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] bg-[transparent] h-[60px] w-full [border:1px_solid_#ddd] rounded-[6px] text-[#000] [padding-inline-start:25px] [padding-inline-end:50px] focus:[border-color:#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,_30,_30,_0.4)] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       />
-                      <button className="rounded-[0] mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] text-[#000] [border:none] [background:transparent] absolute top-[50%] [inset-inline-end:25px] [transform:translateY(-50%)] hover:text-[#AB052D]">
+                      <button className="rounded-[0] mt-[0] mr-[0] mb-[0] ml-[0] text-[16px] leading-[inherit] [text-transform:none] text-[#000] [border:none] [background:transparent] absolute top-[50%] [inset-inline-end:25px] [transform:translateY(-50%)] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
                         <svg
                           width="18"
                           height="18"
@@ -585,40 +589,40 @@ function PostboxAreaSection() {
                   {"Categories"}
                 </h5>
                 <ul className="pl-[0px] mt-[0px] mb-[0px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
-                  <li>
+                  <li className="">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"ISO 27001 "}
-                      <span>{"(12)"}</span>
+                      <span className="">{"(12)"}</span>
                     </SiteLink>
                   </li>
-                  <li>
+                  <li className="">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"MAS Compliance "}
-                      <span>{"(8)"}</span>
+                      <span className="">{"(8)"}</span>
                     </SiteLink>
                   </li>
-                  <li>
+                  <li className="">
                     <SiteLink
                       href="/services"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Financial Services "}
-                      <span>{"(9)"}</span>
+                      <span className="">{"(9)"}</span>
                     </SiteLink>
                   </li>
-                  <li>
+                  <li className="">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"Third-party Risk "}
-                      <span>{"(5)"}</span>
+                      <span className="">{"(5)"}</span>
                     </SiteLink>
                   </li>
                 </ul>
@@ -630,31 +634,31 @@ function PostboxAreaSection() {
                 <div className="flex flex-wrap gap-[12px]">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"MAS TRM 2021"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Cyber Hygiene Notice"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"ISMS"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"EDG Grant"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D]"
+                    className="text-[#2B3944] [text-decoration:none] pt-[7px] max-[480px]:pt-[6px] pr-[15px] max-[480px]:pr-[13px] pb-[7px] max-[480px]:pb-[6px] pl-[15px] max-[480px]:pl-[13px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-[6px] hover:bg-[#AB052D] hover:[border-color:#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
                     {"Incident Response"}
                   </SiteLink>

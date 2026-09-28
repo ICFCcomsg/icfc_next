@@ -1,4 +1,5 @@
 "use client";
+import { AnimatedMenuIcon } from "@/components/atoms/animated-element";
 import { Icon } from "@/components/atoms/icon";
 
 import { useState, useSyncExternalStore } from "react";
@@ -116,15 +117,16 @@ export function SiteHeader({ route }: { route: string }) {
         >
           <Icon name="search" />
         </button>
-        <button
+        <motion.button
+          whileHover="hover"
           className="grid size-9 shrink-0 place-items-center rounded-full border border-white/20 bg-transparent text-2xl transition-colors hover:bg-[#AB052D] md:size-[54px]"
           type="button"
           aria-label="Open navigation menu"
           aria-expanded={panel === "menu"}
           onClick={() => setPanel("menu")}
         >
-          <Icon name="menu" />
-        </button>
+          <AnimatedMenuIcon />
+        </motion.button>
       </div>
     </div>
   );
@@ -197,19 +199,12 @@ export function SiteHeader({ route }: { route: string }) {
       </motion.div>
       {panel && (
         <Modal
+          drawer
+          closeLabel="Close panel"
           label={panel === "menu" ? "Navigation menu" : "Search site"}
           className="fixed inset-y-0 right-0 left-auto m-0 h-dvh max-h-dvh w-[430px] max-w-full overflow-y-auto border-0 bg-white p-10 text-[#2B3944] backdrop:bg-black/50 [&_h2]:mb-6 [&_h2]:text-3xl [&_h2]:font-bold [&_nav]:my-6 [&_nav]:grid [&_nav]:gap-5 [&_nav_a]:text-xl [&_a[aria-current]]:text-[#AB052D] [&_input]:w-full [&_input]:rounded-lg [&_input]:border [&_input]:border-slate-300 [&_input]:p-3"
           onClose={() => setPanel(null)}
         >
-          <button
-            type="button"
-            autoFocus
-            aria-label="Close panel"
-            className="absolute top-3 right-4 text-3xl text-[#2B3944] hover:text-[#AB052D]"
-            onClick={() => setPanel(null)}
-          >
-            ×
-          </button>
           <h2>{panel === "menu" ? "Menu" : "Search site"}</h2>
           {panel === "menu" && (
             <>

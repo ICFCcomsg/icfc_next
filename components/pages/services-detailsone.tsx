@@ -42,7 +42,7 @@ function ServicesAreaSection() {
               </div>
               <div className="flex flex-wrap mt-[40px] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] mb-[40px]">
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2.2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"35+"}
                     </div>
@@ -55,7 +55,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2.2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"200+"}
                     </div>
@@ -68,7 +68,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2.2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"100%"}
                     </div>
@@ -79,7 +79,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[25%] max-[768px]:w-[50%] max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[0] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2.2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"S$0"}
                     </div>
@@ -121,7 +121,7 @@ function ServicesAreaSection() {
               </p>
               <div className="flex flex-wrap mt-[5px]! mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[2rem] pr-[2rem] pb-[2rem] pl-[2rem] rounded-[20px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#C8102E]">
+                  <div className="pt-[2rem] pr-[2rem] pb-[2rem] pl-[2rem] rounded-[20px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#C8102E] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="survey"
                       className="mb-[1.25rem] inline-block [font-style:normal] text-[2.5rem] text-[#C8102E]"
@@ -136,7 +136,7 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
+                      className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)] [transition:all_0.3s] motion-reduce:transition-none"
                     >
                       {"Explore Audit "}
                       <Icon
@@ -147,7 +147,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[2rem] pr-[2rem] pb-[2rem] pl-[2rem] rounded-[20px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#C8102E]">
+                  <div className="pt-[2rem] pr-[2rem] pb-[2rem] pl-[2rem] rounded-[20px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#C8102E] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="file"
                       className="mb-[1.25rem] inline-block [font-style:normal] text-[2.5rem] text-[#C8102E]"
@@ -162,7 +162,7 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
+                      className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)] [transition:all_0.3s] motion-reduce:transition-none"
                     >
                       {"Explore Consulting "}
                       <Icon
@@ -173,7 +173,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[2rem] pr-[2rem] pb-[2rem] pl-[2rem] rounded-[20px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#C8102E]">
+                  <div className="pt-[2rem] pr-[2rem] pb-[2rem] pl-[2rem] rounded-[20px] [background:#fff] [border:1px_solid_#e2e8f0] h-full hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:[border-color:#C8102E] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="user"
                       className="mb-[1.25rem] inline-block [font-style:normal] text-[2.5rem] text-[#C8102E]"
@@ -188,7 +188,7 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
+                      className="text-[#C8102E] [text-decoration:none] mt-[1rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:2px_solid_#C8102E] [background:transparent] rounded-[40px] font-semibold inline-flex items-center gap-[8px] hover:[background:#C8102E] hover:[transform:translateY(-2px)] [transition:all_0.3s] motion-reduce:transition-none"
                     >
                       {"Explore Training "}
                       <Icon
@@ -496,7 +496,7 @@ function ServicesAreaSection() {
               </h3>
               <div className="flex flex-wrap mt-[calc(-1_*_1.5rem)] mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] mb-[1.5rem]!">
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2.2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"S$1M+"}
                     </div>
@@ -506,7 +506,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2.2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"10%"}
                     </div>
@@ -516,7 +516,7 @@ function ServicesAreaSection() {
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                  <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-[8px] text-[2.2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                       {"3 Days"}
                     </div>
@@ -549,7 +549,7 @@ function ServicesAreaSection() {
                 </p>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#3B6D11]! rounded-[40px] font-semibold text-[14px] inline-flex items-center gap-[8px] hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
+                  className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#3B6D11]! rounded-[40px] font-semibold text-[14px] inline-flex items-center gap-[8px] hover:[background:#8B0A1E] hover:[transform:translateX(5px)] [transition:all_0.3s] motion-reduce:transition-none"
                 >
                   {"Check Eligibility "}
                   <Icon
@@ -570,109 +570,109 @@ function ServicesAreaSection() {
                 {"35+ Industries We Serve"}
               </h3>
               <div className="mb-[40px]">
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🏦 Financial Services & Fintech"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"📡 Telecommunications"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"💻 Information Technology"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🏢 Data Centre Operations"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🛡️ Critical Information Infrastructure"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🏥 Healthcare & Hospitals"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"💊 Pharmaceutical & Biotech"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🏗️ Construction & Real Estate"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"⚓ Marine & Shipping"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🚛 Logistics & Supply Chain"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🏭 Manufacturing & Industry 4.0"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🎓 Education & Training"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🏛️ Government & Statutory Boards"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🛒 Retail & E-Commerce"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🍽️ Food & Beverage / Hospitality"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"✈️ Aviation & Aerospace"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"⚡ Energy & Utilities"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🏠 Property Management"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🎰 Gaming & Entertainment"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"⚖️ Legal & Professional Services"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🚌 Land Transport & Mobility"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🔬 Research & Academic Institutions"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🛡️ Cybersecurity Services"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"📱 Media & Communications"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🧪 Laboratory & Testing Services"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"💰 Insurance"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🌐 Digital Marketing & AdTech"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🧩 Human Resources & Staffing"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🔧 Engineering & Technical Services"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🌱 Environmental & Sustainability (ESG)"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🎨 Creative & Design Industries"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🛳️ Cruise & Tourism"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🧸 Social Services & NGOs"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🧬 MedTech & HealthTech"}
                 </span>
-                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff]">
+                <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] [background:#f1f5f9] rounded-[40px] text-[13px] font-medium text-[#1e293b] inline-block hover:[background:#C8102E] hover:text-[#fff] [transition:all_0.2s] motion-reduce:transition-none">
                   {"🤖 AI / Data Analytics Firms"}
                 </span>
                 <p className="mt-[1rem]! mb-[0] text-[rgba(33,_37,_41,_0.75)]! text-[17px] [font-weight:normal] leading-[28px]">
@@ -790,7 +790,7 @@ function ServicesAreaSection() {
                     </ul>
                     <SiteLink
                       href="/contact-us"
-                      className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] rounded-[40px] font-semibold text-[14px] inline-flex items-center gap-[8px] hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
+                      className="text-[#fff] [text-decoration:none] mt-[.5rem]! pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] rounded-[40px] font-semibold text-[14px] inline-flex items-center gap-[8px] hover:[background:#8B0A1E] hover:[transform:translateX(5px)] [transition:all_0.3s] motion-reduce:transition-none"
                     >
                       {"Start Your PIMS Journey "}
                       <Icon
@@ -955,7 +955,7 @@ function CtaAreaSection() {
                   }
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block"
+                    className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     {"Get Free Quote →"}
                   </SiteLink>

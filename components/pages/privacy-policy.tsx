@@ -152,10 +152,10 @@ function PolicyAreaSection() {
                 <ul className="pl-[0px] mt-[0px] mb-[10px] mr-[0px] ml-[0px] pt-[0px] pr-[0px] pb-[0px]">
                   <li className="list-none text-[16px] text-[#000]">
                     {"Email: "}
-                    <span>
+                    <span className="">
                       <SiteLink
                         href="mailto:consulting@.com"
-                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent]"
+                        className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"consulting@.com"}
                       </SiteLink>
@@ -166,7 +166,7 @@ function PolicyAreaSection() {
                   <p className="mt-[0] mb-[0]! text-[16px] [font-weight:normal] text-[#616C74] leading-[1.5]">
                     <SiteLink
                       href="/contact-us"
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {
                         "374 William S Canning Blvd, Fall River MA Road 2721, USA"

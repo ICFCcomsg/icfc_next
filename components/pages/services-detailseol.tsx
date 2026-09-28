@@ -48,7 +48,7 @@ function BannerAreaSection() {
               <div>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] group/has-bg-white"
+                  className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] group/has-bg-white [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                 >
                   {"Free SS 587 Gap Assessment ↗"}
                   <span className="overflow-hidden relative inline-flex [transform:rotate(-45deg)]">
@@ -68,7 +68,7 @@ function BannerAreaSection() {
                 </SiteLink>
                 <SiteLink
                   href="#grant"
-                  className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px]"
+                  className="text-[#FFFFFF] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] gap-[8px] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                 >
                   {"ESG grant eligibility ↗"}
                 </SiteLink>
@@ -85,37 +85,37 @@ function ContainerSection() {
   return (
     <div className="w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mr-[auto] ml-[auto] max-w-[1310px] min-[576px]:max-[768px]:max-w-[540px] min-[768px]:max-[992px]:max-w-[720px] min-[992px]:max-[1200px]:max-w-[960px] min-[1200px]:max-[1400px]:max-w-[1140px] min-[1400px]:max-[1441px]:max-w-[1320px] pt-[120px] max-[480px]:pt-[60px] min-[480px]:max-[767px]:pt-[70px] min-[767px]:max-[991px]:pt-[100px]">
       <div className="mt-[40px] mr-[0] mb-[40px] ml-[0] flex flex-wrap gap-[30px] justify-center">
-        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-[8px] text-[48px] font-extrabold text-[#AB052D] leading-[1]">
             {"6"}
           </div>
           <div>{"Core process phases"}</div>
         </div>
-        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-[8px] text-[48px] font-extrabold text-[#AB052D] leading-[1]">
             {"25+"}
           </div>
           <div>{"Industries served"}</div>
         </div>
-        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-[8px] text-[48px] font-extrabold text-[#AB052D] leading-[1]">
             {"98%"}
           </div>
           <div>{"First-attempt cert"}</div>
         </div>
-        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-[8px] text-[48px] font-extrabold text-[#AB052D] leading-[1]">
             {"11+"}
           </div>
           <div>{"Years expertise"}</div>
         </div>
-        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-[8px] text-[48px] font-extrabold text-[#AB052D] leading-[1]">
             {"500+"}
           </div>
           <div>{"Organisations guided"}</div>
         </div>
-        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)]">
+        <div className="pt-[25px] pr-[20px] pb-[25px] pl-[20px] [background:#f8f9fc] rounded-[20px] text-center [flex:1] min-w-[140px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:[transform:translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-[8px] text-[48px] font-extrabold text-[#AB052D] leading-[1]">
             {"70%"}
           </div>
@@ -147,7 +147,7 @@ function SectionSpaceSection() {
             </div>
             <div className="flex flex-wrap mt-[.5rem]! mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
                   <div className="font-bold! text-[rgba(220,53,69,1)]!">
                     {"01"}
                   </div>
@@ -162,7 +162,7 @@ function SectionSpaceSection() {
                 </div>
               </div>
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
                   <div className="font-bold! text-[rgba(220,53,69,1)]!">
                     {"02"}
                   </div>
@@ -177,7 +177,7 @@ function SectionSpaceSection() {
                 </div>
               </div>
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
                   <div className="font-bold! text-[rgba(220,53,69,1)]!">
                     {"03"}
                   </div>
@@ -192,7 +192,7 @@ function SectionSpaceSection() {
                 </div>
               </div>
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
                   <div className="font-bold! text-[rgba(220,53,69,1)]!">
                     {"04"}
                   </div>
@@ -207,7 +207,7 @@ function SectionSpaceSection() {
                 </div>
               </div>
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
                   <div className="font-bold! text-[rgba(220,53,69,1)]!">
                     {"05"}
                   </div>
@@ -222,7 +222,7 @@ function SectionSpaceSection() {
                 </div>
               </div>
               <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+                <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
                   <div className="font-bold! text-[rgba(220,53,69,1)]!">
                     {"06"}
                   </div>
@@ -258,7 +258,7 @@ function SectionSpaceSection2() {
         </div>
         <div className="flex flex-wrap mt-[1rem]! mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)]">
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+            <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
               <span className="text-[42px]!">{"🔍"}</span>
               <h4 className="mt-[1rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                 {"SS 587 Audit services"}
@@ -270,14 +270,14 @@ function SectionSpaceSection2() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore audit ↗"}
               </SiteLink>
             </div>
           </div>
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+            <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
               <span className="text-[42px]!">{"📝"}</span>
               <h4 className="mt-[1rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                 {"SS 587 Consulting"}
@@ -289,14 +289,14 @@ function SectionSpaceSection2() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore consulting ↗"}
               </SiteLink>
             </div>
           </div>
           <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-            <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)]">
+            <div className="pt-[32px] pr-[24px] pb-[32px] pl-[24px] [background:#ffffff] rounded-[28px] shadow-[0_20px_35px_-12px_rgba(0,0,0,0.08)] h-full hover:shadow-[0_25px_40px_-12px_rgba(0,0,0,0.15)] [transition:all_0.2s_ease] motion-reduce:transition-none">
               <span className="text-[42px]!">{"🏫"}</span>
               <h4 className="mt-[1rem]! mb-[0] [font-weight:600] leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                 {"SS 587 Training"}
@@ -308,7 +308,7 @@ function SectionSpaceSection2() {
               </p>
               <SiteLink
                 href="/contact-us"
-                className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset]"
+                className="text-[#FFFFFF] [text-decoration:none] mt-[1rem]! pt-[0] pr-[0] pb-[0] pl-[0] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
               >
                 {"Explore training ↗"}
               </SiteLink>
@@ -411,79 +411,79 @@ function SectionSpaceSection4() {
           </h2>
         </div>
         <div className="mt-[1.5rem]! text-center!">
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Fintech & Payments"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Telecommunications"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Data Centres"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"CII sectors"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Construction"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Marine & Offshore"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Logistics"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Pharmaceutical"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Manufacturing"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Healthcare"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Banking & Finance"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Energy & Utilities"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Aviation"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Retail"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Government"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Insurance"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Hospitality"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Cybersecurity"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Education"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Real Estate"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Waste Mgmt"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Food & Beverage"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Professional Services"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Media & Entertainment"}
           </span>
-          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white]">
+          <span className="mt-[5px] mr-[5px] mb-[5px] ml-[5px] pt-[6px] pr-[20px] pb-[6px] pl-[20px] inline-block [background:#f0f2f5] rounded-[40px] text-[14px] font-medium hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
             {"Transport & Mobility"}
           </span>
         </div>
@@ -511,7 +511,7 @@ function ContainerSection2() {
             </p>
             <SiteLink
               href="/contact-us"
-              className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D]"
+              className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
             >
               {"Check MASA grant eligibility ↗"}
             </SiteLink>
@@ -665,13 +665,13 @@ function ContainerSection3() {
         <div className="mt-[1.5rem]!">
           <SiteLink
             href="/contact-us"
-            className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D]"
+            className="text-[#2B3944] [text-decoration:none] pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#AB052D] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
           >
             {"Book a free consultation ↗"}
           </SiteLink>
           <SiteLink
             href="/contact-us"
-            className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944]"
+            className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-[1rem]! pt-[14px] pr-[26px] pb-[14px] pl-[26px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,_255,_255,_0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-[1] overflow-hidden hover:[background:#2B3944] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
           >
             {"Get a quote + grant check ↗"}
           </SiteLink>

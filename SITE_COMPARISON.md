@@ -32,3 +32,18 @@ Restored source-marked staggered headings, delayed fade/slide entrances, directi
 ## Remaining integrations
 
 Contact and newsletter forms open an email draft; the reference's PHP submission backend is not implemented in Next.js. The language selector uses the supplied JSON translations and remembers the selection across navigation and reloads. Those files only contain header and banner strings; page content remains English until translated page content is supplied. Some broken or empty reference links point to relevant existing pages in the app.
+
+## Animation audit — 28 September 2026
+
+Reviewed all 34 app page references, including their shared JavaScript, main CSS, and page-specific animation styles. Fixed animation behavior in the corresponding native TSX components:
+
+- Corrected fade/slide distances and default timing, replaying staggered headings, and counter-moving image reveals.
+- Matched the home marquee's rightward 1,000px movement over 20 seconds and the decoration's scroll trigger.
+- Restored icon squash/stretch, brand logo entrances, play-button pulsing and magnetic movement, and industry hotspot rotation every 1.5 seconds.
+- Restored the reference hover and focus transition timings, including pseudo-element underlines.
+- Added Motion carousel movement over 1.5 seconds, reference autoplay delays, looping where configured, and pause behavior. Inactive portfolio tabs do not advance.
+- Restored the service pagination panels, their controls, and the 0.5-second panel entrance. Added the industry detail entrance and menu icon drawing animation.
+- Added drawer/modal closing transitions, desktop cursor tracking on the 22 reference pages that include it, and the back-to-top entrance after 150px with a 0.5-second scroll.
+- Preserved Tailwind styling, accessible labels, keyboard controls, and reduced-motion behavior.
+
+Lint, TypeScript, and the production build pass. Browser automation is unavailable in this session, so these changes have not received visual browser verification. No test suites were added or run.

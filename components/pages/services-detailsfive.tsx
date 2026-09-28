@@ -50,7 +50,7 @@ function ServicesAreaSection() {
                 }
               </p>
               <div className="mt-[20px] mr-[0] mb-[20px] ml-[0] grid [grid-template-columns:repeat(4,_1fr)] max-[768px]:[grid-template-columns:1fr] gap-[20px]">
-                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                     {"1M+"}
                   </div>
@@ -61,7 +61,7 @@ function ServicesAreaSection() {
                     {"world's most adopted standard"}
                   </small>
                 </div>
-                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                     {"3–6 mo"}
                   </div>
@@ -70,7 +70,7 @@ function ServicesAreaSection() {
                   </p>
                   <small className="text-[.875em]">{"certification"}</small>
                 </div>
-                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                     {"50%"}
                   </div>
@@ -81,7 +81,7 @@ function ServicesAreaSection() {
                     {"for qualifying SMEs"}
                   </small>
                 </div>
-                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff]">
+                <div className="pt-[1.5rem] pr-[1.5rem] pb-[1.5rem] pl-[1.5rem] [background:#f8f9fa] rounded-[16px] text-center [border:1px_solid_#e9ecef] hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
                     {"25+"}
                   </div>
@@ -128,7 +128,7 @@ function ServicesAreaSection() {
                 </p>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#fff] [text-decoration:none] inline-flex pt-[10px]! pr-[24px]! pb-[10px]! pl-[24px]! text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#198754] hover:text-[#fff] hover:bg-[#157347] hover:[border-color:#146c43] focus-visible:text-[#fff] focus-visible:bg-[#157347] focus-visible:[border-color:#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] active:text-[#fff] active:bg-[#146c43] active:[border-color:#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] mt-[1rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#3B6D11]! items-center justify-center gap-[10px] hover:[background:#2D550D] hover:[transform:translateY(-2px)]"
+                  className="text-[#fff] [text-decoration:none] inline-flex pt-[10px]! pr-[24px]! pb-[10px]! pl-[24px]! text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#198754] hover:text-[#fff] hover:bg-[#157347] hover:[border-color:#146c43] focus-visible:text-[#fff] focus-visible:bg-[#157347] focus-visible:[border-color:#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] active:text-[#fff] active:bg-[#146c43] active:[border-color:#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] mt-[1rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#3B6D11]! items-center justify-center gap-[10px] hover:[background:#2D550D] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                 >
                   {"ISO 9001:2026 transition →"}
                 </SiteLink>
@@ -154,7 +154,7 @@ function ServicesAreaSection() {
                 }
               </h3>
               <div className="mt-[20px] mr-[0] mb-[20px] ml-[0] grid [grid-template-columns:repeat(2,_1fr)] max-[768px]:[grid-template-columns:1fr] gap-[20px]">
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"📋 Principle 1 — Customer focus"}
                   </strong>
@@ -163,7 +163,7 @@ function ServicesAreaSection() {
                     "Understanding and meeting customer requirements — the primary focus of quality management"
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"👔 Principle 2 — Leadership"}
                   </strong>
@@ -172,7 +172,7 @@ function ServicesAreaSection() {
                     "Establishing unity of purpose, direction, and engagement — active commitment from top management"
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"👥 Principle 3 — Engagement of people"}
                   </strong>
@@ -181,7 +181,7 @@ function ServicesAreaSection() {
                     "Empowering competent, motivated people at all levels — quality depends on everyone"
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"🔄 Principle 4 — Process approach"}
                   </strong>
@@ -190,7 +190,7 @@ function ServicesAreaSection() {
                     "Managing activities as interconnected processes — foundation of ICFC's QMS design"
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"📈 Principle 5 — Improvement"}
                   </strong>
@@ -199,7 +199,7 @@ function ServicesAreaSection() {
                     "Ongoing focus on enhancing performance — PDCA cycle driving continual improvement"
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"📊 Principle 6 — Evidence-based decision making"}
                   </strong>
@@ -208,7 +208,7 @@ function ServicesAreaSection() {
                     "Analysing data to drive decisions — quality metrics and performance indicators"
                   }
                 </div>
-                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
+                <div className="pt-[1rem]! pr-[1rem]! pb-[1rem]! pl-[1rem]! bg-[#f8f9fa]! rounded-[0.375rem]! hover:[transform:translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] [transition:all_0.3s] motion-reduce:transition-none">
                   <strong className="[font-weight:bolder]">
                     {"🤝 Principle 7 — Relationship management"}
                   </strong>
@@ -220,7 +220,7 @@ function ServicesAreaSection() {
               </div>
               <div className="flex flex-wrap mt-[1.5rem]! mr-[calc(-.5_*_3rem)] ml-[calc(-.5_*_3rem)] mb-[5px]!">
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)]">
+                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="survey"
                       className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]! inline-block [font-style:normal] text-[#C8102E]!"
@@ -235,14 +235,14 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
+                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                     >
                       {"Explore audit →"}
                     </SiteLink>
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)]">
+                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="file"
                       className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]! inline-block [font-style:normal] text-[#C8102E]!"
@@ -257,14 +257,14 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
+                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                     >
                       {"Explore consulting →"}
                     </SiteLink>
                   </div>
                 </div>
                 <div className="[flex-shrink:0] w-[33.33333333%] max-[768px]:w-full max-w-full pr-[calc(3rem_*_.5)] pl-[calc(3rem_*_.5)] mt-[1.5rem] [flex:0_0_auto]">
-                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)]">
+                  <div className="[border:1px_solid_#dee2e6]! h-full! pt-[1.5rem]! pr-[1.5rem]! pb-[1.5rem]! pl-[1.5rem]! bg-[rgba(255,255,255,1)]! rounded-[0.375rem]! [background:#fff] hover:[transform:translateY(-8px)] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] [transition:all_0.3s_ease] motion-reduce:transition-none">
                     <Icon
                       name="user"
                       className="text-[2.5rem]! max-[1200px]:text-[calc(1.375rem_+_1.5vw)]! inline-block [font-style:normal] text-[#C8102E]!"
@@ -279,7 +279,7 @@ function ServicesAreaSection() {
                     </p>
                     <SiteLink
                       href="/services"
-                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)]"
+                      className="text-[#fff] [text-decoration:none] pt-[10px] pr-[24px] pb-[10px] pl-[24px] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#fff] [border:none] [background:#C8102E] inline-flex items-center gap-[8px] rounded-[50px] text-[13px] font-semibold hover:[background:#8B0A1E] hover:[transform:translateX(5px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                     >
                       {"Explore training →"}
                     </SiteLink>
@@ -303,7 +303,7 @@ function ServicesAreaSection() {
                 </p>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#fff] [text-decoration:none] inline-flex pt-[10px]! pr-[24px]! pb-[10px]! pl-[24px]! text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#198754] hover:text-[#fff] hover:bg-[#157347] hover:[border-color:#146c43] focus-visible:text-[#fff] focus-visible:bg-[#157347] focus-visible:[border-color:#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] active:text-[#fff] active:bg-[#146c43] active:[border-color:#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] mt-[1rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#3B6D11]! items-center justify-center gap-[10px] hover:[background:#2D550D] hover:[transform:translateY(-2px)]"
+                  className="text-[#fff] [text-decoration:none] inline-flex pt-[10px]! pr-[24px]! pb-[10px]! pl-[24px]! text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#198754] hover:text-[#fff] hover:bg-[#157347] hover:[border-color:#146c43] focus-visible:text-[#fff] focus-visible:bg-[#157347] focus-visible:[border-color:#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] active:text-[#fff] active:bg-[#146c43] active:[border-color:#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,_.5)] mt-[1rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#3B6D11]! items-center justify-center gap-[10px] hover:[background:#2D550D] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                 >
                   {"Check grant eligibility →"}
                 </SiteLink>
@@ -523,7 +523,7 @@ function ServicesAreaSection() {
                 </p>
                 <SiteLink
                   href="/contact-us"
-                  className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#C8102E] items-center justify-center gap-[10px] hover:[background:#8B0A1E] hover:[transform:translateY(-2px)]"
+                  className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] mt-[.5rem]! focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#C8102E] items-center justify-center gap-[10px] hover:[background:#8B0A1E] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                 >
                   {"中文咨询 · 免费评估 →"}
                 </SiteLink>
@@ -540,19 +540,19 @@ function ServicesAreaSection() {
                 <div className="flex! flex-wrap! justify-center! mt-[1rem]! gap-[1rem]!">
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#C8102E] items-center justify-center gap-[10px] hover:[background:#8B0A1E] hover:[transform:translateY(-2px)]"
+                    className="text-[#fff] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:none] rounded-[8px] bg-[#0d6efd] hover:text-[#fff] hover:bg-[#0b5ed7] hover:[border-color:#0a58ca] focus-visible:text-[#fff] focus-visible:bg-[#0b5ed7] focus-visible:[border-color:#0a58ca] focus-visible:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] active:text-[#fff] active:bg-[#0a58ca] active:[border-color:#0a53be] active:shadow-[0_0_0_0.25rem_rgba(49,132,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:#C8102E] items-center justify-center gap-[10px] hover:[background:#8B0A1E] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Book free QMS assessment →"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#C8102E] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#C8102E] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
+                    className="text-[#C8102E] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#C8102E] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#C8102E] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"Check grant eligibility"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
-                    className="text-[#C8102E] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#C8102E] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#C8102E] hover:[transform:translateY(-2px)]"
+                    className="text-[#C8102E] [text-decoration:none] inline-flex pt-[12px] pr-[28px] pb-[12px] pl-[28px] text-[14px] font-semibold leading-[1.5] text-center [vertical-align:middle] [user-select:none] [border:2px_solid_#C8102E] rounded-[8px] bg-[transparent] hover:text-[#fff] hover:bg-[#0d6efd] hover:[border-color:#0d6efd] focus-visible:text-[#fff] focus-visible:bg-[#0d6efd] focus-visible:[border-color:#0d6efd] focus-visible:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] active:text-[#fff] active:bg-[#0d6efd] active:[border-color:#0d6efd] active:shadow-[0_0_0_0.25rem_rgba(13,110,253,_.5)] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] [background:transparent] items-center justify-center gap-[10px] hover:[background:#C8102E] hover:[transform:translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                   >
                     {"ISO 9001:2026 transition"}
                   </SiteLink>
@@ -688,7 +688,7 @@ function CtaAreaSection() {
                   }
                   <SiteLink
                     href="/contact-us"
-                    className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block"
+                    className="text-[inherit] [text-decoration:underline] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] inline-block [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
                     {"Start your quality management journey today →"}
                   </SiteLink>

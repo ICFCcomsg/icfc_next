@@ -27,7 +27,7 @@ export function SiteFooter() {
                 <div>
                   <div>
                     <SiteLink
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       href="/"
                     >
                       <SiteImage
@@ -37,7 +37,7 @@ export function SiteFooter() {
                       />
                     </SiteLink>
                     <SiteLink
-                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent]"
+                      className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       href="/"
                     ></SiteLink>
                   </div>
@@ -54,7 +54,7 @@ export function SiteFooter() {
                         </span>
                         <SiteLink
                           href="tel:+6586017001"
-                          className="text-[rgba(255,_255,_255,_0.4392156863)] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px]"
+                          className="text-[rgba(255,_255,_255,_0.4392156863)] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {"+65 8601 7001"}
                         </SiteLink>
@@ -65,7 +65,7 @@ export function SiteFooter() {
                         </span>
                         <SiteLink
                           href="mailto:admin@icfc.com.sg"
-                          className="text-[rgba(255,_255,_255,_0.4392156863)] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px]"
+                          className="text-[rgba(255,_255,_255,_0.4392156863)] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           {"admin@icfc.com.sg"}
                         </SiteLink>
@@ -80,7 +80,7 @@ export function SiteFooter() {
                       <div className="inline-flex gap-[12px] items-center">
                         <SiteLink
                           href="/contact-us"
-                          className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a"
+                          className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a [transition:0.5s] motion-reduce:transition-none"
                         >
                           <svg
                             width="14"
@@ -93,13 +93,13 @@ export function SiteFooter() {
                             <path
                               d="M11.624 11.9541L12.193 8.54137L8.63572 8.54137V6.32676C8.63572 5.39311 9.13264 4.48303 10.7258 4.48303H12.343V1.57748C12.343 1.57748 10.8755 1.34692 9.47233 1.34692C6.54282 1.34692 4.62796 2.98146 4.62796 5.94041L4.62796 8.54137H1.37158L1.37158 11.9541H4.62796L4.62796 20.2041H8.63572L8.63572 11.9541H11.624Z"
                               fill="white"
-                              className="group-hover/a:[fill:#FFFFFF]"
+                              className="group-hover/a:[fill:#FFFFFF] [transition:0.3s] motion-reduce:transition-none"
                             ></path>
                           </svg>
                         </SiteLink>
                         <SiteLink
                           href="/contact-us"
-                          className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a"
+                          className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a [transition:0.5s] motion-reduce:transition-none"
                         >
                           <svg
                             width="18"
@@ -112,18 +112,18 @@ export function SiteFooter() {
                             <path
                               d="M17.6045 5.45036C17.5641 4.53485 17.4161 3.9055 17.204 3.3601C16.9852 2.78121 16.6486 2.26294 16.2077 1.83208C15.7768 1.39452 15.2551 1.0545 14.6829 0.839154C14.1344 0.627106 13.5083 0.479009 12.5928 0.438686C11.6705 0.394863 11.3777 0.384766 9.03843 0.384766C6.69917 0.384766 6.40637 0.394863 5.48747 0.435253C4.57199 0.475643 3.94261 0.623808 3.39738 0.835721C2.81832 1.0545 2.30005 1.39108 1.86919 1.83208C1.43163 2.26291 1.09178 2.78461 0.876264 3.3568C0.664216 3.9055 0.516152 4.53148 0.475796 5.44692C0.432006 6.36927 0.421875 6.66206 0.421875 9.00132C0.421875 11.3406 0.432006 11.6334 0.472363 12.5523C0.512753 13.4678 0.660917 14.0971 0.872999 14.6425C1.09178 15.2214 1.43163 15.7397 1.86919 16.1706C2.30005 16.6081 2.82175 16.9481 3.39395 17.1635C3.94258 17.3755 4.56856 17.5236 5.4842 17.564C6.40294 17.6045 6.6959 17.6144 9.03516 17.6144C11.3744 17.6144 11.6672 17.6045 12.5861 17.564C13.5016 17.5236 14.131 17.3756 14.6762 17.1635C15.2489 16.9421 15.7689 16.6035 16.2031 16.1693C16.6372 15.7352 16.9759 15.2152 17.1973 14.6425C17.4092 14.0939 17.5574 13.4678 17.5978 12.5523C17.6382 11.6334 17.6483 11.3406 17.6483 9.00132C17.6483 6.66206 17.6449 6.36923 17.6045 5.45036ZM16.0529 12.485C16.0159 13.3264 15.8745 13.7808 15.7567 14.0837C15.4672 14.8343 14.8715 15.4301 14.1208 15.7196C13.8179 15.8374 13.3603 15.9787 12.5221 16.0157C11.6133 16.0562 11.3408 16.0662 9.04186 16.0662C6.74296 16.0662 6.46699 16.0562 5.56148 16.0157C4.72002 15.9787 4.26563 15.8374 3.96271 15.7196C3.5892 15.5815 3.24922 15.3628 2.97322 15.0767C2.68712 14.7973 2.46834 14.4607 2.33027 14.0872C2.21247 13.7842 2.07114 13.3264 2.03421 12.4884C1.99369 11.5796 1.98373 11.3069 1.98373 9.00802C1.98373 6.70911 1.99369 6.43315 2.03421 5.5278C2.07114 4.68634 2.21247 4.23196 2.33027 3.92903C2.46834 3.55535 2.68712 3.21544 2.97665 2.93937C3.25588 2.65328 3.59246 2.4345 3.96614 2.2966C4.26907 2.17879 4.72689 2.03743 5.56491 2.00037C6.47369 1.95998 6.74639 1.94988 9.04513 1.94988C11.3475 1.94988 11.62 1.95998 12.5255 2.00037C13.367 2.03746 13.8214 2.17876 14.1243 2.29656C14.4978 2.4345 14.8378 2.65328 15.1138 2.93937C15.3999 3.21877 15.6186 3.55535 15.7567 3.92903C15.8745 4.23196 16.0159 4.68961 16.0529 5.5278C16.0933 6.43658 16.1034 6.70911 16.1034 9.00802C16.1034 11.3069 16.0933 11.5762 16.0529 12.485Z"
                               fill="white"
-                              className="group-hover/a:[fill:#FFFFFF]"
+                              className="group-hover/a:[fill:#FFFFFF] [transition:0.3s] motion-reduce:transition-none"
                             ></path>
                             <path
                               d="M9.0335 4.57741C6.58997 4.57741 4.60742 6.55982 4.60742 9.00349C4.60742 11.4472 6.58997 13.4296 9.0335 13.4296C11.4771 13.4296 13.4596 11.4472 13.4596 9.00349C13.4596 6.55982 11.4771 4.57741 9.0335 4.57741ZM9.0335 11.8746C7.44826 11.8746 6.16237 10.5889 6.16237 9.00349C6.16237 7.41811 7.44826 6.13243 9.03347 6.13243C10.6188 6.13243 11.9046 7.41811 11.9046 9.00349C11.9046 10.5889 10.6188 11.8746 9.0335 11.8746ZM14.668 4.40239C14.668 4.97303 14.2053 5.4357 13.6345 5.4357C13.0639 5.4357 12.6013 4.97303 12.6013 4.40239C12.6013 3.83167 13.0639 3.36914 13.6346 3.36914C14.2053 3.36914 14.668 3.83164 14.668 4.40239Z"
                               fill="white"
-                              className="group-hover/a:[fill:#FFFFFF]"
+                              className="group-hover/a:[fill:#FFFFFF] [transition:0.3s] motion-reduce:transition-none"
                             ></path>
                           </svg>
                         </SiteLink>
                         <SiteLink
                           href="/contact-us"
-                          className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a"
+                          className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a [transition:0.5s] motion-reduce:transition-none"
                         >
                           <svg
                             width="16"
@@ -136,13 +136,13 @@ export function SiteFooter() {
                             <path
                               d="M9.35332 6.88729L14.6472 0.733521H13.3928L8.79603 6.07675L5.12465 0.733521H0.890137L6.44199 8.81343L0.890137 15.2666H2.1447L6.99896 9.62397L10.8762 15.2666H15.1107L9.35332 6.88729ZM7.63502 8.88462L7.0725 8.08004L2.59674 1.67793H4.52367L8.13567 6.84464L8.69818 7.64922L13.3933 14.3651H11.4664L7.63502 8.88462Z"
                               fill="white"
-                              className="group-hover/a:[fill:#FFFFFF]"
+                              className="group-hover/a:[fill:#FFFFFF] [transition:0.3s] motion-reduce:transition-none"
                             ></path>
                           </svg>
                         </SiteLink>
                         <SiteLink
                           href="/contact-us"
-                          className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a"
+                          className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[inherit] [border:1px_solid_#DBDEE1] [background:transparent] flex items-center justify-center w-[42px] h-[42px] text-[18px] bg-[#AB052D] rounded-full hover:[background:#AB052D] [border-color:rgba(255,_255,_255,_0.06)] group/a [transition:0.5s] motion-reduce:transition-none"
                         >
                           <svg
                             width="18"
@@ -155,7 +155,7 @@ export function SiteFooter() {
                             <path
                               d="M17.7973 17.7992V11.3532C17.7973 8.18522 17.1153 5.76522 13.4193 5.76522C11.6373 5.76522 10.4493 6.73322 9.96527 7.65722H9.92126V6.05122H6.42326V17.7992H10.0753V11.9692C10.0753 10.4292 10.3613 8.95522 12.2533 8.95522C14.1233 8.95522 14.1453 10.6932 14.1453 12.0572V17.7772H17.7973V17.7992ZM0.483266 6.05122H4.13527V17.7992H0.483266V6.05122ZM2.30927 0.199219C1.14327 0.199219 0.197266 1.14522 0.197266 2.31122C0.197266 3.47722 1.14327 4.44522 2.30927 4.44522C3.47527 4.44522 4.42127 3.47722 4.42127 2.31122C4.42127 1.14522 3.47527 0.199219 2.30927 0.199219Z"
                               fill="white"
-                              className="group-hover/a:[fill:#FFFFFF]"
+                              className="group-hover/a:[fill:#FFFFFF] [transition:0.3s] motion-reduce:transition-none"
                             ></path>
                           </svg>
                         </SiteLink>
@@ -175,7 +175,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"FinTech"}
                           </SiteLink>
@@ -183,7 +183,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"HealthTech"}
                           </SiteLink>
@@ -191,7 +191,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Logistics"}
                           </SiteLink>
@@ -199,7 +199,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Manufacturing"}
                           </SiteLink>
@@ -207,7 +207,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Construction"}
                           </SiteLink>
@@ -215,7 +215,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"E-Commerce"}
                           </SiteLink>
@@ -223,7 +223,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"SaaS Platforms"}
                           </SiteLink>
@@ -231,7 +231,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Food & Beverage"}
                           </SiteLink>
@@ -239,7 +239,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Education Services"}
                           </SiteLink>
@@ -247,7 +247,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Professional Consulting"}
                           </SiteLink>
@@ -255,7 +255,7 @@ export function SiteFooter() {
                         <li className="list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Renewable Energy"}
                           </SiteLink>
@@ -272,7 +272,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"PIMS"}
                           </SiteLink>
@@ -280,7 +280,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"ABMS"}
                           </SiteLink>
@@ -288,7 +288,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"APEC PRP"}
                           </SiteLink>
@@ -296,7 +296,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"BCMS"}
                           </SiteLink>
@@ -304,7 +304,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"CTM"}
                           </SiteLink>
@@ -312,7 +312,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"DPTM"}
                           </SiteLink>
@@ -320,7 +320,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"EMS"}
                           </SiteLink>
@@ -328,7 +328,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"MTCS"}
                           </SiteLink>
@@ -336,7 +336,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"OHMS"}
                           </SiteLink>
@@ -344,7 +344,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"QMS"}
                           </SiteLink>
@@ -352,7 +352,7 @@ export function SiteFooter() {
                         <li className="list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"EOL"}
                           </SiteLink>
@@ -369,7 +369,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/about"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"About ICFC"}
                           </SiteLink>
@@ -377,7 +377,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Our Services"}
                           </SiteLink>
@@ -385,7 +385,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Our Industries"}
                           </SiteLink>
@@ -393,7 +393,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/contact-us"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Contact Us"}
                           </SiteLink>
@@ -401,7 +401,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/blog"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Blogs"}
                           </SiteLink>
@@ -409,7 +409,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/industry"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Industries"}
                           </SiteLink>
@@ -417,7 +417,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/services"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Services"}
                           </SiteLink>
@@ -425,7 +425,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/privacy-policy"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Privacy Policy"}
                           </SiteLink>
@@ -433,7 +433,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/contact-us"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Resources"}
                           </SiteLink>
@@ -441,7 +441,7 @@ export function SiteFooter() {
                         <li className="mb-[15px] list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/privacy-policy"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Terms & Conditions"}
                           </SiteLink>
@@ -449,7 +449,7 @@ export function SiteFooter() {
                         <li className="list-none font-normal text-[rgba(255,_255,_255,_0.43)]">
                           <SiteLink
                             href="/contact-us"
-                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] before:hover:opacity-[1] before:hover:[visibility:visible] before:[content:'\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden]"
+                            className="text-[inherit] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:[padding-inline-start:20px] hover:before:opacity-[1] hover:before:[visibility:visible] before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-[0] before:mr-[0] before:mb-[0] before:ml-[0] before:font-normal before:inline-block before:absolute before:[inset-inline-start:0] before:opacity-[0] before:[visibility:hidden] [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
                             {"Expert Teams"}
                           </SiteLink>
@@ -464,21 +464,21 @@ export function SiteFooter() {
                     <SiteImage
                       src="/assets/images/brand/brand-thumb-07.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1]"
+                      className="[vertical-align:middle] max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     />
                   </div>
                   <div className="group/footer-brand-thumb">
                     <SiteImage
                       src="/assets/images/brand/brand-thumb-08.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1]"
+                      className="[vertical-align:middle] max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     />
                   </div>
                   <div className="group/footer-brand-thumb">
                     <SiteImage
                       src="/assets/images/brand/brand-thumb-09.webp"
                       alt="image"
-                      className="[vertical-align:middle] max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1]"
+                      className="[vertical-align:middle] max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     />
                   </div>
                 </div>
@@ -497,7 +497,7 @@ export function SiteFooter() {
                     <div>
                       <SiteLink
                         href="/privacy-policy"
-                        className="text-[#BFC4C7] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px]"
+                        className="text-[#BFC4C7] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Terms & Agreements"}
                       </SiteLink>
@@ -507,7 +507,7 @@ export function SiteFooter() {
                     <div>
                       <SiteLink
                         href="/privacy-policy"
-                        className="text-[#BFC4C7] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px]"
+                        className="text-[#BFC4C7] [text-decoration:none] focus:[text-decoration:none] focus:text-[inherit] hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         {"Privacy policy"}
                       </SiteLink>
@@ -519,7 +519,9 @@ export function SiteFooter() {
                     <div>
                       <p className="mt-[0] mb-[0] text-[17px] [font-weight:normal] text-[#BFC4C7] leading-[28px] text-center">
                         {"Copyright © "}
-                        <span id="year">{"2026"}</span>
+                        <span id="year" className="">
+                          {"2026"}
+                        </span>
                         {" ICFC PTE LTD"}
                       </p>
                     </div>
