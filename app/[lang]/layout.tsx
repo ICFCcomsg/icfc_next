@@ -1,20 +1,27 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
-import "./globals.css";
-import "./icfc-components.css";
+import { notFound } from "next/navigation";
+import "../globals.css";
+import "../icfc-components.css";
 import { CookieConsent } from "@/components/organisms/cookie-consent";
 import { FloatingDock } from "@/components/organisms/floating-dock";
-import strings from "@/lib/i18n/en.json";
+import { LANGS, getLang, isPublished } from "@/lib/i18n";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
 
 const interTight = localFont({
-  src: "../public/assets/fonts/inter-tight-latin.woff2",
+  src: "../../public/assets/fonts/inter-tight-latin.woff2",
   variable: "--font-inter-tight",
   weight: "100 900",
   display: "swap",
 });
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return LANGS.map((l) => ({ lang: l.segment }));
+}
 
 export const metadata: Metadata = {
   title: "ICFC Pte Ltd | Audit, Consulting and Training Singapore",
@@ -24,11 +31,17 @@ export const metadata: Metadata = {
   openGraph: { images: ["/images/icfc/og-image-default.png"] },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children, params }: LayoutProps<"/[lang]">) {
+  const { lang: segment } = await params;
+  const lang = getLang(segment);
+  if (!lang) notFound();
+  const strings = (await import(`@/lib/i18n/${lang.code}.json`)).default;
   return (
-    <html lang="en" dir="ltr" className={interTight.variable}>
+    <html lang={lang.code} dir="ltr" className={interTight.variable}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Unreviewed translations stay out of search until published in lib/i18n.ts. */}
+        {!isPublished(segment) && <meta name="robots" content="noindex, follow" />}
         {/* Google Consent Mode defaults must run before GTM loads. */}
         {/* Plain inline script so it runs first; extensions (ad/popup blockers) often rewrite it, hence suppressHydrationWarning. */}
         <script
@@ -46,7 +59,7 @@ gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personali
       <body className="bg-white font-sans text-[16px] leading-normal text-[#616C74] antialiased [&_button]:cursor-pointer [&_a]:focus-visible:outline-2 [&_a]:focus-visible:outline-offset-4 [&_a]:focus-visible:outline-[#AB052D] [&_button]:focus-visible:outline-2 [&_button]:focus-visible:outline-offset-4 [&_button]:focus-visible:outline-[#AB052D]">
         {children}
         <CookieConsent t={strings} />
-        <FloatingDock t={strings} chatScriptSrc={process.env.NEXT_PUBLIC_FRAPPE_CHAT_SRC} />
+        <FloatingDock t={strings} lang={lang.code} chatScriptSrc={process.env.NEXT_PUBLIC_FRAPPE_CHAT_SRC} />
       </body>
     </html>
   );

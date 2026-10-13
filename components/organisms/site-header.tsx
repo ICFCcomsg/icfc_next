@@ -3,17 +3,19 @@ import { AnimatedMenuIcon } from "@/components/atoms/animated-element";
 import { Icon } from "@/components/atoms/icon";
 
 import { useState, useSyncExternalStore } from "react";
+import { usePathname } from "next/navigation";
 import { motion, useReducedMotion } from "motion/react";
 import { Modal } from "@/components/atoms/modal";
 import en from "@/public/lang/en.json";
 import zh from "@/public/lang/zh.json";
 import ms from "@/public/lang/ms.json";
 import ko from "@/public/lang/ko.json";
-import id from "@/public/lang/id.json";
 import { SiteLink } from "@/components/atoms/site-link";
+import { LANGS, localizedPath } from "@/lib/i18n";
 import { SiteImage } from "@/components/atoms/site-image";
 
-const translations = { en, zh, ms, ko, id };
+// Header labels per URL language; languages without header copy yet fall back to English.
+const translations: Record<string, typeof en> = { en, "zh-hans": zh, ms, ko };
 const navigation = [
   ["home", "/"],
   ["industries", "/industry"],
@@ -27,49 +29,23 @@ function subscribeScroll(update: () => void) {
   window.addEventListener("scroll", update, { passive: true });
   return () => window.removeEventListener("scroll", update);
 }
-function subscribeLanguage(update: () => void) {
-  window.addEventListener("storage", update);
-  window.addEventListener("icfc-language", update);
-  return () => {
-    window.removeEventListener("storage", update);
-    window.removeEventListener("icfc-language", update);
-  };
-}
-function getLanguage(): keyof typeof translations {
-  try {
-    const saved = localStorage.getItem("user_selected_lang");
-    return saved && Object.hasOwn(translations, saved)
-      ? (saved as keyof typeof translations)
-      : "en";
-  } catch {
-    return "en";
-  }
-}
-function selectLanguage(value: string) {
-  if (!Object.hasOwn(translations, value)) return;
-  try {
-    localStorage.setItem("user_selected_lang", value);
-    window.dispatchEvent(new Event("icfc-language"));
-  } catch {
-    /* Storage can be disabled by browser settings. */
-  }
-}
 
 export function SiteHeader({ route }: { route: string }) {
   const [panel, setPanel] = useState<"menu" | "search" | null>(null);
   const [query, setQuery] = useState("");
-  const language = useSyncExternalStore<keyof typeof translations>(
-    subscribeLanguage,
-    getLanguage,
-    () => "en",
-  );
+  // The URL decides the language: "/zh-hans/..." is Simplified Chinese, unprefixed is English.
+  const pathname = usePathname();
+  const first = pathname.split("/")[1];
+  const lang = LANGS.find((l) => l.prefix && l.segment === first) ?? LANGS[0];
+  const basePath = lang.prefix ? pathname.slice(lang.prefix.length) || "/" : pathname;
+  const href = (path: string) => localizedPath(lang.segment, path);
   const sticky = useSyncExternalStore(
     subscribeScroll,
     () => window.scrollY > 200,
     () => false,
   );
   const reducedMotion = useReducedMotion();
-  const copy = translations[language];
+  const copy = translations[lang.segment] ?? en;
   function isCurrent(href: string) {
     if (href === "/") return route === "index";
     if (href === "/services") return route.startsWith("services");
@@ -90,11 +66,11 @@ export function SiteHeader({ route }: { route: string }) {
         aria-label="Main navigation"
       >
         <ul>
-          {navigation.map(([label, href]) => (
-            <li key={href}>
+          {navigation.map(([label, path]) => (
+            <li key={path}>
               <SiteLink
-                href={href}
-                aria-current={isCurrent(href) ? "page" : undefined}
+                href={href(path)}
+                aria-current={isCurrent(path) ? "page" : undefined}
               >
                 {copy.nav[label]}
               </SiteLink>
@@ -151,14 +127,16 @@ export function SiteHeader({ route }: { route: string }) {
           <select
             className="w-36 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-[13px] font-medium text-[#111]"
             aria-label={copy.header.language_label}
-            value={language}
-            onChange={(event) => selectLanguage(event.target.value)}
+            value={lang.segment}
+            onChange={(event) => {
+              window.location.href = localizedPath(event.target.value, basePath);
+            }}
           >
-            <option value="en">Select Language</option>
-            <option value="zh">中文</option>
-            <option value="ms">Melayu</option>
-            <option value="ko">한국어</option>
-            <option value="id">Bahasa</option>
+            {LANGS.map((l) => (
+              <option key={l.segment} value={l.segment} lang={l.code}>
+                {l.label}
+              </option>
+            ))}
           </select>
           <SiteLink
             href="tel:+6586017001"
@@ -254,11 +232,11 @@ export function SiteHeader({ route }: { route: string }) {
                   panel !== "search" ||
                   copy.nav[label].toLowerCase().includes(query.toLowerCase()),
               )
-              .map(([label, href]) => (
+              .map(([label, path]) => (
                 <SiteLink
-                  key={href}
-                  href={href}
-                  aria-current={isCurrent(href) ? "page" : undefined}
+                  key={path}
+                  href={href(path)}
+                  aria-current={isCurrent(path) ? "page" : undefined}
                 >
                   {copy.nav[label]}
                 </SiteLink>

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ServicePageContent } from "@/components/pages/service";
+import { alternatesFor } from "@/lib/i18n";
 import { getService, services } from "@/lib/service-data";
 
-type Props = { params: Promise<{ slug: string }> };
+type Props = { params: Promise<{ lang: string; slug: string }> };
 
 export const dynamicParams = false;
 
@@ -12,12 +13,13 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const s = getService((await params).slug);
+  const { lang, slug } = await params;
+  const s = getService(slug);
   return {
     title: s?.title,
     description: s?.description,
     keywords: s?.keywords,
-    alternates: { canonical: `/services/${s?.slug}` },
+    alternates: alternatesFor(lang, `/services/${slug}`),
   };
 }
 
