@@ -124,7 +124,7 @@ function AboutAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Startup & Enterprise Support "}
+                      {" SME & Enterprise Support "}
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -858,10 +858,10 @@ function ServicesAreaSection() {
                     <div className="mb-3.75 flex [align-items:start] justify-between gap-7.5 max-[575px]:gap-5 max-[575px]:flex-wrap">
                       <div>
                         <span className="mb-3.75 text-[15px] tracking-[0.02em] inline-block text-[white]">
-                          {"2012 - 2015"}
+                          {"2014"}
                         </span>
                         <h4 className="mt-0 mb-0 font-medium leading-[1.33] text-[#FFFFFF] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                          {"Startup & Foundation"}
+                          {"Founded in Singapore"}
                         </h4>
                       </div>
                       <div>

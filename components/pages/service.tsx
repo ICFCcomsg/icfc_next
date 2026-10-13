@@ -164,7 +164,7 @@ export function ServicePageContent({ service: s }: { service: Service }) {
               <p className="mt-3 mb-0 text-[14px] text-[#616C74]">
                 Information checked {FUNDING_CHECKED}. Grant decisions are made by
                 the funding agency.{" "}
-                <SiteLink href="/grants/edge" className="text-[#AB052D]">
+                <SiteLink href="/blogedg" className="text-[#AB052D]">
                   About EDGE
                 </SiteLink>
               </p>

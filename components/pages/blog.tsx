@@ -2,7 +2,7 @@ import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { BlogCard, type BlogPost } from "@/components/molecules/blog-card";
 
-const posts: BlogPost[] = [
+export const posts: BlogPost[] = [
   {
     href: "/blogcybersecurity",
     image: "/assets/images/blog/blog-thumb-01.webp",
