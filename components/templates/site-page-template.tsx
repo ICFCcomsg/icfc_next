@@ -5,7 +5,6 @@ import {
 import type { ReactNode } from "react";
 import { SiteHeader } from "@/components/organisms/site-header";
 import { SiteFooter } from "@/components/organisms/site-footer";
-import { FloatingContact } from "@/components/organisms/floating-contact";
 
 export function SitePageTemplate({
   route,
@@ -33,19 +32,12 @@ export function SitePageTemplate({
           "blogedg",
           "industry",
           "privacy-policy",
-          "services-details",
-          "services-detailsfive",
-          "services-detailsfour",
-          "services-detailsohms",
-          "services-detailsthree",
-          "services-detailstwo",
           "services",
         ].includes(route) && <CursorFollower />}
 
         <SiteHeader route={route} />
         {children}
         <SiteFooter />
-        <FloatingContact />
       </div>
     </SiteMotion>
   );

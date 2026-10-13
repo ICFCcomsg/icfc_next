@@ -1,0 +1,190 @@
+[
+ {
+  "t": "title",
+  "text": "Cookie Notice"
+ },
+ {
+  "t": "p",
+  "text": "ICFC Pte Ltd, UEN 201402439E. Singapore. Draft for legal review before publication."
+ },
+ {
+  "t": "h",
+  "text": "About this notice"
+ },
+ {
+  "t": "p",
+  "text": "This Cookie Notice explains how ICFC Pte Ltd uses cookies and similar technologies on icfc.com.sg. It should be read with our Privacy Policy."
+ },
+ {
+  "t": "h",
+  "text": "What cookies are"
+ },
+ {
+  "t": "p",
+  "text": "Cookies are small text files stored on your device when you visit a website. Similar technologies include pixels, tags and local storage. Some are set by us (first party) and some by other providers (third party)."
+ },
+ {
+  "t": "h",
+  "text": "Cookies and the PDPA"
+ },
+ {
+  "t": "p",
+  "text": "Where cookies collect personal data, the PDPA requires us to tell you the purposes and obtain your consent unless an exception applies. We go further than the minimum: apart from strictly necessary cookies, we set no cookies until you choose, our banner gives Accept all and Reject all equal weight, and using the site never depends on accepting optional cookies."
+ },
+ {
+  "t": "h",
+  "text": "Your choices"
+ },
+ {
+  "t": "p",
+  "text": "When you first visit, a banner lets you Accept all, Reject all or open Cookie settings. Only strictly necessary cookies are used until you choose. You can change or withdraw your choice at any time through Cookie settings in the footer; withdrawing stops new optional cookies, and you can delete existing ones in your browser. Rejecting optional cookies does not stop you using the website. We keep a record of your choice in the icfc_consent cookie for 12 months and ask again when we add new categories or providers."
+ },
+ {
+  "t": "h",
+  "text": "Categories we use"
+ },
+ {
+  "t": "li",
+  "text": "Strictly necessary (always on): Needed for the website to work, keep it secure and remember your cookie choices. They cannot be switched off. They do not identify you for marketing."
+ },
+ {
+  "t": "li",
+  "text": "Functional (off until you allow): Remember preferences such as language and enable optional features like the AI chat assistant and embedded videos in privacy-enhanced mode."
+ },
+ {
+  "t": "li",
+  "text": "Performance (off until you allow): Help us understand how visitors use the site, which pages work and where people get stuck, using aggregated statistics."
+ },
+ {
+  "t": "li",
+  "text": "Targeting (off until you allow): Used by advertising and social platforms to measure campaigns and show relevant ICFC content on other websites."
+ },
+ {
+  "t": "h",
+  "text": "Cookies list"
+ },
+ {
+  "t": "p",
+  "text": "The table below lists the cookies we use or may use. Providers can change cookie names; we review the list regularly."
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "Cookie",
+    "Provider",
+    "Category",
+    "Purpose",
+    "Typical duration"
+   ],
+   [
+    "icfc_consent",
+    "ICFC (first party)",
+    "Strictly necessary",
+    "Stores your cookie choices and their version",
+    "12 months"
+   ],
+   [
+    "Session and security cookies",
+    "ICFC website host",
+    "Strictly necessary",
+    "Keep the session working and protect forms against misuse",
+    "Session"
+   ],
+   [
+    "icfc_lang",
+    "ICFC (first party)",
+    "Functional",
+    "Remembers your chosen language",
+    "12 months"
+   ],
+   [
+    "Frappe chat cookies (such as sid)",
+    "ICFC Frappe chatbot",
+    "Functional",
+    "Keep the chat conversation linked to your browser",
+    "Session to [x] days"
+   ],
+   [
+    "PREF, YSC, VISITOR_INFO1_LIVE",
+    "YouTube (Google)",
+    "Targeting",
+    "Set only when you play an embedded video after allowing Targeting; until then videos use privacy-enhanced mode with a click-to-load placeholder",
+    "Session to 6 months"
+   ],
+   [
+    "_ga, _ga_ followed by the property ID",
+    "Google Analytics 4",
+    "Performance",
+    "Distinguish visitors and sessions for statistics",
+    "Up to 2 years"
+   ],
+   [
+    "_clck, _clsk",
+    "Microsoft Clarity",
+    "Performance",
+    "Session replay and heatmap statistics",
+    "1 day to 1 year"
+   ],
+   [
+    "_hjSessionUser and _hjSession cookies",
+    "Hotjar (if used instead of Clarity)",
+    "Performance",
+    "Session and heatmap statistics",
+    "30 minutes to 1 year"
+   ],
+   [
+    "_fbp, fr",
+    "Meta Pixel",
+    "Targeting",
+    "Measure and target advertising on Meta platforms",
+    "Up to 3 months"
+   ],
+   [
+    "li_sugr, bcookie, lidc, UserMatchHistory, AnalyticsSyncHistory",
+    "LinkedIn Insight Tag",
+    "Targeting",
+    "Measure LinkedIn campaigns and build audiences",
+    "1 day to 1 year"
+   ],
+   [
+    "Google Tag Manager",
+    "Google",
+    "Strictly necessary loader",
+    "Loads tags according to your consent; does not itself set tracking cookies",
+    "None"
+   ],
+   [
+    "Search Console verification",
+    "Google",
+    "Not a cookie",
+    "Verifies site ownership through a meta tag or DNS record; no cookie is set",
+    "None"
+   ]
+  ]
+ },
+ {
+  "t": "h",
+  "text": "Third-party providers"
+ },
+ {
+  "t": "p",
+  "text": "Google, Microsoft, Meta, LinkedIn and YouTube act under their own privacy policies for data they collect through their cookies. Some of these providers process data outside Singapore; see section 9 of our Privacy Policy on overseas transfers."
+ },
+ {
+  "t": "h",
+  "text": "Browser controls"
+ },
+ {
+  "t": "p",
+  "text": "You can also delete or block cookies in your browser settings. Blocking strictly necessary cookies may stop parts of the site working."
+ },
+ {
+  "t": "h",
+  "text": "Contact"
+ },
+ {
+  "t": "p",
+  "text": "Questions about cookies can be sent to our Data Protection Officer at nandhan@icfc.com.sg. Effective date: [effective date to be set on publication]."
+ }
+]

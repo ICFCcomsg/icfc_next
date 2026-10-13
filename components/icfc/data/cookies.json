@@ -1,0 +1,86 @@
+[
+  {
+    "name": "icfc_consent",
+    "provider": "ICFC (first party)",
+    "category": "Strictly necessary",
+    "purpose": "Stores your cookie choices and their version",
+    "duration": "12 months"
+  },
+  {
+    "name": "Session and security cookies",
+    "provider": "ICFC website host",
+    "category": "Strictly necessary",
+    "purpose": "Keep the session working and protect forms against misuse",
+    "duration": "Session"
+  },
+  {
+    "name": "icfc_lang",
+    "provider": "ICFC (first party)",
+    "category": "Functional",
+    "purpose": "Remembers your chosen language",
+    "duration": "12 months"
+  },
+  {
+    "name": "Frappe chat cookies (such as sid)",
+    "provider": "ICFC Frappe chatbot",
+    "category": "Functional",
+    "purpose": "Keep the chat conversation linked to your browser",
+    "duration": "Session to [x] days"
+  },
+  {
+    "name": "PREF, YSC, VISITOR_INFO1_LIVE",
+    "provider": "YouTube (Google)",
+    "category": "Targeting",
+    "purpose": "Set only when you play an embedded video after allowing Targeting; until then videos use privacy-enhanced mode with a click-to-load placeholder",
+    "duration": "Session to 6 months"
+  },
+  {
+    "name": "_ga, _ga_ followed by the property ID",
+    "provider": "Google Analytics 4",
+    "category": "Performance",
+    "purpose": "Distinguish visitors and sessions for statistics",
+    "duration": "Up to 2 years"
+  },
+  {
+    "name": "_clck, _clsk",
+    "provider": "Microsoft Clarity",
+    "category": "Performance",
+    "purpose": "Session replay and heatmap statistics",
+    "duration": "1 day to 1 year"
+  },
+  {
+    "name": "_hjSessionUser and _hjSession cookies",
+    "provider": "Hotjar (if used instead of Clarity)",
+    "category": "Performance",
+    "purpose": "Session and heatmap statistics",
+    "duration": "30 minutes to 1 year"
+  },
+  {
+    "name": "_fbp, fr",
+    "provider": "Meta Pixel",
+    "category": "Targeting",
+    "purpose": "Measure and target advertising on Meta platforms",
+    "duration": "Up to 3 months"
+  },
+  {
+    "name": "li_sugr, bcookie, lidc, UserMatchHistory, AnalyticsSyncHistory",
+    "provider": "LinkedIn Insight Tag",
+    "category": "Targeting",
+    "purpose": "Measure LinkedIn campaigns and build audiences",
+    "duration": "1 day to 1 year"
+  },
+  {
+    "name": "Google Tag Manager",
+    "provider": "Google",
+    "category": "Strictly necessary loader",
+    "purpose": "Loads tags according to your consent; does not itself set tracking cookies",
+    "duration": "None"
+  },
+  {
+    "name": "Search Console verification",
+    "provider": "Google",
+    "category": "Not a cookie",
+    "purpose": "Verifies site ownership through a meta tag or DNS record; no cookie is set",
+    "duration": "None"
+  }
+]

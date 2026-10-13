@@ -1,0 +1,56 @@
+[
+  {
+    "code": "en",
+    "label": "English",
+    "hreflang": "en-SG",
+    "prefix": ""
+  },
+  {
+    "code": "zh-Hans",
+    "label": "简体中文",
+    "hreflang": "zh-Hans",
+    "prefix": "/zh-hans"
+  },
+  {
+    "code": "zh-Hant",
+    "label": "繁體中文",
+    "hreflang": "zh-Hant",
+    "prefix": "/zh-hant"
+  },
+  {
+    "code": "ms",
+    "label": "Bahasa Melayu",
+    "hreflang": "ms",
+    "prefix": "/ms"
+  },
+  {
+    "code": "ko",
+    "label": "한국어",
+    "hreflang": "ko",
+    "prefix": "/ko"
+  },
+  {
+    "code": "ja",
+    "label": "日本語",
+    "hreflang": "ja",
+    "prefix": "/ja"
+  },
+  {
+    "code": "bn",
+    "label": "বাংলা",
+    "hreflang": "bn",
+    "prefix": "/bn"
+  },
+  {
+    "code": "ta",
+    "label": "தமிழ்",
+    "hreflang": "ta",
+    "prefix": "/ta"
+  },
+  {
+    "code": "hi",
+    "label": "हिन्दी",
+    "hreflang": "hi",
+    "prefix": "/hi"
+  }
+]

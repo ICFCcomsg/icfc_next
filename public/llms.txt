@@ -1,0 +1,22 @@
+# ICFC Pte Ltd
+
+> Singapore-based audit, consulting and training firm founded in 2014 (UEN 201402439E). Third-party audits are delivered by ICFC auditors on behalf of accredited certification bodies; ICFC does not issue certificates itself. For SOC 1 and SOC 2, HIPAA, GDPR and CMMI, ICFC provides readiness, consulting and training only: SOC reports are issued by licensed CPA firms and CMMI ratings by CMMI Certified Lead Appraisers. Impartiality is the primary principle on every service.
+
+## Key pages
+- [Services](https://icfc.com.sg/services): 39 services across cybersecurity, IT and data protection, ISO management systems, Singapore standards and sustainability
+- [EDGE Grant guide](https://icfc.com.sg/grants/edge): how Singapore's EDGE Grant supports standards projects
+- [Training and LMS](https://icfc.com.sg/training): classroom and online courses on icfc.digital
+- [About and impartiality](https://icfc.com.sg/about)
+- [SS 680 certified consultancy](https://icfc.com.sg/about/ss-680-certified-consultancy): ICFC's consultancy is led by consultants certified to SS 680:2021; the certification is held by the consultants, not by ICFC
+- [Contact](https://icfc.com.sg/contact): +65 8601 7001, admin@icfc.com.sg
+
+## Popular services
+- [CSA Cyber Trust mark (SS 712)](https://icfc.com.sg/services/cyber-trust-mark-ss-712)
+- [Data Protection Trustmark (DPTM) SS 714](https://icfc.com.sg/services/data-protection-trustmark-ss-714)
+- [ISO/IEC 27001 Information Security Management System (ISMS)](https://icfc.com.sg/services/iso-iec-27001-isms)
+- [SOC 1 and SOC 2 attestation readiness (Type I and Type II)](https://icfc.com.sg/services/soc-1-soc-2-attestation-readiness)
+- [GDPR compliance (consulting and training)](https://icfc.com.sg/services/gdpr-compliance)
+- [HIPAA compliance (consulting and training)](https://icfc.com.sg/services/hipaa-compliance)
+- [CMMI compliance (consulting and training)](https://icfc.com.sg/services/cmmi-compliance)
+- [ISO 9001 Quality Management System (QMS)](https://icfc.com.sg/services/iso-9001-qms)
+- [ISO/IEC 42001 Artificial Intelligence Management System (AIMS)](https://icfc.com.sg/services/iso-iec-42001-aims)

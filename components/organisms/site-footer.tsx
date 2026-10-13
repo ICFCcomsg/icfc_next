@@ -1,3 +1,4 @@
+import { CookieSettingsLink } from "@/components/icfc/react/SiteBits.jsx";
 import { SiteImage } from "@/components/atoms/site-image";
 import { SiteLink } from "@/components/atoms/site-link";
 import { NewsletterForm } from "@/components/molecules/newsletter-form";
@@ -430,6 +431,9 @@ export function SiteFooter() {
                             {"Privacy Policy"}
                           </SiteLink>
                         </li>
+                        <li className="mb-3.75 list-none font-normal text-[rgba(255,255,255,0.43)] hover:text-[#AB052D]">
+                          <CookieSettingsLink />
+                        </li>
                         <li className="mb-3.75 list-none font-normal text-[rgba(255,255,255,0.43)]">
                           <SiteLink
                             href="/contact-us"
@@ -440,10 +444,10 @@ export function SiteFooter() {
                         </li>
                         <li className="mb-3.75 list-none font-normal text-[rgba(255,255,255,0.43)]">
                           <SiteLink
-                            href="/privacy-policy"
+                            href="/training/lms-terms"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] relative hover:ps-5 hover:before:opacity-[1] hover:before:visible before:[content:'\\\\f2e5'] before:text-[#AB052D] before:text-[18px] before:mt-0 before:mr-0 before:mb-0 before:ml-0 before:font-normal before:inline-block before:absolute before:inset-s-0 before:opacity-[0] before:invisible [transition:0.5s] motion-reduce:transition-none before:[transition:0.5s] before:motion-reduce:transition-none"
                           >
-                            {"Terms & Conditions"}
+                            {"LMS Terms & Conditions"}
                           </SiteLink>
                         </li>
                         <li className="list-none font-normal text-[rgba(255,255,255,0.43)]">
@@ -496,10 +500,10 @@ export function SiteFooter() {
                   <div>
                     <div>
                       <SiteLink
-                        href="/privacy-policy"
+                        href="/cookie-notice"
                         className="text-[#BFC4C7] [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {"Terms & Agreements"}
+                        {"Cookie Notice"}
                       </SiteLink>
                     </div>
                   </div>

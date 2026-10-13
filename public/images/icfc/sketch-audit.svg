@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-labelledby="t"><title id="t">Audit: magnifier over a checked document</title><rect width="600" height="450" rx="24" fill="#F8F8F9"/><g fill="none" stroke="#2B3944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M60 410 Q300.0 396 540 410" stroke="#DBDEE1" stroke-width="6"/>
+<rect x="140" y="70" width="230" height="290" rx="12" fill="#FFFFFF"/><path d="M180 130 h150 M180 175 h150 M180 220 h110 M180 265 h130" stroke="#DBDEE1" stroke-width="6"/>
+<path d="M180 130 l10 10 l20 -22 M180 175 l10 10 l20 -22" stroke="#AB052D"/>
+<circle cx="380" cy="260" r="80" fill="#FFFFFF" fill-opacity=".85"/><circle cx="380" cy="260" r="80"/><path d="M438 318 l70 70" stroke-width="12"/>
+<path d="M345 260 l24 24 l46 -52" stroke="#AB052D" stroke-width="7"/><circle cx="460" cy="90" r="5" fill="#AB052D" stroke="none"/><circle cx="486" cy="90" r="5" fill="#AB052D" stroke="none"/><circle cx="512" cy="90" r="5" fill="#AB052D" stroke="none"/></g></svg>

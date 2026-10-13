@@ -59,3 +59,36 @@ test("contact validation, CRM payload, and upstream failures", async () => {
     }
   }
 });
+
+test("dock enquiry stores marketing consent record and drops honeypot", async () => {
+  const originalFetch = globalThis.fetch;
+  const originalEnv = { ...process.env };
+  const leads = [];
+  const request = (body) => new Request("http://localhost/api/contact", {
+    method: "POST", headers: { origin: "http://localhost", "Content-Type": "application/json" }, body: JSON.stringify(body),
+  });
+  try {
+    Object.assign(process.env, { CRM_API_HOST: "https://crm.example.com", CRM_API_KEY: "k", CRM_API_SECRET: "s" });
+    globalThis.fetch = async (_url, init) => {
+      leads.push(JSON.parse(String(init?.body)));
+      return Response.json({ data: { name: "CRM-LEAD-TEST" } }, { status: 201 });
+    };
+    const dock = { name: "A", email: "a@example.com", message: "Hi", company: "Acme", type: "Quote", service: "ISO 9001", pdpa: "on",
+      marketing_email: true, marketing_phone: false,
+      consent: { version: "MC-2026-10", lang: "en", at: "2026-10-13T00:00:00Z", email_text: "Yes email", phone_text: "Yes phone" } };
+    assert.equal((await POST(request(dock))).status, 200);
+    const record = JSON.parse(leads[0].marketing_consent_record);
+    assert.equal(record.version, "MC-2026-10");
+    assert.equal(record.pdpa_notice, true);
+    assert.equal(record.marketing_email, true);
+    assert.equal(record.marketing_phone, false);
+    assert.equal(record.phone_text, null);
+    assert.equal(leads[0].unsubscribed, 0);
+    assert.match(leads[0].notes[0].note, /Enquiry type: Quote\nService: ISO 9001\nCompany: Acme/);
+    assert.equal((await POST(request({ ...dock, website: "bot" }))).status, 200);
+    assert.equal(leads.length, 1);
+  } finally {
+    globalThis.fetch = originalFetch;
+    process.env = originalEnv;
+  }
+});
