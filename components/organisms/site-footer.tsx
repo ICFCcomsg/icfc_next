@@ -45,7 +45,7 @@ export function SiteFooter() {
                   <div>
                     <p className="mt-7.5 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.43)] leading-7">
                       {
-                        "\r\n                                        ICFC PTE LTD specializes in helping startups and enterprises craft strategic\r\n                                        solutions.\r\n                                    "
+                        "ICFC provides audit, consulting and training for ISO management systems, cybersecurity, data protection and sustainability standards in Singapore."
                       }
                     </p>
                     <div className="mt-8.75 max-[767px]:mt-6.25 mb-11.25 max-[767px]:mb-8.75">
@@ -463,29 +463,6 @@ export function SiteFooter() {
                   </div>
                 </div>
                 <NewsletterForm />
-                <div className="mt-10.5 flex justify-center gap-[30px_55px] max-[575px]:gap-[30px_30px] items-center max-[575px]:flex-wrap">
-                  <div className="group/footer-brand-thumb">
-                    <SiteImage
-                      src="/assets/images/brand/brand-thumb-07.webp"
-                      alt="image"
-                      className="align-middle max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    />
-                  </div>
-                  <div className="group/footer-brand-thumb">
-                    <SiteImage
-                      src="/assets/images/brand/brand-thumb-08.webp"
-                      alt="image"
-                      className="align-middle max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    />
-                  </div>
-                  <div className="group/footer-brand-thumb">
-                    <SiteImage
-                      src="/assets/images/brand/brand-thumb-09.webp"
-                      alt="image"
-                      className="align-middle max-w-full opacity-[0.5] group-hover/footer-brand-thumb:opacity-[1] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>

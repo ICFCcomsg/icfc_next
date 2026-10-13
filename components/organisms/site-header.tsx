@@ -214,8 +214,7 @@ export function SiteHeader({ route }: { route: string }) {
                 className="mb-6 w-37.5 h-auto"
               />
               <p>
-                ICFC specializes in helping startups and enterprises craft
-                strategic solutions.
+                ICFC provides audit, consulting and training for ISO management systems, cybersecurity, data protection and sustainability standards in Singapore.
               </p>
               <div className="my-6 grid grid-cols-3 gap-2">
                 {["01", "02", "03", "04", "05", "06"].map((number) => (

@@ -1674,7 +1674,7 @@ function CtaAreaSection() {
                 <div>
                   <p className="mt-0 mb-0 text-[16px] font-medium text-[#616C74] leading-7">
                     {
-                      "Join the 14k + Businesses Using ICFC\n                                    "
+                      "Trusted by 250+ clients since 2014"
                     }
                   </p>
                 </div>

@@ -279,7 +279,7 @@ function PostboxAreaSection() {
                     {"Medium-term (Q3 2026 – end 2027):"}
                   </strong>
                   {
-                    " implement additional CTM controls, engage CSA-approved auditor, prepare for CSA threat detection tools, monitor ESCI/MFDI commencement.\n                                "
+                    " implement additional CTM controls, engage a CSA-appointed certification body, prepare for CSA threat detection tools, monitor ESCI/MFDI commencement.\n                                "
                   }
                 </div>
                 <h4 className="mt-[1.8rem] mb-4 font-semibold leading-[1.33] text-[#0a1e2f] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">

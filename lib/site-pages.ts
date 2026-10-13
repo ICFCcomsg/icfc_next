@@ -26,17 +26,17 @@ import { VersionIndexPageContent } from "@/components/pages/version-index";
 export const sitePages = {
   "about": {
     component: AboutPageContent,
-    title: "About - Business Consulting HTML Template",
+    title: "About ICFC | Audit, Consulting and Training Singapore",
     description: "",
   },
   "blog-details": {
     component: BlogDetailsPageContent,
-    title: "Blog details - Business Consulting HTML Template",
+    title: "Insights | ICFC Pte Ltd",
     description: "",
   },
   "blog-sidebar": {
     component: BlogSidebarPageContent,
-    title: "Blog Sidebar - Business Consulting HTML Template",
+    title: "Insights | ICFC Pte Ltd",
     description: "",
   },
   "blog": {
@@ -140,12 +140,12 @@ export const sitePages = {
   },
   "services": {
     component: ServicesPageContent,
-    title: "Services - Business Consulting HTML Template",
+    title: "Services | Audit, Consulting and Training | ICFC Pte Ltd",
     description: "",
   },
   "contact-us": {
     component: ContactUsPageContent,
-    title: "Contact - Business Consulting",
+    title: "Contact ICFC Pte Ltd",
     description: "",
   },
   "Version/index": {
