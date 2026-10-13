@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import {
-  ServicePageContent,
-  getService,
-  services,
-} from "@/components/pages/service";
+import { ServicePageContent } from "@/components/pages/service";
+import { getService, services } from "@/lib/service-data";
 
 type Props = { params: Promise<{ slug: string }> };
 

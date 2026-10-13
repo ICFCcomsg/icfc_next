@@ -6,23 +6,16 @@ import {
   AccordionGroup,
   AccordionItem,
 } from "@/components/molecules/accordion-item";
-import services from "@/lib/services.json";
-import { ViewToggle, TransferBanner } from "@/components/icfc/react/SiteBits.jsx";
+import { InfoCardGrid } from "@/components/molecules/info-card-grid";
+import { TransferBanner } from "@/components/molecules/transfer-banner";
+import { ViewToggle } from "@/components/molecules/view-toggle";
+import { SERVICE_GROUP_ICONS, type Service } from "@/lib/service-data";
 import {
-  serviceJsonLd,
-  faqJsonLd,
   breadcrumbJsonLd,
-} from "@/components/icfc/seo/jsonld.js";
-
-const GROUP_ICON: Record<string, string> = {
-  "Cybersecurity, IT and Data Protection": "icon-group-cyber",
-  "ISO Management Systems": "icon-group-iso",
-  "Singapore Standards and Schemes": "icon-group-ss",
-  "Sustainability and Supply Chain": "icon-group-sus",
-};
-
-export type Service = (typeof services)[number];
-type Section = { heading: string; text: string };
+  faqJsonLd,
+  jsonLdHtml,
+  serviceJsonLd,
+} from "@/lib/jsonld";
 
 // Date the grant facts in the content matrix were last checked.
 const FUNDING_CHECKED = "11 October 2026";
@@ -35,27 +28,7 @@ const h3 = "mt-0 mb-2 font-semibold text-[20px] leading-[1.4]";
 const p = "mt-0 mb-0 text-[17px] text-[#616C74] leading-7";
 const section = "pt-20 pb-20 max-[767px]:pt-12.5 max-[767px]:pb-12.5";
 
-function Cards({ items, dark }: { items: Section[]; dark?: boolean }) {
-  return (
-    <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6">
-      {items.map((s) => (
-        <div
-          key={s.heading}
-          className={`rounded-2xl p-7 ${dark ? "bg-[#2F3E4B]" : "bg-[#F8F8F9] border border-[#DBDEE1]"}`}
-        >
-          <h3 className={`${h3} ${dark ? "text-white" : "text-[#2B3944]"}`}>
-            {s.heading}
-          </h3>
-          <p className={`${p} ${dark ? "text-white/70!" : ""}`}>{s.text}</p>
-        </div>
-      ))}
-    </div>
-  );
-}
 
-export function getService(slug: string) {
-  return services.find((s) => s.slug === slug);
-}
 
 export function ServicePageContent({ service: s }: { service: Service }) {
   const facts = [
@@ -82,7 +55,7 @@ export function ServicePageContent({ service: s }: { service: Service }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify([
+            __html: jsonLdHtml([
               serviceJsonLd({ ...s, path: `/services/${s.slug}` }),
               faqJsonLd(s.faqs),
               breadcrumbJsonLd([
@@ -90,12 +63,12 @@ export function ServicePageContent({ service: s }: { service: Service }) {
                 { name: "Services", path: "/services" },
                 { name: s.name, path: `/services/${s.slug}` },
               ]),
-            ]).replace(/</g, "\\u003c"),
+            ]),
           }}
         />
         <div className={`${container} flex items-center justify-between gap-4 flex-wrap pt-6`}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={`/images/icfc/${GROUP_ICON[s.group]}.svg`} alt="" width={56} height={56} />
+          <img src={`/images/icfc/${SERVICE_GROUP_ICONS[s.group]}.svg`} alt="" width={56} height={56} />
           <ViewToggle />
         </div>
 
@@ -138,7 +111,7 @@ export function ServicePageContent({ service: s }: { service: Service }) {
             <ContentTabs
               items={tabs.map((t) => ({
                 label: t.label,
-                content: <Cards items={t.items} dark />,
+                content: <InfoCardGrid items={t.items} dark />,
               }))}
             />
           </div>
@@ -148,7 +121,7 @@ export function ServicePageContent({ service: s }: { service: Service }) {
           <section className={section} data-detail>
             <div className={container}>
               <h2 className={h2}>Key details</h2>
-              <Cards items={s.extra} />
+              <InfoCardGrid items={s.extra} />
             </div>
           </section>
         )}
@@ -250,4 +223,3 @@ export function ServicePageContent({ service: s }: { service: Service }) {
   );
 }
 
-export { services };

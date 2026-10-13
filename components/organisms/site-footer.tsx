@@ -1,4 +1,4 @@
-import { CookieSettingsLink } from "@/components/icfc/react/SiteBits.jsx";
+import { CookieSettingsLink } from "@/components/atoms/cookie-settings-link";
 import { SiteImage } from "@/components/atoms/site-image";
 import { SiteLink } from "@/components/atoms/site-link";
 import { NewsletterForm } from "@/components/molecules/newsletter-form";

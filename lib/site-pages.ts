@@ -14,11 +14,9 @@ import { BlogWshMomPageContent } from "@/components/pages/blog-wsh-mom";
 import { BlogcybersecurityPageContent } from "@/components/pages/blogcybersecurity";
 import { BlogedgPageContent } from "@/components/pages/blogedg";
 import { IndustryPageContent } from "@/components/pages/industry";
-import {
-  CookieNoticePageContent,
-  LmsTermsPageContent,
-  PrivacyPolicyPageContent,
-} from "@/components/pages/privacy-policy";
+import { CookieNoticePageContent } from "@/components/pages/cookie-notice";
+import { LmsTermsPageContent } from "@/components/pages/lms-terms";
+import { PrivacyPolicyPageContent } from "@/components/pages/privacy-policy";
 import { ServicesPageContent } from "@/components/pages/services";
 import { ContactUsPageContent } from "@/components/pages/contact-us";
 import { VersionIndexPageContent } from "@/components/pages/version-index";

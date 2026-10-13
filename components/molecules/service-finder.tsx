@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { SiteLink } from "@/components/atoms/site-link";
-import { openEnquiry } from "@/components/icfc/react/FloatingDock.jsx";
-import services from "@/lib/services.json";
+import { SERVICE_GROUPS as GROUPS, services } from "@/lib/service-data";
 
 const NEEDS = [
   { key: "audit", label: "I need a certificate" },
@@ -11,30 +10,11 @@ const NEEDS = [
   { key: "training", label: "I need training" },
 ] as const;
 
-const GROUPS = [
-  "Cybersecurity, IT and Data Protection",
-  "ISO Management Systems",
-  "Singapore Standards and Schemes",
-  "Sustainability and Supply Chain",
-];
-
 const chip =
   "rounded-full border px-5 py-3 text-[16px] font-medium transition-colors";
 const on = "border-[#AB052D] bg-[#AB052D] text-white";
 const off =
   "border-[#DBDEE1] bg-white text-[#2B3944] hover:border-[#AB052D] hover:text-[#AB052D]";
-
-export function QuoteButton({ light }: { light?: boolean }) {
-  return (
-    <button
-      type="button"
-      onClick={() => openEnquiry("Quote")}
-      className={`rounded-full px-7 py-3.5 font-medium ${light ? "bg-white text-[#AB052D] hover:bg-[#F8F8F9]" : "bg-[#AB052D] text-white hover:bg-[#9D0026]"}`}
-    >
-      Get a Quote
-    </button>
-  );
-}
 
 /** Two-tap service finder: what you need, then the topic group. */
 export function ServiceFinder() {

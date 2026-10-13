@@ -2,13 +2,11 @@
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteLink } from "@/components/atoms/site-link";
 import { BlogCard } from "@/components/molecules/blog-card";
-import { TransferBanner } from "@/components/icfc/react/SiteBits.jsx";
-import {
-  QuoteButton,
-  ServiceFinder,
-} from "@/components/organisms/home-interactive";
+import { QuoteButton } from "@/components/atoms/quote-button";
+import { ServiceFinder } from "@/components/molecules/service-finder";
+import { TransferBanner } from "@/components/molecules/transfer-banner";
 import { posts } from "@/components/pages/blog";
-import services from "@/lib/services.json";
+import { SERVICE_GROUP_ICONS, SERVICE_GROUPS, services } from "@/lib/service-data";
 
 // Approved copy: ICFC Website Content and Structure Pack, section 6 (Home page).
 const STATS = [
@@ -17,13 +15,6 @@ const STATS = [
   ["500+", "Audits completed", "First, second and third party"],
   ["100+", "Trainees trained", "Classroom and online"],
 ];
-
-const GROUP_ICON: Record<string, string> = {
-  "Cybersecurity, IT and Data Protection": "icon-group-cyber",
-  "ISO Management Systems": "icon-group-iso",
-  "Singapore Standards and Schemes": "icon-group-ss",
-  "Sustainability and Supply Chain": "icon-group-sus",
-};
 
 const WAYS = [
   ["Audit", "sketch-audit", "Third-party audits delivered by our auditors on behalf of accredited certification bodies, plus second-party and internal audits."],
@@ -127,11 +118,11 @@ export function IndexPageContent() {
             <span className={eyebrow}>Services</span>
             <h2 className={h2}>Four ways we help</h2>
             <div className="grid grid-cols-4 max-[1199px]:grid-cols-2 max-[575px]:grid-cols-1 gap-6">
-              {Object.keys(GROUP_ICON).map((g) => {
+              {SERVICE_GROUPS.map((g) => {
                 const list = services.filter((s) => s.group === g);
                 return (
                   <div key={g} className="rounded-2xl border border-[#DBDEE1] bg-white p-7">
-                    <img src={`/images/icfc/${GROUP_ICON[g]}.svg`} alt="" width={56} height={56} />
+                    <img src={`/images/icfc/${SERVICE_GROUP_ICONS[g]}.svg`} alt="" width={56} height={56} />
                     <h3 className="mt-4 mb-3 text-[20px] font-semibold text-[#2B3944]">{g}</h3>
                     <ul className="m-0 mb-4 p-0 list-none space-y-2">
                       {list.slice(0, 4).map((s) => (

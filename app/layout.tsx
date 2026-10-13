@@ -2,12 +2,10 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
-import "@/components/icfc/styles/icfc-components.css";
-import CookieConsent from "@/components/icfc/react/CookieConsent.jsx";
-import FloatingDock from "@/components/icfc/react/FloatingDock.jsx";
-import strings from "@/components/icfc/i18n/en.json";
-import cookies from "@/components/icfc/data/cookies.json";
-import services from "@/lib/services.json";
+import "./icfc-components.css";
+import { CookieConsent } from "@/components/organisms/cookie-consent";
+import { FloatingDock } from "@/components/organisms/floating-dock";
+import strings from "@/lib/i18n/en.json";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
 
@@ -47,13 +45,8 @@ gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personali
       </head>
       <body className="bg-white font-sans text-[16px] leading-normal text-[#616C74] antialiased [&_button]:cursor-pointer [&_a]:focus-visible:outline-2 [&_a]:focus-visible:outline-offset-4 [&_a]:focus-visible:outline-[#AB052D] [&_button]:focus-visible:outline-2 [&_button]:focus-visible:outline-offset-4 [&_button]:focus-visible:outline-[#AB052D]">
         {children}
-        <CookieConsent t={strings} cookies={cookies} />
-        <FloatingDock
-          t={strings}
-          endpoint="/api/contact"
-          services={services.map((s) => ({ id: s.id, name: s.name }))}
-          chatScriptSrc={process.env.NEXT_PUBLIC_FRAPPE_CHAT_SRC}
-        />
+        <CookieConsent t={strings} />
+        <FloatingDock t={strings} chatScriptSrc={process.env.NEXT_PUBLIC_FRAPPE_CHAT_SRC} />
       </body>
     </html>
   );
