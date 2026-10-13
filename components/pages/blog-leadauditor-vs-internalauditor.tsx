@@ -645,7 +645,7 @@ function PostboxAreaSection() {
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
                             {
-                              "How to apply for the EDG grant for ISO certification in Singapore (2026 guide)"
+                              "How to apply for the EDGE Grant for ISO certification in Singapore (2026 guide)"
                             }
                           </SiteLink>
                         </h6>

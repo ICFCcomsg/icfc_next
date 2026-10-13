@@ -457,64 +457,6 @@ function ContactAreaSection() {
                     </SiteLink>
                   </div>
                 </li>
-                <li className="mb-8.75 pb-8.75 list-none flex items-center gap-6.25 flex-wrap [border-bottom:1px_solid_#DBDEE1]">
-                  <div className="w-20 min-w-20 h-20 [background:#F8F8F9] rounded-full flex items-center justify-center">
-                    <span className="">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="300"
-                        height="291"
-                        viewBox="0 0 300 291"
-                        fill="none"
-                        className="align-middle w-8 h-8"
-                      >
-                        <path
-                          d="M129.868 1.76214C123.947 2.55133 109.737 8.86484 98.2895 15.9675C70.6579 32.5405 55.2632 57.0054 52.5 89.3621C50.5263 111.459 51.3158 116.195 64.7368 142.632C72.6316 158.811 90.3947 187.616 104.605 206.557C118.816 225.892 130.263 242.859 130.263 244.438C130.263 246.016 125.132 247.595 118.421 247.595C112.105 247.595 106.579 249.173 106.579 251.541C106.579 253.908 123.553 255.486 150 255.486C176.447 255.486 193.421 253.908 193.421 251.541C193.421 249.173 188.289 247.595 181.579 247.595C175.263 247.595 169.737 246.016 169.737 244.438C169.737 242.859 181.184 225.892 195.395 206.557C209.605 187.616 227.368 158.811 235.263 142.632C248.684 116.195 249.474 111.459 247.5 89.7567C244.737 59.3729 223.026 19.5189 213.947 28.2C212.763 29.7784 213.553 34.1189 216.316 37.6702C243.947 76.7351 245.526 102.778 221.842 146.184C205.658 176.173 168.158 229.838 155.921 239.703C151.184 243.649 148.816 243.649 144.079 239.703C131.842 229.838 94.3421 176.173 78.1579 146.184C64.3421 120.93 61.5789 111.854 61.5789 95.2811C62.3684 40.827 114.474 2.15673 170.921 13.6C190.658 17.5459 198.947 13.9946 186.316 7.28646C177.237 2.55133 144.079 -1.00002 129.868 1.76214Z"
-                          fill="black"
-                          className="fill-[#AB052D]"
-                        ></path>
-                        <path
-                          d="M118.816 56.6108C95.5263 75.9459 95.5263 111.459 118.816 130.795C144.868 152.892 187.895 139.476 196.974 107.119C201.316 91.7297 196.579 69.6324 187.5 62.1351C178.421 54.6378 176.447 60.1621 183.158 73.5783C190.658 87.3891 191.053 97.6486 185.132 110.67C180 121.719 162.237 133.162 150 133.162C130.263 133.162 110.526 113.038 110.526 93.3081C110.526 74.3675 129.868 54.2432 148.026 54.2432C151.184 54.2432 153.947 52.2702 153.947 50.2972C153.947 42.4054 130.658 46.3513 118.816 56.6108Z"
-                          fill="black"
-                          className="fill-[#AB052D]"
-                        ></path>
-                        <path
-                          d="M18.1579 241.281C8.28947 259.432 0 275.216 0 276.4C0 277.584 2.76316 281.53 6.31579 284.686C11.4474 290.211 30 291 150 291C270 291 288.553 290.211 293.684 284.686C297.237 281.53 300 277.584 300 276.4C300 275.216 291.711 259.432 281.842 241.281L263.684 208.135H238.421C224.211 208.135 213.158 209.714 213.158 212.081C213.158 214.054 223.026 216.027 234.868 216.027H256.184L270 240.492C277.5 254.303 285 268.508 286.184 272.059C288.947 278.768 280.658 279.162 150 279.162C19.3421 279.162 11.0526 278.768 13.8158 272.059C15 268.508 22.5 254.303 30 240.492L43.8158 216.027H65.1316C76.9737 216.027 86.8421 214.054 86.8421 212.081C86.8421 209.714 75.7895 208.135 61.5789 208.135H36.3158L18.1579 241.281Z"
-                          fill="black"
-                          className="fill-[#AB052D]"
-                        ></path>
-                        <path
-                          d="M51.3158 235.757C51.3158 237.73 56.4474 239.703 62.3684 239.703C68.6842 239.703 76.9737 242.465 81.3158 245.622C85.2632 248.778 90 251.541 91.9737 251.541C97.5 251.541 94.7368 242.465 88.0263 237.335C79.7368 231.022 51.3158 229.838 51.3158 235.757Z"
-                          fill="black"
-                          className="fill-[#AB052D]"
-                        ></path>
-                        <path
-                          d="M212.368 237.335C205.263 242.465 202.5 251.541 208.421 251.541C210 251.541 214.737 248.778 218.684 245.622C223.026 242.465 231.316 239.703 237.632 239.703C243.553 239.703 248.684 237.73 248.684 235.757C248.684 229.838 220.263 231.022 212.368 237.335Z"
-                          fill="black"
-                          className="fill-[#AB052D]"
-                        ></path>
-                        <path
-                          d="M37.5 263.378C36.3158 265.351 37.5 268.508 40.6579 269.692C49.7368 273.243 84.8684 269.692 84.0789 265.351C82.5 259.827 40.6579 257.854 37.5 263.378Z"
-                          fill="black"
-                          className="fill-[#AB052D]"
-                        ></path>
-                        <path
-                          d="M215.132 263.378C213.947 265.351 215.132 268.508 218.289 269.692C227.368 273.243 262.5 269.692 261.711 265.351C260.132 259.827 218.289 257.854 215.132 263.378Z"
-                          fill="black"
-                          className="fill-[#AB052D]"
-                        ></path>
-                      </svg>
-                    </span>
-                  </div>
-                  <div>
-                    <span className="mb-1.25 text-[24px] max-[767px]:text-[20px] min-[767px]:max-[1199px]:text-[22px] block text-[#2B3944] font-semibold">
-                      {"Visit Our Office"}
-                    </span>
-                    <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                      {"WEST CONNECT BUILDING SINGAPORE 627564"}
-                    </p>
-                  </div>
-                </li>
                 <li className="list-none flex items-center gap-6.25 flex-wrap">
                   <div className="w-20 min-w-20 h-20 [background:#F8F8F9] rounded-full flex items-center justify-center">
                     <span className="">
@@ -579,27 +521,21 @@ function ContainerSection() {
               <p className="mt-0 mb-1.5 mr-0 ml-0 text-[18px]! font-semibold! text-[#111]! leading-7">
                 {"What success looks like for our clients"}
               </p>
-              <div className="mt-3 mr-0 mb-3 ml-0">
-                <div className="mb-1.25 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
-                  <span className="">
-                    {"ISO consultation & implementation"}
-                  </span>
-                  <span className="">{"95%"}</span>
-                </div>
-                <div className="h-1.5 [background:#eee] rounded-[3px] overflow-hidden">
-                  <div className="h-1.5 rounded-[3px] [background:#E24B4A] w-[95%]!"></div>
-                </div>
+              <div className="mt-3 mr-0 mb-3 ml-0 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
+                <span className="">{"Years"}</span>
+                <span className="">{"12"}</span>
               </div>
-              <div className="mt-3 mr-0 mb-3 ml-0">
-                <div className="mb-1.25 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
-                  <span className="">
-                    {"First-attempt certification success"}
-                  </span>
-                  <span className="">{"98%"}</span>
-                </div>
-                <div className="h-1.5 [background:#eee] rounded-[3px] overflow-hidden">
-                  <div className="h-1.5 rounded-[3px] [background:#E24B4A] w-[98%]!"></div>
-                </div>
+              <div className="mt-3 mr-0 mb-3 ml-0 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
+                <span className="">{"Clients"}</span>
+                <span className="">{"250+"}</span>
+              </div>
+              <div className="mt-3 mr-0 mb-3 ml-0 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
+                <span className="">{"Audits"}</span>
+                <span className="">{"500+"}</span>
+              </div>
+              <div className="mt-3 mr-0 mb-3 ml-0 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
+                <span className="">{"Trainees"}</span>
+                <span className="">{"100+"}</span>
               </div>
             </div>
           </div>

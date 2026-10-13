@@ -55,12 +55,12 @@ function BannerAreaSection() {
                 className="mt-0 mb-0 font-medium leading-[1.12] text-[#FFFFFF] text-[66px] max-[480px]:text-[40px] min-[480px]:max-[575px]:text-[45px] min-[575px]:max-[767px]:text-[50px] min-[767px]:max-[991px]:text-[55px] min-[991px]:max-[1600px]:text-[60px] [word-break:break-word]"
               >
                 {
-                  "Cyber Trust Mark — advanced cybersecurity, certified at every tier"
+                  "Cyber Trust Mark — advanced cybersecurity, led by SS 680:2021 certified consultants"
                 }
               </AnimatedElement>
               <p className="mt-0 mb-10 text-[17px] font-medium text-[rgba(255,255,255,0.8)] leading-7 tracking-[0.02em] max-w-145 max-[575px]:max-w-full">
                 {
-                  "5 preparedness tiers · 22 domains · Cloud Security · OT Security · AI Security. Mandatory for CII operators. ESG/EDG grant up to 50%. ICFC Singapore since 2014."
+                  "5 preparedness tiers · 22 domains · Cloud Security · OT Security · AI Security. Mandatory for CII operators. EDGE Grant support up to 50% for SMEs, subject to eligibility and Enterprise Singapore's approval. ICFC Singapore since 2014."
                 }
               </p>
               <div>
@@ -123,19 +123,19 @@ function ContainerSection() {
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-27.5 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[38px] font-extrabold text-[#AB052D] leading-none">
-            {"25+"}
+            {"250+"}
           </div>
-          <div>{"Industries"}</div>
+          <div>{"Clients"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-27.5 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[38px] font-extrabold text-[#AB052D] leading-none">
-            {"50%"}
+            {"EDGE"}
           </div>
-          <div>{"Grant"}</div>
+          <div>{"Grant guidance (subject to eligibility)"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-27.5 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[38px] font-extrabold text-[#AB052D] leading-none">
-            {"11+"}
+            {"12"}
           </div>
           <div>{"Years"}</div>
         </div>
@@ -198,7 +198,7 @@ function SectionSpaceSection() {
             {"Audit · Consultation · Training"}
           </h2>
           <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-            {"Five tiers · Cloud · OT · AI Security · ESG/EDG grant managed"}
+            {"Five tiers · Cloud · OT · AI Security · EDGE Grant guidance"}
           </p>
         </div>
         <div className="flex flex-wrap mt-4! -mr-6 -ml-6">
@@ -544,12 +544,12 @@ function ContainerSection3() {
           <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
             <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[rgba(255,255,255,1)]! text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
               {
-                "50% ESG / EDG grant co-funding — up to 50% of CTM consultation costs"
+                "EDGE Grant — up to 50% for SMEs on eligible CTM consultancy, subject to eligibility and Enterprise Singapore's approval"
               }
             </h3>
             <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
               {
-                "Enterprise Singapore's EDG covers up to 50% of qualifying cybersecurity consultancy fees for eligible Singapore SMEs. ICFC manages your grant application before project commencement. Combined CTM + Cyber Essentials + ISO 27001 engagements maximise total co-funding."
+                "Enterprise Singapore's EDGE Grant may support up to 50% of qualifying cybersecurity consultancy fees for SMEs, subject to eligibility and Enterprise Singapore's approval. ICFC prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal before starting work. CSA separately funds first Cyber Trust and Cyber Essentials certification for eligible SMEs until 6 February 2028, deducted by the certification body; consultancy is not covered."
               }
             </p>
             <SiteLink
@@ -736,54 +736,7 @@ function ContainerSection4() {
 }
 
 function SectionSpaceSection4() {
-  return (
-    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25 [background:#2B3944]">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] mb-6!">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#AB052D]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Head of Technology"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Colocation Data Centre"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"ICFC guided our data centre through CTM Tier 4 including Cloud Security and AI Security tracks in under 5 months. Their depth across all 22 domains is exceptional."'
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] mb-6!">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#AB052D]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Group CISO"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Energy CII Operator"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"CTM Tier 5 with OT Security was non-negotiable. ICFC delivered OT domain alongside EMA Cybersecurity Code in a single engagement — outstanding value."'
-                }
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  return null;
 }
 
 function ContainerSection5() {
@@ -795,7 +748,7 @@ function ContainerSection5() {
         </h3>
         <p className="mt-4! mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
           {
-            "ICFC为新加坡各类企业提供全面的CSA网络信任标志（Cyber Trust Mark）认证服务，涵盖五级网络安全准备层级、22个领域，专注三大高价值专业轨道：云安全（Cloud Security）、运营技术安全（OT Security）及人工智能安全（AI Security）。提供中英双语服务，帮助企业申请ESG补助金及EDG，最高获得50%费用补贴。"
+            "ICFC为新加坡各类企业提供全面的CSA网络信任标志（Cyber Trust Mark）认证服务，涵盖五级网络安全准备层级、22个领域，专注三大高价值专业轨道：云安全（Cloud Security）、运营技术安全（OT Security）及人工智能安全（AI Security）。提供中英双语服务，并协助准备EDGE补助金申请所需的建议书和报价（由企业自行在Business Grants Portal申请，最高可获50%支持，须符合资格并经新加坡企业发展局批准）。"
           }
         </p>
         <SiteLink
@@ -844,13 +797,13 @@ function SectionSpaceSection5() {
           >
             {" "}
             {
-              "CII operators target Tier 5 by end-2027. Large enterprises with cloud/OT environments should target Tier 3–4. SMEs and ICT vendors seeking procurement differentiation should start at Tier 1–2. ICFC provides free tier scoping consultation including grant optimisation."
+              "CII operators target Tier 5 by end-2027. Large enterprises with cloud/OT environments should target Tier 3–4. SMEs and ICT vendors seeking procurement differentiation should start at Tier 1–2. ICFC provides free tier scoping consultation including an explanation of which scheme, if any, may apply."
             }
           </AccordionItem>
           <AccordionItem
             title={
               <>
-                {"Can I get ESG/EDG grant for Cyber Trust Mark certification?"}
+                {"Can I get EDGE Grant support for Cyber Trust Mark certification?"}
               </>
             }
 
@@ -859,7 +812,7 @@ function SectionSpaceSection5() {
           >
             {" "}
             {
-              "Yes. Enterprise Singapore's EDG covers up to 50% of qualifying cybersecurity consultancy fees for eligible SMEs. ICFC manages your grant application before project commencement. Combined CTM + Cyber Essentials + ISO 27001 engagements can combine grant claims."
+              "Possibly. Enterprise Singapore's EDGE Grant may support up to 50% of qualifying cybersecurity consultancy fees for SMEs, subject to eligibility and Enterprise Singapore's approval. ICFC prepares the proposal, quotation and SS 680 consultant details; you apply on the Business Grants Portal. CSA separately funds first Cyber Trust certification for eligible SMEs until 6 February 2028, deducted by the certification body."
             }
           </AccordionItem>
           <AccordionItem
@@ -892,7 +845,7 @@ function SectionSpaceSection5() {
           >
             {" "}
             {
-              "For an average-sized CII organisation, the end-to-end journey from gap assessment to certification is 6–12 months, depending on existing security maturity. ICFC compresses this with parallel workstreams (Cloud, OT, AI) and grant management."
+              "For an average-sized CII organisation, the end-to-end journey from gap assessment to certification is 6–12 months, depending on existing security maturity. ICFC compresses this with parallel workstreams (Cloud, OT, AI) and clear grant documentation."
             }
           </AccordionItem>
         </AccordionGroup>
@@ -910,7 +863,7 @@ function ContainerSection6() {
         </h3>
         <p className="mt-0 mb-7.5 text-[rgba(255,255,255,.5)]! text-[17px] [font-weight:normal] leading-7">
           {
-            "Free 30-minute CTM readiness assessment. Tier selection guidance. Cloud, OT & AI Security track scoping. ESG/EDG grant eligibility check included. CII, FinTech, Data Centre specialists."
+            "Free 30-minute CTM readiness assessment. Tier selection guidance. Cloud, OT & AI Security track scoping. EDGE Grant scheme guidance included. CII, FinTech, Data Centre specialists."
           }
         </p>
         <div className="mt-6!">
@@ -964,10 +917,10 @@ function SeoKeywordsSection() {
           {"budget-friendly CTM consultant"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
-          {"ESG grant Cyber Trust Mark"}
+          {"EDGE Grant Cyber Trust Mark"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
-          {"EDG grant cybersecurity certification"}
+          {"EDGE Grant cybersecurity certification"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"cloud security certification Singapore"}

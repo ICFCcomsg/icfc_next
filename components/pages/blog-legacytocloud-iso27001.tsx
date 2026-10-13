@@ -429,7 +429,7 @@ function PostboxAreaSection() {
                     {"💰 Funding & costs:"}
                   </strong>
                   {
-                    " Consultation S$15k–S$40k, certification audit S$4k–S$10k. ISO/IEC 42001 is eligible for EDG grant (Standards Adoption) up to 50% for SMEs. Sustainability-related AI projects may qualify for enhanced 70% rate. Apply "
+                    " Consultation S$15k–S$40k, certification audit S$4k–S$10k. ISO/IEC 42001 is listed under the EDGE Grant, with most standards up to 50% for SMEs, subject to eligibility and Enterprise Singapore's approval. Apply "
                   }
                   <em>{"before"}</em>
                   {" project commencement.\n                                "}

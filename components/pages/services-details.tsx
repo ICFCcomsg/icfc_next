@@ -46,7 +46,7 @@ function ServicesAreaSection() {
               </div>
               <p className="mt-7.5 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
-                  "The APEC Privacy Recognition for Processors (PRP) is a voluntary international accountability framework designed specifically for data processors — organisations that process personal data on behalf of client controllers across APEC economies. It operates alongside the APEC Cross-Border Privacy Rules (CBPR) system, covering 21 APEC member economies including Singapore, the United States, Japan, South Korea, Australia, Mexico, the Philippines, and Canada. ICFC — Singapore's trusted APEC PRP specialist since 2014 — delivers audit, consultation, and training with ESG MASA grant management built in."
+                  "The APEC Privacy Recognition for Processors (PRP) is a voluntary international accountability framework designed specifically for data processors — organisations that process personal data on behalf of client controllers across APEC economies. It operates alongside the APEC Cross-Border Privacy Rules (CBPR) system, covering 21 APEC member economies including Singapore, the United States, Japan, South Korea, Australia, Mexico, the Philippines, and Canada. ICFC — Singapore's trusted APEC PRP specialist since 2014 — delivers audit, consultation, and training with a clear explanation of which funding scheme, if any, applies."
                 }
               </p>
               <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(4,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
@@ -61,10 +61,10 @@ function ServicesAreaSection() {
                 </div>
                 <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#1A4D8C] leading-[1.2]">
-                    {"25+"}
+                    {"250+"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"Industries served"}
+                    {"Clients"}
                   </p>
                   <small className="text-[.875em]">{"in Singapore"}</small>
                 </div>
@@ -81,10 +81,10 @@ function ServicesAreaSection() {
                 </div>
                 <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#1A4D8C] leading-[1.2]">
-                    {"98%"}
+                    {"500+"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"First-attempt rate"}
+                    {"Audits supported"}
                   </p>
                   <small className="text-[.875em]">
                     {"certification success"}
@@ -141,7 +141,7 @@ function ServicesAreaSection() {
                 />
                 <strong className="[font-weight:bolder]">{"中文说明："}</strong>
                 {
-                  ' APEC"数据处理者隐私认证"（PRP）是专为数据处理者（如云服务商、外包服务商、数据分析公司等）设计的国际隐私问责框架，覆盖21个亚太经济体。取得APEC PRP认证，可向您的企业客户证明您具备符合APEC标准的隐私保护能力。ICFC提供全程辅导，并协助申请ESG MASA资助，最高可补贴70%费用。'
+                  ' APEC"数据处理者隐私认证"（PRP）是专为数据处理者（如云服务商、外包服务商、数据分析公司等）设计的国际隐私问责框架，覆盖21个亚太经济体。取得APEC PRP认证，可向您的企业客户证明您具备符合APEC标准的隐私保护能力。ICFC提供全程辅导，并说明适用的资助计划（如有）。'
                 }
               </div>
               <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
@@ -264,7 +264,7 @@ function ServicesAreaSection() {
                   </h4>
                   <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {
-                      "Full implementation, controller-processor agreements, data processing inventory, nine-principle controls, sub-processor management, PDPA integration, CSA alignment, MASA grant advisory."
+                      "Full implementation, controller-processor agreements, data processing inventory, nine-principle controls, sub-processor management, PDPA integration, CSA alignment, funding scheme guidance."
                     }
                   </p>
                   <SiteLink
@@ -441,57 +441,20 @@ function ServicesAreaSection() {
                 />
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[rgba(33,37,41,1)]! text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {
-                    "💰 ESG MASA grant — up to 70% co-funding for APEC PRP certification"
+                    "💰 Funding — we explain which scheme, if any, applies to APEC PRP"
                   }
                 </h5>
                 <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Enterprise Singapore's Market Access Standards Adoption (MASA) programme supports qualifying Singapore SMEs in adopting internationally recognised frameworks — including APEC PRP certification. Eligible companies can recover a significant share of ICFC's consultation fees and assessor costs. We assess your eligibility upfront, prepare all required documentation, manage milestone claims, and coordinate with your accountability agent — adding zero delay to your project timeline."
+                    "IMDA indicates possible support for some APEC PRP costs, and Enterprise Singapore's EDGE Grant may apply to eligible activities, subject to eligibility and Enterprise Singapore's approval. We explain which scheme, if any, applies; any application is made by you, not by ICFC."
                   }
                 </p>
                 <SiteLink
                   href="/contact-us"
                   className="text-white [text-decoration:none] inline-flex pt-2.5! pr-6! pb-2.5! pl-6! text-[14px] font-semibold leading-normal text-center align-middle [user-select:none] [border:none] rounded-lg bg-[#198754] hover:text-white hover:bg-[#157347] hover:border-[#146c43] focus-visible:text-white focus-visible:bg-[#157347] focus-visible:border-[#146c43] focus-visible:shadow-[0_0_0_0.25rem_rgba(60,153,110,.5)] active:text-white active:bg-[#146c43] active:border-[#13653f] active:shadow-[0_0_0_0.25rem_rgba(60,153,110,.5)] mt-4! focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] [background:#2E7D32]! items-center justify-center gap-2.5 hover:[background:#1B5E20] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
                 >
-                  {"Check MASA grant eligibility →"}
+                  {"Check funding options →"}
                 </SiteLink>
-              </div>
-              <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
-                {"Client testimonials"}
-              </h3>
-              <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "\"ICFC's team understood the nuances of the APEC PRP framework — particularly how it interacts with Singapore's PDPA Transfer Limitation Obligation and our US and Japan client requirements. They designed our processor accountability programme so a single framework satisfied PRP, PDPA, and our MAS clients' third-party risk management requirements. The MASA grant advisory was handled entirely by ICFC with zero impact on our project timeline.\""
-                  }
-                </p>
-                <strong className="[font-weight:bolder]">
-                  {
-                    "— Head of data governance & privacy, Cloud managed services provider"
-                  }
-                </strong>
-              </div>
-              <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    '"As a clinical trial data management company processing patient data across Singapore, Japan, Australia, and the US, APEC PRP was the only framework that addressed all our cross-border obligations efficiently. ICFC built our entire privacy programme from ground up — controller-processor agreements, sub-processor vetting, the nine-principle controls, and staff training — in under four months."'
-                  }
-                </p>
-                <strong className="[font-weight:bolder]">
-                  {"— Chief privacy officer, Contract research organisation"}
-                </strong>
-              </div>
-              <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1A4D8C]">
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    '"The APEC PRP internal auditor training ICFC ran for our DPO and privacy team was the most practically useful privacy training we have attended. It was tailored specifically to our payroll processing environment — including cross-border employee data flows to our APEC clients — and gave our team the confidence to manage PRP surveillance cycles independently."'
-                  }
-                </p>
-                <strong className="[font-weight:bolder]">
-                  {
-                    "— DPO & compliance director, Regional payroll processing company"
-                  }
-                </strong>
               </div>
               <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[45px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[40px] [word-break:break-word]">
                 {"Frequently asked questions — APEC PRP"}
@@ -552,14 +515,14 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "A typical APEC PRP programme takes 3–6 months from kickoff to accountability agent assessment readiness, depending on the volume of your processing activities, maturity of existing privacy controls, and number of APEC economies in your cross-border data flows. ICFC's 98% first-attempt success rate means you are unlikely to face costly rework."
+                    "A typical APEC PRP programme takes 3–6 months from kickoff to accountability agent assessment readiness, depending on the volume of your processing activities, maturity of existing privacy controls, and number of APEC economies in your cross-border data flows."
                   }
                 </AccordionItem>
                 <AccordionItem
                   title={
                     <>
                       {
-                        "Can ICFC help combine MASA grant funding with APEC PRP certification?"
+                        "Can ICFC explain funding options for APEC PRP certification?"
                       }
                     </>
                   }
@@ -569,7 +532,7 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "Yes. ICFC is an experienced MASA grant advisory partner. We assess eligibility upfront, prepare all documentation, manage milestone claims, and coordinate with your accountability agent — running the grant process in parallel with your PRP implementation. Qualifying Singapore SMEs can recover up to 70% of eligible consultation and assessment costs."
+                    "Yes. We explain which scheme, if any, applies to your PRP project. IMDA indicates possible support for some costs, and EDGE may apply to eligible activities, subject to eligibility and Enterprise Singapore's approval. Any application is made by you; ICFC does not apply for, manage, pay or claim grants on your behalf."
                   }
                 </AccordionItem>
                 <AccordionItem
@@ -610,7 +573,7 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-4! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Whether you are responding to a client requirement, satisfying a regulatory obligation, or proactively building cross-border privacy accountability — ICFC gives you a practical, honest, and budget-friendly path to APEC PRP certification backed by 11 years of Singapore compliance expertise and a 98% first-attempt success rate."
+                    "Whether you are responding to a client requirement, satisfying a regulatory obligation, or proactively building cross-border privacy accountability — ICFC gives you a practical, honest, and budget-friendly path to APEC PRP certification backed by 12 years of Singapore compliance expertise."
                   }
                 </p>
                 <div className="flex! flex-wrap! justify-center! gap-4!">
@@ -633,7 +596,7 @@ function ServicesAreaSection() {
                   {"Page optimised for:"}
                 </strong>
                 {
-                  " best APEC PRP consultant Singapore · affordable APEC PRP certification SG · APEC PRP audit 2025 · data processor privacy certification · cross-border data transfer PDPA · ESG grant data privacy SG · MASA grant APEC PRP · CBPR PRP consultant SG · APEC CBPR system Singapore · APEC数据处理者认证新加坡 · 跨境隐私认证辅导"
+                  " best APEC PRP consultant Singapore · affordable APEC PRP certification SG · APEC PRP audit 2025 · data processor privacy certification · cross-border data transfer PDPA · EDGE Grant data privacy SG · APEC PRP funding · CBPR PRP consultant SG · APEC CBPR system Singapore · APEC数据处理者认证新加坡 · 跨境隐私认证辅导"
                 }
               </div>
             </div>
@@ -668,7 +631,7 @@ function CtaAreaSection() {
               <div className="text-[14px] font-medium">
                 <p className="mt-0 mb-0 text-[14px] font-medium text-[rgba(255,255,255,0.8)] leading-7 max-[575px]:text-center">
                   {
-                    "APEC PRP certification — cross-border privacy accountability, MASA grant funded. "
+                    "APEC PRP certification — cross-border privacy accountability, funding guidance available. "
                   }
                   <SiteLink
                     href="/contact-us"

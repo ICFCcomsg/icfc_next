@@ -20,7 +20,7 @@ function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
       title="ISO/IEC 42001: what Singapore AI companies need to know in 2026"
-      description="AI governance standard, IMDA crosswalk, PDPA alignment, EDG grant, and certification roadmap for Singapore AI developers and users"
+      description="AI governance standard, IMDA crosswalk, PDPA alignment, EDGE Grant, and certification roadmap for Singapore AI developers and users"
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
@@ -122,7 +122,7 @@ function PostboxAreaSection() {
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "ISO/IEC 42001:2023 is the answer the world has standardised on. This article explains what ISO/IEC 42001 requires, how it maps to Singapore's own AI governance landscape, who needs it and why, what implementing it actually involves, and how to achieve certification — including how it connects to Singapore's national AI frameworks and the Enterprise Development Grant (EDG)."
+                    "ISO/IEC 42001:2023 is the answer the world has standardised on. This article explains what ISO/IEC 42001 requires, how it maps to Singapore's own AI governance landscape, who needs it and why, what implementing it actually involves, and how to achieve certification — including how it connects to Singapore's national AI frameworks and the EDGE Grant."
                   }
                 </p>
                 <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#eef2ff] [border-left:4px_solid_#1e3a8a] rounded-[0_16px_16px_0]">
@@ -417,10 +417,10 @@ function PostboxAreaSection() {
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"EDG grant:"}
+                    {"EDGE Grant:"}
                   </strong>
                   {
-                    " ISO/IEC 42001 eligible under Standards Adoption category — up to 50% co‑funding for qualifying SMEs. Enhanced 70% may apply if AI governance has sustainability dimension. "
+                    " ISO/IEC 42001 is listed under EDGE Standards activities — most standards up to 50% for SMEs and 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval. "
                   }
                   <strong className="[font-weight:bolder]">
                     {"Critical:"}
@@ -759,7 +759,7 @@ function PostboxAreaSection() {
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"EDG Grant"}
+                    {"EDGE Grant"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"

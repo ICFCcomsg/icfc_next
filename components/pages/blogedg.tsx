@@ -19,8 +19,8 @@ export function BlogedgPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="How to apply for the Enterprise Singapore EDG grant for ISO certification in Singapore (2026 guide)"
-      description="Step-by-step EDG grant application, up to 50-70% co-funding for ISO standards, and EDGE grant 2026 updates."
+      title="How to apply for the Enterprise Singapore EDGE Grant for ISO certification in Singapore (2026 guide)"
+      description="Step-by-step EDGE Grant application for ISO standards, with up to 50-70% support for SMEs, subject to eligibility and Enterprise Singapore's approval."
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
@@ -117,45 +117,45 @@ function PostboxAreaSection() {
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {"Enterprise Singapore's "}
                   <strong className="[font-weight:bolder]">
-                    {"Enterprise Development Grant (EDG)"}
+                    {"EDGE Grant"}
                   </strong>
                   {
-                    " — administered under the Market Access pillar — provides co-funding for Singapore companies adopting internationally recognised ISO standards. For qualifying SMEs, up to "
+                    " replaced the EDG, MRA and PSG schemes, which ceased on 29 September 2026. It provides support for Singapore companies adopting internationally recognised ISO standards. For most standards, SMEs can receive up to "
                   }
                   <strong className="[font-weight:bolder]">
-                    {"50% of eligible project costs"}
+                    {"50% support"}
                   </strong>
                   {
-                    " can be offset. For sustainability-related standards such as ISO 14001 and ISO 50001, the enhanced rate of "
+                    " (up to 30% for non-SMEs). For sustainability standards such as SS 587, and ISO 14001 and ISO 50001 where listed, SMEs can receive "
                   }
                   <strong className="[font-weight:bolder]">
-                    {"up to 70% applied until 31 March 2026"}
+                    {"up to 70%"}
                   </strong>
-                  {"."}
+                  {" (up to 50% for non-SMEs), subject to eligibility and Enterprise Singapore's approval."}
                 </p>
                 <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#f8fafc] [border-left:4px_solid_#AB052D] rounded-[0_16px_16px_0]">
                   <strong className="[font-weight:bolder]">
                     {"📌 Important note:"}
                   </strong>
                   {
-                    " Grant terms, funding rates, and eligible standards are set by Enterprise Singapore and subject to change. All information accurate as of April 2026. Always verify current requirements on the Enterprise Singapore website or through a certified consultant before applying.\n                                "
+                    " Grant terms, funding rates, and eligible standards are set by Enterprise Singapore and subject to change. Information checked 11 October 2026. Always verify current requirements on the Enterprise Singapore website before applying.\n                                "
                   }
                 </div>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
                   {
-                    "What is the EDG grant — and what does it have to do with ISO?"
+                    "What is the EDGE Grant — and what does it have to do with ISO?"
                   }
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "The Enterprise Development Grant supports Singapore companies upgrading operations, innovating, or expanding overseas across three pillars: Core Capabilities, Innovation & Productivity, and "
+                    "The EDGE Grant supports Singapore companies across business areas including upgrading operations, innovating and expanding overseas. Standards support sits under "
                   }
                   <strong className="[font-weight:bolder]">
-                    {"Market Access"}
+                    {"Standards"}
                   </strong>
                   {". ISO certification falls under "}
                   <strong className="[font-weight:bolder]">
-                    {"Market Access — Standards Adoption"}
+                    {"EDGE — Standards activities"}
                   </strong>
                   {
                     ". The rationale: international standards like ISO 27001, ISO 9001, ISO 14001 are often prerequisites for overseas tenders, government procurement, and global supply chains."
@@ -208,14 +208,14 @@ function PostboxAreaSection() {
                         <strong className="[font-weight:bolder]">
                           {"70%"}
                         </strong>
-                        {" until 31 March 2026"}
+                        {" (SMEs; up to 50% for non-SMEs)"}
                       </td>
                     </tr>
                   </tbody>
                 </table>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "The grant operates on a reimbursement basis — fund the project upfront, then claim. Disbursement typically takes 6–8 weeks. No fixed min/max grant amount; Enterprise Singapore assesses based on project scope and financial viability."
+                    "The grant is paid as reimbursement after the activity is completed and paid for. All percentages are subject to eligibility and Enterprise Singapore's approval."
                   }
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
@@ -245,7 +245,7 @@ function PostboxAreaSection() {
                   }
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"Step-by-step: How to apply for EDG for ISO certification"}
+                  {"Step-by-step: How to apply for the EDGE Grant for ISO certification"}
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
@@ -260,7 +260,7 @@ function PostboxAreaSection() {
                   </strong>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Step 3 – Engage a certified consultant (TR 43 / SS 680)."}
+                    {"Step 3 – Engage an SS 680:2021 certified consultant."}
                   </strong>
                   <br />
                   <strong className="[font-weight:bolder]">
@@ -287,7 +287,7 @@ function PostboxAreaSection() {
                     {"Step 8 – Submit claim"}
                   </strong>
                   {
-                    " with completion report, invoices, and pre-qualified auditor report."
+                    " with the deliverables, invoices and the accredited certificate."
                   }
                 </p>
                 <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#f8fafc] [border-left:4px_solid_#AB052D] rounded-[0_16px_16px_0]">
@@ -306,7 +306,7 @@ function PostboxAreaSection() {
                     {"1. Third-party consultancy fees"}
                   </strong>
                   {
-                    " (TR43/SS680 certified) – gap analysis, documentation, implementation."
+                    " (by an SS 680:2021 certified consultant) – gap analysis, documentation, implementation."
                   }
                   <br />
                   <strong className="[font-weight:bolder]">
@@ -324,31 +324,31 @@ function PostboxAreaSection() {
                   }
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"The EDGE grant — what's coming in 2H 2026"}
+                  {"The EDGE Grant — what replaced EDG, MRA and PSG"}
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Budget 2026 announced the merger of EDG, PSG, and MRA into a unified "
+                    "EDG, MRA and PSG ceased on 29 September 2026 and were replaced by the "
                   }
                   <strong className="[font-weight:bolder]">
-                    {"EDGE – Enterprise Development and Growth for Enterprises"}
+                    {"EDGE Grant"}
                   </strong>
                   {
-                    " (launching 2H 2026). Key features: single application, open to all Singapore-registered businesses, enhanced overseas support. "
+                    " from 30 September 2026. Key features: one application route across business areas, and applications made by the business itself on the Business Grants Portal. "
                   }
                   <strong className="[font-weight:bolder]">
-                    {"Recommendation: apply now under current EDG"}
+                    {"Recommendation: apply under EDGE before starting any work"}
                   </strong>
                   {
-                    " rather than waiting, as processing times are 8–12 weeks and EDGE's standards adoption scope is not yet fully detailed."
+                    " and check the current activity page for support levels."
                   }
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"How ICFC helps you maximise your EDG grant"}
+                  {"How ICFC supports your EDGE Grant application"}
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "ICFC integrates grant management into your ISO project from eligibility assessment, proposal co-authoring, through project implementation and claim submission. We align milestones to grant conditions and coordinate with pre-qualified auditors to ensure a smooth reimbursement process."
+                    "ICFC prepares the proposal, quotation and SS 680 consultant details that EDGE asks for. You apply yourself on the Business Grants Portal with your own authorised staff; we do not apply, pay or claim on your behalf."
                   }
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
@@ -356,7 +356,7 @@ function PostboxAreaSection() {
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Can I apply for EDG for multiple ISO standards together?"}
+                    {"Can I apply for EDGE for multiple ISO standards together?"}
                   </strong>
                   {
                     " Yes – integrated management system (IMS) projects covering two or more standards in one application are possible and often more efficient."
@@ -364,28 +364,28 @@ function PostboxAreaSection() {
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"What if my EDG application is rejected?"}
+                    {"What if my EDGE application is rejected?"}
                   </strong>
                   {
-                    " Resubmit after reviewing reasons. ICFC can assist with rejection analysis and resubmission."
+                    " Resubmit after reviewing reasons. ICFC can explain the proposal details EDGE asks for; any resubmission is made by you."
                   }
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
                     {
-                      "Can I use SkillsFuture Enterprise Credit (SFEC) alongside EDG?"
+                      "Can I use SkillsFuture Enterprise Credit (SFEC) alongside EDGE?"
                     }
                   </strong>
                   {
-                    " Yes, SFEC can stack with EDG for eligible training components such as internal auditor courses."
+                    " Check the current SFEC and EDGE rules; eligibility depends on each scheme and course."
                   }
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Is EDG worth it for non-SMEs?"}
+                    {"Is EDGE worth it for non-SMEs?"}
                   </strong>
                   {
-                    " Yes, up to 30% of qualifying costs – significant for larger implementations."
+                    " Most standards are supported at up to 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval."
                   }
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
@@ -393,7 +393,7 @@ function PostboxAreaSection() {
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "The Enterprise Development Grant is the most accessible funding pathway for Singapore SMEs seeking ISO certification. With EDGE consolidation coming in late 2026, now is the time to apply. The process is clear: apply before starting any work, engage a certified consultant, and present a specific, outcome-focused proposal."
+                    "The EDGE Grant is the main funding pathway for Singapore SMEs seeking ISO certification, subject to eligibility and approval. The process is clear: apply before starting any work, engage an SS 680:2021 certified consultant, and present a specific, outcome-focused proposal."
                   }
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
@@ -408,7 +408,7 @@ function PostboxAreaSection() {
                   </strong>
                   <br />
                   {
-                    "Singapore's ISO certification partner since 2014. We provide ISO consultation, third-party audit, training, and integrated grant management. Contact: "
+                    "Singapore's ISO certification partner since 2014. We provide ISO consultation, third-party audit, and training, with proposal support for EDGE applications. Contact: "
                   }
                   <SiteLink
                     href="mailto:admin@icfc.com.sg"
@@ -435,7 +435,7 @@ function PostboxAreaSection() {
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"EDG Grant"}
+                    {"EDGE Grant"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
@@ -613,7 +613,7 @@ function PostboxAreaSection() {
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"EDG"}
+                    {"EDGE"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"

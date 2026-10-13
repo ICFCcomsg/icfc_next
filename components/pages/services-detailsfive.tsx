@@ -46,7 +46,7 @@ function ServicesAreaSection() {
               </div>
               <p className="mt-7.5 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
-                  "ISO 9001 is the world's most widely adopted management system standard — with over one million certificates issued in 190 countries. In Singapore, it is the foundational quality credential that unlocks government tenders, enterprise supply chains, and international contracts. ISO 9001:2026 is expected by September 2026 — ICFC certifies organisations under ISO 9001:2015 today with a seamless upgrade path to the 2026 edition. Every engagement includes EDG grant management at no extra charge."
+                  "ISO 9001 is the world's most widely adopted management system standard — with over one million certificates issued in 190 countries. In Singapore, it is the foundational quality credential that unlocks government tenders, enterprise supply chains, and international contracts. ISO 9001:2026 is expected by September 2026 — ICFC consultants support organisations seeking ISO 9001:2015 certification today with a seamless upgrade path to the 2026 edition. We prepare the proposal and quotation EDGE asks for; you apply on the Business Grants Portal."
                 }
               </p>
               <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(4,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
@@ -72,10 +72,10 @@ function ServicesAreaSection() {
                 </div>
                 <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"50%"}
+                    {"EDGE"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"EDG grant co-funding"}
+                    {"Grant guidance (subject to eligibility)"}
                   </p>
                   <small className="text-[.875em]">
                     {"for qualifying SMEs"}
@@ -83,10 +83,10 @@ function ServicesAreaSection() {
                 </div>
                 <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"25+"}
+                    {"250+"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"Singapore industries"}
+                    {"Clients"}
                   </p>
                   <small className="text-[.875em]">{"served by ICFC"}</small>
                 </div>
@@ -230,7 +230,7 @@ function ServicesAreaSection() {
                     </h4>
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        "Gap analysis, Stage 1 & 2 audits, pre-certification, surveillance. EDG eligible."
+                        "Gap analysis, Stage 1 & 2 audits, pre-certification, surveillance. EDGE Grant eligible."
                       }
                     </p>
                     <SiteLink
@@ -252,7 +252,7 @@ function ServicesAreaSection() {
                     </h4>
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        "Full implementation, IMS integration, GeBIZ tender alignment, EDG grant managed."
+                        "Full implementation, IMS integration, GeBIZ tender alignment, EDGE proposal prepared by ICFC."
                       }
                     </p>
                     <SiteLink
@@ -293,12 +293,12 @@ function ServicesAreaSection() {
                 />
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[rgba(33,37,41,1)]! text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {
-                    "EDG / MASA grant — up to 50% co-funding for ISO 9001 consultation"
+                    "EDGE Grant — up to 50% for SMEs for ISO 9001 consultation, subject to eligibility and Enterprise Singapore's approval"
                   }
                 </h5>
                 <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Enterprise Singapore's EDG covers up to 50% of qualifying ISO 9001 consultation fees for eligible Singapore SMEs. ICFC manages your application before project commencement. Integrated IMS projects (9001 + 14001 + 45001) qualify for EDG co-funding on all standards through a single application — maximising total grant benefit."
+                    "Enterprise Singapore's EDGE Grant supports up to 50% of qualifying ISO 9001 consultation fees for SMEs (30% for non-SMEs), subject to eligibility and Enterprise Singapore's approval. ICFC prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal before project commencement. Integrated IMS projects (9001 + 14001 + 45001) may be supported under EDGE."
                   }
                 </p>
                 <SiteLink
@@ -311,10 +311,10 @@ function ServicesAreaSection() {
               <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(4,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
                 <div className="text-center!">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"98%"}
+                    {"500+"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"First-attempt success"}
+                    {"Audits supported"}
                   </p>
                   <small className="text-[.875em]">
                     {"certification rate"}
@@ -333,10 +333,10 @@ function ServicesAreaSection() {
                 </div>
                 <div className="text-center!">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"50%"}
+                    {"EDGE"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"EDG grant co-funding"}
+                    {"Grant guidance (subject to eligibility)"}
                   </p>
                   <small className="text-[.875em]">
                     {"for qualifying SMEs"}
@@ -344,10 +344,10 @@ function ServicesAreaSection() {
                 </div>
                 <div className="text-center!">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"25+"}
+                    {"250+"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"Singapore industries"}
+                    {"Clients"}
                   </p>
                   <small className="text-[.875em]">{"served by ICFC"}</small>
                 </div>
@@ -448,7 +448,7 @@ function ServicesAreaSection() {
               <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#C8102E]">
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    '"ICFC helped us achieve ISO 9001 certification in under three months — starting from scratch. Their process mapping workshop identified four bottlenecks in our service delivery that we had not previously documented. Fixing these reduced our rework rate by 35% in the first quarter after certification. The EDG grant covered 50% of the consultation cost."'
+                    '"ICFC helped us achieve ISO 9001 certification in under three months — starting from scratch. Their process mapping workshop identified four bottlenecks in our service delivery that we had not previously documented. Fixing these reduced our rework rate by 35% in the first quarter after certification. The EDGE Grant supported part of the consultation cost."'
                   }
                 </p>
                 <strong className="[font-weight:bolder]">
@@ -468,7 +468,7 @@ function ServicesAreaSection() {
               <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#C8102E]">
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    '"ICFC\'s integrated ISO 9001 + ISO 14001 + ISO 45001 IMS was the most cost-effective decision we made. One gap analysis, one internal audit programme, one EDG grant application — triple certification in six months. The combined approach saved us approximately S$25,000 versus three separate consultancy engagements."'
+                    '"ICFC\'s integrated ISO 9001 + ISO 14001 + ISO 45001 IMS was the most cost-effective decision we made. One gap analysis, one internal audit programme, one EDGE Grant application — triple certification in six months. The combined approach saved us approximately S$25,000 versus three separate consultancy engagements."'
                   }
                 </p>
                 <strong className="[font-weight:bolder]">
@@ -512,13 +512,13 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "ICFC提供新加坡ISO 9001:2015质量管理体系全程认证服务，包括流程梳理、差距分析、文件开发、政府招标资格准备、EDG补助金申请管理及员工培训，涵盖建筑、制造、物流、IT等25大行业。ISO 9001:2026过渡支持已涵盖在所有当前项目中。EDG/MASA补助金最高资助50%咨询费用。提供中英双语服务，欢迎免费咨询。"
+                    "ICFC提供新加坡ISO 9001:2015质量管理体系全程认证服务，包括流程梳理、差距分析、文件开发、政府招标资格准备、EDGE补助金申请材料准备及员工培训，涵盖建筑、制造、物流、IT等25大行业。ISO 9001:2026过渡支持已涵盖在所有当前项目中。EDGE补助金中小企业最高50%咨询费用（须符合资格并经新加坡企业发展局批准）。提供中英双语服务，欢迎免费咨询。"
                   }
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">{"关键词："}</strong>
                   {
-                    "ISO 9001新加坡 · 质量管理体系 · QMS认证 · 政府招标资格 · GeBIZ供应商 · EDG补助金 · 最佳QMS顾问 · 实惠ISO 9001认证 · ISO 9001 2026过渡 · 新加坡质量认证"
+                    "ISO 9001新加坡 · 质量管理体系 · QMS认证 · 政府招标资格 · GeBIZ供应商 · EDGE补助金 · 最佳QMS顾问 · 实惠ISO 9001认证 · ISO 9001 2026过渡 · 新加坡质量认证"
                   }
                 </p>
                 <SiteLink
@@ -534,7 +534,7 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Free 30-minute quality management assessment. Honest gap analysis against ISO 9001:2015. EDG grant eligibility check. ISO 9001:2026 transition strategy. No obligation."
+                    "Free 30-minute quality management assessment. Honest gap analysis against ISO 9001:2015. EDGE Grant eligibility guidance. ISO 9001:2026 transition strategy. No obligation."
                   }
                 </p>
                 <div className="flex! flex-wrap! justify-center! mt-4! gap-4!">
@@ -597,7 +597,7 @@ function ServicesAreaSection() {
                 <AccordionItem
                   title={
                     <>
-                      {"How much does ISO 9001 consultation cost after grants?"}
+                      {"How much does ISO 9001 consultation cost after EDGE Grant support?"}
                     </>
                   }
 
@@ -606,7 +606,7 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "Typical ICFC consultation fees range from S$5,000–S$15,000 depending on organisation size and complexity. With EDG grant covering up to 50% for eligible SMEs, the net consultancy cost for a first-time certification is typically S$2,500–S$7,500."
+                    "Typical ICFC consultation fees range from S$5,000–S$15,000 depending on organisation size and complexity. If EDGE Grant support of up to 50% for SMEs is approved (subject to eligibility and Enterprise Singapore's approval), the net consultancy cost for a first-time certification could be around S$2,500–S$7,500."
                   }
                 </AccordionItem>
                 <AccordionItem
@@ -623,7 +623,7 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "Yes — ISO 9001, ISO 14001, ISO 45001, and ISO 27001 all share the Annex SL High Level Structure. An integrated management system (IMS) reduces total implementation cost by 20–30% and qualifies for a single EDG grant application covering all standards."
+                    "Yes — ISO 9001, ISO 14001, ISO 45001, and ISO 27001 all share the Annex SL High Level Structure. An integrated management system (IMS) reduces total implementation cost by 20–30% and may be supported under one EDGE Grant application covering all standards, subject to eligibility and Enterprise Singapore's approval."
                   }
                 </AccordionItem>
                 <AccordionItem
@@ -649,7 +649,7 @@ function ServicesAreaSection() {
                   {"Page optimised for:"}
                 </strong>
                 {
-                  " ISO 9001 Singapore 2026 · QMS certification SG · ISO 9001:2026 transition · government tender ISO 9001 · best QMS consultant SG · affordable ISO 9001 · budget QMS certification · EDG grant ISO 9001"
+                  " ISO 9001 Singapore 2026 · QMS certification SG · ISO 9001:2026 transition · government tender ISO 9001 · best QMS consultant SG · affordable ISO 9001 · budget QMS certification · EDGE Grant ISO 9001"
                 }
               </div>
             </div>
@@ -684,7 +684,7 @@ function CtaAreaSection() {
               <div className="text-[14px] font-medium">
                 <p className="mt-0 mb-0 text-[14px] font-medium text-[rgba(255,255,255,0.8)] leading-7 max-[575px]:text-center">
                   {
-                    "ISO 9001 QMS certification — tender-ready, EDG grant funded. "
+                    "ISO 9001 QMS certification — tender-ready, EDGE Grant eligible. "
                   }
                   <SiteLink
                     href="/contact-us"

@@ -56,11 +56,11 @@ function BannerAreaSection() {
               >
                 {"Data Protection Trustmark —"}
                 <br className="max-[480px]:hidden" />
-                {"SS 714:2025 certified, PDPA aligned, grant-funded"}
+                {"SS 714:2025 certified, PDPA aligned, EDGE Grant eligible"}
               </AnimatedElement>
               <p className="mt-0 mb-10 text-[17px] font-medium text-[rgba(255,255,255,0.8)] leading-7 tracking-[0.02em] max-w-145 max-[575px]:max-w-full">
                 {
-                  "DPTM certification demonstrates accountable personal data handling. EDG/MASA grant up to 50% | PDPC Active Enforcement mitigating factor | DPO registration mandatory from June 2025."
+                  "DPTM certification demonstrates accountable personal data handling. EDGE Grant up to 50% for SMEs, subject to eligibility and Enterprise Singapore's approval | PDPC Active Enforcement mitigating factor | DPO registration mandatory from June 2025."
                 }
               </p>
               <div>
@@ -88,7 +88,7 @@ function BannerAreaSection() {
                   href="#grant"
                   className="text-[#FFFFFF] [text-decoration:none] pt-3.5 pr-6.5 pb-3.5 pl-6.5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,255,255,0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#AB052D] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                 >
-                  {"Check EDG grant eligibility →"}
+                  {"Check EDGE Grant eligibility →"}
                 </SiteLink>
               </div>
             </div>
@@ -117,9 +117,9 @@ function ContainerSection() {
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-27.5 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[38px] font-extrabold text-[#0b5e7e] leading-none">
-            {"50%"}
+            {"EDGE"}
           </div>
-          <div>{"EDG grant co-funding"}</div>
+          <div>{"Grant guidance (subject to eligibility)"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-27.5 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[38px] font-extrabold text-[#0b5e7e] leading-none">
@@ -129,9 +129,9 @@ function ContainerSection() {
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-27.5 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[38px] font-extrabold text-[#0b5e7e] leading-none">
-            {"35+"}
+            {"250+"}
           </div>
-          <div>{"Industries served"}</div>
+          <div>{"Clients"}</div>
         </div>
       </div>
     </div>
@@ -229,7 +229,7 @@ function SectionSpaceSection2() {
             {"Audit · Consultation · Training"}
           </h2>
           <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-            {"EDG eligible | SAC accreditation | SS 714:2025 aligned"}
+            {"EDGE eligible | SAC accreditation | SS 714:2025 aligned"}
           </p>
         </div>
         <div className="flex flex-wrap mt-4! -mr-6 -ml-6">
@@ -475,7 +475,7 @@ function ContainerSection3() {
                 </tr>
                 <tr className="border-inherit border-solid [border-width:1px_0]">
                   <td className="border-inherit border-solid [border-width:0_1px] pt-2 pr-2 pb-2 pl-2 text-[initial] bg-white [border-bottom-width:1px] shadow-[inset_0_0_0_9999px_initial] [border-bottom:1px_solid_#eef2f6] text-[14px] align-top">
-                    {"EDG grant eligible"}
+                    {"EDGE Grant eligible"}
                   </td>
                   <td className="border-inherit border-solid [border-width:0_1px] pt-2 pr-2 pb-2 pl-2 text-[initial] bg-white [border-bottom-width:1px] shadow-[inset_0_0_0_9999px_initial] [border-bottom:1px_solid_#eef2f6] text-[14px] align-top">
                     {"✓ Consultation co-funded up to 50%"}
@@ -495,7 +495,7 @@ function ContainerSection3() {
               {"ICFC recommendation:"}
             </strong>
             {
-              " Implement DPTM + ISO 27701 together for maximum PDPA compliance coverage and international recognition — single EDG grant application, 30–40% more efficient."
+              " Implement DPTM + ISO 27701 together for maximum PDPA compliance coverage and international recognition — one EDGE Grant application by you, 30–40% more efficient."
             }
           </p>
         </div>
@@ -515,19 +515,19 @@ function ContainerSection4() {
           <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
             <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[rgba(255,255,255,1)]! text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
               {
-                "50% EDG / MASA grant co-funding — up to 50% of DPTM consultation costs"
+                "EDGE Grant — up to 50% of DPTM consultation costs for SMEs, subject to eligibility and Enterprise Singapore's approval"
               }
             </h3>
             <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
               {
-                "Enterprise Singapore's EDG covers up to 50% of qualifying SS 714:2025 consultation fees for eligible Singapore SMEs. ICFC manages your application before project commencement. DPTM + ISO 27701 integrated projects qualify for EDG co-funding on both standards through a single application."
+                "Enterprise Singapore's EDGE Grant supports up to 50% of qualifying SS 714:2025 consultation fees for SMEs (up to 30% for non-SMEs), subject to eligibility and Enterprise Singapore's approval. ICFC prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal before project commencement. DPTM + ISO 27701 integrated projects may be supported under EDGE for both standards."
               }
             </p>
             <SiteLink
               href="/contact-us"
               className="text-[#2B3944] [text-decoration:none] pt-3.5 pr-6.5 pb-3.5 pl-6.5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#AB052D] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
             >
-              {"Check EDG eligibility →"}
+              {"Check EDGE eligibility →"}
             </SiteLink>
           </div>
           <div className="shrink-0 w-[33.33333333%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] text-center!">
@@ -588,7 +588,7 @@ function SectionSpaceSection4() {
                 {"04"}
               </div>
               <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {"Grant application"}
+                {"Grant application (by you, on the Business Grants Portal)"}
               </p>
             </div>
           </div>
@@ -619,74 +619,7 @@ function SectionSpaceSection4() {
 }
 
 function SectionSpaceSection5() {
-  return (
-    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25 [background:#2B3944]">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] mb-6!">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#0b5e7e]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Data Protection Officer"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"E-commerce platform, Singapore"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"ICFC helped us achieve DPTM certification in under four months — starting from a position where we had a DPO appointment letter but very little else. Their data inventory workshop revealed personal data processing activities across three departments that we had not previously documented. The EDG grant covered 50% of the consultation cost. First-attempt success."'
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] mb-6!">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#0b5e7e]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"CTO"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Healthcare technology provider, Singapore"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"We needed both DPTM and ISO 27701 to qualify for a government tender that required Singapore national certification and international privacy management credentials. ICFC\'s integrated approach — one data inventory, one policy framework, one EDG grant application — saved us significant time and cost versus pursuing them separately."'
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-2! flex-[0_0_auto]">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#0b5e7e]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"General Manager"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Logistics service provider, Singapore"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"ICFC\'s data breach tabletop exercise was the most valuable part of our DPTM preparation. We ran a realistic breach scenario that exposed a critical gap — we had no pre-drafted PDPC notification template and no clear escalation path for the 3-day notification deadline. Fixing this before it became a real incident was invaluable."'
-                }
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  return null;
 }
 
 function ContainerSection5() {
@@ -700,13 +633,13 @@ function ContainerSection5() {
         </h3>
         <p className="mt-4! mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
           {
-            "ICFC提供新加坡SS 714:2025数据保护信任标志全程认证服务，包括数据保护差距分析、个人数据清单建立、数据保护官（DPO）任命支持、隐私政策制定、数据泄露应急计划及员工培训，涵盖金融、医疗、物流、零售等35大行业。与PDPA及ISO 27701完全对齐。EDG/MASA补助金最高资助50%咨询费用。提供中英双语服务。"
+            "ICFC提供新加坡SS 714:2025数据保护信任标志全程认证服务，包括数据保护差距分析、个人数据清单建立、数据保护官（DPO）任命支持、隐私政策制定、数据泄露应急计划及员工培训，涵盖金融、医疗、物流、零售等35大行业。与PDPA及ISO 27701完全对齐。EDGE补助金中小企业最高50%（须符合资格并经新加坡企业发展局批准）。提供中英双语服务。"
           }
         </p>
         <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
           <strong className="[font-weight:bolder]">{"关键词："}</strong>
           {
-            "数据保护信任标志 · SS 714 2025 · DPTM认证 · PDPA合规 · 个人数据保护官 · DPO注册 · EDG补助金 · 最佳DPTM顾问 · 实惠数据保护认证 · APEC CBPR新加坡"
+            "数据保护信任标志 · SS 714 2025 · DPTM认证 · PDPA合规 · 个人数据保护官 · DPO注册 · EDGE补助金 · 最佳DPTM顾问 · 实惠数据保护认证 · APEC CBPR新加坡"
           }
         </p>
         <SiteLink
@@ -844,16 +777,16 @@ function SeoKeywordsSection() {
           {"top data protection firm"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.2rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#0b5e7e] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
-          {"EDG grant DPTM"}
+          {"EDGE Grant DPTM"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.2rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#0b5e7e] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
-          {"MASA grant data protection"}
+          {"EDGE Grant data protection"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.2rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#0b5e7e] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"SkillsFuture PDPA"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.2rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#0b5e7e] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
-          {"ESG grant DPTM"}
+          {"EDGE Grant DPTM support"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.2rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#0b5e7e] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"新加坡数据保护信任标志"}
@@ -911,7 +844,7 @@ function SectionSpaceSection6() {
             title={
               <>
                 {
-                  "How much does DPTM consultation cost? Is EDG grant available?"
+                  "How much does DPTM consultation cost? Is EDGE Grant support available?"
                 }
               </>
             }
@@ -921,7 +854,7 @@ function SectionSpaceSection6() {
           >
             {" "}
             {
-              "Typical ICFC consultation fees for a Singapore SME range from S$8,000–S$25,000 from gap analysis through pre-certification readiness. Certification body audit fees are separate, typically S$3,000–S$8,000 for Stage 1 and Stage 2 combined. The EDG/MASA grant covers up to 50% of qualifying consultation fees for eligible Singapore SMEs — significantly reducing the net cost. For integrated DPTM + ISO 27701 projects, the combined cost is 30–40% less than two separate projects, with the same EDG co-funding available. Contact ICFC for a project-specific estimate."
+              "Typical ICFC consultation fees for a Singapore SME range from S$8,000–S$25,000 from gap analysis through pre-certification readiness. Certification body audit fees are separate, typically S$3,000–S$8,000 for Stage 1 and Stage 2 combined. The EDGE Grant may support up to 50% of qualifying consultation fees for SMEs (30% for non-SMEs), subject to eligibility and Enterprise Singapore's approval; you apply on the Business Grants Portal. For integrated DPTM + ISO 27701 projects, the combined cost is 30–40% less than two separate projects, with EDGE Grant support possible, subject to eligibility and Enterprise Singapore's approval. Contact ICFC for a project-specific estimate."
             }
           </AccordionItem>
           <AccordionItem
@@ -932,7 +865,7 @@ function SectionSpaceSection6() {
           >
             {" "}
             {
-              "Both serve different but complementary purposes. DPTM is Singapore's national mark — recognised by PDPC, government procurement, and Singapore-focused enterprise clients. ISO 27701 is internationally recognised — accepted by GDPR-regulated entities, Asian privacy regulators, and global enterprise procurement. ICFC's strong recommendation for organisations with international data flows or multinational clients is to pursue both through an integrated implementation — sharing one data inventory, one policy framework, and qualifying for one EDG grant application. The total cost of both together is 30–40% less than pursuing them separately."
+              "Both serve different but complementary purposes. DPTM is Singapore's national mark — recognised by PDPC, government procurement, and Singapore-focused enterprise clients. ISO 27701 is internationally recognised — accepted by GDPR-regulated entities, Asian privacy regulators, and global enterprise procurement. ICFC's strong recommendation for organisations with international data flows or multinational clients is to pursue both through an integrated implementation — sharing one data inventory, one policy framework, and which may be supported by one EDGE Grant application made by you. The total cost of both together is 30–40% less than pursuing them separately."
             }
           </AccordionItem>
           <AccordionItem
@@ -967,7 +900,7 @@ function ContainerSection7() {
         </h3>
         <p className="mt-0 mb-7.5 text-[rgba(255,255,255,.5)]! text-[17px] [font-weight:normal] leading-7">
           {
-            "Free 30-minute data protection assessment. Honest gap analysis against SS 714:2025. EDG grant eligibility check. No obligation."
+            "Free 30-minute data protection assessment. Honest gap analysis against SS 714:2025. EDGE Grant eligibility guidance. No obligation."
           }
         </p>
         <div className="mt-6!">

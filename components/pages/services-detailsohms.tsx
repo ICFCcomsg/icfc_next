@@ -24,7 +24,7 @@ function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
       title="ISO 45001:2018 · SS ISO 45001 · OHSMS · WSH Act · Singapore"
-      description="Occupational Health & Safety — ISO 45001 certified, WSH Act aligned, bizSAFE STAR pathway. MOM SHMS mandatory audit satisfied | SFEC/PSG funding available"
+      description="Occupational Health & Safety — ISO 45001 certified, WSH Act aligned, bizSAFE STAR pathway. MOM SHMS mandatory audit satisfied | SFEC training funding; EDGE Grant for eligible standards"
       background="/assets/images/services/services-thumb-30.webp"
     />
   );
@@ -46,7 +46,7 @@ function ServicesAreaSection() {
               </div>
               <p className="mt-7.5 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
-                  "ISO 45001:2018 (SS ISO 45001) is the world's leading Occupational Health and Safety Management System standard — with over 540,000 certificates issued globally. In Singapore, it is the most strategic safety investment a business can make: it satisfies the MOM SHMS mandatory audit requirement, provides direct fast-track entry to bizSAFE STAR (bypassing Levels 1–4), and aligns your entire safety governance with Singapore's WSH Act and 102 Approved Codes of Practice. ICFC delivers OHSMS audit, consultation, and training with SkillsFuture and PSG funding support managed in every engagement."
+                  "ISO 45001:2018 (SS ISO 45001) is the world's leading Occupational Health and Safety Management System standard — with over 540,000 certificates issued globally. In Singapore, it is the most strategic safety investment a business can make: it satisfies the MOM SHMS mandatory audit requirement, provides direct fast-track entry to bizSAFE STAR (bypassing Levels 1–4), and aligns your entire safety governance with Singapore's WSH Act and 102 Approved Codes of Practice. ICFC delivers OHSMS audit, consultation, and training, and explains which funding scheme, if any, applies."
                 }
               </p>
               <div className="mt-10 mr-0 mb-10 ml-0 flex flex-wrap gap-6.25 justify-center">
@@ -77,9 +77,9 @@ function ServicesAreaSection() {
                 </div>
                 <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-32.5 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.08)] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="mb-2 text-[44px] font-extrabold text-[#AB052D] leading-none">
-                    {"25+"}
+                    {"250+"}
                   </div>
-                  <div>{"Industries served"}</div>
+                  <div>{"Clients"}</div>
                 </div>
                 <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-32.5 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.08)] [transition:all_0.3s] motion-reduce:transition-none">
                   <div className="mb-2 text-[44px] font-extrabold text-[#AB052D] leading-none">
@@ -282,12 +282,12 @@ function ServicesAreaSection() {
                   <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
                     <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[rgba(255,255,255,1)]! text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
                       {
-                        "💰 SFEC & PSG funding available for ISO 45001 training and OHSMS software"
+                        "💰 SFEC training funding and EDGE Grant guidance for ISO 45001"
                       }
                     </h3>
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        "SkillsFuture Enterprise Credit (SFEC) covers up to 90% of qualifying ISO 45001 training costs for eligible employers (up to S$10,000). The Productivity Solutions Grant (PSG) may support pre-approved OHSMS management software. Integrated IMS projects (ISO 45001 + ISO 9001 or ISO 14001) may qualify for EDG co-funding on the non-basic standards components."
+                        "SkillsFuture Enterprise Credit (SFEC) covers up to 90% of qualifying ISO 45001 training costs for eligible employers (up to S$10,000). The EDGE Grant (Enterprise Singapore) may support standards consultancy where the standard is listed, subject to eligibility and Enterprise Singapore's approval. (EDG and PSG ceased on 29 September 2026.)"
                       }
                     </p>
                     <SiteLink
@@ -390,7 +390,7 @@ function ServicesAreaSection() {
                   <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#AB052D]">
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        '"Integrated ISO 9001 + ISO 45001 + ISO 14001 IMS in one engagement. SFEC covered training costs, EDG grant covered 50% of consultation fees. Incident rate dropped 60% in first year."'
+                        '"Integrated ISO 9001 + ISO 45001 + ISO 14001 IMS in one engagement. SFEC covered training costs and EDGE Grant support applied to consultation fees. Incident rate dropped 60% in first year."'
                       }
                     </p>
                     <strong className="[font-weight:bolder]">
@@ -453,7 +453,7 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "(1) SkillsFuture Enterprise Credit (SFEC) — covers up to 90% of qualifying ISO 45001 training costs for eligible employers (up to S$10,000); (2) Productivity Solutions Grant (PSG) — may support pre-approved OHSMS management software; (3) EDG/MASA grant — if you pursue ISO 45001 as part of an integrated IMS with ISO 9001 or ISO 14001, the non-basic standards components may qualify for EDG co-funding of up to 50%. ICFC conducts a free funding assessment before any engagement begins."
+                    "(1) SkillsFuture Enterprise Credit (SFEC) — covers up to 90% of qualifying ISO 45001 training costs for eligible employers (up to S$10,000); (2) EDGE Grant (Enterprise Singapore) — may support standards consultancy where the standard is listed, up to 50% for SMEs for most standards, subject to eligibility and Enterprise Singapore's approval. EDG and PSG ceased on 29 September 2026. ICFC explains which scheme, if any, applies; you apply on the Business Grants Portal."
                   }
                 </AccordionItem>
                 <AccordionItem
@@ -511,7 +511,7 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-4! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Free 30-minute safety assessment. Honest gap analysis against ISO 45001 and WSH Act. bizSAFE STAR pathway review. SFEC/PSG funding check. No obligation."
+                    "Free 30-minute safety assessment. Honest gap analysis against ISO 45001 and WSH Act. bizSAFE STAR pathway review. SFEC and EDGE funding guidance. No obligation."
                   }
                 </p>
                 <div className="flex! flex-wrap! justify-center! gap-4!">
@@ -540,7 +540,7 @@ function ServicesAreaSection() {
                   {"Page optimised for:"}
                 </strong>
                 {
-                  " ISO 45001 Singapore 2026 · bizSAFE STAR ISO 45001 · SHMS audit MOM Singapore · WSH Act compliance · best OHSMS consultant SG · affordable ISO 45001 · budget OHSMS certification · SFEC ISO 45001 · PSG OHSMS Singapore · 新加坡ISO 45001职业健康安全管理"
+                  " ISO 45001 Singapore 2026 · bizSAFE STAR ISO 45001 · SHMS audit MOM Singapore · WSH Act compliance · best OHSMS consultant SG · affordable ISO 45001 · budget OHSMS certification · SFEC ISO 45001 · EDGE Grant OHSMS Singapore · 新加坡ISO 45001职业健康安全管理"
                 }
               </div>
             </div>

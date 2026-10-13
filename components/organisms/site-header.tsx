@@ -266,9 +266,6 @@ export function SiteHeader({ route }: { route: string }) {
               ))}
           </nav>
           <p>
-            <span className="mb-3 block">
-              10 BUROH STREET #04-05 WEST CONNECT BUILDING SINGAPORE 627564
-            </span>
             <SiteLink href="tel:+6586017001">+65 8601 7001</SiteLink>
             <br />
             <SiteLink href="mailto:admin@icfc.com.sg">

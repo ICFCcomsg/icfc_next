@@ -19,9 +19,9 @@ const posts: BlogPost[] = [
     category: "Funding",
     date: "March 10, 2026",
     title:
-      "How to apply for the Enterprise Singapore EDG grant for ISO certification in Singapore (2026 guide)",
+      "How to apply for the Enterprise Singapore EDGE Grant for ISO certification in Singapore (2026 guide)",
     description:
-      "Step-by-step guide to EDG grant application, eligibility criteria, and how ICFC helps maximise your co-funding for ISO certifications.",
+      "Step-by-step guide to the EDGE Grant, eligibility criteria, and the proposal details ICFC prepares for ISO certifications.",
   },
   {
     href: "/blogGreenPlan2030",
@@ -40,7 +40,7 @@ const posts: BlogPost[] = [
     date: "February 28, 2026",
     title: "ISO/IEC 42001: what Singapore AI companies need to know in 2026",
     description:
-      "First international AI management system standard — alignment with IMDA AI Verify, MAS AI guidelines, and EDG grant.",
+      "First international AI management system standard — alignment with IMDA AI Verify, MAS AI guidelines, and EDGE Grant.",
   },
   {
     href: "/blog_ISO27701_vs_PDPA_Singapore",

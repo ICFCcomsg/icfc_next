@@ -323,7 +323,7 @@ function PostboxAreaSection() {
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Enterprise Singapore EDG (Standards Adoption) covers up to 50% qualifying costs for SMEs, with enhanced 70% for sustainability standards until 31 March 2026 (ISO 14001, ISO 50001). Qualifying costs include consultant fees (TR43/SS680 certified), internal manpower, and relevant software. "
+                    "The Enterprise Singapore EDGE Grant supports most standards at up to 50% for SMEs, and sustainability standards (e.g. SS 587, ISO 14001, ISO 50001 where listed) at up to 70% for SMEs, subject to eligibility and Enterprise Singapore's approval. Supported costs include professional services by an SS 680:2021 certified consultant and first-year certification by an accredited body. "
                   }
                   <strong className="[font-weight:bolder]">
                     {"Critical:"}
@@ -619,7 +619,7 @@ function PostboxAreaSection() {
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"EDG Grant"}
+                    {"EDGE Grant"}
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"

@@ -20,7 +20,7 @@ function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
       title="ISO/IEC 27701 Privacy Information Management System (PIMS)"
-      description="Audit · Consulting · Training — Singapore PDPA-Aligned Certification for Every Industry. 隐私信息管理体系认证 · 新加坡个人数据保护合规 · ESG资助申请协助 · 35+行业覆盖"
+      description="Audit · Consulting · Training — Singapore PDPA-Aligned Certification for Every Industry. 隐私信息管理体系认证 · 新加坡个人数据保护合规 · EDGE补助金申请文件准备 · 35+行业覆盖"
       background="/assets/images/services/services-thumb-30.webp"
     />
   );
@@ -357,11 +357,11 @@ function ServicesAreaSection() {
                 </div>
                 <div className="mb-5">
                   <div className="mb-1.25 font-extrabold text-[#C8102E]">
-                    {"6. ESG Grant & Funding Application Assistance"}
+                    {"6. EDGE Grant Proposal Support"}
                   </div>
                   <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                     {
-                      "We identify applicable government grants (EDG, CTO-as-a-Service, MAS FSTI, IMDA schemes) and prepare your application to maximise funding coverage for PIMS certification."
+                      "We explain which government schemes, if any, apply (such as EDGE, MAS FSTI or IMDA schemes) and prepare the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal."
                     }
                   </p>
                 </div>
@@ -395,7 +395,7 @@ function ServicesAreaSection() {
                   {"PIMS Implementation Roadmap"}
                 </li>
                 <li className="pt-1.5 pr-0 pb-1.5 pl-6 relative before:[content:'✓'] before:text-[#C8102E] before:[font-weight:bold] before:absolute before:left-0">
-                  {"ESG/EDG Grant Application Package"}
+                  {"EDGE Grant Proposal Package"}
                 </li>
               </ul>
               <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
@@ -403,7 +403,7 @@ function ServicesAreaSection() {
                   {"Consulting Timeline:"}
                 </strong>
                 {
-                  " Discovery & Assessment (Week 1-3) → Data Mapping & ROPA (Week 3-6) → Policy Development (Week 5-10) → Control Implementation (Week 8-16) → Grant Application Support (Parallel Track) → Certification-Ready in 12-20 Weeks"
+                  " Discovery & Assessment (Week 1-3) → Data Mapping & ROPA (Week 3-6) → Policy Development (Week 5-10) → Control Implementation (Week 8-16) → Grant Proposal Preparation (Parallel Track) → Certification-Ready in 12-20 Weeks"
                 }
               </p>
               <h3 className="mt-10 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[45px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[40px] [word-break:break-word]">
@@ -532,11 +532,11 @@ function ServicesAreaSection() {
                   className="float-left! mr-4! text-[1.75rem]! max-[1200px]:text-[calc(1.3rem+.6vw)]! inline-block not-italic"
                 />
                 <h5 className="mt-0 mb-1! font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  {"EDG & ESG Grant Eligible - Up to 70% Co-funding"}
+                  {"EDGE Grant - Up to 50% for SMEs, subject to eligibility and Enterprise Singapore's approval"}
                 </h5>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Enterprise Development Grant (EDG) supports SMEs in building business capabilities. PIMS implementation qualifies under Consultancy capability category. MAS FSTI for financial institutions, IMDA Digital Resilience Bonus also available."
+                    "The EDGE Grant (Enterprise Singapore) lists ISO/IEC 27701 under Standards, with support levels per activity, subject to eligibility and Enterprise Singapore's approval. MAS FSTI for financial institutions, IMDA Digital Resilience Bonus also available."
                   }
                 </p>
                 <p className="mt-2! mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
@@ -544,7 +544,7 @@ function ServicesAreaSection() {
                     {"Why Budget-Friendly Matters:"}
                   </strong>
                   {
-                    " Many SMEs believe ISO 27701 certification is out of reach financially. Bustar challenges this assumption with modular, right-sized engagement models. Our SME PIMS Express package — combining gap assessment, essential policy templates, and certification support — is engineered to deliver international-standard privacy governance at a fraction of large consultancy costs. With ESG and EDG grant stacking, many clients achieve net certification costs below S$5,000."
+                    " Many SMEs believe ISO 27701 certification is out of reach financially. Bustar challenges this assumption with modular, right-sized engagement models. Our SME PIMS Express package — combining gap assessment, essential policy templates, and certification support — is engineered to deliver international-standard privacy governance at a fraction of large consultancy costs. Where EDGE support applies, net certification costs can be lower."
                   }
                 </p>
                 <SiteLink
@@ -863,7 +863,7 @@ function ServicesAreaSection() {
                 </div>
                 <div className="mb-4 [border-bottom:1px_solid_#e2e8f0]">
                   <div className="mt-0 mr-0 mb-0 ml-0 pt-4 pr-0 pb-4 pl-0 font-bold text-[18px] text-[#0f172a] flex justify-between items-center">
-                    {"Can we get ESG grants to fund PIMS certification? "}
+                    {"Can we get grant support for PIMS certification? "}
                     <Icon
                       name="plus"
                       className="inline-block not-italic text-[#C8102E]"
@@ -871,7 +871,7 @@ function ServicesAreaSection() {
                   </div>
                   <div className="pb-5 text-[#475569] leading-[1.6] hidden">
                     {
-                      "Yes. Singapore SMEs may be eligible for Enterprise Singapore's Enterprise Development Grant (EDG), which can cover up to 70% of qualifying consultancy and certification costs. Financial sector organisations may access MAS's FSTI scheme. IMDA's Digital Resilience Bonus may also apply for certain sectors. Bustar's grant advisory team will assess your specific eligibility and prepare your application as part of our engagement — at no additional charge for qualifying clients."
+                      "Yes. Singapore SMEs may be eligible for Enterprise Singapore's EDGE Grant, which for most standards supports up to 50% for SMEs and 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval. Financial sector organisations may access MAS's FSTI scheme. We explain which scheme, if any, applies, and prepare the proposal, quotation and SS 680 consultant details EDGE asks for; you apply yourself on the Business Grants Portal."
                     }
                   </div>
                 </div>
@@ -915,7 +915,7 @@ function ServicesAreaSection() {
                   </div>
                   <div className="pb-5 text-[#475569] leading-[1.6] hidden">
                     {
-                      "Bustar prides itself on being Singapore's most budget-friendly PIMS specialist without compromising on quality. Indicative pricing for SME PIMS Express (up to 50 employees, simple data processing): from S$8,000–S$15,000 before grants. Mid-size organisations (50–500 employees): S$18,000–S$45,000. Enterprise (500+ employees, complex processing): custom scoping. After EDG grant support (up to 70%), net costs are substantially reduced. Contact us for a free, no-obligation scoping quote."
+                      "Bustar prides itself on being Singapore's most budget-friendly PIMS specialist without compromising on quality. Indicative pricing for SME PIMS Express (up to 50 employees, simple data processing): from S$8,000–S$15,000 before grants. Mid-size organisations (50–500 employees): S$18,000–S$45,000. Enterprise (500+ employees, complex processing): custom scoping. Where EDGE Grant support applies (up to 50% for SMEs, subject to eligibility and Enterprise Singapore's approval), net costs are reduced. Contact us for a free, no-obligation scoping quote."
                     }
                   </div>
                 </div>

@@ -18,7 +18,6 @@ export function IndustryPageContent() {
         <WorkingAreaSection />
         <IndustrySectionSection />
         <FeatureAreaSection />
-        <TeamAreaSection />
         <ContactAreaSection />
       </main>
     </SitePageTemplate>
@@ -936,265 +935,6 @@ function FeatureAreaSection() {
   );
 }
 
-function TeamAreaSection() {
-  return (
-    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6 justify-center!">
-          <div className="shrink-0 w-[58.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[83.33333333%] min-[992px]:max-[1200px]:w-[66.66666667%] max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
-            <div className="text-center! mb-11.25">
-              <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                {
-                  "\n                        The expert teams member\n                     "
-                }
-              </span>
-              <AnimatedElement
-                as="h2"
-                effect="split"
-                delay={0}
-                duration={0.8}
-                className="mt-0 mb-0 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
-              >
-                {"Meet with consultant expert"}
-              </AnimatedElement>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
-          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
-            <div className="grid grid-cols-[repeat(3,1fr)] max-[767px]:grid-cols-[repeat(1,1fr)] min-[767px]:max-[991px]:grid-cols-[repeat(2,1fr)] gap-7.5">
-              <AnimatedElement
-                as="div"
-                effect="up"
-                delay={0.3}
-                duration={1}
-                data-wow-delay=".3s"
-                data-wow-duration="1s"
-                className="group/team-item"
-              >
-                <div className="mb-5.25 relative overflow-hidden rounded-md">
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                  >
-                    <SiteImage
-                      src="/assets/images/team/team-thumb-01.webp"
-                      alt="image"
-                      className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/team-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
-                    />
-                  </SiteLink>
-                </div>
-                <div className="pb-6.25 after:group-hover/team-item:w-full after:group-hover/team-item:inset-s-0 flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-px before:[background:#DBDEE1] before:bottom-0 before:inset-e-0 after:absolute after:[content:''] after:w-0 after:h-px after:[background:#AB052D] after:bottom-0 after:inset-e-0 after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
-                  <div>
-                    <h5 className="mt-0 mb-1.25 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
-                      <SiteLink
-                        href="/contact-us"
-                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      >
-                        {
-                          "Leslie\n                                                Alexander"
-                        }
-                      </SiteLink>
-                    </h5>
-                    <span className="text-[16px] font-medium tracking-[0.01em]">
-                      {"Sr. Analyst Finance"}
-                    </span>
-                  </div>
-                  <div>
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-2 group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
-                    >
-                      <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(150%)] w-4.25 group-hover/icon-box:transform-[translateX(150%)] group-hover/team-item:transform-[translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(0%)] w-4.25 group-hover/icon-box:transform-[translateX(0%)] absolute transform-[translateX(-150%)] group-hover/team-item:transform-[translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                      </span>
-                    </SiteLink>
-                  </div>
-                </div>
-              </AnimatedElement>
-              <AnimatedElement
-                as="div"
-                effect="up"
-                delay={0.5}
-                duration={1}
-                data-wow-delay=".5s"
-                data-wow-duration="1s"
-                className="group/team-item"
-              >
-                <div className="mb-5.25 relative overflow-hidden rounded-md">
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                  >
-                    <SiteImage
-                      src="/assets/images/team/team-thumb-02.webp"
-                      alt="image"
-                      className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/team-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
-                    />
-                  </SiteLink>
-                </div>
-                <div className="pb-6.25 after:group-hover/team-item:w-full after:group-hover/team-item:inset-s-0 flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-px before:[background:#DBDEE1] before:bottom-0 before:inset-e-0 after:absolute after:[content:''] after:w-0 after:h-px after:[background:#AB052D] after:bottom-0 after:inset-e-0 after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
-                  <div>
-                    <h5 className="mt-0 mb-1.25 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
-                      <SiteLink
-                        href="/contact-us"
-                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      >
-                        {"Cameron Williamson"}
-                      </SiteLink>
-                    </h5>
-                    <span className="text-[16px] font-medium tracking-[0.01em]">
-                      {"HR-Adviseur"}
-                    </span>
-                  </div>
-                  <div>
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-2 group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
-                    >
-                      <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(150%)] w-4.25 group-hover/icon-box:transform-[translateX(150%)] group-hover/team-item:transform-[translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(0%)] w-4.25 group-hover/icon-box:transform-[translateX(0%)] absolute transform-[translateX(-150%)] group-hover/team-item:transform-[translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                      </span>
-                    </SiteLink>
-                  </div>
-                </div>
-              </AnimatedElement>
-              <AnimatedElement
-                as="div"
-                effect="up"
-                delay={0.7}
-                duration={1}
-                data-wow-delay=".7s"
-                data-wow-duration="1s"
-                className="group/team-item"
-              >
-                <div className="mb-5.25 relative overflow-hidden rounded-md">
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                  >
-                    <SiteImage
-                      src="/assets/images/team/team-thumb-03.webp"
-                      alt="image"
-                      className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/team-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
-                    />
-                  </SiteLink>
-                </div>
-                <div className="pb-6.25 after:group-hover/team-item:w-full after:group-hover/team-item:inset-s-0 flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-px before:[background:#DBDEE1] before:bottom-0 before:inset-e-0 after:absolute after:[content:''] after:w-0 after:h-px after:[background:#AB052D] after:bottom-0 after:inset-e-0 after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
-                  <div>
-                    <h5 className="mt-0 mb-1.25 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
-                      <SiteLink
-                        href="/contact-us"
-                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      >
-                        {"Darrell Steward"}
-                      </SiteLink>
-                    </h5>
-                    <span className="text-[16px] font-medium tracking-[0.01em]">
-                      {"Product Manager"}
-                    </span>
-                  </div>
-                  <div>
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-2 group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
-                    >
-                      <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(150%)] w-4.25 group-hover/icon-box:transform-[translateX(150%)] group-hover/team-item:transform-[translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(0%)] w-4.25 group-hover/icon-box:transform-[translateX(0%)] absolute transform-[translateX(-150%)] group-hover/team-item:transform-[translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                      </span>
-                    </SiteLink>
-                  </div>
-                </div>
-              </AnimatedElement>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function ContactAreaSection() {
   return (
     <section className="overflow-x-clip relative z-1 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25 min-[991px]:max-[1199px]:pb-30">
@@ -1467,7 +1207,7 @@ function ContactAreaSection() {
                         <div>
                           <div>
                             <h6 className="mt-0 mb-2.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                              {" Financial Advisory "}
+                              {" Financial Services "}
                             </h6>
                           </div>
                           <div></div>
@@ -1488,7 +1228,7 @@ function ContactAreaSection() {
                       />
                       <div>
                         <h6 className="mt-0 mb-1.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                          {" Financial Advisory "}
+                          {" Financial Services "}
                         </h6>
                       </div>
                     </div>

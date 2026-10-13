@@ -77,7 +77,7 @@ export const sitePages = {
     component: BlogIso42001AiPageContent,
     title: "ISO/IEC 42001 for AI Companies Singapore | ICFC",
     description:
-      "ISO 42001 AI Management System: what Singapore AI companies need in 2026. IMDA AI Verify crosswalk, PDPA alignment, EDG grant, certification roadmap.",
+      "ISO 42001 AI Management System: what Singapore AI companies need in 2026. IMDA AI Verify crosswalk, PDPA alignment, EDGE Grant, certification roadmap.",
   },
   "blog_LeadAuditor_vs_InternalAuditor": {
     component: BlogLeadauditorVsInternalauditorPageContent,
@@ -90,7 +90,7 @@ export const sitePages = {
     title:
       "ISO/IEC 42001: What Singapore AI Companies Need to Know in 2026 | ICFC",
     description:
-      "ISO/IEC 42001 AI Management System standard: requirements, Singapore AI Verify mapping, PDPA alignment, implementation roadmap and EDG grant funding for AI companies.",
+      "ISO/IEC 42001 AI Management System standard: requirements, Singapore AI Verify mapping, PDPA alignment, implementation roadmap and EDGE Grant information for AI companies.",
   },
   "blog_bizsafe": {
     component: BlogBizsafePageContent,
@@ -119,9 +119,9 @@ export const sitePages = {
   },
   "blogedg": {
     component: BlogedgPageContent,
-    title: "Enterprise Singapore EDG Grant for ISO Certification 2026 | ICFC",
+    title: "Enterprise Singapore EDGE Grant for ISO Certification 2026 | ICFC",
     description:
-      "Step-by-step guide: How to apply for Enterprise Singapore EDG grant for ISO certification. Up to 50% co-funding for SMEs. Includes EDGE grant 2026 updates.",
+      "Step-by-step guide: How to apply for the Enterprise Singapore EDGE Grant for ISO certification. Up to 50% for most standards for SMEs, subject to eligibility and approval.",
   },
   "industry": {
     component: IndustryPageContent,
@@ -139,91 +139,91 @@ export const sitePages = {
     title:
       "APEC PRP Certification Singapore | Privacy Recognition for Processors | ICFC Pte Ltd",
     description:
-      "Singapore's trusted APEC PRP certification specialist. Privacy Recognition for Processors audit, consulting & training. Aligned with PDPA transfer obligations, APEC CBPR system. ESG MASA grant up to 70%. 25+ industries. Best budget PRP consultant SG.",
+      "Singapore's trusted APEC PRP certification specialist. Privacy Recognition for Processors audit, consulting & training. Aligned with PDPA transfer obligations, APEC CBPR system. Funding information explained. 25+ industries. Best budget PRP consultant SG.",
   },
   "services-detailsbcms": {
     component: ServicesDetailsbcmsPageContent,
     title:
       "ISO 22301 BCMS Singapore | Business Continuity Audit, Consultation & Training | ICFC Pte Ltd",
     description:
-      "ISO 22301 BCMS certification Singapore — Business Continuity Management System. BIA, gap analysis, implementation & training with EDG/MASA grant up to 50%. MAS TRM aligned.",
+      "ISO 22301 BCMS certification Singapore — Business Continuity Management System. BIA, gap analysis, implementation & training with EDGE Grant information (subject to eligibility and approval). MAS TRM aligned.",
   },
   "services-detailscbpr": {
     component: ServicesDetailscbprPageContent,
     title:
       "CSA Cyber Trust Mark Singapore | Cloud, OT & AI Security Audit, Consultation & Training | ICFC Pte Ltd",
     description:
-      "CSA Cyber Trust Mark certification Singapore — five preparedness tiers, Cloud, OT & AI Security. Audit, consultation & training with ESG/EDG grant up to 50%. CII operators, FinTech, Data Centres.",
+      "CSA Cyber Trust Mark certification Singapore — five preparedness tiers, Cloud, OT & AI Security. Audit, consultation & training with EDGE Grant information (subject to eligibility and approval). CII operators, FinTech, Data Centres.",
   },
   "services-detailsctm": {
     component: ServicesDetailsctmPageContent,
     title:
       "CSA Cyber Trust Mark Singapore | Cloud, OT & AI Security Audit, Consultation & Training | ICFC Pte Ltd",
     description:
-      "CSA Cyber Trust Mark certification Singapore — five preparedness tiers, Cloud, OT & AI Security. Audit, consultation & training with ESG/EDG grant up to 50%. CII operators, FinTech, Data Centres.",
+      "CSA Cyber Trust Mark certification Singapore — five preparedness tiers, Cloud, OT & AI Security. Audit, consultation & training with EDGE Grant information (subject to eligibility and approval). CII operators, FinTech, Data Centres.",
   },
   "services-detailsdptm": {
     component: ServicesDetailsdptmPageContent,
     title:
       "SS 714:2025 DPTM Singapore | Data Protection Trustmark Audit, Consultation & Training | ICFC Pte Ltd",
     description:
-      "SS 714:2025 DPTM certification Singapore — PDPA aligned, EDG grant up to 50%. Audit, consultation & training for Data Protection Trustmark. DPO registration support.",
+      "SS 714:2025 DPTM certification Singapore — PDPA aligned, EDGE Grant up to 50% for SMEs, subject to eligibility and approval. Audit, consultation & training for Data Protection Trustmark. DPO registration support.",
   },
   "services-detailseol": {
     component: ServicesDetailseolPageContent,
     title:
       "ICFC Pte Ltd | SS 587 End-of-Life ICT Management — Audits, Consulting & Training Singapore",
     description:
-      "ICFC delivers SS 587 end-of-life ICT compliance across 25+ industries: gap audits, ITAD consulting, data sanitisation training & ESG grants. Singapore standard for secure e-waste disposal.",
+      "ICFC delivers SS 587 end-of-life ICT compliance across 25+ industries: gap audits, ITAD consulting, data sanitisation training & EDGE Grant information. Singapore standard for secure e-waste disposal.",
   },
   "services-detailsfive": {
     component: ServicesDetailsfivePageContent,
     title:
       "ISO 9001 QMS Singapore | Quality Management System Audit, Consulting & Training | ICFC Pte Ltd",
     description:
-      "Singapore's trusted ISO 9001 QMS consultant. Quality Management System certification, audit, training & EDG grant management. GeBIZ tender qualification, ISO 9001:2026 transition ready. Best budget QMS consultant SG.",
+      "Singapore's trusted ISO 9001 QMS consultant. Quality Management System certification, audit, training & EDGE Grant information. GeBIZ tender qualification, ISO 9001:2026 transition ready. Best budget QMS consultant SG.",
   },
   "services-detailsfivecyber": {
     component: ServicesDetailsfivecyberPageContent,
     title:
       "CSA Cyber Essentials Mark Singapore | Cybersecurity Audit, Consultation & Training | ICFC Pte Ltd",
     description:
-      "CSA Cyber Essentials Mark certification Singapore — mandated for HIMS vendors, ICT vendors & HIA entities. Audit, consultation & training with ESG/EDG grant up to 50%.",
+      "CSA Cyber Essentials Mark certification Singapore — mandated for HIMS vendors, ICT vendors & HIA entities. Audit, consultation & training with EDGE Grant information (subject to eligibility and approval).",
   },
   "services-detailsfour": {
     component: ServicesDetailsfourPageContent,
     title:
       "ISO 14001:2026 EMS Certification Singapore | Environmental Management System Audit, Consulting & Training | ICFC Pte Ltd",
     description:
-      "Singapore's trusted ISO 14001:2026 EMS consultant. Environmental Management System certification, audit, training & EDG grant management. Aligned with NEA, Carbon Tax, Green Plan 2030 & SGX ESG reporting. Best budget EMS consultant SG.",
+      "Singapore's trusted ISO 14001:2026 EMS consultant. Environmental Management System certification, audit, training & EDGE Grant information. Aligned with NEA, Carbon Tax, Green Plan 2030 & SGX ESG reporting. Best budget EMS consultant SG.",
   },
   "services-detailsohms": {
     component: ServicesDetailsohmsPageContent,
     title:
       "ISO 45001 OHSMS Singapore | Occupational Health & Safety Audit, Consultation & Training | ICFC Pte Ltd",
     description:
-      "ISO 45001 OHSMS certification Singapore — WSH Act aligned, bizSAFE STAR direct pathway. Audit, consultation & training with SFEC/PSG funding. MOM SHMS audit satisfied.",
+      "ISO 45001 OHSMS certification Singapore — WSH Act aligned, bizSAFE STAR direct pathway. Audit, consultation & training with funding information. MOM SHMS audit satisfied.",
   },
   "services-detailsone": {
     component: ServicesDetailsonePageContent,
     title:
       "ISO/IEC 27701 PIMS Certification Singapore | PDPA Compliance | Bustar Consulting",
     description:
-      "Singapore's premier ISO 27701 PIMS certification specialist. Audit, consulting & training aligned with PDPA. ESG & EDG grant assistance. Best budget PIMS consultant SG.",
+      "Singapore's premier ISO 27701 PIMS certification specialist. Audit, consulting & training aligned with PDPA. EDGE Grant information. Best budget PIMS consultant SG.",
   },
   "services-detailsthree": {
     component: ServicesDetailsthreePageContent,
     title:
       "ISO 42001 AIMS Certification Singapore | AI Management System Audit, Consulting & Training | ICFC Pte Ltd",
     description:
-      "Singapore's first dedicated ISO 42001 AIMS consultant. Certification, audit, training & EDG grant management for AI governance. Aligned with MAS AI Guidelines, IMDA AI Verify & CTM AI pillar. Best budget AIMS consultant SG.",
+      "Singapore's first dedicated ISO 42001 AIMS consultant. Certification, audit, training & EDGE Grant information for AI governance. Aligned with MAS AI Guidelines, IMDA AI Verify & CTM AI pillar. Best budget AIMS consultant SG.",
   },
   "services-detailstwo": {
     component: ServicesDetailstwoPageContent,
     title:
       "ISO 37001 ABMS Singapore | Anti-Bribery Management System Audit, Consulting & Training | ICFC Pte Ltd",
     description:
-      "Singapore's trusted ISO 37001:2025 ABMS consultant. Anti-Bribery Management System certification, audit, training & EDG grant management. CPIB endorsed, aligned with PCA & UK Bribery Act. Best budget ABMS consultant SG.",
+      "Singapore's trusted ISO 37001:2025 ABMS consultant. Anti-Bribery Management System certification, audit, training & EDGE Grant information. CPIB endorsed, aligned with PCA & UK Bribery Act. Best budget ABMS consultant SG.",
   },
   "services": {
     component: ServicesPageContent,

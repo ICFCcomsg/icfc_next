@@ -23,8 +23,8 @@ export function ServicesDetailstwoPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="ISO 37001:2025 · Anti-Bribery Management System · Singapore · CPIB endorsed"
-      description="Anti-bribery management — ISO 37001:2025 certified, PCA-aligned, grant-funded"
+      title="ISO 37001:2025 · Anti-Bribery Management System · Singapore · CPIB-aligned"
+      description="Anti-bribery management — ISO 37001:2025 consulting, PCA-aligned, EDGE Grant guidance"
       background="/assets/images/services/services-thumb-30.webp"
     />
   );
@@ -46,7 +46,7 @@ function ServicesAreaSection() {
               </div>
               <p className="mt-7.5 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
-                  "ISO 37001:2025 is the world's leading standard for Anti-Bribery Management Systems (ABMS). In Singapore, it is nationally adopted as SS ISO 37001 — jointly launched by SPRING Singapore and the Corrupt Practices Investigation Bureau (CPIB) — and aligned to the Prevention of Corruption Act (PCA). The 2025 edition introduces critical updates including climate change risk, enhanced conflicts of interest management, and stronger compliance culture requirements. ICFC delivers full ABMS audit, consultation, and training with EDG grant management built into every engagement, across all 35 major Singapore industries."
+                  "ISO 37001:2025 is the world's leading standard for Anti-Bribery Management Systems (ABMS). In Singapore, it is nationally adopted as SS ISO 37001 — jointly launched by SPRING Singapore and the Corrupt Practices Investigation Bureau (CPIB) — and aligned to the Prevention of Corruption Act (PCA). The 2025 edition introduces critical updates including climate change risk, enhanced conflicts of interest management, and stronger compliance culture requirements. ICFC delivers full ABMS audit, consultation, and training with EDGE Grant proposal support (you apply on the Business Grants Portal), across all 35 major Singapore industries."
                 }
               </p>
               <div className="flex flex-wrap mt-7.5 -mr-6 -ml-6 mb-10">
@@ -79,10 +79,10 @@ function ServicesAreaSection() {
                 <div className="shrink-0 w-[25%] max-[768px]:w-[50%] max-w-full pr-6 pl-6 mt-6 flex-[0_0_auto]">
                   <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef] hover:transform-[translateY(-5px)] hover:shadow-[0_10px_25px_rgba(0,0,0,0.05)] hover:[background:#fff] [transition:all_0.3s] motion-reduce:transition-none">
                     <div className="mb-2 text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                      {"50%"}
+                      {"EDGE"}
                     </div>
                     <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                      {"EDG grant co-funding"}
+                      {"Grant guidance (subject to eligibility)"}
                     </p>
                     <small className="text-[.875em]">
                       {"for qualifying SMEs"}
@@ -383,7 +383,7 @@ function ServicesAreaSection() {
                       </td>
                       <td className="border-inherit border-solid [border-width:0_1px] pt-2 pr-2 pb-2 pl-2 text-[initial] bg-white [border-bottom-width:1px] shadow-[inset_0_0_0_9999px_initial]">
                         {
-                          "✓ CPIB endorsed SS ISO 37001 provides prosecution mitigation"
+                          "✓ CPIB-aligned SS ISO 37001 provides prosecution mitigation"
                         }
                       </td>
                     </tr>
@@ -494,7 +494,7 @@ function ServicesAreaSection() {
                     </h4>
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        "Full implementation, IMS integration, PCA alignment, EDG grant managed."
+                        "Full implementation, IMS integration, PCA alignment, EDGE Grant proposal support."
                       }
                     </p>
                     <SiteLink
@@ -535,12 +535,12 @@ function ServicesAreaSection() {
                 />
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[rgba(33,37,41,1)]! text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {
-                    "EDG / MASA grant — up to 50% co-funding for ISO 37001 consultation"
+                    "EDGE Grant — up to 50% for SMEs on ISO 37001 consultation, subject to eligibility and Enterprise Singapore's approval"
                   }
                 </h5>
                 <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Enterprise Singapore's EDG covers up to 50% of qualifying ISO 37001 consultation fees for eligible Singapore SMEs. ICFC manages your application before project commencement. Integrated ABMS + ISO 9001 / ISO 27001 projects can qualify for EDG co-funding across all standards in a single application."
+                    "Enterprise Singapore's EDGE Grant may support up to 50% of qualifying ISO 37001 consultation fees for SMEs, subject to eligibility and Enterprise Singapore's approval. ICFC prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal before starting work."
                   }
                 </p>
                 <SiteLink
@@ -587,7 +587,7 @@ function ServicesAreaSection() {
                     {"04. Grant application"}
                   </div>
                   <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"EDG submitted and approved before any billable work"}
+                    {"EDGE applied for by you and approved before any work starts"}
                   </p>
                 </div>
                 <div className="mb-5">
@@ -626,7 +626,7 @@ function ServicesAreaSection() {
                     {"02. Grant application"}
                   </div>
                   <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"EDG submitted and approved before any work begins"}
+                    {"EDGE applied for by you and approved before any work begins"}
                   </p>
                 </div>
                 <div className="mb-5">
@@ -698,7 +698,7 @@ function ServicesAreaSection() {
                     />
                     <p className="mt-2! mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        '"Integrated ISO 9001 + ISO 37001 approach meant one project, one EDG grant application, and certification to both standards simultaneously. Total cost was significantly less than budgeted."'
+                        '"Integrated ISO 9001 + ISO 37001 approach meant one project, one EDGE grant application, and certification to both standards simultaneously. Total cost was significantly less than budgeted."'
                       }
                     </p>
                     <p className="mt-4! mb-0! font-bold! text-[17px] text-[#616C74] leading-7">
@@ -775,7 +775,7 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "Typical ICFC consultation fees S$12,000–S$35,000. EDG covers up to 50% for eligible SMEs. Certification body fees S$4,000–S$9,000. Integrated IMS projects reduce total cost by 20-30%. Small organizations may complete the process in 6-8 months."
+                    "Typical ICFC consultation fees S$12,000–S$35,000. EDGE may support up to 50% for eligible SMEs, subject to eligibility and Enterprise Singapore's approval. Certification body fees S$4,000–S$9,000. Integrated IMS projects reduce total cost by 20-30%. Small organizations may complete the process in 6-8 months."
                   }
                 </AccordionItem>
                 <AccordionItem
@@ -802,7 +802,7 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-6! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Free 30-minute anti-bribery assessment. Honest gap analysis against ISO 37001:2025. PCA and CPIB framework alignment review. EDG grant eligibility check. No obligation."
+                    "Free 30-minute anti-bribery assessment. Honest gap analysis against ISO 37001:2025. PCA and CPIB framework alignment review. EDGE Grant scheme guidance. No obligation."
                   }
                 </p>
                 <div className="flex! flex-wrap! justify-center! gap-4!">
@@ -858,7 +858,7 @@ function CtaAreaSection() {
               <div className="text-[14px] font-medium">
                 <p className="mt-0 mb-0 text-[14px] font-medium text-[rgba(255,255,255,0.8)] leading-7 max-[575px]:text-center">
                   {
-                    "ISO 37001:2025 ABMS certification — CPIB endorsed, PCA aligned. "
+                    "ISO 37001:2025 ABMS certification — CPIB-aligned, PCA aligned. "
                   }
                   <SiteLink
                     href="/contact-us"

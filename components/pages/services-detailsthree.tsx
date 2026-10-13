@@ -24,7 +24,7 @@ function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
       title="ISO/IEC 42001:2023 · AI Management System · Singapore"
-      description="AI governance — certified, responsible, and grant-funded"
+      description="AI governance — certified, responsible, and grant-supported"
       background="/assets/images/services/services-thumb-30.webp"
     />
   );
@@ -46,7 +46,7 @@ function ServicesAreaSection() {
               </div>
               <p className="mt-7.5 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
-                  "ISO/IEC 42001:2023 is the world's first international standard for Artificial Intelligence Management Systems (AIMS). In Singapore, it is increasingly mandated by enterprise procurement, aligned with IMDA's AI governance frameworks, required by MAS AI Risk Management Guidelines (finalised 2026), and the foundation for CSA's Cyber Trust Mark AI security pillar. ICFC — Singapore's first dedicated ISO 42001 consultancy — delivers AIMS audit, consultation, and training with EDG grant management built in."
+                  "ISO/IEC 42001:2023 is the world's first international standard for Artificial Intelligence Management Systems (AIMS). In Singapore, it is increasingly mandated by enterprise procurement, aligned with IMDA's AI governance frameworks, required by MAS AI Risk Management Guidelines (finalised 2026), and the foundation for CSA's Cyber Trust Mark AI security pillar. ICFC — Singapore's first dedicated ISO 42001 consultancy — delivers AIMS audit, consultation, and training led by SS 680:2021 certified consultants, with EDGE Grant guidance (subject to eligibility and Enterprise Singapore's approval)."
                 }
               </p>
               <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(4,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
@@ -85,10 +85,10 @@ function ServicesAreaSection() {
                 </div>
                 <div className="pt-6 pr-6 pb-6 pl-6 [background:#f8f9fa] rounded-2xl text-center [border:1px_solid_#e9ecef]">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"25+"}
+                    {"250+"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"Singapore industries"}
+                    {"Clients"}
                   </p>
                   <small className="text-[.875em]">{"served"}</small>
                 </div>
@@ -153,12 +153,12 @@ function ServicesAreaSection() {
                 />
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[rgba(33,37,41,1)]! text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {
-                    "EDG / MASA grant — up to 50% co-funding for ISO 42001 consultation"
+                    "EDGE Grant — up to 50% support for ISO 42001, subject to eligibility and Enterprise Singapore's approval"
                   }
                 </h5>
                 <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Enterprise Singapore's EDG covers up to 50% of qualifying ISO 42001 consultation fees for eligible Singapore SMEs. ICFC manages your application before project commencement. Integrated AIMS + ISO 27001 engagements can maximise total grant co-funding across both standards."
+                    "The EDGE Grant (Enterprise Singapore) supports ISO/IEC 42001 at up to 50% for SMEs and 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval. ICFC prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal before starting work."
                   }
                 </p>
                 <SiteLink
@@ -182,10 +182,10 @@ function ServicesAreaSection() {
                 </div>
                 <div className="text-center!">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"50%"}
+                    {"EDGE"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"EDG grant co-funding"}
+                    {"Grant guidance (subject to eligibility)"}
                   </p>
                   <small className="text-[.875em]">
                     {"for qualifying SMEs"}
@@ -464,7 +464,7 @@ function ServicesAreaSection() {
                     </h4>
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        "Gap analysis, Stage 1 & 2, pre-certification, surveillance. EDG eligible."
+                        "Gap analysis, Stage 1 & 2, pre-certification, surveillance. EDGE Grant may apply."
                       }
                     </p>
                     <SiteLink
@@ -488,7 +488,7 @@ function ServicesAreaSection() {
                     </h4>
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        "Full implementation, ISO 27001 integration, MAS AI alignment, EDG grant managed."
+                        "Full implementation, ISO 27001 integration, MAS AI alignment, EDGE guidance."
                       }
                     </p>
                     <SiteLink
@@ -530,7 +530,7 @@ function ServicesAreaSection() {
               <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#C8102E]">
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    '"ICFC was the first consultant in Singapore to help us implement ISO 42001. Their AI use case register methodology was rigorous and practical — we mapped 23 AI systems in two weeks. The EDG grant covered 50% of the project. Highly recommended."'
+                    '"ICFC was the first consultant in Singapore to help us implement ISO 42001. Their AI use case register methodology was rigorous and practical — we mapped 23 AI systems in two weeks. The proposal gave us clear grant guidance. Highly recommended."'
                   }
                 </p>
                 <strong className="[font-weight:bolder]">
@@ -583,7 +583,7 @@ function ServicesAreaSection() {
                   <div className="mb-2.5 [background:#C8102E] text-[white] w-7.5 h-7.5 inline-flex items-center justify-center rounded-full [font-weight:bold]">
                     {"04"}
                   </div>
-                  {"Grant application"}
+                  {"Grant guidance"}
                 </div>
                 <div className="pt-3.75 pr-3.75 pb-3.75 pl-3.75 flex-1 min-w-25 text-center [background:#f8f9fa] rounded-xl">
                   <div className="mb-2.5 [background:#C8102E] text-[white] w-7.5 h-7.5 inline-flex items-center justify-center rounded-full [font-weight:bold]">
@@ -635,13 +635,13 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "ICFC是新加坡首家专注ISO 42001认证的顾问公司，提供人工智能使用清单建立、全面AIMS实施及培训服务，涵盖金融、医疗、物流、制造等25大行业。与IMDA AI Verify框架、MAS AI风险管理指南及CSA网络信任标志AI安全支柱完全对齐。EDG/MASA补助金最高资助50%咨询费用。提供中英双语服务。"
+                    "ICFC是新加坡首家专注ISO 42001认证的顾问公司，提供人工智能使用清单建立、全面AIMS实施及培训服务，涵盖金融、医疗、物流、制造等25大行业。与IMDA AI Verify框架、MAS AI风险管理指南及CSA网络信任标志AI安全支柱完全对齐。EDGE补助金最高资助50%（须符合资格并经新加坡企业发展局批准）。提供中英双语服务。"
                   }
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">{"关键词："}</strong>
                   {
-                    "ISO 42001新加坡 · 人工智能管理体系 · AIMS认证 · AI治理 · 负责任AI · IMDA AI Verify · MAS AI指南 · EDG补助金 · 最佳AI治理顾问 · 实惠ISO 42001认证"
+                    "ISO 42001新加坡 · 人工智能管理体系 · AIMS认证 · AI治理 · 负责任AI · IMDA AI Verify · MAS AI指南 · EDGE补助金 · 最佳AI治理顾问 · 实惠ISO 42001认证"
                   }
                 </p>
                 <SiteLink
@@ -657,7 +657,7 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Free 30-minute AI governance assessment. Honest gap analysis of your AI systems against ISO 42001:2023. EDG grant eligibility check. MAS AI Guidelines alignment review. No obligation."
+                    "Free 30-minute AI governance assessment. Honest gap analysis of your AI systems against ISO 42001:2023. EDGE Grant guidance. MAS AI Guidelines alignment review. No obligation."
                   }
                 </p>
                 <div className="justify-center! mt-4! gap-4! flex flex-wrap">
@@ -733,7 +733,7 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "Typical fees S$15,000–S$40,000 depending on AI systems in scope. EDG covers up to 50% for eligible SMEs. Integrated ISO 27001 + ISO 42001 projects save 30–40%."
+                    "Typical fees S$15,000–S$40,000 depending on AI systems in scope. EDGE supports up to 50% for SMEs and 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval. Integrated ISO 27001 + ISO 42001 projects save 30–40%."
                   }
                 </AccordionItem>
                 <AccordionItem
@@ -765,7 +765,7 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "Yes — a focused initial scope covering one to two AI systems is both achievable and commercially valuable. The EDG grant significantly reduces the financial barrier."
+                    "Yes — a focused initial scope covering one to two AI systems is both achievable and commercially valuable. The EDGE Grant may reduce the financial barrier, subject to eligibility and Enterprise Singapore's approval."
                   }
                 </AccordionItem>
               </AccordionGroup>
@@ -774,7 +774,7 @@ function ServicesAreaSection() {
                   {"Page optimised for:"}
                 </strong>
                 {
-                  " ISO 42001 Singapore · AIMS certification SG · AI governance 2026 · EDG grant ISO 42001 · best ISO 42001 consultant SG · budget AI governance · 新加坡ISO 42001 · 人工智能管理体系 · AIMS认证"
+                  " ISO 42001 Singapore · AIMS certification SG · AI governance 2026 · EDGE Grant ISO 42001 · best ISO 42001 consultant SG · budget AI governance · 新加坡ISO 42001 · 人工智能管理体系 · AIMS认证"
                 }
               </div>
             </div>

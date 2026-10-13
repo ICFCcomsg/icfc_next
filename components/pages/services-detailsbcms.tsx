@@ -57,11 +57,11 @@ function BannerAreaSection() {
               >
                 {"Business continuity —"}
                 <br className="max-[480px]:hidden" />
-                {"certified, resilient, and grant-funded"}
+                {"certification-ready, resilient, EDGE-supported"}
               </AnimatedElement>
               <p className="mt-0 mb-10 text-[17px] font-medium text-[rgba(255,255,255,0.8)] leading-7 tracking-[0.02em] max-w-145 max-[575px]:max-w-full">
                 {
-                  "ISO 22301 BCMS certification. BIA, gap analysis, implementation & training. EDG/MASA grant up to 50%. MAS TRM aligned. ICFC since 2014."
+                  "ISO 22301 BCMS certification. BIA, gap analysis, implementation & training. EDGE Grant up to 50% for SMEs, subject to eligibility and Enterprise Singapore's approval. MAS TRM aligned. ICFC since 2014."
                 }
               </p>
               <div>
@@ -112,27 +112,27 @@ function ContainerSection() {
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#1a4d7a] leading-none">
-            {"50%"}
+            {"EDGE"}
           </div>
-          <div>{"EDG grant co-fund"}</div>
+          <div>{"Grant guidance (subject to eligibility)"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#1a4d7a] leading-none">
-            {"98%"}
+            {"500+"}
           </div>
-          <div>{"First-attempt rate"}</div>
+          <div>{"Audits supported"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#1a4d7a] leading-none">
-            {"25+"}
+            {"250+"}
           </div>
-          <div>{"Industries served"}</div>
+          <div>{"Clients"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#1a4d7a] leading-none">
-            {"11+"}
+            {"12"}
           </div>
-          <div>{"Years expertise"}</div>
+          <div>{"Years"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)]">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#1a4d7a] leading-none">
@@ -172,7 +172,7 @@ function SectionSpaceSection() {
             {"Audit · Consultation · Training"}
           </h2>
           <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-            {"BIA · ISO 22301 · MAS TRM · EDG grant managed"}
+            {"BIA · ISO 22301 · MAS TRM · EDGE Grant guidance"}
           </p>
         </div>
         <div className="flex flex-wrap mt-4! -mr-6 -ml-6">
@@ -500,12 +500,12 @@ function ContainerSection3() {
           <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
             <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[rgba(255,255,255,1)]! text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
               {
-                "50% EDG / MASA grant co-funding — up to 50% of BCMS consultation costs"
+                "EDGE Grant — up to 50% for SMEs on BCMS consultation, subject to eligibility and Enterprise Singapore's approval"
               }
             </h3>
             <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
               {
-                "Enterprise Singapore's EDG covers up to 50% of qualifying ISO 22301 consultation fees for eligible SMEs. ICFC manages your application before project commencement. Integrated IMS engagements (ISO 22301 + ISO 27001) can stack grant funding across both standards."
+                "Enterprise Singapore's EDGE Grant may support up to 50% of qualifying ISO 22301 consultation fees for SMEs, subject to eligibility and Enterprise Singapore's approval. ICFC prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal before starting work."
               }
             </p>
             <SiteLink
@@ -563,7 +563,7 @@ function SectionSpaceSection5() {
                 {"03"}
               </div>
               <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {"Grant application"}
+                {"Grant application (by you)"}
               </p>
             </div>
           </div>
@@ -604,74 +604,7 @@ function SectionSpaceSection5() {
 }
 
 function SectionSpaceSection6() {
-  return (
-    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25 [background:#2B3944]">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] mb-6!">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1a4d7a]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Chief Risk Officer"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Digital bank, Singapore"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  "\"ICFC's BIA facilitation identified three single-point dependencies we hadn't recognised — including a critical vendor with no sub-contractor. Certification achieved on first attempt with MAS TRM fully addressed.\""
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] mb-6!">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1a4d7a]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"IT Director"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Data centre operator"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"Achieved ISO 22301 and ISO 27001 dual certification under ICFC\'s integrated IMS approach — saved over S$30,000 compared to separate engagements. EDG grant covered 50% of total cost."'
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-2! flex-[0_0_auto]">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#1a4d7a]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"General Manager"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Pharmaceutical manufacturer"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"ICFC\'s tabletop exercise programme changed how our executive team thinks about business continuity. They ran a realistic cyber-incident scenario that exposed gaps in our crisis communication escalation path that no document review would have found."'
-                }
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  return null;
 }
 
 function SectionSpaceSection7() {
@@ -711,7 +644,7 @@ function SectionSpaceSection7() {
           >
             {" "}
             {
-              "Consultancy fees typically S$5,000–S$20,000 depending on scope. Certification audit fees S$3,000–S$8,000. EDG/MASA grant covers up to 50% of consultancy fees for eligible SMEs — net cost S$2,500–S$10,000. Integrated IMS reduces costs by 20–30%."
+              "Consultancy fees typically S$5,000–S$20,000 depending on scope. Certification audit fees S$3,000–S$8,000. EDGE Grant may support up to 50% of consultancy fees for eligible SMEs, subject to eligibility and Enterprise Singapore's approval. Integrated IMS reduces costs by 20–30%."
             }
           </AccordionItem>
           <AccordionItem
@@ -741,7 +674,7 @@ function SectionSpaceSection7() {
           >
             {" "}
             {
-              "Yes — ICFC strongly recommends integrated IMS. All three standards share Annex SL structure. Reuses existing policy infrastructure, risk assessment, internal audit programme — reducing total cost by 20–30% with a single EDG grant application."
+              "Yes — ICFC strongly recommends integrated IMS. All three standards share Annex SL structure. Reuses existing policy infrastructure, risk assessment, internal audit programme — reducing total cost by 20–30% with a single EDGE grant application."
             }
           </AccordionItem>
           <AccordionItem
@@ -774,13 +707,13 @@ function ContainerSection4() {
         </h3>
         <p className="mt-4! mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
           {
-            "ICFC专注于新加坡ISO 22301:2019业务持续性管理体系认证，提供业务影响分析（BIA）、全面实施及培训服务，涵盖金融、医疗、物流、制造、建筑、航运等25大行业。与MAS TRM指南、MAS业务持续性管理指南完全一致。EDG/MASA补助金最高资助50%咨询费用。提供中英双语服务，欢迎免费咨询。"
+            "ICFC专注于新加坡ISO 22301:2019业务持续性管理体系认证，提供业务影响分析（BIA）、全面实施及培训服务，涵盖金融、医疗、物流、制造、建筑、航运等25大行业。与MAS TRM指南、MAS业务持续性管理指南完全一致。EDGE补助金最高可支持50%咨询费用（须符合资格并经新加坡企业发展局批准）。提供中英双语服务，欢迎免费咨询。"
           }
         </p>
         <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
           <strong className="[font-weight:bolder]">{"关键词："}</strong>
           {
-            "业务持续性管理 · ISO 22301新加坡 · BCMS认证 · 业务影响分析 · BIA · MAS TRM合规 · EDG补助金 · 最佳BCMS顾问 · 实惠ISO 22301认证"
+            "业务持续性管理 · ISO 22301新加坡 · BCMS认证 · 业务影响分析 · BIA · MAS TRM合规 · EDGE补助金 · 最佳BCMS顾问 · 实惠ISO 22301认证"
           }
         </p>
         <SiteLink
@@ -867,7 +800,7 @@ function ContainerSection6() {
         </h3>
         <p className="mt-0 mb-7.5 text-[rgba(255,255,255,.5)]! text-[17px] [font-weight:normal] leading-7">
           {
-            "Free 30-minute assessment. Honest gap analysis of your BCP maturity against ISO 22301:2019. EDG grant eligibility check. MAS TRM alignment review. No obligation."
+            "Free 30-minute assessment. Honest gap analysis of your BCP maturity against ISO 22301:2019. EDGE Grant scheme guidance. MAS TRM alignment review. No obligation."
           }
         </p>
         <div className="mt-6!">

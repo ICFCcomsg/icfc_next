@@ -42,7 +42,7 @@ function BannerAreaSection() {
               </h1>
               <p className="mt-0 mb-10 text-[17px] font-medium text-[rgba(255,255,255,0.8)] leading-7 tracking-[0.02em] max-w-145 max-[575px]:max-w-full">
                 {
-                  "Responsible disposal, data security & ESG compliance for 25+ Singapore industries — Fintech, Data Centres, CII, Telco, Pharma, Marine, Logistics."
+                  "Responsible disposal, data security & sustainability compliance for 25+ Singapore industries — Fintech, Data Centres, CII, Telco, Pharma, Marine, Logistics."
                 }
               </p>
               <div>
@@ -70,7 +70,7 @@ function BannerAreaSection() {
                   href="#grant"
                   className="text-[#FFFFFF] [text-decoration:none] pt-3.5 pr-6.5 pb-3.5 pl-6.5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,255,255,0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#AB052D] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                 >
-                  {"ESG grant eligibility ↗"}
+                  {"EDGE Grant eligibility ↗"}
                 </SiteLink>
               </div>
             </div>
@@ -93,21 +93,21 @@ function ContainerSection() {
         </div>
         <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-35 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-2 text-[48px] font-extrabold text-[#AB052D] leading-none">
-            {"25+"}
+            {"250+"}
           </div>
-          <div>{"Industries served"}</div>
+          <div>{"Clients"}</div>
         </div>
         <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-35 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-2 text-[48px] font-extrabold text-[#AB052D] leading-none">
-            {"98%"}
+            {"500+"}
           </div>
-          <div>{"First-attempt cert"}</div>
+          <div>{"Audits supported"}</div>
         </div>
         <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-35 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-2 text-[48px] font-extrabold text-[#AB052D] leading-none">
-            {"11+"}
+            {"12"}
           </div>
-          <div>{"Years expertise"}</div>
+          <div>{"Years"}</div>
         </div>
         <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-35 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] hover:[background:white] hover:shadow-[0_15px_35px_rgba(0,0,0,0.07)] [transition:transform_0.2s] motion-reduce:transition-none">
           <div className="mb-2 text-[48px] font-extrabold text-[#AB052D] leading-none">
@@ -119,7 +119,7 @@ function ContainerSection() {
           <div className="mb-2 text-[48px] font-extrabold text-[#AB052D] leading-none">
             {"70%"}
           </div>
-          <div>{"Avg ESG grant"}</div>
+          <div>{"Max EDGE support"}</div>
         </div>
       </div>
     </div>
@@ -284,7 +284,7 @@ function SectionSpaceSection2() {
               </h4>
               <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
-                  "Policy & procedure design, ITAD procurement frameworks, data sanitisation standards, NEA RSA alignment, PDPA integration, ESG grant advisory."
+                  "Policy & procedure design, ITAD procurement frameworks, data sanitisation standards, NEA RSA alignment, PDPA integration, EDGE Grant guidance."
                 }
               </p>
               <SiteLink
@@ -387,7 +387,7 @@ function SectionSpaceSection3() {
           </div>
           <div className="pt-3.5 pr-4.5 pb-3.5 pl-4.5 [background:#fff] [border-left:4px_solid_#AB052D] rounded-xl shadow-[0_2px_6px_rgba(0,0,0,0.03)]">
             <strong className="[font-weight:bolder]">
-              {"ESG — Green Plan 2030"}
+              {"Sustainability — Green Plan 2030"}
             </strong>
             <br />
             {"Circular economy & e-waste reduction."}
@@ -506,14 +506,14 @@ function ContainerSection2() {
             </h3>
             <p className="mt-0 mb-7.5 opacity-[.75]! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
               {
-                "Enterprise Singapore MASA grant, SkillsFuture WSQ training grants, NEA producer responsibility integration, ESG Business Improvement Fund (BIF). ICFC manages grant application alongside your project."
+                "EDGE Grant (Enterprise Singapore) support for SS 587 as a sustainability standard, up to 70% for SMEs and 50% for non-SMEs, subject to eligibility and Enterprise Singapore's approval. SkillsFuture training funding depends on each course's approval. ICFC prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal."
               }
             </p>
             <SiteLink
               href="/contact-us"
               className="text-[#2B3944] [text-decoration:none] pt-3.5 pr-6.5 pb-3.5 pl-6.5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#FFFFFF] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#AB052D] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
             >
-              {"Check MASA grant eligibility ↗"}
+              {"Check EDGE eligibility ↗"}
             </SiteLink>
           </div>
           <div className="shrink-0 w-[33.33333333%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] text-center!">
@@ -530,54 +530,7 @@ function ContainerSection2() {
 }
 
 function SectionSpaceSection5() {
-  return (
-    <section className="pt-0! pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
-            <div className="shadow-[0_0.125rem_0.25rem_rgba(0,0,0,0.075)]! pt-6! pr-6! pb-6! pl-6! bg-[rgba(255,255,255,1)]! rounded-2xl!">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Head of IT governance"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Licensed financial institution"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  "“ICFC designed our SS 587 programme to satisfy PDPA data destruction and MAS TRM decommissioning. ITAD vendor audit gave us documented assurance.”"
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
-            <div className="shadow-[0_0.125rem_0.25rem_rgba(0,0,0,0.075)]! pt-6! pr-6! pb-6! pl-6! bg-[rgba(255,255,255,1)]! rounded-2xl!">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Infrastructure director"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Data centre operator"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  "“Retired thousands of servers, ICFC established chain-of-custody & ITAD framework under 3 months + MASA grant recovered significant costs.”"
-                }
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  return null;
 }
 
 function SectionSpaceSection6() {
@@ -597,7 +550,7 @@ function SectionSpaceSection6() {
           >
             {" "}
             {
-              "SS 587 is Singapore's national standard for end-of-life ICT management. It applies to any organisation retiring ICT assets, ITAD service providers, recyclers, especially CII operators, MAS-regulated entities, NEA producer responsibility obligations. Provides certified data destruction and ESG reporting evidence."
+              "SS 587 is Singapore's national standard for end-of-life ICT management. It applies to any organisation retiring ICT assets, ITAD service providers, recyclers, especially CII operators, MAS-regulated entities, NEA producer responsibility obligations. Provides data destruction and sustainability reporting evidence."
             }
           </AccordionItem>
           <AccordionItem
@@ -607,17 +560,17 @@ function SectionSpaceSection6() {
           >
             {" "}
             {
-              "With ICFC, typical programme takes 3–5 months from kickoff to certification-body audit readiness. 98% first-attempt certification rate minimises rework."
+              "With ICFC, typical programme takes 3–5 months from kickoff to certification-body audit readiness."
             }
           </AccordionItem>
           <AccordionItem
-            title={<>{"Can ICFC help with MASA grant?"}</>}
+            title={<>{"Can ICFC help with the EDGE Grant?"}</>}
             defaultOpen={false}
             className="text-[#212529] bg-white [border:1px_solid_#dee2e6] [border-top:0]"
           >
             {" "}
             {
-              "Yes, ICFC assesses eligibility, manages documentation, milestone claims, coordinates with certification body. Qualifying SMEs can recover up to 70% of eligible consultation & certification costs."
+              "ICFC explains which scheme, if any, applies and prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply and claim yourself on the Business Grants Portal. EDGE supports SS 587 at up to 70% for SMEs and 50% for non-SMEs, subject to eligibility and Enterprise Singapore's approval."
             }
           </AccordionItem>
           <AccordionItem
@@ -659,7 +612,7 @@ function ContainerSection3() {
         </h3>
         <p className="mt-0 mb-7.5 text-[rgba(255,255,255,.5)]! text-[17px] [font-weight:normal] leading-7">
           {
-            "Whether a handful of laptops or whole data centre — get a practical path to certification backed by 11+ years Singapore expertise."
+            "Whether a handful of laptops or whole data centre — get a practical path to certification led by SS 680:2021 certified consultants, backed by 11+ years Singapore expertise."
           }
         </p>
         <div className="mt-6!">
@@ -673,7 +626,7 @@ function ContainerSection3() {
             href="/contact-us"
             className="text-[rgba(255,255,255,1)]! [text-decoration:none] ml-4! pt-3.5 pr-6.5 pb-3.5 pl-6.5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(255,255,255,0.15)] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
           >
-            {"Get a quote + grant check ↗"}
+            {"Get a quote + grant guidance ↗"}
           </SiteLink>
         </div>
       </div>

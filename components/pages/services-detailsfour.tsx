@@ -24,7 +24,7 @@ function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
       title="ISO 14001:2026 · Environmental Management System · NEA · Singapore Green Plan 2030"
-      description="Environmental Management System — ISO 14001:2026 certified, Green Plan aligned, grant-funded"
+      description="Environmental Management System — ISO 14001:2026 certified, Green Plan aligned, EDGE Grant eligible"
       background="/assets/images/services/services-thumb-30.webp"
     />
   );
@@ -46,7 +46,7 @@ function ServicesAreaSection() {
               </div>
               <p className="mt-7.5 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                 {
-                  "ISO 14001:2026 — published 15 April 2026 — is the world's most widely used environmental management standard, trusted by more than 670,000 certified organisations globally. The 2026 edition introduces stronger alignment with climate change, biodiversity, resource efficiency, and supply chain lifecycle thinking. In Singapore, it is essential for SGX sustainability reporting, Carbon Pricing Act compliance, NEA and EPMA regulatory alignment, and Green Plan 2030 commitments. ICFC delivers EMS gap analysis, full ISO 14001:2026 implementation, 2015-to-2026 transition support, and training — with EDG grant management built in."
+                  "ISO 14001:2026 — published 15 April 2026 — is the world's most widely used environmental management standard, trusted by more than 670,000 certified organisations globally. The 2026 edition introduces stronger alignment with climate change, biodiversity, resource efficiency, and supply chain lifecycle thinking. In Singapore, it is essential for SGX sustainability reporting, Carbon Pricing Act compliance, NEA and EPMA regulatory alignment, and Green Plan 2030 commitments. ICFC delivers EMS gap analysis, full ISO 14001:2026 implementation, 2015-to-2026 transition support, and training — with the proposal and quotation EDGE asks for prepared by ICFC."
                 }
               </p>
               <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(4,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
@@ -176,12 +176,12 @@ function ServicesAreaSection() {
                 />
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[rgba(33,37,41,1)]! text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
                   {
-                    "EDG / MASA grant — up to 50% co-funding for EMS consultation"
+                    "EDGE Grant — up to 50% for SMEs (up to 70% for sustainability standards), subject to eligibility and Enterprise Singapore's approval"
                   }
                 </h5>
                 <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Enterprise Singapore's EDG covers up to 50% of qualifying ISO 14001 consultation fees for eligible Singapore SMEs. Enhanced rates applied for sustainability standards. ICFC manages your application before project commencement. Integrated IMS projects (14001 + 50001 + 45001) qualify for EDG co-funding in a single application."
+                    "Enterprise Singapore's EDGE Grant supports up to 50% of qualifying ISO 14001 consultation fees for SMEs (30% for non-SMEs), with higher rates for sustainability standards, subject to eligibility and Enterprise Singapore's approval. ICFC prepares the proposal, quotation and SS 680 consultant details EDGE asks for; you apply on the Business Grants Portal before project commencement. Integrated IMS projects (14001 + 50001 + 45001) may be supported under EDGE."
                   }
                 </p>
                 <SiteLink
@@ -194,19 +194,19 @@ function ServicesAreaSection() {
               <div className="mt-5 mr-0 mb-5 ml-0 grid grid-cols-[repeat(4,1fr)] max-[768px]:grid-cols-[1fr] gap-5">
                 <div className="text-center!">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"25+"}
+                    {"250+"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"Singapore industries"}
+                    {"Clients"}
                   </p>
                   <small className="text-[.875em]">{"ICFC serves"}</small>
                 </div>
                 <div className="text-center!">
                   <div className="text-[2rem] font-extrabold text-[#C8102E] leading-[1.2]">
-                    {"50%"}
+                    {"EDGE"}
                   </div>
                   <p className="mt-0 mb-0! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {"EDG grant co-funding"}
+                    {"Grant guidance (subject to eligibility)"}
                   </p>
                   <small className="text-[.875em]">
                     {"for qualifying SMEs"}
@@ -448,7 +448,7 @@ function ServicesAreaSection() {
                     </h4>
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        "Gap analysis, 2026 transition, Stage 1 & 2, pre-certification, internal audit. EDG eligible."
+                        "Gap analysis, 2026 transition, Stage 1 & 2, pre-certification, internal audit. EDGE Grant eligible."
                       }
                     </p>
                     <SiteLink
@@ -472,7 +472,7 @@ function ServicesAreaSection() {
                     </h4>
                     <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                       {
-                        "Full implementation, 2015→2026 transition, IMS integration, EDG grant managed."
+                        "Full implementation, 2015→2026 transition, IMS integration, EDGE proposal prepared by ICFC."
                       }
                     </p>
                     <SiteLink
@@ -514,7 +514,7 @@ function ServicesAreaSection() {
               <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#C8102E]">
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    '"ICFC\'s integrated ISO 9001 + ISO 14001 + ISO 45001 IMS approach was exactly right for our manufacturing operation. One gap analysis, one internal audit programme, one EDG grant application — and we achieved triple certification simultaneously."'
+                    '"ICFC\'s integrated ISO 9001 + ISO 14001 + ISO 45001 IMS approach was exactly right for our manufacturing operation. One gap analysis, one internal audit programme, one EDGE Grant application — and we achieved triple certification simultaneously."'
                   }
                 </p>
                 <strong className="[font-weight:bolder]">
@@ -670,13 +670,13 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "ICFC提供新加坡ISO 14001:2026环境管理体系全程认证服务，包括差距分析、2015至2026版过渡支持、环境因素识别、NEA/EPMA法规合规、碳税（CPA）温室气体监测、绿色计划2030目标设定及员工培训，涵盖制造、建筑、物流、数据中心等25大行业。EDG/MASA补助金最高资助50%咨询费用。提供中英双语服务。"
+                    "ICFC提供新加坡ISO 14001:2026环境管理体系全程认证服务，包括差距分析、2015至2026版过渡支持、环境因素识别、NEA/EPMA法规合规、碳税（CPA）温室气体监测、绿色计划2030目标设定及员工培训，涵盖制造、建筑、物流、数据中心等25大行业。EDGE补助金中小企业最高50%咨询费用（须符合资格并经新加坡企业发展局批准）。提供中英双语服务。"
                   }
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">{"关键词："}</strong>
                   {
-                    "ISO 14001新加坡 · 环境管理体系 · EMS认证 · 绿色计划2030 · 碳税合规 · NEA合规 · EDG补助金 · 最佳EMS顾问"
+                    "ISO 14001新加坡 · 环境管理体系 · EMS认证 · 绿色计划2030 · 碳税合规 · NEA合规 · EDGE补助金 · 最佳EMS顾问"
                   }
                 </p>
                 <SiteLink
@@ -692,7 +692,7 @@ function ServicesAreaSection() {
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   {
-                    "Free 30-minute environmental management assessment. Honest gap analysis against ISO 14001:2026. 2015-to-2026 transition timeline. NEA and EPMA regulatory alignment review. EDG grant eligibility check. No obligation."
+                    "Free 30-minute environmental management assessment. Honest gap analysis against ISO 14001:2026. 2015-to-2026 transition timeline. NEA and EPMA regulatory alignment review. EDGE Grant eligibility guidance. No obligation."
                   }
                 </p>
                 <div className="justify-center! mt-4! gap-4! flex flex-wrap">
@@ -785,7 +785,7 @@ function ServicesAreaSection() {
                 >
                   {" "}
                   {
-                    "Yes — ICFC strongly recommends IMS. ISO 14001:2026 maintains Annex SL High Level Structure, reducing total cost by 20–30% with a single EDG grant application covering all standards."
+                    "Yes — ICFC strongly recommends IMS. ISO 14001:2026 maintains Annex SL High Level Structure, reducing total cost by 20–30% with a single EDGE Grant application covering all standards, subject to eligibility and Enterprise Singapore's approval."
                   }
                 </AccordionItem>
                 <AccordionItem
@@ -811,7 +811,7 @@ function ServicesAreaSection() {
                   {"Page optimised for:"}
                 </strong>
                 {
-                  " ISO 14001:2026 Singapore · EMS certification SG · Green Plan 2030 · carbon tax compliance · EDG grant ISO 14001 · best EMS consultant SG · 2015 to 2026 transition · NEA compliance · SGX ESG reporting"
+                  " ISO 14001:2026 Singapore · EMS certification SG · Green Plan 2030 · carbon tax compliance · EDGE Grant ISO 14001 · best EMS consultant SG · 2015 to 2026 transition · NEA compliance · SGX ESG reporting"
                 }
               </div>
             </div>

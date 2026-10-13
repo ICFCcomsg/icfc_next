@@ -60,7 +60,7 @@ function BannerAreaSection() {
               </AnimatedElement>
               <p className="mt-0 mb-10 text-[17px] font-medium text-[rgba(255,255,255,0.8)] leading-7 tracking-[0.02em] max-w-145 max-[575px]:max-w-full">
                 {
-                  "Mandated for HIMS vendors, ICT vendors, HIA entities. ESG/EDG grant up to 50%. Audit, consultation & training. ICFC since 2014."
+                  "Mandated for HIMS vendors, ICT vendors, HIA entities. EDGE Grant support may apply, subject to eligibility and Enterprise Singapore's approval. Audit, consultation & training. ICFC since 2014."
                 }
               </p>
               <div>
@@ -105,15 +105,15 @@ function ContainerSection() {
       <div className="mt-10 mr-0 mb-10 ml-0 flex flex-wrap gap-5 justify-center">
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#AB052D] leading-none">
-            {"11+"}
+            {"12"}
           </div>
-          <div>{"Years expertise"}</div>
+          <div>{"Years"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#AB052D] leading-none">
-            {"25+"}
+            {"250+"}
           </div>
-          <div>{"Industries served"}</div>
+          <div>{"Clients"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#AB052D] leading-none">
@@ -123,9 +123,9 @@ function ContainerSection() {
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#AB052D] leading-none">
-            {"50%"}
+            {"EDGE"}
           </div>
-          <div>{"Max grant co-fund"}</div>
+          <div>{"Grant guidance (subject to eligibility)"}</div>
         </div>
         <div className="pt-5 pr-3.75 pb-5 pl-3.75 [background:#f8f9fc] rounded-[20px] text-center flex-1 min-w-25 shadow-[0_5px_20px_rgba(0,0,0,0.03)] hover:transform-[translateY(-5px)] [transition:all_0.3s] motion-reduce:transition-none">
           <div className="mb-1.25 text-[36px] font-extrabold text-[#AB052D] leading-none">
@@ -316,7 +316,7 @@ function SectionSpaceSection2() {
             {"Audit · Consulting · Training"}
           </h2>
           <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-            {"5 CSA domains · HIMS/HIA specialist · ESG/EDG grant managed"}
+            {"5 CSA domains · HIMS/HIA specialist · grant guidance"}
           </p>
         </div>
         <div className="flex flex-wrap mt-4! -mr-6 -ml-6">
@@ -472,7 +472,7 @@ function ContainerSection3() {
                 </tr>
                 <tr className="border-inherit border-solid [border-width:1px_0]">
                   <td className="border-inherit border-solid [border-width:0_1px] pt-2 pr-2 pb-2 pl-2 text-[initial] bg-white [border-bottom-width:1px] shadow-[inset_0_0_0_9999px_initial] [border-bottom:1px_solid_#eef2f6] text-[14px] align-top">
-                    {"ESG/EDG grant eligible"}
+                    {"EDGE Grant: not applicable; CSA funds first certification"}
                   </td>
                   <td className="border-inherit border-solid [border-width:0_1px] pt-2 pr-2 pb-2 pl-2 text-[initial] bg-white [border-bottom-width:1px] shadow-[inset_0_0_0_9999px_initial] [border-bottom:1px_solid_#eef2f6] text-[14px] align-top">
                     {"✓ Yes — up to 50%"}
@@ -520,12 +520,12 @@ function ContainerSection4() {
           <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
             <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[rgba(255,255,255,1)]! text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
               {
-                "50% ESG / EDG grant co-funding — up to 50% of Cyber Essentials consultation costs"
+                "CSA funds first Cyber Essentials certification for eligible SMEs until 6 Feb 2028"
               }
             </h3>
             <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
               {
-                "Enterprise Singapore's EDG and PSG cover qualifying cybersecurity consultation fees for eligible SMEs. ICFC manages your grant application before project commencement. Integrated engagements maximise total co-funding. Transparent fixed pricing."
+                "CSA funds the first Cyber Essentials certification for eligible SMEs and non-profits until 6 February 2028, deducted by the certification body; consultancy is not covered. ICFC explains which scheme, if any, applies. Integrated engagements maximise total co-funding. Transparent fixed pricing."
               }
             </p>
             <SiteLink
@@ -548,74 +548,7 @@ function ContainerSection4() {
 }
 
 function SectionSpaceSection3() {
-  return (
-    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25 [background:#2B3944]">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] mb-6!">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#AB052D]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Chief Financial Officer"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Regional Private Clinic Group · Healthcare"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"ICFC guided our clinic group through full Cyber Essentials certification including HIA compliance in under 6 weeks. Their HIMS vendor expertise is unmatched, and they managed our ESG grant seamlessly."'
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-[50%] max-[768px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] mb-6!">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#AB052D]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Director of Technology"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"ICT Solutions Vendor · Government Technology"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  '"Cyber Essentials was non-negotiable for our procurement qualification. ICFC delivered in 5 weeks, helped us claim 50% via EDG grant, and upskilled our IT team. Truly budget-friendly."'
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-2! flex-[0_0_auto]">
-            <div className="mt-3.75 mr-0 mb-3.75 ml-0 pt-6 pr-6 pb-6 pl-6 [background:#fff] rounded-[20px] shadow-[0_5px_20px_rgba(0,0,0,0.05)] [border-left:4px_solid_#AB052D]">
-              <div className="flex! gap-4!">
-                <div>
-                  <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                    {"Head of Compliance"}
-                  </h5>
-                  <p className="mt-0 mb-0 text-[rgba(33,37,41,0.75)]! text-[17px] [font-weight:normal] leading-7">
-                    {"Colocation Data Centre Operator · Data Centres"}
-                  </p>
-                </div>
-                <div className="ml-auto!">{"★★★★★"}</div>
-              </div>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  "\"We needed both Cyber Essentials and ISO 27001 for our data centre customers. ICFC's integrated programme achieved both certifications in a single engagement — saving us time, cost, and admin burden. The team's bilingual capability was a huge bonus for our Chinese-speaking leadership.\""
-                }
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  return null;
 }
 
 function FaqModernSection() {
@@ -647,7 +580,7 @@ function FaqModernSection() {
           >
             {" "}
             {
-              "The CSA Cyber Essentials Mark is Singapore's nationally recognised baseline cybersecurity certification, administered by the Cyber Security Agency of Singapore (CSA). It certifies that an organisation has implemented foundational controls across five cybersecurity domains. It is mandatory for HIMS vendors under MOH's HIMS vendor qualification framework and for HIA entities under the Health Information Act. It is increasingly required by government procurement, enterprise RFPs, and is mandatory for organisations applying for the Cyber Trust Mark."
+              "The CSA Cyber Essentials Mark is Singapore's nationally recognised baseline cybersecurity certification, administered by the Cyber Security Agency of Singapore (CSA). It indicates that an organisation has implemented foundational controls across five cybersecurity domains. It is mandatory for HIMS vendors under MOH's HIMS vendor qualification framework and for HIA entities under the Health Information Act. It is increasingly required by government procurement, enterprise RFPs, and is mandatory for organisations applying for the Cyber Trust Mark."
             }
           </AccordionItem>
           <AccordionItem
@@ -671,7 +604,7 @@ function FaqModernSection() {
             title={
               <>
                 {
-                  "Can I get an ESG grant or EDG grant for CSA Cyber Essentials certification?"
+                  "Is there funding for CSA Cyber Essentials certification?"
                 }
               </>
             }
@@ -681,7 +614,7 @@ function FaqModernSection() {
           >
             {" "}
             {
-              "Yes. Enterprise Singapore's Enterprise Development Grant (EDG) covers up to 50% of qualifying cybersecurity consultancy fees for eligible Singapore-registered SMEs. The Productivity Solutions Grant (PSG) also covers some pre-approved cybersecurity solutions. ICFC manages your grant application before project commencement, ensuring grant eligibility is confirmed and costs are maximised. Integrated Cyber Essentials + ISO 27001 engagements can combine grant claims for greater co-funding. Contact ICFC for a free grant eligibility check."
+              "Yes, partly. CSA funds the first Cyber Essentials certification for eligible SMEs until 6 February 2028, deducted by the certification body; consultancy is not covered. EDG and PSG ceased on 29 September 2026 and were replaced by the EDGE Grant (Enterprise Singapore), subject to eligibility and Enterprise Singapore's approval. ICFC does not apply for or claim grants on your behalf; we explain which scheme, if any, applies."
             }
           </AccordionItem>
           <AccordionItem
@@ -729,7 +662,7 @@ function ContainerSection5() {
         </h3>
         <p className="mt-4! mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
           {
-            "ICFC为新加坡各类企业提供全面的CSA网络安全基本标志（Cyber Essentials Mark）认证服务，涵盖医疗信息管理系统（HIMS）供应商、ICT供应商及健康信息法（HIA）实体的合规需求。我们的服务覆盖三大核心支柱：审核（Audit）、咨询（Consulting）、培训（Training），从差距评估到认证取得，全程管理，一站式服务。提供中英双语服务，帮助企业在符合IMDA、EMA、HSA、MOH及HIA监管框架的同时，申请ESG补助金及企业发展补助金（EDG），最高获得50%费用补贴。"
+            "ICFC为新加坡各类企业提供全面的CSA网络安全基本标志（Cyber Essentials Mark）认证服务，涵盖医疗信息管理系统（HIMS）供应商、ICT供应商及健康信息法（HIA）实体的合规需求。我们的服务覆盖三大核心支柱：审核（Audit）、咨询（Consulting）、培训（Training），从差距评估到认证取得，一站式服务。提供中英双语服务，帮助企业在符合IMDA、EMA、HSA、MOH及HIA监管框架的同时，了解EDGE补助金（须符合资格并经新加坡企业发展局批准）。"
           }
         </p>
         <SiteLink
@@ -824,7 +757,7 @@ function ContainerSection7() {
         </h3>
         <p className="mt-0 mb-7.5 text-[rgba(255,255,255,.5)]! text-[17px] [font-weight:normal] leading-7">
           {
-            "Free 30-minute cybersecurity readiness assessment. Honest gap analysis against CSA Cyber Essentials. ESG/EDG grant eligibility check included. HIMS vendor, HIA entity, and ICT vendor specialists. No obligation."
+            "Free 30-minute cybersecurity readiness assessment. Honest gap analysis against CSA Cyber Essentials. Grant guidance included. HIMS vendor, HIA entity, and ICT vendor specialists. No obligation."
           }
         </p>
         <div className="mt-6!">
@@ -875,10 +808,10 @@ function SeoKeywordsSection() {
           {"ICT vendor Cyber Essentials"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
-          {"ESG grant cybersecurity Singapore"}
+          {"EDGE Grant cybersecurity Singapore"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
-          {"EDG grant Cyber Essentials"}
+          {"EDGE Grant Cyber Essentials"}
         </span>
         <span className="mt-1 mr-1 mb-1 ml-1 pt-1.25 max-[768px]:pt-1 pr-3 max-[768px]:pr-2.5 pb-1.25 max-[768px]:pb-1 pl-3 max-[768px]:pl-2.5 inline-block [background:white] rounded-[30px] text-[1.5rem] max-[768px]:text-[0.75rem] text-[#1a2a3a] hover:[background:#AB052D] hover:text-[white] [transition:all_0.2s] motion-reduce:transition-none">
           {"best cybersecurity consultant Singapore"}

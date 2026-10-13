@@ -20,10 +20,7 @@ export function AboutPageContent() {
         <WhyChooseAreaSection />
         <CounterAreaSection />
         <FeatureAreaSection />
-        <TeamAreaSection />
         <FeatureAreaSection2 />
-        <TestimonialAreaSection />
-        <BrandAreaSection />
       </main>
     </SitePageTemplate>
   );
@@ -340,18 +337,18 @@ function JourneyExpertiseSectionSection() {
           <div className="mt-7.5 grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-7.5 max-[768px]:gap-3.75">
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-2 text-[42px] font-bold text-[#AB052D] leading-none">
-                {"11+"}
+                {"12"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"Years in operation"}
+                {"Years"}
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-2 text-[42px] font-bold text-[#AB052D] leading-none">
-                {"500+"}
+                {"250+"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"Organisations certified"}
+                {"Clients"}
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -364,10 +361,10 @@ function JourneyExpertiseSectionSection() {
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-2 text-[42px] font-bold text-[#AB052D] leading-none">
-                {"98%"}
+                {"500+"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"First-attempt cert rate"}
+                {"Audits supported"}
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -380,10 +377,10 @@ function JourneyExpertiseSectionSection() {
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
               <div className="mb-2 text-[42px] font-bold text-[#AB052D] leading-none">
-                {"1,500+"}
+                {"100+"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"Professionals trained"}
+                {"Trainees"}
               </div>
             </div>
           </div>
@@ -790,55 +787,6 @@ function JourneyExpertiseSectionSection() {
             </SiteLink>
           </div>
         </div>
-        <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
-          <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"Client testimonials"}
-          </div>
-          <h2 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[32px]! [word-break:break-word]">
-            {"What our clients say"}
-          </h2>
-          <div className="mt-10 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-7.5">
-            <div className="pt-7.5 pr-7.5 pb-7.5 pl-7.5 [background:#fff] rounded-3xl shadow-[0_5px_20px_rgba(0,0,0,0.02)] [border:1px_solid_#eee]">
-              <div className="mb-3.75 text-[#F5A623] text-[14px]">
-                {"★★★★★"}
-              </div>
-              <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7 italic!">
-                {
-                  '"ICFC made our ISO 27001 certification straightforward. Their consultant understood our fintech environment and built controls that actually fit how we operate."'
-                }
-              </p>
-              <p className="mt-3.75! mb-0 text-[17px] font-semibold! text-[#616C74] leading-7">
-                {"Head of compliance, Fintech"}
-              </p>
-            </div>
-            <div className="pt-7.5 pr-7.5 pb-7.5 pl-7.5 [background:#fff] rounded-3xl shadow-[0_5px_20px_rgba(0,0,0,0.02)] [border:1px_solid_#eee]">
-              <div className="mb-3.75 text-[#F5A623] text-[14px]">
-                {"★★★★★"}
-              </div>
-              <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7 italic!">
-                {
-                  '"We achieved ISO 9001 and ISO 45001 dual certification in under six months. They helped secure MASA grant funding covering a significant portion of the cost."'
-                }
-              </p>
-              <p className="mt-3.75! mb-0 text-[17px] font-semibold! text-[#616C74] leading-7">
-                {"Operations director, Logistics"}
-              </p>
-            </div>
-            <div className="pt-7.5 pr-7.5 pb-7.5 pl-7.5 [background:#fff] rounded-3xl shadow-[0_5px_20px_rgba(0,0,0,0.02)] [border:1px_solid_#eee]">
-              <div className="mb-3.75 text-[#F5A623] text-[14px]">
-                {"★★★★★"}
-              </div>
-              <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7 italic!">
-                {
-                  '"The internal auditor training was the most practical course our team has attended. They used real scenarios from our industry — healthcare."'
-                }
-              </p>
-              <p className="mt-3.75! mb-0 text-[17px] font-semibold! text-[#616C74] leading-7">
-                {"Quality manager, Healthcare"}
-              </p>
-            </div>
-          </div>
-        </div>
         <div className="mb-0 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
             {"Ready to begin?"}
@@ -951,7 +899,7 @@ function ServicesAreaSection() {
                           {"2016 - 2019"}
                         </span>
                         <h4 className="mt-0 mb-0 font-medium leading-[1.33] text-[#FFFFFF] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                          {"Business Strategy"}
+                          {"ISO Management Systems"}
                         </h4>
                       </div>
                       <div>
@@ -975,7 +923,7 @@ function ServicesAreaSection() {
                           {"2019 - 2022"}
                         </span>
                         <h4 className="mt-0 mb-0 font-medium leading-[1.33] text-[#FFFFFF] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                          {"Financial Advisory"}
+                          {"Cybersecurity & Data Protection"}
                         </h4>
                       </div>
                       <div>
@@ -1559,258 +1507,6 @@ function FeatureAreaSection() {
   );
 }
 
-function TeamAreaSection() {
-  return (
-    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6 justify-center!">
-          <div className="shrink-0 w-[58.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[83.33333333%] min-[992px]:max-[1200px]:w-[66.66666667%] max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
-            <div className="text-center! mb-11.25">
-              <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                {"The expert teams member"}
-              </span>
-              <AnimatedElement
-                as="h2"
-                effect="split"
-                delay={0}
-                duration={0.8}
-                className="mt-0 mb-0 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
-              >
-                {"Meet with consultant expert"}
-              </AnimatedElement>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
-          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
-            <div className="grid grid-cols-[repeat(3,1fr)] max-[767px]:grid-cols-[repeat(1,1fr)] min-[767px]:max-[991px]:grid-cols-[repeat(2,1fr)] gap-7.5">
-              <AnimatedElement
-                as="div"
-                effect="up"
-                delay={0.3}
-                duration={1}
-                data-wow-delay=".3s"
-                className="group/team-item"
-              >
-                <div className="mb-5.25 relative overflow-hidden rounded-md">
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                  >
-                    <SiteImage
-                      src="/assets/images/services/services-thumb-09.webp"
-                      alt="image"
-                      className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/team-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
-                    />
-                  </SiteLink>
-                </div>
-                <div className="pb-6.25 after:group-hover/team-item:w-full after:group-hover/team-item:inset-s-0 flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-px before:[background:#DBDEE1] before:bottom-0 before:inset-e-0 after:absolute after:[content:''] after:w-0 after:h-px after:[background:#AB052D] after:bottom-0 after:inset-e-0 after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
-                  <div>
-                    <h5 className="mt-0 mb-1.25 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
-                      <SiteLink
-                        href="/contact-us"
-                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      >
-                        {"Leslie Alexander"}
-                      </SiteLink>
-                    </h5>
-                    <span className="text-[16px] font-medium tracking-[0.01em]">
-                      {"Sr. Analyst Finance"}
-                    </span>
-                  </div>
-                  <div>
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-2 group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
-                    >
-                      <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(150%)] w-4.25 group-hover/icon-box:transform-[translateX(150%)] group-hover/team-item:transform-[translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(0%)] w-4.25 group-hover/icon-box:transform-[translateX(0%)] absolute transform-[translateX(-150%)] group-hover/team-item:transform-[translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                      </span>
-                    </SiteLink>
-                  </div>
-                </div>
-              </AnimatedElement>
-              <AnimatedElement
-                as="div"
-                effect="up"
-                delay={0.5}
-                duration={1}
-                data-wow-delay=".5s"
-                className="group/team-item"
-              >
-                <div className="mb-5.25 relative overflow-hidden rounded-md">
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                  >
-                    <SiteImage
-                      src="/assets/images/services/services-thumb-09.webp"
-                      alt="image"
-                      className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/team-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
-                    />
-                  </SiteLink>
-                </div>
-                <div className="pb-6.25 after:group-hover/team-item:w-full after:group-hover/team-item:inset-s-0 flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-px before:[background:#DBDEE1] before:bottom-0 before:inset-e-0 after:absolute after:[content:''] after:w-0 after:h-px after:[background:#AB052D] after:bottom-0 after:inset-e-0 after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
-                  <div>
-                    <h5 className="mt-0 mb-1.25 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
-                      <SiteLink
-                        href="/contact-us"
-                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      >
-                        {"Cameron Williamson"}
-                      </SiteLink>
-                    </h5>
-                    <span className="text-[16px] font-medium tracking-[0.01em]">
-                      {"HR-Adviseur"}
-                    </span>
-                  </div>
-                  <div>
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-2 group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
-                    >
-                      <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(150%)] w-4.25 group-hover/icon-box:transform-[translateX(150%)] group-hover/team-item:transform-[translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(0%)] w-4.25 group-hover/icon-box:transform-[translateX(0%)] absolute transform-[translateX(-150%)] group-hover/team-item:transform-[translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                      </span>
-                    </SiteLink>
-                  </div>
-                </div>
-              </AnimatedElement>
-              <AnimatedElement
-                as="div"
-                effect="up"
-                delay={0.7}
-                duration={1}
-                data-wow-delay=".7s"
-                className="group/team-item"
-              >
-                <div className="mb-5.25 relative overflow-hidden rounded-md">
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                  >
-                    <SiteImage
-                      src="/assets/images/services/services-thumb-08.webp"
-                      alt="image"
-                      className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/team-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
-                    />
-                  </SiteLink>
-                </div>
-                <div className="pb-6.25 after:group-hover/team-item:w-full after:group-hover/team-item:inset-s-0 flex items-center justify-between relative before:absolute before:[content:''] before:w-full before:h-px before:[background:#DBDEE1] before:bottom-0 before:inset-e-0 after:absolute after:[content:''] after:w-0 after:h-px after:[background:#AB052D] after:bottom-0 after:inset-e-0 after:[transition:all_0.5s_ease-in-out] after:motion-reduce:transition-none">
-                  <div>
-                    <h5 className="mt-0 mb-1.25 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
-                      <SiteLink
-                        href="/contact-us"
-                        className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      >
-                        {"Darrell Steward"}
-                      </SiteLink>
-                    </h5>
-                    <span className="text-[16px] font-medium tracking-[0.01em]">
-                      {"Product Manager"}
-                    </span>
-                  </div>
-                  <div>
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#FFFFFF] [text-decoration:none] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-2 group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
-                    >
-                      <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(150%)] w-4.25 group-hover/icon-box:transform-[translateX(150%)] group-hover/team-item:transform-[translateX(150%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle group-hover/btn:transform-[translateX(0%)] w-4.25 group-hover/icon-box:transform-[translateX(0%)] absolute transform-[translateX(-150%)] group-hover/team-item:transform-[translateX(0%)] [transition:all_0.3s_ease-out_0s] motion-reduce:transition-none"
-                        >
-                          <path
-                            d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                            fill="white"
-                            className="group-hover/has-text:fill-[#AB052D] fill-[#2B3944] group-hover/team-item:fill-[#AB052D]"
-                          ></path>
-                        </svg>
-                      </span>
-                    </SiteLink>
-                  </div>
-                </div>
-              </AnimatedElement>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function FeatureAreaSection2() {
   return (
     <section className="pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
@@ -2262,442 +1958,5 @@ function FeatureAreaSection2() {
         </div>
       </div>
     </section>
-  );
-}
-
-function TestimonialAreaSection() {
-  return (
-    <section className="mb-78.75 max-[991px]:mb-60 pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 relative z-1 overflow-x-clip before:absolute before:[content:''] before:w-full before:h-full before:[background:#2B3944] before:top-0 before:left-0 before:z-[-1]">
-      <div className="absolute right-0 top-70 z-[-1]">
-        <SiteImage
-          src="/assets/bg/testimonial-bg-thumb-02.webp"
-          alt="image"
-          className="align-middle max-w-full"
-        />
-      </div>
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap -mt-12 -mr-6 -ml-6 items-center! mb-11.25">
-          <div className="shrink-0 w-[50%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
-            <div>
-              <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#FFFFFF] inline-block tracking-[2.5px]">
-                {"Our Clients Testimonials"}
-              </span>
-              <AnimatedElement
-                as="h2"
-                effect="split"
-                delay={0}
-                duration={0.8}
-                className="mt-0 mb-2.5 font-semibold leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
-              >
-                {"What our customers say?"}
-              </AnimatedElement>
-              <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#FFFFFF] leading-7">
-                {
-                  "Find Answers to our Question about Our Consulting Coverage Options."
-                }
-              </p>
-            </div>
-          </div>
-          <div className="shrink-0 w-[50%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
-            <div className="flex [justify-content:end] max-[991px]:[justify-content:start]">
-              <div>
-                <div className="mb-1.25 flex items-center">
-                  <AnimatedCounter
-                    value={98}
-                    className="text-[100px] max-[575px]:text-[60px] min-[575px]:max-[767px]:text-[70px] min-[767px]:max-[1199px]:text-[80px] text-[#FFFFFF] font-medium leading-[0.8]"
-                  />
-                  <span className="text-[100px] max-[575px]:text-[60px] min-[575px]:max-[767px]:text-[70px] min-[767px]:max-[1199px]:text-[80px] text-[#AB052D] font-medium leading-[0.8]">
-                    {"%"}
-                  </span>
-                </div>
-                <span className="text-[20px] text-[#FFFFFF]">
-                  {"Business Growth Rate"}
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
-          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
-            <div className="pt-5 pr-5 pb-5 pl-5 [background:#FFFFFF] rounded-md grid max-[991px]:block grid-cols-[500px_644px] max-[1199px]:grid-cols-[auto_480px] min-[1199px]:max-[1600px]:grid-cols-[400px_630px] items-center gap-[30px_60px] max-[1600px]:gap-[30px_30px] relative z-1">
-              <AnimatedElement
-                as="div"
-                effect="reveal-left"
-                delay={0}
-                duration={1}
-                data-dir="left"
-                className="overflow-hidden visible"
-              >
-                <SiteImage
-                  src="/assets/images/testimonial/testimonial-thumb-03.webp"
-                  alt="image"
-                  className="align-middle max-w-full w-full rounded-md"
-                />
-              </AnimatedElement>
-              <div className="relative z-1">
-                <ContentCarousel variant="testimonials" items={1}>
-                  <div>
-                    <div>
-                      <div className="mt-2.5 max-[991px]:mt-8.75 mb-5.75 flex items-center gap-6.25 flex-wrap">
-                        <div className="relative">
-                          <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word]">
-                            {"Business Consulting"}
-                          </h6>
-                          <div className="absolute top-[50%] left-0 transform-[translateY(-50%)]">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="60"
-                              height="44"
-                              viewBox="0 0 60 44"
-                              fill="none"
-                              className="align-middle opacity-[0.1]"
-                            >
-                              <path
-                                d="M12.7244 28.0195C11.6004 34.2343 9.70513 38.7081 8.20652 41.485C7.61148 42.5648 8.82362 43.777 9.88146 43.1599C22.4434 35.8431 27.953 25.1765 28.6362 16.6036C29.2312 9.22068 24.1844 1.61742 16.5591 0.229C8.9338 -1.15942 1.61704 3.90943 0.228614 11.5347C-1.22592 19.5347 4.41591 27.2261 12.7244 28.0195Z"
-                                fill="#3D4C57"
-                              ></path>
-                              <path
-                                d="M44.0406 28.0195C42.9166 34.2343 41.0213 38.7081 39.5227 41.485C38.9277 42.5648 40.1398 43.777 41.1976 43.1599C53.7595 35.8431 59.2692 25.1765 59.9524 16.6036C60.5474 9.22068 55.5006 1.61742 47.8753 0.229C40.25 -1.15942 32.9332 3.90943 31.5448 11.5347C30.0902 19.5347 35.7321 27.2261 44.0406 28.0195Z"
-                                fill="#3D4C57"
-                              ></path>
-                            </svg>
-                          </div>
-                        </div>
-                        <div>
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                        </div>
-                      </div>
-                      <p className="mt-0 mb-7.5 text-[20px] max-[480px]:text-[16px] min-[480px]:max-[1199px]:text-[18px] [font-weight:normal] text-[#2B3944] leading-[1.7] italic">
-                        {
-                          " “The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested, Bonorum Malorum Cicero are also their exact original form, accompanied by English versions.” "
-                        }
-                      </p>
-                      <div className="flex items-center gap-4.5">
-                        <div>
-                          <SiteImage
-                            src="/assets/images/user/user-thumb-03.webp"
-                            alt="image"
-                            className="align-middle max-w-full w-15 h-15 rounded-full"
-                          />
-                        </div>
-                        <div>
-                          <h6 className="mt-0 mb-0.5 font-semibold leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word]">
-                            {"Abdur Rashid"}
-                          </h6>
-                          <span className="text-[15px] font-medium">
-                            {"Founder & CEO"}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <div className="mt-2.5 max-[991px]:mt-8.75 mb-5.75 flex items-center gap-6.25 flex-wrap">
-                        <div className="relative">
-                          <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word]">
-                            {"Business Consulting"}
-                          </h6>
-                          <div className="absolute top-[50%] left-0 transform-[translateY(-50%)]">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="60"
-                              height="44"
-                              viewBox="0 0 60 44"
-                              fill="none"
-                              className="align-middle opacity-[0.1]"
-                            >
-                              <path
-                                d="M12.7244 28.0195C11.6004 34.2343 9.70513 38.7081 8.20652 41.485C7.61148 42.5648 8.82362 43.777 9.88146 43.1599C22.4434 35.8431 27.953 25.1765 28.6362 16.6036C29.2312 9.22068 24.1844 1.61742 16.5591 0.229C8.9338 -1.15942 1.61704 3.90943 0.228614 11.5347C-1.22592 19.5347 4.41591 27.2261 12.7244 28.0195Z"
-                                fill="#3D4C57"
-                              ></path>
-                              <path
-                                d="M44.0406 28.0195C42.9166 34.2343 41.0213 38.7081 39.5227 41.485C38.9277 42.5648 40.1398 43.777 41.1976 43.1599C53.7595 35.8431 59.2692 25.1765 59.9524 16.6036C60.5474 9.22068 55.5006 1.61742 47.8753 0.229C40.25 -1.15942 32.9332 3.90943 31.5448 11.5347C30.0902 19.5347 35.7321 27.2261 44.0406 28.0195Z"
-                                fill="#3D4C57"
-                              ></path>
-                            </svg>
-                          </div>
-                        </div>
-                        <div>
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                        </div>
-                      </div>
-                      <p className="mt-0 mb-7.5 text-[20px] max-[480px]:text-[16px] min-[480px]:max-[1199px]:text-[18px] [font-weight:normal] text-[#2B3944] leading-[1.7] italic">
-                        {
-                          " “The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested, Bonorum Malorum Cicero are also their exact original form, accompanied by English versions.” "
-                        }
-                      </p>
-                      <div className="flex items-center gap-4.5">
-                        <div>
-                          <SiteImage
-                            src="/assets/images/user/user-thumb-01.webp"
-                            alt="image"
-                            className="align-middle max-w-full w-15 h-15 rounded-full"
-                          />
-                        </div>
-                        <div>
-                          <h6 className="mt-0 mb-0.5 font-semibold leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word]">
-                            {"Luna Bekar"}
-                          </h6>
-                          <span className="text-[15px] font-medium">
-                            {"Project Manager"}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <div className="mt-2.5 max-[991px]:mt-8.75 mb-5.75 flex items-center gap-6.25 flex-wrap">
-                        <div className="relative">
-                          <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word]">
-                            {"Business Consulting"}
-                          </h6>
-                          <div className="absolute top-[50%] left-0 transform-[translateY(-50%)]">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="60"
-                              height="44"
-                              viewBox="0 0 60 44"
-                              fill="none"
-                              className="align-middle opacity-[0.1]"
-                            >
-                              <path
-                                d="M12.7244 28.0195C11.6004 34.2343 9.70513 38.7081 8.20652 41.485C7.61148 42.5648 8.82362 43.777 9.88146 43.1599C22.4434 35.8431 27.953 25.1765 28.6362 16.6036C29.2312 9.22068 24.1844 1.61742 16.5591 0.229C8.9338 -1.15942 1.61704 3.90943 0.228614 11.5347C-1.22592 19.5347 4.41591 27.2261 12.7244 28.0195Z"
-                                fill="#3D4C57"
-                              ></path>
-                              <path
-                                d="M44.0406 28.0195C42.9166 34.2343 41.0213 38.7081 39.5227 41.485C38.9277 42.5648 40.1398 43.777 41.1976 43.1599C53.7595 35.8431 59.2692 25.1765 59.9524 16.6036C60.5474 9.22068 55.5006 1.61742 47.8753 0.229C40.25 -1.15942 32.9332 3.90943 31.5448 11.5347C30.0902 19.5347 35.7321 27.2261 44.0406 28.0195Z"
-                                fill="#3D4C57"
-                              ></path>
-                            </svg>
-                          </div>
-                        </div>
-                        <div>
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                          <Icon
-                            name="star"
-                            className="inline-block not-italic text-[#FF8E2B]"
-                          />
-                        </div>
-                      </div>
-                      <p className="mt-0 mb-7.5 text-[20px] max-[480px]:text-[16px] min-[480px]:max-[1199px]:text-[18px] [font-weight:normal] text-[#2B3944] leading-[1.7] italic">
-                        {
-                          " “The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested, Bonorum Malorum Cicero are also their exact original form, accompanied by English versions.” "
-                        }
-                      </p>
-                      <div className="flex items-center gap-4.5">
-                        <div>
-                          <SiteImage
-                            src="/assets/images/user/user-thumb-02.webp"
-                            alt="image"
-                            className="align-middle max-w-full w-15 h-15 rounded-full"
-                          />
-                        </div>
-                        <div>
-                          <h6 className="mt-0 mb-0.5 font-semibold leading-[1.44] text-[#2B3944] text-[20px] max-[575px]:text-[18px] [word-break:break-word]">
-                            {"Nayeem"}
-                          </h6>
-                          <span className="text-[15px] font-medium">
-                            {"Developer"}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </ContentCarousel>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function BrandAreaSection() {
-  return (
-    <div className="-mt-30 max-[991px]:-mt-28.75 overflow-x-clip relative z-1 [background:radial-gradient(174.58%_135.27%_at_35.14%_-15.53%,rgba(47,62,75,0.6)_0%,rgba(47,62,75,0.036)_100%)] [backdrop-filter:blur(21px)]">
-      <div className="w-full pr-0 pl-0 mr-auto ml-auto">
-        <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
-          <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-0 [border-top:1px_solid_rgba(255,255,255,0.12)]">
-            <ContentCarousel items={6}>
-              <div>
-                <AnimatedElement
-                  as="div"
-                  effect="none"
-                  className="h-30 flex items-center justify-center [border-inline-start:1px_solid_rgba(255,255,255,0.12)] [border-bottom:1px_solid_rgba(255,255,255,0.12)] group/brand-item"
-                >
-                  <div className="relative overflow-hidden">
-                    <AnimatedElement
-                      as="SiteImage"
-                      effect="logo"
-                      src="/assets/images/brand/brand-thumb-01.webp"
-                      alt="image"
-                      className="align-middle max-w-full filter-[brightness(0)_invert(1)] w-45 max-[1366px]:w-37.5 group-hover/brand-item:filter-[unset]"
-                    />
-                  </div>
-                </AnimatedElement>
-              </div>
-              <div>
-                <AnimatedElement
-                  as="div"
-                  effect="none"
-                  className="h-30 flex items-center justify-center [border-inline-start:1px_solid_rgba(255,255,255,0.12)] [border-bottom:1px_solid_rgba(255,255,255,0.12)] group/brand-item"
-                >
-                  <div className="relative overflow-hidden">
-                    <AnimatedElement
-                      as="SiteImage"
-                      effect="logo"
-                      src="/assets/images/brand/brand-thumb-01.webp"
-                      alt="image"
-                      className="align-middle max-w-full filter-[brightness(0)_invert(1)] w-45 max-[1366px]:w-37.5 group-hover/brand-item:filter-[unset]"
-                    />
-                  </div>
-                </AnimatedElement>
-              </div>
-              <div>
-                <AnimatedElement
-                  as="div"
-                  effect="none"
-                  className="h-30 flex items-center justify-center [border-inline-start:1px_solid_rgba(255,255,255,0.12)] [border-bottom:1px_solid_rgba(255,255,255,0.12)] group/brand-item"
-                >
-                  <div className="relative overflow-hidden">
-                    <AnimatedElement
-                      as="SiteImage"
-                      effect="logo"
-                      src="/assets/images/brand/brand-thumb-01.webp"
-                      alt="image"
-                      className="align-middle max-w-full filter-[brightness(0)_invert(1)] w-45 max-[1366px]:w-37.5 group-hover/brand-item:filter-[unset]"
-                    />
-                  </div>
-                </AnimatedElement>
-              </div>
-              <div>
-                <AnimatedElement
-                  as="div"
-                  effect="none"
-                  className="h-30 flex items-center justify-center [border-inline-start:1px_solid_rgba(255,255,255,0.12)] [border-bottom:1px_solid_rgba(255,255,255,0.12)] group/brand-item"
-                >
-                  <div className="relative overflow-hidden">
-                    <AnimatedElement
-                      as="SiteImage"
-                      effect="logo"
-                      src="/assets/images/brand/brand-thumb-02.webp"
-                      alt="image"
-                      className="align-middle max-w-full filter-[brightness(0)_invert(1)] w-45 max-[1366px]:w-37.5 group-hover/brand-item:filter-[unset]"
-                    />
-                  </div>
-                </AnimatedElement>
-              </div>
-              <div>
-                <AnimatedElement
-                  as="div"
-                  effect="none"
-                  className="h-30 flex items-center justify-center [border-inline-start:1px_solid_rgba(255,255,255,0.12)] [border-bottom:1px_solid_rgba(255,255,255,0.12)] group/brand-item"
-                >
-                  <div className="relative overflow-hidden">
-                    <AnimatedElement
-                      as="SiteImage"
-                      effect="logo"
-                      src="/assets/images/brand/brand-thumb-03.webp"
-                      alt="image"
-                      className="align-middle max-w-full filter-[brightness(0)_invert(1)] w-45 max-[1366px]:w-37.5 group-hover/brand-item:filter-[unset]"
-                    />
-                  </div>
-                </AnimatedElement>
-              </div>
-              <div>
-                <AnimatedElement
-                  as="div"
-                  effect="none"
-                  className="h-30 flex items-center justify-center [border-inline-start:1px_solid_rgba(255,255,255,0.12)] [border-bottom:1px_solid_rgba(255,255,255,0.12)] group/brand-item"
-                >
-                  <div className="relative overflow-hidden">
-                    <AnimatedElement
-                      as="SiteImage"
-                      effect="logo"
-                      src="/assets/images/brand/brand-thumb-04.webp"
-                      alt="image"
-                      className="align-middle max-w-full filter-[brightness(0)_invert(1)] w-45 max-[1366px]:w-37.5 group-hover/brand-item:filter-[unset]"
-                    />
-                  </div>
-                </AnimatedElement>
-              </div>
-              <div>
-                <AnimatedElement
-                  as="div"
-                  effect="none"
-                  className="h-30 flex items-center justify-center [border-inline-start:1px_solid_rgba(255,255,255,0.12)] [border-bottom:1px_solid_rgba(255,255,255,0.12)] group/brand-item"
-                >
-                  <div className="relative overflow-hidden">
-                    <AnimatedElement
-                      as="SiteImage"
-                      effect="logo"
-                      src="/assets/images/brand/brand-thumb-05.webp"
-                      alt="image"
-                      className="align-middle max-w-full filter-[brightness(0)_invert(1)] w-45 max-[1366px]:w-37.5 group-hover/brand-item:filter-[unset]"
-                    />
-                  </div>
-                </AnimatedElement>
-              </div>
-            </ContentCarousel>
-          </div>
-        </div>
-      </div>
-    </div>
   );
 }
