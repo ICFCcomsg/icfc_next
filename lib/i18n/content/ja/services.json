@@ -1,0 +1,4528 @@
+[
+ {
+  "id": "ctm",
+  "slug": "cyber-trust-mark-ss-712",
+  "code": "SS 712",
+  "name": "CSA Cyber Trust mark(SS 712)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "スキーム",
+  "title": "Cyber Trust mark(SS 712)シンガポール - ICFC",
+  "description": "CSA Cyber Trust mark(SS 712)は、組織がそのリスクにさらされる度合いに応じてサイバーリスクを管理していることを認証するものです。5段階の準備度ティアを...",
+  "summary": "CSA Cyber Trust mark(SS 712)は、組織がそのリスクにさらされる度合いに応じてサイバーリスクを管理していることを認証するものです。5段階の準備度ティアと4つのピラーで構成され、有効期間は3年(毎年監査あり)で、CSAが指名した認証機関が発行します。ICFCは、適切なティアの選定、準備、およびチームの研修をご支援します。",
+  "what": "Cyber Trust markは、より広範なデジタル事業を行う組織向けの、CSAによるリスクベースのサイバーセキュリティ認証です。2025年版はシンガポール規格SS 712として発行されており、従来型IT、クラウド、制御技術(OT)およびAIセキュリティを対象としています。",
+  "who": "機微なデータを取り扱う組織、企業や政府機関の調達先となる組織、またはデジタルシステム、クラウド、OTに大きく依存している組織。",
+  "keywords": "Cyber Trust mark シンガポール、SS 712、CSA認証、サイバーセキュリティのティア",
+  "edgeStatus": "CSAによる認証資金支援",
+  "edgeNote": "このマークはEDGEではなくCSAが資金支援を行っています。CSAが支援するのは、シンガポールで設立された中小企業および非営利団体の最初の認証取得に限られ、2028年2月6日までです。支援額は、CSAが指名した認証機関が請求する料金から差し引かれます。コンサルティング費用はこの資金支援の対象外です。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_CYBER_TRUST_MARK_SS_712.pdf",
+   "docx": "ICFC_Service_Sheet_CYBER_TRUST_MARK_SS_712.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者評価",
+    "text": "認証は、シンガポールサイバーセキュリティ庁(CSA)が運営するスキームに基づいて付与されます。指名を受けた場合、当社の監査員は認証機関に代わって評価を実施します。認証書やマークをICFCが発行することはありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行う、スキーム要件に対するサプライヤーおよびパートナーの確認。"
+   },
+   {
+    "heading": "準備状況確認および内部監査",
+    "text": "正式な評価で何が確認されるかを具体的に示す事前評価で、優先順位付きのアクションリストを提供します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "CSAの認証資金支援は、認証機関が自らの料金から差し引きます。当社のコンサルティングは別途お見積りとなり、この資金支援の対象外です。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "SS 712に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "ティア",
+    "text": "5つのサイバーセキュリティ準備度ティア:Supporter、Practitioner、Promoter、Performer、Advocate。CSAのリスク評価フレームワークにより各組織のティアが示され、各ティアには10から22の準備領域があります。ティアは事業が抱えるサイバーリスクの大きさを反映するもので、企業規模ではありません。"
+   },
+   {
+    "heading": "ピラー",
+    "text": "従来型のサイバーセキュリティが基盤となるピラーです。クラウドセキュリティ、制御技術(OT)セキュリティ、AIセキュリティは、御社の事業に該当する場合にピラーとして追加されます。"
+   },
+   {
+    "heading": "CSA資金支援(Cyber Trust 2025)",
+    "text": "従来型ピラーについては、CSAの支援上限額はS$1,375(エンドポイント1~10台)からS$2,250(エンドポイント101~200台)までです。クラウド、OT、AIの各ピラーを追加するごとにS$225(エンドポイント101~200台の場合はS$450)が加算され、合計で最大S$3,600となります。最初の認証取得のみが対象で、シンガポールで設立された中小企業および非営利団体向けに2028年2月6日まで適用されます。数値はCSAによるもので、2026年10月11日に確認したものです。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "どのCyber Trustティアが必要ですか?",
+    "a": "ティアはCSAのリスク評価テンプレートから決まります。当社がお客様と一緒に評価を行い、結果を説明し、そのティアに必要な管理策のみを計画しますので、過剰な構築を避けられます。"
+   },
+   {
+    "q": "Cyber TrustはISO/IEC 27001と同じものですか?",
+    "a": "いいえ。どちらもリスクベースであり、CSAは両者の対応表を公開していますが、別個の認証です。一方の認証を取得している組織は、もう一方の証拠の多くを再利用できます。"
+   },
+   {
+    "q": "認証の有効期間はどのくらいですか?",
+    "a": "3年間で、有効状態を維持するために毎年監査があります。"
+   },
+   {
+    "q": "代わりにCyber Essentialsから始めることはできますか?",
+    "a": "はい。Cyber Essentialsは取り組みの初期段階にある組織に適しており、Cyber Trustへの自然なステップとなります。"
+   }
+  ],
+  "related": [
+   {
+    "name": "CSA Cyber Essentials mark",
+    "url": "/services/cyber-essentials-mark"
+   },
+   {
+    "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "ISO/IEC 42001 人工知能マネジメントシステム(AIMS)",
+    "url": "/services/iso-iec-42001-aims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "CSA SG Cyber Safe Programme",
+    "url": "https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/"
+   },
+   {
+    "name": "CSA Cyber Trust 認証および資金支援",
+    "url": "https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/cybersecurity-certification-for-organisations/cyber-trust/certification-for-the-cyber-trust-mark/"
+   }
+  ]
+ },
+ {
+  "id": "ce",
+  "slug": "cyber-essentials-mark",
+  "code": "CSA",
+  "name": "CSA Cyber Essentials mark",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "スキーム",
+  "title": "Cyber Essentials mark(CSA)シンガポール - ICFC",
+  "description": "CSA Cyber Essentials markは、資産管理、セキュアな設定、アクセス...など、基本的なサイバー衛生管理策が整備されていることを示すものです。",
+  "summary": "CSA Cyber Essentials markは、資産管理、セキュアな設定、アクセス制御、マルウェア対策、バックアップなど、基本的なサイバー衛生管理策が整備されていることを示すものです。有効期間は2年で、CSAが指名した認証機関が発行します。ICFCは、準備、ギャップの解消、スタッフの研修をご支援します。",
+  "what": "Cyber Essentialsは、基本的なサイバー衛生を整備した組織を認定するものです。CSAは、ICTベンダー、ヘルスケア(HIA対象事業者)、およびヘルスケアシステム(HIMS)ベンダー向けの派生版も運営しています。",
+  "who": "サイバーセキュリティへの取り組みを始めたばかりの中小企業および非営利団体、ならびに顧客から認知された基準の提示を求められているサプライヤー。",
+  "keywords": "Cyber Essentials シンガポール、CSAサイバー衛生、中小企業向けサイバーセキュリティ認証",
+  "edgeStatus": "CSAによる認証資金支援",
+  "edgeNote": "このマークはEDGEではなくCSAが資金支援を行っています。CSAが支援するのは、シンガポールで設立された中小企業および非営利団体の最初の認証取得に限られ、2028年2月6日までです。支援額は、CSAが指名した認証機関が請求する料金から差し引かれます。コンサルティング費用はこの資金支援の対象外です。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_CYBER_ESSENTIALS_MARK.pdf",
+   "docx": "ICFC_Service_Sheet_CYBER_ESSENTIALS_MARK.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者評価",
+    "text": "認証は、シンガポールサイバーセキュリティ庁(CSA)が運営するスキームに基づいて付与されます。指名を受けた場合、当社の監査員は認証機関に代わって評価を実施します。認証書やマークをICFCが発行することはありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行う、スキーム要件に対するサプライヤーおよびパートナーの確認。"
+   },
+   {
+    "heading": "準備状況確認および内部監査",
+    "text": "正式な評価で何が確認されるかを具体的に示す事前評価で、優先順位付きのアクションリストを提供します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "CSAの認証資金支援は、認証機関が自らの料金から差し引きます。当社のコンサルティングは別途お見積りとなり、この資金支援の対象外です。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "Cyber Essentials markに関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "確認内容",
+    "text": "資産、セキュアな設定、アップデート、アクセス制御、マルウェア対策、バックアップ、インシデントへの備えを、小規模な組織に合わせた規模で確認します。クラウド、OT、AIセキュリティはピラーとして追加できます。"
+   },
+   {
+    "heading": "CSA資金支援(Cyber Essentials 2025)",
+    "text": "従来型ピラーについては、CSAの支援上限額はS$250(エンドポイント1~5台)からS$650(エンドポイント101~200台)までで、クラウド、OT、AIの各ピラーを追加するごとにS$50~S$100が加算されます。HIA対象事業者およびHIMSベンダーには別の金額が適用されます。最初の認証取得のみが対象で、シンガポールで設立された中小企業および非営利団体向けに2028年2月6日まで適用されます。数値はCSAによるもので、2026年10月11日に確認したものです。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Cyber TrustではなくCyber Essentialsを選ぶのはどのような組織ですか?",
+    "a": "ITがより単純でサイバーリスクが低い組織です。リスク評価でより広範なリスクへの曝露が示された場合は、Cyber Trustの方が適しています。"
+   },
+   {
+    "q": "資金支援はありますか?",
+    "a": "はい。CSAは、対象となる中小企業および非営利団体の最初のCyber Essentials認証取得を2028年2月6日まで支援しており、支援額は認証機関の料金から差し引かれます。当社のコンサルティング費用は別途です。"
+   },
+   {
+    "q": "どの派生版が当てはまりますか?",
+    "a": "一般向けのマークはほとんどの組織に適しています。SMEs Go Digitalの対象となるICTベンダー、HIA対象事業者、HIMSベンダーは、CSAの分野別派生版をご確認ください。"
+   },
+   {
+    "q": "準備にはどのくらいかかりますか?",
+    "a": "初回レビューで見つかるギャップの数によります。現実的なスケジュールを提案書でお示しします。"
+   }
+  ],
+  "related": [
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "Data Protection Essentials(DPE)",
+    "url": "/services/data-protection-essentials"
+   },
+   {
+    "name": "Data Protection Trustmark(DPTM)SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "CSA Cyber Essentials 認証および資金支援",
+    "url": "https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/cybersecurity-certification-for-organisations/cyber-essentials/certification-for-the-cyber-essentials-mark/"
+   }
+  ]
+ },
+ {
+  "id": "dptm",
+  "slug": "data-protection-trustmark-ss-714",
+  "code": "SS 714",
+  "name": "Data Protection Trustmark(DPTM)SS 714",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "スキーム",
+  "title": "Data Protection Trustmark(SS 714)シンガポール - ICFC",
+  "description": "Data Protection Trustmark(DPTM)は、現在はシンガポール規格SS 714:2025となっており、組織が個人データをアカウンタブルに管理していることを、ガバナンスから...",
+  "summary": "Data Protection Trustmark(DPTM)は、現在はシンガポール規格SS 714:2025となっており、組織が個人データをガバナンスから個人の権利に至るまでアカウンタブルに管理していることを認証するものです。認証はIMDAが指名した機関が行い、毎年のサーベイランス監査があります。中小企業にはEDGEによる最大50%の支援が適用される場合があります。",
+  "what": "DPTMは、アカウンタブルな個人データの取り扱いを対象とする、任意の組織全体向け認証です。2025年7月以降、シンガポール規格SS 714:2025として発行されており、認証はSACの監督の下、IMDAが指名した認証機関が行い、毎年サーベイランス監査が実施されます。",
+  "who": "シンガポールで個人データを収集または処理しており、自社の取り組みが基本的なPDPA遵守を超えていることを顧客やパートナーに示したい組織。",
+  "keywords": "DPTM、SS 714:2025、Data Protection Trustmark シンガポール、PDPA認証",
+  "edgeStatus": "EDGE Standardsに掲載(確認済み)",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。支援は中小企業で最大50%、中小企業以外で最大30%で、専門サービスおよび認定機関による初年度の認証が対象です。これは、共通のEDGE年間上限S$100,000に算入されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_DATA_PROTECTION_TRUSTMARK_SS_714.pdf",
+   "docx": "ICFC_Service_Sheet_DATA_PROTECTION_TRUSTMARK_SS_714.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者評価",
+    "text": "認証は、IMDAが運営するスキームに基づいて付与され、認証機関はシンガポール認定評議会(Singapore Accreditation Council)により認定されています。指名を受けた場合、当社の監査員は認証機関に代わって評価を実施します。認証書やマークをICFCが発行することはありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行う、スキーム要件に対するサプライヤーおよびパートナーの確認。"
+   },
+   {
+    "heading": "準備状況確認および内部監査",
+    "text": "正式な評価で何が確認されるかを具体的に示す事前評価で、優先順位付きのアクションリストを提供します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "SS 714に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "4つの原則領域",
+    "text": "ガバナンスと透明性、個人データの管理、個人データの保護、および個人の権利の保護。"
+   },
+   {
+    "heading": "資金支援の経路",
+    "text": "企業はEDGE Grantに申請できます(SS 714は、中小企業で最大50%、中小企業以外で30%の支援対象として掲載されています)。対象となる慈善団体および社会福祉機関は、NCSS Tech-and-GO!に申請できます。認証はIMDAが指名した認証機関が行います。IMDAのコンサルティング会社一覧は参考情報にすぎず、推奨を意味するものではありません。"
+   },
+   {
+    "heading": "IMDAでの掲載",
+    "text": "ICFCがIMDAのDPTMコンサルティング参考リストに掲載されているかどうかについては、お問い合わせフォームからメールでお問い合わせください。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "DPTMは法律で義務付けられていますか?",
+    "a": "いいえ。義務付けられているのはPDPAの遵守であり、DPTMはそれを示す任意の認証です。"
+   },
+   {
+    "q": "SS 714:2025で何が変わりましたか?",
+    "a": "DPTMは国家規格となり、認証機関はシンガポール認定評議会のプログラムの下で認定され、毎年サーベイランス監査が行われるようになりました。"
+   },
+   {
+    "q": "EDGEはDPTMを対象としますか?",
+    "a": "はい。Enterprise SingaporeはSS 714をEDGEの対象として掲載しており、適格性を条件に、中小企業で最大50%、中小企業以外で30%の支援があります。IMDAのページには、2026年9月30日にEDGEに置き換えられた旧EDGスキームの記載が残っています。対象となる慈善団体および社会福祉機関は、NCSS Tech-and-GO!をご確認ください。"
+   },
+   {
+    "q": "DPTMとISO/IEC 27701はどのような関係にありますか?",
+    "a": "プライバシー管理策の面で重なる部分があります。DPTMはシンガポールのPDPAに基づいているのに対し、ISO/IEC 27701は国際的なプライバシーマネジメントシステムです。"
+   }
+  ],
+  "related": [
+   {
+    "name": "Data Protection Essentials(DPE)",
+    "url": "/services/data-protection-essentials"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "Global and APEC Cross-Border Privacy Rules(CBPR)System",
+    "url": "/services/global-apec-cbpr"
+   },
+   {
+    "name": "Global and APEC Privacy Recognition for Processors(PRP)",
+    "url": "/services/global-apec-prp"
+   }
+  ],
+  "sources": [
+   {
+    "name": "IMDA Data Protection Trustmark",
+    "url": "https://www.imda.gov.sg/how-we-can-help/data-protection-trustmark-certification"
+   },
+   {
+    "name": "EDGE:SS 714",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/data-protection-trustmark"
+   }
+  ]
+ },
+ {
+  "id": "dpe",
+  "slug": "data-protection-essentials",
+  "code": "IMDA",
+  "name": "Data Protection Essentials(DPE)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "研修およびコンサルティングのみ",
+  "title": "Data Protection Essentials(IMDA)シンガポール - ICFC",
+  "description": "Data Protection Essentials(DPE)は、中小企業が基本的なデータ保護およびセキュリティの取り組みを導入することを支援するIMDAのプログラムです。ワンストップサービスと...",
+  "summary": "Data Protection Essentials(DPE)は、中小企業が基本的なデータ保護およびセキュリティの取り組みを導入することを支援するIMDAのプログラムです。ワンストップサービスとDPEロゴは、IMDAに登録されたDPEサービスプロバイダーを通じて提供されます。ICFCは、準備と、Data Protection Trustmarkに向けた段階的な取り組みを支援するため、研修とコンサルティングを提供します。",
+  "what": "Data Protection Essentialsは、中小企業が基本的なデータ保護およびセキュリティの取り組みを採用し、データ侵害から迅速に復旧できるよう支援するIMDAのプログラムです。IMDAに登録されたプロバイダーによるワンストップの専門サービスを完了し、最低1年のリテーナー契約を締結した中小企業は、IMDAの条件に従い、IMDAに掲載され、DPEロゴが付与されます。",
+  "who": "シンガポールで登録され事業を行っている、グループ年間売上高が最大S$1億または従業員数が最大200名の中小企業で、DPTMの前段階として実践的な出発点を求めている企業。",
+  "keywords": "Data Protection Essentials、IMDA DPE、PDPA 中小企業",
+  "edgeStatus": "IMDAのプログラム、現行の助成金の記載なし",
+  "edgeNote": "IMDAのページには、2024年3月31日より前に完了したDPE導入に対する定額S$1,600の助成金が記載されていますが、現行の助成金は示されていません。対象となる慈善団体および社会福祉機関は、NCSS Tech-and-GO!に申請できる場合があります。資金支援を前提に計画を立てる前に、IMDAにご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_DATA_PROTECTION_ESSENTIALS.pdf",
+   "docx": "ICFC_Service_Sheet_DATA_PROTECTION_ESSENTIALS.docx"
+  },
+  "audit": [
+   {
+    "heading": "評価の仕組み",
+    "text": "DPEは監査を伴う認証ではありません。DPEのワンストップ専門サービスとDPEロゴは、IMDAに登録されたDPEサービスプロバイダーを通じて提供されます。ICFCは研修とコンサルティングでお客様を支援します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "現在のIMDAおよびNCSSの経路と、それぞれの要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "Data Protection Essentialsに関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "当社の役割",
+    "text": "ICFCは、DPEおよびDPTMに向けた準備のための研修とコンサルティングを提供します。DPEのワンストップサービスとDPEロゴは、IMDAに登録されたDPEサービスプロバイダーが提供します。ICFCがIMDAのDPTMコンサルティング参考リストに掲載されているか、またはIMDAに登録されたDPEサービスプロバイダーであるかについては、お問い合わせフォームからメールでお問い合わせください。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "DPEは認証ですか?",
+    "a": "いいえ。IMDAのプログラムです。登録されたプロバイダーとワンストップサービスおよびリテーナー契約を完了した中小企業は、IMDAの条件に従い、IMDAに掲載され、DPEロゴが付与されます。"
+   },
+   {
+    "q": "IMDAによるDPE向けの助成金は現在もありますか?",
+    "a": "IMDAのページには、2024年3月31日より前に完了した導入に対する定額S$1,600の助成金が記載されています。現行の助成金は示されていませんので、前提とする前にIMDAにご確認ください。"
+   },
+   {
+    "q": "DPEを導入すればPDPAに準拠していることになりますか?",
+    "a": "IMDAは、DPEを導入しても組織がPDPAに完全に準拠していることを意味するものではないと述べています。ただし、確かな土台にはなります。"
+   },
+   {
+    "q": "DPEとDPTMのどちらに取り組むべきですか?",
+    "a": "小規模な組織は、まずDPEから始め、データ量や顧客の期待が高まるにつれてDPTMに移行することが多くあります。"
+   }
+  ],
+  "related": [
+   {
+    "name": "Data Protection Trustmark(DPTM)SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "CSA Cyber Essentials mark",
+    "url": "/services/cyber-essentials-mark"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "IMDA Data Protection Essentials",
+    "url": "https://www.imda.gov.sg/how-we-can-help/data-protection-essentials"
+   }
+  ]
+ },
+ {
+  "id": "cbpr",
+  "slug": "global-apec-cbpr",
+  "code": "CBPR",
+  "name": "Global and APEC Cross-Border Privacy Rules(CBPR)System",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "スキーム",
+  "title": "Global and APEC CBPR シンガポール - ICFC",
+  "description": "Global and APEC Cross-Border Privacy Rules(CBPR)認証は、データ管理者が国境を越えて個人データを移転する際にそれを保護していることを示すものです。...",
+  "summary": "Global and APEC Cross-Border Privacy Rules(CBPR)認証は、データ管理者が国境を越えて個人データを移転する際にそれを保護していることを示すものです。シンガポールではIMDAがアカウンタビリティ・エージェントを務め、指名された機関による評価を経て組織を認証します。ICFCは、その評価に向けた準備をご支援します。",
+  "what": "CBPRは、国境を越えて移転される個人データを管理する組織向けの、任意かつ執行力のある認証です。Global CBPR Systemは、2025年6月2日にAPECのシステムと並行して開始されました。IMDAは、指名された評価機関を用いてシンガポールの組織を認証します。",
+  "who": "シンガポールと他の参加経済圏との間で個人データを移転するデータ管理者。",
+  "keywords": "Global CBPR、APEC CBPR シンガポール、越境プライバシー認証",
+  "edgeStatus": "IMDAのスキーム、資金支援を要確認",
+  "edgeNote": "IMDAは、コンサルティングおよび認証費用の一部について資金支援を受けられる可能性があるとしています。お申し込みの前に、IMDAの情報キットおよびEnterprise Singaporeをご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_GLOBAL_APEC_CBPR.pdf",
+   "docx": "ICFC_Service_Sheet_GLOBAL_APEC_CBPR.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者評価",
+    "text": "認証は、シンガポールで認知されたアカウンタビリティ・エージェントであるIMDAが運営するスキームに基づいて付与されます。指名を受けた場合、当社の監査員は認証機関に代わって評価を実施します。認証書やマークをICFCが発行することはありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行う、スキーム要件に対するサプライヤーおよびパートナーの確認。"
+   },
+   {
+    "heading": "準備状況確認および内部監査",
+    "text": "正式な評価で何が確認されるかを具体的に示す事前評価で、優先順位付きのアクションリストを提供します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "CBPRに関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "CBPRとPRPの違いは何ですか?",
+    "a": "CBPRは個人データを管理する組織向けです。PRPは、管理者に代わってデータを取り扱う処理者向けです。"
+   },
+   {
+    "q": "Global CBPRとは何ですか?",
+    "a": "Global CBPR Forumが運営する認証で、APECのシステムをAPECの枠を超えて拡大するものです。すでにAPEC CBPR認証を取得している組織は、グローバルシステムの下でも認められます。"
+   },
+   {
+    "q": "参加している経済圏はどこですか?",
+    "a": "Global CBPR Forumの加盟メンバーには、シンガポール、米国、日本、韓国、オーストラリア、カナダ、メキシコ、フィリピン、チャイニーズ・タイペイが含まれます。"
+   },
+   {
+    "q": "CBPRはPDPAの遵守に代わるものですか?",
+    "a": "いいえ。PDPA上の義務に加えて、越境移転に関する国際的に認知された層を追加するものです。"
+   }
+  ],
+  "related": [
+   {
+    "name": "Global and APEC Privacy Recognition for Processors(PRP)",
+    "url": "/services/global-apec-prp"
+   },
+   {
+    "name": "Data Protection Trustmark(DPTM)SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "IMDAのデータ保護認証",
+    "url": "https://www.imda.gov.sg/how-we-can-help/data-protection-certifications"
+   },
+   {
+    "name": "Global CBPR Forum",
+    "url": "https://www.globalcbpr.org/"
+   }
+  ]
+ },
+ {
+  "id": "prp",
+  "slug": "global-apec-prp",
+  "code": "PRP",
+  "name": "Global and APEC Privacy Recognition for Processors(PRP)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "スキーム",
+  "title": "Global and APEC PRP シンガポール - ICFC",
+  "description": "Global and APEC Privacy Recognition for Processors(PRP)は、顧客のために個人データを処理するサービスプロバイダーが、それを保護するためのセキュリティ対策とアカウンタビリティを備えていることを認証するものです。...",
+  "summary": "Global and APEC Privacy Recognition for Processors(PRP)は、顧客のために個人データを処理するサービスプロバイダーが、それを保護するためのセキュリティ対策とアカウンタビリティを備えていることを認証するものです。IMDAは、指名された機関による評価を経てシンガポールの処理者を認証します。ICFCは、準備と、チームの研修をご支援します。",
+  "what": "PRPにより、データ処理者は、セキュリティ対策とアカウンタビリティに重点を置いて、管理者に代わってプライバシー上の義務を果たせることを示すことができます。シンガポールの処理者は、指名された機関の評価を経てIMDAが認証します。",
+  "who": "顧客のために個人データを処理する、アウトソーシング、IT、クラウド、給与計算その他のサービスプロバイダー。",
+  "keywords": "Global PRP、APEC PRP、処理者向けプライバシー認定 シンガポール",
+  "edgeStatus": "IMDAのスキーム、資金支援を要確認",
+  "edgeNote": "IMDAは、コンサルティングおよび認証費用の一部について資金支援を受けられる可能性があるとしています。お申し込みの前に、IMDAの情報キットおよびEnterprise Singaporeをご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_GLOBAL_APEC_PRP.pdf",
+   "docx": "ICFC_Service_Sheet_GLOBAL_APEC_PRP.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者評価",
+    "text": "認証は、シンガポールで認知されたアカウンタビリティ・エージェントであるIMDAが運営するスキームに基づいて付与されます。指名を受けた場合、当社の監査員は認証機関に代わって評価を実施します。認証書やマークをICFCが発行することはありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行う、スキーム要件に対するサプライヤーおよびパートナーの確認。"
+   },
+   {
+    "heading": "準備状況確認および内部監査",
+    "text": "正式な評価で何が確認されるかを具体的に示す事前評価で、優先順位付きのアクションリストを提供します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "PRPに関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "PRPが必要なのはどのような組織ですか?",
+    "a": "顧客から、データが認知された国際基準に沿って取り扱われているという保証を求められている処理者。"
+   },
+   {
+    "q": "CBPRとPRPの両方を保持できますか?",
+    "a": "はい。一部のデータについては管理者として、他のデータについては処理者として活動する場合に可能です。"
+   },
+   {
+    "q": "評価では何に重点が置かれますか?",
+    "a": "PRPプログラムの要件に照らして確認される、セキュリティ対策とアカウンタビリティ。"
+   },
+   {
+    "q": "PRPとISO/IEC 27701はどう違いますか?",
+    "a": "どちらも処理者の義務を対象としています。PRPはプライバシー認定スキームであり、ISO/IEC 27701は認証可能なプライバシーマネジメントシステムです。"
+   }
+  ],
+  "related": [
+   {
+    "name": "Global and APEC Cross-Border Privacy Rules(CBPR)System",
+    "url": "/services/global-apec-cbpr"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "ISO/IEC 27018 パブリッククラウドにおける個人データの保護",
+    "url": "/services/iso-iec-27018-cloud-privacy"
+   },
+   {
+    "name": "Data Protection Trustmark(DPTM)SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   }
+  ],
+  "sources": [
+   {
+    "name": "IMDA PRP認証",
+    "url": "https://www.imda.gov.sg/how-we-can-help/privacy-recognition-for-processors-certification"
+   },
+   {
+    "name": "IMDA Global PRP",
+    "url": "https://www.imda.gov.sg/how-we-can-help/globalprp"
+   }
+  ]
+ },
+ {
+  "id": "iso27701",
+  "slug": "iso-iec-27701-pims",
+  "code": "ISO/IEC 27701",
+  "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認証可能",
+  "title": "プライバシー情報マネジメント(ISO/IEC 27701)シンガポール - ICFC",
+  "description": "ISO/IEC 27701は、プライバシー情報マネジメントシステム(PIMS)の国際規格です。管理者および処理者が、個人データを一貫して管理することを支援します...",
+  "summary": "ISO/IEC 27701は、プライバシー情報マネジメントシステム(PIMS)の国際規格です。管理者および処理者が、複数の法域にわたって個人データを一貫して管理することを支援します。認証は認定された認証機関が行い、シンガポールのEDGE Grantの対象として掲載されています。",
+  "what": "ISO/IEC 27701は、管理者と処理者の双方を対象とするプライバシー情報マネジメントシステムの要求事項を定めており、世界各国のプライバシー法に対応づけられます。",
+  "who": "複数の国にまたがって個人データを取り扱う組織、または国際的に認知されたプライバシー認証を必要とする組織。",
+  "keywords": "ISO 27701 シンガポール、PIMS認証、プライバシーマネジメントシステム",
+  "edgeStatus": "EDGE Standardsに掲載",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。お申し込みの前に、Enterprise Singaporeのウェブサイトにある該当活動のページで、現在の支援水準をご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_27701_PIMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_27701_PIMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO/IEC 27701の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO/IEC 27701に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、プライバシー情報マネジメントの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO/IEC 27701に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "先にISO/IEC 27001が必要ですか?",
+    "a": "認証を受ける版と、認証機関の規則をご確認ください。管理策が密接に関連しているため、多くの組織は両方を一緒に導入しています。"
+   },
+   {
+    "q": "27701はPDPAを網羅していますか?",
+    "a": "PDPAやその他のプライバシー法に対応づけることのできる枠組みを提供します。当社は、その対応づけを業務に含めています。"
+   },
+   {
+    "q": "EDGEの対象になりますか?",
+    "a": "Enterprise Singaporeは、プライバシー情報マネジメントシステムをEDGE Standardsの対象として掲載しています。支援水準については、該当活動のページをご確認ください。"
+   },
+   {
+    "q": "他の規格と合わせて監査を受けることはできますか?",
+    "a": "はい。当社の監査員は、プライバシー、情報セキュリティ、クラウドの各規格を1回の統合監査にまとめて実施することに慣れています。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "Data Protection Trustmark(DPTM)SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "ISO/IEC 27018 パブリッククラウドにおける個人データの保護",
+    "url": "/services/iso-iec-27018-cloud-privacy"
+   },
+   {
+    "name": "Global and APEC Privacy Recognition for Processors(PRP)",
+    "url": "/services/global-apec-prp"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 27701",
+    "url": "https://www.iso.org/standard/27701"
+   },
+   {
+    "name": "EDGE:PIMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/privacy-information-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso27001",
+  "slug": "iso-iec-27001-isms",
+  "code": "ISO/IEC 27001",
+  "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認証可能",
+  "title": "情報セキュリティマネジメント(ISO/IEC 27001)シンガポール - ICFC",
+  "description": "ISO/IEC 27001は、情報セキュリティマネジメントシステム(ISMS)の国際規格です。組織が情報セキュリティリスクを特定し、対処することを支援します...",
+  "summary": "ISO/IEC 27001は、情報セキュリティマネジメントシステム(ISMS)の国際規格です。管理された一連の管理策を通じて、組織が情報セキュリティリスクを特定し、対処することを支援します。認証は認定された機関が行い、Enterprise SingaporeはEDGEの対象として、中小企業で最大50%、中小企業以外で30%の支援を掲載しています。",
+  "what": "ISO/IEC 27001は、情報セキュリティリスクの評価と対応を含む、情報セキュリティマネジメントシステムの要求事項を定めています。あらゆる種類、規模、業種の組織に適用できます。現行版はISO/IEC 27001:2022です。",
+  "who": "顧客、財務、または機微なデータを保有する組織、企業や海外の取引先にサービスを提供する組織、または事業全体で情報セキュリティについて認知された単一の枠組みを求める組織。",
+  "keywords": "ISO 27001 シンガポール、ISMS認証、ISO/IEC 27001:2022 コンサルタント",
+  "edgeStatus": "EDGE Standardsに掲載(確認済み)",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。支援は中小企業で最大50%、中小企業以外で最大30%で、専門サービスおよび認定機関による初年度の認証が対象です。これは、共通のEDGE年間上限S$100,000に算入されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_27001_ISMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_27001_ISMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO/IEC 27001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO/IEC 27001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、情報セキュリティマネジメントの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO/IEC 27001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "シンガポールのスキームとの関連",
+    "text": "CSAは、Cyber Trust mark(2025)とISO/IEC 27001:2022の対応表を公開しているため、証拠を再利用できます。ISO/IEC 27001は、ISO/IEC 27017、27018、27701などのクラウドおよびプライバシー拡張の基盤にもなります。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO/IEC 27001はEDGEの対象になりますか?",
+    "a": "はい。Enterprise Singaporeは、ISO/IEC 27001をEDGE Digitalisation Standardsの対象として掲載しており、適格性を条件に、中小企業で最大50%、中小企業以外で30%の支援があります。"
+   },
+   {
+    "q": "ISO/IEC 27001とCyber Trustのどちらを選ぶべきですか?",
+    "a": "Cyber Trustはシンガポールのリスク階層型のマークであり、ISO/IEC 27001は国際的に認知されています。多くの組織は両方を保有しており、CSAの対応表を使って重複作業を避けています。"
+   },
+   {
+    "q": "適用宣言書(Statement of Applicability)とは何ですか?",
+    "a": "附属書Aの管理策を一覧にし、それぞれが御社に適用されるかどうか、およびその理由を記載した文書です。監査員が詳細に確認します。"
+   },
+   {
+    "q": "他の規格と合わせて監査を受けることはできますか?",
+    "a": "はい。当社の監査員は、情報セキュリティ、プライバシー、クラウド、品質の各規格を1回の統合監査にまとめて実施することに慣れています。"
+   }
+  ],
+  "related": [
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "ISO/IEC 27017 クラウドサービスのための情報セキュリティ管理策",
+    "url": "/services/iso-iec-27017-cloud-security"
+   },
+   {
+    "name": "ISO/IEC 42001 人工知能マネジメントシステム(AIMS)",
+    "url": "/services/iso-iec-42001-aims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 27001",
+    "url": "https://www.iso.org/standard/27001"
+   },
+   {
+    "name": "EDGE:ISO/IEC 27001",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/information-security-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso27017",
+  "slug": "iso-iec-27017-cloud-security",
+  "code": "ISO/IEC 27017",
+  "name": "ISO/IEC 27017 クラウドサービスのための情報セキュリティ管理策",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認証可能",
+  "title": "クラウドセキュリティ管理策(ISO/IEC 27017)シンガポール - ICFC",
+  "description": "ISO/IEC 27017は、クラウドサービスプロバイダーおよび利用者向けに、クラウド特有の情報セキュリティ管理策を定めています。通常は...と併せて認証されます。",
+  "summary": "ISO/IEC 27017は、クラウドサービスプロバイダーおよび利用者向けに、クラウド特有の情報セキュリティ管理策を定めています。通常は情報セキュリティマネジメントシステムと併せて認証されます。Enterprise SingaporeはEDGEの対象として、中小企業で最大50%の支援を掲載しています。",
+  "what": "ISO/IEC 27017は、クラウドサービスの提供と利用のための情報セキュリティ管理策を、クラウドサービスプロバイダーとクラウド利用者の双方に対して示しています。",
+  "who": "クラウドサービスプロバイダー、SaaS企業、および重要なワークロードをクラウドへ移行する組織。",
+  "keywords": "ISO 27017 シンガポール、クラウドセキュリティ認証、CSP管理策",
+  "edgeStatus": "EDGE Standardsに掲載(確認済み)",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。支援は中小企業で最大50%、中小企業以外で最大30%で、専門サービスおよび認定機関による初年度の認証が対象です。これは、共通のEDGE年間上限S$100,000に算入されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_27017_CLOUD_SECURITY.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_27017_CLOUD_SECURITY.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO/IEC 27017の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO/IEC 27017に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、クラウドセキュリティ管理策の第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO/IEC 27017に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO/IEC 27017は単独で取得できる認証ですか?",
+    "a": "通常は、情報セキュリティマネジメントシステム認証の拡張として評価されます。"
+   },
+   {
+    "q": "クラウド利用者にも適用されますか?",
+    "a": "はい。クラウド関係の両側の責任を定めています。"
+   },
+   {
+    "q": "EDGEの対象になりますか?",
+    "a": "はい。EDGE Sector-specific Standardsの対象として掲載されており、中小企業で最大50%、中小企業以外で30%の支援があります。"
+   },
+   {
+    "q": "MTCS SS 584とはどのような関係にありますか?",
+    "a": "どちらもクラウドセキュリティを扱っています。MTCSはシンガポールの階層型クラウド規格であり、ISO/IEC 27017は国際規格です。多くのプロバイダーは両方に準拠しています。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "ISO/IEC 27018 パブリッククラウドにおける個人データの保護",
+    "url": "/services/iso-iec-27018-cloud-privacy"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security(MTCS)",
+    "url": "/services/ss-584-mtcs"
+   },
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 27000ファミリー",
+    "url": "https://www.iso.org/standard/iso-iec-27000-family"
+   },
+   {
+    "name": "EDGE:ISO/IEC 27017",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/information-technology"
+   }
+  ]
+ },
+ {
+  "id": "iso27018",
+  "slug": "iso-iec-27018-cloud-privacy",
+  "code": "ISO/IEC 27018",
+  "name": "ISO/IEC 27018 パブリッククラウドにおける個人データの保護",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認証可能",
+  "title": "クラウドプライバシー(PII)保護(ISO/IEC 27018)シンガポール - ICFC",
+  "description": "ISO/IEC 27018は、パブリッククラウドサービスにおける個人データ保護のための実施規範です。処理者として活動するクラウドプロバイダーが、個人データがどのように取り扱われているかを顧客に示すことを支援します...",
+  "summary": "ISO/IEC 27018は、パブリッククラウドサービスにおける個人データ保護のための実施規範です。処理者として活動するクラウドプロバイダーが、個人データがどのように取り扱われているかを顧客に示すことを支援します。通常は情報セキュリティマネジメントシステムと併せて認証され、EDGEの対象として掲載されています。",
+  "what": "ISO/IEC 27018は、個人を特定できる情報(PII)の処理者として活動するパブリッククラウドプロバイダー向けの管理策を定めています。",
+  "who": "顧客の個人データを処理するパブリッククラウドおよびSaaSプロバイダー。",
+  "keywords": "ISO 27018 シンガポール、クラウドPII保護、パブリッククラウドのプライバシー",
+  "edgeStatus": "EDGE Standardsに掲載",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。お申し込みの前に、Enterprise Singaporeのウェブサイトにある該当活動のページで、現在の支援水準をご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_27018_CLOUD_PRIVACY.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_27018_CLOUD_PRIVACY.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO/IEC 27018の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO/IEC 27018に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、クラウドプライバシー(PII)保護の第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO/IEC 27018に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO/IEC 27018は誰のためのものですか?",
+    "a": "顧客に代わって個人データを処理するパブリッククラウドプロバイダー。"
+   },
+   {
+    "q": "ISO/IEC 27017とは違いますか?",
+    "a": "はい。27017はクラウドセキュリティ全般を対象とし、27018はパブリッククラウドにおける個人データ保護に焦点を当てています。"
+   },
+   {
+    "q": "EDGEの対象になりますか?",
+    "a": "Enterprise Singaporeは、ISO/IEC 27018をEDGE Sector-specific Standardsの対象として掲載しています。支援水準については、該当活動のページをご確認ください。"
+   },
+   {
+    "q": "PRPの取得に役立ちますか?",
+    "a": "はい。処理者向けの管理策が重なるため、証拠を再利用できます。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27017 クラウドサービスのための情報セキュリティ管理策",
+    "url": "/services/iso-iec-27017-cloud-security"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "Global and APEC Privacy Recognition for Processors(PRP)",
+    "url": "/services/global-apec-prp"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security(MTCS)",
+    "url": "/services/ss-584-mtcs"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 27018",
+    "url": "https://www.iso.org/standard/27018"
+   },
+   {
+    "name": "EDGE:ISO/IEC 27018",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/security-and-privacy-protection-27018"
+   }
+  ]
+ },
+ {
+  "id": "iso42001",
+  "slug": "iso-iec-42001-aims",
+  "code": "ISO/IEC 42001",
+  "name": "ISO/IEC 42001 人工知能マネジメントシステム(AIMS)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認証可能",
+  "title": "AIマネジメントシステム(ISO/IEC 42001)シンガポール - ICFC",
+  "description": "ISO/IEC 42001は、人工知能(AIMS)に関するマネジメントシステムの国際規格です。リスクおよび影響の評価、管理策、継続的改善を通じて、組織がAIを責任ある形でガバナンスすることを支援します...",
+  "summary": "ISO/IEC 42001は、人工知能(AIMS)に関するマネジメントシステムの国際規格です。リスクおよび影響の評価、管理策、継続的改善を通じて、組織がAIを責任ある形でガバナンスすることを支援します。認証は認定された機関が行い、シンガポールのEDGE Grantの対象として掲載されています。",
+  "what": "ISO/IEC 42001は、人工知能に関する初の認証可能なマネジメントシステム規格です。リスクおよび影響の評価を含め、AIシステムの責任ある開発、提供、利用を対象としています。",
+  "who": "AIシステムを構築、導入、または利用しており、顧客や規制当局に対して責任あるガバナンスを示す必要がある組織。",
+  "keywords": "ISO 42001 シンガポール、AIマネジメントシステム認証、AIMS",
+  "edgeStatus": "EDGE Standardsに掲載",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。お申し込みの前に、Enterprise Singaporeのウェブサイトにある該当活動のページで、現在の支援水準をご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_42001_AIMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_42001_AIMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO/IEC 42001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO/IEC 42001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、AIマネジメントシステムの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO/IEC 42001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "AIツールを利用するだけの場合も、ISO/IEC 42001は必要ですか?",
+    "a": "AIが顧客、従業員、または安全に関する意思決定に影響を及ぼす場合、サードパーティ製AIの利用者であっても、AIMSにより体制を整えることができます。"
+   },
+   {
+    "q": "Cyber Trustと関連がありますか?",
+    "a": "はい。Cyber Trust(2025)にはAIセキュリティ領域が含まれており、双方とも共通のリスク評価の恩恵を受けます。"
+   },
+   {
+    "q": "EDGEの対象になりますか?",
+    "a": "Enterprise Singaporeは、AIマネジメントシステムをEDGE Digitalisation Standardsの対象として掲載しています。支援水準については、該当活動のページをご確認ください。"
+   },
+   {
+    "q": "ISO/IEC 27001と統合できますか?",
+    "a": "はい。どちらも調和されたISO構造に従っているため、うまく統合できます。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 42001",
+    "url": "https://www.iso.org/standard/42001"
+   },
+   {
+    "name": "EDGE:AIMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/artificial-intelligence-management-system"
+   }
+  ]
+ },
+ {
+  "id": "tisax",
+  "slug": "tisax",
+  "code": "TISAX",
+  "name": "TISAXラベル(研修およびコンサルティング)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "研修およびコンサルティングのみ",
+  "title": "TISAXラベル シンガポール - ICFC",
+  "description": "TISAXは、ENX Associationが運営する、自動車業界向けの情報セキュリティ評価スキームです。評価はENXが承認した...のみが実施します。",
+  "summary": "TISAXは、ENX Associationが運営する、自動車業界向けの情報セキュリティ評価スキームです。評価はENXが承認した監査プロバイダーのみが実施します。ICFCは、評価範囲の設定、ギャップの解消、証拠の準備をお手伝いするため、TISAXの研修とコンサルティングを提供します。",
+  "what": "TISAXは、自動車業界で用いられる情報セキュリティの評価および情報交換の仕組みです。評価はENXが承認した監査プロバイダーが実施し、結果はラベルとしてENXのプラットフォームを通じて共有されます。",
+  "who": "自動車メーカーまたはティア1サプライヤーから、TISAXラベルの共有を求められている自動車サプライヤーおよびサービスプロバイダー。",
+  "keywords": "TISAX シンガポール、自動車業界の情報セキュリティ、TISAX コンサルタント",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_TISAX.pdf",
+   "docx": "ICFC_Service_Sheet_TISAX.docx"
+  },
+  "audit": [
+   {
+    "heading": "提供なし",
+    "text": "評価は、スキームの運営者が承認した監査プロバイダーのみが実施します。ICFCは研修とコンサルティングでお客様を支援します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "TISAXに関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "当社の役割",
+    "text": "ICFCが提供するのは、TISAXに関する研修とコンサルティングのみです。TISAXの評価は実施しません。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ICFCはTISAXラベルを発行しますか?",
+    "a": "いいえ。ラベルは、ENXが承認した監査プロバイダーによる評価の結果として付与されます。当社は準備をお手伝いします。"
+   },
+   {
+    "q": "どの評価レベルが必要ですか?",
+    "a": "レベルは、お客様の顧客からの要請と、お客様が取り扱う情報によって決まります。その解釈をお手伝いします。"
+   },
+   {
+    "q": "ISO/IEC 27001はTISAXの良い土台になりますか?",
+    "a": "はい。TISAXは、ISO/IEC 27001と類似した情報セキュリティ管理策に、自動車業界特有の項目を加えたものです。"
+   },
+   {
+    "q": "研修はオンラインで実施できますか?",
+    "a": "はい。ICFC Digital LMS経由、または社内向けセッションとして実施できます。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ENX Association(TISAX)",
+    "url": "https://enx.com/"
+   }
+  ]
+ },
+ {
+  "id": "soc",
+  "slug": "soc-1-soc-2-attestation-readiness",
+  "code": "SOC 1 and SOC 2",
+  "name": "SOC 1およびSOC 2アテステーションの準備支援(Type IおよびType II)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "アテステーションの準備支援(報告書は公認会計士(CPA)事務所が発行)",
+  "title": "SOCアテステーション準備支援(SOC 1およびSOC 2)シンガポール - ICFC",
+  "description": "SOC 1およびSOC 2報告書は、サービス組織の統制について、顧客に独立した保証を提供します。Type Iは特定時点での統制の整備状況を対象とし、Type IIは...",
+  "summary": "SOC 1およびSOC 2報告書は、サービス組織の統制について、顧客に独立した保証を提供します。Type Iは特定時点での統制の整備状況を対象とし、Type IIは一定期間にわたる運用状況も検証します。報告書は、ライセンスを有するCPA事務所のみが発行します。ICFCは、準備状況の評価、統制の設計、証拠の準備、研修を通じて準備をご支援し、CPA事務所による検査の間もサポートします。",
+  "what": "SOC報告書は、AICPA基準に基づきライセンスを有するCPA事務所が発行する、サービス組織の統制に関する独立したアテステーション報告書です。SOC 1報告書は、顧客の財務報告に関わる統制を対象とします。SOC 2報告書は、AICPAのTrust Services Criteriaを用いて、セキュリティ、可用性、処理の完全性、機密性、プライバシーに関する統制を対象とします。Type I報告書は、特定時点で統制が適切に整備されているかどうかを確認します。Type II報告書は、CPA事務所と合意した検証期間(一般的には3か月から12か月)にわたって統制が有効に運用されていたかどうかも検証します。",
+  "who": "SaaS、クラウド、マネージドIT、給与計算、ファンド管理、決済、アウトソーシングなどのサービス組織で、顧客またはその顧客の監査人からSOC報告書を求められているところ。",
+  "keywords": "SOC 2 準備支援 シンガポール、SOC 1 Type II、SOC 2 Type I、SOCアテステーション、SOC 2 コンサルタント",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、このフレームワークはEDGE Standardsの一覧に見当たりませんでしたので、助成金によらない業務としてお見積りします。助成金による支援を前提とされる前に、Enterprise Singaporeにご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SOC_1_SOC_2_ATTESTATION_READINESS.pdf",
+   "docx": "ICFC_Service_Sheet_SOC_1_SOC_2_ATTESTATION_READINESS.docx"
+  },
+  "audit": [
+   {
+    "heading": "報告書の発行者",
+    "text": "SOC 1およびSOC 2報告書は、AICPAのアテステーション基準に基づき、ライセンスを有するCPA事務所のみが発行します。ICFCはCPA事務所ではなく、SOC報告書や意見を発行しません。シンガポールでは、公認会計事務所がSSAE 3402または国際的なISAE 3402に基づいてサービス組織の統制について報告する場合もあります。"
+   },
+   {
+    "heading": "準備状況の評価",
+    "text": "システム記述書、統制目標またはTrust Services Criteria、および証拠についての第一者レビュー。Type Iのウォークスルーのように実施し、CPA事務所に依頼する前に優先順位付きのギャップ一覧を提供します。"
+   },
+   {
+    "heading": "第二者レビュー",
+    "text": "お客様自身のベンダーのSOC報告書のレビュー:範囲、例外事項、再委託先のサービス組織、および運用が求められる相補的ユーザー組織統制。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "公開および社内向けの集合研修セッション。SOC 1およびSOC 2に関するコース:統制責任者向けの認識向上、準備と証拠の準備、およびベンダーのSOC報告書の読み方と活用方法。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "SOC 1とSOC 2のどちらですか?",
+    "text": "給与計算、請求、ファンド管理など、サービスが顧客の財務諸表に影響する場合は、SOC 1を選択してください。顧客が、御社が顧客のシステムとデータをどのように保護し運用しているかを重視する場合は、SOC 2を選択してください。両方が必要な組織もあります。"
+   },
+   {
+    "heading": "Type IとType IIのどちらですか?",
+    "text": "Type I報告書は短期間で取得でき、最初の報告書や新規サービスに適しています。大企業の取引先の多くはType IIを求めます。統制が継続的に機能していることを示すためです。多くの組織はType Iから始め、次の期間でType IIに移行します。"
+   },
+   {
+    "heading": "独立性",
+    "text": "AICPAの独立性規則により、CPA事務所が、自らが報告する対象の統制の設計をどこまで支援できるかが制限されます。準備支援はICFCが行い、検査は独立したCPA事務所が行うようにすることで、双方の役割が明確に保たれます。お客様の同意を得た上で、準備状況に関するファイルをお客様が選定した事務所と共有します。"
+   },
+   {
+    "heading": "シンガポールの金融セクター",
+    "text": "シンガポールの銀行へのアウトソーシングサービスプロバイダーは、Association of Banks in Singaporeのガイドラインに基づき、ABSの適格監査人リストに掲載された監査人が実施するOSPAR報告書を求められる場合があります。当社は、OSPAR、SOC 2、ISO/IEC 27001、Cyber Trustの管理策を対応づけ、証拠を再利用できるようにします。"
+   },
+   {
+    "heading": "名称とロゴ",
+    "text": "ICFCはSOCの名称を説明的に使用しており、AICPAのSOCロゴは表示していません。報告書の共有方法や説明方法については、CPA事務所にご確認ください。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "SOC 2は認証ですか?",
+    "a": "いいえ。SOC 2報告書はCPA事務所の意見を付したアテステーション報告書であり、認証書ではありません。通常は秘密保持契約の下で顧客と共有されます。"
+   },
+   {
+    "q": "ICFCはSOC報告書を発行できますか?",
+    "a": "いいえ。SOC 1およびSOC 2報告書は、ライセンスを有するCPA事務所のみが発行します。ICFCは準備と、検査中のサポートを行い、その役割をCPA事務所の役割から分離しています。"
+   },
+   {
+    "q": "Type IIにはどのくらいかかりますか?",
+    "a": "まず準備作業を行い、次にCPA事務所と合意した検証期間(一般的には3か月から12か月)があり、その後に事務所による報告が行われます。スケジュールは提案書でお示しします。"
+   },
+   {
+    "q": "ISO/IEC 27001やCyber Trustの成果を再利用できますか?",
+    "a": "はい。SOC 2のセキュリティ基準の多くはISO/IEC 27001やCyber Trust markと重なっているため、管理策を一度対応づけ、その証拠を再利用します。"
+   },
+   {
+    "q": "SOC関連のシンガポールの助成金はありますか?",
+    "a": "確認した時点では、SOC報告はEDGE Standardsの一覧に見当たりませんでしたので、SOC準備支援は助成金によらない業務としてお見積りします。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO/IEC 27017 クラウドサービスのための情報セキュリティ管理策",
+    "url": "/services/iso-iec-27017-cloud-security"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security(MTCS)",
+    "url": "/services/ss-584-mtcs"
+   }
+  ],
+  "sources": [
+   {
+    "name": "AICPA SOC 2 関連資料",
+    "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2"
+   },
+   {
+    "name": "AICPA SOC 1 関連資料",
+    "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-1"
+   },
+   {
+    "name": "ISCA Singapore Standards on Assurance Engagements",
+    "url": "https://isca.org.sg/standards-guidance/audit-assurance/standards-and-guidance/singapore-standards-on-assurance-engagements-(ssaes)"
+   },
+   {
+    "name": "ABSのアウトソーシングガイドラインおよびOSPAR",
+    "url": "https://www.abs.org.sg/industry-guidelines/outsourcing"
+   }
+  ]
+ },
+ {
+  "id": "hipaa",
+  "slug": "hipaa-compliance",
+  "code": "HIPAA",
+  "name": "HIPAAコンプライアンス(コンサルティングおよび研修)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "規制(公式な認証なし)",
+  "title": "HIPAAコンプライアンス シンガポール - ICFC",
+  "description": "HIPAAは米国の健康情報を保護する法律であり、その情報をビジネスアソシエイトとして取り扱う海外のベンダーにも及びます。公式なHIPAA...はありません。",
+  "summary": "HIPAAは米国の健康情報を保護する法律であり、その情報をビジネスアソシエイトとして取り扱う海外のベンダーにも及びます。公式なHIPAA認証はなく、HHSは民間の認証書を推奨していません。ICFCは、お客様の義務の確認、Security Ruleに基づくリスク分析の実施、ポリシーと保護措置の構築、および従業員の研修をご支援します。",
+  "what": "HIPAAは、健康情報を保護する米国の法律です。そのPrivacy Rule、Security Rule、Breach Notification Ruleは、医療保険プランやほとんどの医療提供者などの米国のカバードエンティティ、およびそのために保護対象保健情報を作成、受領、保管、または送信する海外のベンダーを含むビジネスアソシエイトに適用されます。Security Ruleは、文書化されたリスク分析と、電子的な健康情報に対する管理的、物理的、技術的な保護措置を求めています。",
+  "who": "米国の医療関連の顧客にサービスを提供し、ビジネスアソシエイト契約を締結している、ヘルステック企業やSaaS企業、医療請求・コーディング、文字起こし、コンタクトセンター、臨床研究、ITサービスプロバイダーなどの、シンガポールおよび地域の組織。",
+  "keywords": "HIPAAコンプライアンス シンガポール、HIPAA ビジネスアソシエイト、HIPAA研修、HIPAAリスク分析",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、このフレームワークはEDGE Standardsの一覧に見当たりませんでしたので、助成金によらない業務としてお見積りします。助成金による支援を前提とされる前に、Enterprise Singaporeにご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_HIPAA_COMPLIANCE.pdf",
+   "docx": "ICFC_Service_Sheet_HIPAA_COMPLIANCE.docx"
+  },
+  "audit": [
+   {
+    "heading": "公式な認証はありません",
+    "text": "HHSは、個人や製品をHIPAA準拠として認証することはなく、民間のHIPAA認証書を認めていないと述べています。ICFCはHIPAAの認証書を発行しません。"
+   },
+   {
+    "heading": "コンプライアンス評価",
+    "text": "Privacy Rule、Security Rule、Breach Notification Ruleに照らした、お客様の保護措置の第一者評価。Security Ruleが求める定期的な技術的および非技術的評価を含み、優先順位付きのアクションリストを提供します。"
+   },
+   {
+    "heading": "ビジネスアソシエイトのレビュー",
+    "text": "お客様のために保護対象保健情報を取り扱う再委託先の第二者レビュー。お客様のビジネスアソシエイト契約に照らして確認します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "公開および社内向けの集合研修セッション。HIPAAに関するコース:Privacy Rule、Security Rule、Breach Notification Ruleについての従業員向け認識向上、Security Ruleに基づくリスク分析、およびビジネスアソシエイトの義務。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "主な義務",
+    "text": "文書化された組織全体のリスク分析とリスク管理計画。ポリシーと従業員研修。電子的な健康情報に対するアクセス、監査、完全性の管理策。ビジネスアソシエイト契約。そして、発見から不当な遅延なく、遅くとも60日以内の違反通知。"
+   },
+   {
+    "heading": "注視すべき規則の変更",
+    "text": "HHSは2025年1月にSecurity Ruleの大幅な改正を提案しました。2026年10月12日に確認した時点では最終化されておらず、HHSの規制アジェンダでは2027年7月が示されていました。当社は現行の規則に沿って計画し、提案されている変更点をお知らせします。"
+   },
+   {
+    "heading": "シンガポールでの状況",
+    "text": "シンガポールにいる人々に関する健康データは、HIPAAではなく、PDPAおよびシンガポール独自の医療に関する規則の対象です。両方を取り扱う場合は、HIPAAの保護措置をPDPA、ISO/IEC 27001、CSA Cyber Essentialsおよび Cyber Trust markに対応づけ、1組の管理策ですべてに対応できるようにします。"
+   },
+   {
+    "heading": "当社の役割",
+    "text": "コンサルティングと研修のみです。ICFCは法律事務所ではなく、法的助言は行いません。契約や責任に関するご質問は、資格を有する米国の弁護士にご相談ください。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "HIPAAの認証を取得できますか?",
+    "a": "公式なHIPAA認証はなく、HHSは民間の認証書を推奨していません。重要なのは、規則を満たし、リスク分析、ポリシー、研修記録などの証拠を保管することです。"
+   },
+   {
+    "q": "HIPAAはシンガポールの企業にも適用されますか?",
+    "a": "米国のカバードエンティティまたは別のビジネスアソシエイトのために保護対象保健情報を取り扱う場合は、適用される可能性があります。通常はビジネスアソシエイト契約である契約書に、その点が定められています。"
+   },
+   {
+    "q": "HIPAAではどのような研修が求められますか?",
+    "a": "規則は、ポリシーとセキュリティ意識に関する従業員研修を求めていますが、HHSは特定のコースを義務付けてはいません。当社のコースは、その研修の実施と記録に役立ちます。"
+   },
+   {
+    "q": "Security Ruleは変更されますか?",
+    "a": "HHSは2025年1月に改正を提案しました。2026年10月12日に確認した時点では最終化されていませんでした。今後変更される可能性のある提案に対して過剰に構築することなく、準備をお手伝いします。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "CSA Cyber Essentials mark",
+    "url": "/services/cyber-essentials-mark"
+   },
+   {
+    "name": "SOC 1およびSOC 2アテステーションの準備支援(Type IおよびType II)",
+    "url": "/services/soc-1-soc-2-attestation-readiness"
+   }
+  ],
+  "sources": [
+   {
+    "name": "HHS 専門家向けHIPAA情報",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/index.html"
+   },
+   {
+    "name": "HHS Security Rule",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html"
+   },
+   {
+    "name": "誤解を招くHIPAAの宣伝に関するHHSの見解",
+    "url": "https://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/misleadingmarketing.html"
+   }
+  ]
+ },
+ {
+  "id": "gdpr",
+  "slug": "gdpr-compliance",
+  "code": "GDPR",
+  "name": "GDPRコンプライアンス(コンサルティングおよび研修)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "規制(公式な認証なし)",
+  "title": "GDPRコンプライアンス シンガポール - ICFC",
+  "description": "GDPRはEU域内の人々の個人データを保護するものであり、その人々にサービスを提供または監視するシンガポールの組織、あるいはEU域内の顧客のためにデータを処理する組織にも適用される場合があります...",
+  "summary": "GDPRはEU域内の人々の個人データを保護するものであり、その人々にサービスを提供または監視するシンガポールの組織、あるいはEU域内の顧客のためにデータを処理する組織にも適用される場合があります。ICFCは、お客様の義務の整理、処理活動の記録、影響評価、移転時の保護措置、違反対応手順の整備、およびチームの研修をご支援します。GDPRに関する一般的な認証書はありません。",
+  "what": "一般データ保護規則(EU)2016/679(General Data Protection Regulation)は、欧州連合域内の人々の個人データを規律しています。EU域外の組織(シンガポールの組織を含む)が、EU域内の人々に商品やサービスを提供する場合、またはそこでの行動を監視する場合に適用され、EU域内の顧客のために業務を行う処理者は、契約によりGDPR上の義務を負います。EUはシンガポールに対して十分性認定を行っていないため、EUからシンガポールへの移転は、標準契約条項などの保護措置に依拠します。",
+  "who": "EU域内の顧客、利用者、従業員、または取引先を持つ、SaaS、Eコマース、旅行、教育、研究、アウトソーシングのプロバイダーなどの、シンガポールおよび地域の組織。",
+  "keywords": "GDPRコンプライアンス シンガポール、GDPR コンサルタント、GDPR研修、EUデータ移転 シンガポール",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、このフレームワークはEDGE Standardsの一覧に見当たりませんでしたので、助成金によらない業務としてお見積りします。助成金による支援を前提とされる前に、Enterprise Singaporeにご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_GDPR_COMPLIANCE.pdf",
+   "docx": "ICFC_Service_Sheet_GDPR_COMPLIANCE.docx"
+  },
+  "audit": [
+   {
+    "heading": "認証",
+    "text": "GDPRは、データ保護当局または欧州データ保護会議が承認したスキームに基づく認証を認めており、認定された認証機関が発行します。ICFCはGDPRの認証書を発行しません。"
+   },
+   {
+    "heading": "コンプライアンス評価",
+    "text": "GDPRの原則、適法根拠、権利への対応、セキュリティ、国際移転、アカウンタビリティに関する記録に照らした第一者ギャップ評価で、優先順位付きのアクションリストを提供します。"
+   },
+   {
+    "heading": "処理者のレビュー",
+    "text": "お客様の処理者および再処理者について、データ処理契約に照らして行う第二者レビュー。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "公開および社内向けの集合研修セッション。GDPRに関するコース:従業員向け認識向上、処理活動の記録と影響評価、権利行使請求への対応、および国際移転。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "主な義務",
+    "text": "適法根拠と明確な通知、処理活動の記録、高リスクの処理に対するデータ保護影響評価、権利行使請求への1か月以内の回答、処理のセキュリティ、処理者との契約、移転時の保護措置、そして報告対象となる違反を認識してから72時間以内の監督当局への通知。"
+   },
+   {
+    "heading": "EU代理人",
+    "text": "EU域内の人々を対象としている、または監視しているためにGDPRの適用を受けるEU域外の組織は、通常、EU域内に代理人を選任する必要があります。ICFCはEU代理人としては活動しません。代理人が必要かどうかの判断をお手伝いします。"
+   },
+   {
+    "heading": "PDPAとGDPRの併用",
+    "text": "PDPAの実務の多くはそのまま引き継げますが、GDPRには同意以外の適法根拠、より広範な権利、および72時間の違反通知期限が加わります。当社は両方を対応づけ、1つのプライバシープログラムとして運用できるようにします。ISO/IEC 27701とData Protection Trustmarkも同じ管理策を支えることができます。"
+   },
+   {
+    "heading": "注視すべき規則の変更",
+    "text": "EUのDigital Omnibus提案は、GDPRおよびクッキー規則の一部を改正するものです。2026年10月12日に確認した時点ではまだ交渉中であったため、現行のGDPRが適用されます。"
+   },
+   {
+    "heading": "当社の役割",
+    "text": "コンサルティングと研修のみです。ICFCは法律事務所ではなく、法的助言は行いません。EU法に関する法的意見については、EU法の資格を有する弁護士にご相談ください。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "シンガポールにある当社にもGDPRは適用されますか?",
+    "a": "EU域内の人々に商品やサービスを提供する場合、そこでの行動を監視する場合、またはEU域内の顧客のために個人データを処理する場合は、適用される可能性があります。実際の活動内容に基づいて評価します。"
+   },
+   {
+    "q": "GDPRの認証はありますか?",
+    "a": "GDPRに関する一般的な認証書はありません。規則は、欧州データ保護会議が承認した European Data Protection Seal スキームを含む、承認された認証スキームを認めており、認定された認証機関が発行します。"
+   },
+   {
+    "q": "EUの顧客はシンガポールに個人データを送ることができますか?",
+    "a": "はい、保護措置を講じれば可能です。シンガポールにはEUの十分性認定がないため、移転は通常、標準契約条項またはその他の承認されたツールに依拠し、移転リスク評価で裏付けます。"
+   },
+   {
+    "q": "GDPRはPDPAとどう違いますか?",
+    "a": "どちらも原則ベースです。GDPRには、より多くの適法根拠、より強い権利、72時間の違反通知期限が加わり、制裁金は全世界年間売上高の最大4%または2,000万ユーロ(EUR 20 million)のいずれか高い方です。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "Data Protection Trustmark(DPTM)SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "Global and APEC Cross-Border Privacy Rules(CBPR)System",
+    "url": "/services/global-apec-cbpr"
+   },
+   {
+    "name": "Global and APEC Privacy Recognition for Processors(PRP)",
+    "url": "/services/global-apec-prp"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EUR-Lex上のGDPR",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+   },
+   {
+    "name": "European Data Protection Board",
+    "url": "https://www.edpb.europa.eu/"
+   },
+   {
+    "name": "欧州委員会の十分性認定",
+    "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   }
+  ]
+ },
+ {
+  "id": "cmmi",
+  "slug": "cmmi-compliance",
+  "code": "CMMI",
+  "name": "CMMIコンプライアンス(コンサルティングおよび研修)",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "成熟度モデル(アプレイザルによる評価)",
+  "title": "CMMIコンプライアンス シンガポール - ICFC",
+  "description": "CMMIは、ソフトウェア、サービス、および関連分野向けの、ISACAによる能力成熟度モデルです。成熟度レベルは、CMMI...が主導するアプレイザルを通じてのみ付与されます。",
+  "summary": "CMMIは、ソフトウェア、サービス、および関連分野向けの、ISACAによる能力成熟度モデルです。成熟度レベルは、ISACAのライセンスを受けたパートナーと連携するCMMI Certified Lead Appraiserが主導するアプレイザルを通じてのみ付与されます。ICFCは、アプレイザルの前に、適切な範囲と目標レベルの選定、プラクティスのギャップの解消、証拠の準備、およびチームの研修をご支援します。",
+  "what": "CMMI(Capability Maturity Model Integration)は、組織が製品やソフトウェアを開発し、サービスを提供し、サプライヤーや人材を管理し、データ、安全、セキュリティを扱う方法を改善するための、優れた実践のモデルです。現行バージョンは2023年にリリースされたCMMI V3.0です。組織が成熟度レベルまたは能力レベルを得られるのは、CMMI Certified Lead Appraiserが主導するアプレイザルを通じた場合のみです。",
+  "who": "顧客や入札でCMMIの成熟度レベルを求められているソフトウェア、ITサービス、エンジニアリング、アウトソーシング企業、および提供能力の向上に向けて体系的な道筋を求める組織。",
+  "keywords": "CMMIコンサルティング シンガポール、CMMI V3.0、CMMI 成熟度レベル3、CMMI研修",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、このフレームワークはEDGE Standardsの一覧に見当たりませんでしたので、助成金によらない業務としてお見積りします。助成金による支援を前提とされる前に、Enterprise Singaporeにご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_CMMI_COMPLIANCE.pdf",
+   "docx": "ICFC_Service_Sheet_CMMI_COMPLIANCE.docx"
+  },
+  "audit": [
+   {
+    "heading": "評価を行う主体",
+    "text": "成熟度レベルまたは能力レベルを付与するBenchmarkおよびSustainmentアプレイザルは、ISACAのライセンスを受けたCMMIパートナーを通じてCMMI Certified Lead Appraiserが主導し、ISACAが受理します。ICFCは、レーティングを伴うアプレイザルを実施せず、CMMIのレーティングを発行することもありません。"
+   },
+   {
+    "heading": "準備状況の評価",
+    "text": "対象範囲にあるCMMIのプラクティスエリアに照らした、お客様のプラクティスの第一者ギャップ評価。アプレイザルを予約する前に、優先順位付きのアクションリストを提供します。これらはICFCによるレビューであり、ISACAのEvaluationアプレイザルではありません。"
+   },
+   {
+    "heading": "サプライヤーのレビュー",
+    "text": "お客様の顧客がCMMIに沿ったサプライヤーを期待している場合の、再委託先のデリバリー実務の第二者レビュー。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "公開および社内向けの集合研修セッション。CMMIに関するコース:認識向上、プラクティスエリア導入ワークショップ、およびアプレイザルへの備え。これらはICFCのコースであり、ISACA公式のCMMIコースではなく、ISACAの資格には結びつきません。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "アプレイザルの種類",
+    "text": "Benchmarkアプレイザルでは、3年間有効なレーティングが付与されます。Sustainmentアプレイザルではさらに2年間のレーティングが付与され、以前のレーティングが失効する前に受理されている必要があります。Evaluationアプレイザルは非公式でレーティングは付与されず、Action Plan Reappraisalは、目標レベルにわずかに届かなかった場合に2回目の機会を提供します。詳細はISACAのCMMI Instituteによるもので、2026年10月12日に確認しました。"
+   },
+   {
+    "heading": "レベルの選択",
+    "text": "多くの組織は成熟度レベル2または3から始めます。より高いレベルでは、定量的マネジメントと継続的な最適化が加わり、より長い準備期間が必要です。"
+   },
+   {
+    "heading": "当社の役割",
+    "text": "コンサルティングと研修のみです。CMMIは登録商標であり、ICFCはその名称を説明的に使用しています。ICFCがISACAのライセンスを受けたCMMIパートナーと協力しているかどうかについては、お問い合わせフォームからメールでお問い合わせください。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ICFCはCMMIのレーティングを付与できますか?",
+    "a": "いいえ。レーティングは、ISACAのライセンスを受けたパートナーを通じてCMMI Certified Lead Appraiserが主導するアプレイザルからのみ得られます。当社は準備をお手伝いし、アプレイザルチームとは役割を分けています。"
+   },
+   {
+    "q": "CMMIのレーティングの有効期間はどのくらいですか?",
+    "a": "Benchmarkアプレイザルのレーティングは3年間有効です。その後、Sustainmentアプレイザルを受けることで、さらに2年間のレーティングが付与されます。"
+   },
+   {
+    "q": "CMMIはアジャイルと併用できますか?",
+    "a": "はい。CMMIは特定の手法ではなく、優れた実践が何を達成するかを記述しているため、アジャイル、DevOps、従来型のデリバリーのいずれにも適合します。"
+   },
+   {
+    "q": "CMMIはCMMCと同じですか?",
+    "a": "いいえ。CMMCは、防衛関連の契約業者向けの米国国防総省のサイバーセキュリティ認証です。CMMIはより広範な能力成熟度モデルです。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   },
+   {
+    "name": "ISO/IEC 27001 情報セキュリティマネジメントシステム(ISMS)",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "SOC 1およびSOC 2アテステーションの準備支援(Type IおよびType II)",
+    "url": "/services/soc-1-soc-2-attestation-readiness"
+   },
+   {
+    "name": "ISO 22301 事業継続マネジメントシステム(BCMS)",
+    "url": "/services/iso-22301-bcms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "CMMI Institute(ISACA)",
+    "url": "https://cmmiinstitute.com/"
+   },
+   {
+    "name": "CMMIアプレイザルの種類",
+    "url": "https://cmmiinstitute.com/learning/appraisals/types"
+   }
+  ]
+ },
+ {
+  "id": "iso9001",
+  "slug": "iso-9001-qms",
+  "code": "ISO 9001",
+  "name": "ISO 9001 品質マネジメントシステム(QMS)",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "品質マネジメントシステム(ISO 9001)シンガポール - ICFC",
+  "description": "ISO 9001は、世界で最も広く使われている品質マネジメントシステム規格です。組織が一貫したデリバリーを行い、継続的に改善することを支援します。2026年版は...",
+  "summary": "ISO 9001は、世界で最も広く使われている品質マネジメントシステム規格です。組織が一貫したデリバリーを行い、継続的に改善することを支援します。2026年版により、約3年間と見込まれる移行期間が始まります。ICFCは、導入、移行、監査、研修をご支援します。",
+  "what": "ISO 9001は、顧客および規制上のニーズを一貫して満たす品質マネジメントシステムの要求事項を定めています。第6版であるISO 9001:2026は2026年9月に発行が予定されており、約3年間の移行期間が見込まれていますが、IAFによる確認が必要です。",
+  "who": "一貫したデリバリー、入札資格、または他のISO規格の体系的な基盤を求めるあらゆる組織。",
+  "keywords": "ISO 9001 シンガポール、ISO 9001:2026 移行、QMS認証コンサルタント",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_9001_QMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_9001_QMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 9001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 9001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、品質マネジメントシステムの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 9001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "ISO 9001:2026への移行",
+    "text": "既存のISO 9001:2015認証は、移行期間中も有効です。2026年版に照らしたギャップレビューを提供しますので、次回の審査に合わせて変更を計画できます。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "今すぐISO 9001:2026に移行する必要がありますか?",
+    "a": "すぐには必要ありません。移行期間内に変更を計画し、サーベイランス審査または更新審査に合わせて実施してください。"
+   },
+   {
+    "q": "ISO 9001はEDGEの対象ですか?",
+    "a": "確認した時点では、ISO 9001はEDGE Standardsの一覧に見当たりませんでした。他の選択肢についてはお問い合わせください。"
+   },
+   {
+    "q": "導入にはどのくらいかかりますか?",
+    "a": "お客様の規模と既存の取り組みによります。短いギャップレビューの後、提案書で現実的なスケジュールを確認します。"
+   },
+   {
+    "q": "ISO 9001をISO 14001およびISO 45001と組み合わせることはできますか?",
+    "a": "はい。当社の監査員は、統合マネジメントシステム監査の経験が豊富です。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "ISO 45001 労働安全衛生マネジメントシステム(OHSMS)",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "ISO 22301 事業継続マネジメントシステム(BCMS)",
+    "url": "/services/iso-22301-bcms"
+   },
+   {
+    "name": "ISO 21001 教育機関向けマネジメントシステム(EOMS)",
+    "url": "/services/iso-21001-eoms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 9001:2026",
+    "url": "https://www.iso.org/9001-2026"
+   },
+   {
+    "name": "ISO 9000ファミリー",
+    "url": "https://www.iso.org/standards/popular/iso-9000-family"
+   }
+  ]
+ },
+ {
+  "id": "iso14001",
+  "slug": "iso-14001-ems",
+  "code": "ISO 14001",
+  "name": "ISO 14001 環境マネジメントシステム(EMS)",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "環境マネジメントシステム(ISO 14001)シンガポール - ICFC",
+  "description": "ISO 14001は、環境マネジメントシステム(EMS)の国際規格です。組織が環境への影響を管理し、法的義務を果たし...",
+  "summary": "ISO 14001は、環境マネジメントシステム(EMS)の国際規格です。組織が環境への影響を管理し、法的義務を果たし、パフォーマンスを向上させることを支援します。認証は認定された機関が行い、EDGE Sustainability Standardsの対象として掲載されています。",
+  "what": "ISO 14001は、環境側面を管理し、順守義務を果たし、パフォーマンスを向上させる環境マネジメントシステムの要求事項を定めています。",
+  "who": "製造業、物流、建設業、および環境への影響がある、または顧客から環境面の証明を求められているあらゆる組織。",
+  "keywords": "ISO 14001 シンガポール、EMS認証、環境マネジメント コンサルタント",
+  "edgeStatus": "EDGE Standardsに掲載",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。お申し込みの前に、Enterprise Singaporeのウェブサイトにある該当活動のページで、現在の支援水準をご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_14001_EMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_14001_EMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 14001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 14001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、環境マネジメントシステムの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 14001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 14001はEDGEの対象になりますか?",
+    "a": "Enterprise Singaporeは、環境マネジメントシステムをEDGE Sustainability Standardsの対象として掲載しています。現在の支援水準については、該当活動のページをご確認ください。"
+   },
+   {
+    "q": "ISO 14001は気候関連の報告に役立ちますか?",
+    "a": "サステナビリティ報告が依拠するデータと管理策を整備しますが、報告に関する規格ではありません。"
+   },
+   {
+    "q": "ISO 50001と組み合わせることはできますか?",
+    "a": "はい。エネルギーはしばしば重要な環境側面であるため、両者は自然に統合できます。"
+   },
+   {
+    "q": "環境側面とは何ですか?",
+    "a": "廃棄物、排出物、水の使用など、環境に影響を及ぼし得る、組織の活動、製品、サービスのあらゆる部分を指します。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 50001 エネルギーマネジメントシステム(EnMS)",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "SS 587:2022 使用済みICT機器の管理",
+    "url": "/services/ss-587-end-of-life-ict"
+   },
+   {
+    "name": "ISO 45001 労働安全衛生マネジメントシステム(OHSMS)",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "サステナビリティ報告の評価(研修のみ)",
+    "url": "/services/sustainability-reporting-assessment-training"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 14001",
+    "url": "https://www.iso.org/standard/14001"
+   },
+   {
+    "name": "EDGE:EMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sustainability/environmental-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso45001",
+  "slug": "iso-45001-ohsms",
+  "code": "ISO 45001",
+  "name": "ISO 45001 労働安全衛生マネジメントシステム(OHSMS)",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "労働安全衛生(ISO 45001)シンガポール - ICFC",
+  "description": "ISO 45001は、労働安全衛生マネジメントシステムの国際規格です。ハザードの管理と労働者の参加を通じて、組織が傷害や健康障害を防止することを支援します...",
+  "summary": "ISO 45001は、労働安全衛生マネジメントシステムの国際規格です。ハザードの管理と労働者の参加を通じて、組織が傷害や健康障害を防止することを支援します。認定されたISO 45001認証は、シンガポールのbizSAFE STAR認定の取得にも役立ちます。",
+  "what": "ISO 45001は、業務に関連する傷害や健康障害を防止する労働安全衛生マネジメントシステムの要求事項を定めています。シンガポールでは、SACが認定したISO 45001認証が、bizSAFE STARの申請に役立ちます。",
+  "who": "建設業、製造業、物流、施設管理、および職場に重大なハザードがあるあらゆる組織。",
+  "keywords": "ISO 45001 シンガポール、OHSMS認証、職場安全コンサルタント",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_45001_OHSMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_45001_OHSMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 45001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 45001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、労働安全衛生の第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 45001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 45001はbizSAFEに役立ちますか?",
+    "a": "はい。bizSAFE STARには、SACまたはMRAで認められた機関により認定されたISO 45001などの認証済みの安全衛生マネジメントシステムと、リスクマネジメント監査報告書が必要です。"
+   },
+   {
+    "q": "ISO 45001はEDGEの対象ですか?",
+    "a": "確認した時点では、ISO 45001はEDGE Standardsの一覧に見当たりませんでした。他の選択肢についてはお問い合わせください。"
+   },
+   {
+    "q": "メンタルヘルスも対象になりますか?",
+    "a": "はい。心理社会的リスクは、労働安全衛生上のハザードの範囲に含まれます。"
+   },
+   {
+    "q": "請負業者も含めることができますか?",
+    "a": "はい。請負業者やその他の労働者の管理は、この規格の明示的な要素です。"
+   }
+  ],
+  "related": [
+   {
+    "name": "bizSAFE(レベル1~4およびSTAR)",
+    "url": "/services/bizsafe"
+   },
+   {
+    "name": "ISO/PAS 45005 COVID-19パンデミック下での安全な作業(ガイダンス)",
+    "url": "/services/iso-pas-45005"
+   },
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 45001",
+    "url": "https://www.iso.org/standard/45001"
+   },
+   {
+    "name": "ILO-OSH 2001 ガイドライン",
+    "url": "https://www.ilo.org/resource/guidelines-occupational-safety-and-health-management-systems-ilo-osh-2001"
+   }
+  ]
+ },
+ {
+  "id": "iso45005",
+  "slug": "iso-pas-45005",
+  "code": "ISO/PAS 45005",
+  "name": "ISO/PAS 45005 COVID-19パンデミック下での安全な作業(ガイダンス)",
+  "group": "ISO Management Systems",
+  "type": "ガイダンス",
+  "title": "感染症下での安全な作業(ISO/PAS 45005)シンガポール - ICFC",
+  "description": "ISO/PAS 45005は、COVID-19パンデミック下での職場の安全衛生リスクを管理するためのガイダンス文書です。認証を目的としたものではありません...",
+  "summary": "ISO/PAS 45005は、COVID-19パンデミック下での職場の安全衛生リスクを管理するためのガイダンス文書です。認証を目的としたものではありません。ICFCは、お客様のISO 45001またはbizSAFEのシステム内で、感染症への備えを評価し強化するためにこの文書を活用します。",
+  "what": "ISO/PAS 45005は、COVID-19に起因する業務上の安全衛生リスクの管理に関するガイダンスを示しており、労働安全衛生システム内での感染症への備えの参考資料として広く使われています。",
+  "who": "安全衛生システムの一部として、体系的な感染症への備えを求める組織。",
+  "keywords": "ISO PAS 45005、感染症への備え、安全な作業のガイダンス",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_PAS_45005.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_PAS_45005.docx"
+  },
+  "audit": [
+   {
+    "heading": "認証なし",
+    "text": "ISO/PAS 45005はガイダンス文書であり、認証を目的としたものではありません。"
+   },
+   {
+    "heading": "整合性の評価",
+    "text": "お客様の実務がガイダンスにどの程度整合しているかを採点する第一者および第二者の評価。実用的なギャップ報告書を提供します。"
+   },
+   {
+    "heading": "サプライヤーの確認",
+    "text": "お客様の顧客が期待している場合に、サプライヤーまたはパートナーをガイダンスに照らして行う第二者レビュー。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO/PAS 45005に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO/PAS 45005の認証を取得できますか?",
+    "a": "いいえ。ガイダンスです。当社は整合性を評価し、お客様の労働安全衛生システムに組み込みます。"
+   },
+   {
+    "q": "現在でも有効ですか?",
+    "a": "はい。感染症への備え、リモートワーク、職場復帰の計画に関する実用的な参考資料として有効です。"
+   },
+   {
+    "q": "ISO 45001とはどのように関連していますか?",
+    "a": "単独で使用することも、ISO 45001システム内のガイダンスとして使用することもできます。"
+   },
+   {
+    "q": "bizSAFEと関連がありますか?",
+    "a": "bizSAFEにおけるWSHリスクマネジメントのアプローチは感染症の発生も対象としているため、このガイダンスはよく適合します。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 45001 労働安全衛生マネジメントシステム(OHSMS)",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "bizSAFE(レベル1~4およびSTAR)",
+    "url": "/services/bizsafe"
+   },
+   {
+    "name": "ISO 22301 事業継続マネジメントシステム(BCMS)",
+    "url": "/services/iso-22301-bcms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 45000ファミリー",
+    "url": "https://www.iso.org/standards/popular/iso-45000-family"
+   }
+  ]
+ },
+ {
+  "id": "iso22301",
+  "slug": "iso-22301-bcms",
+  "code": "ISO 22301",
+  "name": "ISO 22301 事業継続マネジメントシステム(BCMS)",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "事業継続マネジメント(ISO 22301)シンガポール - ICFC",
+  "description": "ISO 22301は、事業継続マネジメントシステム(BCMS)の国際規格です。組織が重要な業務を継続し、中断後に迅速に復旧することを支援します...",
+  "summary": "ISO 22301は、事業継続マネジメントシステム(BCMS)の国際規格です。組織が重要な業務を継続し、中断後に迅速に復旧することを支援します。Enterprise SingaporeはEDGEの対象として、中小企業で最大50%、中小企業以外で30%の支援を掲載しています。",
+  "what": "ISO 22301は、サイバー攻撃、システム停止、サプライチェーンの障害などの事業中断に対して、組織が計画し、対応し、復旧できるようにするための、事業継続マネジメントシステムの要求事項を定めています。",
+  "who": "重要なサービスを提供している組織、アウトソーシングの委託元を持つ組織、または実証されたレジリエンスを期待する規制当局を持つ組織。",
+  "keywords": "ISO 22301 シンガポール、BCMS認証、事業継続コンサルタント",
+  "edgeStatus": "EDGE Standardsに掲載(確認済み)",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。支援は中小企業で最大50%、中小企業以外で最大30%で、専門サービスおよび認定機関による初年度の認証が対象です。これは、共通のEDGE年間上限S$100,000に算入されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_22301_BCMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_22301_BCMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 22301の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 22301に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、事業継続マネジメントの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 22301に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 22301とSS 507はどう違いますか?",
+    "a": "ISO 22301は、自組織の事業継続を管理するあらゆる組織に適用されます。SS 507は、事業継続および災害復旧サービスのプロバイダー向けです。"
+   },
+   {
+    "q": "EDGEは利用できますか?",
+    "a": "はい。ISO 22301はEDGE General Standardsの対象として掲載されており、中小企業で最大50%、中小企業以外で30%の支援があります。"
+   },
+   {
+    "q": "事業影響度分析(BIA)とは何ですか?",
+    "a": "どの活動が最も重要か、どのくらい早く復旧する必要があるか、どのようなリソースが必要かを体系的に確認することです。"
+   },
+   {
+    "q": "訓練を実施する必要がありますか?",
+    "a": "はい。計画のテストと訓練は中核的な要求事項です。"
+   }
+  ],
+  "related": [
+   {
+    "name": "SS 507 事業継続および災害復旧(BCDR)サービスプロバイダー",
+    "url": "/services/ss-507-bcdr"
+   },
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO 28000 セキュリティおよびレジリエンスマネジメントシステム",
+    "url": "/services/iso-28000-security-resilience"
+   },
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE:ISO 22301",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/general/business-continuity-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso37001",
+  "slug": "iso-37001-abms",
+  "code": "ISO 37001",
+  "name": "ISO 37001 贈収賄防止マネジメントシステム(ABMS)",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "贈収賄防止マネジメント(ISO 37001)シンガポール - ICFC",
+  "description": "ISO 37001は、贈収賄防止マネジメントシステム(ABMS)の国際規格です。方針、リスク評価、デューディリジェンス、管理策を通じて、組織が贈収賄を防止、発見し、対応することを支援します...",
+  "summary": "ISO 37001は、贈収賄防止マネジメントシステム(ABMS)の国際規格です。方針、リスク評価、デューディリジェンス、管理策を通じて、組織が贈収賄を防止、発見し、対応することを支援します。認証が可能で、シンガポールのEDGE Grantの対象として掲載されています。",
+  "what": "ISO 37001は、ビジネスアソシエイトに対するデューディリジェンスを含め、贈収賄を防止、発見し、対応するための贈収賄防止マネジメントシステムの要求事項を定めています。",
+  "who": "入札、規制対象業種、越境取引、または公共部門のサプライチェーンに関わる組織。",
+  "keywords": "ISO 37001 シンガポール、贈収賄防止認証、ABMS コンサルタント",
+  "edgeStatus": "EDGE Standardsに掲載",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。お申し込みの前に、Enterprise Singaporeのウェブサイトにある該当活動のページで、現在の支援水準をご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_37001_ABMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_37001_ABMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 37001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 37001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、贈収賄防止マネジメントの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 37001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 37001は贈収賄が発生しないことを保証しますか?",
+    "a": "いかなる規格もそれを保証することはできません。合理的かつ適切な規模の措置が講じられていることを示すものです。"
+   },
+   {
+    "q": "ISO 37001はEDGEの対象ですか?",
+    "a": "Enterprise Singaporeは、贈収賄防止マネジメントシステムをEDGE General Standardsの対象として掲載しています。支援水準については、該当活動のページをご確認ください。"
+   },
+   {
+    "q": "ISO 37001におけるデューディリジェンスとは何ですか?",
+    "a": "リスクの高い取引、プロジェクト、ビジネスアソシエイトに対する、適切な規模の確認です。"
+   },
+   {
+    "q": "社内でシステムを主導するのは誰ですか?",
+    "a": "トップマネジメントおよび統治機関に直接アクセスできる、贈収賄防止のコンプライアンス機能です。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   },
+   {
+    "name": "ISO 26000 社会的責任に関する手引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 20400 持続可能な調達(ガイダンス)",
+    "url": "/services/iso-20400-sustainable-procurement"
+   },
+   {
+    "name": "ISO 28000 セキュリティおよびレジリエンスマネジメントシステム",
+    "url": "/services/iso-28000-security-resilience"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 37001",
+    "url": "https://www.iso.org/standard/37001"
+   },
+   {
+    "name": "EDGE:ABMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/general/anti-bribery-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso41001",
+  "slug": "iso-41001-facility-management",
+  "code": "ISO 41001",
+  "name": "ISO 41001 ファシリティマネジメントシステム",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "ファシリティマネジメントシステム(ISO 41001)シンガポール - ICFC",
+  "description": "ISO 41001は、ファシリティマネジメントシステムの国際規格です。ファシリティマネージャーが、サービスを組織の目的やステークホルダーのニーズに整合させることを支援します...",
+  "summary": "ISO 41001は、ファシリティマネジメントシステムの国際規格です。ファシリティマネージャーが、サービスを組織の目的やステークホルダーのニーズに整合させることを支援します。Enterprise SingaporeはEDGEの対象として、中小企業で最大50%、中小企業以外で30%の支援を掲載しています。",
+  "what": "ISO 41001は、組織の目的に整合した、効果的かつ効率的な支援サービスを提供するファシリティマネジメントシステムの要求事項を定めています。",
+  "who": "ファシリティマネジメント会社、ビルオーナー、キャンパス、および大規模な不動産を保有する組織。",
+  "keywords": "ISO 41001 シンガポール、ファシリティマネジメント認証",
+  "edgeStatus": "EDGE Standardsに掲載(確認済み)",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。支援は中小企業で最大50%、中小企業以外で最大30%で、専門サービスおよび認定機関による初年度の認証が対象です。これは、共通のEDGE年間上限S$100,000に算入されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_41001_FACILITY_MANAGEMENT.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_41001_FACILITY_MANAGEMENT.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 41001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 41001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、ファシリティマネジメントシステムの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 41001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 41001を導入すべきなのはどのような組織ですか?",
+    "a": "体系的で測定可能なサービス提供を求める、FMサービスプロバイダーおよび社内のファシリティチーム。"
+   },
+   {
+    "q": "EDGEは利用できますか?",
+    "a": "はい。ISO 41001はEDGE Sector-specific Standardsの対象として掲載されており、中小企業で最大50%、中小企業以外で30%の支援があります。"
+   },
+   {
+    "q": "ISO 55001と関連がありますか?",
+    "a": "はい。ファシリティマネジメントとアセットマネジメントは互いに補完し合います。"
+   },
+   {
+    "q": "エネルギーマネジメントを含めることはできますか?",
+    "a": "はい。多くのFMプロバイダーは、エネルギー性能のためにISO 50001を統合しています。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 55001 アセットマネジメントシステム",
+    "url": "/services/iso-55001-asset-management"
+   },
+   {
+    "name": "ISO 50001 エネルギーマネジメントシステム(EnMS)",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "ISO 45001 労働安全衛生マネジメントシステム(OHSMS)",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "SS 564 グリーンデータセンター",
+    "url": "/services/ss-564-green-data-centres"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE:ISO 41001",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/facility-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso55001",
+  "slug": "iso-55001-asset-management",
+  "code": "ISO 55001",
+  "name": "ISO 55001 アセットマネジメントシステム",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "アセットマネジメントシステム(ISO 55001)シンガポール - ICFC",
+  "description": "ISO 55001は、アセットマネジメントシステムの国際規格です。組織が、資産のライフサイクル全体にわたってコスト、リスク、パフォーマンスのバランスを取ることを支援します...",
+  "summary": "ISO 55001は、アセットマネジメントシステムの国際規格です。組織が、資産のライフサイクル全体にわたってコスト、リスク、パフォーマンスのバランスを取ることを支援します。認証が可能で、シンガポールのEDGE Grantの対象として掲載されています。",
+  "what": "ISO 55001は、物理的資産およびその他の資産から、そのライフサイクル全体にわたって価値を実現するアセットマネジメントシステムの要求事項を定めています。",
+  "who": "公益事業、運輸、インフラ、製造業、および大規模な資産基盤を持つ組織。",
+  "keywords": "ISO 55001 シンガポール、アセットマネジメント認証",
+  "edgeStatus": "EDGE Standardsに掲載",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。お申し込みの前に、Enterprise Singaporeのウェブサイトにある該当活動のページで、現在の支援水準をご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_55001_ASSET_MANAGEMENT.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_55001_ASSET_MANAGEMENT.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 55001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 55001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、アセットマネジメントシステムの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 55001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "何が資産に該当しますか?",
+    "a": "組織にとって潜在的または実際の価値を持つあらゆるもので、多くの場合、物理的な設備やインフラを指します。"
+   },
+   {
+    "q": "ISO 55001はEDGEの対象ですか?",
+    "a": "Enterprise Singaporeは、アセットマネジメントシステムをEDGE General Standardsの対象として掲載しています。支援水準については、該当活動のページをご確認ください。"
+   },
+   {
+    "q": "保全管理とはどう違いますか?",
+    "a": "保全は一部にすぎません。ISO 55001は、計画から廃棄までのライフサイクル全体を対象とします。"
+   },
+   {
+    "q": "ISO 41001と統合できますか?",
+    "a": "はい。特に、施設と資産の両方を管理している組織に適しています。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 41001 ファシリティマネジメントシステム",
+    "url": "/services/iso-41001-facility-management"
+   },
+   {
+    "name": "ISO 50001 エネルギーマネジメントシステム(EnMS)",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "SS 587:2022 使用済みICT機器の管理",
+    "url": "/services/ss-587-end-of-life-ict"
+   },
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE:アセットマネジメント",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/general/asset-management-system"
+   },
+   {
+    "name": "ISOマネジメントシステム規格",
+    "url": "https://www.iso.org/management-system-standards-list.html"
+   }
+  ]
+ },
+ {
+  "id": "iso50001",
+  "slug": "iso-50001-enms",
+  "code": "ISO 50001",
+  "name": "ISO 50001 エネルギーマネジメントシステム(EnMS)",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "エネルギーマネジメントシステム(ISO 50001)シンガポール - ICFC",
+  "description": "ISO 50001は、エネルギーマネジメントシステム(EnMS)の国際規格です。組織がエネルギー使用量とコストを測定、管理、削減することを支援します。...",
+  "summary": "ISO 50001は、エネルギーマネジメントシステム(EnMS)の国際規格です。組織がエネルギー使用量とコストを測定、管理、削減することを支援します。シンガポールのEDGE Grantの対象として掲載されており、より広範な脱炭素化やサステナビリティ報告にも役立ちます。",
+  "what": "ISO 50001は、データ、目標、行動計画を通じてエネルギー性能を向上させるエネルギーマネジメントシステムの要求事項を定めています。",
+  "who": "エネルギー集約型の事業、データセンター、ビル、および脱炭素化の目標を持つ製造業者。",
+  "keywords": "ISO 50001 シンガポール、エネルギーマネジメント認証",
+  "edgeStatus": "EDGE Standardsに掲載",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。お申し込みの前に、Enterprise Singaporeのウェブサイトにある該当活動のページで、現在の支援水準をご確認ください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_50001_ENMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_50001_ENMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 50001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 50001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、エネルギーマネジメントシステムの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 50001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 50001はEDGEの対象になりますか?",
+    "a": "Enterprise Singaporeは、エネルギーマネジメントシステムをEDGEの対象として掲載しています。現在の支援水準については、該当活動のページをご確認ください。"
+   },
+   {
+    "q": "エネルギーベースラインとは何ですか?",
+    "a": "改善を測定するために用いる、エネルギー使用量の基準期間です。"
+   },
+   {
+    "q": "データセンターに役立ちますか?",
+    "a": "はい。グリーンデータセンター向けのSS 564と相性が良いです。"
+   },
+   {
+    "q": "サステナビリティ報告を支援しますか?",
+    "a": "はい。信頼できるエネルギーデータは、サステナビリティ報告書の排出量の数値の裏付けとなります。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "SS 564 グリーンデータセンター",
+    "url": "/services/ss-564-green-data-centres"
+   },
+   {
+    "name": "サステナビリティ報告の評価(研修のみ)",
+    "url": "/services/sustainability-reporting-assessment-training"
+   },
+   {
+    "name": "ISO 41001 ファシリティマネジメントシステム",
+    "url": "/services/iso-41001-facility-management"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 50001",
+    "url": "https://www.iso.org/iso-50001-energy-management.html"
+   },
+   {
+    "name": "EDGE:EnMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sustainability/energy-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso21001",
+  "slug": "iso-21001-eoms",
+  "code": "ISO 21001",
+  "name": "ISO 21001 教育機関向けマネジメントシステム(EOMS)",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "教育機関のマネジメント(ISO 21001)シンガポール - ICFC",
+  "description": "ISO 21001は、教育機関向けマネジメントシステム(EOMS)の国際規格です。学校や研修提供者が、学習者のニーズを満たすことを支援します...",
+  "summary": "ISO 21001は、教育機関向けマネジメントシステム(EOMS)の国際規格です。学校や研修提供者が、学習者のニーズを満たし、教育の質を向上させることを支援します。ICFCは、導入、内部監査、研修をご支援します。",
+  "what": "ISO 21001は、学習者および受益者のニーズに焦点を当てた、教育機関におけるマネジメントシステムの要求事項を定めています。",
+  "who": "私立学校、研修提供者、大学、企業内アカデミー、およびeラーニングプロバイダー。",
+  "keywords": "ISO 21001 シンガポール、教育機関向けマネジメントシステム",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_21001_EOMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_21001_EOMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 21001の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 21001に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、教育機関マネジメントの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 21001に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 21001は学校だけのものですか?",
+    "a": "いいえ。オンラインプロバイダーを含め、教育または研修を提供するあらゆる組織に適用されます。"
+   },
+   {
+    "q": "ISO 9001とはどのような関係にありますか?",
+    "a": "ISOの共通構造を共有しており、学習者と教育サービスに固有の要求事項が追加されています。"
+   },
+   {
+    "q": "ISO 21001はEDGEの対象ですか?",
+    "a": "確認した時点では、ISO 21001はEDGE Standardsの一覧に見当たりませんでした。他の選択肢についてはお問い合わせください。"
+   },
+   {
+    "q": "オンライン学習も対象になりますか?",
+    "a": "はい。提供方法に制限はありません。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   },
+   {
+    "name": "ISO/IEC 27701 プライバシー情報マネジメントシステム(PIMS)",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "Data Protection Trustmark(DPTM)SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISOマネジメントシステム規格",
+    "url": "https://www.iso.org/management-system-standards-list.html"
+   }
+  ]
+ },
+ {
+  "id": "iso28000",
+  "slug": "iso-28000-security-resilience",
+  "code": "ISO 28000",
+  "name": "ISO 28000 セキュリティおよびレジリエンスマネジメントシステム",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "セキュリティおよびレジリエンスマネジメント(ISO 28000)シンガポール - ICFC",
+  "description": "ISO 28000は、サプライチェーンに強く焦点を当てた、セキュリティおよびレジリエンスマネジメントシステムの国際規格です。組織がセキュリティ上の脅威を特定することを支援します...",
+  "summary": "ISO 28000は、サプライチェーンに強く焦点を当てた、セキュリティおよびレジリエンスマネジメントシステムの国際規格です。組織がセキュリティ上の脅威を特定し、人、物品、事業を保護することを支援します。ICFCは、導入、監査、研修をご支援します。",
+  "what": "ISO 28000は、組織およびそのサプライチェーンに対するリスクを対象とするセキュリティマネジメントシステムの要求事項を定めています。",
+  "who": "物流、港湾、フォワーダー、倉庫業、および高価値のサプライチェーンを持つ製造業者。",
+  "keywords": "ISO 28000 シンガポール、サプライチェーンセキュリティマネジメント",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_28000_SECURITY_RESILIENCE.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_28000_SECURITY_RESILIENCE.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 28000の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 28000に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、セキュリティおよびレジリエンスマネジメントの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 28000に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 28000は物流専用ですか?",
+    "a": "いいえ。あらゆる組織に適用されますが、サプライチェーンや物流で最も一般的です。"
+   },
+   {
+    "q": "ISO 28000はEDGEの対象ですか?",
+    "a": "確認した時点では、ISO 28000はEDGE Standardsの一覧に見当たりませんでした。他の選択肢についてはお問い合わせください。"
+   },
+   {
+    "q": "事業継続と関連がありますか?",
+    "a": "はい。セキュリティ上の事象は事業継続計画の発動につながることが多いため、ISO 22301とよく統合できます。"
+   },
+   {
+    "q": "サイバー上の脅威も対象になりますか?",
+    "a": "セキュリティリスクを広く対象としています。詳細なサイバーセキュリティについては、Cyber TrustまたはISO/IEC 27001で対応する方が適しています。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 22301 事業継続マネジメントシステム(BCMS)",
+    "url": "/services/iso-22301-bcms"
+   },
+   {
+    "name": "SS 668 冷蔵・冷凍食品のコールドチェーン管理",
+    "url": "/services/ss-668-cold-chain"
+   },
+   {
+    "name": "SS 620 医療機器の適正流通基準(GDPMDS)",
+    "url": "/services/ss-620-gdpmds"
+   },
+   {
+    "name": "ISO 37001 贈収賄防止マネジメントシステム(ABMS)",
+    "url": "/services/iso-37001-abms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISOマネジメントシステム規格",
+    "url": "https://www.iso.org/management-system-standards-list.html"
+   }
+  ]
+ },
+ {
+  "id": "iso20121",
+  "slug": "iso-20121-event-sustainability",
+  "code": "ISO 20121",
+  "name": "ISO 20121 イベントサステナビリティマネジメントシステム",
+  "group": "ISO Management Systems",
+  "type": "認証可能",
+  "title": "イベントサステナビリティマネジメント(ISO 20121)シンガポール - ICFC",
+  "description": "ISO 20121は、イベントサステナビリティマネジメントシステムの国際規格です。主催者や会場が、環境的・社会的な影響を低減することを支援します...",
+  "summary": "ISO 20121は、イベントサステナビリティマネジメントシステムの国際規格です。主催者や会場が、イベントを成功させながら環境的・社会的な影響を低減することを支援します。ICFCは、導入、監査、研修をご支援します。",
+  "what": "ISO 20121は、イベントが環境、社会、経済に与える影響を対象とする、イベントサステナビリティマネジメントシステムの要求事項を定めています。",
+  "who": "イベント主催者、会場、MICE企業、およびイベント業界のサプライヤー。",
+  "keywords": "ISO 20121 シンガポール、持続可能なイベントの認証",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_20121_EVENT_SUSTAINABILITY.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_20121_EVENT_SUSTAINABILITY.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "ISO 20121の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うISO 20121に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、イベントサステナビリティマネジメントの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 20121に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 20121は1つのイベントを対象としますか、それとも事業全体を対象としますか?",
+    "a": "マネジメントシステムですので、単一のイベントも、組織が継続的に行うイベント活動も対象にできます。"
+   },
+   {
+    "q": "ISO 20121はEDGEの対象ですか?",
+    "a": "確認した時点では、ISO 20121はEDGE Standardsの一覧に見当たりませんでした。他の選択肢についてはお問い合わせください。"
+   },
+   {
+    "q": "ISO 20400と関連がありますか?",
+    "a": "はい。持続可能な調達は、責任あるイベントの中心です。"
+   },
+   {
+    "q": "会場にも関係しますか?",
+    "a": "はい。会場やサプライヤーは、顧客のサステナビリティ目標を支援するためにこれを採用することが多くあります。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 20400 持続可能な調達(ガイダンス)",
+    "url": "/services/iso-20400-sustainable-procurement"
+   },
+   {
+    "name": "ISO 26000 社会的責任に関する手引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "サステナビリティ報告の評価(研修のみ)",
+    "url": "/services/sustainability-reporting-assessment-training"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISOマネジメントシステム規格",
+    "url": "https://www.iso.org/management-system-standards-list.html"
+   }
+  ]
+ },
+ {
+  "id": "ss564",
+  "slug": "ss-564-green-data-centres",
+  "code": "SS 564",
+  "name": "SS 564 グリーンデータセンター",
+  "group": "Singapore Standards and Schemes",
+  "type": "認証可能",
+  "title": "グリーンデータセンター(SS 564)シンガポール - ICFC",
+  "description": "SS 564は、グリーンデータセンターに関するシンガポール規格です。データセンターの運営に合わせたエネルギーおよび環境マネジメントシステムを提供します。...",
+  "summary": "SS 564は、グリーンデータセンターに関するシンガポール規格です。データセンターの運営に合わせたエネルギーおよび環境マネジメントシステムを提供します。ICFCは、運営事業者による導入、認証の準備、チームの研修をご支援します。",
+  "what": "SS 564は、データセンター向けに調整されたエネルギーおよび環境マネジメントシステムに関するシンガポール規格です。",
+  "who": "データセンター運営事業者、コロケーションプロバイダー、およびオンプレミスのサーバールームを運用する組織。",
+  "keywords": "SS 564 シンガポール、グリーンデータセンター規格",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_564_GREEN_DATA_CENTRES.pdf",
+   "docx": "ICFC_Service_Sheet_SS_564_GREEN_DATA_CENTRES.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "SS 564の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うSS 564に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、グリーンデータセンターの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "SS 564に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "SS 564が必要なのはどのような組織ですか?",
+    "a": "体系的で測定可能なエネルギー性能および環境性能を求めるデータセンター運営事業者。"
+   },
+   {
+    "q": "ISO 50001とはどのような関係にありますか?",
+    "a": "どちらもエネルギーマネジメントに焦点を当てています。SS 564はデータセンター向けに調整されており、ISO 50001と統合できます。"
+   },
+   {
+    "q": "SS 564はEDGEの対象ですか?",
+    "a": "確認した時点では、SS 564はEDGE Standardsの一覧に見当たりませんでした。他の選択肢についてはお問い合わせください。"
+   },
+   {
+    "q": "BCA-IMDA Green Mark for Data Centresと関係がありますか?",
+    "a": "別のものです。Green Markは建物の評価スキームであり、SS 564はマネジメントシステム規格です。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 50001 エネルギーマネジメントシステム(EnMS)",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security(MTCS)",
+    "url": "/services/ss-584-mtcs"
+   },
+   {
+    "name": "SS 587:2022 使用済みICT機器の管理",
+    "url": "/services/ss-587-end-of-life-ict"
+   },
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   },
+   {
+    "name": "BCA-IMDA Green Mark for Data Centres",
+    "url": "https://www.imda.gov.sg/how-we-can-help/bca-imda-green-mark-for-data-centres-scheme"
+   }
+  ]
+ },
+ {
+  "id": "ss587",
+  "slug": "ss-587-end-of-life-ict",
+  "code": "SS 587:2022",
+  "name": "SS 587:2022 使用済みICT機器の管理",
+  "group": "Singapore Standards and Schemes",
+  "type": "認証可能",
+  "title": "使用済みICT機器の管理(SS 587:2022)シンガポール - ICFC",
+  "description": "SS 587は、認証可能なマネジメントシステムを通じて使用済みICT機器を管理するためのシンガポール規格です。組織がICT機器をリサイクルすることを支援します...",
+  "summary": "SS 587は、認証可能なマネジメントシステムを通じて使用済みICT機器を管理するためのシンガポール規格です。組織がICT機器を責任ある形でリサイクルすることを支援します。Enterprise SingaporeはEDGE Sustainability Standardsの対象として、中小企業で最大70%の支援を掲載しています。",
+  "what": "SS 587は、一貫したリサイクルプロセスを通じて使用済みICT機器の環境負荷を管理する、認証可能なマネジメントシステムの要求事項を定めています。",
+  "who": "ICT機器の廃棄物を排出する組織、およびICTリサイクル業者または廃棄処理業者。",
+  "keywords": "SS 587:2022、使用済みICT管理、電子廃棄物規格 シンガポール",
+  "edgeStatus": "EDGE Sustainability Standardsに掲載(確認済み)",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Sustainability Standardsの対象として掲載しています。支援は中小企業で最大70%、中小企業以外で最大50%で、専門サービスおよび認定機関による初年度の認証が対象です。これは、共通のEDGE年間上限S$100,000に算入されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_587_END_OF_LIFE_ICT.pdf",
+   "docx": "ICFC_Service_Sheet_SS_587_END_OF_LIFE_ICT.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "SS 587:2022の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うSS 587:2022に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、使用済みICT管理の第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "SS 587:2022に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "SS 587はEDGEの対象になりますか?",
+    "a": "はい。EDGE Sustainability Standardsの対象として掲載されており、中小企業で最大70%、中小企業以外で50%の支援があります。"
+   },
+   {
+    "q": "データ消去も対象になりますか?",
+    "a": "データを保存した機器の安全な取り扱いは、責任ある廃棄の一部です。当社は、お客様の情報セキュリティ管理策と整合させます。"
+   },
+   {
+    "q": "誰が認証を取得すべきですか?",
+    "a": "ICT廃棄物を排出する組織、およびそれを取り扱うサービスプロバイダー。"
+   },
+   {
+    "q": "ISO 14001と統合できますか?",
+    "a": "はい。環境マネジメントシステムの中に自然に組み込めます。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "SS 564 グリーンデータセンター",
+    "url": "/services/ss-564-green-data-centres"
+   },
+   {
+    "name": "ISO 55001 アセットマネジメントシステム",
+    "url": "/services/iso-55001-asset-management"
+   },
+   {
+    "name": "サステナビリティ報告の評価(研修のみ)",
+    "url": "/services/sustainability-reporting-assessment-training"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE:SS 587",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sustainability/management-of-end-of-life-ict-equipment"
+   },
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "mtcs",
+  "slug": "ss-584-mtcs",
+  "code": "SS 584",
+  "name": "SS 584 Multi-Tiered Cloud Computing Security(MTCS)",
+  "group": "Singapore Standards and Schemes",
+  "type": "認証可能",
+  "title": "マルチティアクラウドセキュリティ(MTCS)(SS 584)シンガポール - ICFC",
+  "description": "SS 584(Multi-Tiered Cloud Computing Security(MTCS)規格)は、クラウドサービスプロバイダー向けに階層別のセキュリティ要求事項を定めています。上位のティアは、より...",
+  "summary": "SS 584(Multi-Tiered Cloud Computing Security(MTCS)規格)は、クラウドサービスプロバイダー向けに階層別のセキュリティ要求事項を定めています。上位のティアは、より機微なデータに適しています。Enterprise SingaporeはEDGEの対象として、中小企業で最大50%、中小企業以外で30%の支援を掲載しています。",
+  "what": "SS 584は、クラウドサービスプロバイダーが提供するサービスの機微性に基づき、満たすべき3つのティアそれぞれについて最低限のセキュリティ要求事項を定めています。",
+  "who": "シンガポールの顧客にサービスを提供するクラウドサービスプロバイダー(特に規制対象業種や公共部門)。",
+  "keywords": "SS 584 MTCS、マルチティアクラウドセキュリティ シンガポール",
+  "edgeStatus": "EDGE Standardsに掲載(確認済み)",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。支援は中小企業で最大50%、中小企業以外で最大30%で、専門サービスおよび認定機関による初年度の認証が対象です。これは、共通のEDGE年間上限S$100,000に算入されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_584_MTCS.pdf",
+   "docx": "ICFC_Service_Sheet_SS_584_MTCS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "SS 584の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うSS 584に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、マルチティアクラウドセキュリティ(MTCS)の第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "SS 584に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "MTCSのティアはいくつありますか?",
+    "a": "3つです。ティア1が基本水準で、ティア3は最も機微なワークロード向けです。"
+   },
+   {
+    "q": "SS 584はEDGEの対象ですか?",
+    "a": "はい。EDGE Sector-specific Standardsの対象として掲載されており、中小企業で最大50%、中小企業以外で30%の支援があります。"
+   },
+   {
+    "q": "ISO/IEC 27017と重なりますか?",
+    "a": "はい。多くのプロバイダーが両方に準拠し、証拠を再利用しています。"
+   },
+   {
+    "q": "クラウド利用者向けですか、それともプロバイダー向けですか?",
+    "a": "クラウドサービスプロバイダー向けに書かれています。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27017 クラウドサービスのための情報セキュリティ管理策",
+    "url": "/services/iso-iec-27017-cloud-security"
+   },
+   {
+    "name": "ISO/IEC 27018 パブリッククラウドにおける個人データの保護",
+    "url": "/services/iso-iec-27018-cloud-privacy"
+   },
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "SS 564 グリーンデータセンター",
+    "url": "/services/ss-564-green-data-centres"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE:SS 584",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/multi-tiered-cloud-computing-security"
+   },
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "ss620",
+  "slug": "ss-620-gdpmds",
+  "code": "SS 620",
+  "name": "SS 620 医療機器の適正流通基準(GDPMDS)",
+  "group": "Singapore Standards and Schemes",
+  "type": "認証可能",
+  "title": "医療機器の適正流通基準(SS 620)シンガポール - ICFC",
+  "description": "SS 620は、医療機器の適正流通基準(GDPMDS)に関するシンガポール規格です。保管、取り扱い、配送、トレーサビリティを通じて、機器の品質と安全性が保たれることを確保します...",
+  "summary": "SS 620は、医療機器の適正流通基準(GDPMDS)に関するシンガポール規格です。保管、取り扱い、配送、トレーサビリティを通じて、機器の品質と安全性が保たれることを確保します。医療機器の販売業者は、許可取得のためにこれを必要とすることが一般的です。",
+  "what": "SS 620は、流通過程における医療機器の保管、取り扱い、配送、トレーサビリティのための品質マネジメントシステムの要求事項を定めています。",
+  "who": "シンガポールの医療機器の輸入業者、卸売業者、販売業者、および倉庫業者。",
+  "keywords": "SS 620 GDPMDS、医療機器流通 シンガポール",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_620_GDPMDS.pdf",
+   "docx": "ICFC_Service_Sheet_SS_620_GDPMDS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "SS 620の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うSS 620に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、医療機器の適正流通基準に関する第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "SS 620に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "HSAの販売業者ライセンスにはGDPMDSが必要ですか?",
+    "a": "医療機器の輸入業者および卸売業者は、一般にGDPMDSへの適合を示すことが求められます。お客様のケースについては、HSAの現行のライセンス要件をご確認ください。"
+   },
+   {
+    "q": "SS 620はEDGEの対象ですか?",
+    "a": "確認した時点では、SS 620はEDGE Standardsの一覧に見当たりませんでした。他の選択肢についてはお問い合わせください。"
+   },
+   {
+    "q": "低温保管も対象になりますか?",
+    "a": "はい。機器に管理された環境条件が必要な場合は対象となります。食品のコールドチェーンについては、SS 668が別途対象としています。"
+   },
+   {
+    "q": "ISO 9001と統合できますか?",
+    "a": "はい。品質マネジメントの原則を基盤としています。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   },
+   {
+    "name": "SS 668 冷蔵・冷凍食品のコールドチェーン管理",
+    "url": "/services/ss-668-cold-chain"
+   },
+   {
+    "name": "ISO 28000 セキュリティおよびレジリエンスマネジメントシステム",
+    "url": "/services/iso-28000-security-resilience"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Health Sciences Authority",
+    "url": "https://www.hsa.gov.sg/"
+   },
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "ss668",
+  "slug": "ss-668-cold-chain",
+  "code": "SS 668",
+  "name": "SS 668 冷蔵・冷凍食品のコールドチェーン管理",
+  "group": "Singapore Standards and Schemes",
+  "type": "認証可能",
+  "title": "コールドチェーン管理(SS 668)シンガポール - ICFC",
+  "description": "SS 668は、冷蔵・冷凍食品のコールドチェーン管理に関するシンガポール規格です。保管から小売に至るまで、食品の安全性、鮮度、品質を守ります...",
+  "summary": "SS 668は、冷蔵・冷凍食品のコールドチェーン管理に関するシンガポール規格です。保管から小売に至るまで、食品の安全性、鮮度、品質を守ります。Enterprise SingaporeはEDGEの対象として、中小企業で最大50%、中小企業以外で30%の支援を掲載しています。",
+  "what": "SS 668は、冷蔵・冷凍食品のコールドチェーンを管理するための最上位の要求事項に加え、運用、冷蔵室、輸送、包装、表示、小売に関する技術的要求事項を定めています。",
+  "who": "冷蔵または冷凍食品を取り扱う、食品輸入業者、冷蔵倉庫、物流事業者、販売業者、小売業者。",
+  "keywords": "SS 668 コールドチェーン シンガポール、冷蔵・冷凍食品規格",
+  "edgeStatus": "EDGE Standardsに掲載(確認済み)",
+  "edgeNote": "Enterprise Singaporeは、この規格をEDGE Grantの対象として掲載しています。支援は中小企業で最大50%、中小企業以外で最大30%で、専門サービスおよび認定機関による初年度の認証が対象です。これは、共通のEDGE年間上限S$100,000に算入されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_668_COLD_CHAIN.pdf",
+   "docx": "ICFC_Service_Sheet_SS_668_COLD_CHAIN.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "SS 668の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うSS 668に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、コールドチェーン管理の第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "助成金対応(EDGE)",
+    "text": "ICFCのコンサルティングは、SS 680:2021の認証を取得したコンサルタントが主導します。この認証は、Enterprise SingaporeがEDGE Standards活動におけるコンサルティング支援に求めているものです。認証は当社のコンサルタント個人が保有しており、ICFCという会社として保有しているものではありません。提案書には、お客様のプロジェクトを主導する認証取得済みコンサルタントの氏名を記載し、EDGEが求めるSS 680の認証情報、見積書、および業務範囲を含めます。お客様は、作業の開始前、および支払いを行う前に、Business Grants Portalで申請する必要があります。ベンダーがお客様に代わって申請、支払い、または請求を行うことはできず、請求書は Letter of Offer に記載されたコンサルタントが発行する必要があり、承認後にベンダーを変更することはできません。支援はEnterprise Singaporeの審査と承認を条件とします。当社のSS 680認証取得コンサルタントの役割、証明書番号、発行機関、有効期限、または発行機関の登録簿へのリンクについては、お問い合わせフォームからメールでご連絡ください。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "SS 668に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "SS 668はどのような事業を対象としていますか?",
+    "a": "食品コールドチェーンにおける、農業、飲食品、陸上輸送、物流、卸売の事業。"
+   },
+   {
+    "q": "SS 668はEDGEの対象ですか?",
+    "a": "はい。EDGE Sector-specific Standardsの対象として掲載されており、中小企業で最大50%、中小企業以外で30%の支援があります。"
+   },
+   {
+    "q": "温度監視は必須ですか?",
+    "a": "はい。保管および輸送にわたる監視と記録は、この規格の中心です。"
+   },
+   {
+    "q": "食品安全システムと統合できますか?",
+    "a": "はい。既存の食品安全および品質システムを補完します。"
+   }
+  ],
+  "related": [
+   {
+    "name": "SS 620 医療機器の適正流通基準(GDPMDS)",
+    "url": "/services/ss-620-gdpmds"
+   },
+   {
+    "name": "ISO 28000 セキュリティおよびレジリエンスマネジメントシステム",
+    "url": "/services/iso-28000-security-resilience"
+   },
+   {
+    "name": "ISO 22301 事業継続マネジメントシステム(BCMS)",
+    "url": "/services/iso-22301-bcms"
+   },
+   {
+    "name": "ISO 9001 品質マネジメントシステム(QMS)",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE:SS 668",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/cold-chain-management-of-chilled-and-frozen-foods-part-1"
+   },
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "ss507",
+  "slug": "ss-507-bcdr",
+  "code": "SS 507",
+  "name": "SS 507 事業継続および災害復旧(BCDR)サービスプロバイダー",
+  "group": "Singapore Standards and Schemes",
+  "type": "認証可能",
+  "title": "事業継続および災害復旧サービス(SS 507)シンガポール - ICFC",
+  "description": "SS 507は、事業継続および災害復旧(BCDR)サービスプロバイダーに関するシンガポール規格です。復旧サービス、施設、プロセスが信頼できることを顧客に保証します...",
+  "summary": "SS 507は、事業継続および災害復旧(BCDR)サービスプロバイダーに関するシンガポール規格です。復旧サービス、施設、プロセスが信頼できることを顧客に保証します。ICFCは、プロバイダーによる導入、監査、研修をご支援します。",
+  "what": "SS 507は、事業継続および災害復旧サービスのプロバイダーに関するシンガポール規格であり、そのポリシー、プロセス、施設、サービスレベルを対象としています。",
+  "who": "復旧サービスを提供する、BCDRサービスプロバイダー、データセンター、およびITアウトソーシング企業。",
+  "keywords": "SS 507 BCDR、災害復旧サービスプロバイダー規格 シンガポール",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_507_BCDR.pdf",
+   "docx": "ICFC_Service_Sheet_SS_507_BCDR.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者監査",
+    "text": "SS 507の第三者認証監査は、認定された認証機関に代わって当社の監査員が実施します。認証書は認証機関が発行するものであり、ICFCが発行するものではありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行うSS 507に対するサプライヤーおよびパートナーの監査で、対応可能な明確な指摘事項を提供します。"
+   },
+   {
+    "heading": "内部監査",
+    "text": "経験豊富な監査員による、事業継続および災害復旧サービスの第一者内部監査。他の規格と組み合わせて1回の統合監査として実施できます。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "SS 507に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "SS 507が必要なのはどのような組織ですか?",
+    "a": "自組織の事業継続を管理する組織ではなく、他者にBCDRサービスを提供する組織。"
+   },
+   {
+    "q": "SS 507はEDGEの対象ですか?",
+    "a": "確認した時点では、SS 507はEDGE Standardsの一覧に見当たりませんでした。他の選択肢についてはお問い合わせください。"
+   },
+   {
+    "q": "ISO 22301とはどう違いますか?",
+    "a": "ISO 22301はあらゆる組織の自組織の事業継続向けであり、SS 507はBCDRサービスプロバイダー向けです。"
+   },
+   {
+    "q": "MTCSと重なりますか?",
+    "a": "クラウドベースの復旧サービスについては、一部重なります。共通の管理策を対応づけて、重複を避けます。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 22301 事業継続マネジメントシステム(BCMS)",
+    "url": "/services/iso-22301-bcms"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security(MTCS)",
+    "url": "/services/ss-584-mtcs"
+   },
+   {
+    "name": "SS 564 グリーンデータセンター",
+    "url": "/services/ss-564-green-data-centres"
+   },
+   {
+    "name": "CSA Cyber Trust mark(SS 712)",
+    "url": "/services/cyber-trust-mark-ss-712"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "bizsafe",
+  "slug": "bizsafe",
+  "code": "bizSAFE",
+  "name": "bizSAFE(レベル1~4およびSTAR)",
+  "group": "Singapore Standards and Schemes",
+  "type": "スキーム",
+  "title": "bizSAFE シンガポール - ICFC",
+  "description": "bizSAFEは、レベル1からbizSAFE STARまでの5段階で職場の安全に関する能力を高める、シンガポールのWSH Councilのプログラムです。レベル3以上...",
+  "summary": "bizSAFEは、レベル1からbizSAFE STARまでの5段階で職場の安全に関する能力を高める、シンガポールのWSH Councilのプログラムです。レベル3以上にはリスクマネジメント監査が必要で、STARにはISO 45001などの認定された安全衛生マネジメントシステムが必要です。ICFCは、各レベルを一つずつご案内します。",
+  "what": "bizSAFEは、トップマネジメントのコミットメントから認証済みの安全衛生マネジメントシステムに至るまで、職場の安全衛生に関する能力を高めるための、WSH Councilによる5段階のプログラムです。",
+  "who": "請負業者、サプライヤー、および顧客や入札でbizSAFEのレベルを求められているあらゆる企業。",
+  "keywords": "bizSAFE レベル3、bizSAFE STAR、WSH Council シンガポール",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_BIZSAFE.pdf",
+   "docx": "ICFC_Service_Sheet_BIZSAFE.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者評価",
+    "text": "認証は、労働安全衛生(WSH)Councilが運営するスキームに基づいて付与されます。指名を受けた場合、当社の監査員は認証機関に代わって評価を実施します。認証書やマークをICFCが発行することはありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行う、スキーム要件に対するサプライヤーおよびパートナーの確認。"
+   },
+   {
+    "heading": "準備状況確認および内部監査",
+    "text": "正式な評価で何が確認されるかを具体的に示す事前評価で、優先順位付きのアクションリストを提供します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "bizSAFEに関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "レベルごとの内容",
+    "text": "レベル1:トップマネジメントがWSHに取り組むことを表明します。レベル2:リスクマネジメント・チャンピオンが研修を受け、リスクマネジメント計画を策定します。レベル3:計画を実施し、リスクマネジメント監査に合格します。レベル4:WSHマネジメントシステムを整備します。STAR:ISO 45001などの認定されたシステムに加え、リスクマネジメント監査報告書が必要です。"
+   },
+   {
+    "heading": "当社の役割",
+    "text": "bizSAFEのレベル1およびレベル2の公式コースは、WSH Councilが承認した研修提供者が実施し、リスクマネジメント監査は承認された監査員が実施します。ICFCは、各ステップに向けた準備と、その背後にあるシステムの構築をご支援します。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "どのbizSAFEレベルが必要ですか?",
+    "a": "入札や元請業者は、通常、求める最低レベルを明示していますので、まずそれをご確認ください。その後、そのレベルに到達するためのステップを計画します。"
+   },
+   {
+    "q": "ISO 45001はbizSAFE STARとどう関連していますか?",
+    "a": "認定されたISO 45001認証とリスクマネジメント監査報告書があれば、STARの申請に役立ちます。"
+   },
+   {
+    "q": "bizSAFEはEDGEの対象ですか?",
+    "a": "確認した時点では、bizSAFEはEDGE Standardsの一覧に見当たりませんでした。"
+   },
+   {
+    "q": "bizSAFEの有効期間はどのくらいですか?",
+    "a": "有効期間はレベルによって異なります。申請の際にWSH Councilの現行の規則をご確認ください。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 45001 労働安全衛生マネジメントシステム(OHSMS)",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "ISO/PAS 45005 COVID-19パンデミック下での安全な作業(ガイダンス)",
+    "url": "/services/iso-pas-45005"
+   },
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   }
+  ],
+  "sources": [
+   {
+    "name": "WSH Council bizSAFE",
+    "url": "https://www.tal.sg/wshc/programmes/bizsafe"
+   }
+  ]
+ },
+ {
+  "id": "wrap",
+  "slug": "wrap-certification",
+  "code": "WRAP",
+  "name": "Worldwide Responsible Accredited Production(WRAP)",
+  "group": "Sustainability and Supply Chain",
+  "type": "スキーム",
+  "title": "WRAP認証 シンガポール - ICFC",
+  "description": "WRAP(Worldwide Responsible Accredited Production)は、主にアパレルおよび履物分野で、工場が合法的、人道的、倫理的に運営されていることを認証するものです。...",
+  "summary": "WRAP(Worldwide Responsible Accredited Production)は、主にアパレルおよび履物分野で、工場が合法的、人道的、倫理的に運営されていることを認証するものです。監査はWRAPが認定したモニタリング会社が実施します。ICFCは、ギャップ評価、是正措置のサポート、研修を通じて、施設の準備をご支援します。",
+  "what": "WRAPは、合法的、人道的、倫理的な製造のための独立した認証プログラムで、主にアパレル、履物、縫製品で用いられています。施設は、WRAPが認定したモニタリング会社により、WRAPの原則に照らして監査されます。",
+  "who": "国際ブランドに供給する、アパレル、履物、繊維、縫製品の製造業者。",
+  "keywords": "WRAP認証、責任ある生産の監査、倫理的な製造",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_WRAP_CERTIFICATION.pdf",
+   "docx": "ICFC_Service_Sheet_WRAP_CERTIFICATION.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三者評価",
+    "text": "認証は、WRAPの運営団体およびそれが認定したモニタリング会社が運営するスキームに基づいて付与されます。指名を受けた場合、当社の監査員は認証機関に代わって評価を実施します。認証書やマークをICFCが発行することはありません。"
+   },
+   {
+    "heading": "第二者監査",
+    "text": "お客様の組織に代わって行う、スキーム要件に対するサプライヤーおよびパートナーの確認。"
+   },
+   {
+    "heading": "準備状況確認および内部監査",
+    "text": "正式な評価で何が確認されるかを具体的に示す事前評価で、優先順位付きのアクションリストを提供します。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "WRAPに関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ICFCはWRAPの認証書を発行しますか?",
+    "a": "いいえ。WRAP認証は、WRAPが認定したモニタリング会社による監査に基づいて付与されます。当社は準備をお手伝いします。"
+   },
+   {
+    "q": "WRAPの原則は何を対象としていますか?",
+    "a": "法令遵守、労働条件、安全衛生、環境、税関コンプライアンスなどの分野です。"
+   },
+   {
+    "q": "WRAPはアパレル専用ですか?",
+    "a": "主にアパレル、履物、縫製品で使われています。"
+   },
+   {
+    "q": "顧客監査の支援にも使えますか?",
+    "a": "はい。当社の第二者監査は、ブランドが同様の原則に照らしてサプライヤーを確認することを支援します。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 26000 社会的責任に関する手引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 20400 持続可能な調達(ガイダンス)",
+    "url": "/services/iso-20400-sustainable-procurement"
+   },
+   {
+    "name": "ISO 45001 労働安全衛生マネジメントシステム(OHSMS)",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   }
+  ],
+  "sources": [
+   {
+    "name": "WRAP",
+    "url": "https://wrapcompliance.org/en/"
+   }
+  ]
+ },
+ {
+  "id": "iso20400",
+  "slug": "iso-20400-sustainable-procurement",
+  "code": "ISO 20400",
+  "name": "ISO 20400 持続可能な調達(ガイダンス)",
+  "group": "Sustainability and Supply Chain",
+  "type": "ガイダンス",
+  "title": "持続可能な調達(ISO 20400)シンガポール - ICFC",
+  "description": "ISO 20400は、持続可能な調達に関するガイダンス規格です。組織が、環境的、社会的、経済的な配慮を...に組み込むことを支援します。",
+  "summary": "ISO 20400は、持続可能な調達に関する国際的なガイダンス規格です。組織が、環境的、社会的、経済的な配慮を購買の方法に組み込むことを支援します。認証はできません。ICFCは、お客様の整合性を評価し、実践に移すことをご支援します。",
+  "what": "ISO 20400は、持続可能性を調達の方針、戦略、プロセスに組み込むためのガイダンスを示しています。",
+  "who": "調達部門、公共部門のサプライヤー、およびサプライヤーのサステナビリティリスクを管理する組織。",
+  "keywords": "ISO 20400 持続可能な調達ガイダンス シンガポール",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_20400_SUSTAINABLE_PROCUREMENT.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_20400_SUSTAINABLE_PROCUREMENT.docx"
+  },
+  "audit": [
+   {
+    "heading": "認証なし",
+    "text": "ISO 20400はガイダンス文書であり、認証を目的としたものではありません。"
+   },
+   {
+    "heading": "整合性の評価",
+    "text": "お客様の実務がガイダンスにどの程度整合しているかを採点する第一者および第二者の評価。実用的なギャップ報告書を提供します。"
+   },
+   {
+    "heading": "サプライヤーの確認",
+    "text": "お客様の顧客が期待している場合に、サプライヤーまたはパートナーをガイダンスに照らして行う第二者レビュー。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 20400に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 20400の認証を取得できますか?",
+    "a": "いいえ。ガイダンスです。当社は、整合性の評価と導入支援を提供します。"
+   },
+   {
+    "q": "どこから始めるべきですか?",
+    "a": "支出分析から始め、サステナビリティ上のリスクと機会が最も大きいカテゴリーを特定します。"
+   },
+   {
+    "q": "サプライヤー監査と関連がありますか?",
+    "a": "はい。当社の第二者サプライヤー監査が、ガイダンスを実行に移します。"
+   },
+   {
+    "q": "サステナビリティ報告に役立ちますか?",
+    "a": "はい。サプライチェーンのデータは、バリューチェーンへの影響に関する報告に活用されます。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 26000 社会的責任に関する手引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 20121 イベントサステナビリティマネジメントシステム",
+    "url": "/services/iso-20121-event-sustainability"
+   },
+   {
+    "name": "Worldwide Responsible Accredited Production(WRAP)",
+    "url": "/services/wrap-certification"
+   },
+   {
+    "name": "サステナビリティ報告の評価(研修のみ)",
+    "url": "/services/sustainability-reporting-assessment-training"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO出版物",
+    "url": "https://www.iso.org/publication-list.html"
+   }
+  ]
+ },
+ {
+  "id": "iso26000",
+  "slug": "iso-26000-social-responsibility",
+  "code": "ISO 26000",
+  "name": "ISO 26000 社会的責任に関する手引",
+  "group": "Sustainability and Supply Chain",
+  "type": "ガイダンス",
+  "title": "社会的責任(ISO 26000)シンガポール - ICFC",
+  "description": "ISO 26000は、社会的責任に関する国際的なガイダンスです。ガバナンスや人権から地域社会への参画まで、7つの中核主題を扱います。...",
+  "summary": "ISO 26000は、社会的責任に関する国際的なガイダンスです。ガバナンスや人権から地域社会への参画まで、7つの中核主題を扱います。認証はできません。ICFCは、お客様の現在の取り組みを評価し、実践的な社会的責任のロードマップを構築するためにこれを活用します。",
+  "what": "ISO 26000は、ガバナンス、人権、労働慣行、環境、公正な事業慣行、消費者課題、地域社会への参画を含む7つの中核主題にわたる社会的責任のガイダンスを示しています。",
+  "who": "サステナビリティまたはESGへのアプローチやステークホルダー・エンゲージメントを形成している組織。",
+  "keywords": "ISO 26000 社会的責任ガイダンス、CSRフレームワーク",
+  "edgeStatus": "EDGE Standardsの一覧には掲載されていません",
+  "edgeNote": "確認した時点では、この規格はEDGE Standardsの一覧に見当たりませんでした。助成金によらない方法や、適用される可能性のある他のスキームについてはお問い合わせください。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_26000_SOCIAL_RESPONSIBILITY.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_26000_SOCIAL_RESPONSIBILITY.docx"
+  },
+  "audit": [
+   {
+    "heading": "認証なし",
+    "text": "ISO 26000はガイダンス文書であり、認証を目的としたものではありません。"
+   },
+   {
+    "heading": "整合性の評価",
+    "text": "お客様の実務がガイダンスにどの程度整合しているかを採点する第一者および第二者の評価。実用的なギャップ報告書を提供します。"
+   },
+   {
+    "heading": "サプライヤーの確認",
+    "text": "お客様の顧客が期待している場合に、サプライヤーまたはパートナーをガイダンスに照らして行う第二者レビュー。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資金支援",
+    "text": "該当するスキームがある場合はそのスキームと、その要件を、お申し込み前にご説明します。"
+   },
+   {
+    "heading": "助成金なし",
+    "text": "範囲を固定した業務:ギャップ評価、文書化、導入コーチング、内部監査とマネジメントレビュー、および正式な監査または評価までのサポート。"
+   },
+   {
+    "heading": "当社の進め方",
+    "text": "当社の支援終了後も、御社のスタッフが運用できる、実用的で適切な規模のシステム。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "ISO 26000に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 26000は認証可能ですか?",
+    "a": "いいえ。明確にガイダンス規格です。これについての認証を提供すると称する者には注意してください。"
+   },
+   {
+    "q": "サステナビリティ報告とはどのような関係にありますか?",
+    "a": "報告の前に、何が重要かを判断することに役立ちます。その後、報告フレームワークが開示の指針となります。"
+   },
+   {
+    "q": "当社にとってどの中核主題が重要ですか?",
+    "a": "それは、マテリアリティおよびステークホルダーのレビューから導き出されるもので、当社がそのファシリテーションを行います。"
+   },
+   {
+    "q": "ISO 37001と組み合わせることはできますか?",
+    "a": "はい。公正な事業慣行には、腐敗防止が含まれます。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 20400 持続可能な調達(ガイダンス)",
+    "url": "/services/iso-20400-sustainable-procurement"
+   },
+   {
+    "name": "サステナビリティ報告の評価(研修のみ)",
+    "url": "/services/sustainability-reporting-assessment-training"
+   },
+   {
+    "name": "Worldwide Responsible Accredited Production(WRAP)",
+    "url": "/services/wrap-certification"
+   },
+   {
+    "name": "ISO 37001 贈収賄防止マネジメントシステム(ABMS)",
+    "url": "/services/iso-37001-abms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISOと持続可能な開発目標",
+    "url": "https://www.iso.org/sdg"
+   }
+  ]
+ },
+ {
+  "id": "sra",
+  "slug": "sustainability-reporting-assessment-training",
+  "code": "Training",
+  "name": "サステナビリティ報告の評価(研修のみ)",
+  "group": "Sustainability and Supply Chain",
+  "type": "研修のみ",
+  "title": "サステナビリティ報告の評価(研修)シンガポール - ICFC",
+  "description": "ICFCのサステナビリティ報告評価研修では、マテリアリティからデータ品質まで、サステナビリティおよび気候関連の開示を評価し作成する方法をチームに教えます...",
+  "summary": "ICFCのサステナビリティ報告評価研修では、マテリアリティからデータ品質まで、サステナビリティおよび気候関連の開示を評価し作成する方法をチームに教えます。研修のみの提供で、ICFC Digital LMSを通じた集合形式およびオンライン形式があります。",
+  "what": "サステナビリティおよび気候関連の開示を評価し作成するスキルを身につける研修で、マテリアリティ、データ収集、シンガポールで採用されている報告基準を含みます。",
+  "who": "サステナビリティ報告書を作成またはレビューする、財務、サステナビリティ、コンプライアンス、業務の担当者。",
+  "keywords": "サステナビリティ報告研修 シンガポール、気候関連開示コース",
+  "edgeStatus": "研修の資金支援は異なります",
+  "edgeNote": "資金支援の可否は各コースの承認状況によります。承認状況はICFC Digital LMSのコースページに表示されます。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SUSTAINABILITY_REPORTING_ASSESSMENT_TRAINING.pdf",
+   "docx": "ICFC_Service_Sheet_SUSTAINABILITY_REPORTING_ASSESSMENT_TRAINING.docx"
+  },
+  "audit": [
+   {
+    "heading": "提供なし",
+    "text": "このサービスは研修のみです。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "提供なし",
+    "text": "このサービスは研修のみです。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "集合研修",
+    "text": "サステナビリティ報告の評価に関する公開および社内向けの集合研修:認識向上、導入、内部監査員の各レベル。"
+   },
+   {
+    "heading": "オンラインLMS",
+    "text": "ICFC Digital LMSでの自習型およびライブオンライン研修。進捗管理と修了証の発行を備えています。"
+   },
+   {
+    "heading": "資金支援",
+    "text": "資金支援の可否は各コースの承認状況によります。承認状況はLMSのコースページに表示されます。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "当社の役割",
+    "text": "研修のみです。サステナビリティ報告書に対する保証業務やコンサルティングは提供しておりません。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "基本原則",
+    "text": "公平性を最優先します。すべての業務は利益相反の確認から始まります。当社はコンサルティングと監査の役割を分離しており、ICFCが同一範囲についてコンサルティングを行った組織については、認証機関が定める期間内、当社の監査員が認証機関に代わって監査を行うことは一切ありません。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ICFCはサステナビリティ報告書に対する保証を提供しますか?",
+    "a": "いいえ。このサービスは研修のみです。"
+   },
+   {
+    "q": "誰が参加すべきですか?",
+    "a": "データを収集する、開示を作成する、またはサステナビリティ報告書をレビューする担当者。"
+   },
+   {
+    "q": "オンラインで受講できますか?",
+    "a": "はい。集合研修に加え、ICFC Digital LMSを通じて受講できます。"
+   },
+   {
+    "q": "資金支援はありますか?",
+    "a": "資金支援の可否は各コースの承認状況によります。承認状況はコースページに表示されます。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 14001 環境マネジメントシステム(EMS)",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "ISO 50001 エネルギーマネジメントシステム(EnMS)",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "ISO 26000 社会的責任に関する手引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 20400 持続可能な調達(ガイダンス)",
+    "url": "/services/iso-20400-sustainable-procurement"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Enterprise Sustainability Programme",
+    "url": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/sustainability/enterprise-sustainability-programme"
+   }
+  ]
+ }
+]

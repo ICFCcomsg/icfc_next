@@ -1,6 +1,7 @@
 import { LegalPageTemplate } from "@/components/templates/legal-page-template";
-import blocks from "@/lib/legal/privacy-policy.json";
+import { getLegal } from "@/lib/dictionary";
 
-export function PrivacyPolicyPageContent() {
+export async function PrivacyPolicyPageContent() {
+  const blocks = await getLegal("privacy-policy");
   return <LegalPageTemplate route="privacy-policy" blocks={blocks} />;
 }

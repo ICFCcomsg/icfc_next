@@ -6,16 +6,11 @@ import { useState, useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
 import { motion, useReducedMotion } from "motion/react";
 import { Modal } from "@/components/atoms/modal";
-import en from "@/public/lang/en.json";
-import zh from "@/public/lang/zh.json";
-import ms from "@/public/lang/ms.json";
-import ko from "@/public/lang/ko.json";
 import { SiteLink } from "@/components/atoms/site-link";
+import { useI18n } from "@/components/atoms/i18n-provider";
 import { LANGS, localizedPath } from "@/lib/i18n";
 import { SiteImage } from "@/components/atoms/site-image";
 
-// Header labels per URL language; languages without header copy yet fall back to English.
-const translations: Record<string, typeof en> = { en, "zh-hans": zh, ms, ko };
 const navigation = [
   ["home", "/"],
   ["industries", "/industry"],
@@ -45,7 +40,7 @@ export function SiteHeader({ route }: { route: string }) {
     () => false,
   );
   const reducedMotion = useReducedMotion();
-  const copy = translations[lang.segment] ?? en;
+  const { dict: copy } = useI18n();
   function isCurrent(href: string) {
     if (href === "/") return route === "index";
     if (href === "/services") return route.startsWith("services");

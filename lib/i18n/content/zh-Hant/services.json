@@ -1,0 +1,4528 @@
+[
+ {
+  "id": "ctm",
+  "slug": "cyber-trust-mark-ss-712",
+  "code": "SS 712",
+  "name": "CSA Cyber Trust mark（SS 712）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認證計劃",
+  "title": "Cyber Trust mark（SS 712）新加坡 - ICFC",
+  "description": "CSA Cyber Trust mark（SS 712）用以證明組織按其風險暴露程度管理網絡風險。該標誌設有五個準備度級別和四大支柱，...",
+  "summary": "CSA Cyber Trust mark（SS 712）用以證明組織按其風險暴露程度管理網絡風險。該標誌設有五個準備度級別和四大支柱，有效期為三年，每年進行審核，並由 CSA 委任的認證機構頒發。ICFC 協助您選擇合適的級別、做好準備，並培訓您的團隊。",
+  "what": "Cyber Trust mark 是 CSA 針對數碼營運較為廣泛的組織而設的風險導向型網絡安全認證。2025 年版已作為新加坡標準 SS 712 發布，現涵蓋傳統資訊科技、雲端、營運技術（OT）及人工智能安全。",
+  "who": "處理敏感數據、服務企業或政府買家，或高度依賴數碼系統、雲端或 OT 的組織。",
+  "keywords": "Cyber Trust mark 新加坡、SS 712、CSA 認證、網絡安全級別",
+  "edgeStatus": "CSA 認證資助",
+  "edgeNote": "此標誌由 CSA 而非 EDGE 提供資助。CSA 僅資助首次成功認證，對象為在新加坡註冊成立的中小企業及非牟利組織，直至 2028 年 2 月 6 日。資助金額會從 CSA 委任的認證機構所收取的費用中扣除。顧問費用不在此項資助範圍內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_CYBER_TRUST_MARK_SS_712.pdf",
+   "docx": "ICFC_Service_Sheet_CYBER_TRUST_MARK_SS_712.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方評估",
+    "text": "認證依據新加坡網絡安全局（CSA）所營運的計劃頒發。在獲委任的情況下，我們的審核員代表認證機構進行評估；證書或標誌絕不由 ICFC 頒發。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據計劃要求對供應商及合作夥伴進行查核。"
+   },
+   {
+    "heading": "準備度評估及內部審核",
+    "text": "預先評估，清楚呈現正式評估將會檢視的內容，並附有按優先次序排列的行動清單。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "CSA 的認證資助由認證機構從其自身費用中扣除。我們的顧問服務另行報價，不在該資助範圍內。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 SS 712 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "級別",
+    "text": "五個網絡安全準備度級別：Supporter、Practitioner、Promoter、Performer 及 Advocate。CSA 的風險評估框架會為每個組織指出其所屬級別，每個級別涵蓋 10 至 22 個準備度範疇。級別反映的是企業所承受的網絡風險，而非其規模。"
+   },
+   {
+    "heading": "支柱",
+    "text": "傳統網絡安全是基礎支柱。雲端安全、營運技術（OT）安全及人工智能安全，會在適用於貴組織營運時作為支柱加入。"
+   },
+   {
+    "heading": "CSA 資助（Cyber Trust 2025）",
+    "text": "就傳統支柱而言，CSA 的最高資助額由 S$1,375（1 至 10 個終端）至 S$2,250（101 至 200 個終端）不等。每增加一個雲端、OT 或 AI 支柱可獲 S$225，101 至 200 個終端則為 S$450，總額最高可達 S$3,600。僅限首次認證，適用於在新加坡註冊成立的中小企業及非牟利組織，直至 2028 年 2 月 6 日。數據來自 CSA，於 2026 年 10 月 11 日核對。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "我們需要哪個 Cyber Trust 級別？",
+    "a": "您的級別取決於 CSA 的風險評估範本。我們會與您一同進行評估、解釋結果，並僅針對該級別規劃相應的控制措施，避免過度建設。"
+   },
+   {
+    "q": "Cyber Trust 與 ISO/IEC 27001 相同嗎？",
+    "a": "不相同。兩者均以風險為導向，CSA 也公布了兩者之間的對照，但它們是各自獨立的認證。取得其中一項認證的組織，可以將大部分證據重用於另一項。"
+   },
+   {
+    "q": "證書有效期多長？",
+    "a": "三年，期間每年進行一次審核以維持證書有效。"
+   },
+   {
+    "q": "我們可以先從 Cyber Essentials 開始嗎？",
+    "a": "可以。Cyber Essentials 適合剛起步的組織，也是邁向 Cyber Trust 的自然階梯。"
+   }
+  ],
+  "related": [
+   {
+    "name": "CSA Cyber Essentials mark",
+    "url": "/services/cyber-essentials-mark"
+   },
+   {
+    "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "ISO/IEC 42001 人工智能管理系統（AIMS）",
+    "url": "/services/iso-iec-42001-aims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "CSA SG Cyber Safe Programme",
+    "url": "https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/"
+   },
+   {
+    "name": "CSA Cyber Trust 認證及資助",
+    "url": "https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/cybersecurity-certification-for-organisations/cyber-trust/certification-for-the-cyber-trust-mark/"
+   }
+  ]
+ },
+ {
+  "id": "ce",
+  "slug": "cyber-essentials-mark",
+  "code": "CSA",
+  "name": "CSA Cyber Essentials mark",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認證計劃",
+  "title": "Cyber Essentials mark（CSA）新加坡 - ICFC",
+  "description": "CSA Cyber Essentials mark 表明組織已落實基本的網絡衛生控制措施，例如資產管理、安全配置、存取...",
+  "summary": "CSA Cyber Essentials mark 表明組織已落實基本的網絡衛生控制措施，例如資產管理、安全配置、存取控制、惡意軟件防護及備份。有效期為兩年，由 CSA 委任的認證機構頒發。ICFC 協助您做好準備、填補差距，並培訓您的員工。",
+  "what": "Cyber Essentials 表彰已落實基本網絡衛生的組織。CSA 亦為資訊通訊科技供應商、醫療保健（HIA 實體）及醫療保健系統（HIMS）供應商推出變體版本。",
+  "who": "剛起步推行網絡安全的中小企業及非牟利組織，以及被客戶要求提供獲認可基準的供應商。",
+  "keywords": "Cyber Essentials 新加坡、CSA 網絡衛生、中小企業網絡安全認證",
+  "edgeStatus": "CSA 認證資助",
+  "edgeNote": "此標誌由 CSA 而非 EDGE 提供資助。CSA 僅資助首次成功認證，對象為在新加坡註冊成立的中小企業及非牟利組織，直至 2028 年 2 月 6 日。資助金額會從 CSA 委任的認證機構所收取的費用中扣除。顧問費用不在此項資助範圍內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_CYBER_ESSENTIALS_MARK.pdf",
+   "docx": "ICFC_Service_Sheet_CYBER_ESSENTIALS_MARK.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方評估",
+    "text": "認證依據新加坡網絡安全局（CSA）所營運的計劃頒發。在獲委任的情況下，我們的審核員代表認證機構進行評估；證書或標誌絕不由 ICFC 頒發。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據計劃要求對供應商及合作夥伴進行查核。"
+   },
+   {
+    "heading": "準備度評估及內部審核",
+    "text": "預先評估，清楚呈現正式評估將會檢視的內容，並附有按優先次序排列的行動清單。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "CSA 的認證資助由認證機構從其自身費用中扣除。我們的顧問服務另行報價，不在該資助範圍內。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 Cyber Essentials mark 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "檢查內容",
+    "text": "資產、安全設定、更新、存取控制、惡意軟件防護、備份及事故應變準備，並按較小型組織的規模調整。雲端、OT 及 AI 安全可作為支柱加入。"
+   },
+   {
+    "heading": "CSA 資助（Cyber Essentials 2025）",
+    "text": "就傳統支柱而言，CSA 的最高資助額由 S$250（1 至 5 個終端）至 S$650（101 至 200 個終端）不等，每增加一個雲端、OT 或 AI 支柱另可獲 S$50 至 S$100。HIA 實體及 HIMS 供應商適用另行訂定的金額。僅限首次認證，適用於在新加坡註冊成立的中小企業及非牟利組織，直至 2028 年 2 月 6 日。數據來自 CSA，於 2026 年 10 月 11 日核對。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "哪些組織應選擇 Cyber Essentials 而非 Cyber Trust？",
+    "a": "資訊科技環境較簡單、網絡風險較低的組織。如果您的風險評估顯示風險暴露範圍較廣，Cyber Trust 會更為合適。"
+   },
+   {
+    "q": "有資助嗎？",
+    "a": "有。CSA 會資助符合資格的中小企業及非牟利組織首次成功取得 Cyber Essentials 認證，直至 2028 年 2 月 6 日，資助金額從認證機構的費用中扣除。我們的顧問費用另計。"
+   },
+   {
+    "q": "哪個變體適用於我們？",
+    "a": "一般標誌適合大多數組織。屬於 SMEs Go Digital 下的資訊通訊科技供應商、HIA 實體及 HIMS 供應商，應查閱 CSA 的行業變體。"
+   },
+   {
+    "q": "準備工作需要多長時間？",
+    "a": "視乎初步審查發現多少差距而定。我們會在建議書中提供切實可行的時間表。"
+   }
+  ],
+  "related": [
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "Data Protection Essentials（DPE）",
+    "url": "/services/data-protection-essentials"
+   },
+   {
+    "name": "Data Protection Trustmark（DPTM）SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "CSA Cyber Essentials 認證及資助",
+    "url": "https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/cybersecurity-certification-for-organisations/cyber-essentials/certification-for-the-cyber-essentials-mark/"
+   }
+  ]
+ },
+ {
+  "id": "dptm",
+  "slug": "data-protection-trustmark-ss-714",
+  "code": "SS 714",
+  "name": "Data Protection Trustmark（DPTM）SS 714",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認證計劃",
+  "title": "Data Protection Trustmark（SS 714）新加坡 - ICFC",
+  "description": "Data Protection Trustmark（DPTM）現已成為新加坡標準 SS 714:2025，用以證明組織以負責任的方式管理個人資料，由...",
+  "summary": "Data Protection Trustmark（DPTM）現已成為新加坡標準 SS 714:2025，用以證明組織以負責任的方式管理個人資料，涵蓋由管治至個人權利的各方面。認證由 IMDA 委任的機構進行，並每年進行監督審核。中小企業或可獲 EDGE 最高 50% 的資助。",
+  "what": "DPTM 是一項自願參與、涵蓋整個組織的認證，用以證明組織具備負責任的個人資料處理做法。自 2025 年 7 月起，它以新加坡標準 SS 714:2025 發布，由 IMDA 委任的認證機構在 SAC 監督下進行認證，並每年進行監督審核。",
+  "who": "在新加坡收集或處理個人資料，並希望向客戶及合作夥伴表明其做法超越基本 PDPA 合規要求的組織。",
+  "keywords": "DPTM、SS 714:2025、Data Protection Trustmark 新加坡、PDPA 認證",
+  "edgeStatus": "已列入 EDGE 標準（已確認）",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。中小企業最高可獲 50% 資助，非中小企業最高可獲 30%，涵蓋專業服務及由認可機構進行的首年認證。此項資助計入每年共用的 S$100,000 EDGE 上限內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_DATA_PROTECTION_TRUSTMARK_SS_714.pdf",
+   "docx": "ICFC_Service_Sheet_DATA_PROTECTION_TRUSTMARK_SS_714.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方評估",
+    "text": "認證依據 IMDA 所營運的計劃頒發，認證機構由 Singapore Accreditation Council 認可。在獲委任的情況下，我們的審核員代表認證機構進行評估；證書或標誌絕不由 ICFC 頒發。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據計劃要求對供應商及合作夥伴進行查核。"
+   },
+   {
+    "heading": "準備度評估及內部審核",
+    "text": "預先評估，清楚呈現正式評估將會檢視的內容，並附有按優先次序排列的行動清單。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 SS 714 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "四大原則範疇",
+    "text": "管治與透明度、個人資料管理、個人資料的保護，以及維護個人權利。"
+   },
+   {
+    "heading": "資助途徑",
+    "text": "公司可根據 EDGE Grant 申請（SS 714 已列入，中小企業最高可獲 50% 資助，非中小企業為 30%）。符合資格的慈善機構及社會服務機構可申請 NCSS Tech-and-GO!。認證由 IMDA 委任的認證機構進行；IMDA 的顧問名單僅供參考，並不代表認可。"
+   },
+   {
+    "heading": "IMDA 名單",
+    "text": "如需了解 ICFC 是否列入 IMDA 的 DPTM 顧問參考名單，請透過聯絡表格以電郵與我們聯絡。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "法律是否規定必須取得 DPTM？",
+    "a": "否。法律規定須遵守 PDPA；DPTM 是用以證明合規的自願性認證。"
+   },
+   {
+    "q": "SS 714:2025 有什麼變化？",
+    "a": "DPTM 成為國家標準，認證機構須在 Singapore Accreditation Council 的計劃下獲得認可，並每年進行監督審核。"
+   },
+   {
+    "q": "EDGE 可以涵蓋 DPTM 嗎？",
+    "a": "可以。Enterprise Singapore 已將 SS 714 列入 EDGE，中小企業最高可獲 50% 資助，非中小企業為 30%，惟須符合資格。IMDA 的頁面仍提及已被 EDGE 於 2026 年 9 月 30 日取代的前 EDG 計劃。符合資格的慈善機構及社會服務機構可留意 NCSS Tech-and-GO!。"
+   },
+   {
+    "q": "DPTM 與 ISO/IEC 27701 有何關係？",
+    "a": "兩者在私隱控制方面有所重疊。DPTM 以新加坡的 PDPA 為基礎，而 ISO/IEC 27701 是國際性的私隱管理系統。"
+   }
+  ],
+  "related": [
+   {
+    "name": "Data Protection Essentials（DPE）",
+    "url": "/services/data-protection-essentials"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "Global and APEC Cross-Border Privacy Rules（CBPR）System",
+    "url": "/services/global-apec-cbpr"
+   },
+   {
+    "name": "Global and APEC Privacy Recognition for Processors（PRP）",
+    "url": "/services/global-apec-prp"
+   }
+  ],
+  "sources": [
+   {
+    "name": "IMDA Data Protection Trustmark",
+    "url": "https://www.imda.gov.sg/how-we-can-help/data-protection-trustmark-certification"
+   },
+   {
+    "name": "EDGE：SS 714",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/data-protection-trustmark"
+   }
+  ]
+ },
+ {
+  "id": "dpe",
+  "slug": "data-protection-essentials",
+  "code": "IMDA",
+  "name": "Data Protection Essentials（DPE）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "僅提供培訓及顧問服務",
+  "title": "Data Protection Essentials（IMDA）新加坡 - ICFC",
+  "description": "Data Protection Essentials（DPE）是 IMDA 的計劃，協助中小企業落實基本的數據保護及安全做法。一站式服務及...",
+  "summary": "Data Protection Essentials（DPE）是 IMDA 的計劃，協助中小企業落實基本的數據保護及安全做法。一站式服務及 DPE 標誌須透過 IMDA 名單內的 DPE 服務提供者取得。ICFC 提供培訓及顧問服務，協助您做好準備，並逐步邁向 Data Protection Trustmark。",
+  "what": "Data Protection Essentials 是 IMDA 的計劃，協助中小企業採納基本的數據保護及安全做法，並在數據外洩後迅速復原。完成 IMDA 名單內服務提供者的一站式專業服務並簽訂至少一年聘用合約的中小企業，將獲 IMDA 列入名單並獲頒 DPE 標誌，惟須遵守 IMDA 的條款。",
+  "who": "在新加坡註冊及營運、集團年度銷售額不超過 S$1 億或僱員不超過 200 人，並希望在 DPTM 之前有一個實用起點的中小企業。",
+  "keywords": "Data Protection Essentials、IMDA DPE、PDPA 中小企業",
+  "edgeStatus": "IMDA 計劃，目前未顯示任何資助",
+  "edgeNote": "IMDA 的頁面載有針對在 2024 年 3 月 31 日前完成的 DPE 實施項目的固定 S$1,600 資助；目前未顯示任何資助。符合資格的慈善機構及社會服務機構可申請 NCSS Tech-and-GO!。在規劃資金前，請向 IMDA 查證。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_DATA_PROTECTION_ESSENTIALS.pdf",
+   "docx": "ICFC_Service_Sheet_DATA_PROTECTION_ESSENTIALS.docx"
+  },
+  "audit": [
+   {
+    "heading": "評估方式",
+    "text": "DPE 並非經審核的認證。DPE 一站式專業服務及 DPE 標誌透過 IMDA 名單內的 DPE 服務提供者提供。ICFC 以培訓及顧問服務支援您。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明現行的 IMDA 及 NCSS 途徑，以及各途徑的要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 Data Protection Essentials 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "我們的角色",
+    "text": "ICFC 提供培訓及顧問服務，協助您為 DPE 及 DPTM 做好準備。DPE 一站式服務及 DPE 標誌由 IMDA 名單內的 DPE 服務提供者提供。如需了解 ICFC 是否列入 IMDA 的 DPTM 顧問參考名單，或是否為 IMDA 名單內的 DPE 服務提供者，請透過聯絡表格以電郵與我們聯絡。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "DPE 是認證嗎？",
+    "a": "不是。它是 IMDA 的計劃。與名單內的服務提供者完成一站式服務及聘用合約的中小企業，將獲 IMDA 列入名單並獲頒 DPE 標誌，惟須遵守 IMDA 的條款。"
+   },
+   {
+    "q": "IMDA 仍有為 DPE 提供資助嗎？",
+    "a": "IMDA 的頁面載有針對在 2024 年 3 月 31 日前完成的實施項目的固定 S$1,600 資助。目前未顯示任何資助，因此在規劃前請向 IMDA 查證。"
+   },
+   {
+    "q": "實施 DPE 就符合 PDPA 嗎？",
+    "a": "IMDA 表示，實施 DPE 並不代表組織已完全符合 PDPA。它是一個穩固的基準。"
+   },
+   {
+    "q": "我們應該選擇 DPE 還是 DPTM？",
+    "a": "較小型的組織往往先從 DPE 開始，隨著數據量或客戶期望提高，再邁向 DPTM。"
+   }
+  ],
+  "related": [
+   {
+    "name": "Data Protection Trustmark（DPTM）SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "CSA Cyber Essentials mark",
+    "url": "/services/cyber-essentials-mark"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "IMDA Data Protection Essentials",
+    "url": "https://www.imda.gov.sg/how-we-can-help/data-protection-essentials"
+   }
+  ]
+ },
+ {
+  "id": "cbpr",
+  "slug": "global-apec-cbpr",
+  "code": "CBPR",
+  "name": "Global and APEC Cross-Border Privacy Rules（CBPR）System",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認證計劃",
+  "title": "Global and APEC CBPR 新加坡 - ICFC",
+  "description": "Global and APEC Cross-Border Privacy Rules（CBPR）認證表明數據控制者在個人資料跨境傳輸時保護有關資料。在...",
+  "summary": "Global and APEC Cross-Border Privacy Rules（CBPR）認證表明數據控制者在個人資料跨境傳輸時保護有關資料。在新加坡，IMDA 是 Accountability Agent，在委任機構進行評估後向組織頒發認證。ICFC 協助您為該評估做好準備。",
+  "what": "CBPR 是一項自願參與但具執行力的認證，適用於控制跨境傳輸個人資料的組織。Global CBPR System 於 2025 年 6 月 2 日與 APEC 系統同時推出；IMDA 透過委任的評估機構為新加坡組織進行認證。",
+  "who": "在新加坡與其他參與經濟體之間傳輸個人資料的數據控制者。",
+  "keywords": "Global CBPR、APEC CBPR 新加坡、跨境私隱認證",
+  "edgeStatus": "IMDA 計劃，請查詢資助",
+  "edgeNote": "IMDA 指出，部分顧問及認證費用或可獲得資助支持。在申請前，請查閱 IMDA 資料套件及 Enterprise Singapore。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_GLOBAL_APEC_CBPR.pdf",
+   "docx": "ICFC_Service_Sheet_GLOBAL_APEC_CBPR.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方評估",
+    "text": "認證依據 IMDA 作為新加坡認可的 Accountability Agent 所營運的計劃頒發。在獲委任的情況下，我們的審核員代表認證機構進行評估；證書或標誌絕不由 ICFC 頒發。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據計劃要求對供應商及合作夥伴進行查核。"
+   },
+   {
+    "heading": "準備度評估及內部審核",
+    "text": "預先評估，清楚呈現正式評估將會檢視的內容，並附有按優先次序排列的行動清單。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 CBPR 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "CBPR 與 PRP 有何分別？",
+    "a": "CBPR 適用於控制個人資料的組織。PRP 適用於代表控制者處理資料的處理者。"
+   },
+   {
+    "q": "Global CBPR 是什麼？",
+    "a": "由 Global CBPR Forum 營運的認證，將 APEC 系統擴展至 APEC 以外的地區。已取得 APEC CBPR 認證的組織在全球系統下獲得認可。"
+   },
+   {
+    "q": "哪些經濟體參與其中？",
+    "a": "Global CBPR Forum 的成員包括新加坡、美國、日本、韓國、澳洲、加拿大、墨西哥、菲律賓及中華台北。"
+   },
+   {
+    "q": "CBPR 會取代 PDPA 合規嗎？",
+    "a": "不會。它是在您的 PDPA 義務之上，為跨境傳輸增添一層國際認可的保障。"
+   }
+  ],
+  "related": [
+   {
+    "name": "Global and APEC Privacy Recognition for Processors（PRP）",
+    "url": "/services/global-apec-prp"
+   },
+   {
+    "name": "Data Protection Trustmark（DPTM）SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "IMDA 數據保護認證",
+    "url": "https://www.imda.gov.sg/how-we-can-help/data-protection-certifications"
+   },
+   {
+    "name": "Global CBPR Forum",
+    "url": "https://www.globalcbpr.org/"
+   }
+  ]
+ },
+ {
+  "id": "prp",
+  "slug": "global-apec-prp",
+  "code": "PRP",
+  "name": "Global and APEC Privacy Recognition for Processors（PRP）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "認證計劃",
+  "title": "Global and APEC PRP 新加坡 - ICFC",
+  "description": "Global and APEC Privacy Recognition for Processors（PRP）證明為客戶處理個人資料的服務提供者具備保護資料所需的安全...",
+  "summary": "Global and APEC Privacy Recognition for Processors（PRP）證明為客戶處理個人資料的服務提供者具備保護資料所需的安全保障措施及問責能力。IMDA 在委任機構進行評估後，向新加坡的處理者頒發認證。ICFC 協助您做好準備並培訓您的團隊。",
+  "what": "PRP 讓資料處理者向控制者證明，他們能代表控制者履行私隱義務，重點在於安全保障措施及問責。新加坡的處理者在委任機構評估後，由 IMDA 頒發認證。",
+  "who": "為客戶處理個人資料的外判、資訊科技、雲端、薪酬及其他服務提供者。",
+  "keywords": "Global PRP、APEC PRP、新加坡處理者私隱認可",
+  "edgeStatus": "IMDA 計劃，請查詢資助",
+  "edgeNote": "IMDA 指出，部分顧問及認證費用或可獲得資助支持。在申請前，請查閱 IMDA 資料套件及 Enterprise Singapore。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_GLOBAL_APEC_PRP.pdf",
+   "docx": "ICFC_Service_Sheet_GLOBAL_APEC_PRP.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方評估",
+    "text": "認證依據 IMDA 作為新加坡認可的 Accountability Agent 所營運的計劃頒發。在獲委任的情況下，我們的審核員代表認證機構進行評估；證書或標誌絕不由 ICFC 頒發。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據計劃要求對供應商及合作夥伴進行查核。"
+   },
+   {
+    "heading": "準備度評估及內部審核",
+    "text": "預先評估，清楚呈現正式評估將會檢視的內容，並附有按優先次序排列的行動清單。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 PRP 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "誰需要 PRP？",
+    "a": "客戶希望確保其資料按國際認可標準處理的處理者。"
+   },
+   {
+    "q": "我們可以同時持有 CBPR 及 PRP 嗎？",
+    "a": "可以，如果您就部分資料擔任控制者，而就其他資料擔任處理者。"
+   },
+   {
+    "q": "評估重點是什麼？",
+    "a": "安全保障措施及問責，並按 PRP 計劃要求進行檢視。"
+   },
+   {
+    "q": "PRP 與 ISO/IEC 27701 相比如何？",
+    "a": "兩者均涵蓋處理者的義務。PRP 是私隱認可計劃；ISO/IEC 27701 是可供認證的私隱管理系統。"
+   }
+  ],
+  "related": [
+   {
+    "name": "Global and APEC Cross-Border Privacy Rules（CBPR）System",
+    "url": "/services/global-apec-cbpr"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "ISO/IEC 27018 公有雲個人資料保護",
+    "url": "/services/iso-iec-27018-cloud-privacy"
+   },
+   {
+    "name": "Data Protection Trustmark（DPTM）SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   }
+  ],
+  "sources": [
+   {
+    "name": "IMDA PRP 認證",
+    "url": "https://www.imda.gov.sg/how-we-can-help/privacy-recognition-for-processors-certification"
+   },
+   {
+    "name": "IMDA Global PRP",
+    "url": "https://www.imda.gov.sg/how-we-can-help/globalprp"
+   }
+  ]
+ },
+ {
+  "id": "iso27701",
+  "slug": "iso-iec-27701-pims",
+  "code": "ISO/IEC 27701",
+  "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "可供認證",
+  "title": "私隱資訊管理（ISO/IEC 27701）新加坡 - ICFC",
+  "description": "ISO/IEC 27701 是私隱資訊管理系統（PIMS）的國際標準。它協助控制者及處理者在不同司法管轄區一致地管理個人資料...",
+  "summary": "ISO/IEC 27701 是私隱資訊管理系統（PIMS）的國際標準。它協助控制者及處理者在不同司法管轄區一致地管理個人資料。認證由認可的認證機構進行，並已列入新加坡的 EDGE Grant。",
+  "what": "ISO/IEC 27701 訂定私隱資訊管理系統的要求，涵蓋控制者及處理者，並可對應全球各地的私隱法律。",
+  "who": "在多個國家處理個人資料，或需要國際認可私隱認證的組織。",
+  "keywords": "ISO 27701 新加坡、PIMS 認證、私隱管理系統",
+  "edgeStatus": "已列入 EDGE 標準",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。在申請前，請至 Enterprise Singapore 網站的活動頁面查閱現行的資助水平。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_27701_PIMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_27701_PIMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO/IEC 27701 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO/IEC 27701 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的私隱資訊管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO/IEC 27701 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "我們需要先取得 ISO/IEC 27001 嗎？",
+    "a": "請查閱您將申請認證的版本及認證機構的規則。許多組織會同時實施兩者，因為其控制措施之間關係密切。"
+   },
+   {
+    "q": "27701 涵蓋 PDPA 嗎？",
+    "a": "它提供一個可對應至 PDPA 及其他私隱法律的框架；我們在工作中會包含該對應。"
+   },
+   {
+    "q": "符合 EDGE 資格嗎？",
+    "a": "Enterprise Singapore 將私隱資訊管理系統列入 EDGE 標準。請查閱活動頁面了解資助水平。"
+   },
+   {
+    "q": "可以與其他標準一併審核嗎？",
+    "a": "可以。我們的審核員經常將私隱、資訊安全及雲端標準合併為一次整合審核。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "Data Protection Trustmark（DPTM）SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "ISO/IEC 27018 公有雲個人資料保護",
+    "url": "/services/iso-iec-27018-cloud-privacy"
+   },
+   {
+    "name": "Global and APEC Privacy Recognition for Processors（PRP）",
+    "url": "/services/global-apec-prp"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 27701",
+    "url": "https://www.iso.org/standard/27701"
+   },
+   {
+    "name": "EDGE：PIMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/privacy-information-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso27001",
+  "slug": "iso-iec-27001-isms",
+  "code": "ISO/IEC 27001",
+  "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "可供認證",
+  "title": "資訊安全管理（ISO/IEC 27001）新加坡 - ICFC",
+  "description": "ISO/IEC 27001 是資訊安全管理系統（ISMS）的國際標準。它協助組織透過一套受管理的控制措施識別及處理資訊安全風險...",
+  "summary": "ISO/IEC 27001 是資訊安全管理系統（ISMS）的國際標準。它協助組織透過一套受管理的控制措施識別及處理資訊安全風險。認證由認可機構進行，Enterprise Singapore 已將其列入 EDGE，中小企業最高可獲 50% 資助，非中小企業為 30%。",
+  "what": "ISO/IEC 27001 訂定資訊安全管理系統的要求，包括資訊安全風險的評估及處理。它適用於各類型、各規模及各行業的組織。現行版本為 ISO/IEC 27001:2022。",
+  "who": "持有客戶、財務或敏感資料，服務企業或海外買家，或希望在整個業務中採用一個獲認可的資訊安全框架的組織。",
+  "keywords": "ISO 27001 新加坡、ISMS 認證、ISO/IEC 27001:2022 顧問",
+  "edgeStatus": "已列入 EDGE 標準（已確認）",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。中小企業最高可獲 50% 資助，非中小企業最高可獲 30%，涵蓋專業服務及由認可機構進行的首年認證。此項資助計入每年共用的 S$100,000 EDGE 上限內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_27001_ISMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_27001_ISMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO/IEC 27001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO/IEC 27001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的資訊安全管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO/IEC 27001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "與新加坡計劃的連繫",
+    "text": "CSA 公布了 Cyber Trust mark（2025）與 ISO/IEC 27001:2022 之間的對照，因此證據可以重用。ISO/IEC 27001 亦是雲端及私隱延伸標準（例如 ISO/IEC 27017、27018 及 27701）的基礎。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO/IEC 27001 符合 EDGE 資格嗎？",
+    "a": "符合。Enterprise Singapore 已將 ISO/IEC 27001 列入 EDGE 數碼化標準，中小企業最高可獲 50% 資助，非中小企業為 30%，惟須符合資格。"
+   },
+   {
+    "q": "我們應該選擇 ISO/IEC 27001 還是 Cyber Trust？",
+    "a": "Cyber Trust 是新加坡按風險分級的標誌；ISO/IEC 27001 則獲國際認可。許多組織兩者兼持，並利用 CSA 的對照避免重複工作。"
+   },
+   {
+    "q": "什麼是適用性聲明（Statement of Applicability）？",
+    "a": "一份列明附錄 A 控制措施、各項是否適用於您及其原因的文件。審核員會仔細審閱。"
+   },
+   {
+    "q": "可以與其他標準一併審核嗎？",
+    "a": "可以。我們的審核員經常將資訊安全、私隱、雲端及品質標準合併為一次整合審核。"
+   }
+  ],
+  "related": [
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "ISO/IEC 27017 雲端服務資訊安全控制措施",
+    "url": "/services/iso-iec-27017-cloud-security"
+   },
+   {
+    "name": "ISO/IEC 42001 人工智能管理系統（AIMS）",
+    "url": "/services/iso-iec-42001-aims"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 27001",
+    "url": "https://www.iso.org/standard/27001"
+   },
+   {
+    "name": "EDGE：ISO/IEC 27001",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/information-security-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso27017",
+  "slug": "iso-iec-27017-cloud-security",
+  "code": "ISO/IEC 27017",
+  "name": "ISO/IEC 27017 雲端服務資訊安全控制措施",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "可供認證",
+  "title": "雲端安全控制措施（ISO/IEC 27017）新加坡 - ICFC",
+  "description": "ISO/IEC 27017 為雲端服務提供者及客戶提供針對雲端的資訊安全控制措施。通常與資訊...",
+  "summary": "ISO/IEC 27017 為雲端服務提供者及客戶提供針對雲端的資訊安全控制措施。通常與資訊安全管理系統一併認證。Enterprise Singapore 已將其列入 EDGE，中小企業最高可獲 50% 資助。",
+  "what": "ISO/IEC 27017 為提供及使用雲端服務提供資訊安全控制措施，適用於雲端服務提供者及雲端客戶。",
+  "who": "雲端服務提供者、SaaS 公司，以及將關鍵工作負載遷移至雲端的組織。",
+  "keywords": "ISO 27017 新加坡、雲端安全認證、CSP 控制措施",
+  "edgeStatus": "已列入 EDGE 標準（已確認）",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。中小企業最高可獲 50% 資助，非中小企業最高可獲 30%，涵蓋專業服務及由認可機構進行的首年認證。此項資助計入每年共用的 S$100,000 EDGE 上限內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_27017_CLOUD_SECURITY.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_27017_CLOUD_SECURITY.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO/IEC 27017 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO/IEC 27017 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的雲端安全控制措施進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO/IEC 27017 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO/IEC 27017 是獨立的證書嗎？",
+    "a": "通常作為資訊安全管理系統認證的延伸部分進行評估。"
+   },
+   {
+    "q": "適用於雲端客戶嗎？",
+    "a": "適用。它為雲端關係的雙方界定責任。"
+   },
+   {
+    "q": "EDGE 可以涵蓋嗎？",
+    "a": "可以。它已列入 EDGE 行業專屬標準，中小企業最高可獲 50% 資助，非中小企業為 30%。"
+   },
+   {
+    "q": "它與 MTCS SS 584 有何關係？",
+    "a": "兩者均涉及雲端安全。MTCS 是新加坡的分級雲端標準；ISO/IEC 27017 則是國際標準。許多提供者會同時對齊兩者。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "ISO/IEC 27018 公有雲個人資料保護",
+    "url": "/services/iso-iec-27018-cloud-privacy"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security（MTCS）",
+    "url": "/services/ss-584-mtcs"
+   },
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 27000 系列",
+    "url": "https://www.iso.org/standard/iso-iec-27000-family"
+   },
+   {
+    "name": "EDGE：ISO/IEC 27017",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/information-technology"
+   }
+  ]
+ },
+ {
+  "id": "iso27018",
+  "slug": "iso-iec-27018-cloud-privacy",
+  "code": "ISO/IEC 27018",
+  "name": "ISO/IEC 27018 公有雲個人資料保護",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "可供認證",
+  "title": "雲端私隱（PII）保護（ISO/IEC 27018）新加坡 - ICFC",
+  "description": "ISO/IEC 27018 是保護公有雲服務中個人資料的實務守則。它協助擔任處理者的雲端提供者向客戶說明...",
+  "summary": "ISO/IEC 27018 是保護公有雲服務中個人資料的實務守則。它協助擔任處理者的雲端提供者向客戶說明個人資料的處理方式。通常與資訊安全管理系統一併認證，並已列入 EDGE。",
+  "what": "ISO/IEC 27018 為擔任可識別個人身分資料（PII）處理者的公有雲提供者訂定控制措施。",
+  "who": "處理客戶個人資料的公有雲及 SaaS 提供者。",
+  "keywords": "ISO 27018 新加坡、雲端 PII 保護、公有雲私隱",
+  "edgeStatus": "已列入 EDGE 標準",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。在申請前，請至 Enterprise Singapore 網站的活動頁面查閱現行的資助水平。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_27018_CLOUD_PRIVACY.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_27018_CLOUD_PRIVACY.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO/IEC 27018 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO/IEC 27018 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的雲端私隱（PII）保護進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO/IEC 27018 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO/IEC 27018 適合哪些組織？",
+    "a": "代表客戶處理個人資料的公有雲提供者。"
+   },
+   {
+    "q": "它與 ISO/IEC 27017 有分別嗎？",
+    "a": "有。27017 涵蓋一般雲端安全；27018 則專注於公有雲中的個人資料保護。"
+   },
+   {
+    "q": "EDGE 涵蓋嗎？",
+    "a": "Enterprise Singapore 已將 ISO/IEC 27018 列入 EDGE 行業專屬標準。請查閱活動頁面了解資助水平。"
+   },
+   {
+    "q": "對 PRP 有幫助嗎？",
+    "a": "有。處理者的控制措施有所重疊，因此證據可以重用。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27017 雲端服務資訊安全控制措施",
+    "url": "/services/iso-iec-27017-cloud-security"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "Global and APEC Privacy Recognition for Processors（PRP）",
+    "url": "/services/global-apec-prp"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security（MTCS）",
+    "url": "/services/ss-584-mtcs"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 27018",
+    "url": "https://www.iso.org/standard/27018"
+   },
+   {
+    "name": "EDGE：ISO/IEC 27018",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/security-and-privacy-protection-27018"
+   }
+  ]
+ },
+ {
+  "id": "iso42001",
+  "slug": "iso-iec-42001-aims",
+  "code": "ISO/IEC 42001",
+  "name": "ISO/IEC 42001 人工智能管理系統（AIMS）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "可供認證",
+  "title": "人工智能管理系統（ISO/IEC 42001）新加坡 - ICFC",
+  "description": "ISO/IEC 42001 是人工智能（AIMS）的國際管理系統標準。它協助組織透過風險及影響評估、控制措施及持續改進，以負責任的方式管治 AI...",
+  "summary": "ISO/IEC 42001 是人工智能（AIMS）的國際管理系統標準。它協助組織透過風險及影響評估、控制措施及持續改進，以負責任的方式管治 AI。認證由認可機構進行，並已列入新加坡的 EDGE Grant。",
+  "what": "ISO/IEC 42001 是首個可供認證的人工智能管理系統標準。它涵蓋 AI 系統的負責任開發、提供及使用，包括風險及影響評估。",
+  "who": "開發、部署或依賴 AI 系統，並需要向客戶或監管機構證明具備負責任管治的組織。",
+  "keywords": "ISO 42001 新加坡、人工智能管理系統認證、AIMS",
+  "edgeStatus": "已列入 EDGE 標準",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。在申請前，請至 Enterprise Singapore 網站的活動頁面查閱現行的資助水平。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_IEC_42001_AIMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_IEC_42001_AIMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO/IEC 42001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO/IEC 42001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的人工智能管理系統進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO/IEC 42001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "如果我們只是使用 AI 工具，還需要 ISO/IEC 42001 嗎？",
+    "a": "如果 AI 影響到有關客戶、員工或安全的決策，即使是第三方 AI 的使用者，AIMS 也能提供結構。"
+   },
+   {
+    "q": "它與 Cyber Trust 有關連嗎？",
+    "a": "有。Cyber Trust（2025）包含 AI 安全範疇，雙方均受惠於共用的風險評估。"
+   },
+   {
+    "q": "符合 EDGE 資格嗎？",
+    "a": "Enterprise Singapore 將人工智能管理系統列入 EDGE 數碼化標準。請查閱活動頁面了解資助水平。"
+   },
+   {
+    "q": "可以與 ISO/IEC 27001 整合嗎？",
+    "a": "可以。兩者均採用統一的 ISO 結構，因此整合順暢。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO/IEC 42001",
+    "url": "https://www.iso.org/standard/42001"
+   },
+   {
+    "name": "EDGE：AIMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/artificial-intelligence-management-system"
+   }
+  ]
+ },
+ {
+  "id": "tisax",
+  "slug": "tisax",
+  "code": "TISAX",
+  "name": "TISAX 標籤（培訓及顧問服務）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "僅提供培訓及顧問服務",
+  "title": "TISAX 標籤 新加坡 - ICFC",
+  "description": "TISAX 是汽車行業的資訊安全評估計劃，由 ENX Association 營運。評估僅由 ENX 認可的...",
+  "summary": "TISAX 是汽車行業的資訊安全評估計劃，由 ENX Association 營運。評估僅由 ENX 認可的審核服務提供者進行。ICFC 提供 TISAX 培訓及顧問服務，協助您界定評估範圍、填補差距及準備證據。",
+  "what": "TISAX 是汽車行業使用的資訊安全評估及交換機制。評估由 ENX 認可的審核服務提供者進行，結果以標籤形式透過 ENX 平台共享。",
+  "who": "被汽車製造商或一級供應商要求提供 TISAX 標籤的汽車供應商及服務提供者。",
+  "keywords": "TISAX 新加坡、汽車資訊安全、TISAX 顧問",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_TISAX.pdf",
+   "docx": "ICFC_Service_Sheet_TISAX.docx"
+  },
+  "audit": [
+   {
+    "heading": "不提供",
+    "text": "評估僅由計劃擁有者認可的審核服務提供者進行。ICFC 以培訓及顧問服務支援您。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 TISAX 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "我們的角色",
+    "text": "ICFC 僅提供 TISAX 的培訓及顧問服務。我們不進行 TISAX 評估。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ICFC 會頒發 TISAX 標籤嗎？",
+    "a": "不會。標籤源自 ENX 認可的審核服務提供者所進行的評估。我們協助您做好準備。"
+   },
+   {
+    "q": "我們需要哪個評估級別？",
+    "a": "級別由客戶的要求及您處理的資訊決定。我們協助您理解有關要求。"
+   },
+   {
+    "q": "ISO/IEC 27001 是 TISAX 的良好基礎嗎？",
+    "a": "是。TISAX 建基於與 ISO/IEC 27001 相似的資訊安全控制措施，並加入汽車行業專屬的內容。"
+   },
+   {
+    "q": "培訓可以在線上進行嗎？",
+    "a": "可以，透過 ICFC Digital LMS 或以企業內訓形式進行。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ENX Association（TISAX）",
+    "url": "https://enx.com/"
+   }
+  ]
+ },
+ {
+  "id": "soc",
+  "slug": "soc-1-soc-2-attestation-readiness",
+  "code": "SOC 1 and SOC 2",
+  "name": "SOC 1 及 SOC 2 鑑證準備（Type I 及 Type II）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "鑑證準備（由持牌 CPA 事務所出具報告）",
+  "title": "SOC 鑑證準備（SOC 1 及 SOC 2）新加坡 - ICFC",
+  "description": "SOC 1 及 SOC 2 報告為客戶提供有關服務機構控制措施的獨立保證。Type I 涵蓋某一時間點的控制措施設計；Type II...",
+  "summary": "SOC 1 及 SOC 2 報告為客戶提供有關服務機構控制措施的獨立保證。Type I 涵蓋某一時間點的控制措施設計；Type II 亦會測試控制措施在一段期間內的運作。報告僅由持牌 CPA 事務所出具。ICFC 透過準備度評估、控制措施設計、證據準備及培訓協助您做好準備，並在 CPA 事務所進行審查期間提供支援。",
+  "what": "SOC 報告是有關服務機構控制措施的獨立鑑證報告，由持牌 CPA 事務所依據 AICPA 標準出具。SOC 1 報告涵蓋與客戶財務報告相關的控制措施。SOC 2 報告涵蓋有關安全性、可用性、處理完整性、機密性及私隱的控制措施，採用 AICPA Trust Services Criteria。Type I 報告檢視控制措施在某一時間點的設計是否適當。Type II 報告亦會測試控制措施在與 CPA 事務所議定的審查期間（通常為三至十二個月）內是否有效運作。",
+  "who": "客戶或其客戶的核數師要求提供 SOC 報告的服務機構，例如 SaaS、雲端、託管資訊科技、薪酬、基金行政、支付及外判服務提供者。",
+  "keywords": "SOC 2 準備 新加坡、SOC 1 Type II、SOC 2 Type I、SOC 鑑證、SOC 2 顧問",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此框架，因此以非資助項目報價。在假設有任何資助之前，請向 Enterprise Singapore 查證。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SOC_1_SOC_2_ATTESTATION_READINESS.pdf",
+   "docx": "ICFC_Service_Sheet_SOC_1_SOC_2_ATTESTATION_READINESS.docx"
+  },
+  "audit": [
+   {
+    "heading": "誰出具報告",
+    "text": "SOC 1 及 SOC 2 報告僅由持牌 CPA 事務所依據 AICPA 鑑證標準出具。ICFC 並非 CPA 事務所，亦不出具 SOC 報告或意見。在新加坡，執業會計師事務所亦可根據 SSAE 3402 或國際的 ISAE 3402 就服務機構的控制措施出具報告。"
+   },
+   {
+    "heading": "準備度評估",
+    "text": "對貴組織的系統描述、控制目標或 Trust Services Criteria 及證據進行第一方審查，以類似 Type I 的走查方式進行，並在您委聘 CPA 事務所之前提供按優先次序排列的差距清單。"
+   },
+   {
+    "heading": "第二方審查",
+    "text": "審查貴組織自身供應商的 SOC 報告：範圍、例外情況、次級服務機構，以及預期由您運作的互補用戶實體控制措施。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "公開及企業內訓課堂課程。有關 SOC 1 及 SOC 2 的課程：控制措施負責人的認知、準備度及證據準備，以及如何閱讀及使用供應商的 SOC 報告。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "SOC 1 還是 SOC 2？",
+    "text": "如果您的服務影響客戶的財務報表（例如薪酬、帳單或基金行政），請選擇 SOC 1。如果客戶關注您如何保護及營運其系統和資料，請選擇 SOC 2。有些組織兩者都需要。"
+   },
+   {
+    "heading": "Type I 還是 Type II？",
+    "text": "Type I 報告較快完成，適合首份報告或新服務。大多數企業買家要求 Type II，因為它顯示控制措施長期有效運作。許多組織先從 Type I 開始，在下一期間再轉為 Type II。"
+   },
+   {
+    "heading": "獨立性",
+    "text": "AICPA 獨立性規則限制 CPA 事務所可在多大程度上協助設計其後要出具報告的控制措施。將準備度工作交由 ICFC 負責，審查則交由獨立的 CPA 事務所進行，可使兩個角色保持清晰分明。經您同意，我們會將準備度檔案與您選定的事務所共享。"
+   },
+   {
+    "heading": "新加坡金融業",
+    "text": "向新加坡銀行提供外判服務的供應商，可能被要求根據 Association of Banks in Singapore 指引提供 OSPAR 報告，由 ABS 合資格核數師名單上的核數師進行。我們會對照 OSPAR、SOC 2、ISO/IEC 27001 及 Cyber Trust 的控制措施，使證據得以重用。"
+   },
+   {
+    "heading": "名稱及標誌",
+    "text": "ICFC 僅以描述方式使用 SOC 名稱，並不展示 AICPA SOC 標誌。您的 CPA 事務所可告知其報告可如何共享及描述。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "SOC 2 是認證嗎？",
+    "a": "不是。SOC 2 報告是載有 CPA 事務所意見的鑑證報告，而非證書。通常會在保密協議下與客戶共享。"
+   },
+   {
+    "q": "ICFC 可以出具我們的 SOC 報告嗎？",
+    "a": "不可以。僅持牌 CPA 事務所可出具 SOC 1 及 SOC 2 報告。ICFC 協助您做好準備，並在審查期間提供支援，且該角色與 CPA 事務所的角色保持分開。"
+   },
+   {
+    "q": "Type II 需要多長時間？",
+    "a": "先進行準備度工作，然後是與 CPA 事務所議定的審查期間（通常為三至十二個月），之後由事務所出具報告。您的時間表會列明於我們的建議書中。"
+   },
+   {
+    "q": "我們可以重用 ISO/IEC 27001 或 Cyber Trust 的工作成果嗎？",
+    "a": "可以。許多 SOC 2 安全準則與 ISO/IEC 27001 及 Cyber Trust mark 有所重疊，因此我們只需對照控制措施一次，並重用證據。"
+   },
+   {
+    "q": "新加坡有針對 SOC 工作的資助嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 SOC 報告，因此以非資助項目為 SOC 準備工作報價。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO/IEC 27017 雲端服務資訊安全控制措施",
+    "url": "/services/iso-iec-27017-cloud-security"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security（MTCS）",
+    "url": "/services/ss-584-mtcs"
+   }
+  ],
+  "sources": [
+   {
+    "name": "AICPA SOC 2 資源",
+    "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2"
+   },
+   {
+    "name": "AICPA SOC 1 資源",
+    "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-1"
+   },
+   {
+    "name": "ISCA Singapore Standards on Assurance Engagements",
+    "url": "https://isca.org.sg/standards-guidance/audit-assurance/standards-and-guidance/singapore-standards-on-assurance-engagements-(ssaes)"
+   },
+   {
+    "name": "ABS 外判指引及 OSPAR",
+    "url": "https://www.abs.org.sg/industry-guidelines/outsourcing"
+   }
+  ]
+ },
+ {
+  "id": "hipaa",
+  "slug": "hipaa-compliance",
+  "code": "HIPAA",
+  "name": "HIPAA 合規（顧問及培訓）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "法規（無官方認證）",
+  "title": "HIPAA 合規 新加坡 - ICFC",
+  "description": "HIPAA 保護美國的健康資訊，並適用於以業務夥伴身分處理有關資訊的海外供應商。並無官方的 HIPAA...",
+  "summary": "HIPAA 保護美國的健康資訊，並適用於以業務夥伴身分處理有關資訊的海外供應商。並無官方的 HIPAA 認證，HHS 亦不認可私人機構的證書。ICFC 協助您確認自身義務、進行 Security Rule 風險分析、建立政策及保障措施，並培訓您的員工。",
+  "what": "HIPAA 是保護健康資訊的美國法律。其 Privacy Rule、Security Rule 及 Breach Notification Rule 適用於美國的受保障實體（例如健康計劃及大多數醫療保健提供者），以及其業務夥伴，包括為其創建、接收、保存或傳送受保護健康資訊的海外供應商。Security Rule 要求進行有文件記錄的風險分析，並對電子健康資訊採取行政、實體及技術保障措施。",
+  "who": "服務美國醫療保健客戶的新加坡及區域組織，例如簽訂業務夥伴協議的健康科技及 SaaS 公司、醫療帳單及編碼、轉錄、聯絡中心、臨床研究及資訊科技服務提供者。",
+  "keywords": "HIPAA 合規 新加坡、HIPAA 業務夥伴、HIPAA 培訓、HIPAA 風險分析",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此框架，因此以非資助項目報價。在假設有任何資助之前，請向 Enterprise Singapore 查證。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_HIPAA_COMPLIANCE.pdf",
+   "docx": "ICFC_Service_Sheet_HIPAA_COMPLIANCE.docx"
+  },
+  "audit": [
+   {
+    "heading": "無官方認證",
+    "text": "HHS 表示其不會認證任何人或產品符合 HIPAA 要求，亦不承認私人機構的 HIPAA 證書。ICFC 不頒發 HIPAA 證書。"
+   },
+   {
+    "heading": "合規評估",
+    "text": "根據 Privacy Rule、Security Rule 及 Breach Notification Rule 對貴組織的保障措施進行第一方評估，包括 Security Rule 所要求的定期技術及非技術評估，並附有按優先次序排列的行動清單。"
+   },
+   {
+    "heading": "業務夥伴審查",
+    "text": "對為您處理受保護健康資訊的分包商進行第二方審查，並對照您的業務夥伴協議進行檢查。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "公開及企業內訓課堂課程。有關 HIPAA 的課程：員工對 Privacy Rule、Security Rule 及 Breach Notification Rule 的認知、Security Rule 風險分析，以及業務夥伴義務。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "主要義務",
+    "text": "有文件記錄、涵蓋整個組織的風險分析及風險管理計劃；政策及員工培訓；針對電子健康資訊的存取、審計及完整性控制措施；業務夥伴協議；以及在發現後不得無理延遲、且最遲於 60 天內作出的外洩通報。"
+   },
+   {
+    "heading": "需留意的規則變動",
+    "text": "HHS 於 2025 年 1 月提出對 Security Rule 的重大更新。我們於 2026 年 10 月 12 日查核時，有關更新尚未定案，HHS 的規管議程指向 2027 年 7 月。我們按現行規則規劃，並標示建議中的變更。"
+   },
+   {
+    "heading": "新加坡的情況",
+    "text": "有關新加坡居民的健康資料受 PDPA 及新加坡本地的醫療保健規則規管，而非 HIPAA。如果您同時涉及兩者，我們會將 HIPAA 保障措施對照至 PDPA、ISO/IEC 27001 以及 CSA Cyber Essentials 和 Cyber Trust mark，使一套控制措施適用於所有要求。"
+   },
+   {
+    "heading": "我們的角色",
+    "text": "僅提供顧問及培訓服務。ICFC 並非律師事務所，亦不提供法律意見；有關合約或責任問題，請諮詢合資格的美國律師。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "我們可以取得 HIPAA 認證嗎？",
+    "a": "並無官方的 HIPAA 認證，HHS 亦不認可私人機構的證書。重要的是符合規則並保存證據，例如您的風險分析、政策及培訓記錄。"
+   },
+   {
+    "q": "HIPAA 適用於新加坡公司嗎？",
+    "a": "如果您為美國的受保障實體或另一業務夥伴處理受保護健康資訊，則可能適用。您的合約（通常是業務夥伴協議）會列明有關內容。"
+   },
+   {
+    "q": "HIPAA 要求什麼培訓？",
+    "a": "規則要求就您的政策及安全意識對員工進行培訓，但 HHS 並未規定任何特定課程。我們的課程協助您提供及記錄該等培訓。"
+   },
+   {
+    "q": "Security Rule 會改變嗎？",
+    "a": "HHS 於 2025 年 1 月提出更新。我們於 2026 年 10 月 12 日查核時尚未定案。我們協助您做好準備，同時避免針對可能仍會改變的建議過度建設。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "CSA Cyber Essentials mark",
+    "url": "/services/cyber-essentials-mark"
+   },
+   {
+    "name": "SOC 1 及 SOC 2 鑑證準備（Type I 及 Type II）",
+    "url": "/services/soc-1-soc-2-attestation-readiness"
+   }
+  ],
+  "sources": [
+   {
+    "name": "HHS HIPAA for professionals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/index.html"
+   },
+   {
+    "name": "HHS Security Rule",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html"
+   },
+   {
+    "name": "HHS on misleading HIPAA marketing",
+    "url": "https://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/misleadingmarketing.html"
+   }
+  ]
+ },
+ {
+  "id": "gdpr",
+  "slug": "gdpr-compliance",
+  "code": "GDPR",
+  "name": "GDPR 合規（顧問及培訓）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "法規（無官方認證）",
+  "title": "GDPR 合規 新加坡 - ICFC",
+  "description": "GDPR 保護歐盟境內人士的個人資料，並可能適用於向其提供服務或監察其行為的新加坡組織，或為歐盟...",
+  "summary": "GDPR 保護歐盟境內人士的個人資料，並可能適用於向其提供服務或監察其行為的新加坡組織，或為歐盟客戶處理資料的組織。ICFC 協助您梳理義務、建立處理活動記錄、影響評估、傳輸保障措施及外洩處理程序，並培訓您的團隊。目前並無一般適用的 GDPR 證書。",
+  "what": "一般資料保護規例（General Data Protection Regulation，歐盟）2016/679 規管歐洲聯盟境內人士的個人資料。當歐盟以外（包括新加坡）的組織向歐盟境內人士提供貨品或服務，或監察其在當地的行為時，該規例適用於這些組織；為歐盟客戶工作的處理者亦會透過合約承擔 GDPR 的責任。歐盟並未就新加坡作出充分性認定，因此從歐盟傳輸至新加坡的資料須依賴標準合約條款等保障措施。",
+  "who": "擁有歐盟客戶、用戶、員工或委託人的新加坡及區域組織，包括 SaaS、電子商貿、旅遊、教育、研究及外判服務提供者。",
+  "keywords": "GDPR 合規 新加坡、GDPR 顧問、GDPR 培訓、歐盟數據傳輸 新加坡",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此框架，因此以非資助項目報價。在假設有任何資助之前，請向 Enterprise Singapore 查證。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_GDPR_COMPLIANCE.pdf",
+   "docx": "ICFC_Service_Sheet_GDPR_COMPLIANCE.docx"
+  },
+  "audit": [
+   {
+    "heading": "認證",
+    "text": "GDPR 允許依據經資料保護機構或 European Data Protection Board 批准的計劃進行認證，並由認可的認證機構頒發。ICFC 不頒發 GDPR 證書。"
+   },
+   {
+    "heading": "合規評估",
+    "text": "根據 GDPR 原則、合法依據、權利處理、安全、國際傳輸及問責記錄進行第一方差距評估，並附有按優先次序排列的行動清單。"
+   },
+   {
+    "heading": "處理者審查",
+    "text": "根據您的資料處理協議，對您的處理者及次級處理者進行第二方審查。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "公開及企業內訓課堂課程。有關 GDPR 的課程：員工認知、處理活動記錄及影響評估、處理權利請求，以及國際傳輸。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "主要義務",
+    "text": "合法依據及清晰的通知、處理活動記錄、針對高風險處理的資料保護影響評估、在一個月內回應權利請求、處理的安全性、處理者合約、傳輸保障措施，以及在得悉須通報的外洩事故後 72 小時內通知監管機構。"
+   },
+   {
+    "heading": "歐盟代表",
+    "text": "因以歐盟境內人士為對象或監察其行為而受 GDPR 規管的歐盟以外組織，通常須在歐盟委任代表。ICFC 不擔任歐盟代表；我們協助您判斷是否需要委任。"
+   },
+   {
+    "heading": "PDPA 與 GDPR 並行",
+    "text": "許多 PDPA 的做法可以沿用，但 GDPR 增加了同意以外的合法依據、更廣泛的權利，以及 72 小時的外洩通報時限。我們會對照兩者，讓您只需運作一套私隱計劃。ISO/IEC 27701 及 Data Protection Trustmark 可支持相同的控制措施。"
+   },
+   {
+    "heading": "需留意的規則變動",
+    "text": "歐盟的 Digital Omnibus 建議將修訂 GDPR 及 cookie 規則的部分內容。我們於 2026 年 10 月 12 日查核時，有關建議仍在磋商中，因此現行 GDPR 繼續適用。"
+   },
+   {
+    "heading": "我們的角色",
+    "text": "僅提供顧問及培訓服務。ICFC 並非律師事務所，亦不提供法律意見；有關歐盟法律的法律意見，請諮詢具歐盟資格的律師。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "GDPR 適用於我們在新加坡的業務嗎？",
+    "a": "如果您向歐盟境內人士提供貨品或服務、監察其在當地的行為，或為歐盟客戶處理個人資料，則可能適用。我們會根據您的實際活動進行評估。"
+   },
+   {
+    "q": "有 GDPR 認證嗎？",
+    "a": "並無一般適用的 GDPR 證書。該規例允許經批准的認證計劃，包括獲 European Data Protection Board 認可的 European Data Protection Seal 計劃，由認可的認證機構頒發。"
+   },
+   {
+    "q": "歐盟客戶可以向新加坡傳輸個人資料嗎？",
+    "a": "可以，但須有保障措施。新加坡並無歐盟充分性認定，因此傳輸通常依賴標準合約條款或其他經批准的工具，並輔以傳輸風險評估。"
+   },
+   {
+    "q": "GDPR 與 PDPA 有何不同？",
+    "a": "兩者均以原則為本。GDPR 增加了更多合法依據、更強的權利、72 小時的外洩通報時限，以及最高可達全球年營業額 4% 或 EUR 20 million（以較高者為準）的罰款。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "Data Protection Trustmark（DPTM）SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   },
+   {
+    "name": "Global and APEC Cross-Border Privacy Rules（CBPR）System",
+    "url": "/services/global-apec-cbpr"
+   },
+   {
+    "name": "Global and APEC Privacy Recognition for Processors（PRP）",
+    "url": "/services/global-apec-prp"
+   }
+  ],
+  "sources": [
+   {
+    "name": "GDPR on EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+   },
+   {
+    "name": "European Data Protection Board",
+    "url": "https://www.edpb.europa.eu/"
+   },
+   {
+    "name": "European Commission adequacy decisions",
+    "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   }
+  ]
+ },
+ {
+  "id": "cmmi",
+  "slug": "cmmi-compliance",
+  "code": "CMMI",
+  "name": "CMMI 合規（顧問及培訓）",
+  "group": "Cybersecurity, IT and Data Protection",
+  "type": "成熟度模型（透過評審取得評級）",
+  "title": "CMMI 合規 新加坡 - ICFC",
+  "description": "CMMI 是 ISACA 為軟件、服務及相關領域而設的能力成熟度模型。成熟度級別僅透過由 CMMI...",
+  "summary": "CMMI 是 ISACA 為軟件、服務及相關領域而設的能力成熟度模型。成熟度級別僅透過由 CMMI Certified Lead Appraisers 與 ISACA 授權合作夥伴共同進行的評審取得。ICFC 協助您在評審前選擇合適的範圍及目標級別、填補實務差距、準備證據並培訓您的團隊。",
+  "what": "CMMI（Capability Maturity Model Integration）是一套良好實務模型，用以改善組織開發產品及軟件、提供服務、管理供應商及人員，以及處理數據、安全及保安的方式。現行版本為 2023 年發布的 CMMI V3.0。組織僅透過由 CMMI Certified Lead Appraiser 主持的評審，方可獲得成熟度或能力級別。",
+  "who": "客戶或投標要求提供 CMMI 成熟度級別的軟件、資訊科技服務、工程及外判公司，以及希望以有系統的途徑提升交付表現的組織。",
+  "keywords": "CMMI 顧問 新加坡、CMMI V3.0、CMMI 成熟度級別 3、CMMI 培訓",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此框架，因此以非資助項目報價。在假設有任何資助之前，請向 Enterprise Singapore 查證。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_CMMI_COMPLIANCE.pdf",
+   "docx": "ICFC_Service_Sheet_CMMI_COMPLIANCE.docx"
+  },
+  "audit": [
+   {
+    "heading": "誰為您評級",
+    "text": "提供成熟度或能力級別的 Benchmark 及 Sustainment 評審，由 CMMI Certified Lead Appraisers 透過 ISACA 授權的 CMMI 合作夥伴主持，並獲 ISACA 接納。ICFC 不進行評級評審，亦不頒發 CMMI 評級。"
+   },
+   {
+    "heading": "準備度評估",
+    "text": "在您預約評審之前，根據範圍內的 CMMI 實務領域對貴組織的實務進行第一方差距評估，並附有按優先次序排列的行動清單。這些是 ICFC 的審查，並非 ISACA Evaluation 評審。"
+   },
+   {
+    "heading": "供應商審查",
+    "text": "在客戶期望供應商符合 CMMI 的情況下，對分包商的交付實務進行第二方審查。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "公開及企業內訓課堂課程。有關 CMMI 的課程：認知、實務領域實施工作坊及評審準備。這些是 ICFC 的課程，並非 ISACA 官方 CMMI 課程，亦不會取得 ISACA 資歷。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "評審類型",
+    "text": "Benchmark 評審提供有效期為三年的評級。Sustainment 評審提供另外兩年的評級，並須在較早的評級到期前獲接納。Evaluation 評審屬非正式性質，不提供評級；Action Plan Reappraisal 則在目標級別差一點未能達到時提供第二次嘗試的機會。詳情來自 ISACA 的 CMMI Institute，於 2026 年 10 月 12 日核對。"
+   },
+   {
+    "heading": "選擇級別",
+    "text": "大多數組織從成熟度級別 2 或 3 開始。更高級別會加入量化管理及持續優化，並需要更長的準備時間。"
+   },
+   {
+    "heading": "我們的角色",
+    "text": "僅提供顧問及培訓服務。CMMI 是註冊商標，ICFC 僅以描述方式使用該名稱。如需了解 ICFC 是否與 ISACA 授權的 CMMI 合作夥伴合作，請透過聯絡表格以電郵與我們聯絡。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ICFC 可以給我們 CMMI 評級嗎？",
+    "a": "不可以。評級僅來自由 CMMI Certified Lead Appraisers 透過 ISACA 授權合作夥伴主持的評審。我們協助您做好準備，並使我們的角色與評審團隊保持分開。"
+   },
+   {
+    "q": "CMMI 評級的有效期多長？",
+    "a": "Benchmark 評審評級的有效期為三年。其後可進行 Sustainment 評審，提供另外兩年的評級。"
+   },
+   {
+    "q": "CMMI 適用於敏捷（Agile）嗎？",
+    "a": "適用。CMMI 描述良好實務所達成的成果，而非單一方法，因此適合敏捷、DevOps 及傳統交付模式。"
+   },
+   {
+    "q": "CMMI 與 CMMC 相同嗎？",
+    "a": "不相同。CMMC 是美國國防部針對國防承包商的網絡安全認證。CMMI 則是範圍更廣的能力成熟度模型。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   },
+   {
+    "name": "ISO/IEC 27001 資訊安全管理系統（ISMS）",
+    "url": "/services/iso-iec-27001-isms"
+   },
+   {
+    "name": "SOC 1 及 SOC 2 鑑證準備（Type I 及 Type II）",
+    "url": "/services/soc-1-soc-2-attestation-readiness"
+   },
+   {
+    "name": "ISO 22301 業務持續性管理系統（BCMS）",
+    "url": "/services/iso-22301-bcms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "CMMI Institute（ISACA）",
+    "url": "https://cmmiinstitute.com/"
+   },
+   {
+    "name": "CMMI appraisal types",
+    "url": "https://cmmiinstitute.com/learning/appraisals/types"
+   }
+  ]
+ },
+ {
+  "id": "iso9001",
+  "slug": "iso-9001-qms",
+  "code": "ISO 9001",
+  "name": "ISO 9001 品質管理系統（QMS）",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "品質管理系統（ISO 9001）新加坡 - ICFC",
+  "description": "ISO 9001 是全球使用最廣泛的品質管理系統標準。它協助組織穩定地交付並持續改進。2026...",
+  "summary": "ISO 9001 是全球使用最廣泛的品質管理系統標準。它協助組織穩定地交付並持續改進。2026 年版啟動一段預計約為期三年的過渡期。ICFC 支援實施、過渡、審核及培訓。",
+  "what": "ISO 9001 訂定品質管理系統的要求，以穩定地滿足客戶及法規需求。第六版 ISO 9001:2026 原定於 2026 年 9 月發布；預計過渡期約為三年，有待 IAF 確認。",
+  "who": "希望穩定交付、符合投標資格，或為其他 ISO 標準建立結構化基礎的任何組織。",
+  "keywords": "ISO 9001 新加坡、ISO 9001:2026 過渡、QMS 認證顧問",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_9001_QMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_9001_QMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 9001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 9001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的品質管理系統進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 9001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "ISO 9001:2026 過渡",
+    "text": "現有的 ISO 9001:2015 證書在過渡期內仍然有效。我們提供對照 2026 年版的差距審查，讓您可在下次審核時規劃轉換。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "我們現在就需要轉換至 ISO 9001:2026 嗎？",
+    "a": "不需要立即轉換。請在過渡期內規劃轉換，並配合監督審核或重新認證審核。"
+   },
+   {
+    "q": "EDGE 涵蓋 ISO 9001 嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 ISO 9001。請向我們查詢其他選項。"
+   },
+   {
+    "q": "實施需要多長時間？",
+    "a": "視乎您的規模及現有做法而定。在簡短的差距審查後，我們會在建議書中確認切實可行的時間表。"
+   },
+   {
+    "q": "ISO 9001 可以與 ISO 14001 及 ISO 45001 結合嗎？",
+    "a": "可以。我們的審核員在整合管理系統審核方面經驗豐富。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "ISO 45001 職業健康及安全管理系統（OHSMS）",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "ISO 22301 業務持續性管理系統（BCMS）",
+    "url": "/services/iso-22301-bcms"
+   },
+   {
+    "name": "ISO 21001 教育機構管理系統（EOMS）",
+    "url": "/services/iso-21001-eoms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 9001:2026",
+    "url": "https://www.iso.org/9001-2026"
+   },
+   {
+    "name": "ISO 9000 系列",
+    "url": "https://www.iso.org/standards/popular/iso-9000-family"
+   }
+  ]
+ },
+ {
+  "id": "iso14001",
+  "slug": "iso-14001-ems",
+  "code": "ISO 14001",
+  "name": "ISO 14001 環境管理系統（EMS）",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "環境管理系統（ISO 14001）新加坡 - ICFC",
+  "description": "ISO 14001 是環境管理系統（EMS）的國際標準。它協助組織管理環境影響、履行法律義務並提升表現...",
+  "summary": "ISO 14001 是環境管理系統（EMS）的國際標準。它協助組織管理環境影響、履行法律義務並提升表現。認證由認可機構進行，並已列入 EDGE 可持續發展標準。",
+  "what": "ISO 14001 訂定環境管理系統的要求，以控制環境因素、履行合規義務並提升表現。",
+  "who": "製造商、物流、建造業，以及任何具有環境影響或客戶要求提供環境資歷的組織。",
+  "keywords": "ISO 14001 新加坡、EMS 認證、環境管理顧問",
+  "edgeStatus": "已列入 EDGE 標準",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。在申請前，請至 Enterprise Singapore 網站的活動頁面查閱現行的資助水平。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_14001_EMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_14001_EMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 14001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 14001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的環境管理系統進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 14001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 14001 符合 EDGE 資格嗎？",
+    "a": "Enterprise Singapore 將環境管理系統列入 EDGE 可持續發展標準。請查閱活動頁面了解現行的資助水平。"
+   },
+   {
+    "q": "ISO 14001 對氣候報告有幫助嗎？",
+    "a": "它建立可持續發展報告所依賴的數據及控制措施，但它並非報告標準。"
+   },
+   {
+    "q": "可以與 ISO 50001 結合嗎？",
+    "a": "可以。能源往往是重要的環境因素，因此兩者可自然整合。"
+   },
+   {
+    "q": "什麼是環境因素？",
+    "a": "您的活動、產品或服務中可能影響環境的任何部分，例如廢物、排放或用水。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 50001 能源管理系統（EnMS）",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "SS 587:2022 報廢資訊通訊科技設備的管理",
+    "url": "/services/ss-587-end-of-life-ict"
+   },
+   {
+    "name": "ISO 45001 職業健康及安全管理系統（OHSMS）",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "可持續發展報告評估（僅提供培訓）",
+    "url": "/services/sustainability-reporting-assessment-training"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 14001",
+    "url": "https://www.iso.org/standard/14001"
+   },
+   {
+    "name": "EDGE：EMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sustainability/environmental-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso45001",
+  "slug": "iso-45001-ohsms",
+  "code": "ISO 45001",
+  "name": "ISO 45001 職業健康及安全管理系統（OHSMS）",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "職業健康及安全（ISO 45001）新加坡 - ICFC",
+  "description": "ISO 45001 是職業健康及安全管理系統的國際標準。它協助組織透過危害控制及員工參與，預防傷害及疾病...",
+  "summary": "ISO 45001 是職業健康及安全管理系統的國際標準。它協助組織透過危害控制及員工參與，預防傷害及疾病。經認可的 ISO 45001 認證亦有助於新加坡的 bizSAFE STAR 認可。",
+  "what": "ISO 45001 訂定職業健康及安全管理系統的要求，以預防與工作相關的傷害及疾病。在新加坡，經 SAC 認可的 ISO 45001 認證有助於 bizSAFE STAR 申請。",
+  "who": "建造業、製造業、物流、設施管理，以及任何具有重大工作場所危害的組織。",
+  "keywords": "ISO 45001 新加坡、OHSMS 認證、工作場所安全顧問",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_45001_OHSMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_45001_OHSMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 45001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 45001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的職業健康及安全進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 45001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 45001 對 bizSAFE 有幫助嗎？",
+    "a": "有。bizSAFE STAR 要求具備經認證的安全及健康管理系統，例如經 SAC 或 MRA 認可機構認可的 ISO 45001，以及風險管理審核報告。"
+   },
+   {
+    "q": "ISO 45001 在 EDGE 名單內嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 ISO 45001。請向我們查詢其他選項。"
+   },
+   {
+    "q": "涵蓋心理健康嗎？",
+    "a": "涵蓋。心理社會風險屬於職業健康及安全危害的範圍。"
+   },
+   {
+    "q": "可以包括承包商嗎？",
+    "a": "可以。管理承包商及其他工作人員是該標準的明確組成部分。"
+   }
+  ],
+  "related": [
+   {
+    "name": "bizSAFE（第 1 至 4 級及 STAR）",
+    "url": "/services/bizsafe"
+   },
+   {
+    "name": "ISO/PAS 45005 COVID-19 疫情期間的安全工作（指引）",
+    "url": "/services/iso-pas-45005"
+   },
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 45001",
+    "url": "https://www.iso.org/standard/45001"
+   },
+   {
+    "name": "ILO-OSH 2001 指引",
+    "url": "https://www.ilo.org/resource/guidelines-occupational-safety-and-health-management-systems-ilo-osh-2001"
+   }
+  ]
+ },
+ {
+  "id": "iso45005",
+  "slug": "iso-pas-45005",
+  "code": "ISO/PAS 45005",
+  "name": "ISO/PAS 45005 COVID-19 疫情期間的安全工作（指引）",
+  "group": "ISO Management Systems",
+  "type": "指引",
+  "title": "傳染病期間的安全工作（ISO/PAS 45005）新加坡 - ICFC",
+  "description": "ISO/PAS 45005 是管理 COVID-19 疫情期間工作場所健康及安全風險的指引文件。它並非用於認證。...",
+  "summary": "ISO/PAS 45005 是管理 COVID-19 疫情期間工作場所健康及安全風險的指引文件。它並非用於認證。ICFC 以其評估並強化貴組織 ISO 45001 或 bizSAFE 系統內的傳染病應變準備。",
+  "what": "ISO/PAS 45005 就管理由 COVID-19 引起的與工作相關的健康及安全風險提供指引，並被廣泛用作職安健系統內傳染病應變準備的參考。",
+  "who": "希望將有系統的傳染病應變準備納入其健康及安全系統的組織。",
+  "keywords": "ISO PAS 45005、傳染病應變準備、安全工作指引",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_PAS_45005.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_PAS_45005.docx"
+  },
+  "audit": [
+   {
+    "heading": "無認證",
+    "text": "ISO/PAS 45005 是指引文件，並非用於認證。"
+   },
+   {
+    "heading": "符合度評估",
+    "text": "第一方及第二方評估，為貴組織的做法與指引的符合程度評分，並提供實用的差距報告。"
+   },
+   {
+    "heading": "供應商檢查",
+    "text": "在客戶有所期望的情況下，根據指引對供應商或合作夥伴進行第二方審查。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO/PAS 45005 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "我們可以取得 ISO/PAS 45005 認證嗎？",
+    "a": "不可以。它是指引。我們評估符合度，並將其整合至您的職安健系統。"
+   },
+   {
+    "q": "它仍然適用嗎？",
+    "a": "適用，可作為傳染病應變準備、遙距工作及重返工作場所規劃的實用參考。"
+   },
+   {
+    "q": "它與 ISO 45001 有何關連？",
+    "a": "它可以單獨使用，也可作為 ISO 45001 系統內的指引。"
+   },
+   {
+    "q": "它與 bizSAFE 有關連嗎？",
+    "a": "bizSAFE 的工作場所安全及健康（WSH）風險管理方法涵蓋疾病爆發，因此該指引十分契合。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 45001 職業健康及安全管理系統（OHSMS）",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "bizSAFE（第 1 至 4 級及 STAR）",
+    "url": "/services/bizsafe"
+   },
+   {
+    "name": "ISO 22301 業務持續性管理系統（BCMS）",
+    "url": "/services/iso-22301-bcms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 45000 系列",
+    "url": "https://www.iso.org/standards/popular/iso-45000-family"
+   }
+  ]
+ },
+ {
+  "id": "iso22301",
+  "slug": "iso-22301-bcms",
+  "code": "ISO 22301",
+  "name": "ISO 22301 業務持續性管理系統（BCMS）",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "業務持續性管理（ISO 22301）新加坡 - ICFC",
+  "description": "ISO 22301 是業務持續性管理系統（BCMS）的國際標準。它協助組織維持關鍵營運並在中斷後迅速復原...",
+  "summary": "ISO 22301 是業務持續性管理系統（BCMS）的國際標準。它協助組織維持關鍵營運並在中斷後迅速復原。Enterprise Singapore 已將其列入 EDGE，中小企業最高可獲 50% 資助，非中小企業為 30%。",
+  "what": "ISO 22301 訂定業務持續性管理系統的要求，讓組織能夠為網絡攻擊、停機或供應鏈故障等中斷事件做好規劃、應對及復原。",
+  "who": "擁有關鍵服務、外判客戶，或監管機構期望其具備已證實韌性的組織。",
+  "keywords": "ISO 22301 新加坡、BCMS 認證、業務持續性顧問",
+  "edgeStatus": "已列入 EDGE 標準（已確認）",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。中小企業最高可獲 50% 資助，非中小企業最高可獲 30%，涵蓋專業服務及由認可機構進行的首年認證。此項資助計入每年共用的 S$100,000 EDGE 上限內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_22301_BCMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_22301_BCMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 22301 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 22301 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的業務持續性管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 22301 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 22301 與 SS 507 有何不同？",
+    "a": "ISO 22301 適用於管理自身業務持續性的任何組織。SS 507 則適用於業務持續性及災難復原服務的提供者。"
+   },
+   {
+    "q": "有 EDGE 資助嗎？",
+    "a": "有。ISO 22301 已列入 EDGE 一般標準，中小企業最高可獲 50% 資助，非中小企業為 30%。"
+   },
+   {
+    "q": "什麼是業務影響分析？",
+    "a": "有系統地審視哪些活動最為重要、必須多快復原，以及需要哪些資源。"
+   },
+   {
+    "q": "我們需要進行演練嗎？",
+    "a": "需要。測試及演練計劃是核心要求。"
+   }
+  ],
+  "related": [
+   {
+    "name": "SS 507 業務持續性及災難復原（BCDR）服務提供者",
+    "url": "/services/ss-507-bcdr"
+   },
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "ISO 28000 保安及韌性管理系統",
+    "url": "/services/iso-28000-security-resilience"
+   },
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE：ISO 22301",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/general/business-continuity-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso37001",
+  "slug": "iso-37001-abms",
+  "code": "ISO 37001",
+  "name": "ISO 37001 反賄賂管理系統（ABMS）",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "反賄賂管理（ISO 37001）新加坡 - ICFC",
+  "description": "ISO 37001 是反賄賂管理系統（ABMS）的國際標準。它協助組織透過政策、風險評估、盡職審查及控制措施，預防、偵測及應對賄賂...",
+  "summary": "ISO 37001 是反賄賂管理系統（ABMS）的國際標準。它協助組織透過政策、風險評估、盡職審查及控制措施，預防、偵測及應對賄賂。它可供認證，並已列入新加坡的 EDGE Grant。",
+  "what": "ISO 37001 訂定反賄賂管理系統的要求，以預防、偵測及應對賄賂，包括對業務夥伴的盡職審查。",
+  "who": "參與投標、受規管行業、跨境貿易或公共部門供應鏈的組織。",
+  "keywords": "ISO 37001 新加坡、反賄賂認證、ABMS 顧問",
+  "edgeStatus": "已列入 EDGE 標準",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。在申請前，請至 Enterprise Singapore 網站的活動頁面查閱現行的資助水平。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_37001_ABMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_37001_ABMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 37001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 37001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的反賄賂管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 37001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 37001 能保證不會發生賄賂嗎？",
+    "a": "沒有任何標準能做到。它表明已採取合理且相稱的措施。"
+   },
+   {
+    "q": "ISO 37001 在 EDGE 名單內嗎？",
+    "a": "Enterprise Singapore 將反賄賂管理系統列入 EDGE 一般標準。請查閱活動頁面了解資助水平。"
+   },
+   {
+    "q": "ISO 37001 中的盡職審查是什麼？",
+    "a": "對較高風險的交易、項目及業務夥伴進行相稱的檢查。"
+   },
+   {
+    "q": "誰在內部領導該系統？",
+    "a": "一個可直接接觸最高管理層及管治機構的反賄賂合規職能。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   },
+   {
+    "name": "ISO 26000 社會責任指引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 20400 可持續採購（指引）",
+    "url": "/services/iso-20400-sustainable-procurement"
+   },
+   {
+    "name": "ISO 28000 保安及韌性管理系統",
+    "url": "/services/iso-28000-security-resilience"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 37001",
+    "url": "https://www.iso.org/standard/37001"
+   },
+   {
+    "name": "EDGE：ABMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/general/anti-bribery-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso41001",
+  "slug": "iso-41001-facility-management",
+  "code": "ISO 41001",
+  "name": "ISO 41001 設施管理系統",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "設施管理系統（ISO 41001）新加坡 - ICFC",
+  "description": "ISO 41001 是設施管理系統的國際標準。它協助設施管理人員使服務與組織目標及持份者需要保持一致...",
+  "summary": "ISO 41001 是設施管理系統的國際標準。它協助設施管理人員使服務與組織目標及持份者需要保持一致。Enterprise Singapore 已將其列入 EDGE，中小企業最高可獲 50% 資助，非中小企業為 30%。",
+  "what": "ISO 41001 訂定設施管理系統的要求，以提供與組織目標一致、有效且高效的支援服務。",
+  "who": "設施管理公司、樓宇業主、校園，以及擁有大型物業的組織。",
+  "keywords": "ISO 41001 新加坡、設施管理認證",
+  "edgeStatus": "已列入 EDGE 標準（已確認）",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。中小企業最高可獲 50% 資助，非中小企業最高可獲 30%，涵蓋專業服務及由認可機構進行的首年認證。此項資助計入每年共用的 S$100,000 EDGE 上限內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_41001_FACILITY_MANAGEMENT.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_41001_FACILITY_MANAGEMENT.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 41001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 41001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的設施管理系統進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 41001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "誰應該採用 ISO 41001？",
+    "a": "希望提供有系統且可衡量服務的設施管理（FM）服務提供者及內部設施團隊。"
+   },
+   {
+    "q": "有 EDGE 資助嗎？",
+    "a": "可以。ISO 41001 已列入 EDGE 行業專屬標準，中小企業最高可獲 50% 資助，非中小企業為 30%。"
+   },
+   {
+    "q": "它與 ISO 55001 有關連嗎？",
+    "a": "有。設施管理與資產管理相輔相成。"
+   },
+   {
+    "q": "可以包括能源管理嗎？",
+    "a": "可以。許多 FM 提供者會整合 ISO 50001 以提升能源表現。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 55001 資產管理系統",
+    "url": "/services/iso-55001-asset-management"
+   },
+   {
+    "name": "ISO 50001 能源管理系統（EnMS）",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "ISO 45001 職業健康及安全管理系統（OHSMS）",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "SS 564 綠色數據中心",
+    "url": "/services/ss-564-green-data-centres"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE：ISO 41001",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/facility-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso55001",
+  "slug": "iso-55001-asset-management",
+  "code": "ISO 55001",
+  "name": "ISO 55001 資產管理系統",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "資產管理系統（ISO 55001）新加坡 - ICFC",
+  "description": "ISO 55001 是資產管理系統的國際標準。它協助組織在資產生命週期內平衡成本、風險及表現...",
+  "summary": "ISO 55001 是資產管理系統的國際標準。它協助組織在資產生命週期內平衡成本、風險及表現。它可供認證，並已列入新加坡的 EDGE Grant。",
+  "what": "ISO 55001 訂定資產管理系統的要求，在實體資產及其他資產的整個生命週期內實現價值。",
+  "who": "公用事業、交通運輸、基礎設施、製造業，以及擁有龐大資產基礎的組織。",
+  "keywords": "ISO 55001 新加坡、資產管理認證",
+  "edgeStatus": "已列入 EDGE 標準",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。在申請前，請至 Enterprise Singapore 網站的活動頁面查閱現行的資助水平。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_55001_ASSET_MANAGEMENT.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_55001_ASSET_MANAGEMENT.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 55001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 55001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的資產管理系統進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 55001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "什麼算作資產？",
+    "a": "對組織具有潛在或實際價值的任何事物，最常見的是實體設備及基礎設施。"
+   },
+   {
+    "q": "ISO 55001 在 EDGE 名單內嗎？",
+    "a": "Enterprise Singapore 將資產管理系統列入 EDGE 一般標準。請查閱活動頁面了解資助水平。"
+   },
+   {
+    "q": "它與維修管理有何不同？",
+    "a": "維修只是其中一部分；ISO 55001 涵蓋由規劃至處置的整個生命週期。"
+   },
+   {
+    "q": "它可以與 ISO 41001 整合嗎？",
+    "a": "可以，尤其適用於同時管理設施及資產的組織。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 41001 設施管理系統",
+    "url": "/services/iso-41001-facility-management"
+   },
+   {
+    "name": "ISO 50001 能源管理系統（EnMS）",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "SS 587:2022 報廢資訊通訊科技設備的管理",
+    "url": "/services/ss-587-end-of-life-ict"
+   },
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE：資產管理",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/general/asset-management-system"
+   },
+   {
+    "name": "ISO 管理系統標準",
+    "url": "https://www.iso.org/management-system-standards-list.html"
+   }
+  ]
+ },
+ {
+  "id": "iso50001",
+  "slug": "iso-50001-enms",
+  "code": "ISO 50001",
+  "name": "ISO 50001 能源管理系統（EnMS）",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "能源管理系統（ISO 50001）新加坡 - ICFC",
+  "description": "ISO 50001 是能源管理系統（EnMS）的國際標準。它協助組織衡量、管理及減少能源使用和成本。它...",
+  "summary": "ISO 50001 是能源管理系統（EnMS）的國際標準。它協助組織衡量、管理及減少能源使用和成本。它已列入新加坡的 EDGE Grant，並支持更廣泛的減碳及可持續發展報告。",
+  "what": "ISO 50001 訂定能源管理系統的要求，透過數據、目標及行動計劃改善能源表現。",
+  "who": "高耗能營運、數據中心、樓宇，以及設有減碳目標的製造商。",
+  "keywords": "ISO 50001 新加坡、能源管理認證",
+  "edgeStatus": "已列入 EDGE 標準",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。在申請前，請至 Enterprise Singapore 網站的活動頁面查閱現行的資助水平。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_50001_ENMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_50001_ENMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 50001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 50001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的能源管理系統進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 50001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 50001 符合 EDGE 資格嗎？",
+    "a": "Enterprise Singapore 將能源管理系統列入 EDGE。請查閱活動頁面了解現行的資助水平。"
+   },
+   {
+    "q": "什麼是能源基準？",
+    "a": "用以衡量改善成效的能源使用參考期間。"
+   },
+   {
+    "q": "對數據中心有幫助嗎？",
+    "a": "有。它與針對綠色數據中心的 SS 564 相輔相成。"
+   },
+   {
+    "q": "它支持可持續發展報告嗎？",
+    "a": "支持。可靠的能源數據是可持續發展報告中排放數字的基礎。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "SS 564 綠色數據中心",
+    "url": "/services/ss-564-green-data-centres"
+   },
+   {
+    "name": "可持續發展報告評估（僅提供培訓）",
+    "url": "/services/sustainability-reporting-assessment-training"
+   },
+   {
+    "name": "ISO 41001 設施管理系統",
+    "url": "/services/iso-41001-facility-management"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 50001",
+    "url": "https://www.iso.org/iso-50001-energy-management.html"
+   },
+   {
+    "name": "EDGE：EnMS",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sustainability/energy-management-systems"
+   }
+  ]
+ },
+ {
+  "id": "iso21001",
+  "slug": "iso-21001-eoms",
+  "code": "ISO 21001",
+  "name": "ISO 21001 教育機構管理系統（EOMS）",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "教育機構管理（ISO 21001）新加坡 - ICFC",
+  "description": "ISO 21001 是教育機構（EOMS）的國際管理系統標準。它協助學校及培訓機構滿足學習者的需要...",
+  "summary": "ISO 21001 是教育機構（EOMS）的國際管理系統標準。它協助學校及培訓機構滿足學習者的需要並提升教育質素。ICFC 支援實施、內部審核及培訓。",
+  "what": "ISO 21001 訂定教育機構管理系統的要求，以學習者及受益人的需要為重點。",
+  "who": "私立學校、培訓機構、大學、企業學院及電子學習提供者。",
+  "keywords": "ISO 21001 新加坡、教育機構管理系統",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_21001_EOMS.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_21001_EOMS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 21001 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 21001 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的教育機構管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 21001 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 21001 只適用於學校嗎？",
+    "a": "不是。它適用於提供教育或培訓的任何組織，包括線上提供者。"
+   },
+   {
+    "q": "它與 ISO 9001 有何關係？",
+    "a": "它採用相同的 ISO 結構，並加入針對學習者及教育服務的特定要求。"
+   },
+   {
+    "q": "ISO 21001 在 EDGE 名單內嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 ISO 21001。請向我們查詢其他選項。"
+   },
+   {
+    "q": "涵蓋線上學習嗎？",
+    "a": "涵蓋。授課方式不受限制。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   },
+   {
+    "name": "ISO/IEC 27701 私隱資訊管理系統（PIMS）",
+    "url": "/services/iso-iec-27701-pims"
+   },
+   {
+    "name": "Data Protection Trustmark（DPTM）SS 714",
+    "url": "/services/data-protection-trustmark-ss-714"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 管理系統標準",
+    "url": "https://www.iso.org/management-system-standards-list.html"
+   }
+  ]
+ },
+ {
+  "id": "iso28000",
+  "slug": "iso-28000-security-resilience",
+  "code": "ISO 28000",
+  "name": "ISO 28000 保安及韌性管理系統",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "保安及韌性管理（ISO 28000）新加坡 - ICFC",
+  "description": "ISO 28000 是保安及韌性管理系統的國際標準，特別著重供應鏈。它協助組織識別...",
+  "summary": "ISO 28000 是保安及韌性管理系統的國際標準，特別著重供應鏈。它協助組織識別保安威脅並保護人員、貨物及營運。ICFC 支援實施、審核及培訓。",
+  "what": "ISO 28000 訂定保安管理系統的要求，涵蓋組織及其供應鏈所面對的風險。",
+  "who": "物流、港口、貨運代理、倉儲，以及擁有高價值供應鏈的製造商。",
+  "keywords": "ISO 28000 新加坡、供應鏈保安管理",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_28000_SECURITY_RESILIENCE.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_28000_SECURITY_RESILIENCE.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 28000 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 28000 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的保安及韌性管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 28000 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 28000 只適用於物流嗎？",
+    "a": "不是。它適用於任何組織，但在供應鏈及物流領域最為常見。"
+   },
+   {
+    "q": "ISO 28000 在 EDGE 名單內嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 ISO 28000。請向我們查詢其他選項。"
+   },
+   {
+    "q": "它與業務持續性有關連嗎？",
+    "a": "有。保安事件經常會觸發持續性計劃，因此與 ISO 22301 整合順暢。"
+   },
+   {
+    "q": "涵蓋網絡威脅嗎？",
+    "a": "它廣泛涵蓋保安風險；詳細的網絡安全則更適合透過 Cyber Trust 或 ISO/IEC 27001 處理。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 22301 業務持續性管理系統（BCMS）",
+    "url": "/services/iso-22301-bcms"
+   },
+   {
+    "name": "SS 668 冷凍及冷藏食品的冷鏈管理",
+    "url": "/services/ss-668-cold-chain"
+   },
+   {
+    "name": "SS 620 醫療器械良好分銷規範（GDPMDS）",
+    "url": "/services/ss-620-gdpmds"
+   },
+   {
+    "name": "ISO 37001 反賄賂管理系統（ABMS）",
+    "url": "/services/iso-37001-abms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 管理系統標準",
+    "url": "https://www.iso.org/management-system-standards-list.html"
+   }
+  ]
+ },
+ {
+  "id": "iso20121",
+  "slug": "iso-20121-event-sustainability",
+  "code": "ISO 20121",
+  "name": "ISO 20121 活動可持續發展管理系統",
+  "group": "ISO Management Systems",
+  "type": "可供認證",
+  "title": "活動可持續發展管理（ISO 20121）新加坡 - ICFC",
+  "description": "ISO 20121 是活動可持續發展管理系統的國際標準。它協助主辦機構及場地減少環境及社會影響...",
+  "summary": "ISO 20121 是活動可持續發展管理系統的國際標準。它協助主辦機構及場地在成功舉辦活動的同時，減少環境及社會影響。ICFC 支援實施、審核及培訓。",
+  "what": "ISO 20121 訂定活動可持續發展管理系統的要求，涵蓋活動的環境、社會及經濟影響。",
+  "who": "活動主辦機構、場地、MICE 公司，以及活動行業的供應商。",
+  "keywords": "ISO 20121 新加坡、可持續活動認證",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_20121_EVENT_SUSTAINABILITY.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_20121_EVENT_SUSTAINABILITY.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "ISO 20121 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 ISO 20121 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的活動可持續發展管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 20121 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 20121 涵蓋單一活動還是我們的整個業務？",
+    "a": "它是管理系統，因此可以涵蓋單一活動，也可涵蓋貴組織持續進行的活動。"
+   },
+   {
+    "q": "ISO 20121 在 EDGE 名單內嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 ISO 20121。請向我們查詢其他選項。"
+   },
+   {
+    "q": "它與 ISO 20400 有關連嗎？",
+    "a": "有。可持續採購是負責任活動的核心。"
+   },
+   {
+    "q": "與場地相關嗎？",
+    "a": "相關。場地及供應商經常採用它，以支持客戶的可持續發展目標。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 20400 可持續採購（指引）",
+    "url": "/services/iso-20400-sustainable-procurement"
+   },
+   {
+    "name": "ISO 26000 社會責任指引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "可持續發展報告評估（僅提供培訓）",
+    "url": "/services/sustainability-reporting-assessment-training"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO 管理系統標準",
+    "url": "https://www.iso.org/management-system-standards-list.html"
+   }
+  ]
+ },
+ {
+  "id": "ss564",
+  "slug": "ss-564-green-data-centres",
+  "code": "SS 564",
+  "name": "SS 564 綠色數據中心",
+  "group": "Singapore Standards and Schemes",
+  "type": "可供認證",
+  "title": "綠色數據中心（SS 564）新加坡 - ICFC",
+  "description": "SS 564 是綠色數據中心的新加坡標準。它提供一套為數據中心營運而設的能源及環境管理系統。...",
+  "summary": "SS 564 是綠色數據中心的新加坡標準。它提供一套為數據中心營運而設的能源及環境管理系統。ICFC 協助營運商實施該標準、準備認證並培訓其團隊。",
+  "what": "SS 564 是為數據中心而設的能源及環境管理系統的新加坡標準。",
+  "who": "數據中心營運商、機房託管提供者，以及營運內部伺服器機房的組織。",
+  "keywords": "SS 564 新加坡、綠色數據中心標準",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_564_GREEN_DATA_CENTRES.pdf",
+   "docx": "ICFC_Service_Sheet_SS_564_GREEN_DATA_CENTRES.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "SS 564 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 SS 564 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的綠色數據中心進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 SS 564 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "誰需要 SS 564？",
+    "a": "希望取得有系統且可衡量的能源及環境表現的數據中心營運商。"
+   },
+   {
+    "q": "它與 ISO 50001 有何關係？",
+    "a": "兩者均著重能源管理；SS 564 專為數據中心而設，可與 ISO 50001 整合。"
+   },
+   {
+    "q": "SS 564 在 EDGE 名單內嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 SS 564。請向我們查詢其他選項。"
+   },
+   {
+    "q": "它與數據中心的 BCA-IMDA Green Mark 有關嗎？",
+    "a": "兩者互不相同。Green Mark 是樓宇評級計劃；SS 564 是管理系統標準。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 50001 能源管理系統（EnMS）",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security（MTCS）",
+    "url": "/services/ss-584-mtcs"
+   },
+   {
+    "name": "SS 587:2022 報廢資訊通訊科技設備的管理",
+    "url": "/services/ss-587-end-of-life-ict"
+   },
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   },
+   {
+    "name": "BCA-IMDA Green Mark for Data Centres",
+    "url": "https://www.imda.gov.sg/how-we-can-help/bca-imda-green-mark-for-data-centres-scheme"
+   }
+  ]
+ },
+ {
+  "id": "ss587",
+  "slug": "ss-587-end-of-life-ict",
+  "code": "SS 587:2022",
+  "name": "SS 587:2022 報廢資訊通訊科技設備的管理",
+  "group": "Singapore Standards and Schemes",
+  "type": "可供認證",
+  "title": "報廢資訊通訊科技管理（SS 587:2022）新加坡 - ICFC",
+  "description": "SS 587 是透過可供認證的管理系統來管理報廢資訊通訊科技設備的新加坡標準。它協助組織負責任地回收資訊通訊科技...",
+  "summary": "SS 587 是透過可供認證的管理系統來管理報廢資訊通訊科技設備的新加坡標準。它協助組織負責任地回收資訊通訊科技設備。Enterprise Singapore 已將其列入 EDGE 可持續發展標準，中小企業最高可獲 70% 資助。",
+  "what": "SS 587 訂定可供認證的管理系統的要求，透過一致的回收流程控制報廢資訊通訊科技設備對環境的影響。",
+  "who": "產生資訊通訊科技設備廢物的組織，以及資訊通訊科技回收商或處置服務提供者。",
+  "keywords": "SS 587:2022、報廢資訊通訊科技管理、新加坡電子廢物標準",
+  "edgeStatus": "已列入 EDGE 可持續發展標準（已確認）",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE 可持續發展標準。中小企業最高可獲 70% 資助，非中小企業最高可獲 50%，涵蓋專業服務及由認可機構進行的首年認證。此項資助計入每年共用的 S$100,000 EDGE 上限內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_587_END_OF_LIFE_ICT.pdf",
+   "docx": "ICFC_Service_Sheet_SS_587_END_OF_LIFE_ICT.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "SS 587:2022 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 SS 587:2022 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的報廢資訊通訊科技管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 SS 587:2022 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "SS 587 符合 EDGE 資格嗎？",
+    "a": "符合。它已列入 EDGE 可持續發展標準，中小企業最高可獲 70% 資助，非中小企業為 50%。"
+   },
+   {
+    "q": "涵蓋數據銷毀嗎？",
+    "a": "安全處理載有數據的設備是負責任處置的一部分；我們會使其與您的資訊安全控制措施保持一致。"
+   },
+   {
+    "q": "誰應該取得認證？",
+    "a": "產生資訊通訊科技廢物的組織，以及處理有關廢物的服務提供者。"
+   },
+   {
+    "q": "可以與 ISO 14001 整合嗎？",
+    "a": "可以。它自然地融入環境管理系統之中。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "SS 564 綠色數據中心",
+    "url": "/services/ss-564-green-data-centres"
+   },
+   {
+    "name": "ISO 55001 資產管理系統",
+    "url": "/services/iso-55001-asset-management"
+   },
+   {
+    "name": "可持續發展報告評估（僅提供培訓）",
+    "url": "/services/sustainability-reporting-assessment-training"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE：SS 587",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sustainability/management-of-end-of-life-ict-equipment"
+   },
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "mtcs",
+  "slug": "ss-584-mtcs",
+  "code": "SS 584",
+  "name": "SS 584 Multi-Tiered Cloud Computing Security（MTCS）",
+  "group": "Singapore Standards and Schemes",
+  "type": "可供認證",
+  "title": "多層次雲端安全（MTCS）（SS 584）新加坡 - ICFC",
+  "description": "SS 584，即 Multi-Tiered Cloud Computing Security（MTCS）標準，為雲端服務提供者訂定分層的安全要求。較高層級適合更敏感的...",
+  "summary": "SS 584，即 Multi-Tiered Cloud Computing Security（MTCS）標準，為雲端服務提供者訂定分層的安全要求。較高層級適合更敏感的數據。Enterprise Singapore 已將其列入 EDGE，中小企業最高可獲 50% 資助，非中小企業為 30%。",
+  "what": "SS 584 根據雲端服務提供者所提供服務的敏感程度，為三個層級分別訂定其必須符合的最低安全要求。",
+  "who": "服務新加坡客戶的雲端服務提供者，尤其是受規管或公共部門的客戶。",
+  "keywords": "SS 584 MTCS、新加坡多層次雲端安全",
+  "edgeStatus": "已列入 EDGE 標準（已確認）",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。中小企業最高可獲 50% 資助，非中小企業最高可獲 30%，涵蓋專業服務及由認可機構進行的首年認證。此項資助計入每年共用的 S$100,000 EDGE 上限內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_584_MTCS.pdf",
+   "docx": "ICFC_Service_Sheet_SS_584_MTCS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "SS 584 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 SS 584 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的多層次雲端安全（MTCS）進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 SS 584 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "MTCS 有多少個層級？",
+    "a": "三個。第 1 層為基準，第 3 層適用於最敏感的工作負載。"
+   },
+   {
+    "q": "SS 584 在 EDGE 名單內嗎？",
+    "a": "可以。它已列入 EDGE 行業專屬標準，中小企業最高可獲 50% 資助，非中小企業為 30%。"
+   },
+   {
+    "q": "與 ISO/IEC 27017 有重疊嗎？",
+    "a": "有。許多提供者會同時對齊兩者並重用證據。"
+   },
+   {
+    "q": "適用於雲端用戶還是提供者？",
+    "a": "它是為雲端服務提供者而編寫。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO/IEC 27017 雲端服務資訊安全控制措施",
+    "url": "/services/iso-iec-27017-cloud-security"
+   },
+   {
+    "name": "ISO/IEC 27018 公有雲個人資料保護",
+    "url": "/services/iso-iec-27018-cloud-privacy"
+   },
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   },
+   {
+    "name": "SS 564 綠色數據中心",
+    "url": "/services/ss-564-green-data-centres"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE：SS 584",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/multi-tiered-cloud-computing-security"
+   },
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "ss620",
+  "slug": "ss-620-gdpmds",
+  "code": "SS 620",
+  "name": "SS 620 醫療器械良好分銷規範（GDPMDS）",
+  "group": "Singapore Standards and Schemes",
+  "type": "可供認證",
+  "title": "醫療器械良好分銷規範（SS 620）新加坡 - ICFC",
+  "description": "SS 620 是醫療器械良好分銷規範（GDPMDS）的新加坡標準。它確保器械在儲存、處理、運送及可追溯性過程中保持其品質及安全。...",
+  "summary": "SS 620 是醫療器械良好分銷規範（GDPMDS）的新加坡標準。它確保器械在儲存、處理、運送及可追溯性過程中保持其品質及安全。醫療器械經銷商通常需要它來申領牌照。",
+  "what": "SS 620 訂定品質管理系統的要求，適用於分銷鏈中醫療器械的儲存、處理、運送及可追溯性。",
+  "who": "新加坡的醫療器械進口商、批發商、分銷商及倉庫。",
+  "keywords": "SS 620 GDPMDS、新加坡醫療器械分銷",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_620_GDPMDS.pdf",
+   "docx": "ICFC_Service_Sheet_SS_620_GDPMDS.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "SS 620 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 SS 620 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的醫療器械良好分銷規範進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 SS 620 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "申請 HSA 經銷商牌照是否需要 GDPMDS？",
+    "a": "醫療器械的進口商及批發商一般須證明符合 GDPMDS。請就您的情況查閱 HSA 現行的牌照要求。"
+   },
+   {
+    "q": "SS 620 在 EDGE 名單內嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 SS 620。請向我們查詢其他選項。"
+   },
+   {
+    "q": "涵蓋冷藏儲存嗎？",
+    "a": "涵蓋，適用於器械需要受控環境的情況。SS 668 另行涵蓋食品冷鏈。"
+   },
+   {
+    "q": "可以與 ISO 9001 整合嗎？",
+    "a": "可以。它建基於品質管理原則。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   },
+   {
+    "name": "SS 668 冷凍及冷藏食品的冷鏈管理",
+    "url": "/services/ss-668-cold-chain"
+   },
+   {
+    "name": "ISO 28000 保安及韌性管理系統",
+    "url": "/services/iso-28000-security-resilience"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Health Sciences Authority",
+    "url": "https://www.hsa.gov.sg/"
+   },
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "ss668",
+  "slug": "ss-668-cold-chain",
+  "code": "SS 668",
+  "name": "SS 668 冷凍及冷藏食品的冷鏈管理",
+  "group": "Singapore Standards and Schemes",
+  "type": "可供認證",
+  "title": "冷鏈管理（SS 668）新加坡 - ICFC",
+  "description": "SS 668 是冷凍及冷藏食品冷鏈管理的新加坡標準。它保障由儲存至零售過程中的食品安全、新鮮度及品質。...",
+  "summary": "SS 668 是冷凍及冷藏食品冷鏈管理的新加坡標準。它保障由儲存至零售過程中的食品安全、新鮮度及品質。Enterprise Singapore 已將其列入 EDGE，中小企業最高可獲 50% 資助，非中小企業為 30%。",
+  "what": "SS 668 訂定冷藏及冷凍食品冷鏈管理的最高層要求，以及針對營運、冷庫、運輸、包裝、標籤及零售的技術要求。",
+  "who": "處理冷藏或冷凍食品的食品進口商、冷庫、物流營運商、分銷商及零售商。",
+  "keywords": "SS 668 新加坡冷鏈、冷藏冷凍食品標準",
+  "edgeStatus": "已列入 EDGE 標準（已確認）",
+  "edgeNote": "Enterprise Singapore 已將此標準列入 EDGE Grant。中小企業最高可獲 50% 資助，非中小企業最高可獲 30%，涵蓋專業服務及由認可機構進行的首年認證。此項資助計入每年共用的 S$100,000 EDGE 上限內。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_668_COLD_CHAIN.pdf",
+   "docx": "ICFC_Service_Sheet_SS_668_COLD_CHAIN.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "SS 668 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 SS 668 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的冷鏈管理進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "獲資助（EDGE）",
+    "text": "ICFC 的顧問服務由持有 SS 680:2021 認證的顧問主導，這是 Enterprise Singapore 對 EDGE 標準活動下的顧問資助所要求的。該認證由我們的個別顧問持有，而非 ICFC 公司。我們的建議書會列明將主導貴項目的認證顧問，並包含 EDGE 所要求的 SS 680 認證詳情、報價及範圍。您須在任何工作開始或作出任何付款之前，於 Business Grants Portal 提出申請。供應商不能代您申請、付款或索償，Letter of Offer 內列明的顧問必須開具索償發票，而獲批後不可更換供應商。資助須經 Enterprise Singapore 評估及批准。如需了解我們 SS 680 認證顧問的職責、證書編號、頒發機構及到期日，或頒發機構登記冊的連結，請透過聯絡表格以電郵與我們聯絡。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 SS 668 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "SS 668 涵蓋哪些業務？",
+    "a": "食品冷鏈中的農業、餐飲、陸路運輸、物流及批發業務。"
+   },
+   {
+    "q": "SS 668 在 EDGE 名單內嗎？",
+    "a": "可以。它已列入 EDGE 行業專屬標準，中小企業最高可獲 50% 資助，非中小企業為 30%。"
+   },
+   {
+    "q": "要求進行溫度監測嗎？",
+    "a": "要求。在儲存及運輸過程中進行監測及記錄是該標準的核心。"
+   },
+   {
+    "q": "可以與食品安全系統整合嗎？",
+    "a": "可以。它與現有的食品安全及品質系統相輔相成。"
+   }
+  ],
+  "related": [
+   {
+    "name": "SS 620 醫療器械良好分銷規範（GDPMDS）",
+    "url": "/services/ss-620-gdpmds"
+   },
+   {
+    "name": "ISO 28000 保安及韌性管理系統",
+    "url": "/services/iso-28000-security-resilience"
+   },
+   {
+    "name": "ISO 22301 業務持續性管理系統（BCMS）",
+    "url": "/services/iso-22301-bcms"
+   },
+   {
+    "name": "ISO 9001 品質管理系統（QMS）",
+    "url": "/services/iso-9001-qms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "EDGE：SS 668",
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/cold-chain-management-of-chilled-and-frozen-foods-part-1"
+   },
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "ss507",
+  "slug": "ss-507-bcdr",
+  "code": "SS 507",
+  "name": "SS 507 業務持續性及災難復原（BCDR）服務提供者",
+  "group": "Singapore Standards and Schemes",
+  "type": "可供認證",
+  "title": "業務持續性及災難復原服務（SS 507）新加坡 - ICFC",
+  "description": "SS 507 是業務持續性及災難復原（BCDR）服務提供者的新加坡標準。它向客戶保證復原服務、設施及流程可靠。...",
+  "summary": "SS 507 是業務持續性及災難復原（BCDR）服務提供者的新加坡標準。它向客戶保證復原服務、設施及流程可靠。ICFC 支援提供者進行實施、審核及培訓。",
+  "what": "SS 507 是業務持續性及災難復原服務提供者的新加坡標準，涵蓋其政策、流程、設施及服務水平。",
+  "who": "提供復原服務的 BCDR 服務提供者、數據中心及資訊科技外判公司。",
+  "keywords": "SS 507 BCDR、新加坡災難復原服務提供者標準",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SS_507_BCDR.pdf",
+   "docx": "ICFC_Service_Sheet_SS_507_BCDR.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方審核",
+    "text": "SS 507 的第三方認證審核由我們的審核員代表認可的認證機構進行。證書由認證機構頒發，而非 ICFC。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據 SS 507 對供應商及合作夥伴進行審核，並提供清晰且可付諸行動的審核結果。"
+   },
+   {
+    "heading": "內部審核",
+    "text": "由經驗豐富的審核員對貴組織的業務持續性及災難復原服務進行第一方內部審核，可與其他標準合併為一次整合審核。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 SS 507 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "誰需要 SS 507？",
+    "a": "向他人提供 BCDR 服務的組織，而非管理自身業務持續性的組織。"
+   },
+   {
+    "q": "SS 507 在 EDGE 名單內嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 SS 507。請向我們查詢其他選項。"
+   },
+   {
+    "q": "它與 ISO 22301 相比如何？",
+    "a": "ISO 22301 適用於任何組織自身的業務持續性；SS 507 則適用於 BCDR 服務提供者。"
+   },
+   {
+    "q": "與 MTCS 有重疊嗎？",
+    "a": "部分重疊，涉及雲端復原服務。我們會對照共同的控制措施以避免重複。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 22301 業務持續性管理系統（BCMS）",
+    "url": "/services/iso-22301-bcms"
+   },
+   {
+    "name": "SS 584 Multi-Tiered Cloud Computing Security（MTCS）",
+    "url": "/services/ss-584-mtcs"
+   },
+   {
+    "name": "SS 564 綠色數據中心",
+    "url": "/services/ss-564-green-data-centres"
+   },
+   {
+    "name": "CSA Cyber Trust mark（SS 712）",
+    "url": "/services/cyber-trust-mark-ss-712"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Singapore Standards eShop",
+    "url": "https://www.singaporestandardseshop.sg/"
+   }
+  ]
+ },
+ {
+  "id": "bizsafe",
+  "slug": "bizsafe",
+  "code": "bizSAFE",
+  "name": "bizSAFE（第 1 至 4 級及 STAR）",
+  "group": "Singapore Standards and Schemes",
+  "type": "認證計劃",
+  "title": "bizSAFE 新加坡 - ICFC",
+  "description": "bizSAFE 是新加坡 WSH Council 的計劃，分五個級別建立工作場所安全能力，由第 1 級至 bizSAFE STAR。第 3 級及以上須進行...",
+  "summary": "bizSAFE 是新加坡 WSH Council 的計劃，分五個級別建立工作場所安全能力，由第 1 級至 bizSAFE STAR。第 3 級及以上須進行風險管理審核，STAR 則須具備經認可的安全及健康管理系統，例如 ISO 45001。ICFC 逐級引導您。",
+  "what": "bizSAFE 是 WSH Council 的五步計劃，用以建立工作場所安全及健康能力，由最高管理層的承諾，以至經認證的安全及健康管理系統。",
+  "who": "承包商、供應商，以及客戶或投標要求具備 bizSAFE 級別的任何公司。",
+  "keywords": "bizSAFE 第 3 級、bizSAFE STAR、新加坡 WSH Council",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_BIZSAFE.pdf",
+   "docx": "ICFC_Service_Sheet_BIZSAFE.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方評估",
+    "text": "認證依據 Workplace Safety and Health（WSH）Council 所營運的計劃頒發。在獲委任的情況下，我們的審核員代表認證機構進行評估；證書或標誌絕不由 ICFC 頒發。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據計劃要求對供應商及合作夥伴進行查核。"
+   },
+   {
+    "heading": "準備度評估及內部審核",
+    "text": "預先評估，清楚呈現正式評估將會檢視的內容，並附有按優先次序排列的行動清單。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 bizSAFE 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "逐級而上",
+    "text": "第 1 級：最高管理層承諾推行 WSH。第 2 級：培訓風險管理倡導者並擬定風險管理計劃。第 3 級：實施該計劃並通過風險管理審核。第 4 級：建立 WSH 管理系統。STAR：經認可的系統（例如 ISO 45001）加上風險管理審核報告。"
+   },
+   {
+    "heading": "我們的角色",
+    "text": "官方 bizSAFE 第 1 級及第 2 級課程由 WSH Council 認可的培訓機構提供，風險管理審核則由認可的審核員進行。ICFC 協助您為每一步做好準備，並建立其背後的系統。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "我們需要哪個 bizSAFE 級別？",
+    "a": "投標及總承包商通常會列明所要求的最低級別，因此請先查核。然後我們會規劃達到該級別的步驟。"
+   },
+   {
+    "q": "ISO 45001 與 bizSAFE STAR 有何關連？",
+    "a": "經認可的 ISO 45001 認證，連同風險管理審核報告，有助於 STAR 申請。"
+   },
+   {
+    "q": "bizSAFE 在 EDGE 名單內嗎？",
+    "a": "我們查核時，未在 EDGE 標準名單中找到 bizSAFE。"
+   },
+   {
+    "q": "bizSAFE 的有效期多長？",
+    "a": "有效期視乎級別而定；申請時請查閱 WSH Council 現行的規則。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 45001 職業健康及安全管理系統（OHSMS）",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "ISO/PAS 45005 COVID-19 疫情期間的安全工作（指引）",
+    "url": "/services/iso-pas-45005"
+   },
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   }
+  ],
+  "sources": [
+   {
+    "name": "WSH Council bizSAFE",
+    "url": "https://www.tal.sg/wshc/programmes/bizsafe"
+   }
+  ]
+ },
+ {
+  "id": "wrap",
+  "slug": "wrap-certification",
+  "code": "WRAP",
+  "name": "Worldwide Responsible Accredited Production（WRAP）",
+  "group": "Sustainability and Supply Chain",
+  "type": "認證計劃",
+  "title": "WRAP 認證 新加坡 - ICFC",
+  "description": "WRAP（Worldwide Responsible Accredited Production）證明工廠合法、人道及合乎道德地營運，主要適用於服裝及鞋類。...",
+  "summary": "WRAP（Worldwide Responsible Accredited Production）證明工廠合法、人道及合乎道德地營運，主要適用於服裝及鞋類。審核由 WRAP 認可的監察機構進行。ICFC 透過差距評估、糾正措施支援及培訓，協助工廠做好準備。",
+  "what": "WRAP 是一項獨立的認證計劃，針對合法、人道及合乎道德的製造，主要用於服裝、鞋類及縫製產品。工廠由 WRAP 認可的監察機構根據 WRAP 的原則進行審核。",
+  "who": "為國際品牌供貨的服裝、鞋類、紡織及縫製產品製造商。",
+  "keywords": "WRAP 認證、負責任生產審核、道德製造",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_WRAP_CERTIFICATION.pdf",
+   "docx": "ICFC_Service_Sheet_WRAP_CERTIFICATION.docx"
+  },
+  "audit": [
+   {
+    "heading": "第三方評估",
+    "text": "認證依據 WRAP 組織及其認可的監察機構所營運的計劃頒發。在獲委任的情況下，我們的審核員代表認證機構進行評估；證書或標誌絕不由 ICFC 頒發。"
+   },
+   {
+    "heading": "第二方審核",
+    "text": "代表貴組織，根據計劃要求對供應商及合作夥伴進行查核。"
+   },
+   {
+    "heading": "準備度評估及內部審核",
+    "text": "預先評估，清楚呈現正式評估將會檢視的內容，並附有按優先次序排列的行動清單。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 WRAP 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ICFC 會頒發 WRAP 證書嗎？",
+    "a": "不會。WRAP 認證須經 WRAP 認可的監察機構審核後方可取得。我們協助您做好準備。"
+   },
+   {
+    "q": "WRAP 原則涵蓋哪些內容？",
+    "a": "涵蓋法律合規、勞工條件、健康及安全、環境及海關合規等範疇。"
+   },
+   {
+    "q": "WRAP 只適用於服裝嗎？",
+    "a": "它主要用於服裝、鞋類及縫製產品。"
+   },
+   {
+    "q": "可以支持客戶審核嗎？",
+    "a": "可以。我們的第二方審核協助品牌根據類似原則檢查供應商。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 26000 社會責任指引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 20400 可持續採購（指引）",
+    "url": "/services/iso-20400-sustainable-procurement"
+   },
+   {
+    "name": "ISO 45001 職業健康及安全管理系統（OHSMS）",
+    "url": "/services/iso-45001-ohsms"
+   },
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   }
+  ],
+  "sources": [
+   {
+    "name": "WRAP",
+    "url": "https://wrapcompliance.org/en/"
+   }
+  ]
+ },
+ {
+  "id": "iso20400",
+  "slug": "iso-20400-sustainable-procurement",
+  "code": "ISO 20400",
+  "name": "ISO 20400 可持續採購（指引）",
+  "group": "Sustainability and Supply Chain",
+  "type": "指引",
+  "title": "可持續採購（ISO 20400）新加坡 - ICFC",
+  "description": "ISO 20400 是可持續採購的國際指引標準。它協助組織將環境、社會及經濟考量納入...",
+  "summary": "ISO 20400 是可持續採購的國際指引標準。它協助組織將環境、社會及經濟考量納入其採購方式。它不可供認證；ICFC 評估您與該標準的符合度，並協助您付諸實踐。",
+  "what": "ISO 20400 就將可持續發展納入採購政策、策略及流程提供指引。",
+  "who": "採購團隊、公共部門供應商，以及管理供應商可持續發展風險的組織。",
+  "keywords": "ISO 20400 可持續採購指引 新加坡",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_20400_SUSTAINABLE_PROCUREMENT.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_20400_SUSTAINABLE_PROCUREMENT.docx"
+  },
+  "audit": [
+   {
+    "heading": "無認證",
+    "text": "ISO 20400 是指引文件，並非用於認證。"
+   },
+   {
+    "heading": "符合度評估",
+    "text": "第一方及第二方評估，為貴組織的做法與指引的符合程度評分，並提供實用的差距報告。"
+   },
+   {
+    "heading": "供應商檢查",
+    "text": "在客戶有所期望的情況下，根據指引對供應商或合作夥伴進行第二方審查。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 20400 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "我們可以取得 ISO 20400 認證嗎？",
+    "a": "不可以。它是指引。我們提供符合度評估及實施支援。"
+   },
+   {
+    "q": "我們應該從哪裡開始？",
+    "a": "先進行支出分析，找出可持續發展風險及機遇最高的類別。"
+   },
+   {
+    "q": "它與供應商審核有關連嗎？",
+    "a": "有。我們的第二方供應商審核將該指引付諸行動。"
+   },
+   {
+    "q": "對可持續發展報告有幫助嗎？",
+    "a": "有。供應鏈數據可為價值鏈影響的報告提供資料。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 26000 社會責任指引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 20121 活動可持續發展管理系統",
+    "url": "/services/iso-20121-event-sustainability"
+   },
+   {
+    "name": "Worldwide Responsible Accredited Production（WRAP）",
+    "url": "/services/wrap-certification"
+   },
+   {
+    "name": "可持續發展報告評估（僅提供培訓）",
+    "url": "/services/sustainability-reporting-assessment-training"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO publications",
+    "url": "https://www.iso.org/publication-list.html"
+   }
+  ]
+ },
+ {
+  "id": "iso26000",
+  "slug": "iso-26000-social-responsibility",
+  "code": "ISO 26000",
+  "name": "ISO 26000 社會責任指引",
+  "group": "Sustainability and Supply Chain",
+  "type": "指引",
+  "title": "社會責任（ISO 26000）新加坡 - ICFC",
+  "description": "ISO 26000 是社會責任的國際指引。它涵蓋由管治及人權至社區參與的七大核心主題。...",
+  "summary": "ISO 26000 是社會責任的國際指引。它涵蓋由管治及人權至社區參與的七大核心主題。它不可供認證；ICFC 以其評估您目前的做法，並建立務實的社會責任路線圖。",
+  "what": "ISO 26000 就社會責任的七大核心主題提供指引，包括管治、人權、勞工實務、環境、公平營運實務、消費者議題及社區參與。",
+  "who": "正在制定其可持續發展或 ESG 方針及持份者參與的組織。",
+  "keywords": "ISO 26000 社會責任指引、企業社會責任框架",
+  "edgeStatus": "不在 EDGE 標準名單內",
+  "edgeNote": "我們查核時，未在 EDGE 標準名單中找到此標準。請向我們查詢非資助方案或其他可能適用的計劃。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_ISO_26000_SOCIAL_RESPONSIBILITY.pdf",
+   "docx": "ICFC_Service_Sheet_ISO_26000_SOCIAL_RESPONSIBILITY.docx"
+  },
+  "audit": [
+   {
+    "heading": "無認證",
+    "text": "ISO 26000 是指引文件，並非用於認證。"
+   },
+   {
+    "heading": "符合度評估",
+    "text": "第一方及第二方評估，為貴組織的做法與指引的符合程度評分，並提供實用的差距報告。"
+   },
+   {
+    "heading": "供應商檢查",
+    "text": "在客戶有所期望的情況下，根據指引對供應商或合作夥伴進行第二方審查。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "資助",
+    "text": "在您作出承諾之前，我們會說明適用的計劃（如有）及其要求。"
+   },
+   {
+    "heading": "非資助項目",
+    "text": "範圍固定的服務項目：差距評估、文件編製、實施輔導、內部審核及管理審查，以及在正式審核或評估期間提供支援。"
+   },
+   {
+    "heading": "我們的工作方式",
+    "text": "務實且相稱的系統，在我們離開後，貴公司員工仍能自行運作。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關 ISO 26000 的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ISO 26000 可供認證嗎？",
+    "a": "不可以。它明確是指引標準。對任何聲稱提供該標準認證的人士，請保持謹慎。"
+   },
+   {
+    "q": "它與可持續發展報告有何關係？",
+    "a": "它協助您在匯報之前判斷什麼是重要的；之後由報告框架指導披露。"
+   },
+   {
+    "q": "哪些核心主題與我們相關？",
+    "a": "這來自重要性及持份者審查，我們會協助推動。"
+   },
+   {
+    "q": "可以與 ISO 37001 結合嗎？",
+    "a": "可以。公平營運實務包括反貪腐。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 20400 可持續採購（指引）",
+    "url": "/services/iso-20400-sustainable-procurement"
+   },
+   {
+    "name": "可持續發展報告評估（僅提供培訓）",
+    "url": "/services/sustainability-reporting-assessment-training"
+   },
+   {
+    "name": "Worldwide Responsible Accredited Production（WRAP）",
+    "url": "/services/wrap-certification"
+   },
+   {
+    "name": "ISO 37001 反賄賂管理系統（ABMS）",
+    "url": "/services/iso-37001-abms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "ISO and sustainable development goals",
+    "url": "https://www.iso.org/sdg"
+   }
+  ]
+ },
+ {
+  "id": "sra",
+  "slug": "sustainability-reporting-assessment-training",
+  "code": "Training",
+  "name": "可持續發展報告評估（僅提供培訓）",
+  "group": "Sustainability and Supply Chain",
+  "type": "僅提供培訓",
+  "title": "可持續發展報告評估（培訓）新加坡 - ICFC",
+  "description": "ICFC 的可持續發展報告評估培訓教導團隊如何評估及準備可持續發展及氣候相關披露，由...",
+  "summary": "ICFC 的可持續發展報告評估培訓教導團隊如何評估及準備可持續發展及氣候相關披露，由重要性以至數據質素。僅以培訓形式提供，透過 ICFC Digital LMS 以課堂及線上形式進行。",
+  "what": "培養評估及準備可持續發展及氣候相關披露所需技能的培訓，內容包括重要性、數據收集，以及新加坡所採用的報告標準。",
+  "who": "準備或審閱可持續發展報告的財務、可持續發展、合規及營運人員。",
+  "keywords": "新加坡可持續發展報告培訓、氣候披露課程",
+  "edgeStatus": "培訓資助各有不同",
+  "edgeNote": "資助視乎各課程的批核狀況而定，詳見 ICFC Digital LMS 內的課程頁面。",
+  "download": {
+   "pdf": "ICFC_Service_Sheet_SUSTAINABILITY_REPORTING_ASSESSMENT_TRAINING.pdf",
+   "docx": "ICFC_Service_Sheet_SUSTAINABILITY_REPORTING_ASSESSMENT_TRAINING.docx"
+  },
+  "audit": [
+   {
+    "heading": "不提供",
+    "text": "此項服務僅提供培訓。"
+   }
+  ],
+  "consultation": [
+   {
+    "heading": "不提供",
+    "text": "此項服務僅提供培訓。"
+   }
+  ],
+  "training": [
+   {
+    "heading": "課堂課程",
+    "text": "提供有關可持續發展報告評估的公開及企業內訓課堂課程：認知、實施及內部審核員級別。"
+   },
+   {
+    "heading": "線上 LMS",
+    "text": "在 ICFC Digital LMS 上提供自學及線上直播課程，設有進度追蹤及完成證書。"
+   },
+   {
+    "heading": "資助",
+    "text": "資助視乎各課程的批核狀況而定，詳見 LMS 內的課程頁面。"
+   }
+  ],
+  "extra": [
+   {
+    "heading": "我們的角色",
+    "text": "僅提供培訓。我們不就可持續發展報告提供鑑證或顧問服務。"
+   }
+  ],
+  "impartiality": [
+   {
+    "heading": "首要原則",
+    "text": "公正性為先。每項委託均先進行利益衝突檢查。我們將顧問與審核角色分開，而且在認證機構所訂定的期限內，若 ICFC 曾就同一範圍為某組織提供顧問服務，我們的審核員絕不會代表認證機構審核該組織。"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ICFC 會就可持續發展報告提供鑑證嗎？",
+    "a": "不會。此項服務僅提供培訓。"
+   },
+   {
+    "q": "誰應該參加？",
+    "a": "收集數據、準備披露或審閱可持續發展報告的員工。"
+   },
+   {
+    "q": "課程可以在線上進行嗎？",
+    "a": "可以，透過 ICFC Digital LMS，亦有課堂形式。"
+   },
+   {
+    "q": "有資助嗎？",
+    "a": "資助視乎各課程的批核狀況而定，詳見課程頁面。"
+   }
+  ],
+  "related": [
+   {
+    "name": "ISO 14001 環境管理系統（EMS）",
+    "url": "/services/iso-14001-ems"
+   },
+   {
+    "name": "ISO 50001 能源管理系統（EnMS）",
+    "url": "/services/iso-50001-enms"
+   },
+   {
+    "name": "ISO 26000 社會責任指引",
+    "url": "/services/iso-26000-social-responsibility"
+   },
+   {
+    "name": "ISO 20400 可持續採購（指引）",
+    "url": "/services/iso-20400-sustainable-procurement"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Enterprise Sustainability Programme",
+    "url": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/sustainability/enterprise-sustainability-programme"
+   }
+  ]
+ }
+]

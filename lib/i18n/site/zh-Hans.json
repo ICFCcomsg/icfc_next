@@ -1,0 +1,185 @@
+{
+ "top": {
+  "obstacle_text": "自2014年起在新加坡提供审计、咨询与培训。",
+  "connect_link": "联系我们",
+  "call_us_label": "致电我们：",
+  "send_mail_label": "电子邮件："
+ },
+ "header": {
+  "language_label": "语言",
+  "get_quote": "获取报价",
+  "lms_login": "学习平台登录",
+  "search": "搜索",
+  "menu": "菜单"
+ },
+ "nav": {
+  "home": "首页",
+  "industries": "行业",
+  "about": "关于我们",
+  "services": "服务",
+  "blog": "洞察",
+  "contact": "联系我们"
+ },
+ "groups": {
+  "Cybersecurity, IT and Data Protection": "网络安全、IT与数据保护",
+  "ISO Management Systems": "ISO管理体系",
+  "Singapore Standards and Schemes": "新加坡标准与计划",
+  "Sustainability and Supply Chain": "可持续发展与供应链"
+ },
+ "common": {
+  "get_quote": "获取报价",
+  "view_toggle": [
+   "快速浏览",
+   "完整详情"
+  ],
+  "transfer_eyebrow": "考虑更换服务提供商？",
+  "transfer_title": "将您的服务转至ICFC",
+  "transfer_text": "将咨询、内部审核或培训转交给我们十分简单。我们会审阅您现有的体系、证书和计划，并从上一服务提供商中断之处接手。认证机构之间的任何认证转换，均由接收方认证机构依据认可规则办理。",
+  "transfer_cta": "开始转移",
+  "draft_notice": "本页为草稿译文，以英文版本为准。"
+ },
+ "footer": {
+  "about_text": "ICFC为新加坡的ISO管理体系、网络安全、数据保护和可持续发展标准提供审计、咨询与培训。",
+  "services_title": "服务",
+  "company_title": "公司",
+  "legal_title": "法律",
+  "contact_title": "联系我们",
+  "all_services": "全部服务",
+  "privacy": "隐私政策",
+  "cookie_notice": "Cookie声明",
+  "lms_terms": "学习平台条款与条件",
+  "cookie_settings": "Cookie设置",
+  "call_us": "致电我们",
+  "email": "电子邮件",
+  "rights": "保留所有权利。",
+  "uen": "UEN 201402439E"
+ },
+ "home": {
+  "eyebrow": "新加坡，自2014年起",
+  "title": "值得信赖的审计、咨询与培训",
+  "intro": "自2014年起，ICFC已协助新加坡及亚太地区的组织获得并保持ISO、网络安全、IT保证、数据保护和新加坡标准认证。提供公正的审计、实用的咨询，以及课堂和线上培训。",
+  "find_standard": "找到适合您的标准",
+  "finder_eyebrow": "服务查找",
+  "finder_title": "您今天需要什么？",
+  "need_audit": "我需要认证证书",
+  "need_consultation": "我需要准备或实施",
+  "need_training": "我需要培训",
+  "finder_topic": "主题",
+  "trust_title": "自2014年值得信赖",
+  "stats": [
+   [
+    "12",
+    "在新加坡的年数",
+    "自2014年起"
+   ],
+   [
+    "250+",
+    "服务的客户",
+    "遍及亚太地区"
+   ],
+   [
+    "500+",
+    "完成的审计",
+    "第一方、第二方和第三方"
+   ],
+   [
+    "100+",
+    "受训学员",
+    "课堂与线上"
+   ]
+  ],
+  "services_eyebrow": "服务",
+  "services_title": "四种协助方式",
+  "view_all": "查看全部{n}项",
+  "ways_eyebrow": "三种工作方式",
+  "ways_title": "审计。咨询。培训。",
+  "ways": [
+   [
+    "审计",
+    "由我们的审计员代表获认可的认证机构开展第三方审计，另提供第二方和内部审计。"
+   ],
+   [
+    "咨询",
+    "获补助（EDGE）或固定范围的项目。"
+   ],
+   [
+    "培训",
+    "通过ICFC Digital LMS提供课堂和线上培训。"
+   ]
+  ],
+  "edge_eyebrow": "资金",
+  "edge_title": "EDGE Grant对标准的支持",
+  "edge_text": "自2026年9月30日起，企业补助支持已转至EDGE Grant。我们支持的许多标准均已列入，中小企业最高可获50%的支持，可持续发展标准最高可获70%，须符合资格并经Enterprise Singapore批准。ICFC的咨询服务由持有SS 680:2021认证的顾问主导，这是EDGE对标准类活动的要求。CSA另行资助首次Cyber Trust和Cyber Essentials认证，直至2028年2月6日。",
+  "edge_cta": "查看EDGE资格",
+  "edge_small": "补助决定由Enterprise Singapore作出。信息核查日期：2026年10月11日。",
+  "why_eyebrow": "为何选择ICFC",
+  "why_title": "机构选择我们的理由",
+  "why": [
+   [
+    "设计上即保持公正",
+    "咨询与审计角色相互分离，每项委托均从利益冲突核查开始。"
+   ],
+   [
+    "整合审计",
+    "我们的审计员可处理整合管理体系，因此可同时审核多项标准，节省时间和成本。"
+   ],
+   [
+    "SS 680认证顾问",
+    "ICFC的咨询服务由持有SS 680:2021认证的顾问主导，这是Enterprise Singapore对EDGE标准类活动咨询支持所要求的标准。"
+   ],
+   [
+    "学以致用",
+    "ICFC Digital LMS上的课堂和线上培训，让您的团队在项目结束后依然能力出众。"
+   ]
+  ],
+  "industries_eyebrow": "行业",
+  "industries_title": "我们服务的行业",
+  "industries": {
+   "banking": "银行与金融服务",
+   "technology": "科技、SaaS与云",
+   "data-centres": "数据中心",
+   "healthcare": "医疗保健与医疗器械",
+   "manufacturing": "制造业",
+   "logistics": "物流与冷链",
+   "construction": "建筑与设施",
+   "education": "教育与培训",
+   "food": "餐饮",
+   "events": "活动、酒店与会展",
+   "apparel": "服装与纺织",
+   "automotive": "汽车供应链",
+   "professional": "专业服务",
+   "retail": "零售与电子商务",
+   "energy": "能源、公用事业与基础设施",
+   "public-sector": "政府供应商与公共部门"
+  },
+  "insights_eyebrow": "洞察",
+  "insights_title": "最新洞察",
+  "all_insights": "全部洞察",
+  "contact_title": "联系我们"
+ },
+ "service": {
+  "fact_code": "标准或计划",
+  "fact_type": "类型",
+  "fact_group": "分组",
+  "fact_funding": "资金",
+  "what": "是什么",
+  "who": "适合谁",
+  "how_we_help": "我们如何协助",
+  "tab_audit": "审计",
+  "tab_consultation": "咨询",
+  "tab_training": "培训",
+  "key_details": "关键细节",
+  "info_checked": "信息核查日期：{date}。补助决定由资助机构作出。",
+  "about_edge": "关于EDGE",
+  "impartiality": "公正性",
+  "faq_title": "常见问题",
+  "sheet_title": "服务单",
+  "sheet_text": "可与团队分享的一页摘要。",
+  "download_pdf": "下载PDF",
+  "word": "Word",
+  "related": "相关服务",
+  "references": "参考资料",
+  "breadcrumb_home": "首页",
+  "breadcrumb_services": "服务"
+ }
+}

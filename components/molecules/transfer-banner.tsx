@@ -1,25 +1,19 @@
 "use client";
 
+import { useI18n } from "@/components/atoms/i18n-provider";
 import { openEnquiry } from "@/lib/enquiry";
 
-export function TransferBanner({
-  title = "Transfer your services to ICFC",
-  text = "Moving your consulting, internal audits or training to us is simple. We review your current system, certificates and plans, then pick up where your previous provider left off. Any transfer of certification between certification bodies is handled by the receiving certification body under accreditation rules.",
-  cta = "Start a transfer",
-}: {
-  title?: string;
-  text?: string;
-  cta?: string;
-}) {
+export function TransferBanner() {
+  const { common: c } = useI18n().dict;
   return (
     <aside className="icfc-transfer">
       <div>
-        <p className="icfc-eyebrow">Thinking of switching providers?</p>
-        <h2>{title}</h2>
-        <p>{text}</p>
+        <p className="icfc-eyebrow">{c.transfer_eyebrow}</p>
+        <h2>{c.transfer_title}</h2>
+        <p>{c.transfer_text}</p>
       </div>
       <button type="button" className="icfc-btn is-light" onClick={() => openEnquiry("Transfer")}>
-        {cta}
+        {c.transfer_cta}
       </button>
     </aside>
   );

@@ -1,0 +1,190 @@
+[
+ {
+  "t": "title",
+  "text": "Cookie 通知"
+ },
+ {
+  "t": "p",
+  "text": "ICFC Pte Ltd，UEN 201402439E。新加坡。發布前須經法律審閱的草稿。"
+ },
+ {
+  "t": "h",
+  "text": "關於本通知"
+ },
+ {
+  "t": "p",
+  "text": "本《Cookie 通知》說明 ICFC Pte Ltd 如何在 icfc.com.sg 使用 cookie 及類似技術。請連同我們的《隱私政策》一併閱讀。"
+ },
+ {
+  "t": "h",
+  "text": "什麼是 cookie"
+ },
+ {
+  "t": "p",
+  "text": "Cookie 是您瀏覽網站時儲存在您裝置上的小型文字檔案。類似技術包括像素、標籤及本機儲存。部分由我們設置（第一方），部分由其他提供者設置（第三方）。"
+ },
+ {
+  "t": "h",
+  "text": "Cookie 與 PDPA"
+ },
+ {
+  "t": "p",
+  "text": "如 cookie 收集個人資料，PDPA 要求我們告知您目的並取得您的同意，除非適用豁免。我們做得比最低要求更多：除嚴格必要的 cookie 外，在您作出選擇之前我們不設置任何 cookie，我們的橫幅對「全部接受」及「全部拒絕」給予同等份量，而且使用本網站絕不取決於是否接受非必要 cookie。"
+ },
+ {
+  "t": "h",
+  "text": "您的選擇"
+ },
+ {
+  "t": "p",
+  "text": "您首次瀏覽時，橫幅會讓您選擇「全部接受」、「全部拒絕」或開啟 Cookie 設定。在您作出選擇之前，僅使用嚴格必要的 cookie。您可隨時透過頁腳的 Cookie 設定更改或撤回選擇；撤回後將停止新增非必要 cookie，您亦可在瀏覽器中刪除現有的 cookie。拒絕非必要 cookie 不會妨礙您使用本網站。我們會在 icfc_consent cookie 中保留您的選擇記錄 12 個月，並在新增類別或提供者時再次詢問。"
+ },
+ {
+  "t": "h",
+  "text": "我們使用的類別"
+ },
+ {
+  "t": "li",
+  "text": "嚴格必要（一律啟用）：網站運作、保持安全及記住您的 cookie 選擇所必需。無法關閉。它們不會為營銷目的識別您的身分。"
+ },
+ {
+  "t": "li",
+  "text": "功能性（在您允許前關閉）：記住語言等偏好設定，並啟用 AI 聊天助理及以私隱加強模式嵌入的影片等非必要功能。"
+ },
+ {
+  "t": "li",
+  "text": "效能（在您允許前關閉）：協助我們透過匯總統計了解訪客如何使用網站、哪些頁面有效，以及人們在哪裡遇到困難。"
+ },
+ {
+  "t": "li",
+  "text": "針對性（在您允許前關閉）：由廣告及社交平台使用，用以衡量廣告活動，並在其他網站上顯示相關的 ICFC 內容。"
+ },
+ {
+  "t": "h",
+  "text": "Cookie 列表"
+ },
+ {
+  "t": "p",
+  "text": "下表列出我們使用或可能使用的 cookie。提供者可能更改 cookie 名稱；我們會定期檢視該列表。"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "Cookie",
+    "提供者",
+    "類別",
+    "用途",
+    "一般有效期"
+   ],
+   [
+    "icfc_consent",
+    "ICFC（第一方）",
+    "嚴格必要",
+    "儲存您的 cookie 選擇及其版本",
+    "12 個月"
+   ],
+   [
+    "Session and security cookies",
+    "ICFC 網站主機",
+    "嚴格必要",
+    "保持會話運作，並保護表格免遭濫用",
+    "會話"
+   ],
+   [
+    "icfc_lang",
+    "ICFC（第一方）",
+    "功能性",
+    "記住您所選擇的語言",
+    "12 個月"
+   ],
+   [
+    "Frappe chat cookies (such as sid)",
+    "ICFC Frappe chatbot",
+    "功能性",
+    "使聊天對話與您的瀏覽器保持連繫",
+    "會話至 [x] 天"
+   ],
+   [
+    "PREF, YSC, VISITOR_INFO1_LIVE",
+    "YouTube (Google)",
+    "針對性",
+    "僅在您允許針對性 cookie 後播放嵌入影片時才會設置；在此之前，影片使用私隱加強模式，並以點擊載入的預留位置顯示",
+    "會話至 6 個月"
+   ],
+   [
+    "_ga, _ga_ followed by the property ID",
+    "Google Analytics 4",
+    "效能",
+    "區分訪客及會話以作統計",
+    "最長 2 年"
+   ],
+   [
+    "_clck, _clsk",
+    "Microsoft Clarity",
+    "效能",
+    "會話重播及熱度圖統計",
+    "1 天至 1 年"
+   ],
+   [
+    "_hjSessionUser and _hjSession cookies",
+    "Hotjar（如取代 Clarity 使用）",
+    "效能",
+    "會話及熱度圖統計",
+    "30 分鐘至 1 年"
+   ],
+   [
+    "_fbp, fr",
+    "Meta Pixel",
+    "針對性",
+    "衡量及投放 Meta 平台上的廣告",
+    "最長 3 個月"
+   ],
+   [
+    "li_sugr, bcookie, lidc, UserMatchHistory, AnalyticsSyncHistory",
+    "LinkedIn Insight Tag",
+    "針對性",
+    "衡量 LinkedIn 廣告活動並建立受眾",
+    "1 天至 1 年"
+   ],
+   [
+    "Google Tag Manager",
+    "Google",
+    "嚴格必要的載入程式",
+    "根據您的同意載入標籤；其本身不會設置追蹤 cookie",
+    "無"
+   ],
+   [
+    "Search Console verification",
+    "Google",
+    "並非 cookie",
+    "透過 meta 標籤或 DNS 記錄驗證網站擁有權；不會設置 cookie",
+    "無"
+   ]
+  ]
+ },
+ {
+  "t": "h",
+  "text": "第三方提供者"
+ },
+ {
+  "t": "p",
+  "text": "Google、Microsoft、Meta、LinkedIn 及 YouTube 就其 cookie 所收集的資料，依據其各自的隱私政策運作。部分提供者會在新加坡境外處理資料；請參閱我們《隱私政策》第 9 節有關海外傳輸的內容。"
+ },
+ {
+  "t": "h",
+  "text": "瀏覽器控制"
+ },
+ {
+  "t": "p",
+  "text": "您亦可在瀏覽器設定中刪除或封鎖 cookie。封鎖嚴格必要的 cookie 可能導致網站部分功能無法運作。"
+ },
+ {
+  "t": "h",
+  "text": "聯絡我們"
+ },
+ {
+  "t": "p",
+  "text": "有關 cookie 的問題可發送至我們的數據保護主任 nandhan@icfc.com.sg。生效日期：[發布時訂定生效日期]。"
+ }
+]

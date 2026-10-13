@@ -1,3 +1,4 @@
+import { Tx } from "@/components/atoms/tx";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -19,8 +20,8 @@ export function BlogedgPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="How to apply for the Enterprise Singapore EDGE Grant for ISO certification in Singapore (2026 guide)"
-      description="Step-by-step EDGE Grant application for ISO standards, with up to 50-70% support for SMEs, subject to eligibility and Enterprise Singapore's approval."
+      title={<Tx ns="blogedg">{"How to apply for the Enterprise Singapore EDGE Grant for ISO certification in Singapore (2026 guide)"}</Tx>}
+      description={<Tx ns="blogedg">{"Step-by-step EDGE Grant application for ISO standards, with up to 50-70% support for SMEs, subject to eligibility and Enterprise Singapore's approval."}</Tx>}
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
@@ -45,12 +46,12 @@ function PostboxAreaSection() {
                         />
                       </span>
                       <span className="">
-                        {"By "}
+                        <Tx ns="blogedg">{"By "}</Tx>
                         <SiteLink
                           href="/contact-us"
                           className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"ICFC Pte Ltd"}
+                          <Tx ns="blogedg">{"ICFC Pte Ltd"}</Tx>
                         </SiteLink>
                       </span>
                     </span>
@@ -68,7 +69,7 @@ function PostboxAreaSection() {
                           className="fill-[#AB052D]"
                         ></path>
                       </svg>
-                      <span className="">{"April 2026"}</span>
+                      <span className=""><Tx ns="blogedg">{"April 2026"}</Tx></span>
                     </span>
                   </li>
                   <li className="list-none">
@@ -89,7 +90,7 @@ function PostboxAreaSection() {
                           className="fill-[#AB052D]"
                         ></path>
                       </svg>
-                      <span className="">{"10 min read"}</span>
+                      <span className=""><Tx ns="blogedg">{"10 min read"}</Tx></span>
                     </span>
                   </li>
                 </ul>
@@ -97,103 +98,87 @@ function PostboxAreaSection() {
               <div>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Published by ICFC Pte Ltd"}
+                    <Tx ns="blogedg">{"Published by ICFC Pte Ltd"}</Tx>
                   </strong>
-                  {" | April 2026 | 10 min read"}
+                  <Tx ns="blogedg">{" | April 2026 | 10 min read"}</Tx>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Categories:"}
+                    <Tx ns="blogedg">{"Categories:"}</Tx>
                   </strong>
-                  {
-                    " Grant funding · ISO certification · Singapore SME · Standards adoption"
-                  }
+                  <Tx ns="blogedg">{" Grant funding · ISO certification · Singapore SME · Standards adoption"}</Tx>
                 </p>
                 <hr className="mt-0 mr-0 mb-0 ml-0 text-inherit [border:none] [border-top:1px_solid] opacity-[1] h-px bg-[#ececec]" />
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "ISO certification opens doors — to enterprise contracts, government procurement panels, overseas markets, and multinational supply chains. But for many Singapore SMEs, the upfront cost of consultation and certification can feel like a barrier. It doesn't have to be."
-                  }
+                  <Tx ns="blogedg">{"ISO certification opens doors — to enterprise contracts, government procurement panels, overseas markets, and multinational supply chains. But for many Singapore SMEs, the upfront cost of consultation and certification can feel like a barrier. It doesn't have to be."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {"Enterprise Singapore's "}
+                  <Tx ns="blogedg">{"Enterprise Singapore's "}</Tx>
                   <strong className="[font-weight:bolder]">
-                    {"EDGE Grant"}
+                    <Tx ns="blogedg">{"EDGE Grant"}</Tx>
                   </strong>
-                  {
-                    " replaced the EDG, MRA and PSG schemes, which ceased on 29 September 2026. It provides support for Singapore companies adopting internationally recognised ISO standards. For most standards, SMEs can receive up to "
-                  }
+                  <Tx ns="blogedg">{" replaced the EDG, MRA and PSG schemes, which ceased on 29 September 2026. It provides support for Singapore companies adopting internationally recognised ISO standards. For most standards, SMEs can receive up to "}</Tx>
                   <strong className="[font-weight:bolder]">
-                    {"50% support"}
+                    <Tx ns="blogedg">{"50% support"}</Tx>
                   </strong>
-                  {
-                    " (up to 30% for non-SMEs). For sustainability standards such as SS 587, and ISO 14001 and ISO 50001 where listed, SMEs can receive "
-                  }
+                  <Tx ns="blogedg">{" (up to 30% for non-SMEs). For sustainability standards such as SS 587, and ISO 14001 and ISO 50001 where listed, SMEs can receive "}</Tx>
                   <strong className="[font-weight:bolder]">
-                    {"up to 70%"}
+                    <Tx ns="blogedg">{"up to 70%"}</Tx>
                   </strong>
-                  {" (up to 50% for non-SMEs), subject to eligibility and Enterprise Singapore's approval."}
+                  <Tx ns="blogedg">{" (up to 50% for non-SMEs), subject to eligibility and Enterprise Singapore's approval."}</Tx>
                 </p>
                 <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#f8fafc] [border-left:4px_solid_#AB052D] rounded-[0_16px_16px_0]">
                   <strong className="[font-weight:bolder]">
-                    {"📌 Important note:"}
+                    <Tx ns="blogedg">{"📌 Important note:"}</Tx>
                   </strong>
-                  {
-                    " Grant terms, funding rates, and eligible standards are set by Enterprise Singapore and subject to change. Information checked 11 October 2026. Always verify current requirements on the Enterprise Singapore website before applying.\n                                "
-                  }
+                  <Tx ns="blogedg">{" Grant terms, funding rates, and eligible standards are set by Enterprise Singapore and subject to change. Information checked 11 October 2026. Always verify current requirements on the Enterprise Singapore website before applying.\n                                "}</Tx>
                 </div>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {
-                    "What is the EDGE Grant — and what does it have to do with ISO?"
-                  }
+                  <Tx ns="blogedg">{"What is the EDGE Grant — and what does it have to do with ISO?"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "The EDGE Grant supports Singapore companies across business areas including upgrading operations, innovating and expanding overseas. Standards support sits under "
-                  }
+                  <Tx ns="blogedg">{"The EDGE Grant supports Singapore companies across business areas including upgrading operations, innovating and expanding overseas. Standards support sits under "}</Tx>
                   <strong className="[font-weight:bolder]">
-                    {"Standards"}
+                    <Tx ns="blogedg">{"Standards"}</Tx>
                   </strong>
-                  {". ISO certification falls under "}
+                  <Tx ns="blogedg">{". ISO certification falls under "}</Tx>
                   <strong className="[font-weight:bolder]">
-                    {"EDGE — Standards activities"}
+                    <Tx ns="blogedg">{"EDGE — Standards activities"}</Tx>
                   </strong>
-                  {
-                    ". The rationale: international standards like ISO 27001, ISO 9001, ISO 14001 are often prerequisites for overseas tenders, government procurement, and global supply chains."
-                  }
+                  <Tx ns="blogedg">{". The rationale: international standards like ISO 27001, ISO 9001, ISO 14001 are often prerequisites for overseas tenders, government procurement, and global supply chains."}</Tx>
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"How much funding can my company receive?"}
+                  <Tx ns="blogedg">{"How much funding can my company receive?"}</Tx>
                 </h4>
                 <table className="caption-bottom border-collapse mt-6 mr-0 mb-6 ml-0 w-full">
                   <thead className="border-inherit border-solid [border-width:0]">
                     <tr className="border-inherit border-solid [border-width:0]">
                       <th className="[text-align:-webkit-match-parent] border-inherit border-solid [border-width:0] pt-3 pr-3 pb-3 pl-3 [border:1px_solid_#e2e8f0] align-top">
-                        {"Company type"}
+                        <Tx ns="blogedg">{"Company type"}</Tx>
                       </th>
                       <th className="[text-align:-webkit-match-parent] border-inherit border-solid [border-width:0] pt-3 pr-3 pb-3 pl-3 [border:1px_solid_#e2e8f0] align-top">
-                        {"Standard support level"}
+                        <Tx ns="blogedg">{"Standard support level"}</Tx>
                       </th>
                     </tr>
                   </thead>
                   <tbody className="border-inherit border-solid [border-width:0]">
                     <tr className="border-inherit border-solid [border-width:0]">
                       <td className="border-inherit border-solid [border-width:0] pt-3 pr-3 pb-3 pl-3 [border:1px_solid_#e2e8f0] align-top">
-                        {"SME (≤200 employees OR ≤S$100M annual turnover)"}
+                        <Tx ns="blogedg">{"SME (≤200 employees OR ≤S$100M annual turnover)"}</Tx>
                       </td>
                       <td className="border-inherit border-solid [border-width:0] pt-3 pr-3 pb-3 pl-3 [border:1px_solid_#e2e8f0] align-top">
-                        {"Up to "}
+                        <Tx ns="blogedg">{"Up to "}</Tx>
                         <strong className="[font-weight:bolder]">
                           {"50%"}
                         </strong>
-                        {" of qualifying costs"}
+                        <Tx ns="blogedg">{" of qualifying costs"}</Tx>
                       </td>
                     </tr>
                     <tr className="border-inherit border-solid [border-width:0]">
                       <td className="border-inherit border-solid [border-width:0] pt-3 pr-3 pb-3 pl-3 [border:1px_solid_#e2e8f0] align-top">
-                        {"Non-SME (large enterprise)"}
+                        <Tx ns="blogedg">{"Non-SME (large enterprise)"}</Tx>
                       </td>
                       <td className="border-inherit border-solid [border-width:0] pt-3 pr-3 pb-3 pl-3 [border:1px_solid_#e2e8f0] align-top">
-                        {"Up to "}
+                        <Tx ns="blogedg">{"Up to "}</Tx>
                         <strong className="[font-weight:bolder]">
                           {"30%"}
                         </strong>
@@ -201,264 +186,220 @@ function PostboxAreaSection() {
                     </tr>
                     <tr className="border-inherit border-solid [border-width:0]">
                       <td className="border-inherit border-solid [border-width:0] pt-3 pr-3 pb-3 pl-3 [border:1px_solid_#e2e8f0] align-top">
-                        {"SME — sustainability (ISO 14001, ISO 50001)"}
+                        <Tx ns="blogedg">{"SME — sustainability (ISO 14001, ISO 50001)"}</Tx>
                       </td>
                       <td className="border-inherit border-solid [border-width:0] pt-3 pr-3 pb-3 pl-3 [border:1px_solid_#e2e8f0] align-top">
-                        {"Up to "}
+                        <Tx ns="blogedg">{"Up to "}</Tx>
                         <strong className="[font-weight:bolder]">
                           {"70%"}
                         </strong>
-                        {" (SMEs; up to 50% for non-SMEs)"}
+                        <Tx ns="blogedg">{" (SMEs; up to 50% for non-SMEs)"}</Tx>
                       </td>
                     </tr>
                   </tbody>
                 </table>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "The grant is paid as reimbursement after the activity is completed and paid for. All percentages are subject to eligibility and Enterprise Singapore's approval."
-                  }
+                  <Tx ns="blogedg">{"The grant is paid as reimbursement after the activity is completed and paid for. All percentages are subject to eligibility and Enterprise Singapore's approval."}</Tx>
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"Which ISO standards qualify?"}
+                  <Tx ns="blogedg">{"Which ISO standards qualify?"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Information security & cybersecurity:"}
+                    <Tx ns="blogedg">{"Information security & cybersecurity:"}</Tx>
                   </strong>
-                  {" ISO/IEC 27001, ISO 27032, ISO 27701, ISO 42001."}
+                  <Tx ns="blogedg">{" ISO/IEC 27001, ISO 27032, ISO 27701, ISO 42001."}</Tx>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Quality & operations:"}
+                    <Tx ns="blogedg">{"Quality & operations:"}</Tx>
                   </strong>
-                  {" ISO 22301, ISO 37001."}
+                  <Tx ns="blogedg">{" ISO 22301, ISO 37001."}</Tx>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Sustainability:"}
+                    <Tx ns="blogedg">{"Sustainability:"}</Tx>
                   </strong>
-                  {" ISO 14001, ISO 50001 (enhanced rate), ISO 45001."}
+                  <Tx ns="blogedg">{" ISO 14001, ISO 50001 (enhanced rate), ISO 45001."}</Tx>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Exclusions:"}
+                    <Tx ns="blogedg">{"Exclusions:"}</Tx>
                   </strong>
-                  {
-                    " Annual surveillance audits, recertification of existing standards, local regulatory compliance, basic commodity standards."
-                  }
+                  <Tx ns="blogedg">{" Annual surveillance audits, recertification of existing standards, local regulatory compliance, basic commodity standards."}</Tx>
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"Step-by-step: How to apply for the EDGE Grant for ISO certification"}
+                  <Tx ns="blogedg">{"Step-by-step: How to apply for the EDGE Grant for ISO certification"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Step 1 – Confirm eligibility:"}
+                    <Tx ns="blogedg">{"Step 1 – Confirm eligibility:"}</Tx>
                   </strong>
-                  {
-                    " Local equity ≥30%, financially viable, project not commenced."
-                  }
+                  <Tx ns="blogedg">{" Local equity ≥30%, financially viable, project not commenced."}</Tx>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Step 2 – Select ISO standard & define scope."}
-                  </strong>
-                  <br />
-                  <strong className="[font-weight:bolder]">
-                    {"Step 3 – Engage an SS 680:2021 certified consultant."}
+                    <Tx ns="blogedg">{"Step 2 – Select ISO standard & define scope."}</Tx>
                   </strong>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Step 4 – Prepare application documents:"}
-                  </strong>
-                  {
-                    " ACRA profile, financial statements, detailed project proposal, consultant credentials."
-                  }
-                  <br />
-                  <strong className="[font-weight:bolder]">
-                    {"Step 5 – Submit via Business Grants Portal (CorpPass)."}
-                  </strong>
-                  {" Processing ~8–12 weeks."}
-                  <br />
-                  <strong className="[font-weight:bolder]">
-                    {"Step 6 – Receive Letter of Offer, then commence project."}
+                    <Tx ns="blogedg">{"Step 3 – Engage an SS 680:2021 certified consultant."}</Tx>
                   </strong>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Step 7 – Complete ISO project (typically 12–18 months)."}
+                    <Tx ns="blogedg">{"Step 4 – Prepare application documents:"}</Tx>
+                  </strong>
+                  <Tx ns="blogedg">{" ACRA profile, financial statements, detailed project proposal, consultant credentials."}</Tx>
+                  <br />
+                  <strong className="[font-weight:bolder]">
+                    <Tx ns="blogedg">{"Step 5 – Submit via Business Grants Portal (CorpPass)."}</Tx>
+                  </strong>
+                  <Tx ns="blogedg">{" Processing ~8–12 weeks."}</Tx>
+                  <br />
+                  <strong className="[font-weight:bolder]">
+                    <Tx ns="blogedg">{"Step 6 – Receive Letter of Offer, then commence project."}</Tx>
                   </strong>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Step 8 – Submit claim"}
+                    <Tx ns="blogedg">{"Step 7 – Complete ISO project (typically 12–18 months)."}</Tx>
                   </strong>
-                  {
-                    " with the deliverables, invoices and the accredited certificate."
-                  }
+                  <br />
+                  <strong className="[font-weight:bolder]">
+                    <Tx ns="blogedg">{"Step 8 – Submit claim"}</Tx>
+                  </strong>
+                  <Tx ns="blogedg">{" with the deliverables, invoices and the accredited certificate."}</Tx>
                 </p>
                 <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#f8fafc] [border-left:4px_solid_#AB052D] rounded-[0_16px_16px_0]">
                   <strong className="[font-weight:bolder]">
-                    {"⚠️ Most common mistake:"}
+                    <Tx ns="blogedg">{"⚠️ Most common mistake:"}</Tx>
                   </strong>
-                  {
-                    " Starting any chargeable work before grant approval. Do not sign contracts, make payments, or begin gap assessments until you receive the Letter of Offer.\n                                "
-                  }
+                  <Tx ns="blogedg">{" Starting any chargeable work before grant approval. Do not sign contracts, make payments, or begin gap assessments until you receive the Letter of Offer.\n                                "}</Tx>
                 </div>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"What costs can I claim?"}
+                  <Tx ns="blogedg">{"What costs can I claim?"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"1. Third-party consultancy fees"}
+                    <Tx ns="blogedg">{"1. Third-party consultancy fees"}</Tx>
                   </strong>
-                  {
-                    " (by an SS 680:2021 certified consultant) – gap analysis, documentation, implementation."
-                  }
+                  <Tx ns="blogedg">{" (by an SS 680:2021 certified consultant) – gap analysis, documentation, implementation."}</Tx>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"2. Internal manpower costs"}
+                    <Tx ns="blogedg">{"2. Internal manpower costs"}</Tx>
                   </strong>
-                  {
-                    " – incremental salary of employees directly involved in ISO implementation."
-                  }
+                  <Tx ns="blogedg">{" – incremental salary of employees directly involved in ISO implementation."}</Tx>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"3. Equipment/software"}
+                    <Tx ns="blogedg">{"3. Equipment/software"}</Tx>
                   </strong>
-                  {
-                    " – QMS platform, security tooling required for the standard."
-                  }
+                  <Tx ns="blogedg">{" – QMS platform, security tooling required for the standard."}</Tx>
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"The EDGE Grant — what replaced EDG, MRA and PSG"}
+                  <Tx ns="blogedg">{"The EDGE Grant — what replaced EDG, MRA and PSG"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "EDG, MRA and PSG ceased on 29 September 2026 and were replaced by the "
-                  }
+                  <Tx ns="blogedg">{"EDG, MRA and PSG ceased on 29 September 2026 and were replaced by the "}</Tx>
                   <strong className="[font-weight:bolder]">
-                    {"EDGE Grant"}
+                    <Tx ns="blogedg">{"EDGE Grant"}</Tx>
                   </strong>
-                  {
-                    " from 30 September 2026. Key features: one application route across business areas, and applications made by the business itself on the Business Grants Portal. "
-                  }
+                  <Tx ns="blogedg">{" from 30 September 2026. Key features: one application route across business areas, and applications made by the business itself on the Business Grants Portal. "}</Tx>
                   <strong className="[font-weight:bolder]">
-                    {"Recommendation: apply under EDGE before starting any work"}
+                    <Tx ns="blogedg">{"Recommendation: apply under EDGE before starting any work"}</Tx>
                   </strong>
-                  {
-                    " and check the current activity page for support levels."
-                  }
+                  <Tx ns="blogedg">{" and check the current activity page for support levels."}</Tx>
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"How ICFC supports your EDGE Grant application"}
+                  <Tx ns="blogedg">{"How ICFC supports your EDGE Grant application"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "ICFC prepares the proposal, quotation and SS 680 consultant details that EDGE asks for. You apply yourself on the Business Grants Portal with your own authorised staff; we do not apply, pay or claim on your behalf."
-                  }
+                  <Tx ns="blogedg">{"ICFC prepares the proposal, quotation and SS 680 consultant details that EDGE asks for. You apply yourself on the Business Grants Portal with your own authorised staff; we do not apply, pay or claim on your behalf."}</Tx>
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"Frequently asked questions"}
+                  <Tx ns="blogedg">{"Frequently asked questions"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Can I apply for EDGE for multiple ISO standards together?"}
+                    <Tx ns="blogedg">{"Can I apply for EDGE for multiple ISO standards together?"}</Tx>
                   </strong>
-                  {
-                    " Yes – integrated management system (IMS) projects covering two or more standards in one application are possible and often more efficient."
-                  }
+                  <Tx ns="blogedg">{" Yes – integrated management system (IMS) projects covering two or more standards in one application are possible and often more efficient."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"What if my EDGE application is rejected?"}
+                    <Tx ns="blogedg">{"What if my EDGE application is rejected?"}</Tx>
                   </strong>
-                  {
-                    " Resubmit after reviewing reasons. ICFC can explain the proposal details EDGE asks for; any resubmission is made by you."
-                  }
+                  <Tx ns="blogedg">{" Resubmit after reviewing reasons. ICFC can explain the proposal details EDGE asks for; any resubmission is made by you."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "Can I use SkillsFuture Enterprise Credit (SFEC) alongside EDGE?"
-                    }
+                    <Tx ns="blogedg">{"Can I use SkillsFuture Enterprise Credit (SFEC) alongside EDGE?"}</Tx>
                   </strong>
-                  {
-                    " Check the current SFEC and EDGE rules; eligibility depends on each scheme and course."
-                  }
+                  <Tx ns="blogedg">{" Check the current SFEC and EDGE rules; eligibility depends on each scheme and course."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Is EDGE worth it for non-SMEs?"}
+                    <Tx ns="blogedg">{"Is EDGE worth it for non-SMEs?"}</Tx>
                   </strong>
-                  {
-                    " Most standards are supported at up to 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval."
-                  }
+                  <Tx ns="blogedg">{" Most standards are supported at up to 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval."}</Tx>
                 </p>
                 <h4 className="mt-8 mb-4 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"The bottom line"}
+                  <Tx ns="blogedg">{"The bottom line"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "The EDGE Grant is the main funding pathway for Singapore SMEs seeking ISO certification, subject to eligibility and approval. The process is clear: apply before starting any work, engage an SS 680:2021 certified consultant, and present a specific, outcome-focused proposal."
-                  }
+                  <Tx ns="blogedg">{"The EDGE Grant is the main funding pathway for Singapore SMEs seeking ISO certification, subject to eligibility and approval. The process is clear: apply before starting any work, engage an SS 680:2021 certified consultant, and present a specific, outcome-focused proposal."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "ICFC offers a complimentary eligibility assessment as part of our initial consultation."
-                  }
+                  <Tx ns="blogedg">{"ICFC offers a complimentary eligibility assessment as part of our initial consultation."}</Tx>
                 </p>
                 <hr className="mt-0 mr-0 mb-0 ml-0 text-inherit [border:none] [border-top:1px_solid] opacity-[1] h-px bg-[#ececec]" />
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"About ICFC Pte Ltd"}
+                    <Tx ns="blogedg">{"About ICFC Pte Ltd"}</Tx>
                   </strong>
                   <br />
-                  {
-                    "Singapore's ISO certification partner since 2014. We provide ISO consultation, third-party audit, and training, with proposal support for EDGE applications. Contact: "
-                  }
+                  <Tx ns="blogedg">{"Singapore's ISO certification partner since 2014. We provide ISO consultation, third-party audit, and training, with proposal support for EDGE applications. Contact: "}</Tx>
                   <SiteLink
                     href="mailto:admin@icfc.com.sg"
                     className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
-                    {"admin@icfc.com.sg"}
+                    <Tx ns="blogedg">{"admin@icfc.com.sg"}</Tx>
                   </SiteLink>
                   {" | +65 8601 7001."}
                 </p>
                 <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <em>
-                    {
-                      "© 2026 ICFC Pte Ltd. This article is for informational purposes only and does not constitute professional grant advice. Grant terms subject to change. Verify at enterprisesg.gov.sg."
-                    }
+                    <Tx ns="blogedg">{"© 2026 ICFC Pte Ltd. This article is for informational purposes only and does not constitute professional grant advice. Grant terms subject to change. Verify at enterprisesg.gov.sg."}</Tx>
                   </em>
                 </p>
               </div>
               <div className="mt-10 pt-5 pb-5 items-center justify-between flex gap-7.5 flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1]">
                 <div className="items-center flex flex-wrap gap-3">
                   <span className="font-semibold pe-2.5 text-[#2B3944]">
-                    {"Tags:"}
+                    <Tx ns="blogedg">{"Tags:"}</Tx>
                   </span>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"EDGE Grant"}
+                    <Tx ns="blogedg">{"EDGE Grant"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"ISO Certification"}
+                    <Tx ns="blogedg">{"ISO Certification"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Enterprise Singapore"}
+                    <Tx ns="blogedg">{"Enterprise Singapore"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"SME Funding"}
+                    <Tx ns="blogedg">{"SME Funding"}</Tx>
                   </SiteLink>
                 </div>
                 <div>
                   <span className="font-semibold pe-2.5 text-[#2B3944]">
-                    {"Share:"}
+                    <Tx ns="blogedg">{"Share:"}</Tx>
                   </span>
                   <div className="gap-3.75">
                     <SiteLink
@@ -493,7 +434,7 @@ function PostboxAreaSection() {
               </div>
               <div>
                 <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
-                  {"Leave a Comment"}
+                  <Tx ns="blogedg">{"Leave a Comment"}</Tx>
                 </h3>
                 <EmailForm>
                   <div className="flex flex-wrap -mt-6 -mr-6 -ml-6">
@@ -525,7 +466,7 @@ function PostboxAreaSection() {
                         type="submit"
                         className="rounded-[50px] mt-0 mr-0 mb-0 ml-0 text-[17px] leading-[inherit] normal-case pt-3.5 pr-6.5 pb-3.5 pl-6.5 text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-1 overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
-                        {"Post Comment"}
+                        <Tx ns="blogedg">{"Post Comment"}</Tx>
                       </button>
                     </div>
                   </div>
@@ -537,7 +478,7 @@ function PostboxAreaSection() {
             <div className="sticky max-[991px]:relative top-27.5 max-[991px]:top-[unset]">
               <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  {"Search"}
+                  <Tx ns="blogedg">{"Search"}</Tx>
                 </h5>
                 <div>
                   <EmailForm>
@@ -572,7 +513,7 @@ function PostboxAreaSection() {
               </div>
               <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  {"Categories"}
+                  <Tx ns="blogedg">{"Categories"}</Tx>
                 </h5>
                 <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
                   <li className="">
@@ -580,7 +521,7 @@ function PostboxAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Grant Funding "}
+                      <Tx ns="blogedg">{"Grant Funding "}</Tx>
                       <span className="">{"(4)"}</span>
                     </SiteLink>
                   </li>
@@ -589,7 +530,7 @@ function PostboxAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"ISO 27001 "}
+                      <Tx ns="blogedg">{"ISO 27001 "}</Tx>
                       <span className="">{"(6)"}</span>
                     </SiteLink>
                   </li>
@@ -598,7 +539,7 @@ function PostboxAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"SME Resources "}
+                      <Tx ns="blogedg">{"SME Resources "}</Tx>
                       <span className="">{"(5)"}</span>
                     </SiteLink>
                   </li>
@@ -606,38 +547,38 @@ function PostboxAreaSection() {
               </div>
               <div className="pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  {"Popular Tags"}
+                  <Tx ns="blogedg">{"Popular Tags"}</Tx>
                 </h5>
                 <div className="flex flex-wrap gap-3">
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"EDGE"}
+                    <Tx ns="blogedg">{"EDGE"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"EDGE Grant"}
+                    <Tx ns="blogedg">{"EDGE Grant"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"ISO 9001"}
+                    <Tx ns="blogedg">{"ISO 9001"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Enterprise Singapore"}
+                    <Tx ns="blogedg">{"Enterprise Singapore"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Co-funding"}
+                    <Tx ns="blogedg">{"Co-funding"}</Tx>
                   </SiteLink>
                 </div>
               </div>

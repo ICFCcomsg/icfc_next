@@ -6,6 +6,8 @@ import "../globals.css";
 import "../icfc-components.css";
 import { CookieConsent } from "@/components/organisms/cookie-consent";
 import { FloatingDock } from "@/components/organisms/floating-dock";
+import { I18nProvider } from "@/components/atoms/i18n-provider";
+import { getDictionary } from "@/lib/dictionary";
 import { LANGS, getLang, isPublished } from "@/lib/i18n";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
@@ -36,6 +38,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
   const lang = getLang(segment);
   if (!lang) notFound();
   const strings = (await import(`@/lib/i18n/${lang.code}.json`)).default;
+  const dict = await getDictionary();
   return (
     <html lang={lang.code} dir="ltr" className={interTight.variable}>
       <head>
@@ -57,9 +60,11 @@ gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personali
         )}
       </head>
       <body className="bg-white font-sans text-[16px] leading-normal text-[#616C74] antialiased [&_button]:cursor-pointer [&_a]:focus-visible:outline-2 [&_a]:focus-visible:outline-offset-4 [&_a]:focus-visible:outline-[#AB052D] [&_button]:focus-visible:outline-2 [&_button]:focus-visible:outline-offset-4 [&_button]:focus-visible:outline-[#AB052D]">
-        {children}
-        <CookieConsent t={strings} />
-        <FloatingDock t={strings} lang={lang.code} chatScriptSrc={process.env.NEXT_PUBLIC_FRAPPE_CHAT_SRC} />
+        <I18nProvider value={{ segment: lang.segment, prefix: lang.prefix, dict }}>
+          {children}
+          <CookieConsent t={strings} />
+          <FloatingDock t={strings} lang={lang.code} chatScriptSrc={process.env.NEXT_PUBLIC_FRAPPE_CHAT_SRC} />
+        </I18nProvider>
       </body>
     </html>
   );

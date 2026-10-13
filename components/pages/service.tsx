@@ -9,7 +9,8 @@ import {
 import { InfoCardGrid } from "@/components/molecules/info-card-grid";
 import { TransferBanner } from "@/components/molecules/transfer-banner";
 import { ViewToggle } from "@/components/molecules/view-toggle";
-import { SERVICE_GROUP_ICONS, type Service } from "@/lib/service-data";
+import { getDictionary, type ServiceContent as Service } from "@/lib/dictionary";
+import { SERVICE_GROUP_ICONS } from "@/lib/service-data";
 import {
   breadcrumbJsonLd,
   faqJsonLd,
@@ -30,17 +31,20 @@ const section = "pt-20 pb-20 max-[767px]:pt-12.5 max-[767px]:pb-12.5";
 
 
 
-export function ServicePageContent({ service: s }: { service: Service }) {
+export async function ServicePageContent({ service: s }: { service: Service }) {
+  const t = await getDictionary();
+  const L = t.service;
+  const groupLabel = t.groups[s.group as keyof typeof t.groups];
   const facts = [
-    ["Standard or scheme", s.code],
-    ["Type", s.type],
-    ["Group", s.group],
-    ["Funding", s.edgeStatus],
+    [L.fact_code, s.code],
+    [L.fact_type, s.type],
+    [L.fact_group, groupLabel],
+    [L.fact_funding, s.edgeStatus],
   ];
   const tabs = [
-    { label: "Audit", items: s.audit },
-    { label: "Consultation", items: s.consultation },
-    { label: "Training", items: s.training },
+    { label: L.tab_audit, items: s.audit },
+    { label: L.tab_consultation, items: s.consultation },
+    { label: L.tab_training, items: s.training },
   ].filter((t) => t.items.length);
 
   return (
@@ -59,8 +63,8 @@ export function ServicePageContent({ service: s }: { service: Service }) {
               serviceJsonLd({ ...s, path: `/services/${s.slug}` }),
               faqJsonLd(s.faqs),
               breadcrumbJsonLd([
-                { name: "Home", path: "/" },
-                { name: "Services", path: "/services" },
+                { name: L.breadcrumb_home, path: "/" },
+                { name: L.breadcrumb_services, path: "/services" },
                 { name: s.name, path: `/services/${s.slug}` },
               ]),
             ]),
@@ -94,11 +98,11 @@ export function ServicePageContent({ service: s }: { service: Service }) {
         <section className={section}>
           <div className={`${container} grid grid-cols-2 max-[991px]:grid-cols-1 gap-10`}>
             <div>
-              <h2 className={h2}>What it is</h2>
+              <h2 className={h2}>{L.what}</h2>
               <p className={p}>{s.what}</p>
             </div>
             <div>
-              <h2 className={h2}>Who it is for</h2>
+              <h2 className={h2}>{L.who}</h2>
               <p className={p}>{s.who}</p>
             </div>
           </div>
@@ -107,7 +111,7 @@ export function ServicePageContent({ service: s }: { service: Service }) {
         {/* Audit, Consultation and Training tabs */}
         <section className={`${section} bg-[#2B3944]`}>
           <div className={container}>
-            <h2 className={`${h2} text-white! text-center`}>How we help</h2>
+            <h2 className={`${h2} text-white! text-center`}>{L.how_we_help}</h2>
             <ContentTabs
               items={tabs.map((t) => ({
                 label: t.label,
@@ -120,7 +124,7 @@ export function ServicePageContent({ service: s }: { service: Service }) {
         {s.extra.length > 0 && (
           <section className={section} data-detail>
             <div className={container}>
-              <h2 className={h2}>Key details</h2>
+              <h2 className={h2}>{L.key_details}</h2>
               <InfoCardGrid items={s.extra} />
             </div>
           </section>
@@ -135,16 +139,15 @@ export function ServicePageContent({ service: s }: { service: Service }) {
               </span>
               <p className={p}>{s.edgeNote}</p>
               <p className="mt-3 mb-0 text-[14px] text-[#616C74]">
-                Information checked {FUNDING_CHECKED}. Grant decisions are made by
-                the funding agency.{" "}
+                {L.info_checked.replace("{date}", FUNDING_CHECKED)}{" "}
                 <SiteLink href="/blogedg" className="text-[#AB052D]">
-                  About EDGE
+                  {L.about_edge}
                 </SiteLink>
               </p>
             </div>
             {s.impartiality.map((x) => (
               <div key={x.heading} className="rounded-2xl p-8 bg-[#F8F8F9] border border-[#DBDEE1]">
-                <h3 className={`${h3} text-[#2B3944]`}>Impartiality</h3>
+                <h3 className={`${h3} text-[#2B3944]`}>{L.impartiality}</h3>
                 <p className={p}>{x.text}</p>
               </div>
             ))}
@@ -154,7 +157,7 @@ export function ServicePageContent({ service: s }: { service: Service }) {
         {/* FAQs */}
         <section className={`${section} bg-[#F8F8F9]`}>
           <div className={`${container} max-w-225!`}>
-            <h2 className={`${h2} text-center`}>Frequently asked questions</h2>
+            <h2 className={`${h2} text-center`}>{L.faq_title}</h2>
             <AccordionGroup>
               {s.faqs.map((f) => (
                 <AccordionItem key={f.q} title={f.q}>
@@ -173,27 +176,27 @@ export function ServicePageContent({ service: s }: { service: Service }) {
         <section className={section}>
           <div className={`${container} grid grid-cols-3 max-[991px]:grid-cols-1 gap-10`}>
             <div>
-              <h2 className={`${h2} text-[26px]!`}>Service sheet</h2>
-              <p className={`${p} mb-4!`}>A one-page summary to share with your team.</p>
+              <h2 className={`${h2} text-[26px]!`}>{L.sheet_title}</h2>
+              <p className={`${p} mb-4!`}>{L.sheet_text}</p>
               <div className="flex gap-3 flex-wrap">
                 <a
                   href={`/downloads/service-sheets/${s.download.pdf}`}
                   download
                   className="rounded-full bg-[#AB052D] hover:bg-[#9D0026] px-6 py-3 text-white font-medium"
                 >
-                  Download PDF
+                  {L.download_pdf}
                 </a>
                 <a
                   href={`/downloads/service-sheets/${s.download.docx}`}
                   download
                   className="rounded-full border border-[#AB052D] px-6 py-3 text-[#AB052D] font-medium"
                 >
-                  Word
+                  {L.word}
                 </a>
               </div>
             </div>
             <div>
-              <h2 className={`${h2} text-[26px]!`}>Related services</h2>
+              <h2 className={`${h2} text-[26px]!`}>{L.related}</h2>
               <ul className="m-0 p-0 list-none space-y-2">
                 {s.related.map((r) => (
                   <li key={r.url}>
@@ -205,7 +208,7 @@ export function ServicePageContent({ service: s }: { service: Service }) {
               </ul>
             </div>
             <div data-detail>
-              <h2 className={`${h2} text-[26px]!`}>References</h2>
+              <h2 className={`${h2} text-[26px]!`}>{L.references}</h2>
               <ul className="m-0 p-0 list-none space-y-2">
                 {s.sources.map((r) => (
                   <li key={r.url}>

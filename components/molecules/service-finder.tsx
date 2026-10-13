@@ -2,53 +2,55 @@
 
 import { useState } from "react";
 import { SiteLink } from "@/components/atoms/site-link";
-import { SERVICE_GROUPS as GROUPS, services } from "@/lib/service-data";
 
-const NEEDS = [
-  { key: "audit", label: "I need a certificate" },
-  { key: "consultation", label: "I need to prepare or implement" },
-  { key: "training", label: "I need training" },
-] as const;
+type Need = "audit" | "consultation" | "training";
+type FinderService = { slug: string; code: string; name: string; group: string; offers: Record<Need, boolean> };
 
-const chip =
-  "rounded-full border px-5 py-3 text-[16px] font-medium transition-colors";
+const chip = "rounded-full border px-5 py-3 text-[16px] font-medium transition-colors";
 const on = "border-[#AB052D] bg-[#AB052D] text-white";
-const off =
-  "border-[#DBDEE1] bg-white text-[#2B3944] hover:border-[#AB052D] hover:text-[#AB052D]";
+const off = "border-[#DBDEE1] bg-white text-[#2B3944] hover:border-[#AB052D] hover:text-[#AB052D]";
 
-/** Two-tap service finder: what you need, then the topic group. */
-export function ServiceFinder() {
-  const [need, setNeed] = useState<(typeof NEEDS)[number]["key"] | null>(null);
+/** Two-tap service finder: what you need, then the topic group. Labels come from the page's dictionary. */
+export function ServiceFinder({
+  services,
+  groups,
+  needs,
+  topicLabel,
+}: {
+  services: FinderService[];
+  groups: [string, string][];
+  needs: [Need, string][];
+  topicLabel: string;
+}) {
+  const [need, setNeed] = useState<Need | null>(null);
   const [group, setGroup] = useState<string | null>(null);
-  const matches = services.filter(
-    (s) => need && group && s.group === group && s[need].length > 0,
-  );
+  const matches = services.filter((s) => need && group && s.group === group && s.offers[need]);
   return (
     <div>
-      <div className="flex flex-wrap gap-3" role="group" aria-label="What do you need?">
-        {NEEDS.map((n) => (
+      <div className="flex flex-wrap gap-3" role="group" aria-label={needs.map(([, l]) => l).join(" / ")}>
+        {needs.map(([key, label]) => (
           <button
-            key={n.key}
+            key={key}
             type="button"
-            aria-pressed={need === n.key}
-            className={`${chip} ${need === n.key ? on : off}`}
-            onClick={() => setNeed(n.key)}
+            aria-pressed={need === key}
+            className={`${chip} ${need === key ? on : off}`}
+            onClick={() => setNeed(key)}
           >
-            {n.label}
+            {label}
           </button>
         ))}
       </div>
       {need && (
-        <div className="mt-5 flex flex-wrap gap-3" role="group" aria-label="Topic">
-          {GROUPS.map((g) => (
+        <div className="mt-5 flex flex-wrap gap-3" role="group" aria-label={topicLabel}>
+          {groups.map(([key, label]) => (
             <button
-              key={g}
+              key={key}
               type="button"
-              aria-pressed={group === g}
-              className={`${chip} ${group === g ? on : off}`}
-              onClick={() => setGroup(g)}
+              aria-pressed={group === key}
+              className={`${chip} ${group === key ? on : off}`}
+              onClick={() => setGroup(key)}
             >
-              {g}
+              {label}
             </button>
           ))}
         </div>

@@ -1,0 +1,185 @@
+{
+ "top": {
+  "obstacle_text": "自2014年起在新加坡提供稽核、顧問與培訓服務。",
+  "connect_link": "聯絡我們",
+  "call_us_label": "來電：",
+  "send_mail_label": "電郵："
+ },
+ "header": {
+  "language_label": "語言",
+  "get_quote": "索取報價",
+  "lms_login": "學習平台登入",
+  "search": "搜尋",
+  "menu": "選單"
+ },
+ "nav": {
+  "home": "首頁",
+  "industries": "行業",
+  "about": "關於我們",
+  "services": "服務",
+  "blog": "洞察",
+  "contact": "聯絡我們"
+ },
+ "groups": {
+  "Cybersecurity, IT and Data Protection": "網絡安全、資訊科技與資料保護",
+  "ISO Management Systems": "ISO管理系統",
+  "Singapore Standards and Schemes": "新加坡標準與計劃",
+  "Sustainability and Supply Chain": "永續發展與供應鏈"
+ },
+ "common": {
+  "get_quote": "索取報價",
+  "view_toggle": [
+   "快速檢視",
+   "完整詳情"
+  ],
+  "transfer_eyebrow": "考慮更換服務供應商？",
+  "transfer_title": "將您的服務轉至ICFC",
+  "transfer_text": "將顧問、內部稽核或培訓轉交我們十分簡單。我們會審閱您現有的系統、證書和計劃，並從前一服務供應商中斷之處接手。認證機構之間的任何認證轉移，均由接收方認證機構依據認可規則辦理。",
+  "transfer_cta": "開始轉移",
+  "draft_notice": "本頁為草稿翻譯，以英文版本為準。"
+ },
+ "footer": {
+  "about_text": "ICFC為新加坡的ISO管理系統、網絡安全、資料保護和永續發展標準提供稽核、顧問與培訓服務。",
+  "services_title": "服務",
+  "company_title": "公司",
+  "legal_title": "法律",
+  "contact_title": "聯絡我們",
+  "all_services": "所有服務",
+  "privacy": "隱私政策",
+  "cookie_notice": "Cookie聲明",
+  "lms_terms": "學習平台條款及細則",
+  "cookie_settings": "Cookie設定",
+  "call_us": "來電",
+  "email": "電郵",
+  "rights": "版權所有。",
+  "uen": "UEN 201402439E"
+ },
+ "home": {
+  "eyebrow": "新加坡，自2014年起",
+  "title": "值得信賴的稽核、顧問與培訓",
+  "intro": "自2014年起，ICFC已協助新加坡及亞太地區的機構取得並維持ISO、網絡安全、資訊科技保證、資料保護和新加坡標準認證。提供公正的稽核、實務的顧問服務，以及課堂和線上培訓。",
+  "find_standard": "找到適合您的標準",
+  "finder_eyebrow": "服務查找",
+  "finder_title": "您今天需要什麼？",
+  "need_audit": "我需要認證證書",
+  "need_consultation": "我需要籌備或實施",
+  "need_training": "我需要培訓",
+  "finder_topic": "主題",
+  "trust_title": "自2014年值得信賴",
+  "stats": [
+   [
+    "12",
+    "在新加坡的年數",
+    "自2014年起"
+   ],
+   [
+    "250+",
+    "服務的客戶",
+    "遍及亞太地區"
+   ],
+   [
+    "500+",
+    "完成的稽核",
+    "第一方、第二方和第三方"
+   ],
+   [
+    "100+",
+    "受訓學員",
+    "課堂與線上"
+   ]
+  ],
+  "services_eyebrow": "服務",
+  "services_title": "四種協助方式",
+  "view_all": "查看全部{n}項",
+  "ways_eyebrow": "三種工作方式",
+  "ways_title": "稽核。顧問。培訓。",
+  "ways": [
+   [
+    "稽核",
+    "由我們的稽核員代表獲認可的認證機構進行第三方稽核，另提供第二方和內部稽核。"
+   ],
+   [
+    "顧問",
+    "獲補助（EDGE）或固定範圍的項目。"
+   ],
+   [
+    "培訓",
+    "透過ICFC Digital LMS提供課堂和線上培訓。"
+   ]
+  ],
+  "edge_eyebrow": "資助",
+  "edge_title": "EDGE Grant對標準的支持",
+  "edge_text": "自2026年9月30日起，企業補助支持已轉至EDGE Grant。我們支援的許多標準均已列入，中小企業最高可獲50%的支持，永續發展標準最高可獲70%，須符合資格並經Enterprise Singapore批准。ICFC的顧問服務由持有SS 680:2021認證的顧問主導，這是EDGE對標準類活動的要求。CSA另行資助首次Cyber Trust和Cyber Essentials認證，直至2028年2月6日。",
+  "edge_cta": "查看EDGE資格",
+  "edge_small": "補助決定由Enterprise Singapore作出。資料核實日期：2026年10月11日。",
+  "why_eyebrow": "為何選擇ICFC",
+  "why_title": "機構選擇我們的原因",
+  "why": [
+   [
+    "設計上即保持公正",
+    "顧問與稽核角色相互分隔，每項委託均從利益衝突審查開始。"
+   ],
+   [
+    "整合稽核",
+    "我們的稽核員可處理整合管理系統，因此可同時稽核多項標準，節省時間和成本。"
+   ],
+   [
+    "SS 680認證顧問",
+    "ICFC的顧問服務由持有SS 680:2021認證的顧問主導，這是Enterprise Singapore對EDGE標準類活動顧問支持所要求的標準。"
+   ],
+   [
+    "學以致用",
+    "ICFC Digital LMS上的課堂和線上培訓，讓您的團隊在項目結束後依然能力出眾。"
+   ]
+  ],
+  "industries_eyebrow": "行業",
+  "industries_title": "我們服務的行業",
+  "industries": {
+   "banking": "銀行與金融服務",
+   "technology": "科技、SaaS與雲端",
+   "data-centres": "數據中心",
+   "healthcare": "醫療保健與醫療器材",
+   "manufacturing": "製造業",
+   "logistics": "物流與冷鏈",
+   "construction": "建築與設施",
+   "education": "教育與培訓",
+   "food": "餐飲",
+   "events": "活動、酒店與會展",
+   "apparel": "服裝與紡織",
+   "automotive": "汽車供應鏈",
+   "professional": "專業服務",
+   "retail": "零售與電子商貿",
+   "energy": "能源、公用事業與基礎設施",
+   "public-sector": "政府供應商與公營機構"
+  },
+  "insights_eyebrow": "洞察",
+  "insights_title": "最新洞察",
+  "all_insights": "所有洞察",
+  "contact_title": "聯絡我們"
+ },
+ "service": {
+  "fact_code": "標準或計劃",
+  "fact_type": "類型",
+  "fact_group": "分組",
+  "fact_funding": "資助",
+  "what": "是什麼",
+  "who": "適合對象",
+  "how_we_help": "我們如何協助",
+  "tab_audit": "稽核",
+  "tab_consultation": "顧問",
+  "tab_training": "培訓",
+  "key_details": "重點資料",
+  "info_checked": "資料核實日期：{date}。補助決定由資助機構作出。",
+  "about_edge": "關於EDGE",
+  "impartiality": "公正性",
+  "faq_title": "常見問題",
+  "sheet_title": "服務單張",
+  "sheet_text": "可與團隊分享的一頁摘要。",
+  "download_pdf": "下載PDF",
+  "word": "Word",
+  "related": "相關服務",
+  "references": "參考資料",
+  "breadcrumb_home": "首頁",
+  "breadcrumb_services": "服務"
+ }
+}

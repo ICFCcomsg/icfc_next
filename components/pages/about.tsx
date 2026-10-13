@@ -1,3 +1,4 @@
+import { Tx } from "@/components/atoms/tx";
 import {
   AnimatedCounter,
   AnimatedElement,
@@ -29,8 +30,8 @@ export function AboutPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="About ICFC"
-      description="Position your agency bridge between a client's big picture"
+      title={<Tx ns="about">{"About ICFC"}</Tx>}
+      description={<Tx ns="about">{"Position your agency bridge between a client's big picture"}</Tx>}
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
@@ -46,7 +47,7 @@ function AboutAreaSection() {
               <div>
                 <div>
                   <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                    {"Best Business Strategy"}
+                    <Tx ns="about">{"Best Business Strategy"}</Tx>
                   </span>
                   <AnimatedElement
                     as="h2"
@@ -55,12 +56,10 @@ function AboutAreaSection() {
                     duration={0.8}
                     className="mt-0 mb-5 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
                   >
-                    {"Build for business growth"}
+                    <Tx ns="about">{"Build for business growth"}</Tx>
                   </AnimatedElement>
                   <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {
-                      "Position your agency as the bridge between a client's big-picture vision and achievable action plans. data-driven strategies and your track."
-                    }
+                    <Tx ns="about">{"Position your agency as the bridge between a client's big-picture vision and achievable action plans. data-driven strategies and your track."}</Tx>
                   </p>
                 </div>
                 <div className="mt-7.5 mb-8.75 grid grid-cols-[repeat(2,1fr)] max-[575px]:grid-cols-[repeat(1,1fr)] gap-[15px_0] w-142.5 max-[767px]:w-full">
@@ -82,7 +81,7 @@ function AboutAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Customized Strategy Solutions "}
+                      <Tx ns="about">{" Customized Strategy Solutions "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -103,7 +102,7 @@ function AboutAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Industry-Specific Insights "}
+                      <Tx ns="about">{" Industry-Specific Insights "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -124,7 +123,7 @@ function AboutAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" SME & Enterprise Support "}
+                      <Tx ns="about">{" SME & Enterprise Support "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -145,7 +144,7 @@ function AboutAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Global Expansion Planning "}
+                      <Tx ns="about">{" Global Expansion Planning "}</Tx>
                     </p>
                   </div>
                 </div>
@@ -153,7 +152,7 @@ function AboutAreaSection() {
                   <div className="mb-6.25 relative overflow-hidden">
                     <div className="mb-4.25">
                       <h6 className="mt-0 mb-0 font-medium leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                        {"Training"}
+                        <Tx ns="about">{"Training"}</Tx>
                       </h6>
                       <span className="absolute text-[16px] top-0 inset-e-0 z-1 font-medium text-[#2B3944]">
                         {"95%"}
@@ -178,7 +177,7 @@ function AboutAreaSection() {
                   <div className="mb-6.25 relative overflow-hidden">
                     <div className="mb-4.25">
                       <h6 className="mt-0 mb-0 font-medium leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                        {"Audit"}
+                        <Tx ns="about">{"Audit"}</Tx>
                       </h6>
                       <span className="absolute text-[16px] top-0 inset-e-0 z-1 font-medium text-[#2B3944]">
                         {"92%"}
@@ -203,7 +202,7 @@ function AboutAreaSection() {
                   <div className="relative overflow-hidden">
                     <div className="mb-4.25">
                       <h6 className="mt-0 mb-0 font-medium leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                        {"Consultancy"}
+                        <Tx ns="about">{"Consultancy"}</Tx>
                       </h6>
                       <span className="absolute text-[16px] top-0 inset-e-0 z-1 font-medium text-[#2B3944]">
                         {"90%"}
@@ -242,14 +241,14 @@ function AboutAreaSection() {
                     />
                   </div>
                   <p className="mt-6.25 mb-6.25 text-[24px] max-[1600px]:text-[22px] font-medium text-[#2B3944] leading-[1.33]">
-                    {"We ensure fastest management team -work"}
+                    <Tx ns="about">{"We ensure fastest management team -work"}</Tx>
                   </p>
                   <div>
                     <SiteLink
                       href="/contact-us"
                       className="text-[#AB052D] [text-decoration:none] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-2 group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
-                      {"Join Now"}
+                      <Tx ns="about">{"Join Now"}</Tx>
                       <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
                         <svg
                           width="16"
@@ -298,41 +297,37 @@ function JourneyExpertiseSectionSection() {
       <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
         <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"Best business strategy · Est. 2014"}
+            <Tx ns="about">{"Best business strategy · Est. 2014"}</Tx>
           </div>
           <h1 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[38px] max-[768px]:text-[28px] [word-break:break-word]">
-            {"Built on a decade of trust."}
+            <Tx ns="about">{"Built on a decade of trust."}</Tx>
             <br />
-            {"Driven by your compliance success."}
+            <Tx ns="about">{"Driven by your compliance success."}</Tx>
           </h1>
           <p className="mt-0 mb-5 text-[16px] [font-weight:normal] text-[#5a5a5a] leading-[1.6]">
-            {
-              "ICFC Pte Ltd was founded in Singapore in 2014 with a single purpose: to make international standards achievable for every organisation — from growing SMEs to established enterprises. Over more than a decade, we have guided hundreds of Singapore businesses through ISO certification, audit, and training, becoming one of the most trusted names in management system consulting in the region."
-            }
+            <Tx ns="about">{"ICFC Pte Ltd was founded in Singapore in 2014 with a single purpose: to make international standards achievable for every organisation — from growing SMEs to established enterprises. Over more than a decade, we have guided hundreds of Singapore businesses through ISO certification, audit, and training, becoming one of the most trusted names in management system consulting in the region."}</Tx>
           </p>
           <p className="mt-0 mb-5 text-[16px] [font-weight:normal] text-[#5a5a5a] leading-[1.6]">
-            {
-              "We are not a generalist consultancy. ISO standards are all we do — and we do them with depth, precision, and a genuine commitment to your long-term operational resilience."
-            }
+            <Tx ns="about">{"We are not a generalist consultancy. ISO standards are all we do — and we do them with depth, precision, and a genuine commitment to your long-term operational resilience."}</Tx>
           </p>
           <div className="mt-5! flex! gap-4! flex-wrap!">
             <SiteLink
               href="/contact-us"
               className="text-white [text-decoration:none] pt-3 pr-7 pb-3 pl-7 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-2 hover:[background:#8a0424] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
-              {"Get to know us ↗"}
+              <Tx ns="about">{"Get to know us ↗"}</Tx>
             </SiteLink>
             <SiteLink
               href="/services"
               className="text-[#111] [text-decoration:none] pt-3 pr-7 pb-3 pl-7 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:1px_solid_#e0e0e0] [background:transparent] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-2 hover:border-[#AB052D] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
-              {"Our services"}
+              <Tx ns="about">{"Our services"}</Tx>
             </SiteLink>
           </div>
         </div>
         <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"By the numbers"}
+            <Tx ns="about">{"By the numbers"}</Tx>
           </div>
           <div className="mt-7.5 grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-7.5 max-[768px]:gap-3.75">
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -340,7 +335,7 @@ function JourneyExpertiseSectionSection() {
                 {"12"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"Years"}
+                <Tx ns="about">{"Years"}</Tx>
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -348,7 +343,7 @@ function JourneyExpertiseSectionSection() {
                 {"250+"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"Clients"}
+                <Tx ns="about">{"Clients"}</Tx>
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -356,7 +351,7 @@ function JourneyExpertiseSectionSection() {
                 {"25"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"Industries served"}
+                <Tx ns="about">{"Industries served"}</Tx>
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -364,7 +359,7 @@ function JourneyExpertiseSectionSection() {
                 {"500+"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"Audits supported"}
+                <Tx ns="about">{"Audits supported"}</Tx>
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -372,7 +367,7 @@ function JourneyExpertiseSectionSection() {
                 {"20+"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"ISO standards portfolio"}
+                <Tx ns="about">{"ISO standards portfolio"}</Tx>
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F8F8F9] rounded-3xl text-center [border:1px_solid_#f0f0f0] hover:transform-[translateY(-5px)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -380,22 +375,20 @@ function JourneyExpertiseSectionSection() {
                 {"100+"}
               </div>
               <div className="text-[14px] text-[#4a4a4a] font-medium">
-                {"Trainees"}
+                <Tx ns="about">{"Trainees"}</Tx>
               </div>
             </div>
           </div>
         </div>
         <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"Our three service pillars"}
+            <Tx ns="about">{"Our three service pillars"}</Tx>
           </div>
           <h2 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[32px]! [word-break:break-word]">
-            {"Everything you need, under one roof"}
+            <Tx ns="about">{"Everything you need, under one roof"}</Tx>
           </h2>
           <p className="mt-0 mb-5 text-[16px] [font-weight:normal] text-[#5a5a5a] leading-[1.6]">
-            {
-              "Whether you are pursuing your first ISO certificate, preparing for a surveillance audit, or building internal capability, ICFC delivers end-to-end support without the complexity of managing multiple vendors."
-            }
+            <Tx ns="about">{"Whether you are pursuing your first ISO certificate, preparing for a surveillance audit, or building internal capability, ICFC delivers end-to-end support without the complexity of managing multiple vendors."}</Tx>
           </p>
           <div className="mt-10 mr-0 mb-5 ml-0 grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-7.5 max-[768px]:gap-5">
             <div className="pt-7.5 pr-6.25 pb-7.5 pl-6.25 [background:#fff] rounded-[28px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] [border:1px_solid_#ebebeb] hover:shadow-[0_20px_35px_rgba(0,0,0,0.08)] hover:border-[#AB052D20] [transition:all_0.3s_ease] motion-reduce:transition-none">
@@ -403,22 +396,20 @@ function JourneyExpertiseSectionSection() {
                 {"01"}
               </div>
               <div className="mb-3.75 text-[22px] font-semibold text-[#111]">
-                {"ISO Consultation"}
+                <Tx ns="about">{"ISO Consultation"}</Tx>
               </div>
               <p className="mt-0 mb-5 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-normal">
-                {
-                  "From gap analysis and documentation to full system implementation — tailored to your business context."
-                }
+                <Tx ns="about">{"From gap analysis and documentation to full system implementation — tailored to your business context."}</Tx>
               </p>
               <div className="mt-3.75 flex flex-wrap gap-2">
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Gap analysis"}
+                  <Tx ns="about">{"Gap analysis"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Documentation"}
+                  <Tx ns="about">{"Documentation"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Implementation"}
+                  <Tx ns="about">{"Implementation"}</Tx>
                 </span>
               </div>
             </div>
@@ -427,22 +418,20 @@ function JourneyExpertiseSectionSection() {
                 {"02"}
               </div>
               <div className="mb-3.75 text-[22px] font-semibold text-[#111]">
-                {"Third-party & certification audit"}
+                <Tx ns="about">{"Third-party & certification audit"}</Tx>
               </div>
               <p className="mt-0 mb-5 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-normal">
-                {
-                  "Independent assessments against ISO standards, preparing you for certification body audits or serving as the audit itself."
-                }
+                <Tx ns="about">{"Independent assessments against ISO standards, preparing you for certification body audits or serving as the audit itself."}</Tx>
               </p>
               <div className="mt-3.75 flex flex-wrap gap-2">
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Stage 1 & 2 audits"}
+                  <Tx ns="about">{"Stage 1 & 2 audits"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Surveillance"}
+                  <Tx ns="about">{"Surveillance"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Recertification"}
+                  <Tx ns="about">{"Recertification"}</Tx>
                 </span>
               </div>
             </div>
@@ -451,61 +440,59 @@ function JourneyExpertiseSectionSection() {
                 {"03"}
               </div>
               <div className="mb-3.75 text-[22px] font-semibold text-[#111]">
-                {"Training programmes"}
+                <Tx ns="about">{"Training programmes"}</Tx>
               </div>
               <p className="mt-0 mb-5 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-normal">
-                {
-                  "Accredited courses to build lasting internal competence — lead auditor, internal auditor, implementation, and awareness."
-                }
+                <Tx ns="about">{"Accredited courses to build lasting internal competence — lead auditor, internal auditor, implementation, and awareness."}</Tx>
               </p>
               <div className="mt-3.75 flex flex-wrap gap-2">
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Lead auditor"}
+                  <Tx ns="about">{"Lead auditor"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Internal auditor"}
+                  <Tx ns="about">{"Internal auditor"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Awareness"}
+                  <Tx ns="about">{"Awareness"}</Tx>
                 </span>
               </div>
             </div>
           </div>
           <div className="mt-5!">
             <div className="mb-2.5! pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-              {"Standards we specialise in"}
+              <Tx ns="about">{"Standards we specialise in"}</Tx>
             </div>
             <div className="mt-3.75 flex flex-wrap gap-2 justify-start!">
               <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                {"ISO/IEC 27001"}
+                <Tx ns="about">{"ISO/IEC 27001"}</Tx>
               </span>
               <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                {"ISO/IEC 42001"}
+                <Tx ns="about">{"ISO/IEC 42001"}</Tx>
               </span>
               <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                {"ISO 9001"}
+                <Tx ns="about">{"ISO 9001"}</Tx>
               </span>
               <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                {"ISO 14001"}
+                <Tx ns="about">{"ISO 14001"}</Tx>
               </span>
               <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                {"ISO 45001"}
+                <Tx ns="about">{"ISO 45001"}</Tx>
               </span>
               <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                {"ISO 37001"}
+                <Tx ns="about">{"ISO 37001"}</Tx>
               </span>
               <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                {"ISO 22301"}
+                <Tx ns="about">{"ISO 22301"}</Tx>
               </span>
             </div>
           </div>
         </div>
         <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"Our journey"}
+            <Tx ns="about">{"Our journey"}</Tx>
           </div>
           <h2 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[32px]! [word-break:break-word]">
-            {"A decade of deliberate growth"}
+            <Tx ns="about">{"A decade of deliberate growth"}</Tx>
           </h2>
           <div className="mt-10 mr-0 mb-0 ml-0">
             <div className="pt-5 pr-0 pb-5 pl-0 flex gap-6.25 [border-bottom:1px_solid_#efefef]">
@@ -514,12 +501,10 @@ function JourneyExpertiseSectionSection() {
               </div>
               <div>
                 <h4 className="mt-0 mb-1.5 font-semibold leading-[1.33] text-[#2B3944] text-[18px] [word-break:break-word]">
-                  {"ICFC Pte Ltd founded in Singapore"}
+                  <Tx ns="about">{"ICFC Pte Ltd founded in Singapore"}</Tx>
                 </h4>
                 <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-7">
-                  {
-                    "Started with ISO 9001 and ISO 14001 consultation for manufacturing and logistics clients."
-                  }
+                  <Tx ns="about">{"Started with ISO 9001 and ISO 14001 consultation for manufacturing and logistics clients."}</Tx>
                 </p>
               </div>
             </div>
@@ -529,12 +514,10 @@ function JourneyExpertiseSectionSection() {
               </div>
               <div>
                 <h4 className="mt-0 mb-1.5 font-semibold leading-[1.33] text-[#2B3944] text-[18px] [word-break:break-word]">
-                  {"Expanded into information security"}
+                  <Tx ns="about">{"Expanded into information security"}</Tx>
                 </h4>
                 <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-7">
-                  {
-                    "Added ISO/IEC 27001 as Singapore's financial and tech sectors accelerated demand."
-                  }
+                  <Tx ns="about">{"Added ISO/IEC 27001 as Singapore's financial and tech sectors accelerated demand."}</Tx>
                 </p>
               </div>
             </div>
@@ -544,12 +527,10 @@ function JourneyExpertiseSectionSection() {
               </div>
               <div>
                 <h4 className="mt-0 mb-1.5 font-semibold leading-[1.33] text-[#2B3944] text-[18px] [word-break:break-word]">
-                  {"Launched formal training division"}
+                  <Tx ns="about">{"Launched formal training division"}</Tx>
                 </h4>
                 <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-7">
-                  {
-                    "Introduced accredited lead auditor courses, training over 300 professionals in two years."
-                  }
+                  <Tx ns="about">{"Introduced accredited lead auditor courses, training over 300 professionals in two years."}</Tx>
                 </p>
               </div>
             </div>
@@ -559,12 +540,10 @@ function JourneyExpertiseSectionSection() {
               </div>
               <div>
                 <h4 className="mt-0 mb-1.5 font-semibold leading-[1.33] text-[#2B3944] text-[18px] [word-break:break-word]">
-                  {"Adapted for remote consultation & audit"}
+                  <Tx ns="about">{"Adapted for remote consultation & audit"}</Tx>
                 </h4>
                 <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-7">
-                  {
-                    "Maintained 100% client continuity with zero project delays during COVID-19."
-                  }
+                  <Tx ns="about">{"Maintained 100% client continuity with zero project delays during COVID-19."}</Tx>
                 </p>
               </div>
             </div>
@@ -574,12 +553,10 @@ function JourneyExpertiseSectionSection() {
               </div>
               <div>
                 <h4 className="mt-0 mb-1.5 font-semibold leading-[1.33] text-[#2B3944] text-[18px] [word-break:break-word]">
-                  {"PDPA and privacy management practice"}
+                  <Tx ns="about">{"PDPA and privacy management practice"}</Tx>
                 </h4>
                 <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-7">
-                  {
-                    "Launched ISO 27701 and PDPA advisory services for Singapore's regulatory landscape."
-                  }
+                  <Tx ns="about">{"Launched ISO 27701 and PDPA advisory services for Singapore's regulatory landscape."}</Tx>
                 </p>
               </div>
             </div>
@@ -589,12 +566,10 @@ function JourneyExpertiseSectionSection() {
               </div>
               <div>
                 <h4 className="mt-0 mb-1.5 font-semibold leading-[1.33] text-[#2B3944] text-[18px] [word-break:break-word]">
-                  {"ISO 42001 AI management practice launched"}
+                  <Tx ns="about">{"ISO 42001 AI management practice launched"}</Tx>
                 </h4>
                 <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-7">
-                  {
-                    "Among the first consultancies in Singapore to offer ISO/IEC 42001 consultation."
-                  }
+                  <Tx ns="about">{"Among the first consultancies in Singapore to offer ISO/IEC 42001 consultation."}</Tx>
                 </p>
               </div>
             </div>
@@ -604,12 +579,10 @@ function JourneyExpertiseSectionSection() {
               </div>
               <div>
                 <h4 className="mt-0 mb-1.5 font-semibold leading-[1.33] text-[#2B3944] text-[18px] [word-break:break-word]">
-                  {"Serving 25 high-growth industries"}
+                  <Tx ns="about">{"Serving 25 high-growth industries"}</Tx>
                 </h4>
                 <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-7">
-                  {
-                    "Helping SMEs and enterprises understand EDGE Grant support (subject to eligibility and approval) alongside ISO projects."
-                  }
+                  <Tx ns="about">{"Helping SMEs and enterprises understand EDGE Grant support (subject to eligibility and approval) alongside ISO projects."}</Tx>
                 </p>
               </div>
             </div>
@@ -617,10 +590,10 @@ function JourneyExpertiseSectionSection() {
         </div>
         <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"Our values"}
+            <Tx ns="about">{"Our values"}</Tx>
           </div>
           <h2 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[32px]! [word-break:break-word]">
-            {"How we show up for every client"}
+            <Tx ns="about">{"How we show up for every client"}</Tx>
           </h2>
           <div className="mt-8.75 mr-0 mb-0 ml-0 grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6.25">
             <div className="pt-6.25 pr-6.25 pb-6.25 pl-6.25 [background:#FCFCFC] rounded-[20px] [border:1px_solid_#eee]">
@@ -628,12 +601,10 @@ function JourneyExpertiseSectionSection() {
                 {"⚖️"}
               </div>
               <div className="mb-2.5 text-[18px] font-semibold">
-                {"Honest advice"}
+                <Tx ns="about">{"Honest advice"}</Tx>
               </div>
               <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-normal">
-                {
-                  "We tell you what your business genuinely needs — not the largest engagement."
-                }
+                <Tx ns="about">{"We tell you what your business genuinely needs — not the largest engagement."}</Tx>
               </p>
             </div>
             <div className="pt-6.25 pr-6.25 pb-6.25 pl-6.25 [background:#FCFCFC] rounded-[20px] [border:1px_solid_#eee]">
@@ -641,12 +612,10 @@ function JourneyExpertiseSectionSection() {
                 {"📊"}
               </div>
               <div className="mb-2.5 text-[18px] font-semibold">
-                {"Practical outcomes"}
+                <Tx ns="about">{"Practical outcomes"}</Tx>
               </div>
               <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-normal">
-                {
-                  "Every deliverable is designed for your team to own and sustain — not just to pass the audit."
-                }
+                <Tx ns="about">{"Every deliverable is designed for your team to own and sustain — not just to pass the audit."}</Tx>
               </p>
             </div>
             <div className="pt-6.25 pr-6.25 pb-6.25 pl-6.25 [background:#FCFCFC] rounded-[20px] [border:1px_solid_#eee]">
@@ -654,12 +623,10 @@ function JourneyExpertiseSectionSection() {
                 {"🏭"}
               </div>
               <div className="mb-2.5 text-[18px] font-semibold">
-                {"Industry depth"}
+                <Tx ns="about">{"Industry depth"}</Tx>
               </div>
               <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-normal">
-                {
-                  "Our consultants bring sector-specific experience beyond just the ISO standard."
-                }
+                <Tx ns="about">{"Our consultants bring sector-specific experience beyond just the ISO standard."}</Tx>
               </p>
             </div>
             <div className="pt-6.25 pr-6.25 pb-6.25 pl-6.25 [background:#FCFCFC] rounded-[20px] [border:1px_solid_#eee]">
@@ -667,97 +634,95 @@ function JourneyExpertiseSectionSection() {
                 {"🤝"}
               </div>
               <div className="mb-2.5 text-[18px] font-semibold">
-                {"Long-term partnership"}
+                <Tx ns="about">{"Long-term partnership"}</Tx>
               </div>
               <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-normal">
-                {
-                  "We stay with clients through surveillance cycles, recertification, and new standards adoption."
-                }
+                <Tx ns="about">{"We stay with clients through surveillance cycles, recertification, and new standards adoption."}</Tx>
               </p>
             </div>
           </div>
         </div>
         <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"Expert team"}
+            <Tx ns="about">{"Expert team"}</Tx>
           </div>
           <h2 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[32px]! [word-break:break-word]">
-            {"Meet the people behind your certification"}
+            <Tx ns="about">{"Meet the people behind your certification"}</Tx>
           </h2>
           <div className="mt-8.75 grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-7.5">
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F9F9FB] rounded-3xl text-center">
               <div className="mt-0 mr-auto mb-4.5 ml-auto w-21.25 h-21.25 [background:#0C447C]! rounded-full flex items-center justify-center text-[28px] font-semibold text-[white]">
-                {"LC"}
+                <Tx ns="about">{"LC"}</Tx>
               </div>
               <h4 className="mt-0 mb-0 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                {"Lead consultant"}
+                <Tx ns="about">{"Lead consultant"}</Tx>
               </h4>
               <p className="mt-0 mb-7.5 text-[13px]! [font-weight:normal] text-[#666]! leading-7">
-                {"Information security & AI governance"}
+                <Tx ns="about">{"Information security & AI governance"}</Tx>
               </p>
               <div className="mt-3.75 flex flex-wrap gap-2 justify-center!">
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"ISO 27001"}
+                  <Tx ns="about">{"ISO 27001"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"ISO 42001"}
+                  <Tx ns="about">{"ISO 42001"}</Tx>
                 </span>
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F9F9FB] rounded-3xl text-center">
               <div className="mt-0 mr-auto mb-4.5 ml-auto w-21.25 h-21.25 [background:#AB052D]! rounded-full flex items-center justify-center text-[28px] font-semibold text-[white]">
-                {"SA"}
+                <Tx ns="about">{"SA"}</Tx>
               </div>
               <h4 className="mt-0 mb-0 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                {"Senior auditor"}
+                <Tx ns="about">{"Senior auditor"}</Tx>
               </h4>
               <p className="mt-0 mb-7.5 text-[13px]! [font-weight:normal] text-[#666]! leading-7">
-                {"Quality & environmental management"}
+                <Tx ns="about">{"Quality & environmental management"}</Tx>
               </p>
               <div className="mt-3.75 flex flex-wrap gap-2 justify-center!">
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"ISO 9001"}
+                  <Tx ns="about">{"ISO 9001"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"ISO 14001"}
+                  <Tx ns="about">{"ISO 14001"}</Tx>
                 </span>
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F9F9FB] rounded-3xl text-center">
               <div className="mt-0 mr-auto mb-4.5 ml-auto w-21.25 h-21.25 [background:#27500A]! rounded-full flex items-center justify-center text-[28px] font-semibold text-[white]">
-                {"TC"}
+                <Tx ns="about">{"TC"}</Tx>
               </div>
               <h4 className="mt-0 mb-0 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                {"Training director"}
+                <Tx ns="about">{"Training director"}</Tx>
               </h4>
               <p className="mt-0 mb-7.5 text-[13px]! [font-weight:normal] text-[#666]! leading-7">
-                {"Lead auditor & implementation courses"}
+                <Tx ns="about">{"Lead auditor & implementation courses"}</Tx>
               </p>
               <div className="mt-3.75 flex flex-wrap gap-2 justify-center!">
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"Lead auditor"}
+                  <Tx ns="about">{"Lead auditor"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"ISO 9001"}
+                  <Tx ns="about">{"ISO 9001"}</Tx>
                 </span>
               </div>
             </div>
             <div className="pt-6.25 pr-5 pb-6.25 pl-5 [background:#F9F9FB] rounded-3xl text-center">
               <div className="mt-0 mr-auto mb-4.5 ml-auto w-21.25 h-21.25 [background:#633806]! rounded-full flex items-center justify-center text-[28px] font-semibold text-[white]">
-                {"BC"}
+                <Tx ns="about">{"BC"}</Tx>
               </div>
               <h4 className="mt-0 mb-0 font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                {"Business consultant"}
+                <Tx ns="about">{"Business consultant"}</Tx>
               </h4>
               <p className="mt-0 mb-7.5 text-[13px]! [font-weight:normal] text-[#666]! leading-7">
-                {"EDGE Grant guidance"}
+                <Tx ns="about">{"EDGE Grant guidance"}</Tx>
               </p>
               <div className="mt-3.75 flex flex-wrap gap-2 justify-center!">
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"EDGE Grant"}
+                  <Tx ns="about">{"EDGE Grant"}</Tx>
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"ISO 37001"}
+                  <Tx ns="about">{"ISO 37001"}</Tx>
                 </span>
               </div>
             </div>
@@ -765,52 +730,48 @@ function JourneyExpertiseSectionSection() {
         </div>
         <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"EDGE Grant"}
+            <Tx ns="about">{"EDGE Grant"}</Tx>
           </div>
           <h2 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[32px]! [word-break:break-word]">
-            {"Funding your ISO journey"}
+            <Tx ns="about">{"Funding your ISO journey"}</Tx>
           </h2>
           <div className="mt-7.5 mr-0 mb-5 ml-0 pt-8.75 pr-10 pb-8.75 pl-10 [background:linear-gradient(135deg,#FDF8F0_0%,#FFF5E6_100%)] rounded-[28px] [border:1px_solid_#FFE0B5]">
             <p className="mt-0 mb-2.5! text-[18px]! font-semibold! text-[#616C74] leading-7">
-              {"How we support EDGE projects"}
+              <Tx ns="about">{"How we support EDGE projects"}</Tx>
             </p>
             <p className="mt-0 mb-5! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-              {
-                "Our consultancy is led by SS 680:2021 certified consultants. We prepare the proposal, quotation and consultant details EDGE asks for; you apply yourself on the Business Grants Portal. Support is subject to eligibility and Enterprise Singapore's approval."
-              }
+              <Tx ns="about">{"Our consultancy is led by SS 680:2021 certified consultants. We prepare the proposal, quotation and consultant details EDGE asks for; you apply yourself on the Business Grants Portal. Support is subject to eligibility and Enterprise Singapore's approval."}</Tx>
             </p>
             <SiteLink
               href="/contact-us"
               className="text-white [text-decoration:none] pt-3 pr-7 pb-3 pl-7 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-2 hover:[background:#8a0424] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
-              {"Check EDGE eligibility ↗"}
+              <Tx ns="about">{"Check EDGE eligibility ↗"}</Tx>
             </SiteLink>
           </div>
         </div>
         <div className="mb-0 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"Ready to begin?"}
+            <Tx ns="about">{"Ready to begin?"}</Tx>
           </div>
           <h2 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[32px]! [word-break:break-word]">
-            {"Let's build your certification roadmap"}
+            <Tx ns="about">{"Let's build your certification roadmap"}</Tx>
           </h2>
           <p className="mt-0 mb-5 text-[16px] [font-weight:normal] text-[#5a5a5a] leading-[1.6]">
-            {
-              "Whether you know exactly which standard you need or are still exploring options, our consultants will give you an honest, no-obligation assessment."
-            }
+            <Tx ns="about">{"Whether you know exactly which standard you need or are still exploring options, our consultants will give you an honest, no-obligation assessment."}</Tx>
           </p>
           <div>
             <SiteLink
               href="/contact-us"
               className="text-white [text-decoration:none] pt-3 pr-7 pb-3 pl-7 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-2 hover:[background:#8a0424] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
-              {"Book a free consultation ↗"}
+              <Tx ns="about">{"Book a free consultation ↗"}</Tx>
             </SiteLink>
             <SiteLink
               href="/industry"
               className="text-[#111] [text-decoration:none] pt-3 pr-7 pb-3 pl-7 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:1px_solid_#e0e0e0] [background:transparent] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-2 hover:border-[#AB052D] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
-              {"Explore our industries"}
+              <Tx ns="about">{"Explore our industries"}</Tx>
             </SiteLink>
           </div>
         </div>
@@ -827,7 +788,7 @@ function ServicesAreaSection() {
           <div className="shrink-0 w-[58.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[75%] min-[992px]:max-[1200px]:w-[66.66666667%] max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
             <div className="text-center! mb-11.25">
               <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#FFFFFF] inline-block tracking-[2.5px]">
-                {"Your Business Our Expertise"}
+                <Tx ns="about">{"Your Business Our Expertise"}</Tx>
               </span>
               <AnimatedElement
                 as="h2"
@@ -836,12 +797,10 @@ function ServicesAreaSection() {
                 duration={0.8}
                 className="mt-0 mb-2.5 font-semibold leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
               >
-                {"Services for Your Business Growth"}
+                <Tx ns="about">{"Services for Your Business Growth"}</Tx>
               </AnimatedElement>
               <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.8)] leading-7">
-                {
-                  "We deliver tailored solutions that help businesses grow, scale, and succeed in a competitive market."
-                }
+                <Tx ns="about">{"We deliver tailored solutions that help businesses grow, scale, and succeed in a competitive market."}</Tx>
               </p>
             </div>
           </div>
@@ -861,7 +820,7 @@ function ServicesAreaSection() {
                           {"2014"}
                         </span>
                         <h4 className="mt-0 mb-0 font-medium leading-[1.33] text-[#FFFFFF] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                          {"Founded in Singapore"}
+                          <Tx ns="about">{"Founded in Singapore"}</Tx>
                         </h4>
                       </div>
                       <div>
@@ -871,9 +830,7 @@ function ServicesAreaSection() {
                       </div>
                     </div>
                     <p className="mt-0 mb-0 text-[20px] max-[575px]:text-[18px] [font-weight:normal] text-[white] leading-normal italic">
-                      {
-                        "We help businesses establish a strong foundation with strategic planning, branding, and market entry solutions."
-                      }
+                      <Tx ns="about">{"We help businesses establish a strong foundation with strategic planning, branding, and market entry solutions."}</Tx>
                     </p>
                   </div>
                   <div className="min-w-111.75 max-[991px]:min-w-full min-[991px]:max-[1199px]:min-w-100">
@@ -899,7 +856,7 @@ function ServicesAreaSection() {
                           {"2016 - 2019"}
                         </span>
                         <h4 className="mt-0 mb-0 font-medium leading-[1.33] text-[#FFFFFF] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                          {"ISO Management Systems"}
+                          <Tx ns="about">{"ISO Management Systems"}</Tx>
                         </h4>
                       </div>
                       <div>
@@ -909,9 +866,7 @@ function ServicesAreaSection() {
                       </div>
                     </div>
                     <p className="mt-0 mb-0 text-[20px] max-[575px]:text-[18px] [font-weight:normal] text-[white] leading-normal italic">
-                      {
-                        "Our expert strategies drive business growth by improving operations, increasing efficiency, and maximizing ROI."
-                      }
+                      <Tx ns="about">{"Our expert strategies drive business growth by improving operations, increasing efficiency, and maximizing ROI."}</Tx>
                     </p>
                   </div>
                 </div>
@@ -923,7 +878,7 @@ function ServicesAreaSection() {
                           {"2019 - 2022"}
                         </span>
                         <h4 className="mt-0 mb-0 font-medium leading-[1.33] text-[#FFFFFF] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                          {"Cybersecurity & Data Protection"}
+                          <Tx ns="about">{"Cybersecurity & Data Protection"}</Tx>
                         </h4>
                       </div>
                       <div>
@@ -933,9 +888,7 @@ function ServicesAreaSection() {
                       </div>
                     </div>
                     <p className="mt-0 mb-0 text-[20px] max-[575px]:text-[18px] [font-weight:normal] text-[white] leading-normal italic">
-                      {
-                        "We provide smart financial solutions, investment planning, and risk assessment to ensure long-term stability."
-                      }
+                      <Tx ns="about">{"We provide smart financial solutions, investment planning, and risk assessment to ensure long-term stability."}</Tx>
                     </p>
                   </div>
                   <div className="min-w-111.75 max-[991px]:min-w-full min-[991px]:max-[1199px]:min-w-100">
@@ -961,7 +914,7 @@ function ServicesAreaSection() {
                           {"2022 - 2026"}
                         </span>
                         <h4 className="mt-0 mb-0 font-medium leading-[1.33] text-[#FFFFFF] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                          {"Risk Management"}
+                          <Tx ns="about">{"Risk Management"}</Tx>
                         </h4>
                       </div>
                       <div>
@@ -971,9 +924,7 @@ function ServicesAreaSection() {
                       </div>
                     </div>
                     <p className="mt-0 mb-0 text-[20px] max-[575px]:text-[18px] [font-weight:normal] text-[white] leading-normal italic">
-                      {
-                        "We identify potential risks and implement proactive strategies to protect your business and ensure sustainable growth."
-                      }
+                      <Tx ns="about">{"We identify potential risks and implement proactive strategies to protect your business and ensure sustainable growth."}</Tx>
                     </p>
                   </div>
                 </div>
@@ -1000,7 +951,7 @@ function WhyChooseAreaSection() {
               <div>
                 <div>
                   <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                    {"Why choose us ICFC"}
+                    <Tx ns="about">{"Why choose us ICFC"}</Tx>
                   </span>
                   <AnimatedElement
                     as="h2"
@@ -1009,12 +960,10 @@ function WhyChooseAreaSection() {
                     duration={0.8}
                     className="mt-0 mb-5 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
                   >
-                    {"Scaling new heights with strategic excellence."}
+                    <Tx ns="about">{"Scaling new heights with strategic excellence."}</Tx>
                   </AnimatedElement>
                   <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {
-                      "We provide the best services, ensuring your outstanding growth, lorem ipsum dolor sit amet. Nulla ultrices vitae neque non sodales."
-                    }
+                    <Tx ns="about">{"We provide the best services, ensuring your outstanding growth, lorem ipsum dolor sit amet. Nulla ultrices vitae neque non sodales."}</Tx>
                   </p>
                 </div>
                 <div className="mt-7.5 grid grid-cols-[repeat(2,1fr)] max-[575px]:grid-cols-[repeat(1,1fr)] gap-[15px_0] w-127.5 max-[767px]:w-full">
@@ -1036,7 +985,7 @@ function WhyChooseAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Regulatory Investigations "}
+                      <Tx ns="about">{" Regulatory Investigations "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -1057,7 +1006,7 @@ function WhyChooseAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Competitive Work Analysis "}
+                      <Tx ns="about">{" Competitive Work Analysis "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -1078,7 +1027,7 @@ function WhyChooseAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Anit- Competitive Conduct "}
+                      <Tx ns="about">{" Anit- Competitive Conduct "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -1099,7 +1048,7 @@ function WhyChooseAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Innovation. Strategy. Success. "}
+                      <Tx ns="about">{" Innovation. Strategy. Success. "}</Tx>
                     </p>
                   </div>
                 </div>
@@ -1108,7 +1057,7 @@ function WhyChooseAreaSection() {
                     href="/about"
                     className="text-[#FFFFFF] [text-decoration:none] pt-3.5 pr-6.5 pb-3.5 pl-6.5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] gap-2 group/btn [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
-                    {"Get Start Now"}
+                    <Tx ns="about">{"Get Start Now"}</Tx>
                     <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
                       <svg
                         width="16"
@@ -1145,7 +1094,7 @@ function WhyChooseAreaSection() {
                   <div className="relative overflow-hidden">
                     <div className="mb-4.25">
                       <h6 className="mt-0 mb-0 font-medium leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                        {"Businesss & Industry Management"}
+                        <Tx ns="about">{"Businesss & Industry Management"}</Tx>
                       </h6>
                       <span className="absolute text-[16px] top-0 inset-e-0 z-1 font-medium text-[#2B3944]">
                         {"90%"}
@@ -1184,14 +1133,14 @@ function WhyChooseAreaSection() {
                     />
                   </div>
                   <p className="mt-6.25 mb-6.25 text-[24px] max-[1600px]:text-[22px] font-medium text-[#2B3944] leading-[1.33]">
-                    {"We ensure fastest management team -work"}
+                    <Tx ns="about">{"We ensure fastest management team -work"}</Tx>
                   </p>
                   <div>
                     <SiteLink
                       href="/contact-us"
                       className="text-[#AB052D] [text-decoration:none] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] w-[unset] h-[unset] gap-2 group/btn group/has-text [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                     >
-                      {"Join Now"}
+                      <Tx ns="about">{"Join Now"}</Tx>
                       <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
                         <svg
                           width="16"
@@ -1272,7 +1221,7 @@ function CounterAreaSection() {
                       {"K"}
                     </span>
                   </div>
-                  <span className="">{"Projects Completed"}</span>
+                  <span className=""><Tx ns="about">{"Projects Completed"}</Tx></span>
                 </div>
               </AnimatedElement>
               <AnimatedElement
@@ -1306,7 +1255,7 @@ function CounterAreaSection() {
                       {"K"}
                     </span>
                   </div>
-                  <span className="">{"Customer Satisfaction"}</span>
+                  <span className=""><Tx ns="about">{"Customer Satisfaction"}</Tx></span>
                 </div>
               </AnimatedElement>
               <AnimatedElement
@@ -1337,7 +1286,7 @@ function CounterAreaSection() {
                       {"K"}
                     </span>
                   </div>
-                  <span className="">{"Consulting Award"}</span>
+                  <span className=""><Tx ns="about">{"Consulting Award"}</Tx></span>
                 </div>
               </AnimatedElement>
               <AnimatedElement
@@ -1367,7 +1316,7 @@ function CounterAreaSection() {
                       {"K"}
                     </span>
                   </div>
-                  <span className="">{"Strategic Partners"}</span>
+                  <span className=""><Tx ns="about">{"Strategic Partners"}</Tx></span>
                 </div>
               </AnimatedElement>
             </div>
@@ -1413,13 +1362,11 @@ function FeatureAreaSection() {
                   </AnimatedElement>
                 </div>
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em]">
-                  {" Cost-Effectiveness"}
+                  <Tx ns="about">{" Cost-Effectiveness"}</Tx>
                 </h5>
                 <span className="mt-4.75 mb-2.5 w-36.25 max-[1199px]:w-full relative inline-block border-[rgba(255,255,255,0.14)] border-solid [border-width:0px_0px_1px_0px] after:absolute after:[content:''] after:w-17.5 after:[background:#FFFFFF] after:inset-s-0 after:h-0.5 after:top-[50%] after:transform-[translateY(-50%)]"></span>
                 <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.8)] leading-7">
-                  {
-                    " We provide a antenna base on facts hype, to help improve returns your."
-                  }
+                  <Tx ns="about">{" We provide a antenna base on facts hype, to help improve returns your."}</Tx>
                 </p>
               </AnimatedElement>
               <AnimatedElement
@@ -1447,13 +1394,11 @@ function FeatureAreaSection() {
                   </AnimatedElement>
                 </div>
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em]">
-                  {" Innovative Technology"}
+                  <Tx ns="about">{" Innovative Technology"}</Tx>
                 </h5>
                 <span className="mt-4.75 mb-2.5 w-36.25 max-[1199px]:w-full relative inline-block border-[rgba(255,255,255,0.14)] border-solid [border-width:0px_0px_1px_0px] after:absolute after:[content:''] after:w-17.5 after:[background:#FFFFFF] after:inset-s-0 after:h-0.5 after:top-[50%] after:transform-[translateY(-50%)]"></span>
                 <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.8)] leading-7">
-                  {
-                    " Our mission is to empower businesses with the insight structure and tools."
-                  }
+                  <Tx ns="about">{" Our mission is to empower businesses with the insight structure and tools."}</Tx>
                 </p>
               </AnimatedElement>
               <AnimatedElement
@@ -1490,13 +1435,11 @@ function FeatureAreaSection() {
                   </AnimatedElement>
                 </div>
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#FFFFFF] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word] tracking-[0.01em]">
-                  {" Industry Expertise"}
+                  <Tx ns="about">{" Industry Expertise"}</Tx>
                 </h5>
                 <span className="mt-4.75 mb-2.5 w-36.25 max-[1199px]:w-full relative inline-block border-[rgba(255,255,255,0.14)] border-solid [border-width:0px_0px_1px_0px] after:absolute after:[content:''] after:w-17.5 after:[background:#FFFFFF] after:inset-s-0 after:h-0.5 after:top-[50%] after:transform-[translateY(-50%)]"></span>
                 <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.8)] leading-7">
-                  {
-                    " We begin by understanding your current state goals challenges. "
-                  }
+                  <Tx ns="about">{" We begin by understanding your current state goals challenges. "}</Tx>
                 </p>
               </AnimatedElement>
             </div>
@@ -1517,7 +1460,7 @@ function FeatureAreaSection2() {
               <div>
                 <div>
                   <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                    {"Build Your Industries"}
+                    <Tx ns="about">{"Build Your Industries"}</Tx>
                   </span>
                   <AnimatedElement
                     as="h2"
@@ -1526,12 +1469,10 @@ function FeatureAreaSection2() {
                     duration={0.8}
                     className="mt-0 mb-2.5 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
                   >
-                    {"Industries we help"}
+                    <Tx ns="about">{"Industries we help"}</Tx>
                   </AnimatedElement>
                   <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {
-                      "We support businesses in tech, retail, real estate, finance, healthcare, and more providing custom strategies that work in your world."
-                    }
+                    <Tx ns="about">{"We support businesses in tech, retail, real estate, finance, healthcare, and more providing custom strategies that work in your world."}</Tx>
                   </p>
                 </div>
                 <div className="mt-10.5 max-[991px]:mt-7.5">
@@ -1539,7 +1480,7 @@ function FeatureAreaSection2() {
                     href="/industry"
                     className="text-[#FFFFFF] [text-decoration:none] pt-3.5 pr-6.5 pb-3.5 pl-6.5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] gap-2 group/btn [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
-                    {"View All Industries"}
+                    <Tx ns="about">{"View All Industries"}</Tx>
                     <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
                       <svg
                         width="16"
@@ -1595,7 +1536,7 @@ function FeatureAreaSection2() {
                         href="/contact-us"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {"Advanced Manufacturing"}
+                        <Tx ns="about">{"Advanced Manufacturing"}</Tx>
                       </SiteLink>
                     </h6>
                   </div>
@@ -1658,7 +1599,7 @@ function FeatureAreaSection2() {
                         href="/services"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {"Financial Services "}
+                        <Tx ns="about">{"Financial Services "}</Tx>
                       </SiteLink>
                     </h6>
                   </div>
@@ -1721,7 +1662,7 @@ function FeatureAreaSection2() {
                         href="/contact-us"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {"Energy & Natural Resources"}
+                        <Tx ns="about">{"Energy & Natural Resources"}</Tx>
                       </SiteLink>
                     </h6>
                   </div>
@@ -1784,7 +1725,7 @@ function FeatureAreaSection2() {
                         href="/contact-us"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {"Government"}
+                        <Tx ns="about">{"Government"}</Tx>
                       </SiteLink>
                     </h6>
                   </div>
@@ -1847,7 +1788,7 @@ function FeatureAreaSection2() {
                         href="/contact-us"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {" Healthcare & Life Sciences "}
+                        <Tx ns="about">{" Healthcare & Life Sciences "}</Tx>
                       </SiteLink>
                     </h6>
                   </div>
@@ -1910,7 +1851,7 @@ function FeatureAreaSection2() {
                         href="/contact-us"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {"Agribusiness"}
+                        <Tx ns="about">{"Agribusiness"}</Tx>
                       </SiteLink>
                     </h6>
                   </div>

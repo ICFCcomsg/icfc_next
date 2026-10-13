@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useI18n } from "@/components/atoms/i18n-provider";
 
 const KEY = "icfc_view";
 
 /** Quick view / Full detail switch. Blocks marked data-detail hide in Quick view. Lasts for the session only. */
-export function ViewToggle({ labels = ["Quick view", "Full detail"] }: { labels?: [string, string] }) {
+export function ViewToggle() {
+  const labels = useI18n().dict.common.view_toggle;
   const [full, setFull] = useState(false);
 
   useEffect(() => {

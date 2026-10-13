@@ -1,3 +1,4 @@
+import { Tx } from "@/components/atoms/tx";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -19,8 +20,8 @@ export function BlogWshMomPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="MOM WSH Act and ISO 45001: a practical integration guide for Singapore contractors"
-      description="WSH Act obligations mapped to ISO 45001 clauses, SHMS audit requirements, bizSAFE STAR pathway – a practical integration guide for Singapore contractors"
+      title={<Tx ns="blog-wsh-mom">{"MOM WSH Act and ISO 45001: a practical integration guide for Singapore contractors"}</Tx>}
+      description={<Tx ns="blog-wsh-mom">{"WSH Act obligations mapped to ISO 45001 clauses, SHMS audit requirements, bizSAFE STAR pathway – a practical integration guide for Singapore contractors"}</Tx>}
       background="https://images.pexels.com/photos/2881229/pexels-photo-2881229.jpeg?auto=compress&cs=tinysrgb&w=1600"
     />
   );
@@ -45,12 +46,12 @@ function PostboxAreaSection() {
                         />
                       </span>
                       <span className="">
-                        {"By "}
+                        <Tx ns="blog-wsh-mom">{"By "}</Tx>
                         <SiteLink
                           href="/contact-us"
                           className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"ICFC Pte Ltd"}
+                          <Tx ns="blog-wsh-mom">{"ICFC Pte Ltd"}</Tx>
                         </SiteLink>
                       </span>
                     </span>
@@ -68,7 +69,7 @@ function PostboxAreaSection() {
                           className="fill-[#AB052D]"
                         ></path>
                       </svg>
-                      <span className="">{"April 2026"}</span>
+                      <span className=""><Tx ns="blog-wsh-mom">{"April 2026"}</Tx></span>
                     </span>
                   </li>
                   <li className="list-none">
@@ -89,7 +90,7 @@ function PostboxAreaSection() {
                           className="fill-[#AB052D]"
                         ></path>
                       </svg>
-                      <span className="">{"12 min read"}</span>
+                      <span className=""><Tx ns="blog-wsh-mom">{"12 min read"}</Tx></span>
                     </span>
                   </li>
                 </ul>
@@ -97,337 +98,247 @@ function PostboxAreaSection() {
               <div>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Published by ICFC Pte Ltd"}
+                    <Tx ns="blog-wsh-mom">{"Published by ICFC Pte Ltd"}</Tx>
                   </strong>
-                  {" | April 2026 | 12 min read"}
+                  <Tx ns="blog-wsh-mom">{" | April 2026 | 12 min read"}</Tx>
                   <br />
                   <strong className="[font-weight:bolder]">
-                    {"Categories:"}
+                    <Tx ns="blog-wsh-mom">{"Categories:"}</Tx>
                   </strong>
-                  {
-                    " ISO 45001 · WSH Act · Construction · Occupational safety · bizSAFE · Singapore"
-                  }
+                  <Tx ns="blog-wsh-mom">{" ISO 45001 · WSH Act · Construction · Occupational safety · bizSAFE · Singapore"}</Tx>
                 </p>
                 <hr className="mt-0 mr-0 mb-0 ml-0 text-inherit [border:none] [border-top:1px_solid] opacity-[1] h-px bg-[#ececec]" />
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "Most Singapore contractors treat the Workplace Safety and Health (WSH) Act and ISO 45001 as two separate compliance obligations — running a WSH programme to satisfy MOM inspectors and a management system to keep their ISO certificate. The result is duplication: two sets of documents, two audit programmes, two training schedules, and two sets of records that never quite align with each other."
-                  }
+                  <Tx ns="blog-wsh-mom">{"Most Singapore contractors treat the Workplace Safety and Health (WSH) Act and ISO 45001 as two separate compliance obligations — running a WSH programme to satisfy MOM inspectors and a management system to keep their ISO certificate. The result is duplication: two sets of documents, two audit programmes, two training schedules, and two sets of records that never quite align with each other."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "It does not have to work this way — and for contractors looking to win government tenders, satisfy main contractors, and genuinely protect their workers, it should not."
-                  }
+                  <Tx ns="blog-wsh-mom">{"It does not have to work this way — and for contractors looking to win government tenders, satisfy main contractors, and genuinely protect their workers, it should not."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "The WSH Act and ISO 45001 are not competing frameworks. They are deeply complementary — the Act sets Singapore's legal obligations, and ISO 45001 provides the internationally recognised management system structure that makes those obligations systematic, auditable, and continuously improving. For Singapore contractors who build the integration deliberately, one management system satisfies both."
-                  }
+                  <Tx ns="blog-wsh-mom">{"The WSH Act and ISO 45001 are not competing frameworks. They are deeply complementary — the Act sets Singapore's legal obligations, and ISO 45001 provides the internationally recognised management system structure that makes those obligations systematic, auditable, and continuously improving. For Singapore contractors who build the integration deliberately, one management system satisfies both."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "This guide maps the key WSH Act requirements to ISO 45001 clauses, explains the unique role of bizSAFE in Singapore's safety landscape, identifies the gaps that must be addressed beyond the standard, and gives you a practical roadmap for implementation."
-                  }
+                  <Tx ns="blog-wsh-mom">{"This guide maps the key WSH Act requirements to ISO 45001 clauses, explains the unique role of bizSAFE in Singapore's safety landscape, identifies the gaps that must be addressed beyond the standard, and gives you a practical roadmap for implementation."}</Tx>
                 </p>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"Understanding the two frameworks"}
+                  <Tx ns="blog-wsh-mom">{"Understanding the two frameworks"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "The WSH Act: performance-based, multi-party accountability"
-                    }
+                    <Tx ns="blog-wsh-mom">{"The WSH Act: performance-based, multi-party accountability"}</Tx>
                   </strong>
-                  {
-                    " — The Workplace Safety and Health Act 2006 (as amended, most recently by Act 30 of 2024 with effect from 1 January 2025) places a general duty of care on all stakeholders: employers, employees, occupiers, manufacturers, suppliers, and contractors. Fines up to S$500,000 for companies and personal liability for directors. Key recent developments: increased financial penalties (from 1 June 2024, fines up to S$50,000 for first convictions) and mandatory video surveillance systems for construction sector."
-                  }
+                  <Tx ns="blog-wsh-mom">{" — The Workplace Safety and Health Act 2006 (as amended, most recently by Act 30 of 2024 with effect from 1 January 2025) places a general duty of care on all stakeholders: employers, employees, occupiers, manufacturers, suppliers, and contractors. Fines up to S$500,000 for companies and personal liability for directors. Key recent developments: increased financial penalties (from 1 June 2024, fines up to S$50,000 for first convictions) and mandatory video surveillance systems for construction sector."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "ISO 45001:2018 — the international OH&S management system standard"
-                    }
+                    <Tx ns="blog-wsh-mom">{"ISO 45001:2018 — the international OH&S management system standard"}</Tx>
                   </strong>
-                  {
-                    " — Follows Annex SL High Level Structure, making it compatible with ISO 9001 and ISO 14001. Singapore has adopted ISO 45001 as SS ISO 45001. Certification by SAC-accredited body provides pathway to bizSAFE STAR."
-                  }
+                  <Tx ns="blog-wsh-mom">{" — Follows Annex SL High Level Structure, making it compatible with ISO 9001 and ISO 14001. Singapore has adopted ISO 45001 as SS ISO 45001. Certification by SAC-accredited body provides pathway to bizSAFE STAR."}</Tx>
                 </p>
                 <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#f0f9f4] [border-left:4px_solid_#2e7d32] rounded-[0_16px_16px_0]">
                   <strong className="[font-weight:bolder]">
-                    {"📌 SHMS audit requirement:"}
+                    <Tx ns="blog-wsh-mom">{"📌 SHMS audit requirement:"}</Tx>
                   </strong>
-                  {
-                    " Construction worksites with contract sum ≥ S$30 million must have formal Safety and Health Management System (SHMS) audit. ISO 45001 certificate from SAC-accredited CB satisfies this legal requirement.\n                                "
-                  }
+                  <Tx ns="blog-wsh-mom">{" Construction worksites with contract sum ≥ S$30 million must have formal Safety and Health Management System (SHMS) audit. ISO 45001 certificate from SAC-accredited CB satisfies this legal requirement.\n                                "}</Tx>
                 </div>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {
-                    "The mandatory SHMS audit requirement: when ISO 45001 becomes effectively obligatory"
-                  }
+                  <Tx ns="blog-wsh-mom">{"The mandatory SHMS audit requirement: when ISO 45001 becomes effectively obligatory"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "MOM requires SHMS audits for: Construction worksites with contract sum ≥ S$30 million; Shipyards employing ≥200 people; Factories in metalworking, petrochemicals exceeding thresholds. ISO 45001 certification by SAC-accredited CB recognised as meeting SHMS requirements."
-                  }
+                  <Tx ns="blog-wsh-mom">{"MOM requires SHMS audits for: Construction worksites with contract sum ≥ S$30 million; Shipyards employing ≥200 people; Factories in metalworking, petrochemicals exceeding thresholds. ISO 45001 certification by SAC-accredited CB recognised as meeting SHMS requirements."}</Tx>
                 </p>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {
-                    "The bizSAFE connection: ISO 45001 as the fast track to bizSAFE STAR"
-                  }
+                  <Tx ns="blog-wsh-mom">{"The bizSAFE connection: ISO 45001 as the fast track to bizSAFE STAR"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "Companies certified to ISO 45001 by SAC-accredited CB can submit certificate (plus valid Risk Management Implementation Audit Report) to apply for bizSAFE STAR — bypassing Levels 1-4. ISO 45001 simultaneously satisfies international best practice, MOM SHMS audit requirement, and bizSAFE STAR qualification."
-                  }
+                  <Tx ns="blog-wsh-mom">{"Companies certified to ISO 45001 by SAC-accredited CB can submit certificate (plus valid Risk Management Implementation Audit Report) to apply for bizSAFE STAR — bypassing Levels 1-4. ISO 45001 simultaneously satisfies international best practice, MOM SHMS audit requirement, and bizSAFE STAR qualification."}</Tx>
                 </p>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {
-                    "The integration map: WSH Act obligations and ISO 45001 clauses"
-                  }
+                  <Tx ns="blog-wsh-mom">{"The integration map: WSH Act obligations and ISO 45001 clauses"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Duty to conduct risk assessments → ISO 45001 Clause 6.1:"}
+                    <Tx ns="blog-wsh-mom">{"Duty to conduct risk assessments → ISO 45001 Clause 6.1:"}</Tx>
                   </strong>
-                  {
-                    " WSH (Risk Management) Regulations require risk assessments every 3 years. ISO 45001 HIRA satisfies this requirement. Critical: explicit three-year review cycle and post-incident review trigger must be referenced."
-                  }
+                  <Tx ns="blog-wsh-mom">{" WSH (Risk Management) Regulations require risk assessments every 3 years. ISO 45001 HIRA satisfies this requirement. Critical: explicit three-year review cycle and post-incident review trigger must be referenced."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "Duty to appoint competent persons → ISO 45001 Clauses 7.1 & 7.2:"
-                    }
+                    <Tx ns="blog-wsh-mom">{"Duty to appoint competent persons → ISO 45001 Clauses 7.1 & 7.2:"}</Tx>
                   </strong>
-                  {
-                    " WSHO/WSHC registration requirements must be captured in competence framework."
-                  }
+                  <Tx ns="blog-wsh-mom">{" WSHO/WSHC registration requirements must be captured in competence framework."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Duty to investigate accidents → ISO 45001 Clause 10.2:"}
+                    <Tx ns="blog-wsh-mom">{"Duty to investigate accidents → ISO 45001 Clause 10.2:"}</Tx>
                   </strong>
-                  {
-                    " MOM incident reporting timelines (immediate for fatal, 10 days for incapacity) are Singapore-specific gaps that must be built into incident management procedure."
-                  }
+                  <Tx ns="blog-wsh-mom">{" MOM incident reporting timelines (immediate for fatal, 10 days for incapacity) are Singapore-specific gaps that must be built into incident management procedure."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "Duty for safe work procedures & PTW → ISO 45001 Clause 8.1:"
-                    }
+                    <Tx ns="blog-wsh-mom">{"Duty for safe work procedures & PTW → ISO 45001 Clause 8.1:"}</Tx>
                   </strong>
-                  {
-                    " Permit-to-work systems for work at height (>3m), confined space, hot work, excavation per WSH (Construction) Regulations."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Permit-to-work systems for work at height (>3m), confined space, hot work, excavation per WSH (Construction) Regulations."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Duty to manage subcontractors → ISO 45001 Clause 8.1.4:"}
+                    <Tx ns="blog-wsh-mom">{"Duty to manage subcontractors → ISO 45001 Clause 8.1.4:"}</Tx>
                   </strong>
-                  {
-                    " Tiered contractor pre-qualification system recommended (bizSAFE Level 3 minimum for high-risk)."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Tiered contractor pre-qualification system recommended (bizSAFE Level 3 minimum for high-risk)."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Duty for safety training → ISO 45001 Clauses 7.2 & 7.3:"}
+                    <Tx ns="blog-wsh-mom">{"Duty for safety training → ISO 45001 Clauses 7.2 & 7.3:"}</Tx>
                   </strong>
-                  {
-                    " CSOC mandatory for all construction workers; training matrix must track MOM-mandated courses with expiry dates."
-                  }
+                  <Tx ns="blog-wsh-mom">{" CSOC mandatory for all construction workers; training matrix must track MOM-mandated courses with expiry dates."}</Tx>
                 </p>
                 <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#fff5f5] [border-left:4px_solid_#AB052D] rounded-[0_16px_16px_0]">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "⚠️ Critical gaps — where ISO 45001 alone is not sufficient:"
-                    }
+                    <Tx ns="blog-wsh-mom">{"⚠️ Critical gaps — where ISO 45001 alone is not sufficient:"}</Tx>
                   </strong>
-                  {
-                    " MOM incident reporting timelines (immediate/10 days); Mandatory safety appointments (WSHO/WSHC registration); Construction Safety Orientation Course (CSOC); Approved Codes of Practice including SS 679:2021; Mandatory video surveillance system obligations (from June 2024); Psychosocial risks and mental health guidance.\n                                "
-                  }
+                  <Tx ns="blog-wsh-mom">{" MOM incident reporting timelines (immediate/10 days); Mandatory safety appointments (WSHO/WSHC registration); Construction Safety Orientation Course (CSOC); Approved Codes of Practice including SS 679:2021; Mandatory video surveillance system obligations (from June 2024); Psychosocial risks and mental health guidance.\n                                "}</Tx>
                 </div>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {
-                    "Building one integrated system: ICFC's implementation approach"
-                  }
+                  <Tx ns="blog-wsh-mom">{"Building one integrated system: ICFC's implementation approach"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Step 1 — Legal register and WSH Act mapping:"}
+                    <Tx ns="blog-wsh-mom">{"Step 1 — Legal register and WSH Act mapping:"}</Tx>
                   </strong>
-                  {
-                    " Compile comprehensive legal register listing all applicable WSH Act obligations, subsidiary legislation, and ACOPs."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Compile comprehensive legal register listing all applicable WSH Act obligations, subsidiary legislation, and ACOPs."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Step 2 — HIRA that satisfies the WSH RM Regulations:"}
+                    <Tx ns="blog-wsh-mom">{"Step 2 — HIRA that satisfies the WSH RM Regulations:"}</Tx>
                   </strong>
-                  {
-                    " Cover routine, non-routine, emergency activities; include contractors/visitors; hierarchy of controls; three-year review cycles."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Cover routine, non-routine, emergency activities; include contractors/visitors; hierarchy of controls; three-year review cycles."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "Step 3 — Incident management that meets MOM reporting requirements:"
-                    }
+                    <Tx ns="blog-wsh-mom">{"Step 3 — Incident management that meets MOM reporting requirements:"}</Tx>
                   </strong>
-                  {
-                    " Clear classification by MOM category, specific reporting timelines, responsible person for MOM reports, root cause investigation, learning loop."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Clear classification by MOM category, specific reporting timelines, responsible person for MOM reports, root cause investigation, learning loop."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "Step 4 — Contractor management as a competitive differentiator:"
-                    }
+                    <Tx ns="blog-wsh-mom">{"Step 4 — Contractor management as a competitive differentiator:"}</Tx>
                   </strong>
-                  {
-                    " Tiered pre-qualification: Tier 1 (high-risk) bizSAFE Level 3+; Tier 2 (medium-risk) bizSAFE Level 2+; Tier 3 basic induction + CSOC."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Tiered pre-qualification: Tier 1 (high-risk) bizSAFE Level 3+; Tier 2 (medium-risk) bizSAFE Level 2+; Tier 3 basic induction + CSOC."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "Step 5 — Integrating ISO 45001 with ISO 9001 and ISO 14001:"
-                    }
+                    <Tx ns="blog-wsh-mom">{"Step 5 — Integrating ISO 45001 with ISO 9001 and ISO 14001:"}</Tx>
                   </strong>
-                  {
-                    " IMS reduces overhead by ~30-40% with one policy suite, one risk assessment, one audit programme, one management review."
-                  }
+                  <Tx ns="blog-wsh-mom">{" IMS reduces overhead by ~30-40% with one policy suite, one risk assessment, one audit programme, one management review."}</Tx>
                 </p>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"The bizSAFE STAR pathway after ISO 45001 certification"}
+                  <Tx ns="blog-wsh-mom">{"The bizSAFE STAR pathway after ISO 45001 certification"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "Submit ISO 45001 certificate (SAC-accredited) + valid Risk Management Implementation Audit Report to WSH Council via bizSAFE portal."
-                  }
+                  <Tx ns="blog-wsh-mom">{"Submit ISO 45001 certificate (SAC-accredited) + valid Risk Management Implementation Audit Report to WSH Council via bizSAFE portal."}</Tx>
                 </p>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"Penalties, enforcement, and why getting this right matters"}
+                  <Tx ns="blog-wsh-mom">{"Penalties, enforcement, and why getting this right matters"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "Composition fines: up to S$5,000; Court fines (serious harm): up to S$50,000 per count; Serious cases: fines up to S$500,000 for corporations; Personal liability for directors; Stop-work orders; Work pass revocation. An ISO 45001-certified OHSMS provides defensible due diligence evidence during MOM investigations."
-                  }
+                  <Tx ns="blog-wsh-mom">{"Composition fines: up to S$5,000; Court fines (serious harm): up to S$50,000 per count; Serious cases: fines up to S$500,000 for corporations; Personal liability for directors; Stop-work orders; Work pass revocation. An ISO 45001-certified OHSMS provides defensible due diligence evidence during MOM investigations."}</Tx>
                 </p>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"Frequently asked questions"}
+                  <Tx ns="blog-wsh-mom">{"Frequently asked questions"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Is ISO 45001 mandatory for Singapore contractors?"}
+                    <Tx ns="blog-wsh-mom">{"Is ISO 45001 mandatory for Singapore contractors?"}</Tx>
                   </strong>
-                  {
-                    " Not universally — but functionally mandatory for projects ≥S$30 million (SHMS audit requirement), for bizSAFE STAR, and increasingly for major developers' supply chains."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Not universally — but functionally mandatory for projects ≥S$30 million (SHMS audit requirement), for bizSAFE STAR, and increasingly for major developers' supply chains."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {
-                      "Can we achieve bizSAFE STAR without going through all five levels?"
-                    }
+                    <Tx ns="blog-wsh-mom">{"Can we achieve bizSAFE STAR without going through all five levels?"}</Tx>
                   </strong>
-                  {
-                    " Yes — ISO 45001 certification provides direct entry to bizSAFE STAR."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Yes — ISO 45001 certification provides direct entry to bizSAFE STAR."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"How long does implementation take?"}
+                    <Tx ns="blog-wsh-mom">{"How long does implementation take?"}</Tx>
                   </strong>
-                  {
-                    " Typically 4-6 months from gap analysis to certification for small to medium contractors."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Typically 4-6 months from gap analysis to certification for small to medium contractors."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Can we integrate with existing ISO 9001/ISO 14001?"}
+                    <Tx ns="blog-wsh-mom">{"Can we integrate with existing ISO 9001/ISO 14001?"}</Tx>
                   </strong>
-                  {
-                    " Yes — ICFC strongly recommends integrated management system (IMS)."
-                  }
+                  <Tx ns="blog-wsh-mom">{" Yes — ICFC strongly recommends integrated management system (IMS)."}</Tx>
                 </p>
                 <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  {"The bottom line"}
+                  <Tx ns="blog-wsh-mom">{"The bottom line"}</Tx>
                 </h4>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "The WSH Act sets your legal obligations; ISO 45001 provides the management system to make those obligations systematic and demonstrable. For contractors, ISO 45001 satisfies SHMS audit requirements, provides bizSAFE STAR fast-track, opens tender doors, and creates due diligence trail that matters when incidents occur."
-                  }
+                  <Tx ns="blog-wsh-mom">{"The WSH Act sets your legal obligations; ISO 45001 provides the management system to make those obligations systematic and demonstrable. For contractors, ISO 45001 satisfies SHMS audit requirements, provides bizSAFE STAR fast-track, opens tender doors, and creates due diligence trail that matters when incidents occur."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "ICFC offers a complimentary dual-framework gap assessment as part of free initial consultation."
-                  }
+                  <Tx ns="blog-wsh-mom">{"ICFC offers a complimentary dual-framework gap assessment as part of free initial consultation."}</Tx>
                 </p>
                 <hr className="mt-0 mr-0 mb-0 ml-0 text-inherit [border:none] [border-top:1px_solid] opacity-[1] h-px bg-[#ececec]" />
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"About ICFC Pte Ltd"}
+                    <Tx ns="blog-wsh-mom">{"About ICFC Pte Ltd"}</Tx>
                   </strong>
                   <br />
-                  {
-                    "Since 2014, Singapore's ISO certification partner. We provide ISO consultation, third-party audit, and training across 25 industries. OH&S practice: ISO 45001, integrated management systems (ISO 9001 + ISO 14001 + ISO 45001), WSH Act alignment for construction, manufacturing, marine, and engineering contractors. Contact: "
-                  }
+                  <Tx ns="blog-wsh-mom">{"Since 2014, Singapore's ISO certification partner. We provide ISO consultation, third-party audit, and training across 25 industries. OH&S practice: ISO 45001, integrated management systems (ISO 9001 + ISO 14001 + ISO 45001), WSH Act alignment for construction, manufacturing, marine, and engineering contractors. Contact: "}</Tx>
                   <SiteLink
                     href="mailto:admin@icfc.com.sg"
                     className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                   >
-                    {"admin@icfc.com.sg"}
+                    <Tx ns="blog-wsh-mom">{"admin@icfc.com.sg"}</Tx>
                   </SiteLink>
                   {" | +65 8601 7001."}
                 </p>
                 <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <em>
-                    {
-                      "© 2026 ICFC Pte Ltd. This article is for informational purposes only. WSH Act obligations, penalty amounts, and bizSAFE requirements subject to change. Refer to official MOM and WSH Council sources."
-                    }
+                    <Tx ns="blog-wsh-mom">{"© 2026 ICFC Pte Ltd. This article is for informational purposes only. WSH Act obligations, penalty amounts, and bizSAFE requirements subject to change. Refer to official MOM and WSH Council sources."}</Tx>
                   </em>
                 </p>
               </div>
               <div className="mt-10 pt-5 pb-5 items-center justify-between flex gap-7.5 flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1]">
                 <div className="items-center flex flex-wrap gap-3">
                   <span className="font-semibold pe-2.5 text-[#2B3944]">
-                    {"Tags:"}
+                    <Tx ns="blog-wsh-mom">{"Tags:"}</Tx>
                   </span>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"ISO 45001"}
+                    <Tx ns="blog-wsh-mom">{"ISO 45001"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"WSH Act"}
+                    <Tx ns="blog-wsh-mom">{"WSH Act"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"bizSAFE"}
+                    <Tx ns="blog-wsh-mom">{"bizSAFE"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Construction Safety"}
+                    <Tx ns="blog-wsh-mom">{"Construction Safety"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Contractors"}
+                    <Tx ns="blog-wsh-mom">{"Contractors"}</Tx>
                   </SiteLink>
                 </div>
                 <div>
                   <span className="font-semibold pe-2.5 text-[#2B3944]">
-                    {"Share:"}
+                    <Tx ns="blog-wsh-mom">{"Share:"}</Tx>
                   </span>
                   <div className="gap-3.75">
                     <SiteLink
@@ -462,7 +373,7 @@ function PostboxAreaSection() {
               </div>
               <div>
                 <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
-                  {"Leave a Comment"}
+                  <Tx ns="blog-wsh-mom">{"Leave a Comment"}</Tx>
                 </h3>
                 <EmailForm>
                   <div className="flex flex-wrap -mt-6 -mr-6 -ml-6">
@@ -494,7 +405,7 @@ function PostboxAreaSection() {
                         type="submit"
                         className="rounded-[50px] mt-0 mr-0 mb-0 ml-0 text-[17px] leading-[inherit] normal-case pt-3.5 pr-6.5 pb-3.5 pl-6.5 text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-1 overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
-                        {"Post Comment"}
+                        <Tx ns="blog-wsh-mom">{"Post Comment"}</Tx>
                       </button>
                     </div>
                   </div>
@@ -506,7 +417,7 @@ function PostboxAreaSection() {
             <div className="sticky max-[991px]:relative top-27.5 max-[991px]:top-[unset]">
               <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  {"Search"}
+                  <Tx ns="blog-wsh-mom">{"Search"}</Tx>
                 </h5>
                 <div>
                   <EmailForm>
@@ -541,7 +452,7 @@ function PostboxAreaSection() {
               </div>
               <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  {"Categories"}
+                  <Tx ns="blog-wsh-mom">{"Categories"}</Tx>
                 </h5>
                 <ul className="pl-0! mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0 list-none!">
                   <li className="mb-2.5!">
@@ -549,7 +460,7 @@ function PostboxAreaSection() {
                       href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"ISO 45001 "}
+                      <Tx ns="blog-wsh-mom">{"ISO 45001 "}</Tx>
                       <span className="float-right!">{"(6)"}</span>
                     </SiteLink>
                   </li>
@@ -558,7 +469,7 @@ function PostboxAreaSection() {
                       href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"WSH Act "}
+                      <Tx ns="blog-wsh-mom">{"WSH Act "}</Tx>
                       <span className="float-right!">{"(5)"}</span>
                     </SiteLink>
                   </li>
@@ -567,7 +478,7 @@ function PostboxAreaSection() {
                       href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Construction Safety "}
+                      <Tx ns="blog-wsh-mom">{"Construction Safety "}</Tx>
                       <span className="float-right!">{"(4)"}</span>
                     </SiteLink>
                   </li>
@@ -576,7 +487,7 @@ function PostboxAreaSection() {
                       href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"bizSAFE "}
+                      <Tx ns="blog-wsh-mom">{"bizSAFE "}</Tx>
                       <span className="float-right!">{"(4)"}</span>
                     </SiteLink>
                   </li>
@@ -585,7 +496,7 @@ function PostboxAreaSection() {
                       href="/contact-us"
                       className="text-[#333]! [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Contractors "}
+                      <Tx ns="blog-wsh-mom">{"Contractors "}</Tx>
                       <span className="float-right!">{"(3)"}</span>
                     </SiteLink>
                   </li>
@@ -593,56 +504,56 @@ function PostboxAreaSection() {
               </div>
               <div className="pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  {"Popular Tags"}
+                  <Tx ns="blog-wsh-mom">{"Popular Tags"}</Tx>
                 </h5>
                 <div className="flex flex-wrap gap-3">
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"ISO 45001:2018"}
+                    <Tx ns="blog-wsh-mom">{"ISO 45001:2018"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"WSH Act"}
+                    <Tx ns="blog-wsh-mom">{"WSH Act"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"bizSAFE STAR"}
+                    <Tx ns="blog-wsh-mom">{"bizSAFE STAR"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/services"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"SHMS Audit"}
+                    <Tx ns="blog-wsh-mom">{"SHMS Audit"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Risk Assessment"}
+                    <Tx ns="blog-wsh-mom">{"Risk Assessment"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Contractor Safety"}
+                    <Tx ns="blog-wsh-mom">{"Contractor Safety"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"MOM Compliance"}
+                    <Tx ns="blog-wsh-mom">{"MOM Compliance"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"SS ISO 45001"}
+                    <Tx ns="blog-wsh-mom">{"SS ISO 45001"}</Tx>
                   </SiteLink>
                 </div>
               </div>

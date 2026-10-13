@@ -1,0 +1,190 @@
+[
+ {
+  "t": "title",
+  "text": "Notis Kuki"
+ },
+ {
+  "t": "p",
+  "text": "ICFC Pte Ltd, UEN 201402439E. Singapura. Draf untuk semakan undang-undang sebelum penerbitan."
+ },
+ {
+  "t": "h",
+  "text": "Tentang notis ini"
+ },
+ {
+  "t": "p",
+  "text": "Notis Kuki ini menerangkan bagaimana ICFC Pte Ltd menggunakan kuki dan teknologi serupa di icfc.com.sg. Ia harus dibaca bersama Dasar Privasi kami."
+ },
+ {
+  "t": "h",
+  "text": "Apakah itu kuki"
+ },
+ {
+  "t": "p",
+  "text": "Kuki ialah fail teks kecil yang disimpan pada peranti anda apabila anda melawati sesebuah laman web. Teknologi serupa termasuk piksel, tag dan storan setempat. Sesetengahnya ditetapkan oleh kami (pihak pertama) dan sesetengah lagi oleh penyedia lain (pihak ketiga)."
+ },
+ {
+  "t": "h",
+  "text": "Kuki dan PDPA"
+ },
+ {
+  "t": "p",
+  "text": "Apabila kuki mengumpul data peribadi, PDPA menghendaki kami memberitahu anda tujuannya dan mendapatkan persetujuan anda melainkan pengecualian terpakai. Kami melangkaui keperluan minimum: selain kuki yang benar-benar perlu, kami tidak menetapkan sebarang kuki sehingga anda memilih, sepanduk kami memberikan Terima semua dan Tolak semua pemberatan yang sama, dan penggunaan laman web tidak pernah bergantung pada penerimaan kuki pilihan."
+ },
+ {
+  "t": "h",
+  "text": "Pilihan anda"
+ },
+ {
+  "t": "p",
+  "text": "Apabila anda melawat buat pertama kali, sepanduk membolehkan anda Terima semua, Tolak semua atau membuka Tetapan kuki. Hanya kuki yang benar-benar perlu digunakan sehingga anda memilih. Anda boleh menukar atau menarik balik pilihan anda pada bila-bila masa melalui Tetapan kuki di bahagian kaki halaman; penarikan balik menghentikan kuki pilihan baharu, dan anda boleh memadam kuki sedia ada dalam pelayar anda. Menolak kuki pilihan tidak menghalang anda menggunakan laman web. Kami menyimpan rekod pilihan anda dalam kuki icfc_consent selama 12 bulan dan bertanya semula apabila kami menambah kategori atau penyedia baharu."
+ },
+ {
+  "t": "h",
+  "text": "Kategori yang kami gunakan"
+ },
+ {
+  "t": "li",
+  "text": "Benar-benar perlu (sentiasa aktif): Diperlukan agar laman web berfungsi, memastikannya selamat dan mengingati pilihan kuki anda. Ia tidak boleh dimatikan. Ia tidak mengenal pasti anda untuk pemasaran."
+ },
+ {
+  "t": "li",
+  "text": "Fungsian (mati sehingga anda membenarkan): Mengingati keutamaan seperti bahasa dan mengaktifkan ciri pilihan seperti pembantu sembang AI dan video terbenam dalam mod privasi dipertingkat."
+ },
+ {
+  "t": "li",
+  "text": "Prestasi (mati sehingga anda membenarkan): Membantu kami memahami bagaimana pelawat menggunakan laman, halaman mana yang berkesan dan di mana orang tersekat, menggunakan statistik agregat."
+ },
+ {
+  "t": "li",
+  "text": "Penyasaran (mati sehingga anda membenarkan): Digunakan oleh platform pengiklanan dan sosial untuk mengukur kempen dan menunjukkan kandungan ICFC yang relevan di laman web lain."
+ },
+ {
+  "t": "h",
+  "text": "Senarai kuki"
+ },
+ {
+  "t": "p",
+  "text": "Jadual di bawah menyenaraikan kuki yang kami gunakan atau mungkin gunakan. Penyedia boleh menukar nama kuki; kami menyemak senarai ini secara berkala."
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "Kuki",
+    "Penyedia",
+    "Kategori",
+    "Tujuan",
+    "Tempoh lazim"
+   ],
+   [
+    "icfc_consent",
+    "ICFC (pihak pertama)",
+    "Benar-benar perlu",
+    "Menyimpan pilihan kuki anda dan versinya",
+    "12 bulan"
+   ],
+   [
+    "Kuki sesi dan keselamatan",
+    "Hos laman web ICFC",
+    "Benar-benar perlu",
+    "Memastikan sesi berfungsi dan melindungi borang daripada penyalahgunaan",
+    "Sesi"
+   ],
+   [
+    "icfc_lang",
+    "ICFC (pihak pertama)",
+    "Fungsian",
+    "Mengingati bahasa pilihan anda",
+    "12 bulan"
+   ],
+   [
+    "Kuki sembang Frappe (seperti sid)",
+    "Chatbot Frappe ICFC",
+    "Fungsian",
+    "Memastikan perbualan sembang dipautkan dengan pelayar anda",
+    "Sesi hingga [x] hari"
+   ],
+   [
+    "PREF, YSC, VISITOR_INFO1_LIVE",
+    "YouTube (Google)",
+    "Penyasaran",
+    "Ditetapkan hanya apabila anda memainkan video terbenam selepas membenarkan Penyasaran; sebelum itu video menggunakan mod privasi dipertingkat dengan ruang letak klik-untuk-muat",
+    "Sesi hingga 6 bulan"
+   ],
+   [
+    "_ga, _ga_ diikuti dengan ID hartanah",
+    "Google Analytics 4",
+    "Prestasi",
+    "Membezakan pelawat dan sesi untuk statistik",
+    "Sehingga 2 tahun"
+   ],
+   [
+    "_clck, _clsk",
+    "Microsoft Clarity",
+    "Prestasi",
+    "Statistik ulang tayang sesi dan peta haba",
+    "1 hari hingga 1 tahun"
+   ],
+   [
+    "Kuki _hjSessionUser dan _hjSession",
+    "Hotjar (jika digunakan menggantikan Clarity)",
+    "Prestasi",
+    "Statistik sesi dan peta haba",
+    "30 minit hingga 1 tahun"
+   ],
+   [
+    "_fbp, fr",
+    "Meta Pixel",
+    "Penyasaran",
+    "Mengukur dan menyasarkan pengiklanan pada platform Meta",
+    "Sehingga 3 bulan"
+   ],
+   [
+    "li_sugr, bcookie, lidc, UserMatchHistory, AnalyticsSyncHistory",
+    "LinkedIn Insight Tag",
+    "Penyasaran",
+    "Mengukur kempen LinkedIn dan membina khalayak",
+    "1 hari hingga 1 tahun"
+   ],
+   [
+    "Google Tag Manager",
+    "Google",
+    "Pemuat yang benar-benar perlu",
+    "Memuatkan tag mengikut persetujuan anda; ia sendiri tidak menetapkan kuki penjejakan",
+    "Tiada"
+   ],
+   [
+    "Pengesahan Search Console",
+    "Google",
+    "Bukan kuki",
+    "Mengesahkan pemilikan laman melalui tag meta atau rekod DNS; tiada kuki ditetapkan",
+    "Tiada"
+   ]
+  ]
+ },
+ {
+  "t": "h",
+  "text": "Penyedia pihak ketiga"
+ },
+ {
+  "t": "p",
+  "text": "Google, Microsoft, Meta, LinkedIn dan YouTube bertindak di bawah dasar privasi mereka sendiri bagi data yang mereka kumpul melalui kuki mereka. Sesetengah penyedia ini memproses data di luar Singapura; lihat bahagian 9 Dasar Privasi kami mengenai pemindahan ke luar negara."
+ },
+ {
+  "t": "h",
+  "text": "Kawalan pelayar"
+ },
+ {
+  "t": "p",
+  "text": "Anda juga boleh memadam atau menyekat kuki dalam tetapan pelayar anda. Menyekat kuki yang benar-benar perlu boleh menyebabkan sebahagian laman tidak berfungsi."
+ },
+ {
+  "t": "h",
+  "text": "Hubungi"
+ },
+ {
+  "t": "p",
+  "text": "Pertanyaan tentang kuki boleh dihantar kepada Pegawai Perlindungan Data kami di nandhan@icfc.com.sg. Tarikh berkuat kuasa: [tarikh berkuat kuasa akan ditetapkan semasa penerbitan]."
+ }
+]

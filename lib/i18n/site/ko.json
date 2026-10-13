@@ -1,0 +1,185 @@
+{
+ "top": {
+  "obstacle_text": "2014년부터 싱가포르에서 인증심사, 컨설팅, 교육을 제공합니다.",
+  "connect_link": "문의하기",
+  "call_us_label": "전화:",
+  "send_mail_label": "이메일:"
+ },
+ "header": {
+  "language_label": "언어",
+  "get_quote": "견적 요청",
+  "lms_login": "LMS 로그인",
+  "search": "검색",
+  "menu": "메뉴"
+ },
+ "nav": {
+  "home": "홈",
+  "industries": "산업",
+  "about": "회사 소개",
+  "services": "서비스",
+  "blog": "인사이트",
+  "contact": "문의"
+ },
+ "groups": {
+  "Cybersecurity, IT and Data Protection": "사이버보안, IT 및 개인정보 보호",
+  "ISO Management Systems": "ISO 경영시스템",
+  "Singapore Standards and Schemes": "싱가포르 표준 및 제도",
+  "Sustainability and Supply Chain": "지속가능성 및 공급망"
+ },
+ "common": {
+  "get_quote": "견적 요청",
+  "view_toggle": [
+   "간략히 보기",
+   "상세히 보기"
+  ],
+  "transfer_eyebrow": "서비스 제공업체 변경을 고려 중이신가요?",
+  "transfer_title": "ICFC로 서비스 이전",
+  "transfer_text": "컨설팅, 내부 심사 또는 교육을 저희에게 옮기는 일은 간단합니다. 현재의 시스템, 인증서, 계획을 검토한 뒤 이전 제공업체가 마친 지점부터 이어서 진행합니다. 인증기관 간 인증 이전은 인정 규정에 따라 인수하는 인증기관이 처리합니다.",
+  "transfer_cta": "이전 시작",
+  "draft_notice": "이 페이지는 초안 번역입니다. 영어 버전이 기준입니다."
+ },
+ "footer": {
+  "about_text": "ICFC는 싱가포르에서 ISO 경영시스템, 사이버보안, 개인정보 보호 및 지속가능성 표준에 대한 심사, 컨설팅, 교육을 제공합니다.",
+  "services_title": "서비스",
+  "company_title": "회사",
+  "legal_title": "법적 고지",
+  "contact_title": "문의",
+  "all_services": "전체 서비스",
+  "privacy": "개인정보 처리방침",
+  "cookie_notice": "쿠키 안내",
+  "lms_terms": "LMS 이용약관",
+  "cookie_settings": "쿠키 설정",
+  "call_us": "전화 문의",
+  "email": "이메일",
+  "rights": "모든 권리 보유.",
+  "uen": "UEN 201402439E"
+ },
+ "home": {
+  "eyebrow": "싱가포르, 2014년부터",
+  "title": "신뢰할 수 있는 심사, 컨설팅, 교육",
+  "intro": "2014년부터 ICFC는 싱가포르와 아시아 태평양 지역 기업이 ISO, 사이버보안, IT 보증, 개인정보 보호 및 싱가포르 표준을 취득하고 유지하도록 지원해 왔습니다. 공정한 심사, 실무 중심 컨설팅, 집합 및 온라인 교육을 제공합니다.",
+  "find_standard": "표준 찾기",
+  "finder_eyebrow": "서비스 찾기",
+  "finder_title": "오늘 무엇이 필요하신가요?",
+  "need_audit": "인증서가 필요합니다",
+  "need_consultation": "준비 또는 구축이 필요합니다",
+  "need_training": "교육이 필요합니다",
+  "finder_topic": "주제",
+  "trust_title": "2014년부터 신뢰받는 기업",
+  "stats": [
+   [
+    "12",
+    "싱가포르 운영 기간(년)",
+    "2014년부터"
+   ],
+   [
+    "250+",
+    "고객사",
+    "아시아 태평양 전역"
+   ],
+   [
+    "500+",
+    "완료한 심사",
+    "제1자, 제2자, 제3자"
+   ],
+   [
+    "100+",
+    "교육 수료자",
+    "집합 교육 및 온라인"
+   ]
+  ],
+  "services_eyebrow": "서비스",
+  "services_title": "도움을 드리는 네 가지 방법",
+  "view_all": "{n}개 모두 보기",
+  "ways_eyebrow": "일하는 세 가지 방식",
+  "ways_title": "심사. 컨설팅. 교육.",
+  "ways": [
+   [
+    "심사",
+    "당사 심사원이 인정받은 인증기관을 대리하여 수행하는 제3자 심사와 제2자 및 내부 심사."
+   ],
+   [
+    "컨설팅",
+    "지원금(EDGE) 활용 또는 고정 범위 프로젝트."
+   ],
+   [
+    "교육",
+    "ICFC Digital LMS를 통한 집합 및 온라인 교육."
+   ]
+  ],
+  "edge_eyebrow": "자금 지원",
+  "edge_title": "표준을 위한 EDGE Grant 지원",
+  "edge_text": "2026년 9월 30일부터 기업 지원금은 EDGE Grant로 이관되었습니다. 당사가 지원하는 다수의 표준이 대상에 포함되며, 자격 요건 충족 및 Enterprise Singapore의 승인을 전제로 중소기업은 최대 50%, 지속가능성 표준은 최대 70%까지 지원됩니다. ICFC의 컨설팅은 EDGE가 표준 활동에 요구하는 대로 SS 680:2021 인증 컨설턴트가 이끕니다. CSA는 2028년 2월 6일까지 최초의 Cyber Trust 및 Cyber Essentials 인증을 별도로 지원합니다.",
+  "edge_cta": "EDGE 자격 확인",
+  "edge_small": "지원금 결정은 Enterprise Singapore가 합니다. 정보 확인일: 2026년 10월 11일.",
+  "why_eyebrow": "ICFC를 선택하는 이유",
+  "why_title": "기업들이 저희를 선택하는 이유",
+  "why": [
+   [
+    "설계 단계부터 공정성",
+    "컨설팅과 심사 역할을 분리하며, 모든 업무는 이해상충 점검으로 시작합니다."
+   ],
+   [
+    "통합 심사",
+    "당사 심사원은 통합 경영시스템을 다루므로 여러 표준을 함께 심사해 시간과 비용을 절감할 수 있습니다."
+   ],
+   [
+    "SS 680 인증 컨설턴트",
+    "ICFC의 컨설팅은 SS 680:2021 인증 컨설턴트가 이끕니다. 이는 Enterprise Singapore가 EDGE 표준 활동의 컨설팅 지원에 요구하는 표준입니다."
+   ],
+   [
+    "오래 남는 학습",
+    "ICFC Digital LMS의 집합 및 온라인 교육은 프로젝트 종료 후에도 팀의 역량을 유지해 줍니다."
+   ]
+  ],
+  "industries_eyebrow": "산업",
+  "industries_title": "저희가 지원하는 산업",
+  "industries": {
+   "banking": "은행 및 금융 서비스",
+   "technology": "기술, SaaS 및 클라우드",
+   "data-centres": "데이터 센터",
+   "healthcare": "의료 및 의료기기",
+   "manufacturing": "제조",
+   "logistics": "물류 및 콜드체인",
+   "construction": "건설 및 시설",
+   "education": "교육 및 훈련",
+   "food": "식음료",
+   "events": "이벤트, 호스피탈리티 및 MICE",
+   "apparel": "의류 및 섬유",
+   "automotive": "자동차 공급망",
+   "professional": "전문 서비스",
+   "retail": "소매 및 전자상거래",
+   "energy": "에너지, 유틸리티 및 인프라",
+   "public-sector": "정부 공급업체 및 공공 부문"
+  },
+  "insights_eyebrow": "인사이트",
+  "insights_title": "최신 인사이트",
+  "all_insights": "모든 인사이트",
+  "contact_title": "문의하기"
+ },
+ "service": {
+  "fact_code": "표준 또는 제도",
+  "fact_type": "유형",
+  "fact_group": "그룹",
+  "fact_funding": "자금 지원",
+  "what": "개요",
+  "who": "대상",
+  "how_we_help": "지원 방법",
+  "tab_audit": "심사",
+  "tab_consultation": "컨설팅",
+  "tab_training": "교육",
+  "key_details": "주요 내용",
+  "info_checked": "정보 확인일: {date}. 지원금 결정은 지원 기관이 합니다.",
+  "about_edge": "EDGE 소개",
+  "impartiality": "공정성",
+  "faq_title": "자주 묻는 질문",
+  "sheet_title": "서비스 안내서",
+  "sheet_text": "팀과 공유할 수 있는 1페이지 요약.",
+  "download_pdf": "PDF 다운로드",
+  "word": "Word",
+  "related": "관련 서비스",
+  "references": "참고 자료",
+  "breadcrumb_home": "홈",
+  "breadcrumb_services": "서비스"
+ }
+}

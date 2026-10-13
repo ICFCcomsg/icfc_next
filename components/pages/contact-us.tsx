@@ -1,3 +1,4 @@
+import { Tx } from "@/components/atoms/tx";
 import { AnimatedElement } from "@/components/atoms/animated-element";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -19,8 +20,8 @@ export function ContactUsPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="Contact"
-      description="Position your agency bridge between a client's big picture"
+      title={<Tx ns="contact-us">{"Contact"}</Tx>}
+      description={<Tx ns="contact-us">{"Position your agency bridge between a client's big picture"}</Tx>}
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
@@ -36,7 +37,7 @@ function ContactAreaSection() {
               <div className="pt-12.5 max-[1199px]:pt-5 min-[1199px]:max-[1600px]:pt-7.5 pb-15 max-[1199px]:pb-7.5 min-[1199px]:max-[1600px]:pb-10 pe-15 max-[1199px]:pe-7.5 min-[1199px]:max-[1600px]:pe-10 ps-15 max-[1199px]:ps-7.5 min-[1199px]:max-[1600px]:ps-10 [background:#F8F8F9] rounded-md">
                 <div className="mb-7.5">
                   <span className="mb-2.5 text-[14px]! font-semibold! leading-7 uppercase! text-[#AB052D]! inline-block tracking-wider!">
-                    {"Start Your Journey Today"}
+                    <Tx ns="contact-us">{"Start Your Journey Today"}</Tx>
                   </span>
                   <AnimatedElement
                     as="h2"
@@ -45,7 +46,7 @@ function ContactAreaSection() {
                     duration={0.8}
                     className="mt-0 mb-2.5 font-bold! leading-[1.2]! text-[#111]! text-[28px]! [word-break:break-word]"
                   >
-                    {"Let's Discuss your Option"}
+                    <Tx ns="contact-us">{"Let's Discuss your Option"}</Tx>
                   </AnimatedElement>
                 </div>
                 <EmailForm id="contact-form" crm>
@@ -104,76 +105,76 @@ function ContactAreaSection() {
                             className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-14.5 normal-case [word-wrap:normal] w-full h-15 pt-0 pr-5 pb-0 pl-5 font-normal text-[#6D6D6D] bg-white [border:1px_solid_#E5E5E5] rounded-[5px] appearance-none bg-no-repeat! bg-position-[right_20px_center]! focus:border-[#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [transition:all_0.3s_ease-in-out] motion-reduce:transition-none"
                           >
                             <option value="">
-                              {"— Select your industry —"}
+                              <Tx ns="contact-us">{"— Select your industry —"}</Tx>
                             </option>
                             <optgroup
                               label="Digital & Technology"
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
                               <option>
-                                {"Financial Technology (FinTech)"}
+                                <Tx ns="contact-us">{"Financial Technology (FinTech)"}</Tx>
                               </option>
-                              <option>{"Cybersecurity"}</option>
+                              <option><Tx ns="contact-us">{"Cybersecurity"}</Tx></option>
                               <option>
-                                {"Artificial Intelligence & Data Analytics"}
+                                <Tx ns="contact-us">{"Artificial Intelligence & Data Analytics"}</Tx>
                               </option>
-                              <option>{"E-Commerce & Digital Retail"}</option>
+                              <option><Tx ns="contact-us">{"E-Commerce & Digital Retail"}</Tx></option>
                               <option>
-                                {"Telecommunications & Connectivity"}
+                                <Tx ns="contact-us">{"Telecommunications & Connectivity"}</Tx>
                               </option>
                               <option>
-                                {"Government Technology (GovTech)"}
+                                <Tx ns="contact-us">{"Government Technology (GovTech)"}</Tx>
                               </option>
-                              <option>{"Media, Gaming & Creative Tech"}</option>
-                              <option>{"Education Technology (EdTech)"}</option>
+                              <option><Tx ns="contact-us">{"Media, Gaming & Creative Tech"}</Tx></option>
+                              <option><Tx ns="contact-us">{"Education Technology (EdTech)"}</Tx></option>
                             </optgroup>
                             <optgroup
                               label="Health & Life Sciences"
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
-                              <option>{"Healthcare & MedTech"}</option>
-                              <option>{"Biomedical Sciences & Pharma"}</option>
+                              <option><Tx ns="contact-us">{"Healthcare & MedTech"}</Tx></option>
+                              <option><Tx ns="contact-us">{"Biomedical Sciences & Pharma"}</Tx></option>
                             </optgroup>
                             <optgroup
                               label="Manufacturing & Industry"
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
-                              <option>{"Advanced Manufacturing"}</option>
-                              <option>{"Logistics & Supply Chain"}</option>
+                              <option><Tx ns="contact-us">{"Advanced Manufacturing"}</Tx></option>
+                              <option><Tx ns="contact-us">{"Logistics & Supply Chain"}</Tx></option>
                               <option>
-                                {"Food & Beverage / Agri-Food Tech"}
+                                <Tx ns="contact-us">{"Food & Beverage / Agri-Food Tech"}</Tx>
                               </option>
-                              <option>{"Maritime & Port Services"}</option>
-                              <option>{"Aerospace & Aviation"}</option>
-                              <option>{"Chemicals & Energy"}</option>
+                              <option><Tx ns="contact-us">{"Maritime & Port Services"}</Tx></option>
+                              <option><Tx ns="contact-us">{"Aerospace & Aviation"}</Tx></option>
+                              <option><Tx ns="contact-us">{"Chemicals & Energy"}</Tx></option>
                             </optgroup>
                             <optgroup
                               label="Professional & Business Services"
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
-                              <option>{"Professional & Legal Services"}</option>
+                              <option><Tx ns="contact-us">{"Professional & Legal Services"}</Tx></option>
                               <option>
-                                {"HR Technology & Workforce Solutions"}
+                                <Tx ns="contact-us">{"HR Technology & Workforce Solutions"}</Tx>
                               </option>
-                              <option>{"Insurance & Risk Management"}</option>
-                              <option>{"Tourism, MICE & Hospitality"}</option>
-                              <option>{"Retail & Consumer Goods"}</option>
-                              <option>{"Social Services & Non-Profit"}</option>
+                              <option><Tx ns="contact-us">{"Insurance & Risk Management"}</Tx></option>
+                              <option><Tx ns="contact-us">{"Tourism, MICE & Hospitality"}</Tx></option>
+                              <option><Tx ns="contact-us">{"Retail & Consumer Goods"}</Tx></option>
+                              <option><Tx ns="contact-us">{"Social Services & Non-Profit"}</Tx></option>
                             </optgroup>
                             <optgroup
                               label="Sustainability & Infrastructure"
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
                               <option>
-                                {"Green Technology & Sustainability"}
+                                <Tx ns="contact-us">{"Green Technology & Sustainability"}</Tx>
                               </option>
                               <option>
-                                {"Water, Utilities & Smart Infrastructure"}
+                                <Tx ns="contact-us">{"Water, Utilities & Smart Infrastructure"}</Tx>
                               </option>
-                              <option>{"Construction & Real Estate"}</option>
+                              <option><Tx ns="contact-us">{"Construction & Real Estate"}</Tx></option>
                             </optgroup>
                             <option value="other">
-                              {"Other / Not listed"}
+                              <Tx ns="contact-us">{"Other / Not listed"}</Tx>
                             </option>
                           </select>
                         </div>
@@ -187,55 +188,43 @@ function ContactAreaSection() {
                             name="topic"
                             className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-14.5 normal-case [word-wrap:normal] w-full h-15 pt-0 pr-5 pb-0 pl-5 font-normal text-[#6D6D6D] bg-white [border:1px_solid_#E5E5E5] rounded-[5px] appearance-none bg-no-repeat! bg-position-[right_20px_center]! focus:border-[#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [transition:all_0.3s_ease-in-out] motion-reduce:transition-none"
                           >
-                            <option value="">{"— Area of interest * —"}</option>
+                            <option value=""><Tx ns="contact-us">{"— Area of interest * —"}</Tx></option>
                             <optgroup
                               label="ISO Consultation"
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
                               <option value="consult-iso27001">
-                                {
-                                  "ISO/IEC 27001 — Information security consultation"
-                                }
+                                <Tx ns="contact-us">{"ISO/IEC 27001 — Information security consultation"}</Tx>
                               </option>
                               <option value="consult-iso27032">
-                                {"ISO/IEC 27032 — Cybersecurity consultation"}
+                                <Tx ns="contact-us">{"ISO/IEC 27032 — Cybersecurity consultation"}</Tx>
                               </option>
                               <option value="consult-iso42001">
-                                {
-                                  "ISO/IEC 42001 — AI management system consultation"
-                                }
+                                <Tx ns="contact-us">{"ISO/IEC 42001 — AI management system consultation"}</Tx>
                               </option>
                               <option value="consult-iso27701">
-                                {
-                                  "ISO/IEC 27701 / PDPA — Privacy management consultation"
-                                }
+                                <Tx ns="contact-us">{"ISO/IEC 27701 / PDPA — Privacy management consultation"}</Tx>
                               </option>
                               <option value="consult-iso9001">
-                                {"ISO 9001 — Quality management consultation"}
+                                <Tx ns="contact-us">{"ISO 9001 — Quality management consultation"}</Tx>
                               </option>
                               <option value="consult-iso14001">
-                                {
-                                  "ISO 14001 — Environmental management consultation"
-                                }
+                                <Tx ns="contact-us">{"ISO 14001 — Environmental management consultation"}</Tx>
                               </option>
                               <option value="consult-iso45001">
-                                {
-                                  "ISO 45001 — Occupational health & safety consultation"
-                                }
+                                <Tx ns="contact-us">{"ISO 45001 — Occupational health & safety consultation"}</Tx>
                               </option>
                               <option value="consult-iso37001">
-                                {
-                                  "ISO 37001 — Anti-bribery management consultation"
-                                }
+                                <Tx ns="contact-us">{"ISO 37001 — Anti-bribery management consultation"}</Tx>
                               </option>
                               <option value="consult-iso22301">
-                                {"ISO 22301 — Business continuity consultation"}
+                                <Tx ns="contact-us">{"ISO 22301 — Business continuity consultation"}</Tx>
                               </option>
                               <option value="consult-iso50001">
-                                {"ISO 50001 — Energy management consultation"}
+                                <Tx ns="contact-us">{"ISO 50001 — Energy management consultation"}</Tx>
                               </option>
                               <option value="consult-multi">
-                                {"Integrated / multi-standard consultation"}
+                                <Tx ns="contact-us">{"Integrated / multi-standard consultation"}</Tx>
                               </option>
                             </optgroup>
                             <optgroup
@@ -243,24 +232,22 @@ function ContactAreaSection() {
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
                               <option value="audit-gap">
-                                {
-                                  "Gap audit (pre-certification readiness assessment)"
-                                }
+                                <Tx ns="contact-us">{"Gap audit (pre-certification readiness assessment)"}</Tx>
                               </option>
                               <option value="audit-internal">
-                                {"Internal audit support / co-sourcing"}
+                                <Tx ns="contact-us">{"Internal audit support / co-sourcing"}</Tx>
                               </option>
                               <option value="audit-stage1">
-                                {"Stage 1 audit (documentation review)"}
+                                <Tx ns="contact-us">{"Stage 1 audit (documentation review)"}</Tx>
                               </option>
                               <option value="audit-stage2">
-                                {"Stage 2 audit (certification audit)"}
+                                <Tx ns="contact-us">{"Stage 2 audit (certification audit)"}</Tx>
                               </option>
                               <option value="audit-surveillance">
-                                {"Surveillance or recertification audit"}
+                                <Tx ns="contact-us">{"Surveillance or recertification audit"}</Tx>
                               </option>
                               <option value="audit-supplier">
-                                {"Supplier / third-party audit"}
+                                <Tx ns="contact-us">{"Supplier / third-party audit"}</Tx>
                               </option>
                             </optgroup>
                             <optgroup
@@ -268,25 +255,25 @@ function ContactAreaSection() {
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
                               <option value="train-lead-27001">
-                                {"Lead auditor course — ISO/IEC 27001"}
+                                <Tx ns="contact-us">{"Lead auditor course — ISO/IEC 27001"}</Tx>
                               </option>
                               <option value="train-lead-9001">
-                                {"Lead auditor course — ISO 9001"}
+                                <Tx ns="contact-us">{"Lead auditor course — ISO 9001"}</Tx>
                               </option>
                               <option value="train-lead-42001">
-                                {"Lead auditor course — ISO/IEC 42001"}
+                                <Tx ns="contact-us">{"Lead auditor course — ISO/IEC 42001"}</Tx>
                               </option>
                               <option value="train-internal">
-                                {"Internal auditor course (any standard)"}
+                                <Tx ns="contact-us">{"Internal auditor course (any standard)"}</Tx>
                               </option>
                               <option value="train-implementation">
-                                {"Implementation course (any standard)"}
+                                <Tx ns="contact-us">{"Implementation course (any standard)"}</Tx>
                               </option>
                               <option value="train-awareness">
-                                {"Staff awareness training (any standard)"}
+                                <Tx ns="contact-us">{"Staff awareness training (any standard)"}</Tx>
                               </option>
                               <option value="train-custom">
-                                {"Custom in-house training programme"}
+                                <Tx ns="contact-us">{"Custom in-house training programme"}</Tx>
                               </option>
                             </optgroup>
                             <optgroup
@@ -294,13 +281,13 @@ function ContactAreaSection() {
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
                               <option value="grant-eligibility">
-                                {"Check my EDGE Grant eligibility"}
+                                <Tx ns="contact-us">{"Check my EDGE Grant eligibility"}</Tx>
                               </option>
                               <option value="grant-application">
-                                {"EDGE proposal and quotation"}
+                                <Tx ns="contact-us">{"EDGE proposal and quotation"}</Tx>
                               </option>
                               <option value="grant-milestone">
-                                {"EDGE project deliverables support"}
+                                <Tx ns="contact-us">{"EDGE project deliverables support"}</Tx>
                               </option>
                             </optgroup>
                             <optgroup
@@ -308,19 +295,19 @@ function ContactAreaSection() {
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
                               <option value="general-quote">
-                                {"Request a fee quotation"}
+                                <Tx ns="contact-us">{"Request a fee quotation"}</Tx>
                               </option>
                               <option value="general-scope">
-                                {"Understand which standard is right for me"}
+                                <Tx ns="contact-us">{"Understand which standard is right for me"}</Tx>
                               </option>
                               <option value="general-timeline">
-                                {"Understand certification timelines"}
+                                <Tx ns="contact-us">{"Understand certification timelines"}</Tx>
                               </option>
                               <option value="general-partnership">
-                                {"Partnership / referral enquiry"}
+                                <Tx ns="contact-us">{"Partnership / referral enquiry"}</Tx>
                               </option>
                               <option value="general-other">
-                                {"Other enquiry"}
+                                <Tx ns="contact-us">{"Other enquiry"}</Tx>
                               </option>
                             </optgroup>
                           </select>
@@ -360,7 +347,7 @@ function ContactAreaSection() {
                           name="submit_contact"
                           className="rounded-[3px] mt-0 mr-0 mb-0 ml-0 text-[17px] leading-[inherit] normal-case w-full! pt-3.5 pr-6.5 pb-3.5 pl-6.5 text-[#FFFFFF] [border:none] [background:#2B3944] inline-flex items-center justify-center font-medium relative z-1 overflow-hidden hover:[background:#AB052D] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                         >
-                          {"Send Message"}
+                          <Tx ns="contact-us">{"Send Message"}</Tx>
                         </button>
                       </div>
                     </div>
@@ -416,13 +403,13 @@ function ContactAreaSection() {
                   </div>
                   <div>
                     <span className="mb-1.25 text-[24px] max-[767px]:text-[20px] min-[767px]:max-[1199px]:text-[22px] block text-[#2B3944] font-semibold">
-                      {"Email Support"}
+                      <Tx ns="contact-us">{"Email Support"}</Tx>
                     </span>
                     <SiteLink
                       href="mailto:admin@icfc.com.sg"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"admin@icfc.com.sg"}
+                      <Tx ns="contact-us">{"admin@icfc.com.sg"}</Tx>
                     </SiteLink>
                   </div>
                 </li>
@@ -447,7 +434,7 @@ function ContactAreaSection() {
                   </div>
                   <div>
                     <span className="mb-1.25 text-[24px] max-[767px]:text-[20px] min-[767px]:max-[1199px]:text-[22px] block text-[#2B3944] font-semibold">
-                      {"Call Our Office"}
+                      <Tx ns="contact-us">{"Call Our Office"}</Tx>
                     </span>
                     <SiteLink
                       href="tel:+990123%20456%20789"
@@ -474,7 +461,7 @@ function ContactAreaSection() {
                   </div>
                   <div>
                     <span className="mb-1.25 text-[24px] max-[767px]:text-[20px] min-[767px]:max-[1199px]:text-[22px] block text-[#2B3944] font-semibold">
-                      {"WhatsApp Support"}
+                      <Tx ns="contact-us">{"WhatsApp Support"}</Tx>
                     </span>
                     <SiteLink
                       href="tel:+990123%20456%20789"
@@ -498,43 +485,41 @@ function ContainerSection() {
     <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330 pt-12! pb-12!">
       <div className="pt-12 pr-0 pb-12 pl-0 [border-bottom:none]">
         <div className="mb-3! pt-1! pr-3! pb-1! pl-3! text-[13px]! font-semibold! tracking-[0.08em]! uppercase! text-[#A32D2D]! [background:#FCEBEB]! inline-block! rounded-[20px]!">
-          {"Our mission"}
+          <Tx ns="contact-us">{"Our mission"}</Tx>
         </div>
         <div className="grid grid-cols-[1fr_1fr] max-[768px]:grid-cols-[1fr] gap-10 [align-items:start]">
           <div>
             <h1 className="mt-0 mb-0 font-bold! leading-[1.2]! text-[#111]! text-[28px]! [word-break:break-word]">
-              {"Mission-driven results."}
+              <Tx ns="contact-us">{"Mission-driven results."}</Tx>
               <br />
-              {"Standards-led excellence."}
+              <Tx ns="contact-us">{"Standards-led excellence."}</Tx>
             </h1>
             <p className="mt-0 mb-0 text-[16px]! [font-weight:normal] text-[#555]! leading-[1.7]!">
-              {
-                "Our mission is to make international standards genuinely work for Singapore businesses."
-              }
+              <Tx ns="contact-us">{"Our mission is to make international standards genuinely work for Singapore businesses."}</Tx>
             </p>
           </div>
           <div>
             <div className="pt-8 pr-8 pb-8 pl-8 [background:#fff] [border:1px_solid_#f0f0f0] shadow-[0_10px_30px_rgba(0,0,0,0.03)] rounded-2xl">
               <p className="mt-0 mb-7.5 text-[14px]! font-semibold! text-[#AB052D]! leading-7 tracking-wider! uppercase!">
-                {"Achieve goals"}
+                <Tx ns="contact-us">{"Achieve goals"}</Tx>
               </p>
               <p className="mt-0 mb-1.5 mr-0 ml-0 text-[18px]! font-semibold! text-[#111]! leading-7">
-                {"What success looks like for our clients"}
+                <Tx ns="contact-us">{"What success looks like for our clients"}</Tx>
               </p>
               <div className="mt-3 mr-0 mb-3 ml-0 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
-                <span className="">{"Years"}</span>
+                <span className=""><Tx ns="contact-us">{"Years"}</Tx></span>
                 <span className="">{"12"}</span>
               </div>
               <div className="mt-3 mr-0 mb-3 ml-0 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
-                <span className="">{"Clients"}</span>
+                <span className=""><Tx ns="contact-us">{"Clients"}</Tx></span>
                 <span className="">{"250+"}</span>
               </div>
               <div className="mt-3 mr-0 mb-3 ml-0 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
-                <span className="">{"Audits"}</span>
+                <span className=""><Tx ns="contact-us">{"Audits"}</Tx></span>
                 <span className="">{"500+"}</span>
               </div>
               <div className="mt-3 mr-0 mb-3 ml-0 flex justify-between text-[14px] text-[#4a4a4a] font-medium">
-                <span className="">{"Trainees"}</span>
+                <span className=""><Tx ns="contact-us">{"Trainees"}</Tx></span>
                 <span className="">{"100+"}</span>
               </div>
             </div>

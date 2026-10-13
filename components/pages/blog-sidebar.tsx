@@ -1,3 +1,4 @@
+import { Tx } from "@/components/atoms/tx";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -19,8 +20,8 @@ export function BlogSidebarPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="Blog Sidebar"
-      description="Position your agency bridge between a client’s big picture"
+      title={<Tx ns="blog-sidebar">{"Blog Sidebar"}</Tx>}
+      description={<Tx ns="blog-sidebar">{"Position your agency bridge between a client’s big picture"}</Tx>}
       background="/assets/images/logo/logo.png"
     />
   );
@@ -60,7 +61,7 @@ function PostboxAreaSection() {
                               href="/contact-us"
                               className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
-                              {"Icfc"}
+                              <Tx ns="blog-sidebar">{"Icfc"}</Tx>
                             </SiteLink>
                           </span>
                         </div>
@@ -72,7 +73,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" Corporate "}
+                            <Tx ns="blog-sidebar">{" Corporate "}</Tx>
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
@@ -83,7 +84,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" August 20, 2025"}
+                            <Tx ns="blog-sidebar">{" August 20, 2025"}</Tx>
                           </span>
                         </div>
                       </div>
@@ -95,24 +96,18 @@ function PostboxAreaSection() {
                         href="/blog-details"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {
-                          "Smarter Thinking for Smarter\n                                                Business\n                                                Solutions"
-                        }
+                        <Tx ns="blog-sidebar">{"Smarter Thinking for Smarter\n                                                Business\n                                                Solutions"}</Tx>
                       </SiteLink>
                     </h5>
                     <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                      {
-                        "This retains a dynamic action oriented feel and aligns with\n                                            consulting core."
-                      }
+                      <Tx ns="blog-sidebar">{"This retains a dynamic action oriented feel and aligns with\n                                            consulting core."}</Tx>
                     </p>
                     <div>
                       <SiteLink
                         href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
-                        {
-                          "Read\n                                                More\n                                            "
-                        }
+                        <Tx ns="blog-sidebar">{"Read\n                                                More\n                                            "}</Tx>
                       </SiteLink>
                     </div>
                   </div>
@@ -145,7 +140,7 @@ function PostboxAreaSection() {
                               href="/contact-us"
                               className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
-                              {"Icfc"}
+                              <Tx ns="blog-sidebar">{"Icfc"}</Tx>
                             </SiteLink>
                           </span>
                         </div>
@@ -157,7 +152,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" Corporate "}
+                            <Tx ns="blog-sidebar">{" Corporate "}</Tx>
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
@@ -168,7 +163,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" August 20, 2025"}
+                            <Tx ns="blog-sidebar">{" August 20, 2025"}</Tx>
                           </span>
                         </div>
                       </div>
@@ -180,24 +175,18 @@ function PostboxAreaSection() {
                         href="/blog-details"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {
-                          "From the Minds of Business Growth\n                                                Strategists"
-                        }
+                        <Tx ns="blog-sidebar">{"From the Minds of Business Growth\n                                                Strategists"}</Tx>
                       </SiteLink>
                     </h5>
                     <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                      {
-                        "Consulting empowers businesses with data-driven strategies and\n                                            innovative solutions"
-                      }
+                      <Tx ns="blog-sidebar">{"Consulting empowers businesses with data-driven strategies and\n                                            innovative solutions"}</Tx>
                     </p>
                     <div>
                       <SiteLink
                         href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
-                        {
-                          "Read\n                                                More\n                                            "
-                        }
+                        <Tx ns="blog-sidebar">{"Read\n                                                More\n                                            "}</Tx>
                       </SiteLink>
                     </div>
                   </div>
@@ -230,7 +219,7 @@ function PostboxAreaSection() {
                               href="/contact-us"
                               className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
-                              {"Icfc"}
+                              <Tx ns="blog-sidebar">{"Icfc"}</Tx>
                             </SiteLink>
                           </span>
                         </div>
@@ -242,7 +231,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" Corporate "}
+                            <Tx ns="blog-sidebar">{" Corporate "}</Tx>
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
@@ -253,7 +242,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" August 20, 2025"}
+                            <Tx ns="blog-sidebar">{" August 20, 2025"}</Tx>
                           </span>
                         </div>
                       </div>
@@ -265,24 +254,18 @@ function PostboxAreaSection() {
                         href="/blog-details"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {
-                          "Insights That Drive Business\n                                                Smarter\n                                                Forward"
-                        }
+                        <Tx ns="blog-sidebar">{"Insights That Drive Business\n                                                Smarter\n                                                Forward"}</Tx>
                       </SiteLink>
                     </h5>
                     <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                      {
-                        "Consulting empowers businesses with data-driven strategies and\n                                            innovative solutions"
-                      }
+                      <Tx ns="blog-sidebar">{"Consulting empowers businesses with data-driven strategies and\n                                            innovative solutions"}</Tx>
                     </p>
                     <div>
                       <SiteLink
                         href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
-                        {
-                          "Read\n                                                More\n                                            "
-                        }
+                        <Tx ns="blog-sidebar">{"Read\n                                                More\n                                            "}</Tx>
                       </SiteLink>
                     </div>
                   </div>
@@ -315,7 +298,7 @@ function PostboxAreaSection() {
                               href="/contact-us"
                               className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
-                              {"Icfc"}
+                              <Tx ns="blog-sidebar">{"Icfc"}</Tx>
                             </SiteLink>
                           </span>
                         </div>
@@ -327,7 +310,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" Corporate "}
+                            <Tx ns="blog-sidebar">{" Corporate "}</Tx>
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
@@ -338,7 +321,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" August 20, 2025"}
+                            <Tx ns="blog-sidebar">{" August 20, 2025"}</Tx>
                           </span>
                         </div>
                       </div>
@@ -350,24 +333,18 @@ function PostboxAreaSection() {
                         href="/blog-details"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {
-                          "Actionable Insights for Real World\n                                                Results"
-                        }
+                        <Tx ns="blog-sidebar">{"Actionable Insights for Real World\n                                                Results"}</Tx>
                       </SiteLink>
                     </h5>
                     <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                      {
-                        "Helping companies thrive through expert consulting, smart\n                                            strategies,\n                                        "
-                      }
+                      <Tx ns="blog-sidebar">{"Helping companies thrive through expert consulting, smart\n                                            strategies,\n                                        "}</Tx>
                     </p>
                     <div>
                       <SiteLink
                         href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
-                        {
-                          "Read\n                                                More\n                                            "
-                        }
+                        <Tx ns="blog-sidebar">{"Read\n                                                More\n                                            "}</Tx>
                       </SiteLink>
                     </div>
                   </div>
@@ -400,7 +377,7 @@ function PostboxAreaSection() {
                               href="/contact-us"
                               className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
-                              {"Icfc"}
+                              <Tx ns="blog-sidebar">{"Icfc"}</Tx>
                             </SiteLink>
                           </span>
                         </div>
@@ -412,7 +389,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" Corporate "}
+                            <Tx ns="blog-sidebar">{" Corporate "}</Tx>
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
@@ -423,7 +400,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" August 20, 2025"}
+                            <Tx ns="blog-sidebar">{" August 20, 2025"}</Tx>
                           </span>
                         </div>
                       </div>
@@ -435,24 +412,18 @@ function PostboxAreaSection() {
                         href="/blog-details"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {
-                          "Mastering Markets, Models &\n                                                Momentum"
-                        }
+                        <Tx ns="blog-sidebar">{"Mastering Markets, Models &\n                                                Momentum"}</Tx>
                       </SiteLink>
                     </h5>
                     <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                      {
-                        "We help businesses unlock potential with clear strategies, expert\n                                        "
-                      }
+                      <Tx ns="blog-sidebar">{"We help businesses unlock potential with clear strategies, expert\n                                        "}</Tx>
                     </p>
                     <div>
                       <SiteLink
                         href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
-                        {
-                          "Read\n                                                More\n                                            "
-                        }
+                        <Tx ns="blog-sidebar">{"Read\n                                                More\n                                            "}</Tx>
                       </SiteLink>
                     </div>
                   </div>
@@ -485,7 +456,7 @@ function PostboxAreaSection() {
                               href="/contact-us"
                               className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#2B3944] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                             >
-                              {"Icfc"}
+                              <Tx ns="blog-sidebar">{"Icfc"}</Tx>
                             </SiteLink>
                           </span>
                         </div>
@@ -497,7 +468,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" Corporate "}
+                            <Tx ns="blog-sidebar">{" Corporate "}</Tx>
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
@@ -508,7 +479,7 @@ function PostboxAreaSection() {
                             />
                           </div>
                           <span className="text-[#FFFFFF] text-[14px] font-medium">
-                            {" August 20, 2025"}
+                            <Tx ns="blog-sidebar">{" August 20, 2025"}</Tx>
                           </span>
                         </div>
                       </div>
@@ -520,24 +491,18 @@ function PostboxAreaSection() {
                         href="/blog-details"
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        {
-                          "Strategic Thinking for a Changing\n                                                World"
-                        }
+                        <Tx ns="blog-sidebar">{"Strategic Thinking for a Changing\n                                                World"}</Tx>
                       </SiteLink>
                     </h5>
                     <p className="mt-0 mb-3.75 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                      {
-                        "From insights to execution, we guide businesses to smarter"
-                      }
+                      <Tx ns="blog-sidebar">{"From insights to execution, we guide businesses to smarter"}</Tx>
                     </p>
                     <div>
                       <SiteLink
                         href="/blog-details"
                         className="text-[#2B3944] [text-decoration:underline] pt-0 pr-0 pb-0 pl-0 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-visible hover:[background:#2B3944] w-[unset] h-[unset] gap-2 [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                       >
-                        {
-                          "Read\n                                                More\n                                            "
-                        }
+                        <Tx ns="blog-sidebar">{"Read\n                                                More\n                                            "}</Tx>
                       </SiteLink>
                     </div>
                   </div>
@@ -549,7 +514,7 @@ function PostboxAreaSection() {
             <div className="sticky max-[991px]:relative top-27.5 max-[991px]:top-[unset]">
               <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
-                  {"Search"}
+                  <Tx ns="blog-sidebar">{"Search"}</Tx>
                 </h5>
                 <div>
                   <EmailForm>
@@ -594,7 +559,7 @@ function PostboxAreaSection() {
               </div>
               <div className="mb-7.5 pt-7.5 max-[1199px]:pt-5 pr-7.5 max-[1199px]:pr-5 pb-10 max-[1199px]:pb-5 pl-7.5 max-[1199px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
-                  {"Categories"}
+                  <Tx ns="blog-sidebar">{"Categories"}</Tx>
                 </h5>
                 <div>
                   <div>
@@ -604,9 +569,7 @@ function PostboxAreaSection() {
                           href="/blog-details"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {
-                            "\n                                                    Business\n                                                    "
-                          }
+                          <Tx ns="blog-sidebar">{"\n                                                    Business\n                                                    "}</Tx>
                           <span className="">{"(5)"}</span>
                         </SiteLink>
                       </li>
@@ -615,9 +578,7 @@ function PostboxAreaSection() {
                           href="/blog-details"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {
-                            "\n                                                    Corporate\n                                                    "
-                          }
+                          <Tx ns="blog-sidebar">{"\n                                                    Corporate\n                                                    "}</Tx>
                           <span className="">{"(4)"}</span>
                         </SiteLink>
                       </li>
@@ -626,9 +587,7 @@ function PostboxAreaSection() {
                           href="/blog-details"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {
-                            "\n                                                    Consulting\n                                                    "
-                          }
+                          <Tx ns="blog-sidebar">{"\n                                                    Consulting\n                                                    "}</Tx>
                           <span className="">{"(7)"}</span>
                         </SiteLink>
                       </li>
@@ -637,9 +596,7 @@ function PostboxAreaSection() {
                           href="/blog-details"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {
-                            "\n                                                    AI Technology\n                                                    "
-                          }
+                          <Tx ns="blog-sidebar">{"\n                                                    AI Technology\n                                                    "}</Tx>
                           <span className="">{"(3)"}</span>
                         </SiteLink>
                       </li>
@@ -648,9 +605,7 @@ function PostboxAreaSection() {
                           href="/blog-details"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {
-                            "\n                                                    Oil & Gas Energy\n                                                    "
-                          }
+                          <Tx ns="blog-sidebar">{"\n                                                    Oil & Gas Energy\n                                                    "}</Tx>
                           <span className="">{"(3)"}</span>
                         </SiteLink>
                       </li>
@@ -659,9 +614,7 @@ function PostboxAreaSection() {
                           href="/blog-details"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {
-                            "\n                                                    IT Solutions\n                                                    "
-                          }
+                          <Tx ns="blog-sidebar">{"\n                                                    IT Solutions\n                                                    "}</Tx>
                           <span className="">{"(6)"}</span>
                         </SiteLink>
                       </li>
@@ -671,7 +624,7 @@ function PostboxAreaSection() {
               </div>
               <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
-                  {"Recent Posts"}
+                  <Tx ns="blog-sidebar">{"Recent Posts"}</Tx>
                 </h5>
                 <div>
                   <div>
@@ -694,14 +647,14 @@ function PostboxAreaSection() {
                             name="calendar"
                             className="inline-block not-italic text-[#AB052D]"
                           />
-                          <span className="">{"May 20, 2024"}</span>
+                          <span className=""><Tx ns="blog-sidebar">{"May 20, 2024"}</Tx></span>
                         </div>
                         <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog-details"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {" Insights That Drive Business Smarter Forward"}
+                            <Tx ns="blog-sidebar">{" Insights That Drive Business Smarter Forward"}</Tx>
                           </SiteLink>
                         </h6>
                       </div>
@@ -725,16 +678,14 @@ function PostboxAreaSection() {
                             name="calendar"
                             className="inline-block not-italic text-[#AB052D]"
                           />
-                          <span className="">{"May 20, 2024"}</span>
+                          <span className=""><Tx ns="blog-sidebar">{"May 20, 2024"}</Tx></span>
                         </div>
                         <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog-details"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {
-                              "\n                                                        From the Minds of Business Growth Strategists "
-                            }
+                            <Tx ns="blog-sidebar">{"\n                                                        From the Minds of Business Growth Strategists "}</Tx>
                           </SiteLink>
                         </h6>
                       </div>
@@ -758,16 +709,14 @@ function PostboxAreaSection() {
                             name="calendar"
                             className="inline-block not-italic text-[#AB052D]"
                           />
-                          <span className="">{"May 20, 2024"}</span>
+                          <span className=""><Tx ns="blog-sidebar">{"May 20, 2024"}</Tx></span>
                         </div>
                         <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog-details"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {
-                              "\n                                                        Smarter Thinking for Smarter Business Solutions "
-                            }
+                            <Tx ns="blog-sidebar">{"\n                                                        Smarter Thinking for Smarter Business Solutions "}</Tx>
                           </SiteLink>
                         </h6>
                       </div>
@@ -777,56 +726,56 @@ function PostboxAreaSection() {
               </div>
               <div className="pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
-                  {"Popular Tags"}
+                  <Tx ns="blog-sidebar">{"Popular Tags"}</Tx>
                 </h5>
                 <div className="flex flex-wrap gap-3">
                   <SiteLink
                     href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Technology"}
+                    <Tx ns="blog-sidebar">{"Technology"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Business"}
+                    <Tx ns="blog-sidebar">{"Business"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Video"}
+                    <Tx ns="blog-sidebar">{"Video"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Agency"}
+                    <Tx ns="blog-sidebar">{"Agency"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Consulting"}
+                    <Tx ns="blog-sidebar">{"Consulting"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Financial"}
+                    <Tx ns="blog-sidebar">{"Financial"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Corporate"}
+                    <Tx ns="blog-sidebar">{"Corporate"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/blog-details"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Marketing"}
+                    <Tx ns="blog-sidebar">{"Marketing"}</Tx>
                   </SiteLink>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { SiteLink } from "@/components/atoms/site-link";
 import { SiteImage } from "@/components/atoms/site-image";
 import { Icon } from "@/components/atoms/icon";
@@ -7,8 +8,8 @@ export function SiteBreadcrumb({
   description,
   background,
 }: {
-  title: string;
-  description?: string;
+  title: ReactNode;
+  description?: ReactNode;
   background: string;
 }) {
   return (

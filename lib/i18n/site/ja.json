@@ -1,0 +1,185 @@
+{
+ "top": {
+  "obstacle_text": "2014年よりシンガポールで監査、コンサルティング、研修を提供しています。",
+  "connect_link": "お問い合わせ",
+  "call_us_label": "電話：",
+  "send_mail_label": "メール："
+ },
+ "header": {
+  "language_label": "言語",
+  "get_quote": "見積もり依頼",
+  "lms_login": "LMSログイン",
+  "search": "検索",
+  "menu": "メニュー"
+ },
+ "nav": {
+  "home": "ホーム",
+  "industries": "業界",
+  "about": "会社概要",
+  "services": "サービス",
+  "blog": "インサイト",
+  "contact": "お問い合わせ"
+ },
+ "groups": {
+  "Cybersecurity, IT and Data Protection": "サイバーセキュリティ、IT、データ保護",
+  "ISO Management Systems": "ISOマネジメントシステム",
+  "Singapore Standards and Schemes": "シンガポール規格・制度",
+  "Sustainability and Supply Chain": "サステナビリティとサプライチェーン"
+ },
+ "common": {
+  "get_quote": "見積もり依頼",
+  "view_toggle": [
+   "概要表示",
+   "詳細表示"
+  ],
+  "transfer_eyebrow": "サービス提供会社の変更をお考えですか？",
+  "transfer_title": "ICFCへのサービス移管",
+  "transfer_text": "コンサルティング、内部監査、研修を当社へ移すのは簡単です。現在のシステム、認証書、計画を確認し、前の提供会社が終えたところから引き継ぎます。認証機関間の認証の移転は、認定規則に基づき、受け入れ側の認証機関が行います。",
+  "transfer_cta": "移管を開始",
+  "draft_notice": "このページはドラフト翻訳です。英語版が基準となります。"
+ },
+ "footer": {
+  "about_text": "ICFCは、シンガポールにおいて、ISOマネジメントシステム、サイバーセキュリティ、データ保護、サステナビリティ規格の監査、コンサルティング、研修を提供しています。",
+  "services_title": "サービス",
+  "company_title": "会社情報",
+  "legal_title": "法務情報",
+  "contact_title": "お問い合わせ",
+  "all_services": "すべてのサービス",
+  "privacy": "プライバシーポリシー",
+  "cookie_notice": "Cookieに関するお知らせ",
+  "lms_terms": "LMS利用規約",
+  "cookie_settings": "Cookie設定",
+  "call_us": "お電話",
+  "email": "メール",
+  "rights": "無断複写・転載を禁じます。",
+  "uen": "UEN 201402439E"
+ },
+ "home": {
+  "eyebrow": "シンガポール、2014年より",
+  "title": "信頼できる監査、コンサルティング、研修",
+  "intro": "2014年以来、ICFCはシンガポールおよびアジア太平洋地域の組織が、ISO、サイバーセキュリティ、ITアシュアランス、データ保護、シンガポール規格を取得し維持できるよう支援してきました。公平な監査、実践的なコンサルティング、集合研修とオンライン研修を提供します。",
+  "find_standard": "規格を探す",
+  "finder_eyebrow": "サービス検索",
+  "finder_title": "今日は何をお探しですか？",
+  "need_audit": "認証書が必要",
+  "need_consultation": "準備・導入が必要",
+  "need_training": "研修が必要",
+  "finder_topic": "トピック",
+  "trust_title": "2014年より信頼されています",
+  "stats": [
+   [
+    "12",
+    "シンガポールでの年数",
+    "2014年より"
+   ],
+   [
+    "250+",
+    "対応したクライアント",
+    "アジア太平洋地域全体"
+   ],
+   [
+    "500+",
+    "完了した監査",
+    "第一者、第二者、第三者"
+   ],
+   [
+    "100+",
+    "受講者数",
+    "集合研修とオンライン"
+   ]
+  ],
+  "services_eyebrow": "サービス",
+  "services_title": "4つのサポート",
+  "view_all": "{n}件すべてを見る",
+  "ways_eyebrow": "3つの進め方",
+  "ways_title": "監査。コンサルティング。研修。",
+  "ways": [
+   [
+    "監査",
+    "当社の審査員が認定認証機関に代わって行う第三者監査に加え、第二者監査と内部監査を実施します。"
+   ],
+   [
+    "コンサルティング",
+    "助成金（EDGE）活用または固定範囲のプロジェクト。"
+   ],
+   [
+    "研修",
+    "ICFC Digital LMSによる集合研修とオンライン研修。"
+   ]
+  ],
+  "edge_eyebrow": "資金",
+  "edge_title": "規格向けEDGE Grantのご支援",
+  "edge_text": "2026年9月30日から、企業向け助成金はEDGE Grantに移行しました。当社が支援する多くの規格が対象に含まれ、中小企業は最大50%、サステナビリティ規格は最大70%の支援を受けられます（適格性およびEnterprise Singaporeの承認が条件）。EDGEが規格関連活動に求めるとおり、ICFCのコンサルティングはSS 680:2021認証コンサルタントが主導します。CSAは、2028年2月6日まで、初回のCyber TrustおよびCyber Essentials認証を別途支援します。",
+  "edge_cta": "EDGEの適格性を確認",
+  "edge_small": "助成金の決定はEnterprise Singaporeが行います。情報確認日：2026年10月11日。",
+  "why_eyebrow": "ICFCが選ばれる理由",
+  "why_title": "組織が当社を選ぶ理由",
+  "why": [
+   [
+    "設計段階からの公平性",
+    "コンサルティングと監査の役割を分離し、すべての案件で利益相反の確認から始めます。"
+   ],
+   [
+    "統合監査",
+    "当社の審査員は統合マネジメントシステムに対応するため、複数の規格を同時に監査でき、時間とコストを節約できます。"
+   ],
+   [
+    "SS 680認証コンサルタント",
+    "ICFCのコンサルティングは、SS 680:2021の認証を受けたコンサルタントが主導します。これは、EDGEの規格関連活動におけるコンサルティング支援でEnterprise Singaporeが求める規格です。"
+   ],
+   [
+    "身につく学び",
+    "ICFC Digital LMSでの集合研修とオンライン研修により、プロジェクト終了後もチームの力を維持できます。"
+   ]
+  ],
+  "industries_eyebrow": "業界",
+  "industries_title": "対応業界",
+  "industries": {
+   "banking": "銀行・金融サービス",
+   "technology": "テクノロジー、SaaS、クラウド",
+   "data-centres": "データセンター",
+   "healthcare": "医療・医療機器",
+   "manufacturing": "製造業",
+   "logistics": "物流・コールドチェーン",
+   "construction": "建設・ファシリティ",
+   "education": "教育・研修",
+   "food": "飲食",
+   "events": "イベント、ホスピタリティ、MICE",
+   "apparel": "アパレル・繊維",
+   "automotive": "自動車サプライチェーン",
+   "professional": "専門サービス",
+   "retail": "小売・Eコマース",
+   "energy": "エネルギー、公益事業、インフラ",
+   "public-sector": "政府調達サプライヤーと公共部門"
+  },
+  "insights_eyebrow": "インサイト",
+  "insights_title": "最新のインサイト",
+  "all_insights": "すべてのインサイト",
+  "contact_title": "お問い合わせ"
+ },
+ "service": {
+  "fact_code": "規格または制度",
+  "fact_type": "種別",
+  "fact_group": "分類",
+  "fact_funding": "資金",
+  "what": "概要",
+  "who": "対象者",
+  "how_we_help": "当社の支援内容",
+  "tab_audit": "監査",
+  "tab_consultation": "コンサルティング",
+  "tab_training": "研修",
+  "key_details": "主な詳細",
+  "info_checked": "情報確認日：{date}。助成金の決定は資金提供機関が行います。",
+  "about_edge": "EDGEについて",
+  "impartiality": "公平性",
+  "faq_title": "よくある質問",
+  "sheet_title": "サービスシート",
+  "sheet_text": "チームで共有できる1ページの概要。",
+  "download_pdf": "PDFをダウンロード",
+  "word": "Word",
+  "related": "関連サービス",
+  "references": "参考資料",
+  "breadcrumb_home": "ホーム",
+  "breadcrumb_services": "サービス"
+ }
+}

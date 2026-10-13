@@ -1,6 +1,8 @@
+import { Tx } from "@/components/atoms/tx";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { BlogCard, type BlogPost } from "@/components/molecules/blog-card";
+import { translatePosts } from "@/lib/dictionary";
 
 export const posts: BlogPost[] = [
   {
@@ -103,13 +105,14 @@ export const posts: BlogPost[] = [
   },
 ];
 
-export function BlogPageContent() {
+export async function BlogPageContent() {
+  const list = await translatePosts(posts);
   return (
     <SitePageTemplate route="blog">
       <main>
         <SiteBreadcrumb
-          title="Blog"
-          description="Latest insights on ISO certifications, cybersecurity, sustainability, and business compliance in Singapore"
+          title={<Tx ns="blog">{"Blog"}</Tx>}
+          description={<Tx ns="blog">{"Latest insights on ISO certifications, cybersecurity, sustainability, and business compliance in Singapore"}</Tx>}
           background="/assets/bg/breadcrumb-bg-thumb-01.webp"
         />
         <section
@@ -118,7 +121,7 @@ export function BlogPageContent() {
         >
           <div className="mx-auto w-full px-6 min-[576px]:max-w-135 min-[768px]:max-w-180 min-[992px]:max-w-240 min-[1200px]:max-w-285 min-[1400px]:max-w-330 min-[1441px]:max-w-327.5">
             <div className="grid grid-cols-1 gap-12 min-[768px]:grid-cols-2 min-[992px]:grid-cols-3">
-              {posts.map((post) => (
+              {list.map((post) => (
                 <BlogCard key={post.href} post={post} />
               ))}
             </div>

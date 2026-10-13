@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ServicePageContent } from "@/components/pages/service";
 import { alternatesFor } from "@/lib/i18n";
-import { getService, services } from "@/lib/service-data";
+import { getService } from "@/lib/dictionary";
+import { services } from "@/lib/service-data";
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
 
@@ -14,7 +15,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = await params;
-  const s = getService(slug);
+  const s = await getService(slug);
   return {
     title: s?.title,
     description: s?.description,
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ServicePage({ params }: Props) {
-  const s = getService((await params).slug);
+  const s = await getService((await params).slug);
   if (!s) notFound();
   return <ServicePageContent service={s} />;
 }

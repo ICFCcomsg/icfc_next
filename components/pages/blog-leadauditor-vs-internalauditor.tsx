@@ -1,3 +1,4 @@
+import { Tx } from "@/components/atoms/tx";
 import { Icon } from "@/components/atoms/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
@@ -19,8 +20,8 @@ export function BlogLeadauditorVsInternalauditorPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="Lead auditor vs internal auditor training: which course does your team need?"
-      description="A practical guide to matching ISO training to the real job that needs doing"
+      title={<Tx ns="blog-leadauditor-vs-internalauditor">{"Lead auditor vs internal auditor training: which course does your team need?"}</Tx>}
+      description={<Tx ns="blog-leadauditor-vs-internalauditor">{"A practical guide to matching ISO training to the real job that needs doing"}</Tx>}
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
@@ -45,14 +46,12 @@ function PostboxAreaSection() {
                         />
                       </span>
                       <span className="">
-                        {
-                          "\n                                                By\n                                                "
-                        }
+                        <Tx ns="blog-leadauditor-vs-internalauditor">{"\n                                                By\n                                                "}</Tx>
                         <SiteLink
                           href="/contact-us"
                           className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"ICFC Pte Ltd"}
+                          <Tx ns="blog-leadauditor-vs-internalauditor">{"ICFC Pte Ltd"}</Tx>
                         </SiteLink>
                       </span>
                     </span>
@@ -78,7 +77,7 @@ function PostboxAreaSection() {
                           className="fill-[#AB052D]"
                         ></path>
                       </svg>
-                      <span className="">{"April 2026"}</span>
+                      <span className=""><Tx ns="blog-leadauditor-vs-internalauditor">{"April 2026"}</Tx></span>
                     </span>
                   </li>
                   <li className="list-none">
@@ -112,7 +111,7 @@ function PostboxAreaSection() {
                           className="fill-[#AB052D]"
                         ></path>
                       </svg>
-                      <span className="">{"0 Comments"}</span>
+                      <span className=""><Tx ns="blog-leadauditor-vs-internalauditor">{"0 Comments"}</Tx></span>
                     </span>
                   </li>
                   <li className="list-none">
@@ -136,94 +135,70 @@ function PostboxAreaSection() {
                           className="fill-[#AB052D]"
                         ></path>
                       </svg>
-                      <span className="">{"10 min read"}</span>
+                      <span className=""><Tx ns="blog-leadauditor-vs-internalauditor">{"10 min read"}</Tx></span>
                     </span>
                   </li>
                 </ul>
               </div>
               <div>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "It is one of the most common questions ICFC's training team receives — and one of the most consistently misunderstood decisions in the ISO certification world."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"It is one of the most common questions ICFC's training team receives — and one of the most consistently misunderstood decisions in the ISO certification world."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "A quality manager is told the company needs to maintain its ISO 9001 certification. She searches for training, finds a five-day lead auditor course from a reputable provider, and books herself on it. She learns a great deal. The certificate looks impressive. And then she returns to her organisation and discovers that most of what she learned — managing audit teams, opening meetings for formal third-party audits, handling certification body procedures — has very little relevance to what she actually needs to do every month."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"A quality manager is told the company needs to maintain its ISO 9001 certification. She searches for training, finds a five-day lead auditor course from a reputable provider, and books herself on it. She learns a great deal. The certificate looks impressive. And then she returns to her organisation and discovers that most of what she learned — managing audit teams, opening meetings for formal third-party audits, handling certification body procedures — has very little relevance to what she actually needs to do every month."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "What she needed was an internal auditor course. What she bought was a professional credential designed for people who audit "
-                  }
-                  <em>{"other organisations"}</em>
-                  {" for a living."}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"What she needed was an internal auditor course. What she bought was a professional credential designed for people who audit "}</Tx>
+                  <em><Tx ns="blog-leadauditor-vs-internalauditor">{"other organisations"}</Tx></em>
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{" for a living."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "This mix-up happens constantly. It is expensive, time-consuming, and entirely avoidable. This article gives you the framework to make the right training decision for every person on your team — based on what they actually need to do, not on what the top Google result offers."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"This mix-up happens constantly. It is expensive, time-consuming, and entirely avoidable. This article gives you the framework to make the right training decision for every person on your team — based on what they actually need to do, not on what the top Google result offers."}</Tx>
                 </p>
                 <h3 className="mt-5 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[30px] max-[1199px]:text-[25px] [word-break:break-word]">
-                  {"The fundamental distinction: who are you auditing?"}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"The fundamental distinction: who are you auditing?"}</Tx>
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "The core difference between lead auditor and internal auditor training is not the level of difficulty or prestige. It is the "
-                  }
-                  <em>{"context in which the audit is conducted"}</em>
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"The core difference between lead auditor and internal auditor training is not the level of difficulty or prestige. It is the "}</Tx>
+                  <em><Tx ns="blog-leadauditor-vs-internalauditor">{"context in which the audit is conducted"}</Tx></em>
                   {"."}
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Internal auditor training"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Internal auditor training"}</Tx>
                   </strong>
-                  {" prepares people to audit "}
-                  <em>{"within their own organisation"}</em>
-                  {
-                    " — conducting the internal audits that every ISO management system standard requires as part of its Clause 9.2 (Internal Audit) obligations. Internal auditors are employees of the organisation being audited."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{" prepares people to audit "}</Tx>
+                  <em><Tx ns="blog-leadauditor-vs-internalauditor">{"within their own organisation"}</Tx></em>
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{" — conducting the internal audits that every ISO management system standard requires as part of its Clause 9.2 (Internal Audit) obligations. Internal auditors are employees of the organisation being audited."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Lead auditor training"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Lead auditor training"}</Tx>
                   </strong>
-                  {" prepares people to lead audit teams conducting "}
-                  <em>{"external audits of other organisations"}</em>
-                  {
-                    " — either as employees of a certification body conducting Stage 1, Stage 2, or surveillance audits, or as independent consultants conducting second-party supplier audits. Lead auditors audit organisations they do not work for."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{" prepares people to lead audit teams conducting "}</Tx>
+                  <em><Tx ns="blog-leadauditor-vs-internalauditor">{"external audits of other organisations"}</Tx></em>
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{" — either as employees of a certification body conducting Stage 1, Stage 2, or surveillance audits, or as independent consultants conducting second-party supplier audits. Lead auditors audit organisations they do not work for."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "That single distinction determines which course is appropriate for almost every situation. Before you book anyone on any course, ask one question: will this person be auditing their own organisation's management system, or auditing other organisations? The answer gives you your answer."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"That single distinction determines which course is appropriate for almost every situation. Before you book anyone on any course, ask one question: will this person be auditing their own organisation's management system, or auditing other organisations? The answer gives you your answer."}</Tx>
                 </p>
                 <h3 className="mt-5 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[30px] max-[1199px]:text-[25px] [word-break:break-word]">
-                  {"What is internal auditor training?"}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"What is internal auditor training?"}</Tx>
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Purpose and scope"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Purpose and scope"}</Tx>
                   </strong>
                   <br />
-                  {
-                    "\n                                An internal auditor course is designed for people who will conduct or support internal audits of their own organisation's management system — against the requirements of ISO 9001, ISO 14001, ISO 45001, ISO/IEC 27001, ISO/IEC 42001, ISO 22301, or any other applicable standard."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"\n                                An internal auditor course is designed for people who will conduct or support internal audits of their own organisation's management system — against the requirements of ISO 9001, ISO 14001, ISO 45001, ISO/IEC 27001, ISO/IEC 42001, ISO 22301, or any other applicable standard."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "The internal audit requirement is not optional. Every ISO management system standard includes Clause 9.2 (or equivalent), which mandates that organisations conduct internal audits at planned intervals to: determine whether the management system conforms to the organisation's own requirements and the standard's requirements; evaluate whether the management system is effectively implemented and maintained; and provide information to management to support informed decision-making."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"The internal audit requirement is not optional. Every ISO management system standard includes Clause 9.2 (or equivalent), which mandates that organisations conduct internal audits at planned intervals to: determine whether the management system conforms to the organisation's own requirements and the standard's requirements; evaluate whether the management system is effectively implemented and maintained; and provide information to management to support informed decision-making."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "An organisation that fails to conduct competent internal audits will receive nonconformities during its external certification audit. An organisation that fails to conduct "
-                  }
-                  <em>{"any"}</em>
-                  {
-                    " internal audits will almost certainly fail its certification audit entirely."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"An organisation that fails to conduct competent internal audits will receive nonconformities during its external certification audit. An organisation that fails to conduct "}</Tx>
+                  <em><Tx ns="blog-leadauditor-vs-internalauditor">{"any"}</Tx></em>
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{" internal audits will almost certainly fail its certification audit entirely."}</Tx>
                 </p>
                 <div className="mb-7.5">
                   <SiteImage
@@ -233,99 +208,83 @@ function PostboxAreaSection() {
                   />
                 </div>
                 <h3 className="mt-5 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[30px] max-[1199px]:text-[25px] [word-break:break-word]">
-                  {"What is lead auditor training?"}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"What is lead auditor training?"}</Tx>
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
                   <strong className="[font-weight:bolder]">
-                    {"Purpose and scope"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Purpose and scope"}</Tx>
                   </strong>
                   <br />
-                  {
-                    "\n                                A lead auditor course is designed for people who will "
-                  }
-                  <em>{"lead"}</em>
-                  {
-                    " external audit teams — either conducting certification audits on behalf of an accredited certification body, or conducting second-party audits of suppliers and vendors on behalf of their employer."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"\n                                A lead auditor course is designed for people who will "}</Tx>
+                  <em><Tx ns="blog-leadauditor-vs-internalauditor">{"lead"}</Tx></em>
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{" external audit teams — either conducting certification audits on behalf of an accredited certification body, or conducting second-party audits of suppliers and vendors on behalf of their employer."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    'The "lead" in lead auditor refers specifically to the role of leading and managing an audit team — not simply participating in audits. A lead auditor plans the audit, briefs the audit team, manages the opening meeting, allocates team members to specific audit areas, handles difficult situations, writes the overall audit report, and conducts the closing meeting where findings are communicated formally to senior management.'
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{'The "lead" in lead auditor refers specifically to the role of leading and managing an audit team — not simply participating in audits. A lead auditor plans the audit, briefs the audit team, manages the opening meeting, allocates team members to specific audit areas, handles difficult situations, writes the overall audit report, and conducts the closing meeting where findings are communicated formally to senior management.'}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "This is a substantially different skill set from an internal auditor's — not because it requires more intelligence, but because it requires different competencies: managing people under pressure, handling formal certification processes, writing findings that will withstand scrutiny by an accreditation body, and maintaining impartiality when auditing organisations you have no stake in."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"This is a substantially different skill set from an internal auditor's — not because it requires more intelligence, but because it requires different competencies: managing people under pressure, handling formal certification processes, writing findings that will withstand scrutiny by an accreditation body, and maintaining impartiality when auditing organisations you have no stake in."}</Tx>
                 </p>
                 <h3 className="mt-5 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[30px] max-[1199px]:text-[25px] [word-break:break-word]">
-                  {"The bottom line"}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"The bottom line"}</Tx>
                 </h3>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "The decision between lead auditor and internal auditor training is not about choosing the more prestigious option. It is about matching the training to the actual job that needs doing."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"The decision between lead auditor and internal auditor training is not about choosing the more prestigious option. It is about matching the training to the actual job that needs doing."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "For most Singapore organisations maintaining an ISO-certified management system, internal auditor training for two to four team members is what you need. For consultants, certification body professionals, and individuals building a career in professional auditing, lead auditor training is the right investment."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"For most Singapore organisations maintaining an ISO-certified management system, internal auditor training for two to four team members is what you need. For consultants, certification body professionals, and individuals building a career in professional auditing, lead auditor training is the right investment."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "Get this decision right and your training budget produces a functional, sustainable internal audit programme. Get it wrong and you spend three to four times more than necessary — and still do not have what you needed in the first place."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"Get this decision right and your training budget produces a functional, sustainable internal audit programme. Get it wrong and you spend three to four times more than necessary — and still do not have what you needed in the first place."}</Tx>
                 </p>
                 <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "If you are not certain which course is right for your team, ICFC's training advisors are happy to discuss your situation in a free initial consultation. We will give you an honest recommendation — including telling you if a course we sell is not what you actually need."
-                  }
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"If you are not certain which course is right for your team, ICFC's training advisors are happy to discuss your situation in a free initial consultation. We will give you an honest recommendation — including telling you if a course we sell is not what you actually need."}</Tx>
                 </p>
                 <div className="pt-5 pb-5 items-center justify-between flex gap-7.5 flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1]">
                   <div className="items-center flex flex-wrap gap-3">
                     <span className="font-semibold pe-2.5 text-[#2B3944]">
-                      {"Tags:"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"Tags:"}</Tx>
                     </span>
                     <SiteLink
                       href="/services"
                       className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                     >
-                      {"ISO training"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"ISO training"}</Tx>
                     </SiteLink>
                     <SiteLink
                       href="/services"
                       className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                     >
-                      {"Lead auditor"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"Lead auditor"}</Tx>
                     </SiteLink>
                     <SiteLink
                       href="/services"
                       className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                     >
-                      {"Internal auditor"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"Internal auditor"}</Tx>
                     </SiteLink>
                     <SiteLink
                       href="/contact-us"
                       className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                     >
-                      {"ISO 27001"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"ISO 27001"}</Tx>
                     </SiteLink>
                     <SiteLink
                       href="/contact-us"
                       className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                     >
-                      {"ISO 9001"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"ISO 9001"}</Tx>
                     </SiteLink>
                     <SiteLink
                       href="/contact-us"
                       className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                     >
-                      {"Singapore"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"Singapore"}</Tx>
                     </SiteLink>
                   </div>
                   <div>
                     <span className="font-semibold pe-2.5 text-[#2B3944]">
-                      {"Social:"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"Social:"}</Tx>
                     </span>
                     <div className="inline-flex gap-3.75 items-center">
                       <SiteLink
@@ -370,7 +329,7 @@ function PostboxAreaSection() {
                 <div>
                   <div className="mt-8.75 mb-6.25">
                     <h3 className="mt-5 mb-5 font-semibold leading-[1.46] text-[#2B3944] text-[30px] max-[1199px]:text-[25px] [word-break:break-word]">
-                      {"Leave a Comment"}
+                      <Tx ns="blog-leadauditor-vs-internalauditor">{"Leave a Comment"}</Tx>
                     </h3>
                   </div>
                   <EmailForm>
@@ -422,9 +381,7 @@ function PostboxAreaSection() {
                             type="submit"
                             className="rounded-[50px] mt-0 mr-0 mb-0 ml-0 text-[17px] leading-[inherit] normal-case pt-3.5 pr-6.5 pb-3.5 pl-6.5 text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-1 overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                           >
-                            {
-                              "\n                                                        Post Comment\n                                                    "
-                            }
+                            <Tx ns="blog-leadauditor-vs-internalauditor">{"\n                                                        Post Comment\n                                                    "}</Tx>
                           </button>
                         </div>
                       </div>
@@ -438,7 +395,7 @@ function PostboxAreaSection() {
             <div className="sticky max-[991px]:relative top-27.5 max-[991px]:top-[unset]">
               <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
-                  {"Search"}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"Search"}</Tx>
                 </h5>
                 <div>
                   <EmailForm>
@@ -483,7 +440,7 @@ function PostboxAreaSection() {
               </div>
               <div className="mb-7.5 pt-7.5 max-[1199px]:pt-5 pr-7.5 max-[1199px]:pr-5 pb-10 max-[1199px]:pb-5 pl-7.5 max-[1199px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
-                  {"Categories"}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"Categories"}</Tx>
                 </h5>
                 <div>
                   <div>
@@ -493,7 +450,7 @@ function PostboxAreaSection() {
                           href="/blog_LeadAuditor_vs_InternalAuditor"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"ISO Training "}
+                          <Tx ns="blog-leadauditor-vs-internalauditor">{"ISO Training "}</Tx>
                           <span className="">{"(8)"}</span>
                         </SiteLink>
                       </li>
@@ -502,7 +459,7 @@ function PostboxAreaSection() {
                           href="/blog_LeadAuditor_vs_InternalAuditor"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"Lead Auditor "}
+                          <Tx ns="blog-leadauditor-vs-internalauditor">{"Lead Auditor "}</Tx>
                           <span className="">{"(5)"}</span>
                         </SiteLink>
                       </li>
@@ -511,7 +468,7 @@ function PostboxAreaSection() {
                           href="/blog_LeadAuditor_vs_InternalAuditor"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"Internal Auditor "}
+                          <Tx ns="blog-leadauditor-vs-internalauditor">{"Internal Auditor "}</Tx>
                           <span className="">{"(7)"}</span>
                         </SiteLink>
                       </li>
@@ -520,7 +477,7 @@ function PostboxAreaSection() {
                           href="/blog_LeadAuditor_vs_InternalAuditor"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"ISO 27001 "}
+                          <Tx ns="blog-leadauditor-vs-internalauditor">{"ISO 27001 "}</Tx>
                           <span className="">{"(6)"}</span>
                         </SiteLink>
                       </li>
@@ -529,7 +486,7 @@ function PostboxAreaSection() {
                           href="/blog_LeadAuditor_vs_InternalAuditor"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"ISO 9001 "}
+                          <Tx ns="blog-leadauditor-vs-internalauditor">{"ISO 9001 "}</Tx>
                           <span className="">{"(9)"}</span>
                         </SiteLink>
                       </li>
@@ -538,7 +495,7 @@ function PostboxAreaSection() {
                           href="/blog_LeadAuditor_vs_InternalAuditor"
                           className="text-inherit [text-decoration:none] pt-3 pr-5 pb-3 pl-5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_rgba(2,1,1,0.09)] [background:#FFFFFF] flex items-center justify-between font-medium rounded-md text-[17px] hover:[background:#AB052D] hover:border-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
-                          {"Compliance "}
+                          <Tx ns="blog-leadauditor-vs-internalauditor">{"Compliance "}</Tx>
                           <span className="">{"(4)"}</span>
                         </SiteLink>
                       </li>
@@ -548,7 +505,7 @@ function PostboxAreaSection() {
               </div>
               <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
-                  {"Recent Posts"}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"Recent Posts"}</Tx>
                 </h5>
                 <div>
                   <div>
@@ -571,16 +528,14 @@ function PostboxAreaSection() {
                             name="calendar"
                             className="inline-block not-italic text-[#AB052D]"
                           />
-                          <span className="">{"April 2026"}</span>
+                          <span className=""><Tx ns="blog-leadauditor-vs-internalauditor">{"April 2026"}</Tx></span>
                         </div>
                         <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog_LeadAuditor_vs_InternalAuditor"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {
-                              "ISO/IEC 42001: what Singapore AI companies need to know in 2026"
-                            }
+                            <Tx ns="blog-leadauditor-vs-internalauditor">{"ISO/IEC 42001: what Singapore AI companies need to know in 2026"}</Tx>
                           </SiteLink>
                         </h6>
                       </div>
@@ -604,16 +559,14 @@ function PostboxAreaSection() {
                             name="calendar"
                             className="inline-block not-italic text-[#AB052D]"
                           />
-                          <span className="">{"March 2026"}</span>
+                          <span className=""><Tx ns="blog-leadauditor-vs-internalauditor">{"March 2026"}</Tx></span>
                         </div>
                         <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog_LeadAuditor_vs_InternalAuditor"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {
-                              "MAS TRM and ISO 27001: understanding the overlap for Singapore financial institutions"
-                            }
+                            <Tx ns="blog-leadauditor-vs-internalauditor">{"MAS TRM and ISO 27001: understanding the overlap for Singapore financial institutions"}</Tx>
                           </SiteLink>
                         </h6>
                       </div>
@@ -637,16 +590,14 @@ function PostboxAreaSection() {
                             name="calendar"
                             className="inline-block not-italic text-[#AB052D]"
                           />
-                          <span className="">{"February 2026"}</span>
+                          <span className=""><Tx ns="blog-leadauditor-vs-internalauditor">{"February 2026"}</Tx></span>
                         </div>
                         <h6 className="mt-0 mb-0 font-semibold leading-[1.44] text-[#2B3944] text-[18px] max-[1199px]:text-[16px] [word-break:break-word]">
                           <SiteLink
                             href="/blog_LeadAuditor_vs_InternalAuditor"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {
-                              "How to apply for the EDGE Grant for ISO certification in Singapore (2026 guide)"
-                            }
+                            <Tx ns="blog-leadauditor-vs-internalauditor">{"How to apply for the EDGE Grant for ISO certification in Singapore (2026 guide)"}</Tx>
                           </SiteLink>
                         </h6>
                       </div>
@@ -656,56 +607,56 @@ function PostboxAreaSection() {
               </div>
               <div className="pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
                 <h5 className="mt-0 mb-7.5 font-semibold leading-[1.4] text-[#2B3944] text-[22px] pb-3 [word-break:break-word] relative before:[content:''] before:w-5 before:h-0.5 before:absolute before:inset-s-0 before:bottom-0 before:[background:#2B3944] after:[content:''] after:w-16.25 after:h-0.5 after:absolute after:inset-s-7.5 after:bottom-0 after:[background:#AB052D]">
-                  {"Popular Tags"}
+                  <Tx ns="blog-leadauditor-vs-internalauditor">{"Popular Tags"}</Tx>
                 </h5>
                 <div className="flex flex-wrap gap-3">
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"ISO 19011"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"ISO 19011"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/services"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Auditing"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Auditing"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Certification"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Certification"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Compliance"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Compliance"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Risk Management"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Risk Management"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"CQI/IRCA"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"CQI/IRCA"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"SkillsFuture"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"SkillsFuture"}</Tx>
                   </SiteLink>
                   <SiteLink
                     href="/contact-us"
                     className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
                   >
-                    {"Singapore"}
+                    <Tx ns="blog-leadauditor-vs-internalauditor">{"Singapore"}</Tx>
                   </SiteLink>
                 </div>
               </div>

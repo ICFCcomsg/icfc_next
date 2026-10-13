@@ -1,3 +1,4 @@
+import { Tx } from "@/components/atoms/tx";
 import {
   AnimatedElement,
   RotatingHotspots,
@@ -27,8 +28,8 @@ export function IndustryPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="Industry"
-      description="Position your agency bridge between a client's big picture"
+      title={<Tx ns="industry">{"Industry"}</Tx>}
+      description={<Tx ns="industry">{"Position your agency bridge between a client's big picture"}</Tx>}
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
@@ -44,7 +45,7 @@ function WorkingAreaSection() {
               <div>
                 <div>
                   <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                    {"Best BUSINESS Strategy"}
+                    <Tx ns="industry">{"Best BUSINESS Strategy"}</Tx>
                   </span>
                   <AnimatedElement
                     as="h2"
@@ -53,12 +54,10 @@ function WorkingAreaSection() {
                     duration={0.8}
                     className="mt-0 mb-5 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
                   >
-                    {"Welcome to ICFC team"}
+                    <Tx ns="industry">{"Welcome to ICFC team"}</Tx>
                   </AnimatedElement>
                   <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                    {
-                      "Position your agency as the bridge between a client's big-picture vision and achievable action plans. data-driven strategies and your track."
-                    }
+                    <Tx ns="industry">{"Position your agency as the bridge between a client's big-picture vision and achievable action plans. data-driven strategies and your track."}</Tx>
                   </p>
                 </div>
                 <div className="mt-7.5 mb-12.5 max-[991px]:mb-10 grid grid-cols-[repeat(2,1fr)] max-[767px]:grid-cols-[repeat(1,1fr)] min-[991px]:max-[1199px]:grid-cols-[repeat(1,1fr)] gap-[15px_0] w-128.75 max-[767px]:w-full min-[991px]:max-[1600px]:w-full">
@@ -80,7 +79,7 @@ function WorkingAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Regulatory Investigations "}
+                      <Tx ns="industry">{" Regulatory Investigations "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -101,7 +100,7 @@ function WorkingAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Competitive Work Analysis "}
+                      <Tx ns="industry">{" Competitive Work Analysis "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -122,7 +121,7 @@ function WorkingAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {" Anit- Competitive Conduct "}
+                      <Tx ns="industry">{" Anit- Competitive Conduct "}</Tx>
                     </p>
                   </div>
                   <div className="flex items-center gap-3.75">
@@ -143,7 +142,7 @@ function WorkingAreaSection() {
                       </svg>
                     </div>
                     <p className="mt-0 mb-0 text-[16px] font-medium text-[#2B3944] leading-7">
-                      {"Global Expansion Planning"}
+                      <Tx ns="industry">{"Global Expansion Planning"}</Tx>
                     </p>
                   </div>
                 </div>
@@ -152,7 +151,7 @@ function WorkingAreaSection() {
                     href="/contact-us"
                     className="text-[#FFFFFF] [text-decoration:none] pt-3.5 pr-6.5 pb-3.5 pl-6.5 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:none] [background:#AB052D] text-[17px] inline-flex items-center justify-center rounded-[50px] font-medium relative z-1 overflow-hidden hover:[background:#2B3944] gap-2 group/btn [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                   >
-                    {"Join a global team "}
+                    <Tx ns="industry">{"Join a global team "}</Tx>
                     <span className="overflow-hidden relative inline-flex transform-[rotate(-45deg)] group/icon-box">
                       <svg
                         width="16"
@@ -221,9 +220,7 @@ function FeatureAreaSection() {
           <div className="shrink-0 w-[75%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[83.33333333%] max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
             <div className="text-center! mb-11.25">
               <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                {
-                  "\n                        All-Industry IT Solutions\n                     "
-                }
+                <Tx ns="industry">{"\n                        All-Industry IT Solutions\n                     "}</Tx>
               </span>
               <AnimatedElement
                 as="h2"
@@ -232,14 +229,10 @@ function FeatureAreaSection() {
                 duration={0.8}
                 className="mt-0 mb-3.75 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
               >
-                {
-                  "Solving IT Challenges Everywhere\n                            "
-                }
+                <Tx ns="industry">{"Solving IT Challenges Everywhere\n                            "}</Tx>
               </AnimatedElement>
               <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  "Position your agency as the bridge between a client's big-picture vision\n                                and achievable\n                            "
-                }
+                <Tx ns="industry">{"Position your agency as the bridge between a client's big-picture vision\n                                and achievable\n                            "}</Tx>
               </p>
             </div>
           </div>
@@ -269,7 +262,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Advanced Manufacturing"}
+                      <Tx ns="industry">{"Advanced Manufacturing"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -325,7 +318,7 @@ function FeatureAreaSection() {
                       href="/services"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Financial Services "}
+                      <Tx ns="industry">{"Financial Services "}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -381,7 +374,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Energy & Natural Resources"}
+                      <Tx ns="industry">{"Energy & Natural Resources"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -437,7 +430,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Government"}
+                      <Tx ns="industry">{"Government"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -493,7 +486,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {" Healthcare & Life Sciences "}
+                      <Tx ns="industry">{" Healthcare & Life Sciences "}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -549,7 +542,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Government"}
+                      <Tx ns="industry">{"Government"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -605,7 +598,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Cybersecurity in Finance"}
+                      <Tx ns="industry">{"Cybersecurity in Finance"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -661,7 +654,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Financial Data Analytics"}
+                      <Tx ns="industry">{"Financial Data Analytics"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -717,7 +710,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Agribusiness"}
+                      <Tx ns="industry">{"Agribusiness"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -773,7 +766,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Payment Processing"}
+                      <Tx ns="industry">{"Payment Processing"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -829,7 +822,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"FinTech Solutions"}
+                      <Tx ns="industry">{"FinTech Solutions"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -885,7 +878,7 @@ function FeatureAreaSection() {
                       href="/contact-us"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"Digital Banking"}
+                      <Tx ns="industry">{"Digital Banking"}</Tx>
                     </SiteLink>
                   </h6>
                 </div>
@@ -946,9 +939,7 @@ function ContactAreaSection() {
               <div>
                 <div className="pt-12.5 max-[1600px]:pt-7.5 pb-13.75 max-[1600px]:pb-7.5 [background:#AB052D] ps-15 max-[1600px]:ps-7.5 pe-15 max-[1600px]:pe-7.5">
                   <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#FFFFFF] inline-block tracking-[2.5px]">
-                    {
-                      "\n                              Contact with us now\n                           "
-                    }
+                    <Tx ns="industry">{"\n                              Contact with us now\n                           "}</Tx>
                   </span>
                   <AnimatedElement
                     as="h2"
@@ -957,14 +948,10 @@ function ContactAreaSection() {
                     duration={0.8}
                     className="mt-0 mb-2.5 font-semibold leading-[1.19] text-[#FFFFFF] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[991px]:text-[30px] min-[991px]:max-[1366px]:text-[35px] min-[1366px]:max-[1600px]:text-[40px] [word-break:break-word]"
                   >
-                    {
-                      "Let's Collaborate\n                                        with Us!"
-                    }
+                    <Tx ns="industry">{"Let's Collaborate\n                                        with Us!"}</Tx>
                   </AnimatedElement>
                   <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#FFFFFF] leading-7">
-                    {
-                      "read and update the latest news from us. done eu magna quis felis.\n                                    "
-                    }
+                    <Tx ns="industry">{"read and update the latest news from us. done eu magna quis felis.\n                                    "}</Tx>
                   </p>
                 </div>
                 <div className="pt-15.5 max-[1366px]:pt-8.75 pb-15.5 max-[1366px]:pb-8.75 [background:#FFFFFF] ps-15 max-[1199px]:ps-0 min-[1199px]:max-[1366px]:ps-7.5 min-[1366px]:max-[1600px]:ps-10 pe-10 max-[1199px]:pe-0 min-[1199px]:max-[1366px]:pe-7.5">
@@ -1020,15 +1007,15 @@ function ContactAreaSection() {
                               name="subject"
                               className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] normal-case [word-wrap:normal] w-full h-15 max-[767px]:h-12.5 pt-0 pr-5 pb-0 pl-5 font-normal text-[#6D6D6D] bg-white [border:1px_solid_#E5E5E5] rounded-[5px] appearance-none bg-no-repeat bg-position-[right_20px_center] focus:border-[#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [transition:all_0.3s_ease-in-out] motion-reduce:transition-none"
                             >
-                              <option>{"Your Business"}</option>
-                              <option value="one">{"Business Strategy"}</option>
-                              <option value="two">{"Market Analysis"}</option>
+                              <option><Tx ns="industry">{"Your Business"}</Tx></option>
+                              <option value="one"><Tx ns="industry">{"Business Strategy"}</Tx></option>
+                              <option value="two"><Tx ns="industry">{"Market Analysis"}</Tx></option>
                               <option value="three">
-                                {"Financial Planing"}
+                                <Tx ns="industry">{"Financial Planing"}</Tx>
                               </option>
-                              <option value="four">{"Risk Management"}</option>
+                              <option value="four"><Tx ns="industry">{"Risk Management"}</Tx></option>
                               <option value="five">
-                                {"Digital Transformation"}
+                                <Tx ns="industry">{"Digital Transformation"}</Tx>
                               </option>
                             </select>
                           </div>
@@ -1053,9 +1040,7 @@ function ContactAreaSection() {
                             type="submit"
                             className="rounded-2xl mt-0 mr-0 mb-0 ml-0 text-[17px] leading-[inherit] normal-case w-full! pt-3.5 pr-6.5 pb-3.5 pl-6.5 text-[#FFFFFF] [border:none] [background:#2B3944] inline-flex items-center justify-center font-medium relative z-1 overflow-hidden hover:[background:#AB052D] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
                           >
-                            {
-                              "\n                                                        Send Massage\n                                                    "
-                            }
+                            <Tx ns="industry">{"\n                                                        Send Massage\n                                                    "}</Tx>
                           </button>
                         </div>
                       </div>
@@ -1067,18 +1052,18 @@ function ContactAreaSection() {
                 <div className="pt-22 max-[1199px]:pt-7.5 min-[1199px]:max-[1600px]:pt-15 pb-21.25 max-[1199px]:pb-7.5 min-[1199px]:max-[1600px]:pb-15 [background:#2B3944] ps-15 max-[1600px]:ps-7.5 pe-15 max-[1600px]:pe-7.5 flex items-center gap-[30px_70px] max-[1199px]:gap-[30px_30px] flex-wrap">
                   <div>
                     <span className="mb-3 text-[rgba(255,255,255,0.31)] text-[24px] max-[767px]:text-[20px] block leading-[1.15]">
-                      {"Email: "}
+                      <Tx ns="industry">{"Email: "}</Tx>
                     </span>
                     <SiteLink
                       href="mailto:admin@icfc.com.sg"
                       className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[20px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
-                      {"admin@icfc.com.sg"}
+                      <Tx ns="industry">{"admin@icfc.com.sg"}</Tx>
                     </SiteLink>
                   </div>
                   <div>
                     <span className="mb-3 text-[rgba(255,255,255,0.31)] text-[24px] max-[767px]:text-[20px] block leading-[1.15]">
-                      {"Contact Number:"}
+                      <Tx ns="industry">{"Contact Number:"}</Tx>
                     </span>
                     <SiteLink
                       href="tel:+65 8601 7001"
@@ -1116,7 +1101,7 @@ function ContactAreaSection() {
                         <div>
                           <div>
                             <h6 className="mt-0 mb-2.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                              {" Corporate Growth "}
+                              <Tx ns="industry">{" Corporate Growth "}</Tx>
                             </h6>
                           </div>
                         </div>
@@ -1136,7 +1121,7 @@ function ContactAreaSection() {
                       />
                       <div>
                         <h6 className="mt-0 mb-1.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                          {" Corporate Growth "}
+                          <Tx ns="industry">{" Corporate Growth "}</Tx>
                         </h6>
                       </div>
                     </div>
@@ -1161,7 +1146,7 @@ function ContactAreaSection() {
                         <div>
                           <div>
                             <h6 className="mt-0 mb-2.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                              {" Risk Management "}
+                              <Tx ns="industry">{" Risk Management "}</Tx>
                             </h6>
                           </div>
                         </div>
@@ -1181,7 +1166,7 @@ function ContactAreaSection() {
                       />
                       <div>
                         <h6 className="mt-0 mb-1.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                          {" Risk Management "}
+                          <Tx ns="industry">{" Risk Management "}</Tx>
                         </h6>
                       </div>
                       <div></div>
@@ -1207,7 +1192,7 @@ function ContactAreaSection() {
                         <div>
                           <div>
                             <h6 className="mt-0 mb-2.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                              {" Financial Services "}
+                              <Tx ns="industry">{" Financial Services "}</Tx>
                             </h6>
                           </div>
                           <div></div>
@@ -1228,7 +1213,7 @@ function ContactAreaSection() {
                       />
                       <div>
                         <h6 className="mt-0 mb-1.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                          {" Financial Services "}
+                          <Tx ns="industry">{" Financial Services "}</Tx>
                         </h6>
                       </div>
                     </div>
@@ -1253,7 +1238,7 @@ function ContactAreaSection() {
                         <div>
                           <div>
                             <h6 className="mt-0 mb-2.5 font-semibold leading-[1.44] text-[#2B3944] text-[18px] [word-break:break-word]">
-                              {" Business Strategy "}
+                              <Tx ns="industry">{" Business Strategy "}</Tx>
                             </h6>
                           </div>
                         </div>

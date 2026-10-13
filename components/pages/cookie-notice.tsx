@@ -1,6 +1,7 @@
 import { LegalPageTemplate } from "@/components/templates/legal-page-template";
-import blocks from "@/lib/legal/cookie-notice.json";
+import { getLegal } from "@/lib/dictionary";
 
-export function CookieNoticePageContent() {
+export async function CookieNoticePageContent() {
+  const blocks = await getLegal("cookie-notice");
   return <LegalPageTemplate route="cookie-notice" blocks={blocks} />;
 }

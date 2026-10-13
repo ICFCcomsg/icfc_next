@@ -1,6 +1,7 @@
 import { LegalPageTemplate } from "@/components/templates/legal-page-template";
-import blocks from "@/lib/legal/lms-terms.json";
+import { getLegal } from "@/lib/dictionary";
 
-export function LmsTermsPageContent() {
+export async function LmsTermsPageContent() {
+  const blocks = await getLegal("lms-terms");
   return <LegalPageTemplate route="training/lms-terms" blocks={blocks} />;
 }

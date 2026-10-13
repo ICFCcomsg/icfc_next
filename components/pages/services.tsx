@@ -1,3 +1,4 @@
+import { Tx } from "@/components/atoms/tx";
 import {
   PaginationGroup,
   PaginationPage,
@@ -24,8 +25,8 @@ export function ServicesPageContent() {
 function BreadcrumbAreaSection() {
   return (
     <SiteBreadcrumb
-      title="Services"
-      description="Position your agency bridge between a client's big picture"
+      title={<Tx ns="services">{"Services"}</Tx>}
+      description={<Tx ns="services">{"Position your agency bridge between a client's big picture"}</Tx>}
       background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
@@ -39,7 +40,7 @@ function ServicesAreaSection() {
           <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[83.33333333%] max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
             <div className="text-center! mb-11.25">
               <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                {"Our Strategic Services"}
+                <Tx ns="services">{"Our Strategic Services"}</Tx>
               </span>
               <AnimatedElement
                 as="h2"
@@ -48,12 +49,10 @@ function ServicesAreaSection() {
                 duration={0.8}
                 className="mt-0 mb-3.75 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
               >
-                {"High-Impact Strategy Services"}
+                <Tx ns="services">{"High-Impact Strategy Services"}</Tx>
               </AnimatedElement>
               <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                {
-                  "Focus on serving mid-size to enterprise-level companies looking for scalable strategic."
-                }
+                <Tx ns="services">{"Focus on serving mid-size to enterprise-level companies looking for scalable strategic."}</Tx>
               </p>
             </div>
           </div>
@@ -83,14 +82,12 @@ function ServicesAreaSection() {
                             href="/services/iso-iec-27701-pims"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"ISO/IEC 27701 PIMS"}
+                            <Tx ns="services">{"ISO/IEC 27701 PIMS"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {
-                          "Privacy Information Management System for global compliance."
-                        }
+                        <Tx ns="services">{"Privacy Information Management System for global compliance."}</Tx>
                       </p>
                     </div>
                     <SiteImage
@@ -130,12 +127,12 @@ function ServicesAreaSection() {
                             href="/services/iso-37001-abms"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"ISO 37001 Anti-bribery MS"}
+                            <Tx ns="services">{"ISO 37001 Anti-bribery MS"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Anti-bribery management system certification."}
+                        <Tx ns="services">{"Anti-bribery management system certification."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -176,12 +173,12 @@ function ServicesAreaSection() {
                             href="/services/iso-iec-42001-aims"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"ISO 42001 AI Management"}
+                            <Tx ns="services">{"ISO 42001 AI Management"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Artificial Intelligence Management Systems."}
+                        <Tx ns="services">{"Artificial Intelligence Management Systems."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -216,12 +213,12 @@ function ServicesAreaSection() {
                             href="/services/iso-14001-ems"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"ISO 14001 Environmental MS"}
+                            <Tx ns="services">{"ISO 14001 Environmental MS"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Environmental Management System certification."}
+                        <Tx ns="services">{"Environmental Management System certification."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -254,12 +251,12 @@ function ServicesAreaSection() {
                             href="/services/iso-9001-qms"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"ISO 9001 Quality Management"}
+                            <Tx ns="services">{"ISO 9001 Quality Management"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Quality Management System for excellence."}
+                        <Tx ns="services">{"Quality Management System for excellence."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -292,12 +289,12 @@ function ServicesAreaSection() {
                             href="/services/global-apec-prp"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"APEC PRP"}
+                            <Tx ns="services">{"APEC PRP"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"APEC Privacy Recognition framework."}
+                        <Tx ns="services">{"APEC Privacy Recognition framework."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -323,12 +320,12 @@ function ServicesAreaSection() {
                             href="/services/iso-45001-ohsms"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"ISO 45001 OH&S Management"}
+                            <Tx ns="services">{"ISO 45001 OH&S Management"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Occupational Health & Safety management system."}
+                        <Tx ns="services">{"Occupational Health & Safety management system."}</Tx>
                       </p>
                     </div>
                     <SiteImage
@@ -360,12 +357,12 @@ function ServicesAreaSection() {
                             href="/services/cyber-essentials-mark"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"CSA Cyber Essentials Mark "}
+                            <Tx ns="services">{"CSA Cyber Essentials Mark "}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Optimize energy performance globally."}
+                        <Tx ns="services">{"Optimize energy performance globally."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -392,12 +389,12 @@ function ServicesAreaSection() {
                             href="/services/cyber-trust-mark-ss-712"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"SS 712:2025 Cyber Trust Mark (CTM) "}
+                            <Tx ns="services">{"SS 712:2025 Cyber Trust Mark (CTM) "}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Information Security Management System."}
+                        <Tx ns="services">{"Information Security Management System."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -424,12 +421,12 @@ function ServicesAreaSection() {
                             href="/services/iso-22301-bcms"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"ISO 22301 BCMS"}
+                            <Tx ns="services">{"ISO 22301 BCMS"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Business Continuity Management System."}
+                        <Tx ns="services">{"Business Continuity Management System."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -456,12 +453,12 @@ function ServicesAreaSection() {
                             href="/services/cyber-trust-mark-ss-712"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"Global Cross-Border Privacy Rules (CBPR )"}
+                            <Tx ns="services">{"Global Cross-Border Privacy Rules (CBPR )"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Workplace safety accreditation."}
+                        <Tx ns="services">{"Workplace safety accreditation."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -483,12 +480,12 @@ function ServicesAreaSection() {
                             href="/services/data-protection-trustmark-ss-714"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"DPTM Certification"}
+                            <Tx ns="services">{"DPTM Certification"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"SS 584:2020 Multi-Tier Cloud Security"}
+                        <Tx ns="services">{"SS 584:2020 Multi-Tier Cloud Security"}</Tx>
                       </p>
                     </div>
                     <SiteImage
@@ -520,12 +517,12 @@ function ServicesAreaSection() {
                             href="/services/ss-587-end-of-life-ict"
                             className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                           >
-                            {"SS 587:2022 End-of-Life ICT Management"}
+                            <Tx ns="services">{"SS 587:2022 End-of-Life ICT Management"}</Tx>
                           </SiteLink>
                         </h5>
                       </div>
                       <p className="mt-10 mb-0 text-[17px] [font-weight:normal] text-[rgba(255,255,255,0.83)] leading-7">
-                        {"Data privacy and cyber resilience."}
+                        <Tx ns="services">{"Data privacy and cyber resilience."}</Tx>
                       </p>
                     </div>
                   </div>
@@ -541,7 +538,7 @@ function ServicesAreaSection() {
             className="pt-0 pr-5 pb-0 pl-5 w-auto h-12 flex items-center justify-center rounded-xl [background:#fff] [border:1px_solid_rgba(0,0,0,0.08)] font-semibold text-[16px] text-[#333] hover:border-[#AB052D] hover:text-[#AB052D] hover:transform-[translateY(-2px)] gap-2 [transition:all_0.3s_ease] motion-reduce:transition-none"
           >
             <Icon name="left" className="inline-block not-italic" />
-            {" Prev"}
+            <Tx ns="services">{" Prev"}</Tx>
           </PaginationButton>
           <PaginationButton
             page={1}
@@ -562,7 +559,7 @@ function ServicesAreaSection() {
             id="nextPageBtn"
             className="pt-0 pr-5 pb-0 pl-5 w-auto h-12 flex items-center justify-center rounded-xl [background:#fff] [border:1px_solid_rgba(0,0,0,0.08)] font-semibold text-[16px] text-[#333] hover:border-[#AB052D] hover:text-[#AB052D] hover:transform-[translateY(-2px)] gap-2 [transition:all_0.3s_ease] motion-reduce:transition-none"
           >
-            {"Next "}
+            <Tx ns="services">{"Next "}</Tx>
             <Icon name="right" className="inline-block not-italic" />
           </PaginationButton>
         </div>
@@ -571,7 +568,7 @@ function ServicesAreaSection() {
             <div className="flex flex-wrap mt-0 -mr-6 -ml-6 justify-center!">
               <div className="shrink-0 w-[66.66666667%] max-[1200px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto] text-center! mb-11.25">
                 <span className="mb-2.5 text-[13px] font-medium leading-7 uppercase text-[#2B3944] inline-block tracking-[2.5px]">
-                  {"Excellence Guaranteed"}
+                  <Tx ns="services">{"Excellence Guaranteed"}</Tx>
                 </span>
                 <AnimatedElement
                   as="h2"
@@ -580,13 +577,11 @@ function ServicesAreaSection() {
                   duration={0.8}
                   className="mt-0 mb-3.75 font-semibold leading-[1.19] text-[#2B3944] text-[52px] max-[575px]:text-[27px] min-[575px]:max-[767px]:text-[32px] min-[767px]:max-[991px]:text-[37px] min-[991px]:max-[1199px]:text-[42px] min-[1199px]:max-[1366px]:text-[47px] min-[1366px]:max-[1600px]:text-[50px] [word-break:break-word]"
                 >
-                  {"Providing Standard & "}
-                  <span className="text-[#AB052D]!">{"Premium Services"}</span>
+                  <Tx ns="services">{"Providing Standard & "}</Tx>
+                  <span className="text-[#AB052D]!"><Tx ns="services">{"Premium Services"}</Tx></span>
                 </AnimatedElement>
                 <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  {
-                    "We offer specialized compliance and management system solutions extracted directly from our expert training modules."
-                  }
+                  <Tx ns="services">{"We offer specialized compliance and management system solutions extracted directly from our expert training modules."}</Tx>
                 </p>
               </div>
             </div>
@@ -599,7 +594,7 @@ function ServicesAreaSection() {
                       name="star"
                       className="mr-1.5! inline-block not-italic"
                     />
-                    {" Global Accreditation"}
+                    <Tx ns="services">{" Global Accreditation"}</Tx>
                   </span>
                   <div className="mb-7.5 w-20 h-20 [background:#fdf2f4] rounded-3xl flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,5,45,0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:filter-[blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:transform-[rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,5,45,0.3)] after:group-hover/service-category-card:opacity-[0.3] [transition:0.4s] motion-reduce:transition-none after:[transition:0.4s] after:motion-reduce:transition-none">
                     <Icon
@@ -608,10 +603,10 @@ function ServicesAreaSection() {
                     />
                   </div>
                   <h4 className="mt-0 mb-4! font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                    {"Audit & Certification"}
+                    <Tx ns="services">{"Audit & Certification"}</Tx>
                   </h4>
                   <p className="mt-0 mb-6! text-[.875em] text-[rgba(33,37,41,0.75)]! [font-weight:normal] leading-7">
-                    {"Independent verification for global recognition."}
+                    <Tx ns="services">{"Independent verification for global recognition."}</Tx>
                   </p>
                   <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0 list-none">
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
@@ -619,42 +614,42 @@ function ServicesAreaSection() {
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 9001:2015 Quality Management"}
+                      <Tx ns="services">{" ISO 9001:2015 Quality Management"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 14001:2015 Environmental"}
+                      <Tx ns="services">{" ISO 14001:2015 Environmental"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 45001:2018 Health & Safety"}
+                      <Tx ns="services">{" ISO 45001:2018 Health & Safety"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 13485:2016 Medical Devices"}
+                      <Tx ns="services">{" ISO 13485:2016 Medical Devices"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 50001:2018 Energy Audit"}
+                      <Tx ns="services">{" ISO 50001:2018 Energy Audit"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:none] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 41001:2018 Facility Management"}
+                      <Tx ns="services">{" ISO 41001:2018 Facility Management"}</Tx>
                     </li>
                   </ul>
                 </div>
@@ -667,7 +662,7 @@ function ServicesAreaSection() {
                       name="bulb"
                       className="mr-1.5! inline-block not-italic"
                     />
-                    {" Tailored Strategy"}
+                    <Tx ns="services">{" Tailored Strategy"}</Tx>
                   </span>
                   <div className="mb-7.5 w-20 h-20 [background:#fdf2f4] rounded-3xl flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,5,45,0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:filter-[blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:transform-[rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,5,45,0.3)] after:group-hover/service-category-card:opacity-[0.3] [transition:0.4s] motion-reduce:transition-none after:[transition:0.4s] after:motion-reduce:transition-none">
                     <Icon
@@ -676,10 +671,10 @@ function ServicesAreaSection() {
                     />
                   </div>
                   <h4 className="mt-0 mb-4! font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                    {"Specialist Consulting"}
+                    <Tx ns="services">{"Specialist Consulting"}</Tx>
                   </h4>
                   <p className="mt-0 mb-6! text-[.875em] text-[rgba(33,37,41,0.75)]! [font-weight:normal] leading-7">
-                    {"Strategic advisory for regulatory landscapes."}
+                    <Tx ns="services">{"Strategic advisory for regulatory landscapes."}</Tx>
                   </p>
                   <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0 list-none">
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
@@ -687,42 +682,42 @@ function ServicesAreaSection() {
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" bizSAFE Level 1,2,3 & Star"}
+                      <Tx ns="services">{" bizSAFE Level 1,2,3 & Star"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" GDPMD Singapore Consultancy"}
+                      <Tx ns="services">{" GDPMD Singapore Consultancy"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 42001 AI Management"}
+                      <Tx ns="services">{" ISO 42001 AI Management"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" Cybersecurity & Data Privacy"}
+                      <Tx ns="services">{" Cybersecurity & Data Privacy"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 37001 Anti-Bribery Path"}
+                      <Tx ns="services">{" ISO 37001 Anti-Bribery Path"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:none] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 27701 Privacy Information"}
+                      <Tx ns="services">{" ISO 27701 Privacy Information"}</Tx>
                     </li>
                   </ul>
                 </div>
@@ -735,7 +730,7 @@ function ServicesAreaSection() {
                       name="presentation"
                       className="mr-1.5! inline-block not-italic"
                     />
-                    {" Skill Mastery"}
+                    <Tx ns="services">{" Skill Mastery"}</Tx>
                   </span>
                   <div className="mb-7.5 w-20 h-20 [background:#fdf2f4] rounded-3xl flex items-center justify-center relative shadow-[0_10px_20px_rgba(171,5,45,0.08)] after:[content:''] after:absolute after:w-full after:h-full after:[background:#AB052D] after:filter-[blur(20px)] after:opacity-[0] after:z-[-1] group-hover/service-category-card:[background:#AB052D] group-hover/service-category-card:transform-[rotateY(180deg)_scale(1.1)] group-hover/service-category-card:shadow-[0_15px_30px_rgba(171,5,45,0.3)] after:group-hover/service-category-card:opacity-[0.3] [transition:0.4s] motion-reduce:transition-none after:[transition:0.4s] after:motion-reduce:transition-none">
                     <Icon
@@ -744,10 +739,10 @@ function ServicesAreaSection() {
                     />
                   </div>
                   <h4 className="mt-0 mb-4! font-semibold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                    {"Professional Training"}
+                    <Tx ns="services">{"Professional Training"}</Tx>
                   </h4>
                   <p className="mt-0 mb-6! text-[.875em] text-[rgba(33,37,41,0.75)]! [font-weight:normal] leading-7">
-                    {"Empowering workforces with knowledge."}
+                    <Tx ns="services">{"Empowering workforces with knowledge."}</Tx>
                   </p>
                   <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0 list-none">
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
@@ -755,42 +750,42 @@ function ServicesAreaSection() {
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 9001 Training Excellence"}
+                      <Tx ns="services">{" ISO 9001 Training Excellence"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 14001 Essential Courses"}
+                      <Tx ns="services">{" ISO 14001 Essential Courses"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" DPTM Training & Certification"}
+                      <Tx ns="services">{" DPTM Training & Certification"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" GDPMD Internal Auditor"}
+                      <Tx ns="services">{" GDPMD Internal Auditor"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:1px_solid_rgba(0,0,0,0.03)] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" ISO 45001 Safety Awareness"}
+                      <Tx ns="services">{" ISO 45001 Safety Awareness"}</Tx>
                     </li>
                     <li className="pt-3 pr-0 pb-3 pl-0 [border-bottom:none] flex items-center gap-3.5 text-[14px] font-medium text-[#333]">
                       <Icon
                         name="check"
                         className="w-5.5 h-5.5 [background:#fdf2f4] rounded-md text-[#AB052D] flex items-center justify-center text-[10px] font-black"
                       />
-                      {" Mastery ISO 42001 / 27001"}
+                      <Tx ns="services">{" Mastery ISO 42001 / 27001"}</Tx>
                     </li>
                   </ul>
                 </div>

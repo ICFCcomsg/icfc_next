@@ -1,0 +1,185 @@
+{
+ "top": {
+  "obstacle_text": "Audit, perundingan dan latihan di Singapura sejak 2014.",
+  "connect_link": "Hubungi kami",
+  "call_us_label": "Hubungi kami:",
+  "send_mail_label": "E-mel:"
+ },
+ "header": {
+  "language_label": "Bahasa",
+  "get_quote": "Dapatkan Sebut Harga",
+  "lms_login": "Log masuk LMS",
+  "search": "Cari",
+  "menu": "Menu"
+ },
+ "nav": {
+  "home": "Laman Utama",
+  "industries": "Industri",
+  "about": "Tentang Kami",
+  "services": "Perkhidmatan",
+  "blog": "Wawasan",
+  "contact": "Hubungi"
+ },
+ "groups": {
+  "Cybersecurity, IT and Data Protection": "Keselamatan Siber, IT dan Perlindungan Data",
+  "ISO Management Systems": "Sistem Pengurusan ISO",
+  "Singapore Standards and Schemes": "Standard dan Skim Singapura",
+  "Sustainability and Supply Chain": "Kelestarian dan Rantaian Bekalan"
+ },
+ "common": {
+  "get_quote": "Dapatkan Sebut Harga",
+  "view_toggle": [
+   "Paparan ringkas",
+   "Butiran penuh"
+  ],
+  "transfer_eyebrow": "Berfikir untuk menukar penyedia?",
+  "transfer_title": "Pindahkan perkhidmatan anda ke ICFC",
+  "transfer_text": "Memindahkan perundingan, audit dalaman atau latihan anda kepada kami adalah mudah. Kami menyemak sistem, sijil dan pelan semasa anda, kemudian menyambung daripada tempat penyedia terdahulu berhenti. Sebarang pemindahan pensijilan antara badan pensijilan dikendalikan oleh badan pensijilan penerima mengikut peraturan akreditasi.",
+  "transfer_cta": "Mulakan pemindahan",
+  "draft_notice": "Halaman ini ialah terjemahan draf. Versi bahasa Inggeris menjadi rujukan."
+ },
+ "footer": {
+  "about_text": "ICFC menyediakan audit, perundingan dan latihan untuk sistem pengurusan ISO, keselamatan siber, perlindungan data dan standard kelestarian di Singapura.",
+  "services_title": "Perkhidmatan",
+  "company_title": "Syarikat",
+  "legal_title": "Perundangan",
+  "contact_title": "Hubungi",
+  "all_services": "Semua perkhidmatan",
+  "privacy": "Dasar Privasi",
+  "cookie_notice": "Notis Kuki",
+  "lms_terms": "Terma dan Syarat LMS",
+  "cookie_settings": "Tetapan kuki",
+  "call_us": "Hubungi kami",
+  "email": "E-mel",
+  "rights": "Hak cipta terpelihara.",
+  "uen": "UEN 201402439E"
+ },
+ "home": {
+  "eyebrow": "Singapura, sejak 2014",
+  "title": "Audit, perundingan dan latihan yang boleh dipercayai",
+  "intro": "Sejak 2014, ICFC telah membantu organisasi di Singapura dan seluruh Asia Pasifik mencapai dan mengekalkan ISO, keselamatan siber, jaminan IT, perlindungan data dan standard Singapura. Audit yang saksama, perundingan praktikal, serta latihan di bilik darjah atau dalam talian.",
+  "find_standard": "Cari standard anda",
+  "finder_eyebrow": "Pencari perkhidmatan",
+  "finder_title": "Apa yang anda perlukan hari ini?",
+  "need_audit": "Saya perlukan sijil",
+  "need_consultation": "Saya perlu bersedia atau melaksanakan",
+  "need_training": "Saya perlukan latihan",
+  "finder_topic": "Topik",
+  "trust_title": "Dipercayai sejak 2014",
+  "stats": [
+   [
+    "12",
+    "Tahun di Singapura",
+    "Sejak 2014"
+   ],
+   [
+    "250+",
+    "Pelanggan dilayani",
+    "Di seluruh Asia Pasifik"
+   ],
+   [
+    "500+",
+    "Audit diselesaikan",
+    "Pihak pertama, kedua dan ketiga"
+   ],
+   [
+    "100+",
+    "Peserta dilatih",
+    "Bilik darjah dan dalam talian"
+   ]
+  ],
+  "services_eyebrow": "Perkhidmatan",
+  "services_title": "Empat cara kami membantu",
+  "view_all": "Lihat semua {n}",
+  "ways_eyebrow": "Tiga cara kami bekerja",
+  "ways_title": "Audit. Runding. Latih.",
+  "ways": [
+   [
+    "Audit",
+    "Audit pihak ketiga oleh juruaudit kami bagi pihak badan pensijilan yang diakreditasi, serta audit pihak kedua dan dalaman."
+   ],
+   [
+    "Runding",
+    "Projek bersokongan geran (EDGE) atau skop tetap."
+   ],
+   [
+    "Latih",
+    "Di bilik darjah dan dalam talian melalui ICFC Digital LMS."
+   ]
+  ],
+  "edge_eyebrow": "Pembiayaan",
+  "edge_title": "Sokongan EDGE Grant untuk standard",
+  "edge_text": "Mulai 30 September 2026, sokongan geran perniagaan telah dipindahkan kepada EDGE Grant. Banyak standard yang kami sokong disenaraikan, dengan sokongan sehingga 50% untuk PKS dan sehingga 70% untuk standard kelestarian, tertakluk kepada kelayakan dan kelulusan Enterprise Singapore. Perundingan ICFC diketuai oleh perunding bersijil SS 680:2021, seperti yang dikehendaki EDGE bagi aktiviti Standard. CSA membiayai secara berasingan pensijilan Cyber Trust dan Cyber Essentials yang pertama sehingga 6 Februari 2028.",
+  "edge_cta": "Semak kelayakan EDGE",
+  "edge_small": "Keputusan geran dibuat oleh Enterprise Singapore. Maklumat disemak pada 11 Oktober 2026.",
+  "why_eyebrow": "Mengapa ICFC",
+  "why_title": "Mengapa organisasi memilih kami",
+  "why": [
+   [
+    "Saksama sejak asas",
+    "Peranan perundingan dan pengauditan diasingkan, dan setiap penglibatan bermula dengan semakan konflik kepentingan."
+   ],
+   [
+    "Audit bersepadu",
+    "Juruaudit kami mengendalikan sistem pengurusan bersepadu, jadi beberapa standard boleh diaudit bersama, menjimatkan masa dan kos."
+   ],
+   [
+    "Perunding bersijil SS 680",
+    "Perundingan ICFC diketuai oleh perunding yang disijilkan mengikut SS 680:2021, standard yang dikehendaki Enterprise Singapore untuk sokongan perundingan di bawah aktiviti Standard EDGE."
+   ],
+   [
+    "Pembelajaran yang kekal",
+    "Latihan di bilik darjah dan dalam talian di ICFC Digital LMS memastikan pasukan anda berkebolehan selepas projek tamat."
+   ]
+  ],
+  "industries_eyebrow": "Industri",
+  "industries_title": "Industri yang kami layani",
+  "industries": {
+   "banking": "Perbankan dan perkhidmatan kewangan",
+   "technology": "Teknologi, SaaS dan awan",
+   "data-centres": "Pusat data",
+   "healthcare": "Penjagaan kesihatan dan peranti perubatan",
+   "manufacturing": "Pembuatan",
+   "logistics": "Logistik dan rantaian sejuk",
+   "construction": "Pembinaan dan kemudahan",
+   "education": "Pendidikan dan latihan",
+   "food": "Makanan dan minuman",
+   "events": "Acara, perhotelan dan MICE",
+   "apparel": "Pakaian dan tekstil",
+   "automotive": "Rantaian bekalan automotif",
+   "professional": "Perkhidmatan profesional",
+   "retail": "Runcit dan e-dagang",
+   "energy": "Tenaga, utiliti dan infrastruktur",
+   "public-sector": "Pembekal kerajaan dan sektor awam"
+  },
+  "insights_eyebrow": "Wawasan",
+  "insights_title": "Wawasan terkini",
+  "all_insights": "Semua wawasan",
+  "contact_title": "Hubungi kami"
+ },
+ "service": {
+  "fact_code": "Standard atau skim",
+  "fact_type": "Jenis",
+  "fact_group": "Kumpulan",
+  "fact_funding": "Pembiayaan",
+  "what": "Apa itu",
+  "who": "Untuk siapa",
+  "how_we_help": "Cara kami membantu",
+  "tab_audit": "Audit",
+  "tab_consultation": "Perundingan",
+  "tab_training": "Latihan",
+  "key_details": "Butiran utama",
+  "info_checked": "Maklumat disemak pada {date}. Keputusan geran dibuat oleh agensi pembiayaan.",
+  "about_edge": "Tentang EDGE",
+  "impartiality": "Kesaksamaan",
+  "faq_title": "Soalan lazim",
+  "sheet_title": "Helaian perkhidmatan",
+  "sheet_text": "Ringkasan satu halaman untuk dikongsi dengan pasukan anda.",
+  "download_pdf": "Muat turun PDF",
+  "word": "Word",
+  "related": "Perkhidmatan berkaitan",
+  "references": "Rujukan",
+  "breadcrumb_home": "Laman Utama",
+  "breadcrumb_services": "Perkhidmatan"
+ }
+}
