@@ -290,17 +290,17 @@ function ContactAreaSection() {
                               </option>
                             </optgroup>
                             <optgroup
-                              label="MASA Grant (Enterprise Singapore)"
+                              label="EDGE Grant (Enterprise Singapore)"
                               className="mt-0 mr-0 mb-0 ml-0 text-inherit leading-[inherit]"
                             >
                               <option value="grant-eligibility">
-                                {"Check my ESG MASA grant eligibility"}
+                                {"Check my EDGE Grant eligibility"}
                               </option>
                               <option value="grant-application">
-                                {"MASA grant application support"}
+                                {"EDGE proposal and quotation"}
                               </option>
                               <option value="grant-milestone">
-                                {"MASA grant milestone reporting support"}
+                                {"EDGE project deliverables support"}
                               </option>
                             </optgroup>
                             <optgroup

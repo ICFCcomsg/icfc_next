@@ -223,7 +223,7 @@ export const sitePages = {
     title:
       "ISO 37001 ABMS Singapore | Anti-Bribery Management System Audit, Consulting & Training | ICFC Pte Ltd",
     description:
-      "Singapore's trusted ISO 37001:2025 ABMS consultant. Anti-Bribery Management System certification, audit, training & EDGE Grant information. CPIB endorsed, aligned with PCA & UK Bribery Act. Best budget ABMS consultant SG.",
+      "Singapore's trusted ISO 37001:2025 ABMS consultant. Anti-Bribery Management System certification, audit, training & EDGE Grant information. Aligned with PCA & UK Bribery Act. Best budget ABMS consultant SG.",
   },
   "services": {
     component: ServicesPageContent,

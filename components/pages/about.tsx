@@ -608,7 +608,7 @@ function JourneyExpertiseSectionSection() {
                 </h4>
                 <p className="mt-0 mb-0 text-[15px] [font-weight:normal] text-[#5a5a5a] leading-7">
                   {
-                    "Supporting SMEs and enterprises with MASA grant funding alongside ISO certification."
+                    "Helping SMEs and enterprises understand EDGE Grant support (subject to eligibility and approval) alongside ISO projects."
                   }
                 </p>
               </div>
@@ -750,11 +750,11 @@ function JourneyExpertiseSectionSection() {
                 {"Business consultant"}
               </h4>
               <p className="mt-0 mb-7.5 text-[13px]! [font-weight:normal] text-[#666]! leading-7">
-                {"MASA grant & ESG advisory"}
+                {"EDGE Grant guidance"}
               </p>
               <div className="mt-3.75 flex flex-wrap gap-2 justify-center!">
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
-                  {"MASA grant"}
+                  {"EDGE Grant"}
                 </span>
                 <span className="pt-1.25 pr-3 pb-1.25 pl-3 [background:#F2F2F2] rounded-[30px] text-[12px] font-medium text-[#333]">
                   {"ISO 37001"}
@@ -765,25 +765,25 @@ function JourneyExpertiseSectionSection() {
         </div>
         <div className="mb-15 pt-0 pr-0 pb-0 pl-0 [border-bottom:none]">
           <div className="mb-4 pt-1 pr-3.5 pb-1 pl-3.5 text-[12px] font-medium tracking-widest uppercase text-[#AB052D] [background:rgba(171,5,45,0.08)] inline-block rounded-[30px]">
-            {"ESG MASA grant"}
+            {"EDGE Grant"}
           </div>
           <h2 className="mt-0 mb-5 font-semibold leading-[1.2] text-[#111111] text-[32px]! [word-break:break-word]">
             {"Funding your ISO journey"}
           </h2>
           <div className="mt-7.5 mr-0 mb-5 ml-0 pt-8.75 pr-10 pb-8.75 pl-10 [background:linear-gradient(135deg,#FDF8F0_0%,#FFF5E6_100%)] rounded-[28px] [border:1px_solid_#FFE0B5]">
             <p className="mt-0 mb-2.5! text-[18px]! font-semibold! text-[#616C74] leading-7">
-              {"What we do for your grant application"}
+              {"How we support EDGE projects"}
             </p>
             <p className="mt-0 mb-5! text-[17px] [font-weight:normal] text-[#616C74] leading-7">
               {
-                "We assess eligibility, prepare documentation, manage milestone reporting, and coordinate with the certification body — so the grant process runs in parallel with your ISO project."
+                "Our consultancy is led by SS 680:2021 certified consultants. We prepare the proposal, quotation and consultant details EDGE asks for; you apply yourself on the Business Grants Portal. Support is subject to eligibility and Enterprise Singapore's approval."
               }
             </p>
             <SiteLink
               href="/contact-us"
               className="text-white [text-decoration:none] pt-3 pr-7 pb-3 pl-7 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:#AB052D] rounded-[40px] text-[14px] font-semibold inline-flex items-center gap-2 hover:[background:#8a0424] hover:transform-[translateY(-2px)] [transition:all_0.3s_ease] motion-reduce:transition-none"
             >
-              {"Check MASA grant eligibility ↗"}
+              {"Check EDGE eligibility ↗"}
             </SiteLink>
           </div>
         </div>
