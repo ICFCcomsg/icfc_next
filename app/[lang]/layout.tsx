@@ -8,6 +8,7 @@ import { CookieConsent } from "@/components/organisms/cookie-consent";
 import { FloatingDock } from "@/components/organisms/floating-dock";
 import { I18nProvider } from "@/components/atoms/i18n-provider";
 import { getDictionary } from "@/lib/dictionary";
+import { jsonLdHtml, organizationJsonLd } from "@/lib/jsonld";
 import { LANGS, getLang, isPublished } from "@/lib/i18n";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
@@ -30,6 +31,15 @@ export const metadata: Metadata = {
   description:
     "Audit, consulting and training for ISO management systems, cybersecurity, data protection and sustainability standards in Singapore.",
   metadataBase: new URL("https://icfc.com.sg"),
+  // Set in env; empty values are skipped. Bing and Baidu use meta tags, Google and Yandex too (or use DNS records).
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION,
+    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
+    other: {
+      ...(process.env.NEXT_PUBLIC_BING_VERIFICATION && { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION }),
+      ...(process.env.NEXT_PUBLIC_BAIDU_VERIFICATION && { "baidu-site-verification": process.env.NEXT_PUBLIC_BAIDU_VERIFICATION }),
+    },
+  },
   openGraph: { images: ["/images/icfc/og-image-default.png"] },
 };
 
@@ -61,6 +71,7 @@ gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personali
       </head>
       <body className="bg-white font-sans text-[16px] leading-normal text-[#616C74] antialiased [&_button]:cursor-pointer [&_a]:focus-visible:outline-2 [&_a]:focus-visible:outline-offset-4 [&_a]:focus-visible:outline-[#AB052D] [&_button]:focus-visible:outline-2 [&_button]:focus-visible:outline-offset-4 [&_button]:focus-visible:outline-[#AB052D]">
         <I18nProvider value={{ segment: lang.segment, prefix: lang.prefix, dict }}>
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(organizationJsonLd()) }} />
           {children}
           <CookieConsent t={strings} />
           <FloatingDock t={strings} lang={lang.code} chatScriptSrc={process.env.NEXT_PUBLIC_FRAPPE_CHAT_SRC} />
