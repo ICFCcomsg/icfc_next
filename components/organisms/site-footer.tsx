@@ -75,6 +75,7 @@ export async function SiteFooter() {
             <li><SiteLink href="/privacy-policy" className={link}>{f.privacy}</SiteLink></li>
             <li><SiteLink href="/cookie-notice" className={link}>{f.cookie_notice}</SiteLink></li>
             <li><SiteLink href="/training/lms-terms" className={link}>{f.lms_terms}</SiteLink></li>
+            <li><SiteLink href="/marketing-preferences" className={link}>Marketing preferences</SiteLink></li>
             <li className="text-[rgba(255,255,255,0.6)] hover:text-white"><CookieSettingsLink label={f.cookie_settings} /></li>
           </ul>
         </div>

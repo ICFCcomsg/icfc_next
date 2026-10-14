@@ -69,6 +69,7 @@ export async function POST(request: Request) {
         mobile_no: fields.phone,
         company_name: fields.company || undefined,
         unsubscribed: marketingEmail ? 0 : 1,
+        marketing_phone_optin: marketingPhone ? 1 : 0,
         marketing_consent_record: consentRecord,
         status: "Open",
         notes: [{ note: `<pre>${escapedNote}</pre>` }],

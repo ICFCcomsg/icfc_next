@@ -14,6 +14,7 @@ import { BlogWshMomPageContent } from "@/components/pages/blog-wsh-mom";
 import { BlogcybersecurityPageContent } from "@/components/pages/blogcybersecurity";
 import { BlogedgPageContent } from "@/components/pages/blogedg";
 import { IndustryPageContent } from "@/components/pages/industry";
+import { MarketingPreferencesPageContent } from "@/components/pages/marketing-preferences";
 import { CookieNoticePageContent } from "@/components/pages/cookie-notice";
 import { LmsTermsPageContent } from "@/components/pages/lms-terms";
 import { PrivacyPolicyPageContent } from "@/components/pages/privacy-policy";
@@ -123,6 +124,11 @@ export const sitePages = {
     title: "Privacy Policy | ICFC Pte Ltd",
     description:
       "How ICFC Pte Ltd collects, uses, discloses and protects personal data under Singapore's PDPA, including marketing consent and Do Not Call rules.",
+  },
+  "marketing-preferences": {
+    component: MarketingPreferencesPageContent,
+    title: "Marketing preferences | ICFC Pte Ltd",
+    description: "Choose whether ICFC may contact you with marketing.",
   },
   "cookie-notice": {
     component: CookieNoticePageContent,
