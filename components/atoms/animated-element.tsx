@@ -324,7 +324,7 @@ export function AnimatedElement({
                 " "
               ) : (
                 <span key={index} aria-hidden="true" className="inline-block">
-                  {Array.from(word).map((letter) => {
+                  {Array.from(new Intl.Segmenter(undefined, { granularity: "grapheme" }).segment(word), (g) => g.segment).map((letter) => {
                     const order = character++;
                     return (
                       <motion.span
