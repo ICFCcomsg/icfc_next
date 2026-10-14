@@ -27,6 +27,19 @@ const h2 =
   "mt-0 mb-5 font-semibold leading-[1.2] text-[#2B3944] text-[36px] max-[767px]:text-[26px] [word-break:break-word]";
 const h3 = "mt-0 mb-2 font-semibold text-[20px] leading-[1.4]";
 const p = "mt-0 mb-0 text-[17px] text-[#616C74] leading-7";
+// Sketches named in the guide for SOC, HIPAA, GDPR and CMMI; other services use a group sketch.
+const SKETCH_BY_SLUG: Record<string, string> = {
+  "soc-1-soc-2-attestation-readiness": "sketch-soc-attestation",
+  "hipaa-compliance": "sketch-hipaa-health-data",
+  "gdpr-compliance": "sketch-gdpr-privacy",
+  "cmmi-compliance": "sketch-cmmi-maturity",
+};
+const SKETCH_BY_GROUP: Record<string, string> = {
+  "Cybersecurity, IT and Data Protection": "sketch-audit",
+  "ISO Management Systems": "sketch-integrated-audit",
+  "Singapore Standards and Schemes": "sketch-ss680-consultant",
+  "Sustainability and Supply Chain": "sketch-regional-reach",
+};
 const section = "pt-20 pb-20 max-[767px]:pt-12.5 max-[767px]:pb-12.5";
 
 
@@ -74,6 +87,14 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={`/images/icfc/${SERVICE_GROUP_ICONS[s.group]}.svg`} alt="" width={56} height={56} />
           <ViewToggle />
+        </div>
+        <div className={`${container} pt-6`}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`/images/icfc/${SKETCH_BY_SLUG[s.slug] ?? SKETCH_BY_GROUP[s.group]}.svg`}
+            alt=""
+            className="mx-auto h-auto w-full max-w-md"
+          />
         </div>
 
         {/* Key facts strip */}
@@ -168,13 +189,9 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
           </div>
         </section>
 
-        <div className={`${container} pt-10`}>
-          <TransferBanner />
-        </div>
-
         {/* Download, related services and references */}
         <section className={section}>
-          <div className={`${container} grid grid-cols-3 max-[991px]:grid-cols-1 gap-10`}>
+          <div className={`${container} grid grid-cols-2 max-[991px]:grid-cols-1 gap-10`}>
             <div>
               <h2 className={`${h2} text-[26px]!`}>{L.sheet_title}</h2>
               <p className={`${p} mb-4!`}>{L.sheet_text}</p>
@@ -207,7 +224,16 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
                 ))}
               </ul>
             </div>
-            <div data-detail>
+          </div>
+        </section>
+
+        <div className={`${container} pt-10`}>
+          <TransferBanner />
+        </div>
+
+        <section className={section} data-detail>
+          <div className={container}>
+            <div>
               <h2 className={`${h2} text-[26px]!`}>{L.references}</h2>
               <ul className="m-0 p-0 list-none space-y-2">
                 {s.sources.map((r) => (
