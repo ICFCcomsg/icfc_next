@@ -80,6 +80,20 @@ export async function POST(request: Request) {
     if (!response.ok || !(await response.json()).data?.name) {
       return Response.json({ error: "Unable to submit your inquiry. Please try again later." }, { status: 502 });
     }
+    // Notify ICFC by email through Frappe's mail account. Best effort: the Lead is already saved, so a mail failure must not fail the enquiry.
+    // ponytail: needs an outgoing Email Account set up in Frappe; swap for a mail API if it is not.
+    await fetch(new URL("/api/method/frappe.core.doctype.communication.email.make", CRM_API_HOST), {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: `token ${CRM_API_KEY}:${CRM_API_SECRET}` },
+      body: JSON.stringify({
+        recipients: process.env.ENQUIRY_NOTIFY_TO || "admin@icfc.com.sg",
+        subject: `New website enquiry: ${fields.name}`,
+        content: `<p><b>${escapedNote.replace(/\n/g, "<br>")}</b></p><p>${fields.name.replace(/[<>&]/g, "")} · ${fields.email.replace(/[<>&]/g, "")} · ${fields.phone.replace(/[<>&]/g, "")}</p>`,
+        send_email: 1,
+      }),
+      signal: AbortSignal.timeout(10000),
+      redirect: "error",
+    }).catch(() => {});
     return Response.json({ success: true });
   } catch {
     return Response.json({ error: "Unable to reach the contact service. Please try again later." }, { status: 502 });
