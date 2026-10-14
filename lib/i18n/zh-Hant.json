@@ -35,5 +35,8 @@
   "thanks": "謝謝。我們已收到您的查詢，將盡快與您聯絡。",
   "consent_email": "是的，請以電郵向我發送ICFC服務、課程及標準資訊。我可隨時取消訂閱。",
   "consent_phone": "是的，ICFC可透過電話、短訊、WhatsApp、Telegram或微信向我發送推廣電話或訊息。我可隨時回覆STOP退出。",
-  "ai_notice": "您正在與自動化AI助理（而非真人）對話。請勿分享敏感個人資料。"
+  "ai_notice": "您正在與自動化AI助理（而非真人）對話。請勿分享敏感個人資料。",
+  "ai_needs_functional": "AI 助理需要功能性 Cookie，以便將您的對話與此瀏覽器關聯。",
+  "ai_start": "開始聊天",
+  "ai_allow_start": "允許功能性 Cookie 並開始聊天"
 }

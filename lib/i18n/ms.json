@@ -35,5 +35,8 @@
   "thanks": "Terima kasih. Kami telah menerima pertanyaan anda dan akan menghubungi anda tidak lama lagi.",
   "consent_email": "Ya, hantar kepada saya kemas kini e-mel tentang perkhidmatan, kursus dan berita piawaian ICFC. Saya boleh berhenti melanggan pada bila-bila masa.",
   "consent_phone": "Ya, ICFC boleh menghubungi saya dengan panggilan atau mesej pemasaran melalui telefon, SMS, WhatsApp, Telegram atau WeChat. Saya boleh menarik diri pada bila-bila masa dengan membalas STOP.",
-  "ai_notice": "Anda sedang berbual dengan pembantu AI automatik, bukan manusia. Jangan kongsi data peribadi yang sensitif."
+  "ai_notice": "Anda sedang berbual dengan pembantu AI automatik, bukan manusia. Jangan kongsi data peribadi yang sensitif.",
+  "ai_needs_functional": "Pembantu AI memerlukan kuki Fungsian untuk mengekalkan perbualan anda dikaitkan dengan pelayar ini.",
+  "ai_start": "Mulakan sembang",
+  "ai_allow_start": "Benarkan kuki Fungsian dan mulakan sembang"
 }

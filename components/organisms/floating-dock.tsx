@@ -21,6 +21,9 @@ const DEFAULT_TEXT = {
   consent_phone: consentText.phone,
   ai_notice: "You are chatting with an automated AI assistant, not a person. Please do not share sensitive personal data.",
   chat_ai: "Ask our AI assistant",
+  ai_needs_functional: "The AI assistant needs Functional cookies to keep your conversation linked to this browser.",
+  ai_start: "Start chat",
+  ai_allow_start: "Allow Functional cookies and start chat",
   thanks: "Thank you. We have received your enquiry and will contact you soon.",
   get_quote: "Get a Quote",
 };
@@ -283,9 +286,9 @@ export function FloatingDock({
               <p>
                 <strong>{s.ai_notice}</strong>
               </p>
-              <p>The AI assistant needs Functional cookies to keep your conversation linked to this browser.</p>
+              <p>{s.ai_needs_functional}</p>
               <button type="button" className="icfc-btn" onClick={allowFunctionalAndChat}>
-                {hasConsent("functional") ? "Start chat" : "Allow Functional cookies and start chat"}
+                {hasConsent("functional") ? s.ai_start : s.ai_allow_start}
               </button>
             </div>
           )}
