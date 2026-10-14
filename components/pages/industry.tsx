@@ -1004,6 +1004,7 @@ function ContactAreaSection() {
                           <div>
                             <select
                               id="subject"
+                              aria-label="Subject"
                               name="subject"
                               className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] normal-case [word-wrap:normal] w-full h-15 max-[767px]:h-12.5 pt-0 pr-5 pb-0 pl-5 font-normal text-[#6D6D6D] bg-white [border:1px_solid_#E5E5E5] rounded-[5px] appearance-none bg-no-repeat bg-position-[right_20px_center] focus:border-[#AB052D] focus:text-[#111] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [transition:all_0.3s_ease-in-out] motion-reduce:transition-none"
                             >

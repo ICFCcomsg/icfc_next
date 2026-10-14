@@ -29,7 +29,7 @@ export function LegalPageTemplate({ route, blocks }: { route: string; blocks: Le
         <SiteBreadcrumb
           title={title.text ?? ""}
           description="ICFC Pte Ltd, UEN 201402439E"
-          background="/assets/images/logo/logo.png"
+          background="/assets/images/logo/logo.webp"
         />
         <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
           <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">

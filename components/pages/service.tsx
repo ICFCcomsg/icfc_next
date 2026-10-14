@@ -66,7 +66,7 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
         <SiteBreadcrumb
           title={s.name}
           description={s.summary}
-          background="/assets/images/logo/logo.png"
+          background="/assets/images/logo/logo.webp"
         />
 
         <script
@@ -161,7 +161,7 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
               <p className={p}>{s.edgeNote}</p>
               <p className="mt-3 mb-0 text-[14px] text-[#616C74]">
                 {L.info_checked.replace("{date}", FUNDING_CHECKED)}{" "}
-                <SiteLink href="/blogedg" className="text-[#AB052D]">
+                <SiteLink href="/blogedg" className="text-[#AB052D] underline">
                   {L.about_edge}
                 </SiteLink>
               </p>

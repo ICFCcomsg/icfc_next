@@ -54,10 +54,10 @@ export function SiteHeader({ route }: { route: string }) {
         className="shrink-0 [&_img]:w-28 md:[&_img]:w-37.5 [&_img]:h-auto"
         aria-label="ICFC home"
       >
-        <SiteImage src="/assets/images/logo/logo.png" alt="ICFC" width={150} />
+        <SiteImage src="/assets/images/logo/logo.webp" alt="ICFC" width={150} loading="eager" />
       </SiteLink>
       <nav
-        className="ml-auto hidden min-[1200px]:block [&_ul]:flex [&_ul]:items-center [&_ul]:gap-10 [&_a]:text-[17px] [&_a]:font-medium [&_a]:text-white [&_a]:hover:text-[#C8102E] [&_a[aria-current]]:text-[#C8102E]"
+        className="ml-auto hidden min-[1200px]:block [&_ul]:flex [&_ul]:items-center [&_ul]:gap-10 [&_a]:inline-block [&_a]:py-2 [&_a]:text-[17px] [&_a]:font-medium [&_a]:text-white [&_a]:hover:text-[#C8102E] [&_a[aria-current]]:text-[#C8102E]"
         aria-label="Main navigation"
       >
         <ul>
@@ -182,7 +182,7 @@ export function SiteHeader({ route }: { route: string }) {
           {panel === "menu" && (
             <>
               <SiteImage
-                src="/assets/images/logo/logo.png"
+                src="/assets/images/logo/logo.webp"
                 alt="ICFC"
                 className="mb-6 w-37.5 h-auto"
               />

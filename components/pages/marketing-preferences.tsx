@@ -9,7 +9,7 @@ export function MarketingPreferencesPageContent() {
         <SiteBreadcrumb
           title="Marketing preferences"
           description="Choose whether ICFC may contact you with marketing by email or by phone and messaging."
-          background="/assets/images/logo/logo.png"
+          background="/assets/images/logo/logo.webp"
         />
         <section className="py-16 px-6 mx-auto max-w-225">
           <MarketingPreferencesForm />

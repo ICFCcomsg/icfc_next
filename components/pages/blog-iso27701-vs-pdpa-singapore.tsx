@@ -608,7 +608,7 @@ function PostboxAreaSection() {
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         <SiteImage
-                          src="/assets/images/logo/logo.png"
+                          src="/assets/images/logo/logo.webp"
                           alt=""
                           className="align-middle max-w-full group-hover/sidebar-blog-item:transform-[scale3d(1.07,1.07,1.07)] w-full rounded-sm [transition:all_1s_cubic-bezier(0,0,0.2,1)] motion-reduce:transition-none"
                         />
@@ -639,7 +639,7 @@ function PostboxAreaSection() {
                         className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
                         <SiteImage
-                          src="/assets/images/logo/logo.png"
+                          src="/assets/images/logo/logo.webp"
                           alt=""
                           className="align-middle max-w-full group-hover/sidebar-blog-item:transform-[scale3d(1.07,1.07,1.07)] w-full rounded-sm [transition:all_1s_cubic-bezier(0,0,0.2,1)] motion-reduce:transition-none"
                         />

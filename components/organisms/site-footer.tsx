@@ -17,7 +17,7 @@ export async function SiteFooter() {
       <div className={`${container} grid grid-cols-[1.4fr_1fr_1fr_1fr] max-[991px]:grid-cols-2 max-[575px]:grid-cols-1 gap-10 pt-20 pb-15`}>
         <div>
           <SiteLink href="/" aria-label="ICFC home">
-            <SiteImage src="/assets/images/logo/logo.png" alt="ICFC" className="mb-6 w-37.5 h-auto" />
+            <SiteImage src="/assets/images/logo/logo.webp" alt="ICFC" className="mb-6 w-37.5 h-auto" />
           </SiteLink>
           <p className="m-0 leading-7 text-[rgba(255,255,255,0.6)]">{f.about_text}</p>
         </div>
@@ -81,7 +81,7 @@ export async function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <p className={`${container} m-0 py-5.5 text-center text-[15px] text-[rgba(255,255,255,0.5)]`}>
+        <p className={`${container} m-0 py-5.5 text-center text-[15px] text-[rgba(255,255,255,0.7)]`}>
           © {new Date().getFullYear()} ICFC Pte Ltd · {f.uen} · {f.rights}
         </p>
       </div>

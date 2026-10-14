@@ -416,8 +416,9 @@ export function AnimatedCounter({
     return () => control.stop();
   }, [inView, reduced, value, decimals]);
   return (
-    <span ref={ref} className={className} aria-label={String(value)}>
+    <span ref={ref} className={className}>
       <span aria-hidden="true">{reduced ? value : display}</span>
+      <span className="sr-only">{value}</span>
     </span>
   );
 }

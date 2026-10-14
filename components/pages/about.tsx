@@ -168,6 +168,7 @@ function AboutAreaSection() {
                         data-wow-duration="1s"
                         data-wow-delay=".3s"
                         role="progressbar"
+                        aria-label="Skill level"
                         aria-valuenow={95}
                         aria-valuemin={0}
                         aria-valuemax={100}
@@ -193,6 +194,7 @@ function AboutAreaSection() {
                         data-wow-duration="1s"
                         data-wow-delay=".3s"
                         role="progressbar"
+                        aria-label="Skill level"
                         aria-valuenow={95}
                         aria-valuemin={0}
                         aria-valuemax={100}
@@ -218,6 +220,7 @@ function AboutAreaSection() {
                         data-wow-duration="1s"
                         data-wow-delay=".5s"
                         role="progressbar"
+                        aria-label="Skill level"
                         aria-valuenow={90}
                         aria-valuemin={0}
                         aria-valuemax={100}
@@ -1110,6 +1113,7 @@ function WhyChooseAreaSection() {
                         data-wow-duration="0.8s"
                         data-wow-delay=".3s"
                         role="progressbar"
+                        aria-label="Skill level"
                         aria-valuenow={90}
                         aria-valuemin={0}
                         aria-valuemax={100}

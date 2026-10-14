@@ -22,7 +22,7 @@ function BreadcrumbAreaSection() {
     <SiteBreadcrumb
       title={<Tx ns="blog-sidebar">{"Blog Sidebar"}</Tx>}
       description={<Tx ns="blog-sidebar">{"Position your agency bridge between a client’s big picture"}</Tx>}
-      background="/assets/images/logo/logo.png"
+      background="/assets/images/logo/logo.webp"
     />
   );
 }
@@ -42,7 +42,7 @@ function PostboxAreaSection() {
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
-                        src="/assets/images/logo/logo.png"
+                        src="/assets/images/logo/logo.webp"
                         alt="image"
                         className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
@@ -121,7 +121,7 @@ function PostboxAreaSection() {
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
-                        src="/assets/images/logo/logo.png"
+                        src="/assets/images/logo/logo.webp"
                         alt="image"
                         className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
@@ -200,7 +200,7 @@ function PostboxAreaSection() {
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
-                        src="/assets/images/logo/logo.png"
+                        src="/assets/images/logo/logo.webp"
                         alt="image"
                         className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
@@ -279,7 +279,7 @@ function PostboxAreaSection() {
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
-                        src="/assets/images/logo/logo.png"
+                        src="/assets/images/logo/logo.webp"
                         alt="image"
                         className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
@@ -358,7 +358,7 @@ function PostboxAreaSection() {
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
-                        src="/assets/images/logo/logo.png"
+                        src="/assets/images/logo/logo.webp"
                         alt="image"
                         className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
@@ -437,7 +437,7 @@ function PostboxAreaSection() {
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       <SiteImage
-                        src="/assets/images/logo/logo.png"
+                        src="/assets/images/logo/logo.webp"
                         alt="image"
                         className="align-middle max-w-full w-full transform-[scale(1.02)] group-hover/blog-item:transform-[scale3d(1.1,1.1,1)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                       />
@@ -635,7 +635,7 @@ function PostboxAreaSection() {
                           className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           <SiteImage
-                            src="/assets/images/logo/logo.png"
+                            src="/assets/images/logo/logo.webp"
                             alt="image"
                             className="align-middle max-w-full group-hover/sidebar-blog-item:transform-[scale3d(1.07,1.07,1.07)] w-full rounded-sm [transition:all_1s_cubic-bezier(0,0,0.2,1)] motion-reduce:transition-none"
                           />
@@ -666,7 +666,7 @@ function PostboxAreaSection() {
                           className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           <SiteImage
-                            src="/assets/images/logo/logo.png"
+                            src="/assets/images/logo/logo.webp"
                             alt="image"
                             className="align-middle max-w-full group-hover/sidebar-blog-item:transform-[scale3d(1.07,1.07,1.07)] w-full rounded-sm [transition:all_1s_cubic-bezier(0,0,0.2,1)] motion-reduce:transition-none"
                           />
@@ -697,7 +697,7 @@ function PostboxAreaSection() {
                           className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                         >
                           <SiteImage
-                            src="/assets/images/logo/logo.png"
+                            src="/assets/images/logo/logo.webp"
                             alt="image"
                             className="align-middle max-w-full group-hover/sidebar-blog-item:transform-[scale3d(1.07,1.07,1.07)] w-full rounded-sm [transition:all_1s_cubic-bezier(0,0,0.2,1)] motion-reduce:transition-none"
                           />
