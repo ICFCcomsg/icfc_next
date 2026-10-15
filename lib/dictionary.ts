@@ -61,3 +61,9 @@ export async function translatePosts<T extends { category: string; title: string
     description: t[p.description] ?? p.description,
   }));
 }
+
+/** `t("English text")` for hand-coded pages: the translation from pages/{lang}/{ns}.json, else the English. */
+export async function getTranslator(ns: string) {
+  const strings = await getPageStrings(ns);
+  return (text: string) => strings[text] ?? text;
+}

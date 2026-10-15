@@ -19,6 +19,9 @@ const nextConfig: NextConfig = {
       { source: "/services-detailsone", destination: "/services/iso-iec-27701-pims", permanent: true },
       { source: "/services-detailsthree", destination: "/services/iso-iec-42001-aims", permanent: true },
       { source: "/services-detailstwo", destination: "/services/iso-37001-abms", permanent: true },
+      // Pack URLs for sections whose new pages are not built yet; temporary until they are.
+      { source: "/industries", destination: "/industry", permanent: false },
+      { source: "/insights", destination: "/blog", permanent: false },
       { source: "/:path*.html", destination: "/:path*", permanent: true },
     ];
   },

@@ -10,15 +10,42 @@ import { SiteLink } from "@/components/atoms/site-link";
 import { useI18n } from "@/components/atoms/i18n-provider";
 import { LANGS, localizedPath } from "@/lib/i18n";
 import { SiteImage } from "@/components/atoms/site-image";
+import siteEn from "@/lib/i18n/site/en.json";
+import { SERVICE_GROUPS, groupAnchor, services } from "@/lib/service-data";
 
-const navigation = [
-  ["home", "/"],
-  ["industries", "/industry"],
-  ["about", "/about"],
+type NavKey = keyof typeof siteEn.nav;
+type SubLink = [label: string, href: string];
+
+// Pack section 5: six main items. Sub-links point only at pages and sections that exist;
+// Compare Services, Industries pages, Insights filters, Feedback and Careers come later.
+// ponytail: sub-link labels are English until the site dictionaries carry them.
+const navigation: [NavKey, string, SubLink[]?][] = [
   ["services", "/services"],
+  [
+    "training",
+    "/training",
+    [
+      ["Online courses", "https://icfc.digital"],
+      ["In-house training", "/training#in-house"],
+      ["Funding and discounts", "/training#funding"],
+      ["LMS terms", "/training/lms-terms"],
+    ],
+  ],
+  ["industries", "/industry"],
+  ["grants", "/grants/edge"],
+  [
+    "about",
+    "/about",
+    [
+      ["Our story", "/about#story"],
+      ["Impartiality", "/about#impartiality"],
+      ["SS 680 certified consultancy", "/about/ss-680-certified-consultancy"],
+      ["Our team", "/about#team"],
+      ["Regional reach", "/about#regional-reach"],
+    ],
+  ],
   ["blog", "/blog"],
-  ["contact", "/contact-us"],
-] as const;
+];
 
 function subscribeScroll(update: () => void) {
   window.addEventListener("scroll", update, { passive: true });
@@ -41,14 +68,18 @@ export function SiteHeader({ route }: { route: string }) {
   );
   const reducedMotion = useReducedMotion();
   const { dict: copy } = useI18n();
+  // Languages whose dictionary predates the Training and Grants items fall back to English labels.
+  const label = (key: NavKey) => (copy.nav as Partial<typeof siteEn.nav>)[key] ?? siteEn.nav[key];
+  const group = (g: string) => copy.groups[g as keyof typeof copy.groups];
   function isCurrent(href: string) {
-    if (href === "/") return route === "index";
-    if (href === "/services") return route.startsWith("services");
-    if (href === "/blog") return route.startsWith("blog");
-    return href === `/${route}`;
+    const section = { "/industry": "industry", "/grants/edge": "grants", "/blog": "blog" }[href] ?? href.slice(1);
+    return route.startsWith(section);
   }
+  const link = (path: string) => (path.startsWith("http") ? path : href(path));
+  const topLink = "inline-block py-2 text-[17px] font-medium text-white hover:text-[#C8102E] aria-[current]:text-[#C8102E]";
+  const panelLink = "block rounded-md px-3 py-2 text-[15px] text-[#2B3944] hover:bg-[#F0F4FC] hover:text-[#AB052D]";
   const navigationBar = (
-    <div className="flex items-center justify-between gap-3 bg-[#2B3944] px-15 py-0 max-[1600px]:px-3.75 max-[1199px]:py-2.5 max-[575px]:py-3.25 md:gap-6">
+    <div className="relative flex items-center justify-between gap-3 bg-[#2B3944] px-15 py-0 max-[1600px]:px-3.75 max-[1199px]:py-2.5 max-[575px]:py-3.25 md:gap-6">
       <SiteLink
         href="/"
         className="shrink-0 [&_img]:w-28 md:[&_img]:w-37.5 [&_img]:h-auto"
@@ -56,19 +87,58 @@ export function SiteHeader({ route }: { route: string }) {
       >
         <SiteImage src="/assets/images/logo/logo.webp" alt="ICFC" width={150} loading="eager" />
       </SiteLink>
-      <nav
-        className="ml-auto hidden min-[1200px]:block [&_ul]:flex [&_ul]:items-center [&_ul]:gap-10 [&_a]:inline-block [&_a]:py-2 [&_a]:text-[17px] [&_a]:font-medium [&_a]:text-white [&_a]:hover:text-[#C8102E] [&_a[aria-current]]:text-[#C8102E]"
-        aria-label="Main navigation"
-      >
-        <ul>
-          {navigation.map(([label, path]) => (
-            <li key={path}>
-              <SiteLink
-                href={href(path)}
-                aria-current={isCurrent(path) ? "page" : undefined}
-              >
-                {copy.nav[label]}
+      <nav className="ml-auto hidden min-[1200px]:block" aria-label="Main navigation">
+        <ul className="m-0 flex items-center gap-9 p-0 list-none">
+          {navigation.map(([key, path, subs]) => (
+            <li key={path} className={`group/nav ${subs ? "relative" : ""}`}>
+              <SiteLink href={href(path)} aria-current={isCurrent(path) ? "page" : undefined} className={topLink}>
+                {label(key)}
+                {(subs || key === "services") && <Icon name="down" className="ml-1 size-3.5!" />}
               </SiteLink>
+              {key === "services" && (
+                // Mega-menu: the four groups and their services; spans the header bar.
+                <div className="invisible absolute inset-x-0 top-full z-50 bg-white text-[#2B3944] opacity-0 shadow-[0_20px_40px_rgba(22,29,46,0.15)] transition-opacity group-hover/nav:visible group-hover/nav:opacity-100 group-focus-within/nav:visible group-focus-within/nav:opacity-100">
+                  <div className="mx-auto grid max-w-330 grid-cols-4 gap-8 px-6 py-8">
+                    {SERVICE_GROUPS.map((g) => (
+                      <div key={g}>
+                        <SiteLink href={href(`/services#${groupAnchor(g)}`)} className="mb-3 block border-b border-[#DBDEE1] pb-2 text-[15px] font-semibold text-[#AB052D]">
+                          {group(g)}
+                        </SiteLink>
+                        <ul className="m-0 p-0 list-none">
+                          {services
+                            .filter((s) => s.group === g)
+                            .map((s) => (
+                              <li key={s.slug}>
+                                <SiteLink href={href(`/services/${s.slug}`)} className={`${panelLink} py-1! text-[14px]!`}>
+                                  {s.name}
+                                </SiteLink>
+                              </li>
+                            ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="border-t border-[#DBDEE1] bg-[#F8F8FD]">
+                    <div className="mx-auto max-w-330 px-6 py-4">
+                      <SiteLink href={href("/services")} className="font-semibold text-[#AB052D] hover:underline">
+                        {copy.footer.all_services} →
+                      </SiteLink>
+                    </div>
+                  </div>
+                </div>
+              )}
+              {subs && (
+                <ul className="invisible absolute left-0 top-full z-50 m-0 w-64 rounded-lg bg-white p-2 list-none opacity-0 shadow-[0_20px_40px_rgba(22,29,46,0.15)] transition-opacity group-hover/nav:visible group-hover/nav:opacity-100 group-focus-within/nav:visible group-focus-within/nav:opacity-100">
+                  {subs.map(([text, target]) => (
+                    <li key={target}>
+                      <SiteLink href={link(target)} className={panelLink} {...(target.startsWith("http") ? { target: "_blank", rel: "noopener" } : {})}>
+                        {text}
+                        {target.startsWith("http") && " ↗"}
+                      </SiteLink>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </li>
           ))}
         </ul>
@@ -222,19 +292,27 @@ export function SiteHeader({ route }: { route: string }) {
             }
           >
             {navigation
-              .filter(
-                ([label]) =>
-                  panel !== "search" ||
-                  copy.nav[label].toLowerCase().includes(query.toLowerCase()),
-              )
-              .map(([label, path]) => (
-                <SiteLink
-                  key={path}
-                  href={href(path)}
-                  aria-current={isCurrent(path) ? "page" : undefined}
-                >
-                  {copy.nav[label]}
-                </SiteLink>
+              .filter(([key]) => panel !== "search" || label(key).toLowerCase().includes(query.toLowerCase()))
+              .map(([key, path, subs]) => (
+                <div key={path}>
+                  <SiteLink href={href(path)} aria-current={isCurrent(path) ? "page" : undefined}>
+                    {label(key)}
+                  </SiteLink>
+                  {panel === "menu" && (key === "services" || subs) && (
+                    <ul className="mt-2 ml-4 grid gap-1.5 p-0 list-none text-[15px] text-[#4A5560]">
+                      {(key === "services"
+                        ? SERVICE_GROUPS.map((g): SubLink => [group(g), `/services#${groupAnchor(g)}`])
+                        : subs!
+                      ).map(([text, target]) => (
+                        <li key={target}>
+                          <SiteLink href={link(target)} className="text-[15px]! hover:text-[#AB052D]">
+                            {text}
+                          </SiteLink>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               ))}
           </nav>
           <p>

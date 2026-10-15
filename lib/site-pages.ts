@@ -1,4 +1,7 @@
 import { AboutPageContent } from "@/components/pages/about";
+import { GrantsEdgePageContent } from "@/components/pages/grants-edge";
+import { Ss680PageContent } from "@/components/pages/ss-680";
+import { TrainingPageContent } from "@/components/pages/training";
 import { BlogDetailsPageContent } from "@/components/pages/blog-details";
 import { BlogSidebarPageContent } from "@/components/pages/blog-sidebar";
 import { BlogPageContent } from "@/components/pages/blog";
@@ -23,6 +26,21 @@ import { ContactUsPageContent } from "@/components/pages/contact-us";
 import { VersionIndexPageContent } from "@/components/pages/version-index";
 
 export const sitePages = {
+  "grants/edge": {
+    component: GrantsEdgePageContent,
+    title: "Grants (EDGE) for Standards Projects | ICFC Pte Ltd",
+    description: "What EDGE covers, eligibility, step-by-step application, standards listed under EDGE, other schemes.",
+  },
+  "training": {
+    component: TrainingPageContent,
+    title: "Training and LMS | ICFC Pte Ltd",
+    description: "Learn at your pace or in class: public classroom sessions, in-house sessions for your team, and online courses on the ICFC Digital LMS.",
+  },
+  "about/ss-680-certified-consultancy": {
+    component: Ss680PageContent,
+    title: "SS 680 Certified Consultancy | ICFC Pte Ltd",
+    description: "SS 680:2021 is the Singapore Standard for management consultants. ICFC's consultancy is led by consultants who hold SS 680:2021 certification.",
+  },
   "about": {
     component: AboutPageContent,
     title: "About ICFC | Audit, Consulting and Training Singapore",
