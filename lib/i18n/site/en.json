@@ -117,7 +117,14 @@
   "insights_eyebrow": "Insights",
   "insights_title": "Latest insights",
   "all_insights": "All insights",
-  "contact_title": "Talk to us"
+  "contact_title": "Talk to us",
+  "courses_eyebrow": "Training & LMS",
+  "courses_title": "Upcoming courses",
+  "courses_intro": "Next four courses from the ICFC Digital LMS calendar",
+  "courses_all": "View full course calendar",
+  "courses_mode": "Mode",
+  "courses_hours": "{n} hours",
+  "courses_book": "Book now"
  },
  "service": {
   "role_title": "Our certification role",

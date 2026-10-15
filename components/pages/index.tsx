@@ -8,6 +8,7 @@ import { HomeWays } from "@/components/organisms/home/home-ways";
 import { HomeEdge } from "@/components/organisms/home/home-edge";
 import { HomeWhy } from "@/components/organisms/home/home-why";
 import { HomeIndustries } from "@/components/organisms/home/home-industries";
+import { HomeCourses } from "@/components/organisms/home/home-courses";
 import { HomeInsights } from "@/components/organisms/home/home-insights";
 import { HomeContact } from "@/components/organisms/home/home-contact";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
@@ -24,6 +25,7 @@ export function IndexPageContent() {
         <HomeEdge />
         <HomeWhy />
         <HomeIndustries />
+        <HomeCourses />
         <HomeInsights />
         <Container className="pt-20">
           <TransferBanner />
