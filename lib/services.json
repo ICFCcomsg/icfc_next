@@ -63,15 +63,75 @@
   "extra": [
    {
     "heading": "Tiers",
-    "text": "Five cybersecurity preparedness tiers: Supporter, Practitioner, Promoter, Performer and Advocate. CSA's risk assessment framework points each organisation to its tier, and each tier carries between 10 and 22 preparedness domains. The tier reflects how much cyber risk the business carries, not its size."
+    "text": "Five cybersecurity preparedness tiers: Supporter, Practitioner, Promoter, Performer and Advocate. CSA's risk assessment framework points each organisation to its tier, and each tier carries between 10 and 22 preparedness domains. The tier reflects how much cyber risk the business carries, not its size.",
+    "lead": "CSA's risk assessment framework points each organisation to its tier, and each tier carries between 10 and 22 preparedness domains. The tier reflects how much cyber risk the business carries, not its size.",
+    "itemLabel": "Tier",
+    "ranked": true,
+    "items": [
+     {
+      "name": "Supporter"
+     },
+     {
+      "name": "Practitioner"
+     },
+     {
+      "name": "Promoter"
+     },
+     {
+      "name": "Performer"
+     },
+     {
+      "name": "Advocate"
+     }
+    ]
    },
    {
     "heading": "Pillars",
-    "text": "Classical cybersecurity is the base pillar. Cloud security, operational technology (OT) security and AI security are added as pillars where they apply to your operations."
+    "text": "Classical cybersecurity is the base pillar. Cloud security, operational technology (OT) security and AI security are added as pillars where they apply to your operations.",
+    "lead": "Classical cybersecurity is the base pillar. Cloud security, operational technology (OT) security and AI security are added as pillars where they apply to your operations.",
+    "itemLabel": "Pillar",
+    "items": [
+     {
+      "label": "Base pillar",
+      "name": "Classical cybersecurity",
+      "icon": "laptop",
+      "highlight": true
+     },
+     {
+      "name": "Cloud security",
+      "text": "Added where it applies",
+      "icon": "cloud"
+     },
+     {
+      "name": "Operational technology (OT) security",
+      "text": "Added where it applies",
+      "icon": "factory"
+     },
+     {
+      "name": "AI security",
+      "text": "Added where it applies",
+      "icon": "chip"
+     }
+    ]
    },
    {
     "heading": "CSA funding (Cyber Trust 2025)",
-    "text": "For the classical pillar, CSA's maximum support ranges from S$1,375 (1 to 10 end-points) to S$2,250 (101 to 200 end-points). Each added cloud, OT or AI pillar attracts S$225, or S$450 for 101 to 200 end-points, giving up to S$3,600 in total. First certification only, for Singapore-incorporated SMEs and non-profits, until 6 February 2028. Figures from CSA, checked 11 October 2026."
+    "text": "For the classical pillar, CSA's maximum support ranges from S$1,375 (1 to 10 end-points) to S$2,250 (101 to 200 end-points). Each added cloud, OT or AI pillar attracts S$225, or S$450 for 101 to 200 end-points, giving up to S$3,600 in total. First certification only, for Singapore-incorporated SMEs and non-profits, until 6 February 2028. Figures from CSA, checked 11 October 2026.",
+    "funding": true,
+    "parts": [
+     {
+      "heading": "Classical pillar",
+      "text": "For the classical pillar, CSA's maximum support ranges from S$1,375 (1 to 10 end-points) to S$2,250 (101 to 200 end-points)."
+     },
+     {
+      "heading": "Added cloud, OT or AI pillars",
+      "text": "Each added cloud, OT or AI pillar attracts S$225, or S$450 for 101 to 200 end-points, giving up to S$3,600 in total."
+     },
+     {
+      "heading": "Eligibility",
+      "text": "First certification only, for Singapore-incorporated SMEs and non-profits, until 6 February 2028. Figures from CSA, checked 11 October 2026."
+     }
+    ]
    }
   ],
   "impartiality": [
@@ -198,7 +258,22 @@
    },
    {
     "heading": "CSA funding (Cyber Essentials 2025)",
-    "text": "For the classical pillar, CSA's maximum support ranges from S$250 (1 to 5 end-points) to S$650 (101 to 200 end-points), with S$50 to S$100 for each added cloud, OT or AI pillar. Separate amounts apply to HIA entities and HIMS vendors. First certification only, for Singapore-incorporated SMEs and non-profits, until 6 February 2028. Figures from CSA, checked 11 October 2026."
+    "text": "For the classical pillar, CSA's maximum support ranges from S$250 (1 to 5 end-points) to S$650 (101 to 200 end-points), with S$50 to S$100 for each added cloud, OT or AI pillar. Separate amounts apply to HIA entities and HIMS vendors. First certification only, for Singapore-incorporated SMEs and non-profits, until 6 February 2028. Figures from CSA, checked 11 October 2026.",
+    "funding": true,
+    "parts": [
+     {
+      "heading": "Classical pillar",
+      "text": "For the classical pillar, CSA's maximum support ranges from S$250 (1 to 5 end-points) to S$650 (101 to 200 end-points)."
+     },
+     {
+      "heading": "Added cloud, OT or AI pillars",
+      "text": "S$50 to S$100 for each added cloud, OT or AI pillar. Separate amounts apply to HIA entities and HIMS vendors."
+     },
+     {
+      "heading": "Eligibility",
+      "text": "First certification only, for Singapore-incorporated SMEs and non-profits, until 6 February 2028. Figures from CSA, checked 11 October 2026."
+     }
+    ]
    }
   ],
   "impartiality": [
@@ -317,7 +392,22 @@
   "extra": [
    {
     "heading": "Four principle areas",
-    "text": "Governance and transparency, management of personal data, care of personal data, and safeguarding individual rights."
+    "text": "Governance and transparency, management of personal data, care of personal data, and safeguarding individual rights.",
+    "itemLabel": "Area",
+    "items": [
+     {
+      "name": "Governance and transparency"
+     },
+     {
+      "name": "Management of personal data"
+     },
+     {
+      "name": "Care of personal data"
+     },
+     {
+      "name": "Safeguarding individual rights"
+     }
+    ]
    },
    {
     "heading": "Funding routes",
@@ -4142,7 +4232,30 @@
   "extra": [
    {
     "heading": "Level by level",
-    "text": "Level 1: top management commits to WSH. Level 2: a Risk Management Champion is trained and drafts the risk management plan. Level 3: the plan is implemented and passes a risk management audit. Level 4: a WSH management system is put in place. STAR: an accredited system such as ISO 45001 plus a risk management audit report."
+    "text": "Level 1: top management commits to WSH. Level 2: a Risk Management Champion is trained and drafts the risk management plan. Level 3: the plan is implemented and passes a risk management audit. Level 4: a WSH management system is put in place. STAR: an accredited system such as ISO 45001 plus a risk management audit report.",
+    "ranked": true,
+    "items": [
+     {
+      "label": "Level 1",
+      "text": "Top management commits to WSH."
+     },
+     {
+      "label": "Level 2",
+      "text": "A Risk Management Champion is trained and drafts the risk management plan."
+     },
+     {
+      "label": "Level 3",
+      "text": "The plan is implemented and passes a risk management audit."
+     },
+     {
+      "label": "Level 4",
+      "text": "A WSH management system is put in place."
+     },
+     {
+      "label": "STAR",
+      "text": "An accredited system such as ISO 45001 plus a risk management audit report."
+     }
+    ]
    },
    {
     "heading": "Our role",

@@ -118,6 +118,8 @@
   "contact_title": "Talk to us"
  },
  "service": {
+  "role_title": "Our certification role",
+  "role_text": "We do not certify organisations ourselves; certificates are issued by accredited certification bodies or scheme owners.",
   "fact_code": "Standard or scheme",
   "fact_type": "Type",
   "fact_group": "Group",

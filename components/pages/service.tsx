@@ -26,7 +26,6 @@ const container =
   "w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330";
 const h2 =
   "mt-0 mb-5 font-semibold leading-[1.2] text-[#2B3944] text-[36px] max-[767px]:text-[26px] [word-break:break-word]";
-const h3 = "mt-0 mb-2 font-semibold text-[20px] leading-[1.4]";
 const p = "mt-0 mb-0 text-[17px] text-[#616C74] leading-7";
 // Sketches named in the guide for SOC, HIPAA, GDPR and CMMI; other services use a group sketch.
 const SKETCH_BY_SLUG: Record<string, string> = {
@@ -44,6 +43,56 @@ const SKETCH_BY_GROUP: Record<string, string> = {
 const section = "pt-20 pb-20 max-[767px]:pt-12.5 max-[767px]:pb-12.5";
 const eyebrow =
   "mb-2 inline-block text-[12px] font-semibold uppercase tracking-[2px] text-[#AB052D]";
+
+type Extra = {
+  heading: string;
+  text: string;
+  lead?: string;
+  itemLabel?: string;
+  ranked?: boolean;
+  items?: { label?: string; name?: string; text?: string; icon?: string; highlight?: boolean }[];
+  // Scheme funding block: shown as a breakdown inside the funding card, not in Key details.
+  funding?: boolean;
+  parts?: { heading: string; text: string }[];
+};
+
+// Extra block that lists named items (tiers, pillars, levels): a lead paragraph and one card per item.
+// `ranked` adds a bar showing the item's position in the sequence (not a score).
+function ItemCards({ block: e }: { block: Extra }) {
+  const items = e.items!;
+  return (
+    <div className="mb-16 max-[767px]:mb-10">
+      <h3 className="mt-0 mb-3 text-[30px] font-semibold tracking-[-0.01em] text-[#161D2E] max-[767px]:text-[24px]">{e.heading}</h3>
+      {e.lead && <p className="mt-0 mb-8 max-w-4xl text-[19px] leading-[1.75] text-[#4A5560]">{e.lead}</p>}
+      <ol className="m-0 p-0 list-none grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-5">
+        {items.map((it, i) => {
+          const red = it.highlight || (e.ranked && i === items.length - 1);
+          return (
+            <li key={i} className={`flex flex-col rounded-xl p-7 ${it.highlight ? "border-t-4 border-[#AB052D] bg-[#E6ECFA]" : "bg-[#F0F4FC]"}`}>
+              {it.icon && (
+                <span className={`mb-6 grid size-12 place-items-center rounded-md ${it.highlight ? "bg-white text-[#AB052D]" : "bg-[#E3EAF7] text-[#161D2E]"}`}>
+                  <Icon name={it.icon} className="size-6!" />
+                </span>
+              )}
+              <span className={`font-mono text-[15px] font-semibold uppercase tracking-[1px] ${red ? "text-[#AB052D]" : "text-[#4A5560]"}`}>
+                {it.label ?? `${e.itemLabel} ${i + 1}`}
+              </span>
+              {it.name && <h4 className="mt-4 mb-0 text-[22px] font-semibold leading-snug text-[#161D2E]">{it.name}</h4>}
+              {it.text && <p className="mt-2 mb-0 text-[16px] leading-7 text-[#4A5560]">{it.text}</p>}
+              {e.ranked && (
+                <span className="mt-auto block pt-8" aria-hidden="true">
+                  <span className="block h-1.5 rounded-full bg-[#DFE7F7]">
+                    <span className="block h-full rounded-full bg-[#AB052D]" style={{ width: `${((i + 1) / items.length) * 100}%` }} />
+                  </span>
+                </span>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  );
+}
 
 // Heading + text cards with a 01, 02... index; `dark` for the #2B3944 tabs section.
 function NumberedCards({ items, dark }: { items: { heading: string; text: string }[]; dark?: boolean }) {
@@ -85,6 +134,9 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
     [s.name],
   ];
   const offer = offers(s.slug);
+  const extras = s.extra as Extra[];
+  const details = extras.filter((e) => !e.funding);
+  const fundingParts = extras.find((e) => e.parts)?.parts ?? [];
   const needs = [
     ["audit", L.tab_audit],
     ["consultation", L.tab_consultation],
@@ -257,42 +309,66 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
           </div>
         </section>
 
-        {/* Extra blocks from the pack (tiers, pillars, levels, scheme funding) */}
-        {s.extra.length > 0 && (
+        {/* Extra blocks from the pack (tiers, pillars, levels, notes); scheme funding goes to the funding card */}
+        {details.length > 0 && (
           <section className={section}>
             <div className={container}>
               <span className={eyebrow}>{s.code}</span>
               <h2 className={h2}>{L.key_details}</h2>
-              <NumberedCards items={s.extra} />
+              {details
+                .filter((e) => e.items)
+                .map((e) => (
+                  <ItemCards key={e.heading} block={e} />
+                ))}
+              {details.some((e) => !e.items) && <NumberedCards items={details.filter((e) => !e.items)} />}
             </div>
           </section>
         )}
 
         {/* Funding and impartiality */}
-        <section className={section}>
-          <div className={`${container} grid grid-cols-[1.4fr_1fr] max-[991px]:grid-cols-1 gap-6`}>
-            <div className="rounded-3xl border border-[#F5C9D3] bg-[#fdf2f4] p-10 max-[767px]:p-7">
-              <span className="inline-block mb-4 rounded-full bg-[#AB052D] px-4 py-1.5 text-[12px] font-bold uppercase tracking-[1.5px] text-white">
+        <section className={`${section} bg-[#F8F8FD]`}>
+          <div className={`${container} grid grid-cols-[1.4fr_1fr] max-[991px]:grid-cols-1 gap-8`}>
+            <div className="rounded-xl border-l-8 border-[#AB052D] bg-white p-12 shadow-[0_1px_3px_rgba(22,29,46,0.05)] max-[767px]:p-7">
+              <span className="inline-flex items-center gap-2 rounded-full bg-[#FBE3E8] px-4 py-1.5 text-[15px] font-medium tracking-wide text-[#AB052D]">
+                <Icon name="tag" className="size-4.5!" />
                 {s.edgeStatus}
               </span>
               {s.funding && (
-                <h2 className={`${h2} text-[22px]! max-[767px]:text-[19px]! leading-[1.4]!`}>{s.funding}</h2>
+                <h2 className="mt-6 mb-4 text-[36px] font-semibold leading-[1.2] tracking-[-0.02em] text-[#161D2E] max-[767px]:text-[26px]">{s.funding.split(", ")[0]}</h2>
               )}
-              <p className={p}>{s.edgeNote}</p>
-              <p className="mt-5 mb-0 border-t border-[#F5C9D3] pt-4 text-[14px] text-[#616C74]">
-                {L.info_checked.replace("{date}", FUNDING_CHECKED)}{" "}
-                <SiteLink href="/blogedg" className="font-medium text-[#AB052D] underline">
+              <p className="m-0 text-[18px] leading-[1.75] text-[#4A5560]">{s.edgeNote}</p>
+              {fundingParts.length > 0 && (
+                <ul className="mt-8 mb-0 p-0 list-none space-y-4">
+                  {fundingParts.map((x, i) => (
+                    <li key={x.heading} className={`rounded-md px-6 py-5 ${i === fundingParts.length - 1 ? "bg-[#E6ECFA]" : "bg-[#F0F4FC]"}`}>
+                      <h3 className="mt-0 mb-1 text-[17px] font-semibold text-[#161D2E]">{x.heading}</h3>
+                      <p className="m-0 text-[16px] leading-7 text-[#4A5560]">{x.text}</p>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
+                <SiteLink href="/blogedg" className="font-semibold text-[#AB052D] hover:underline">
                   {L.about_edge} →
                 </SiteLink>
-              </p>
+                <span className="font-mono text-[13px] text-[#4A5560]">{L.info_checked.replace("{date}", FUNDING_CHECKED)}</span>
+              </div>
             </div>
             {s.impartiality.map((x) => (
-              <div key={x.heading} className="rounded-3xl border border-[#DBDEE1] bg-white p-10 max-[767px]:p-7">
-                <span className="mb-5 grid size-14 place-items-center rounded-2xl bg-[#2B3944] text-white">
-                  <Icon name="shield" className="size-7!" />
+              <div key={x.heading} className="flex flex-col rounded-xl bg-[#F0F4FC] p-12 max-[767px]:p-7">
+                <span className="mb-8 grid size-16 place-items-center rounded-md bg-[#E3EAF7] text-[#161D2E]">
+                  <Icon name="scale" className="size-8!" />
                 </span>
-                <h3 className={`${h3} text-[#2B3944]`}>{L.impartiality}</h3>
-                <p className={p}>{x.text}</p>
+                <h3 className="mt-0 mb-5 text-[32px] font-semibold tracking-[-0.01em] text-[#161D2E] max-[767px]:text-[26px]">{L.impartiality}</h3>
+                <p className="m-0 text-[18px] leading-[1.75] text-[#4A5560]">{x.text}</p>
+                {L.role_text && (
+                  <div className="mt-auto pt-10">
+                    <div className="rounded-md bg-white px-6 py-5">
+                      <h4 className="mt-0 mb-1 text-[15px] font-semibold tracking-wide text-[#161D2E]">{L.role_title}</h4>
+                      <p className="m-0 text-[16px] leading-7 text-[#4A5560]">{L.role_text}</p>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
