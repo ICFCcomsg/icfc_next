@@ -11,7 +11,7 @@ import {
 import { TransferBanner } from "@/components/molecules/transfer-banner";
 import { ViewToggle } from "@/components/molecules/view-toggle";
 import { getDictionary, getServices, type ServiceContent as Service } from "@/lib/dictionary";
-import { SERVICE_GROUP_ICONS, offers } from "@/lib/service-data";
+import { SERVICE_GROUP_ICONS } from "@/lib/service-data";
 import {
   breadcrumbJsonLd,
   faqJsonLd,
@@ -133,15 +133,9 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
     [groupLabel, groupHref],
     [s.name],
   ];
-  const offer = offers(s.slug);
   const extras = s.extra as Extra[];
   const details = extras.filter((e) => !e.funding);
   const fundingParts = extras.find((e) => e.parts)?.parts ?? [];
-  const needs = [
-    ["audit", L.tab_audit],
-    ["consultation", L.tab_consultation],
-    ["training", L.tab_training],
-  ] as const;
   const tabs = [
     { label: L.tab_audit, items: s.audit },
     { label: L.tab_consultation, items: s.consultation },
@@ -154,7 +148,8 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
         {/* Hero */}
         <section className="relative isolate overflow-hidden bg-[#161D2E] pt-16 pb-24 text-white max-[767px]:pt-10 max-[767px]:pb-16">
           <SiteImage src="/assets/bg/breadcrumb-bg-thumb-01.webp" alt="" className="absolute inset-0 -z-10 h-full w-full object-cover opacity-10" />
-          <div className={container}>
+          <div className={`${container} grid grid-cols-[1fr_auto] max-[991px]:grid-cols-1 items-end gap-12`}>
+            <div>
             <nav aria-label="Breadcrumb">
               <ol className="m-0 p-0 list-none flex flex-wrap items-center gap-x-3 gap-y-1 text-[15px] font-medium tracking-wide text-white/80">
                 {crumbs.map(([name, href], i) => (
@@ -190,6 +185,13 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
                 {L.word}
               </a>
             </div>
+            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`/images/icfc/${SKETCH_BY_SLUG[s.slug] ?? SKETCH_BY_GROUP[s.group]}.svg`}
+              alt=""
+              className="h-auto w-80 rounded-2xl bg-white/95 p-6 max-[991px]:hidden"
+            />
           </div>
         </section>
 
@@ -221,48 +223,6 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
           </div>
           <ViewToggle />
         </div>
-
-        {/* Overview: what it is, beside a checklist of what ICFC offers for this standard */}
-        <section className="pt-16 max-[767px]:pt-10">
-          <div className={container}>
-            <div className="grid grid-cols-[1.5fr_1fr] max-[991px]:grid-cols-1 items-center gap-12 rounded-2xl bg-[#F0F4FC] px-24 py-24 max-[1199px]:px-12 max-[1199px]:py-14 max-[767px]:p-7">
-              <div>
-                <span className="inline-block rounded-sm bg-[#DFE7F7] px-3 py-1.5 font-mono text-[15px] uppercase tracking-[2px] text-[#161D2E]">
-                  {s.type}
-                </span>
-                <h2 className="mt-4 mb-0 text-[52px] font-semibold leading-[1.15] tracking-[-0.02em] text-[#161D2E] max-[1199px]:text-[40px] max-[767px]:text-[30px]">
-                  {L.how_we_help}
-                </h2>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={`/images/icfc/${SKETCH_BY_SLUG[s.slug] ?? SKETCH_BY_GROUP[s.group]}.svg`}
-                  alt=""
-                  className="mt-8 h-auto w-full max-w-xs"
-                />
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-[0_10px_30px_rgba(22,29,46,0.06)]">
-                <div className="mb-3 font-mono text-[14px] uppercase tracking-[1px] text-[#616C74]">{s.code}</div>
-                <ul className="m-0 p-0 list-none space-y-3">
-                  {needs.map(([key, label]) => (
-                    <li key={key} className={`flex items-center gap-3 rounded-md bg-[#F0F4FC] px-4 py-3 text-[15px] font-medium ${offer[key] ? "text-[#161D2E]" : "text-[#9AA1A7] line-through"}`}>
-                      <Icon name={offer[key] ? "check" : "close"} className={`size-5! shrink-0 ${offer[key] ? "text-[#AB052D]" : ""}`} />
-                      <span>
-                        {label}
-                        {offer[key] && (
-                          <span className="block text-[13px] font-normal text-[#616C74]">{s[key].map((x) => x.heading).join(" · ")}</span>
-                        )}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="mt-4 flex items-center justify-between gap-3 text-[15px] font-bold uppercase tracking-[1px] text-[#AB052D]">
-                  {s.edgeStatus}
-                  <Icon name="shield" className="size-6! shrink-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Key facts strip */}
         <section className="pt-16 max-[767px]:pt-10">
@@ -450,14 +410,21 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
           <TransferBanner />
         </div>
 
-        <section className={section} data-detail>
+        {/* References: official sources from the content matrix */}
+        <section className="mt-10 bg-[#F8F8FD] py-16 max-[767px]:py-10">
           <div className={container}>
-            <h2 className={`${h2} text-[22px]!`}>{L.references}</h2>
-            <ul className="m-0 p-0 list-none flex flex-wrap gap-3">
+            <h2 className="mt-0 mb-5 text-[22px] font-semibold text-[#161D2E]">{L.references}</h2>
+            <ul className="m-0 p-0 list-none flex flex-wrap gap-x-10 gap-y-3">
               {s.sources.map((r) => (
                 <li key={r.url}>
-                  <a href={r.url} target="_blank" rel="noopener" className="inline-block rounded-full border border-[#DBDEE1] px-4 py-2 text-[14px] text-[#2B3944] hover:border-[#AB052D] hover:text-[#AB052D]">
-                    {r.name} ↗
+                  <a
+                    href={r.url}
+                    target="_blank"
+                    rel="noopener"
+                    className="inline-flex items-center gap-2 text-[16px] text-[#4A5560] hover:text-[#AB052D] hover:underline"
+                  >
+                    {r.name}
+                    <Icon name="diagonal" className="size-3.5!" />
                   </a>
                 </li>
               ))}
