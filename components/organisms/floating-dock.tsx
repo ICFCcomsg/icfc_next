@@ -130,7 +130,8 @@ export function FloatingDock({
     openChat();
   }
 
-  const wa = `https://wa.me/${phone}?text=${encodeURIComponent("Hello ICFC, I have an enquiry.")}`;
+  const waLink = (page: string) => `https://wa.me/${phone}?text=${encodeURIComponent(`Hello ICFC, I have an enquiry about: ${page}`)}`;
+  const wa = waLink("your services");
   const items = [
     { key: "form", label: s.enquire, icon: "enquiry", onClick: () => setOpen(open === "form" ? null : "form") },
     { key: "wa", label: "WhatsApp", icon: "whatsapp", href: wa },
@@ -158,6 +159,8 @@ export function FloatingDock({
                 <a
                   className={"icfc-dock-btn is-" + it.key}
                   href={it.href}
+                  // WhatsApp greeting names the page the visitor is on, read at click time.
+                  onClick={it.key === "wa" ? (e) => { e.currentTarget.href = waLink(document.title.split(" | ")[0]); } : undefined}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={it.label}
@@ -278,6 +281,10 @@ export function FloatingDock({
               <button type="button" className="icfc-btn is-outline" onClick={() => navigator.clipboard?.writeText(wechatId)}>
                 Copy ID
               </button>
+              {/* ponytail: QR placeholder until ICFC supplies the WeChat QR image */}
+              <div className="mx-auto mt-4 grid size-40 place-items-center rounded-lg border-2 border-dashed border-[#DBDEE1] text-[13px] text-[#616C74]" aria-label="WeChat QR code coming soon">
+                QR code
+              </div>
             </div>
           )}
 
