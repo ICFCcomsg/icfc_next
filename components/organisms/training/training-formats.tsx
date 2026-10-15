@@ -10,7 +10,7 @@ export async function TrainingFormats() {
   const formats: [string, string?][] = [
     ["Public classroom sessions"],
     ["In-house sessions for your team", "#in-house"],
-    ["Online courses on the ICFC Digital LMS", "https://icfc.digital"],
+    ["Online courses on the ICFC Digital LMS", "https://icfc.digital/lms/courses"],
   ];
   return (
     <section className="py-20 max-[767px]:py-12">
