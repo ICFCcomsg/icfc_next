@@ -15,7 +15,7 @@ export async function HomeEdge() {
             <span className={eyebrow}>{h.edge_eyebrow}</span>
             <h2 className={h2}>{h.edge_title}</h2>
             <p className={`${p} mb-6!`}>{h.edge_text}</p>
-            <SiteLink href="/blogedg" className="inline-block rounded-full bg-[#AB052D] px-7 py-3.5 font-medium text-white hover:bg-[#9D0026]">
+            <SiteLink href="/grants/edge" className="inline-block rounded-full bg-[#AB052D] px-7 py-3.5 font-medium text-white hover:bg-[#9D0026]">
               {h.edge_cta}
             </SiteLink>
             <p className="mt-4 mb-0 text-[14px] text-[#616C74]">{h.edge_small}</p>
