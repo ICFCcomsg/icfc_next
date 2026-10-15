@@ -134,10 +134,15 @@ export function SiteHeader({ route }: { route: string }) {
                 <ul className="invisible absolute left-0 top-full z-50 m-0 w-64 rounded-lg bg-white p-2 list-none opacity-0 shadow-[0_20px_40px_rgba(22,29,46,0.15)] transition-opacity group-hover/nav:visible group-hover/nav:opacity-100 group-focus-within/nav:visible group-focus-within/nav:opacity-100">
                   {subs.map(([text, target]) => (
                     <li key={target}>
-                      <SiteLink href={link(target)} className={panelLink} {...(target.startsWith("http") ? { target: "_blank", rel: "noopener" } : {})}>
-                        {text}
-                        {target.startsWith("http") && " ↗"}
-                      </SiteLink>
+                      {target.startsWith("http") ? (
+                        <a href={target} target="_blank" rel="noopener" className={panelLink}>
+                          {text} ↗
+                        </a>
+                      ) : (
+                        <SiteLink href={href(target)} className={panelLink}>
+                          {text}
+                        </SiteLink>
+                      )}
                     </li>
                   ))}
                 </ul>
