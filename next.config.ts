@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // "Online courses" links; inlined at build so the client header can use it.
+  env: { LMS_COURSES_URL: new URL("/lms/courses", process.env.CRM_API_HOST || "https://icfc.digital").href },
   redirects() {
     return [
       { source: "/index.html", destination: "/", permanent: true },
