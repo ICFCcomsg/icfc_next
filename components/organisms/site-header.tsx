@@ -77,6 +77,8 @@ export function SiteHeader({ route }: { route: string }) {
   }
   const link = (path: string) => (path.startsWith("http") ? path : href(path));
   const topLink = "inline-block py-2 text-[17px] font-medium text-white hover:text-[#C8102E] aria-[current]:text-[#C8102E]";
+  // Invisible strip over the gap between the Services link and the mega-menu, so it stays open while the cursor moves down.
+  const megaBridge = "relative after:absolute after:inset-x-0 after:top-full after:h-12 after:content-['']";
   const panelLink = "block rounded-md px-3 py-2 text-[15px] text-[#2B3944] hover:bg-[#F0F4FC] hover:text-[#AB052D]";
   const navigationBar = (
     <div className="relative flex items-center justify-between gap-3 bg-[#2B3944] px-15 py-0 max-[1600px]:px-3.75 max-[1199px]:py-2.5 max-[575px]:py-3.25 md:gap-6">
@@ -91,7 +93,7 @@ export function SiteHeader({ route }: { route: string }) {
         <ul className="m-0 flex items-center gap-9 p-0 list-none">
           {navigation.map(([key, path, subs]) => (
             <li key={path} className={`group/nav ${subs ? "relative" : ""}`}>
-              <SiteLink href={href(path)} aria-current={isCurrent(path) ? "page" : undefined} className={topLink}>
+              <SiteLink href={href(path)} aria-current={isCurrent(path) ? "page" : undefined} className={key === "services" ? `${topLink} ${megaBridge}` : topLink}>
                 {label(key)}
                 {(subs || key === "services") && <Icon name="down" className="ml-1 size-3.5!" />}
               </SiteLink>
