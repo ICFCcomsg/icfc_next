@@ -1,695 +1,409 @@
 import { Tx } from "@/components/atoms/tx";
-import { Icon } from "@/components/atoms/icon";
-import { SitePageTemplate } from "@/components/templates/site-page-template";
-import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
-import { SiteImage } from "@/components/atoms/site-image";
 import { SiteLink } from "@/components/atoms/site-link";
-import { EmailForm } from "@/components/molecules/email-form";
+import { BlogSidebar } from "@/components/molecules/blog-sidebar";
+import { BlogPostTemplate } from "@/components/templates/blog-post-template";
 
 export function BlogIso42001AiPageContent() {
   return (
-    <SitePageTemplate route="blog_ISO42001_AI">
-      <main>
-        <BreadcrumbAreaSection />
-        <PostboxAreaSection />
-      </main>
-    </SitePageTemplate>
-  );
-}
-
-function BreadcrumbAreaSection() {
-  return (
-    <SiteBreadcrumb
-      title={<Tx ns="blog-iso42001-ai">{"ISO/IEC 42001: what Singapore AI companies need to know in 2026"}</Tx>}
-      description={<Tx ns="blog-iso42001-ai">{"AI governance standard, IMDA crosswalk, PDPA alignment, EDGE Grant, and certification roadmap for Singapore AI developers and users"}</Tx>}
-      background="/assets/bg/breadcrumb-bg-thumb-01.webp"
-    />
-  );
-}
-
-function PostboxAreaSection() {
-  return (
-    <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
-        <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
-          <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[58.33333333%] max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
-            <div>
-              <div>
-                <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0 flex gap-5 items-center max-[1600px]:flex-wrap">
-                  <li className="list-none">
-                    <span className="flex items-center gap-2 text-[13px]">
-                      <span className="">
-                        <SiteImage
-                          src="/assets/images/blog/details/blog-details-01.webp"
-                          alt=""
-                          className="align-middle max-w-full w-10 h-10 rounded-full"
-                        />
-                      </span>
-                      <span className="">
-                        <Tx ns="blog-iso42001-ai">{"By "}</Tx>
-                        <SiteLink
-                          href="/contact-us"
-                          className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                        >
-                          <Tx ns="blog-iso42001-ai">{"ICFC Pte Ltd"}</Tx>
-                        </SiteLink>
-                      </span>
-                    </span>
-                  </li>
-                  <li className="list-none">
-                    <span className="flex items-center gap-2 text-[13px]">
-                      <svg
-                        width="14"
-                        height="16"
-                        className="align-middle w-3.75 h-3.75"
-                      >
-                        <path
-                          d="M4.33447 3.8335C4.06114 3.8335 3.83447 3.60683 3.83447 3.3335V1.3335C3.83447 1.06016 4.06114 0.833496 4.33447 0.833496C4.60781 0.833496 4.83447 1.06016 4.83447 1.3335V3.3335C4.83447 3.60683 4.60781 3.8335 4.33447 3.8335Z"
-                          fill="white"
-                          className="fill-[#AB052D]"
-                        ></path>
-                      </svg>
-                      <span className=""><Tx ns="blog-iso42001-ai">{"April 2026"}</Tx></span>
-                    </span>
-                  </li>
-                  <li className="list-none">
-                    <span className="flex items-center gap-2 text-[13px]">
-                      <svg
-                        width="12"
-                        height="12"
-                        className="align-middle w-3.75 h-3.75"
-                      >
-                        <path
-                          d="M6 12C9.30799 12 12 9.30799 12 6C12 2.69201 9.30803 0 6 0C2.69197 0 0 2.69201 0 6C0 9.30799 2.69201 12 6 12Z"
-                          fill="#616C74"
-                          className="fill-[#AB052D]"
-                        ></path>
-                        <path
-                          d="M7.74961 7.9119C7.82362 7.97189 7.91159 7.99991 7.9996 7.99991C8.05955 8.00003 8.11874 7.9866 8.17277 7.96063C8.22679 7.93465 8.27425 7.89681 8.31159 7.84991C8.44959 7.6779 8.42157 7.4259 8.2496 7.2879L6.3996 5.8079V2.7999C6.3996 2.57989 6.21961 2.3999 5.9996 2.3999C5.7796 2.3999 5.59961 2.57989 5.59961 2.7999V5.99991C5.59961 6.12192 5.65562 6.23591 5.74961 6.31189L7.74961 7.9119Z"
-                          fill="#616C74"
-                          className="fill-[#AB052D]"
-                        ></path>
-                      </svg>
-                      <span className=""><Tx ns="blog-iso42001-ai">{"12 min read"}</Tx></span>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Published by ICFC Pte Ltd"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" | April 2026 | 12 min read"}</Tx>
-                  <br />
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Categories:"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" ISO 42001 · Artificial intelligence · AI governance · Singapore · Certification"}</Tx>
-                </p>
-                <hr className="mt-0 mr-0 mb-0 ml-0 text-inherit [border:none] [border-top:1px_solid] opacity-[1] h-px bg-[#ececec]" />
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <Tx ns="blog-iso42001-ai">{"Artificial intelligence has moved from a competitive advantage to a business-critical infrastructure layer. Across Singapore's fastest-growing sectors — financial services, healthcare, GovTech, logistics, and HR technology — AI systems are now embedded in hiring decisions, credit approvals, patient triage, fraud detection, and customer service at scale."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <Tx ns="blog-iso42001-ai">{"With that scale comes accountability. And with accountability comes a question that more Singapore organisations are being asked by enterprise clients, regulators, and procurement panels every month: "}</Tx>
-                  <em><Tx ns="blog-iso42001-ai">{"how do we know your AI is governed responsibly?"}</Tx></em>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <Tx ns="blog-iso42001-ai">{"ISO/IEC 42001:2023 is the answer the world has standardised on. This article explains what ISO/IEC 42001 requires, how it maps to Singapore's own AI governance landscape, who needs it and why, what implementing it actually involves, and how to achieve certification — including how it connects to Singapore's national AI frameworks and the EDGE Grant."}</Tx>
-                </p>
-                <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#eef2ff] [border-left:4px_solid_#1e3a8a] rounded-[0_16px_16px_0]">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"📌 What is ISO/IEC 42001?"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" The world's first AI management system standard (Dec 2023). Certifies your "}</Tx>
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"governance framework"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" for AI — not individual models. Follows Plan-Do-Check-Act structure (same as ISO 27001/9001). Singapore adopted as SS ISO/IEC 42001:2024.\n                                "}</Tx>
-                </div>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Why 2026 is the tipping point for Singapore AI companies"}</Tx>
-                </h4>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Singapore has adopted ISO/IEC 42001 as a national standard"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" – SS ISO/IEC 42001:2024 includes national Annex describing AI Verify as an example alignment tool."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"IMDA's AI governance frameworks directly map"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" – AI Verify Foundation published formal crosswalk (June 2024). If you've used AI Verify, significant ISO 42001 groundwork is already done."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Model AI Governance Framework for Agentic AI launched (Jan 2026)"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" – covers autonomous AI agents. ISO 42001 provides the management system backbone."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"SAC launched ISO/IEC 42001 accreditation programme (2025)"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" – Singapore-issued certificates now have international recognition."}</Tx>
-                </p>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Who needs ISO/IEC 42001?"}</Tx>
-                </h4>
-                <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"AI developers & platform providers"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" – building LLMs, predictive analytics, AI SaaS products."}</Tx>
-                  </li>
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"AI users deploying for consequential decisions"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" – hiring, credit, insurance, patient care, fraud detection."}</Tx>
-                  </li>
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"Organisations responding to supply chain requirements"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" – enterprise and government contracts increasingly require AI governance."}</Tx>
-                  </li>
-                </ul>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"What does ISO/IEC 42001 actually require?"}</Tx>
-                </h4>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Clause structure (HLS):"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" Context (Clause 4) → Leadership (5) → Planning (6) → Support (7) → Operation (8) → Evaluation (9) → Improvement (10)."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Annex A — 38 controls across 8 domains:"}</Tx>
-                  </strong>
-                </p>
-                <table className="caption-bottom border-collapse mt-6 mr-0 mb-6 ml-0 w-full">
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <th className="[text-align:-webkit-match-parent] border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"Domain"}</Tx>
-                      </th>
-                      <th className="[text-align:-webkit-match-parent] border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"Key controls"}</Tx>
-                      </th>
-                    </tr>
-                  </tbody>
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"A.2 Policies for AI"}</Tx>
-                      </td>
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"AI policy, governance framework"}</Tx>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"A.3 Internal organisation"}</Tx>
-                      </td>
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"Roles, responsibilities, cross‑functional AI governance committee"}</Tx>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"A.4 Resources for AI systems"}</Tx>
-                      </td>
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"Competence, training, awareness"}</Tx>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"A.5 Assessing impacts of AI systems"}</Tx>
-                      </td>
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"AI impact assessment, risk classification"}</Tx>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"A.6 AI system life cycle"}</Tx>
-                      </td>
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"Data sourcing, development, validation, deployment, monitoring, human oversight"}</Tx>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"A.7 Data for AI systems"}</Tx>
-                      </td>
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"Data quality, data governance, privacy"}</Tx>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"A.8 Information for interested parties"}</Tx>
-                      </td>
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"Transparency, explainability, communication"}</Tx>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="border-inherit border-solid [border-width:0]">
-                    <tr className="border-inherit border-solid [border-width:0]">
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"A.9 Third‑party AI systems"}</Tx>
-                      </td>
-                      <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
-                        <Tx ns="blog-iso42001-ai">{"Supplier AI assessment, procurement controls"}</Tx>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#eef2ff] [border-left:4px_solid_#1e3a8a] rounded-[0_16px_16px_0]">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"⚠️ Common mistakes Singapore organisations make:"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" Treating it as an IT project (needs board‑level governance); scoping too broadly (start with 2‑3 high‑risk systems); confusing model documentation with management system documentation; neglecting human oversight controls (Annex A.6); waiting for regulation instead of being proactive.\n                                "}</Tx>
-                </div>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"ISO/IEC 42001 and Singapore's AI landscape"}</Tx>
-                </h4>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"AI Verify crosswalk:"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" AI Verify tests against 11 ethics principles. The formal crosswalk means AI Verify evidence directly supports ISO 42001 documentation. "}</Tx>
-                  <em>
-                    <Tx ns="blog-iso42001-ai">{'"The AI Verify framework maps to standards around the world, including ISO/IEC 42001:2023."'}</Tx>
-                  </em>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"PDPA alignment:"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" ISO 42001 Annex A.7 (Data for AI systems) directly addresses purpose limitation, data minimisation, and accountability — supporting PDPA compliance. Organisations with ISO 27701 see substantial overlap."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"NIST AI RMF & EU AI Act:"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" IMDA crosswalks to NIST AI RMF. ISO 42001 certification is widely regarded as the most efficient path to EU AI Act conformity for organisations in scope."}</Tx>
-                </p>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Implementation roadmap (typical 4‑6 months)"}</Tx>
-                </h4>
-                <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"Phase 1 – Gap analysis & AI use case mapping"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" (weeks 1‑4): Identify AI systems in scope, document purpose/data/decisions/risk level."}</Tx>
-                  </li>
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"Phase 2 – Policy & documentation"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" (weeks 4‑10): AI policy, governance roles, impact assessment methodology, lifecycle procedures."}</Tx>
-                  </li>
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"Phase 3 – Control deployment"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" (weeks 8‑16): Human oversight checkpoints, monitoring, supplier AI assessment."}</Tx>
-                  </li>
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"Phase 4 – Internal audit & management review"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" (weeks 14‑18)."}</Tx>
-                  </li>
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"Phase 5 – Certification audit"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" (weeks 18‑24): Stage 1 (documentation) + Stage 2 (implementation verification)."}</Tx>
-                  </li>
-                </ul>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Funding & costs"}</Tx>
-                </h4>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Estimated costs (Singapore):"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" Consultation S$15,000‑S$40,000; certification body audit S$4,000‑S$10,000; internal effort 100‑250 hours."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"EDGE Grant:"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" ISO/IEC 42001 is listed under EDGE Standards activities — most standards up to 50% for SMEs and 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval. "}</Tx>
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Critical:"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" apply before any project work commences."}</Tx>
-                </p>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Combining with other ISO standards"}</Tx>
-                </h4>
-                <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"+ ISO/IEC 27001:"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" Most common combination – AI data governance + information security. Overlap reduces effort ~20‑30%."}</Tx>
-                  </li>
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"+ ISO/IEC 27701:"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" Privacy + AI governance – directly addresses PDPA across AI lifecycle."}</Tx>
-                  </li>
-                  <li className="">
-                    <strong className="[font-weight:bolder]">
-                      <Tx ns="blog-iso42001-ai">{"+ ISO 9001:"}</Tx>
-                    </strong>
-                    <Tx ns="blog-iso42001-ai">{" For AI product companies – integrated quality + AI governance."}</Tx>
-                  </li>
-                </ul>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Frequently asked questions"}</Tx>
-                </h4>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"Does ISO/IEC 42001 cover generative AI / LLMs?"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" Yes. Technology‑neutral. Transparency and human oversight controls are particularly relevant for generative AI."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"We use third‑party AI tools (Microsoft Copilot). Do we need to certify those tools?"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" No – ISO 42001 certifies "}</Tx>
-                  <em><Tx ns="blog-iso42001-ai">{"your"}</Tx></em>
-                  <Tx ns="blog-iso42001-ai">{" management system. Annex A.9 requires you to assess third‑party AI risks. Microsoft 365 Copilot undergoes independent ISO 42001 audits – you can leverage their certification evidence."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"How does ISO 42001 relate to EU AI Act?"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" ISO 42001 is the most practical management system framework for supporting EU AI Act compliance – risk‑based approach and governance controls address many of the same requirements."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"We're a small AI startup. Is this appropriate?"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" Yes, with appropriate scoping. ICFC has implemented for 5‑person startups to multinationals. Narrow initial scope (1‑2 AI systems) is achievable and commercially valuable for enterprise contracts."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"How long does certification last?"}</Tx>
-                  </strong>
-                  <Tx ns="blog-iso42001-ai">{" Three‑year cycle with annual surveillance audits."}</Tx>
-                </p>
-                <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"The bottom line"}</Tx>
-                </h4>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <Tx ns="blog-iso42001-ai">{"ISO/IEC 42001 gives Singapore's Model AI Governance Framework, AI Verify, and PDPA requirements a certifiable, internationally recognised structure. For Singapore AI companies in 2026, the question is no longer whether to govern AI responsibly — it's whether to make that governance visible, auditable, and certifiable."}</Tx>
-                </p>
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <Tx ns="blog-iso42001-ai">{"ICFC offers a complimentary AI governance readiness assessment as part of our free initial consultation."}</Tx>
-                </p>
-                <hr className="mt-0 mr-0 mb-0 ml-0 text-inherit [border:none] [border-top:1px_solid] opacity-[1] h-px bg-[#ececec]" />
-                <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <strong className="[font-weight:bolder]">
-                    <Tx ns="blog-iso42001-ai">{"About ICFC Pte Ltd"}</Tx>
-                  </strong>
-                  <br />
-                  <Tx ns="blog-iso42001-ai">{"Since 2014, Singapore's ISO certification partner. Specialist practices: ISO/IEC 42001 (AI), ISO/IEC 27001, ISO/IEC 27701 (PDPA), and integrated management systems. Contact: "}</Tx>
-                  <SiteLink
-                    href="mailto:admin@icfc.com.sg"
-                    className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"admin@icfc.com.sg"}</Tx>
-                  </SiteLink>
-                  {" | +65 8601 7001."}
-                </p>
-                <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
-                  <em>
-                    <Tx ns="blog-iso42001-ai">{"© 2026 ICFC Pte Ltd. This article is for informational purposes only. Regulatory frameworks, standard requirements, and grant terms subject to change. Refer to IMDA, PDPC, Enterprise Singapore, and ISO official sources."}</Tx>
-                  </em>
-                </p>
-              </div>
-              <div className="mt-10 pt-5 pb-5 items-center justify-between flex gap-7.5 flex-wrap [border-top:1px_solid_#DBDEE1] [border-bottom:1px_solid_#DBDEE1]">
-                <div className="items-center flex flex-wrap gap-3">
-                  <span className="font-semibold pe-2.5 text-[#2B3944]">
-                    <Tx ns="blog-iso42001-ai">{"Tags:"}</Tx>
-                  </span>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"ISO 42001"}</Tx>
-                  </SiteLink>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"AI Governance"}</Tx>
-                  </SiteLink>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"IMDA"}</Tx>
-                  </SiteLink>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"AI Verify"}</Tx>
-                  </SiteLink>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] mb-0 pt-1.5 pr-3.75 pb-1.5 pl-3.75 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] me-0 rounded-md text-[16px] max-[480px]:text-[14px] relative font-medium hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"PDPA"}</Tx>
-                  </SiteLink>
-                </div>
-                <div>
-                  <span className="font-semibold pe-2.5 text-[#2B3944]">
-                    <Tx ns="blog-iso42001-ai">{"Share:"}</Tx>
-                  </span>
-                  <div className="gap-3.75">
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Icon
-                        name="facebook"
-                        className="inline-block not-italic"
-                      />
-                    </SiteLink>
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Icon
-                        name="x"
-                        className="inline-block not-italic"
-                      />
-                    </SiteLink>
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-[#616C74] [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] text-[16px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Icon
-                        name="linkedin"
-                        className="inline-block not-italic"
-                      />
-                    </SiteLink>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <h3 className="mt-0 mb-0 font-semibold leading-[1.46] text-[#2B3944] text-[36px] max-[480px]:text-[20px] min-[480px]:max-[767px]:text-[22px] min-[767px]:max-[991px]:text-[24px] min-[991px]:max-[1600px]:text-[26px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Leave a Comment"}</Tx>
-                </h3>
-                <EmailForm>
-                  <div className="flex flex-wrap -mt-6 -mr-6 -ml-6">
-                    <div className="shrink-0 w-[50%] max-[1200px]:w-full max-w-full pr-6 pl-6 mt-6 flex-[0_0_auto]">
-                      <input
-                        type="text"
-                        placeholder="Your Name"
-                        aria-label="Your Name"
-                        className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] bg-transparent h-12.5 w-full [border:1px_solid_#DBDEE1] rounded-md text-black ps-6.25 pe-6.25 focus:border-[#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      />
-                    </div>
-                    <div className="shrink-0 w-[50%] max-[1200px]:w-full max-w-full pr-6 pl-6 mt-6 flex-[0_0_auto]">
-                      <input
-                        type="email"
-                        placeholder="Your Email"
-                        aria-label="Your Email"
-                        className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] bg-transparent h-12.5 w-full [border:1px_solid_#DBDEE1] rounded-md text-black ps-6.25 pe-6.25 focus:border-[#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      />
-                    </div>
-                    <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-6 flex-[0_0_auto]">
-                      <textarea
-                        placeholder="Write Message"
-                        defaultValue=""
-                        className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] resize-y pt-3.5 pr-6 pb-3.5 pl-6 bg-transparent h-12.5 w-full [border:1px_solid_#DBDEE1] rounded-md text-black ps-6.25 pe-6.25 focus:border-[#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      />
-                    </div>
-                    <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-6 flex-[0_0_auto]">
-                      <button
-                        type="submit"
-                        className="rounded-[50px] mt-0 mr-0 mb-0 ml-0 text-[17px] leading-[inherit] normal-case pt-3.5 pr-6.5 pb-3.5 pl-6.5 text-[#FFFFFF] [border:none] [background:#AB052D] inline-flex items-center justify-center font-medium relative z-1 overflow-hidden hover:[background:#2B3944] hover:text-[#FFFFFF] [transition:all_0.4s_ease-out_0s] motion-reduce:transition-none"
-                      >
-                        <Tx ns="blog-iso42001-ai">{"Post Comment"}</Tx>
-                      </button>
-                    </div>
-                  </div>
-                </EmailForm>
-              </div>
-            </div>
-          </div>
-          <div className="shrink-0 w-[33.33333333%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto]">
-            <div className="sticky max-[991px]:relative top-27.5 max-[991px]:top-[unset]">
-              <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
-                <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Search"}</Tx>
-                </h5>
-                <div>
-                  <EmailForm>
-                    <div className="relative">
-                      <input
-                        type="text"
-                        placeholder="Search..."
-                        aria-label="Search..."
-                        className="mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] bg-transparent h-15 w-full [border:1px_solid_#ddd] rounded-md text-black ps-6.25 pe-12.5 focus:border-[#AB052D] placeholder:opacity-[1] placeholder:text-[16px] placeholder:font-normal placeholder:text-[rgba(30,30,30,0.4)] [background:#FFFFFF] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                      />
-                      <button className="rounded-none mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] normal-case text-black [border:none] [background:transparent] absolute top-[50%] inset-e-6.25 transform-[translateY(-50%)] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none">
-                        <svg
-                          width="18"
-                          height="18"
-                          className="align-middle"
-                        >
-                          <path
-                            d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                          ></path>
-                          <path
-                            d="M16.9995 17L13.1328 13.1333"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                          ></path>
-                        </svg>
-                      </button>
-                    </div>
-                  </EmailForm>
-                </div>
-              </div>
-              <div className="mb-7.5 pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
-                <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Categories"}</Tx>
-                </h5>
-                <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
-                  <li className="">
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Tx ns="blog-iso42001-ai">{"AI Governance "}</Tx>
-                      <span className="">{"(8)"}</span>
-                    </SiteLink>
-                  </li>
-                  <li className="">
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Tx ns="blog-iso42001-ai">{"ISO 42001 "}</Tx>
-                      <span className="">{"(6)"}</span>
-                    </SiteLink>
-                  </li>
-                  <li className="">
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Tx ns="blog-iso42001-ai">{"IMDA Frameworks "}</Tx>
-                      <span className="">{"(5)"}</span>
-                    </SiteLink>
-                  </li>
-                  <li className="">
-                    <SiteLink
-                      href="/contact-us"
-                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Tx ns="blog-iso42001-ai">{"PDPA "}</Tx>
-                      <span className="">{"(7)"}</span>
-                    </SiteLink>
-                  </li>
-                </ul>
-              </div>
-              <div className="pt-7.5 max-[480px]:pt-2.5 min-[480px]:max-[991px]:pt-5 min-[991px]:max-[1600px]:pt-2.5 pr-7.5 max-[480px]:pr-5 min-[991px]:max-[1600px]:pr-5 pb-9.5 max-[480px]:pb-5 min-[480px]:max-[991px]:pb-7.5 min-[991px]:max-[1600px]:pb-5 pl-7.5 max-[480px]:pl-5 min-[991px]:max-[1600px]:pl-5 relative [background:#F8F8F9] [border:1px_solid_#DBDEE1] rounded-lg">
-                <h5 className="mt-0 mb-0 font-semibold leading-[1.4] text-[#2B3944] text-[24px] max-[575px]:text-[20px] min-[575px]:max-[991px]:text-[22px] min-[991px]:max-[1199px]:text-[20px] min-[1199px]:max-[1600px]:text-[22px] [word-break:break-word]">
-                  <Tx ns="blog-iso42001-ai">{"Popular Tags"}</Tx>
-                </h5>
-                <div className="flex flex-wrap gap-3">
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"ISO/IEC 42001"}</Tx>
-                  </SiteLink>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"AI Verify"}</Tx>
-                  </SiteLink>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"Agentic AI"}</Tx>
-                  </SiteLink>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"EDGE Grant"}</Tx>
-                  </SiteLink>
-                  <SiteLink
-                    href="/contact-us"
-                    className="text-[#2B3944] [text-decoration:none] pt-1.75 max-[480px]:pt-1.5 pr-3.75 max-[480px]:pr-3.25 pb-1.75 max-[480px]:pb-1.5 pl-3.75 max-[480px]:pl-3.25 focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#FFFFFF] [border:1px_solid_#DBDEE1] [background:#FFFFFF] text-[16px] max-[480px]:text-[14px] relative font-medium rounded-md hover:bg-[#AB052D] hover:border-[#AB052D] [transition:0.3s] motion-reduce:transition-none"
-                  >
-                    <Tx ns="blog-iso42001-ai">{"AIMS"}</Tx>
-                  </SiteLink>
-                </div>
-              </div>
-            </div>
-          </div>
+    <BlogPostTemplate
+      route="blog_ISO42001_AI"
+      ns="blog-iso42001-ai"
+      title="ISO/IEC 42001: what Singapore AI companies need to know in 2026"
+      description="AI governance standard, IMDA crosswalk, PDPA alignment, EDGE Grant, and certification roadmap for Singapore AI developers and users"
+      meta={{
+        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        by: "By ",
+        author: "ICFC Pte Ltd",
+        date: "April 2026",
+        readTime: "12 min read",
+      }}
+      tags={[
+        ["ISO 42001", "/contact-us"],
+        ["AI Governance", "/contact-us"],
+        ["IMDA", "/contact-us"],
+        ["AI Verify", "/contact-us"],
+        ["PDPA", "/contact-us"],
+      ]}
+      sidebar={
+        <BlogSidebar
+          ns="blog-iso42001-ai"
+          categories={[
+            ["AI Governance ", 8, "/contact-us"],
+            ["ISO 42001 ", 6, "/contact-us"],
+            ["IMDA Frameworks ", 5, "/contact-us"],
+            ["PDPA ", 7, "/contact-us"],
+          ]}
+          popularTags={[
+            ["ISO/IEC 42001", "/contact-us"],
+            ["AI Verify", "/contact-us"],
+            ["Agentic AI", "/contact-us"],
+            ["EDGE Grant", "/contact-us"],
+            ["AIMS", "/contact-us"],
+          ]}
+        />
+      }
+    >
+      <div>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Published by ICFC Pte Ltd"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" | April 2026 | 12 min read"}</Tx>
+          <br />
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Categories:"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" ISO 42001 · Artificial intelligence · AI governance · Singapore · Certification"}</Tx>
+        </p>
+        <hr className="mt-0 mr-0 mb-0 ml-0 text-inherit [border:none] [border-top:1px_solid] opacity-[1] h-px bg-[#ececec]" />
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <Tx ns="blog-iso42001-ai">{"Artificial intelligence has moved from a competitive advantage to a business-critical infrastructure layer. Across Singapore's fastest-growing sectors — financial services, healthcare, GovTech, logistics, and HR technology — AI systems are now embedded in hiring decisions, credit approvals, patient triage, fraud detection, and customer service at scale."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <Tx ns="blog-iso42001-ai">{"With that scale comes accountability. And with accountability comes a question that more Singapore organisations are being asked by enterprise clients, regulators, and procurement panels every month: "}</Tx>
+          <em><Tx ns="blog-iso42001-ai">{"how do we know your AI is governed responsibly?"}</Tx></em>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <Tx ns="blog-iso42001-ai">{"ISO/IEC 42001:2023 is the answer the world has standardised on. This article explains what ISO/IEC 42001 requires, how it maps to Singapore's own AI governance landscape, who needs it and why, what implementing it actually involves, and how to achieve certification — including how it connects to Singapore's national AI frameworks and the EDGE Grant."}</Tx>
+        </p>
+        <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#eef2ff] [border-left:4px_solid_#1e3a8a] rounded-[0_16px_16px_0]">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"📌 What is ISO/IEC 42001?"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" The world's first AI management system standard (Dec 2023). Certifies your "}</Tx>
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"governance framework"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" for AI — not individual models. Follows Plan-Do-Check-Act structure (same as ISO 27001/9001). Singapore adopted as SS ISO/IEC 42001:2024.\n                                "}</Tx>
         </div>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"Why 2026 is the tipping point for Singapore AI companies"}</Tx>
+        </h4>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Singapore has adopted ISO/IEC 42001 as a national standard"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" – SS ISO/IEC 42001:2024 includes national Annex describing AI Verify as an example alignment tool."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"IMDA's AI governance frameworks directly map"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" – AI Verify Foundation published formal crosswalk (June 2024). If you've used AI Verify, significant ISO 42001 groundwork is already done."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Model AI Governance Framework for Agentic AI launched (Jan 2026)"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" – covers autonomous AI agents. ISO 42001 provides the management system backbone."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"SAC launched ISO/IEC 42001 accreditation programme (2025)"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" – Singapore-issued certificates now have international recognition."}</Tx>
+        </p>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"Who needs ISO/IEC 42001?"}</Tx>
+        </h4>
+        <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"AI developers & platform providers"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" – building LLMs, predictive analytics, AI SaaS products."}</Tx>
+          </li>
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"AI users deploying for consequential decisions"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" – hiring, credit, insurance, patient care, fraud detection."}</Tx>
+          </li>
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"Organisations responding to supply chain requirements"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" – enterprise and government contracts increasingly require AI governance."}</Tx>
+          </li>
+        </ul>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"What does ISO/IEC 42001 actually require?"}</Tx>
+        </h4>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Clause structure (HLS):"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" Context (Clause 4) → Leadership (5) → Planning (6) → Support (7) → Operation (8) → Evaluation (9) → Improvement (10)."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Annex A — 38 controls across 8 domains:"}</Tx>
+          </strong>
+        </p>
+        <table className="caption-bottom border-collapse mt-6 mr-0 mb-6 ml-0 w-full">
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <th className="[text-align:-webkit-match-parent] border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"Domain"}</Tx>
+              </th>
+              <th className="[text-align:-webkit-match-parent] border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"Key controls"}</Tx>
+              </th>
+            </tr>
+          </tbody>
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"A.2 Policies for AI"}</Tx>
+              </td>
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"AI policy, governance framework"}</Tx>
+              </td>
+            </tr>
+          </tbody>
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"A.3 Internal organisation"}</Tx>
+              </td>
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"Roles, responsibilities, cross‑functional AI governance committee"}</Tx>
+              </td>
+            </tr>
+          </tbody>
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"A.4 Resources for AI systems"}</Tx>
+              </td>
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"Competence, training, awareness"}</Tx>
+              </td>
+            </tr>
+          </tbody>
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"A.5 Assessing impacts of AI systems"}</Tx>
+              </td>
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"AI impact assessment, risk classification"}</Tx>
+              </td>
+            </tr>
+          </tbody>
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"A.6 AI system life cycle"}</Tx>
+              </td>
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"Data sourcing, development, validation, deployment, monitoring, human oversight"}</Tx>
+              </td>
+            </tr>
+          </tbody>
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"A.7 Data for AI systems"}</Tx>
+              </td>
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"Data quality, data governance, privacy"}</Tx>
+              </td>
+            </tr>
+          </tbody>
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"A.8 Information for interested parties"}</Tx>
+              </td>
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"Transparency, explainability, communication"}</Tx>
+              </td>
+            </tr>
+          </tbody>
+          <tbody className="border-inherit border-solid [border-width:0]">
+            <tr className="border-inherit border-solid [border-width:0]">
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"A.9 Third‑party AI systems"}</Tx>
+              </td>
+              <td className="border-inherit border-solid [border-width:0] pt-2.5 pr-2.5 pb-2.5 pl-2.5 [border:1px_solid_#e2e8f0] align-top">
+                <Tx ns="blog-iso42001-ai">{"Supplier AI assessment, procurement controls"}</Tx>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div className="mt-[1.8rem] mr-0 mb-[1.8rem] ml-0 pt-6 pr-[1.8rem] pb-6 pl-[1.8rem] [background:#eef2ff] [border-left:4px_solid_#1e3a8a] rounded-[0_16px_16px_0]">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"⚠️ Common mistakes Singapore organisations make:"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" Treating it as an IT project (needs board‑level governance); scoping too broadly (start with 2‑3 high‑risk systems); confusing model documentation with management system documentation; neglecting human oversight controls (Annex A.6); waiting for regulation instead of being proactive.\n                                "}</Tx>
+        </div>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"ISO/IEC 42001 and Singapore's AI landscape"}</Tx>
+        </h4>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"AI Verify crosswalk:"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" AI Verify tests against 11 ethics principles. The formal crosswalk means AI Verify evidence directly supports ISO 42001 documentation. "}</Tx>
+          <em>
+            <Tx ns="blog-iso42001-ai">{'"The AI Verify framework maps to standards around the world, including ISO/IEC 42001:2023."'}</Tx>
+          </em>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"PDPA alignment:"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" ISO 42001 Annex A.7 (Data for AI systems) directly addresses purpose limitation, data minimisation, and accountability — supporting PDPA compliance. Organisations with ISO 27701 see substantial overlap."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"NIST AI RMF & EU AI Act:"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" IMDA crosswalks to NIST AI RMF. ISO 42001 certification is widely regarded as the most efficient path to EU AI Act conformity for organisations in scope."}</Tx>
+        </p>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"Implementation roadmap (typical 4‑6 months)"}</Tx>
+        </h4>
+        <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"Phase 1 – Gap analysis & AI use case mapping"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" (weeks 1‑4): Identify AI systems in scope, document purpose/data/decisions/risk level."}</Tx>
+          </li>
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"Phase 2 – Policy & documentation"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" (weeks 4‑10): AI policy, governance roles, impact assessment methodology, lifecycle procedures."}</Tx>
+          </li>
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"Phase 3 – Control deployment"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" (weeks 8‑16): Human oversight checkpoints, monitoring, supplier AI assessment."}</Tx>
+          </li>
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"Phase 4 – Internal audit & management review"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" (weeks 14‑18)."}</Tx>
+          </li>
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"Phase 5 – Certification audit"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" (weeks 18‑24): Stage 1 (documentation) + Stage 2 (implementation verification)."}</Tx>
+          </li>
+        </ul>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"Funding & costs"}</Tx>
+        </h4>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Estimated costs (Singapore):"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" Consultation S$15,000‑S$40,000; certification body audit S$4,000‑S$10,000; internal effort 100‑250 hours."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"EDGE Grant:"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" ISO/IEC 42001 is listed under EDGE Standards activities — most standards up to 50% for SMEs and 30% for non-SMEs, subject to eligibility and Enterprise Singapore's approval. "}</Tx>
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Critical:"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" apply before any project work commences."}</Tx>
+        </p>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"Combining with other ISO standards"}</Tx>
+        </h4>
+        <ul className="pl-0 mt-0 mb-0 mr-0 ml-0 pt-0 pr-0 pb-0">
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"+ ISO/IEC 27001:"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" Most common combination – AI data governance + information security. Overlap reduces effort ~20‑30%."}</Tx>
+          </li>
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"+ ISO/IEC 27701:"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" Privacy + AI governance – directly addresses PDPA across AI lifecycle."}</Tx>
+          </li>
+          <li className="">
+            <strong className="[font-weight:bolder]">
+              <Tx ns="blog-iso42001-ai">{"+ ISO 9001:"}</Tx>
+            </strong>
+            <Tx ns="blog-iso42001-ai">{" For AI product companies – integrated quality + AI governance."}</Tx>
+          </li>
+        </ul>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"Frequently asked questions"}</Tx>
+        </h4>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"Does ISO/IEC 42001 cover generative AI / LLMs?"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" Yes. Technology‑neutral. Transparency and human oversight controls are particularly relevant for generative AI."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"We use third‑party AI tools (Microsoft Copilot). Do we need to certify those tools?"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" No – ISO 42001 certifies "}</Tx>
+          <em><Tx ns="blog-iso42001-ai">{"your"}</Tx></em>
+          <Tx ns="blog-iso42001-ai">{" management system. Annex A.9 requires you to assess third‑party AI risks. Microsoft 365 Copilot undergoes independent ISO 42001 audits – you can leverage their certification evidence."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"How does ISO 42001 relate to EU AI Act?"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" ISO 42001 is the most practical management system framework for supporting EU AI Act compliance – risk‑based approach and governance controls address many of the same requirements."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"We're a small AI startup. Is this appropriate?"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" Yes, with appropriate scoping. ICFC has implemented for 5‑person startups to multinationals. Narrow initial scope (1‑2 AI systems) is achievable and commercially valuable for enterprise contracts."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"How long does certification last?"}</Tx>
+          </strong>
+          <Tx ns="blog-iso42001-ai">{" Three‑year cycle with annual surveillance audits."}</Tx>
+        </p>
+        <h4 className="mt-[1.8rem] mb-[0.8rem] font-bold leading-[1.33] text-[#2B3944] text-[30px] max-[991px]:text-[22px] min-[991px]:max-[1600px]:text-[24px] [word-break:break-word]">
+          <Tx ns="blog-iso42001-ai">{"The bottom line"}</Tx>
+        </h4>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <Tx ns="blog-iso42001-ai">{"ISO/IEC 42001 gives Singapore's Model AI Governance Framework, AI Verify, and PDPA requirements a certifiable, internationally recognised structure. For Singapore AI companies in 2026, the question is no longer whether to govern AI responsibly — it's whether to make that governance visible, auditable, and certifiable."}</Tx>
+        </p>
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <Tx ns="blog-iso42001-ai">{"ICFC offers a complimentary AI governance readiness assessment as part of our free initial consultation."}</Tx>
+        </p>
+        <hr className="mt-0 mr-0 mb-0 ml-0 text-inherit [border:none] [border-top:1px_solid] opacity-[1] h-px bg-[#ececec]" />
+        <p className="mt-0 mb-7.5 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <strong className="[font-weight:bolder]">
+            <Tx ns="blog-iso42001-ai">{"About ICFC Pte Ltd"}</Tx>
+          </strong>
+          <br />
+          <Tx ns="blog-iso42001-ai">{"Since 2014, Singapore's ISO certification partner. Specialist practices: ISO/IEC 42001 (AI), ISO/IEC 27001, ISO/IEC 27701 (PDPA), and integrated management systems. Contact: "}</Tx>
+          <SiteLink
+            href="mailto:admin@icfc.com.sg"
+            className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-inherit [border:none] [background:transparent] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
+          >
+            <Tx ns="blog-iso42001-ai">{"admin@icfc.com.sg"}</Tx>
+          </SiteLink>
+          {" | +65 8601 7001."}
+        </p>
+        <p className="mt-0 mb-0 text-[17px] [font-weight:normal] text-[#616C74] leading-7">
+          <em>
+            <Tx ns="blog-iso42001-ai">{"© 2026 ICFC Pte Ltd. This article is for informational purposes only. Regulatory frameworks, standard requirements, and grant terms subject to change. Refer to IMDA, PDPC, Enterprise Singapore, and ISO official sources."}</Tx>
+          </em>
+        </p>
       </div>
-    </section>
+    </BlogPostTemplate>
   );
 }

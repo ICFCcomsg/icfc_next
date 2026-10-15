@@ -5,6 +5,7 @@ import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { SiteLink } from "@/components/atoms/site-link";
 import { SiteImage } from "@/components/atoms/site-image";
 import { EmailForm } from "@/components/molecules/email-form";
+import { Container } from "@/components/atoms/container";
 
 export function BlogSidebarPageContent() {
   return (
@@ -30,7 +31,7 @@ function BreadcrumbAreaSection() {
 function PostboxAreaSection() {
   return (
     <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
+      <Container>
         <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
           <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto] relative z-1">
             <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
@@ -824,7 +825,7 @@ function PostboxAreaSection() {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }
