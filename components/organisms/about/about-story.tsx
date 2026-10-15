@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { ContentSection } from "@/components/molecules/content-section";
 import { getTranslator } from "@/lib/dictionary";
 
@@ -16,6 +17,7 @@ export async function AboutStory() {
       <div className="grid grid-cols-2 max-[991px]:grid-cols-1 gap-6">
         {BLOCKS.map(([id, title, text]) => (
           <div key={id} id={id} className={`scroll-mt-32 rounded-xl p-10 max-[767px]:p-7 ${id === "impartiality" ? "border-l-8 border-[#AB052D] bg-white shadow-[0_1px_3px_rgba(22,29,46,0.08)]" : "bg-[#F0F4FC]"}`}>
+            {id === "impartiality" && <img src="/images/icfc/sketch-impartiality.svg" alt="" className="mb-5 w-48 h-auto rounded-lg" loading="lazy" />}
             <h3 className="mt-0 mb-4 text-[26px] font-semibold text-[#161D2E]">{t(title)}</h3>
             <p className="m-0 text-[17px] leading-7 text-[#4A5560]">{t(text)}</p>
           </div>

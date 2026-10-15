@@ -29,6 +29,8 @@ const nextConfig: NextConfig = {
     // AppleDouble files on the mounted volume corrupt Turbopack's persisted cache.
     turbopackFileSystemCacheForDev: false,
     turbopackFileSystemCacheForBuild: false,
+    // app/global-not-found.tsx: the root layout is app/[lang], so unmatched URLs need their own 404 page.
+    globalNotFound: true,
   },
 };
 

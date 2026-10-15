@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
 import { useI18n } from "@/components/atoms/i18n-provider";
 import { Icon } from "@/components/icons/icon";
@@ -13,6 +14,7 @@ export function TransferBanner() {
         <h2 className="mt-2 mb-4 text-[40px] font-bold leading-tight tracking-[-0.02em] text-white max-[767px]:text-[28px]">{c.transfer_title}</h2>
         <p className="m-0 text-[17px] leading-7 text-white/90">{c.transfer_text}</p>
       </div>
+      <img src="/images/icfc/sketch-transfer.svg" alt="" className="w-56 h-auto shrink-0 rounded-lg max-[1199px]:hidden" loading="lazy" />
       <button
         type="button"
         onClick={() => openEnquiry("Transfer")}

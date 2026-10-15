@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { EnvelopeIcon } from "@/components/icons/envelope-icon";
 import { PhoneIcon } from "@/components/icons/phone-icon";
 import { WhatsappIcon } from "@/components/icons/whatsapp-icon";
@@ -337,6 +338,8 @@ export function ContactSection() {
                 </EmailForm>
                 <div id="form-messages"></div>
               </div>
+              <div>
+              <img src="/images/icfc/sketch-contact.svg" alt="" className="mb-6 w-full h-auto rounded-md" loading="lazy" />
               <ul className="pl-10 max-[1600px]:pl-7.5 mt-0 mb-0 mr-0 ml-0 pt-10 max-[1600px]:pt-7.5 pr-10 max-[1600px]:pr-7.5 pb-10 max-[1600px]:pb-7.5 [border:1px_solid_#DBDEE1] rounded-md">
                 <li className="mb-8.75 pb-8.75 list-none flex items-center gap-6.25 flex-wrap [border-bottom:1px_solid_#DBDEE1]">
                   <div className="w-20 min-w-20 h-20 [background:#F8F8F9] rounded-full flex items-center justify-center">
@@ -367,7 +370,7 @@ export function ContactSection() {
                       <Tx ns="contact-us">{"Call Our Office"}</Tx>
                     </span>
                     <SiteLink
-                      href="tel:+990123%20456%20789"
+                      href="tel:+6586017001"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"+65 8601 7001"}
@@ -385,7 +388,7 @@ export function ContactSection() {
                       <Tx ns="contact-us">{"WhatsApp Support"}</Tx>
                     </span>
                     <SiteLink
-                      href="tel:+990123%20456%20789"
+                      href="https://wa.me/6586017001"
                       className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                     >
                       {"+65 8601 7001"}
@@ -393,6 +396,7 @@ export function ContactSection() {
                   </div>
                 </li>
               </ul>
+              </div>
             </div>
           </div>
         </div>
