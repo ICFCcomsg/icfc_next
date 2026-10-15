@@ -30,7 +30,9 @@ export async function getDictionary() {
 
 export async function getServices() {
   const { code } = await getCurrentLang();
-  return load<ServiceContent[]>(code, "content/{code}/services.json", servicesEn);
+  const list = await load<ServiceContent[]>(code, "content/{code}/services.json", servicesEn);
+  // Fields not yet translated (e.g. funding) fall back to English.
+  return list.map((s) => ({ ...servicesEn.find((e) => e.slug === s.slug), ...s }));
 }
 
 export async function getService(slug: string) {

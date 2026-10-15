@@ -125,7 +125,10 @@
     "name": "CSA Cyber Trust certification and funding",
     "url": "https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/cybersecurity-certification-for-organisations/cyber-trust/certification-for-the-cyber-trust-mark/"
    }
-  ]
+  ],
+  "funding": "CSA certification funding - Up to S$3,600 across four pillars, first certification only, Singapore-incorporated SMEs and non-profits, until 6 February 2028",
+  "owner": "Cyber Security Agency of Singapore (CSA)",
+  "typeNote": "Awarded under the scheme owner's rules"
  },
  {
   "id": "ce",
@@ -245,7 +248,10 @@
     "name": "CSA Cyber Essentials certification and funding",
     "url": "https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/cybersecurity-certification-for-organisations/cyber-essentials/certification-for-the-cyber-essentials-mark/"
    }
-  ]
+  ],
+  "funding": "CSA certification funding - S$250 to S$650 for the classical pillar plus S$50 to S$100 per added pillar, first certification only, until 6 February 2028",
+  "owner": "Cyber Security Agency of Singapore (CSA)",
+  "typeNote": "Awarded under the scheme owner's rules"
  },
  {
   "id": "dptm",
@@ -373,7 +379,10 @@
     "name": "EDGE: SS 714",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/data-protection-trustmark"
    }
-  ]
+  ],
+  "funding": "EDGE Grant; NCSS Tech-and-GO! for charities - Up to 50% for SMEs, up to 30% for non-SMEs under EDGE",
+  "owner": "Infocomm Media Development Authority (IMDA)",
+  "typeNote": "Awarded under the scheme owner's rules"
  },
  {
   "id": "dpe",
@@ -477,7 +486,10 @@
     "name": "IMDA Data Protection Essentials",
     "url": "https://www.imda.gov.sg/how-we-can-help/data-protection-essentials"
    }
-  ]
+  ],
+  "funding": "No current IMDA grant shown - IMDA's S$1,600 grant covered implementations before 31 March 2024; eligible charities can try NCSS Tech-and-GO!",
+  "owner": "Infocomm Media Development Authority (IMDA)",
+  "typeNote": "ICFC provides training and consultation only"
  },
  {
   "id": "cbpr",
@@ -588,7 +600,10 @@
     "name": "Global CBPR Forum",
     "url": "https://www.globalcbpr.org/"
    }
-  ]
+  ],
+  "funding": "IMDA indicates possible support - Check IMDA's information kit and Enterprise Singapore",
+  "owner": "Global CBPR Forum; certified in Singapore by IMDA",
+  "typeNote": "Awarded under the scheme owner's rules"
  },
  {
   "id": "prp",
@@ -703,7 +718,10 @@
     "name": "IMDA Global PRP",
     "url": "https://www.imda.gov.sg/how-we-can-help/globalprp"
    }
-  ]
+  ],
+  "funding": "IMDA indicates possible support - Check IMDA's information kit and Enterprise Singapore",
+  "owner": "Global CBPR Forum; certified in Singapore by IMDA",
+  "typeNote": "Awarded under the scheme owner's rules"
  },
  {
   "id": "iso27701",
@@ -818,7 +836,10 @@
     "name": "EDGE: PIMS",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/privacy-information-management-systems"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Listed; check the activity page for the support level",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso27001",
@@ -938,7 +959,10 @@
     "name": "EDGE: ISO/IEC 27001",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/information-security-management-systems"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Up to 50% for SMEs, up to 30% for non-SMEs",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso27017",
@@ -1053,7 +1077,10 @@
     "name": "EDGE: ISO/IEC 27017",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/information-technology"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Up to 50% for SMEs, up to 30% for non-SMEs",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso27018",
@@ -1168,7 +1195,10 @@
     "name": "EDGE: ISO/IEC 27018",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/security-and-privacy-protection-27018"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Listed; check the activity page for the support level",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso42001",
@@ -1283,7 +1313,10 @@
     "name": "EDGE: AIMS",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/digitalisation/artificial-intelligence-management-system"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Listed; check the activity page for the support level",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "tisax",
@@ -1387,7 +1420,10 @@
     "name": "ENX Association (TISAX)",
     "url": "https://enx.com/"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "ENX Association",
+  "typeNote": "ICFC provides training and consultation only"
  },
  {
   "id": "soc",
@@ -1395,7 +1431,7 @@
   "code": "SOC 1 and SOC 2",
   "name": "SOC 1 and SOC 2 attestation readiness (Type I and Type II)",
   "group": "Cybersecurity, IT and Data Protection",
-  "type": "Attestation readiness (report by a licensed CPA firm)",
+  "type": "Attestation readiness",
   "title": "SOC Attestation Readiness (SOC 1 and SOC 2) Singapore - ICFC",
   "description": "SOC 1 and SOC 2 reports give clients independent assurance on a service organisation's controls. Type I covers control design at a point in time; Type II...",
   "summary": "SOC 1 and SOC 2 reports give clients independent assurance on a service organisation's controls. Type I covers control design at a point in time; Type II also tests operation over a period. Reports are issued only by licensed CPA firms. ICFC prepares you through readiness assessments, control design, evidence preparation and training, and supports you during the CPA firm's examination.",
@@ -1535,7 +1571,10 @@
     "name": "ABS outsourcing guidelines and OSPAR",
     "url": "https://www.abs.org.sg/industry-guidelines/outsourcing"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "AICPA; reports issued by licensed CPA firms",
+  "typeNote": "Report issued by a licensed CPA firm"
  },
  {
   "id": "hipaa",
@@ -1543,7 +1582,7 @@
   "code": "HIPAA",
   "name": "HIPAA compliance (consulting and training)",
   "group": "Cybersecurity, IT and Data Protection",
-  "type": "Regulation (no official certification)",
+  "type": "Regulation",
   "title": "HIPAA Compliance Singapore - ICFC",
   "description": "HIPAA protects health information in the United States and reaches overseas vendors that handle it as business associates. There is no official HIPAA...",
   "summary": "HIPAA protects health information in the United States and reaches overseas vendors that handle it as business associates. There is no official HIPAA certification, and HHS does not endorse private certificates. ICFC helps you confirm your obligations, run a Security Rule risk analysis, build policies and safeguards, and train your workforce.",
@@ -1671,7 +1710,10 @@
     "name": "HHS on misleading HIPAA marketing",
     "url": "https://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/misleadingmarketing.html"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "US Department of Health and Human Services (HHS)",
+  "typeNote": "No official certification"
  },
  {
   "id": "gdpr",
@@ -1679,7 +1721,7 @@
   "code": "GDPR",
   "name": "GDPR compliance (consulting and training)",
   "group": "Cybersecurity, IT and Data Protection",
-  "type": "Regulation (no official certification)",
+  "type": "Regulation",
   "title": "GDPR Compliance Singapore - ICFC",
   "description": "The GDPR protects the personal data of people in the EU and can apply to Singapore organisations that serve or monitor them, or that process data for EU...",
   "summary": "The GDPR protects the personal data of people in the EU and can apply to Singapore organisations that serve or monitor them, or that process data for EU clients. ICFC maps your obligations, builds records of processing, impact assessments, transfer safeguards and breach procedures, and trains your team. There is no general GDPR certificate.",
@@ -1811,7 +1853,10 @@
     "name": "European Commission adequacy decisions",
     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "European Union",
+  "typeNote": "No official certification"
  },
  {
   "id": "cmmi",
@@ -1819,7 +1864,7 @@
   "code": "CMMI",
   "name": "CMMI compliance (consulting and training)",
   "group": "Cybersecurity, IT and Data Protection",
-  "type": "Maturity model (rating by appraisal)",
+  "type": "Maturity model",
   "title": "CMMI Compliance Singapore - ICFC",
   "description": "CMMI is ISACA's capability maturity model for software, services and related disciplines. Maturity levels are awarded only through appraisals led by CMMI...",
   "summary": "CMMI is ISACA's capability maturity model for software, services and related disciplines. Maturity levels are awarded only through appraisals led by CMMI Certified Lead Appraisers working with ISACA-licensed partners. ICFC helps you choose the right scope and target level, close practice gaps, prepare evidence and train your teams before the appraisal.",
@@ -1939,7 +1984,10 @@
     "name": "CMMI appraisal types",
     "url": "https://cmmiinstitute.com/learning/appraisals/types"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "ISACA (CMMI Institute)",
+  "typeNote": "Rating by appraisal"
  },
  {
   "id": "iso9001",
@@ -2059,7 +2107,10 @@
     "name": "ISO 9000 family",
     "url": "https://www.iso.org/standards/popular/iso-9000-family"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso14001",
@@ -2174,7 +2225,10 @@
     "name": "EDGE: EMS",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sustainability/environmental-management-systems"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Listed; check the activity page for the support level",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso45001",
@@ -2289,7 +2343,10 @@
     "name": "ILO-OSH 2001 guidelines",
     "url": "https://www.ilo.org/resource/guidelines-occupational-safety-and-health-management-systems-ilo-osh-2001"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso45005",
@@ -2396,7 +2453,10 @@
     "name": "ISO 45000 family",
     "url": "https://www.iso.org/standards/popular/iso-45000-family"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Guidance standard, not intended for certification"
  },
  {
   "id": "iso22301",
@@ -2507,7 +2567,10 @@
     "name": "EDGE: ISO 22301",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/general/business-continuity-management-systems"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Up to 50% for SMEs, up to 30% for non-SMEs",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso37001",
@@ -2622,7 +2685,10 @@
     "name": "EDGE: ABMS",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/general/anti-bribery-management-systems"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Listed; check the activity page for the support level",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso41001",
@@ -2733,7 +2799,10 @@
     "name": "EDGE: ISO 41001",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sector-specific/facility-management-systems"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Up to 50% for SMEs, up to 30% for non-SMEs",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso55001",
@@ -2848,7 +2917,10 @@
     "name": "ISO management system standards",
     "url": "https://www.iso.org/management-system-standards-list.html"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Listed; check the activity page for the support level",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso50001",
@@ -2963,7 +3035,10 @@
     "name": "EDGE: EnMS",
     "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant/standards/sustainability/energy-management-systems"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Listed; check the activity page for the support level",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso21001",
@@ -3070,7 +3145,10 @@
     "name": "ISO management system standards",
     "url": "https://www.iso.org/management-system-standards-list.html"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso28000",
@@ -3181,7 +3259,10 @@
     "name": "ISO management system standards",
     "url": "https://www.iso.org/management-system-standards-list.html"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "iso20121",
@@ -3292,7 +3373,10 @@
     "name": "ISO management system standards",
     "url": "https://www.iso.org/management-system-standards-list.html"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "ss564",
@@ -3407,7 +3491,10 @@
     "name": "BCA-IMDA Green Mark for Data Centres",
     "url": "https://www.imda.gov.sg/how-we-can-help/bca-imda-green-mark-for-data-centres-scheme"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "Enterprise Singapore (Singapore Standards)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "ss587",
@@ -3522,7 +3609,10 @@
     "name": "Singapore Standards eShop",
     "url": "https://www.singaporestandardseshop.sg/"
    }
-  ]
+  ],
+  "funding": "EDGE Grant, sustainability standards - Up to 70% for SMEs, up to 50% for non-SMEs",
+  "owner": "Enterprise Singapore (Singapore Standards)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "mtcs",
@@ -3637,7 +3727,10 @@
     "name": "Singapore Standards eShop",
     "url": "https://www.singaporestandardseshop.sg/"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Up to 50% for SMEs, up to 30% for non-SMEs",
+  "owner": "Enterprise Singapore (Singapore Standards)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "ss620",
@@ -3748,7 +3841,10 @@
     "name": "Singapore Standards eShop",
     "url": "https://www.singaporestandardseshop.sg/"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "Enterprise Singapore (Singapore Standards)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "ss668",
@@ -3863,7 +3959,10 @@
     "name": "Singapore Standards eShop",
     "url": "https://www.singaporestandardseshop.sg/"
    }
-  ]
+  ],
+  "funding": "EDGE Grant (Enterprise Singapore) - Up to 50% for SMEs, up to 30% for non-SMEs",
+  "owner": "Enterprise Singapore (Singapore Standards)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "ss507",
@@ -3974,7 +4073,10 @@
     "name": "Singapore Standards eShop",
     "url": "https://www.singaporestandardseshop.sg/"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "Enterprise Singapore (Singapore Standards)",
+  "typeNote": "Certificate issued by an accredited certification body"
  },
  {
   "id": "bizsafe",
@@ -4090,7 +4192,10 @@
     "name": "WSH Council bizSAFE",
     "url": "https://www.tal.sg/wshc/programmes/bizsafe"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "Workplace Safety and Health Council (WSH Council)",
+  "typeNote": "Awarded under the scheme owner's rules"
  },
  {
   "id": "wrap",
@@ -4201,7 +4306,10 @@
     "name": "WRAP",
     "url": "https://wrapcompliance.org/en/"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "Worldwide Responsible Accredited Production (WRAP)",
+  "typeNote": "Awarded under the scheme owner's rules"
  },
  {
   "id": "iso20400",
@@ -4312,7 +4420,10 @@
     "name": "ISO publications",
     "url": "https://www.iso.org/publication-list.html"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Guidance standard, not intended for certification"
  },
  {
   "id": "iso26000",
@@ -4423,7 +4534,10 @@
     "name": "ISO and sustainable development goals",
     "url": "https://www.iso.org/sdg"
    }
-  ]
+  ],
+  "funding": "No grant found when checked - Non-grant engagement",
+  "owner": "International Organization for Standardization (ISO)",
+  "typeNote": "Guidance standard, not intended for certification"
  },
  {
   "id": "sra",
@@ -4523,6 +4637,9 @@
     "name": "Enterprise Sustainability Programme",
     "url": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/sustainability/enterprise-sustainability-programme"
    }
-  ]
+  ],
+  "funding": "Course funding - Depends on each course's approval status",
+  "owner": "ICFC training course",
+  "typeNote": "No audit or consultation offered"
  }
 ]

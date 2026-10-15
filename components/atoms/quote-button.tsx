@@ -3,15 +3,16 @@
 import { useI18n } from "@/components/atoms/i18n-provider";
 import { openEnquiry } from "@/lib/enquiry";
 
-export function QuoteButton({ light }: { light?: boolean }) {
+export function QuoteButton({ light, className, children }: { light?: boolean; className?: string; children?: React.ReactNode }) {
   const { dict } = useI18n();
   return (
     <button
       type="button"
       onClick={() => openEnquiry("Quote")}
-      className={`rounded-full px-7 py-3.5 font-medium ${light ? "bg-white text-[#AB052D] hover:bg-[#F8F8F9]" : "bg-[#AB052D] text-white hover:bg-[#9D0026]"}`}
+      className={className ?? `rounded-full px-7 py-3.5 font-medium ${light ? "bg-white text-[#AB052D] hover:bg-[#F8F8F9]" : "bg-[#AB052D] text-white hover:bg-[#9D0026]"}`}
     >
       {dict.common.get_quote}
+      {children}
     </button>
   );
 }

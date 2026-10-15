@@ -7,7 +7,7 @@ import { ServiceFinder } from "@/components/molecules/service-finder";
 import { TransferBanner } from "@/components/molecules/transfer-banner";
 import { posts } from "@/components/pages/blog";
 import { getDictionary, getServices, translatePosts } from "@/lib/dictionary";
-import { SERVICE_GROUP_ICONS, SERVICE_GROUPS } from "@/lib/service-data";
+import { SERVICE_GROUP_ICONS, SERVICE_GROUPS, offers } from "@/lib/service-data";
 
 
 
@@ -57,13 +57,7 @@ export async function IndexPageContent() {
             <span className={eyebrow}>{h.finder_eyebrow}</span>
             <h2 className={h2}>{h.finder_title}</h2>
             <ServiceFinder
-              services={services.map(({ slug, code, name, group, audit, consultation, training }) => ({
-                slug,
-                code,
-                name,
-                group,
-                offers: { audit: audit.length > 0, consultation: consultation.length > 0, training: training.length > 0 },
-              }))}
+              services={services.map(({ slug, code, name, group }) => ({ slug, code, name, group, offers: offers(slug) }))}
               groups={SERVICE_GROUPS.map((g) => [g, t.groups[g as keyof typeof t.groups]])}
               needs={[
                 ["audit", h.need_audit],

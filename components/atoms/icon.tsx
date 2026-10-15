@@ -34,6 +34,8 @@ const paths: Record<string, string> = {
   whatsapp:
     "M21 12a9 9 0 0 1-9 9H3l2-4a9 9 0 1 1 16-5 M9 7l-2 1c0 4 4 8 8 8l1-2-3-1-1 1-3-3 1-1z",
   card: "M3 5h18v14H3z M3 10h18 M6 15h4",
+  download: "M12 3v12 m-5-5 5 5 5-5 M4 20h16",
+  doc: "M6 2h8l5 5v15H6z M14 2v5h5 M9 13h7 M9 17h7",
   heart: "M12 21 3 12C-3 5 7-1 12 6c5-7 15-1 9 6z M3 12h5l2-3 3 6 2-3h6",
   truck: "M3 5h12v12H3z M15 9h4l3 4v4h-7 M5 17v4h4v-4 M17 17v4h4v-4",
   hammer: "m5 4 3-3 8 8-3 3z M10 10 2 18l4 4 8-8 M15 4l4 4",

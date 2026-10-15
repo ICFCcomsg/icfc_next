@@ -83,9 +83,9 @@
 .icfc-qr { margin-top: 14px; width: 160px; height: 160px; border: 2px dashed var(--icfc-border); display: flex; align-items: center; justify-content: center; color: var(--icfc-text); }
 
 /* Segmented control and view toggle */
-.icfc-seg { display: inline-flex; border: 1px solid var(--icfc-border); border-radius: 50px; overflow: hidden; }
-.icfc-seg button { border: 0; background: #fff; padding: 8px 16px; font: 500 14px var(--icfc-font); color: var(--icfc-title); cursor: pointer; }
-.icfc-seg button[aria-pressed=true] { background: var(--icfc-secondary); color: #fff; }
+.icfc-seg { display: inline-flex; gap: 4px; padding: 4px; background: #E3EAF7; border-radius: 8px; }
+.icfc-seg button { border: 0; background: transparent; border-radius: 6px; padding: 10px 22px; font: 500 15px var(--icfc-font); letter-spacing: .5px; color: #4A5560; cursor: pointer; }
+.icfc-seg button[aria-pressed=true] { background: #fff; color: #161D2E; font-weight: 600; box-shadow: 0 1px 3px rgba(22,29,46,.08); }
 html.icfc-quick [data-detail] { display: none; }
 
 /* Transfer banner */
