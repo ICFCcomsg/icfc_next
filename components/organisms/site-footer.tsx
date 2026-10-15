@@ -13,7 +13,7 @@ export async function SiteFooter() {
   const f = t.footer;
   return (
     <footer className="bg-[#2B3944] text-[16px]">
-      <div className={`${CONTAINER} grid grid-cols-[1.4fr_1fr_1fr_1fr] max-[991px]:grid-cols-2 max-[575px]:grid-cols-1 gap-10 pt-20 pb-15`}>
+      <div className={`${CONTAINER} grid grid-cols-[1.4fr_1fr_1fr_1fr_1fr] max-[991px]:grid-cols-2 max-[575px]:grid-cols-1 gap-10 pt-20 pb-15`}>
         <div>
           <SiteLink href="/" aria-label="ICFC home">
             <SiteImage src="/assets/images/logo/logo.webp" alt="ICFC" className="mb-6 w-37.5 h-auto" />
@@ -39,6 +39,17 @@ export async function SiteFooter() {
                 {f.all_services} →
               </SiteLink>
             </li>
+          </ul>
+        </nav>
+
+        {/* Pack footer: Training column. ponytail: link labels are English until the site dictionaries carry them, as in the header. */}
+        <nav aria-label={t.nav.training}>
+          <h2 className={title}>{t.nav.training}</h2>
+          <ul className="m-0 p-0 list-none space-y-3">
+            <li><SiteLink href="/training/calendar" className={link}>Course calendar</SiteLink></li>
+            <li><a href="https://icfc.digital" target="_blank" rel="noopener" className={link}>Online courses ↗</a></li>
+            <li><SiteLink href="/training/funding" className={link}>Funding</SiteLink></li>
+            <li><SiteLink href="/training/lms-terms" className={link}>{f.lms_terms}</SiteLink></li>
           </ul>
         </nav>
 

@@ -2,6 +2,8 @@ import { AboutPageContent } from "@/components/pages/about";
 import { GrantsEdgePageContent } from "@/components/pages/grants-edge";
 import { Ss680PageContent } from "@/components/pages/ss-680";
 import { TrainingPageContent } from "@/components/pages/training";
+import { TrainingCalendarPageContent } from "@/components/pages/training-calendar";
+import { TrainingFundingPageContent } from "@/components/pages/training-funding";
 import { BlogDetailsPageContent } from "@/components/pages/blog-details";
 import { BlogSidebarPageContent } from "@/components/pages/blog-sidebar";
 import { BlogPageContent } from "@/components/pages/blog";
@@ -35,6 +37,16 @@ export const sitePages = {
     component: TrainingPageContent,
     title: "Training and LMS | ICFC Pte Ltd",
     description: "Learn at your pace or in class: public classroom sessions, in-house sessions for your team, and online courses on the ICFC Digital LMS.",
+  },
+  "training/calendar": {
+    component: TrainingCalendarPageContent,
+    title: "Course Calendar | ICFC Pte Ltd",
+    description: "Upcoming ICFC courses by month with mode, duration, fee and seats left. Book through the ICFC Digital LMS.",
+  },
+  "training/funding": {
+    component: TrainingFundingPageContent,
+    title: "Training Funding and Discounts | ICFC Pte Ltd",
+    description: "How course funding, training discounts and course fees work at ICFC. Fees are in Singapore dollars and no GST is charged.",
   },
   "about/ss-680-certified-consultancy": {
     component: Ss680PageContent,

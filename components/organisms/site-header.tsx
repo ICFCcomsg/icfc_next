@@ -25,9 +25,10 @@ const navigation: [NavKey, string, SubLink[]?][] = [
     "training",
     "/training",
     [
+      ["Course calendar", "/training/calendar"],
       ["Online courses", "https://icfc.digital"],
       ["In-house training", "/training#in-house"],
-      ["Funding and discounts", "/training#funding"],
+      ["Funding and discounts", "/training/funding"],
       ["LMS terms", "/training/lms-terms"],
     ],
   ],

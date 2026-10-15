@@ -2,8 +2,7 @@ import { SiteLink } from "@/components/atoms/site-link";
 import { CONTAINER } from "@/components/atoms/container";
 import { getDictionary } from "@/lib/dictionary";
 import siteEn from "@/lib/i18n/site/en.json";
-// ponytail: sample data until the real LMS calendar feed exists; swap this import for a fetch then.
-import courses from "@/lib/data/lms-calendar.sample.json";
+import { getUpcomingCourses } from "@/lib/lms";
 import { section, eyebrow, h2, p } from "./styles";
 
 const fmt = (d: Date, o: Intl.DateTimeFormatOptions) => d.toLocaleDateString("en-GB", { timeZone: "UTC", ...o });
@@ -19,13 +18,9 @@ function dateRange(start: string, end: string) {
 }
 
 export async function HomeCourses() {
-  const t = await getDictionary();
+  const [t, courses] = await Promise.all([getDictionary(), getUpcomingCourses()]);
   const h = { ...siteEn.home, ...t.home }; // new keys fall back to English until translated
-  const today = new Date().toISOString().slice(0, 10);
-  const next = courses
-    .filter((c) => c.end >= today)
-    .sort((a, b) => a.start.localeCompare(b.start))
-    .slice(0, 4);
+  const next = courses.sort((a, b) => a.start.localeCompare(b.start)).slice(0, 4);
   if (!next.length) return null;
   return (
     <section className={`${section} bg-[#F8F8F9]`}>
@@ -36,7 +31,7 @@ export async function HomeCourses() {
             <h2 className={`${h2} mb-2!`}>{h.courses_title}</h2>
             <p className={p}>{h.courses_intro}</p>
           </div>
-          <SiteLink href="/training" className="font-medium text-[#AB052D]">{h.courses_all} →</SiteLink>
+          <SiteLink href="/training/calendar" className="font-medium text-[#AB052D]">{h.courses_all} →</SiteLink>
         </div>
         <div className="grid grid-cols-4 max-[1199px]:grid-cols-2 max-[575px]:grid-cols-1 gap-6">
           {next.map((c) => (
@@ -45,7 +40,7 @@ export async function HomeCourses() {
                 <span className="rounded-full bg-[rgba(171,5,45,0.08)] px-2.5 py-1 text-[13px] font-semibold text-[#AB052D]">
                   {dateRange(c.start, c.end)}
                 </span>
-                <span className="text-[13px] text-[#616C74]">{h.courses_hours.replace("{n}", String(c.hours))}</span>
+                <span className="text-[13px] text-[#616C74]">{c.time}</span>
               </div>
               <h3 className="mt-0 mb-2 text-[18px] font-semibold leading-snug text-[#2B3944]">{c.title}</h3>
               <p className="mt-0 mb-5 text-[14px] text-[#616C74]">{h.courses_mode}: {c.mode}</p>

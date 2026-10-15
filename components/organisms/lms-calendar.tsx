@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
+/** A course run from the LMS feed (lib/lms.ts). */
 export type Course = {
   id: string;
   title: string;
@@ -9,60 +10,24 @@ export type Course = {
   mode: string;
   start: string; // YYYY-MM-DD
   end: string;
-  hours?: number | null;
+  time?: string; // daily hours, "9:00–17:00"
   feeSGD?: number | null;
   seats?: number | null;
   funding?: string;
   url: string;
-  sample?: boolean;
 };
 
-const MODES = ["All", "Classroom", "Live online", "Self-paced"];
+const MODES = ["All", "Classroom", "Live online"];
 const day0 = (iso: string) => new Date(iso + "T00:00:00");
 const fmtDate = (iso: string, locale: string) =>
   day0(iso).toLocaleDateString(locale, { day: "numeric", month: "short", year: "numeric" });
 
-/** Maps a Frappe LMS "LMS Batch" record. Confirm the field names on the icfc.digital instance before use. */
-export function mapFrappeBatch(b: Record<string, string | number | null>, lmsBase = "https://icfc.digital"): Course {
-  return {
-    id: String(b.name),
-    title: String(b.title),
-    service: String(b.category ?? ""),
-    mode: String(b.medium ?? "Live online"),
-    start: String(b.start_date),
-    end: String(b.end_date),
-    hours: (b.duration_hours as number) ?? null,
-    feeSGD: (b.amount as number) ?? null,
-    seats: (b.seats_left as number) ?? null,
-    funding: String(b.funding_status ?? ""),
-    url: `${lmsBase}/lms/batches/${b.name}`,
-  };
-}
-
-/** Course calendar with list and month views. Pass `courses`, or `src` (JSON URL). */
-export function LmsCalendar({
-  courses: initial,
-  src = "",
-  locale = "en-SG",
-}: {
-  courses?: Course[];
-  src?: string;
-  locale?: string;
-}) {
-  const [fetched, setFetched] = useState<Course[]>([]);
-  const courses = initial ?? fetched;
+/** Course calendar with list and month views, fed server-side by getUpcomingCourses(). */
+export function LmsCalendar({ courses, locale = "en-SG" }: { courses: Course[]; locale?: string }) {
   const [view, setView] = useState<"list" | "month">("list");
   const [mode, setMode] = useState("All");
   const [q, setQ] = useState("");
   const [ym, setYm] = useState<[number, number] | null>(null);
-
-  useEffect(() => {
-    if (initial || !src) return;
-    fetch(src)
-      .then((r) => r.json())
-      .then(setFetched)
-      .catch(() => setFetched([]));
-  }, [initial, src]);
 
   const filtered = useMemo(
     () =>
@@ -83,10 +48,7 @@ export function LmsCalendar({
   const onDay = (day: number) =>
     filtered.filter((c) => {
       const d = new Date(y, m, day);
-      const a = day0(c.start);
-      return c.mode !== "Self-paced"
-        ? d >= a && d <= day0(c.end)
-        : a.getFullYear() === y && a.getMonth() === m && day === a.getDate();
+      return d >= day0(c.start) && d <= day0(c.end);
     });
   const shift = (n: number) => {
     const d = new Date(y, m + n, 1);
@@ -115,13 +77,11 @@ export function LmsCalendar({
         </div>
       </div>
 
-      {courses.some((c) => c.sample) && (
-        <p className="icfc-note">Sample schedule for layout testing. Dates and fees are not live.</p>
-      )}
-
       {view === "list" ? (
         <ul className="icfc-cal-list">
-          {filtered.length === 0 && <li className="icfc-muted">No courses match your filters.</li>}
+          {filtered.length === 0 && (
+            <li className="icfc-muted">{courses.length ? "No courses match your filters." : "No upcoming courses are scheduled yet."}</li>
+          )}
           {filtered.map((c) => (
             <li key={c.id} className="icfc-cal-item">
               <div className="icfc-cal-date">
@@ -130,10 +90,10 @@ export function LmsCalendar({
               </div>
               <div className="icfc-cal-main">
                 <h3>{c.title}</h3>
-                <p className="icfc-muted">{c.service}</p>
+                {c.service && <p className="icfc-muted">{c.service}</p>}
                 <p className="icfc-tags">
                   <span className="icfc-pill">{c.mode}</span>
-                  {c.hours && <span className="icfc-pill">{c.hours} h</span>}
+                  {c.time && <span className="icfc-pill">{c.time}</span>}
                   {c.seats != null && <span className="icfc-pill">{c.seats} seats left</span>}
                 </p>
                 {c.funding && <p className="icfc-small">{c.funding}</p>}
