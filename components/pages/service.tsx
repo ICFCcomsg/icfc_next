@@ -189,14 +189,7 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
                 />
               </div>
               <div className="rounded-xl bg-white p-6 shadow-[0_10px_30px_rgba(22,29,46,0.06)]">
-                <div className="mb-3 flex items-center justify-between font-mono text-[14px] uppercase tracking-[1px] text-[#616C74]">
-                  {s.code}
-                  <span className="flex gap-1.5" aria-hidden="true">
-                    <span className="size-2.5 rounded-full bg-[#AB052D]" />
-                    <span className="size-2.5 rounded-full bg-[#DFE7F7]" />
-                    <span className="size-2.5 rounded-full bg-[#DFE7F7]" />
-                  </span>
-                </div>
+                <div className="mb-3 font-mono text-[14px] uppercase tracking-[1px] text-[#616C74]">{s.code}</div>
                 <ul className="m-0 p-0 list-none space-y-3">
                   {needs.map(([key, label]) => (
                     <li key={key} className={`flex items-center gap-3 rounded-md bg-[#F0F4FC] px-4 py-3 text-[15px] font-medium ${offer[key] ? "text-[#161D2E]" : "text-[#9AA1A7] line-through"}`}>
