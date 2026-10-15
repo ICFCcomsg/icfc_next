@@ -1,7 +1,7 @@
 import { Container } from "@/components/atoms/container";
 import { Tx } from "@/components/atoms/tx";
 import { AnimatedElement, RotatingHotspots } from "@/components/atoms/animated-element";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { SiteLink } from "@/components/atoms/site-link";
 import { SiteImage } from "@/components/atoms/site-image";
 import { EmailForm } from "@/components/molecules/email-form";

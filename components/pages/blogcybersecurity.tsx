@@ -1,3 +1,4 @@
+import { SearchIcon } from "@/components/icons/search-icon";
 import { EmailForm } from "@/components/molecules/email-form";
 import { Tx } from "@/components/atoms/tx";
 import { SiteLink } from "@/components/atoms/site-link";
@@ -42,23 +43,7 @@ export function BlogcybersecurityPageContent() {
                   type="submit"
                   className="rounded-none mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] normal-case text-black [border:none] [background:transparent] absolute top-[50%] inset-e-6.25 transform-[translateY(-50%)] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                 >
-                  <svg
-                    width="18"
-                    height="18"
-                    viewBox="0 0 18 18"
-                    className="align-middle"
-                  >
-                    <path
-                      d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    ></path>
-                    <path
-                      d="M16.9995 17L13.1328 13.1333"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    ></path>
-                  </svg>
+                  <SearchIcon className="align-middle" />
                 </button>
               </div>
             </EmailForm>

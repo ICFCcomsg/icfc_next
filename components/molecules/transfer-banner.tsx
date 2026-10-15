@@ -1,7 +1,7 @@
 "use client";
 
 import { useI18n } from "@/components/atoms/i18n-provider";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { openEnquiry } from "@/lib/enquiry";
 
 export function TransferBanner() {

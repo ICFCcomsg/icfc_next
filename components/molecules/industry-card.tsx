@@ -1,7 +1,7 @@
 "use client";
 import { motion, useReducedMotion } from "motion/react";
 import { SiteLink } from "@/components/atoms/site-link";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { useId } from "react";
 import type { industries } from "@/lib/industries";
 

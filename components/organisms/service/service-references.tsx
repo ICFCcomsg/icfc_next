@@ -1,5 +1,5 @@
 import { Container } from "@/components/atoms/container";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { getDictionary, type ServiceContent } from "@/lib/dictionary";
 
 /** Official sources from the content matrix, as outbound links. */

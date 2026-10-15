@@ -8,7 +8,7 @@ import {
   type ReactNode,
 } from "react";
 import { motion } from "motion/react";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 
 const AccordionContext = createContext<{
   active: string | null;

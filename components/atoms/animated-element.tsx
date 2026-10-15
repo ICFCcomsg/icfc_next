@@ -25,7 +25,7 @@ import {
   useMotionValue,
 } from "motion/react";
 import { SiteImage } from "@/components/atoms/site-image";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { SiteLink } from "@/components/atoms/site-link";
 
 const elements = {

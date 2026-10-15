@@ -1,6 +1,6 @@
 import { Tx } from "@/components/atoms/tx";
 import { AnimatedElement } from "@/components/atoms/animated-element";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { Container } from "@/components/atoms/container";
 
 export function ExcellenceSection() {

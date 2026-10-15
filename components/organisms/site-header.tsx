@@ -1,6 +1,6 @@
 "use client";
 import { AnimatedMenuIcon } from "@/components/atoms/animated-element";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 
 import { useState, useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";

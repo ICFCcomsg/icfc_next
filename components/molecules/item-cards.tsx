@@ -1,4 +1,4 @@
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 
 // A service "extra" block from the content pack: plain text, a named-item list, or a scheme funding breakdown.
 export type Extra = {

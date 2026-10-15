@@ -1,5 +1,5 @@
 import { Container } from "@/components/atoms/container";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { getDictionary, type ServiceContent } from "@/lib/dictionary";
 
 /** "What is X?" and "Who is X for?" cards; the first sentence is shown as a larger lead. */

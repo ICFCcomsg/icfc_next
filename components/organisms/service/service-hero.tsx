@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Container } from "@/components/atoms/container";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { QuoteButton } from "@/components/atoms/quote-button";
 import { SiteImage } from "@/components/atoms/site-image";
 import { SiteLink } from "@/components/atoms/site-link";

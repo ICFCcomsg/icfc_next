@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { SiteImage } from "@/components/atoms/site-image";
 import { SiteLink } from "@/components/atoms/site-link";
 

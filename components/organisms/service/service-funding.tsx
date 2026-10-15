@@ -1,5 +1,5 @@
 import { Container } from "@/components/atoms/container";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { SiteLink } from "@/components/atoms/site-link";
 import type { Extra } from "@/components/molecules/item-cards";
 import { getDictionary, type ServiceContent } from "@/lib/dictionary";

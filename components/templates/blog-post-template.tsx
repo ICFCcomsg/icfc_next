@@ -1,6 +1,8 @@
+import { CalendarIcon } from "@/components/icons/calendar-icon";
+import { ClockIcon } from "@/components/icons/clock-icon";
 import type { ReactNode } from "react";
 import { Tx } from "@/components/atoms/tx";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { SiteImage } from "@/components/atoms/site-image";
 import { SiteLink } from "@/components/atoms/site-link";
 import { EmailForm } from "@/components/molecules/email-form";
@@ -72,38 +74,13 @@ export function BlogPostTemplate({
                       </li>
                       <li className="list-none">
                         <span className="flex items-center gap-2 text-[13px]">
-                          <svg
-                            width="14"
-                            height="16"
-                            className="align-middle w-3.75 h-3.75"
-                          >
-                            <path
-                              d="M4.33447 3.8335C4.06114 3.8335 3.83447 3.60683 3.83447 3.3335V1.3335C3.83447 1.06016 4.06114 0.833496 4.33447 0.833496C4.60781 0.833496 4.83447 1.06016 4.83447 1.3335V3.3335C4.83447 3.60683 4.60781 3.8335 4.33447 3.8335ZM9.66781 3.8335C9.39447 3.8335 9.16781 3.60683 9.16781 3.3335V1.3335C9.16781 1.06016 9.39447 0.833496 9.66781 0.833496C9.94114 0.833496 10.1678 1.06016 10.1678 1.3335V3.3335C10.1678 3.60683 9.94114 3.8335 9.66781 3.8335Z"
-                              fill="white"
-                              className="fill-[#AB052D]"
-                            ></path>
-                          </svg>
+                          <CalendarIcon className="align-middle w-3.75 h-3.75" />
                           <span className=""><Tx ns={ns}>{meta.date}</Tx></span>
                         </span>
                       </li>
                       <li className="list-none">
                         <span className="flex items-center gap-2 text-[13px]">
-                          <svg
-                            width="12"
-                            height="12"
-                            className="align-middle w-3.75 h-3.75"
-                          >
-                            <path
-                              d="M6 12C9.30799 12 12 9.30799 12 6C12 2.69201 9.30803 0 6 0C2.69197 0 0 2.69201 0 6C0 9.30799 2.69201 12 6 12ZM6 0.799987C8.86799 0.799987 11.2 3.13198 11.2 6C11.2 8.86802 8.86802 11.2 6 11.2C3.13198 11.2 0.799987 8.86802 0.799987 6C0.799987 3.13198 3.13201 0.799987 6 0.799987Z"
-                              fill="#616C74"
-                              className="fill-[#AB052D]"
-                            ></path>
-                            <path
-                              d="M7.74961 7.9119C7.82362 7.97189 7.91159 7.99991 7.9996 7.99991C8.05955 8.00003 8.11874 7.9866 8.17277 7.96063C8.22679 7.93465 8.27425 7.89681 8.31159 7.84991C8.44959 7.6779 8.42157 7.4259 8.2496 7.2879L6.3996 5.8079V2.7999C6.3996 2.57989 6.21961 2.3999 5.9996 2.3999C5.7796 2.3999 5.59961 2.57989 5.59961 2.7999V5.99991C5.59961 6.12192 5.65562 6.23591 5.74961 6.31189L7.74961 7.9119Z"
-                              fill="#616C74"
-                              className="fill-[#AB052D]"
-                            ></path>
-                          </svg>
+                          <ClockIcon className="align-middle w-3.75 h-3.75" />
                           <span className=""><Tx ns={ns}>{meta.readTime}</Tx></span>
                         </span>
                       </li>
