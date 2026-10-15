@@ -251,8 +251,9 @@ export async function ServicePageContent({ service: s }: { service: Service }) {
         <section className="mt-16 bg-[#F8F8FD] py-20 max-[767px]:mt-10 max-[767px]:py-12">
           <div className={`${container} grid grid-cols-2 max-[991px]:grid-cols-1 gap-12 max-[767px]:gap-6`}>
             {[
-              ["shield", L.what, s.what],
-              ["building", L.who, s.who],
+              // Question-led headings with the standard code (pack section 9); untranslated languages keep the plain label.
+              ["shield", L.what_q?.replace("{code}", s.code) ?? L.what, s.what],
+              ["building", L.who_q?.replace("{code}", s.code) ?? L.who, s.who],
             ].map(([icon, title, text]) => {
               const cut = text.indexOf(". ") + 1;
               return (
