@@ -11,7 +11,7 @@ import {
   type HTMLAttributes,
 } from "react";
 import { animate, useReducedMotion } from "motion/react";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 
 export function ContentCarousel({
   children,

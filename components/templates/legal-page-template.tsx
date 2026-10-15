@@ -1,5 +1,6 @@
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
+import { Container } from "@/components/atoms/container";
 
 // Blocks are generated from the approved .docx files (title, h, p, li, table).
 export type LegalBlock = { t: string; text?: string; rows?: string[][] };
@@ -32,7 +33,7 @@ export function LegalPageTemplate({ route, blocks }: { route: string; blocks: Le
           background="/assets/images/logo/logo.webp"
         />
         <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
-          <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
+          <Container>
             <div className="flex flex-wrap mt-0 -mr-6 -ml-6 justify-center!">
               <div className="shrink-0 w-[83.33333333%] max-[1200px]:w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
                 <div className="z-1 relative pt-12.5 max-[575px]:pt-7.5 pr-12.5 max-[575px]:pr-5 pb-12.5 max-[575px]:pb-7.5 pl-12.5 max-[575px]:pl-5 bg-[#FFFFFF] shadow-[0px_4px_80px_rgba(0,0,0,0.12)]">
@@ -83,7 +84,7 @@ export function LegalPageTemplate({ route, blocks }: { route: string; blocks: Le
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </section>
       </main>
     </SitePageTemplate>

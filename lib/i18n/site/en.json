@@ -125,6 +125,8 @@
   "fact_group": "Group",
   "fact_funding": "Funding",
   "what": "What it is",
+  "what_q": "What is {code}?",
+  "who_q": "Who is {code} for?",
   "who": "Who it is for",
   "how_we_help": "How we help",
   "tab_audit": "Audit",

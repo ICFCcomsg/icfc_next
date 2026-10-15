@@ -88,11 +88,6 @@
 .icfc-seg button[aria-pressed=true] { background: #fff; color: #161D2E; font-weight: 600; box-shadow: 0 1px 3px rgba(22,29,46,.08); }
 html.icfc-quick [data-detail] { display: none; }
 
-/* Transfer banner */
-.icfc-transfer { display: flex; gap: 24px; align-items: center; justify-content: space-between; background: var(--icfc-primary); color: #fff; border-radius: var(--icfc-radius); padding: 28px 32px; font-family: var(--icfc-font); }
-.icfc-transfer h2 { color: #fff; margin: 4px 0 6px; font-size: 26px; } .icfc-transfer p { color: rgba(255,255,255,.88); margin: 0; }
-.icfc-eyebrow { text-transform: uppercase; letter-spacing: 2px; font-size: 12px; }
-@media (max-width: 767px) { .icfc-transfer { flex-direction: column; align-items: flex-start; } }
 
 /* Calendar */
 .icfc-cal { font-family: var(--icfc-font); color: var(--icfc-title); }

@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { SiteLink } from "@/components/atoms/site-link";
 import { SiteImage } from "@/components/atoms/site-image";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 
 export function SiteBreadcrumb({
   title,

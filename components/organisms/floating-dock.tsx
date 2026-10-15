@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { hasConsent, loadScriptOnce, readConsent, saveConsent } from "@/lib/consent";
-import { DockIcon } from "@/components/atoms/dock-icon";
+import { DockIcon } from "@/components/icons/dock-icon";
 import { ENQUIRY_TYPES, type EnquiryType } from "@/lib/enquiry";
 import consentText from "@/lib/data/marketing-consent.json";
 import { services } from "@/lib/service-data";

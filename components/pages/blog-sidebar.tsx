@@ -1,10 +1,12 @@
+import { SearchIcon } from "@/components/icons/search-icon";
 import { Tx } from "@/components/atoms/tx";
-import { Icon } from "@/components/atoms/icon";
+import { Icon } from "@/components/icons/icon";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { SiteLink } from "@/components/atoms/site-link";
 import { SiteImage } from "@/components/atoms/site-image";
 import { EmailForm } from "@/components/molecules/email-form";
+import { Container } from "@/components/atoms/container";
 
 export function BlogSidebarPageContent() {
   return (
@@ -30,7 +32,7 @@ function BreadcrumbAreaSection() {
 function PostboxAreaSection() {
   return (
     <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
-      <div className="w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330">
+      <Container>
         <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
           <div className="shrink-0 w-[66.66666667%] max-[992px]:w-full max-w-full pr-6 pl-6 mt-12 flex-[0_0_auto] relative z-1">
             <div className="flex flex-wrap -mt-12 -mr-6 -ml-6">
@@ -529,29 +531,7 @@ function PostboxAreaSection() {
                         type="submit"
                         className="rounded-none mt-0 mr-0 mb-0 ml-0 text-[16px] leading-[inherit] normal-case text-black [border:none] [background:transparent] absolute top-[50%] inset-e-6.25 transform-[translateY(-50%)] hover:text-[#AB052D] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
                       >
-                        <svg
-                          width="18"
-                          height="18"
-                          viewBox="0 0 18 18"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="align-middle"
-                        >
-                          <path
-                            d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                          <path
-                            d="M16.9995 17L13.1328 13.1333"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
+                        <SearchIcon fill="none" className="align-middle" />
                       </button>
                     </div>
                   </EmailForm>
@@ -824,7 +804,7 @@ function PostboxAreaSection() {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

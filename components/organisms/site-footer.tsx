@@ -3,9 +3,8 @@ import { SiteImage } from "@/components/atoms/site-image";
 import { SiteLink } from "@/components/atoms/site-link";
 import { getDictionary, getServices } from "@/lib/dictionary";
 import { SERVICE_GROUPS } from "@/lib/service-data";
+import { CONTAINER } from "@/components/atoms/container";
 
-const container =
-  "w-full pr-6 pl-6 mr-auto ml-auto max-w-327.5 min-[576px]:max-[768px]:max-w-135 min-[768px]:max-[992px]:max-w-180 min-[992px]:max-[1200px]:max-w-240 min-[1200px]:max-[1400px]:max-w-285 min-[1400px]:max-[1441px]:max-w-330";
 const title = "mt-0 mb-5 text-[20px] font-semibold text-white";
 const link = "text-[rgba(255,255,255,0.6)] hover:text-white";
 
@@ -14,7 +13,7 @@ export async function SiteFooter() {
   const f = t.footer;
   return (
     <footer className="bg-[#2B3944] text-[16px]">
-      <div className={`${container} grid grid-cols-[1.4fr_1fr_1fr_1fr] max-[991px]:grid-cols-2 max-[575px]:grid-cols-1 gap-10 pt-20 pb-15`}>
+      <div className={`${CONTAINER} grid grid-cols-[1.4fr_1fr_1fr_1fr] max-[991px]:grid-cols-2 max-[575px]:grid-cols-1 gap-10 pt-20 pb-15`}>
         <div>
           <SiteLink href="/" aria-label="ICFC home">
             <SiteImage src="/assets/images/logo/logo.webp" alt="ICFC" className="mb-6 w-37.5 h-auto" />
@@ -81,7 +80,7 @@ export async function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <p className={`${container} m-0 py-5.5 text-center text-[15px] text-[rgba(255,255,255,0.7)]`}>
+        <p className={`${CONTAINER} m-0 py-5.5 text-center text-[15px] text-[rgba(255,255,255,0.7)]`}>
           © {new Date().getFullYear()} ICFC Pte Ltd · {f.uen} · {f.rights}
         </p>
       </div>
