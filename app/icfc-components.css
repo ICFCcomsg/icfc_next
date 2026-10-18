@@ -53,9 +53,10 @@
 .icfc-switch input:focus-visible + span { outline: 3px solid var(--icfc-secondary); outline-offset: 2px; }
 
 /* Floating dock */
-.icfc-dock { position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: var(--icfc-z); font-family: var(--icfc-font); }
+.icfc-dock { position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: var(--icfc-z); font-family: var(--icfc-font); pointer-events: none; }
 .icfc-dock ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
 .icfc-dock li { display: flex; justify-content: flex-end; }
+.icfc-dock-btn, .icfc-dock-toggle { pointer-events: auto; } /* the dock's box stays full width under the slid-out buttons; only the buttons take clicks */
 .icfc-dock-btn { display: flex; align-items: center; gap: 10px; height: 48px; padding: 0 13px; border: 0; border-radius: var(--icfc-radius) 0 0 var(--icfc-radius);
   background: var(--icfc-secondary); color: #fff; cursor: pointer; text-decoration: none; transform: translateX(calc(100% - 48px)); transition: transform .25s, background .25s; font: 500 14px var(--icfc-font); white-space: nowrap; }
 .icfc-dock-btn:hover, .icfc-dock-btn:focus-visible { transform: translateX(0); background: var(--icfc-primary); }
