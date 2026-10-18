@@ -1,4 +1,5 @@
 import type { Course } from "@/components/organisms/lms-calendar";
+import { getFromFrappe } from "./frappe.ts";
 
 type Row = Record<string, string | number | null>;
 
@@ -25,35 +26,12 @@ export function mapFrappeBatch(b: Row, enrolled: number, lmsBase: string): Cours
   };
 }
 
-/** Upcoming public runs from the Frappe LMS on CRM_API_HOST, cached for an hour. Empty if the LMS can't be read. */
+/** Upcoming public runs from the Frappe LMS guest API, cached for an hour. Empty if the LMS can't be read. */
 export async function getUpcomingCourses(): Promise<Course[]> {
-  const { CRM_API_HOST: host, CRM_API_KEY: key, CRM_API_SECRET: secret } = process.env;
-  if (!host || !key || !secret) return [];
-  const list = async (doctype: string, fields: string[], filters: unknown[]): Promise<Row[]> => {
-    const url = new URL(`/api/resource/${doctype}`, host);
-    url.search = new URLSearchParams({ fields: JSON.stringify(fields), filters: JSON.stringify(filters), limit_page_length: "0" }).toString();
-    const response = await fetch(url, {
-      headers: { Authorization: `token ${key}:${secret}` },
-      next: { revalidate: 3600 },
-      signal: AbortSignal.timeout(10000),
-      redirect: "error",
-    });
-    if (!response.ok) throw new Error(`${doctype}: HTTP ${response.status}`);
-    return (await response.json()).data;
-  };
+  if (!process.env.CRM_API_HOST) return [];
   try {
-    const today = new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Singapore" });
-    // "*" returns ICFC's custom fields (run type, SSG funding) where they exist, without failing where they don't.
-    const batches = (await list("LMS Batch", ["*"], [["published", "=", 1], ["start_date", ">=", today]]))
-      .filter((b) => b.custom_run_type !== "In-house");
-    const enrolled: Record<string, number> = {};
-    // ponytail: counts enrolment rows here; group by batch in Frappe if runs reach thousands of learners.
-    if (batches.length) {
-      for (const { batch } of await list("LMS Batch Enrollment", ["batch"], [["batch", "in", batches.map((b) => b.name)]])) {
-        enrolled[String(batch)] = (enrolled[String(batch)] ?? 0) + 1;
-      }
-    }
-    return batches.map((b) => mapFrappeBatch(b, enrolled[String(b.name)] ?? 0, host));
+    const batches = await getFromFrappe<(Row & { enrolled: number })[]>("upcoming_courses");
+    return batches.map((b) => mapFrappeBatch(b, b.enrolled, process.env.CRM_API_HOST!));
   } catch (error) {
     // warn, not error: an unreachable LMS is expected until it's live, and console.error opens the dev overlay.
     console.warn(`LMS course feed failed: ${error instanceof Error ? error.message : error}`);
