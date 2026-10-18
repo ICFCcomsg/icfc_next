@@ -24,7 +24,7 @@ function BreadcrumbAreaSection() {
     <SiteBreadcrumb
       title={<Tx ns="blog-sidebar">{"Blog Sidebar"}</Tx>}
       description={<Tx ns="blog-sidebar">{"Position your agency bridge between a client’s big picture"}</Tx>}
-      background="/assets/images/logo/logo.webp"
+      background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
 }
