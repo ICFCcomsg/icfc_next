@@ -277,7 +277,7 @@ export function FloatingDock({
 
           {open === "wechat" && (
             <div className="icfc-wechat">
-              <a href="https://u.wechat.com/kBoJV0nfTBHlvV3Yi6t2iSE?s=4" target="_blank" rel="noopener" className="icfc-wechat-qr">
+              <a href="https://u.wechat.com/kKBd_vEH2dd93zJQr3N9Kxo" target="_blank" rel="noopener" className="icfc-wechat-qr">
                 {/* eslint-disable-next-line @next/next/no-img-element -- tiny static PNG, no optimisation needed */}
                 <img src="/images/wechat-qr.png" alt="WeChat QR code to add ICFC" width={180} height={180} />
               </a>
