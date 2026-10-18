@@ -4,7 +4,7 @@ import type { BlogPost } from "@/components/molecules/blog-card";
 export const posts: BlogPost[] = [
   {
     href: "/blogcybersecurity",
-    image: "/assets/images/blog/blog-thumb-01.webp",
+    image: "/assets/icfc/sketch-soc-attestation.svg",
     category: "Cybersecurity",
     date: "March 15, 2026",
     title:
@@ -14,7 +14,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blogedg",
-    image: "/assets/images/blog/blog-thumb-04.webp",
+    image: "/assets/icfc/sketch-edge-grant.svg",
     category: "Funding",
     date: "March 10, 2026",
     title:
@@ -24,7 +24,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blogGreenPlan2030",
-    image: "/assets/images/blog/blog-thumb-08.webp",
+    image: "/assets/icfc/sketch-regional-reach.svg",
     category: "Sustainability",
     date: "March 5, 2026",
     title:
@@ -34,7 +34,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blog_ISO42001_AI",
-    image: "/assets/images/blog/blog-thumb-05.webp",
+    image: "/assets/icfc/sketch-cmmi-maturity.svg",
     category: "AI Governance",
     date: "February 28, 2026",
     title: "ISO/IEC 42001: what Singapore AI companies need to know in 2026",
@@ -43,7 +43,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blog_ISO27701_vs_PDPA_Singapore",
-    image: "/assets/images/blog/blog-thumb-04.webp",
+    image: "/assets/icfc/sketch-gdpr-privacy.svg",
     category: "Data Privacy",
     date: "February 20, 2026",
     title:
@@ -53,7 +53,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blog_LeadAuditor_vs_InternalAuditor",
-    image: "/assets/images/blog/blog-thumb-05.webp",
+    image: "/assets/icfc/sketch-train.svg",
     category: "Training",
     date: "February 15, 2026",
     title:
@@ -63,7 +63,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blog_ISO27701",
-    image: "/assets/images/blog/blog-thumb-01.webp",
+    image: "/assets/icfc/sketch-gdpr-privacy.svg",
     category: "Cybersecurity",
     date: "February 10, 2026",
     title:
@@ -73,7 +73,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blog_mas",
-    image: "/assets/images/blog/blog-thumb-08.webp",
+    image: "/assets/icfc/sketch-audit.svg",
     category: "Financial Services",
     date: "February 5, 2026",
     title:
@@ -83,7 +83,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blog_wsh_mom",
-    image: "/assets/images/blog/blog-thumb-04.webp",
+    image: "/assets/icfc/sketch-impartiality.svg",
     category: "E-Waste",
     date: "January 28, 2026",
     title:
@@ -92,7 +92,7 @@ export const posts: BlogPost[] = [
   },
   {
     href: "/blog_bizsafe",
-    image: "/assets/images/blog/blog-thumb-05.webp",
+    image: "/assets/icfc/sketch-integrated-audit.svg",
     category: "Workplace Safety",
     date: "January 20, 2026",
     title:

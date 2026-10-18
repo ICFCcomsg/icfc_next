@@ -14,7 +14,6 @@ export function TrainingPageContent() {
         <SiteBreadcrumb
           title={<Tx ns="training">{"Training and LMS"}</Tx>}
           description={<Tx ns="training">{"Formats, calendar, funding, discounts"}</Tx>}
-          background="/assets/bg/breadcrumb-bg-thumb-01.webp"
         />
         <TrainingFormats />
         <TrainingCalendar />

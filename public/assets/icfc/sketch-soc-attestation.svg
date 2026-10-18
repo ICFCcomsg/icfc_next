@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-labelledby="t"><title id="t">SOC readiness: control report, shield and review period timeline</title><rect width="600" height="450" rx="24" fill="#F8F8F9"/><g fill="none" stroke="#2B3944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M60 410 Q300.0 396 540 410" stroke="#DBDEE1" stroke-width="6"/>
+<rect x="110" y="90" width="190" height="250" rx="12" fill="#FFFFFF"/><rect x="130" y="70" width="190" height="250" rx="12" fill="#FFFFFF"/>
+<path d="M160 120 h120 M160 150 h100 M160 180 h120 M160 210 h80" stroke="#DBDEE1" stroke-width="6"/>
+<path d="M440 110 l80 30 v60 c0 55 -40 85 -80 100 c-40 -15 -80 -45 -80 -100 v-60 z" fill="#FFFFFF"/><path d="M412 195 l20 20 l40 -44" stroke="#AB052D" stroke-width="7"/>
+<path d="M140 372 h360" stroke="#2B3944"/><circle cx="160" cy="372" r="10" fill="#AB052D" stroke="#AB052D"/><circle cx="480" cy="372" r="10" fill="#AB052D" stroke="#AB052D"/>
+<path d="M240 362 v20 M320 362 v20 M400 362 v20"/><circle cx="470" cy="60" r="5" fill="#AB052D" stroke="none"/><circle cx="496" cy="60" r="5" fill="#AB052D" stroke="none"/><circle cx="522" cy="60" r="5" fill="#AB052D" stroke="none"/></g></svg>

@@ -9,7 +9,7 @@ import { EmailForm } from "@/components/molecules/email-form";
 export function ContactSection() {
   return (
     <section className="overflow-x-clip relative z-1 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25 min-[991px]:max-[1199px]:pb-30">
-      <div className="bg-center bg-cover bg-no-repeat absolute w-full h-128 max-[767px]:h-95 bottom-0 left-0 z-[-1] bg-[url('/assets/bg/contact-bg-thumb-01.webp')]!"></div>
+      <div className="bg-center bg-cover bg-no-repeat absolute w-full h-128 max-[767px]:h-95 bottom-0 left-0 z-[-1]"></div>
       <Container>
         <div className="flex flex-wrap mt-0 -mr-6 -ml-6">
           <div className="shrink-0 w-full max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
@@ -172,7 +172,7 @@ export function ContactSection() {
                       >
                         <div className="w-32.5 min-w-32.5">
                           <SiteImage
-                            src="/assets/images/contact/contact-thumb-06.webp"
+                            src="/assets/icfc/sketch-consult.svg"
                             alt="image"
                             className="align-middle max-w-full w-full h-full object-cover rounded-md"
                           />
@@ -217,7 +217,7 @@ export function ContactSection() {
                       >
                         <div className="w-32.5 min-w-32.5">
                           <SiteImage
-                            src="/assets/images/contact/contact-thumb-07.webp"
+                            src="/assets/icfc/sketch-audit.svg"
                             alt="image"
                             className="align-middle max-w-full w-full h-full object-cover rounded-md"
                           />
@@ -263,7 +263,7 @@ export function ContactSection() {
                       >
                         <div className="w-32.5 min-w-32.5">
                           <SiteImage
-                            src="/assets/images/contact/contact-thumb-08.webp"
+                            src="/assets/icfc/sketch-train.svg"
                             alt="image"
                             className="align-middle max-w-full w-full h-full object-cover rounded-md"
                           />
@@ -309,7 +309,7 @@ export function ContactSection() {
                       >
                         <div className="w-32.5 min-w-32.5">
                           <SiteImage
-                            src="/assets/images/contact/contact-thumb-09.webp"
+                            src="/assets/icfc/sketch-regional-reach.svg"
                             alt="image"
                             className="align-middle max-w-full w-full h-full object-cover rounded-md"
                           />

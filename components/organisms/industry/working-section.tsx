@@ -87,7 +87,7 @@ export function WorkingSection() {
                 className="relative z-1 visible overflow-hidden"
               >
                 <SiteImage
-                  src="/assets/images/work/working-thumb-09.webp"
+                  src="/assets/icfc/sketch-integrated-audit.svg"
                   alt="image"
                   className="align-middle max-w-full rounded-md w-full h-full object-cover"
                 />

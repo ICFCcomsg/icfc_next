@@ -1,24 +1,16 @@
 import type { ReactNode } from "react";
 import { SiteLink } from "@/components/atoms/site-link";
-import { SiteImage } from "@/components/atoms/site-image";
 import { Icon } from "@/components/icons/icon";
 
 export function SiteBreadcrumb({
   title,
   description,
-  background,
 }: {
   title: ReactNode;
   description?: ReactNode;
-  background: string;
 }) {
   return (
     <section className="relative isolate bg-[#2B3944] py-26.25 text-white max-[991px]:py-18.75">
-      <SiteImage
-        src={background}
-        alt=""
-        className="absolute inset-0 -z-20 h-full w-full object-cover"
-      />
       <div className="mx-auto w-full px-3.75 min-[576px]:max-w-135 min-[768px]:max-w-180 min-[992px]:max-w-240 min-[1200px]:max-w-285 min-[1400px]:max-w-330 min-[1441px]:max-w-327.5">
         <div className="min-[992px]:max-w-[calc(75%-7.5px)] min-[1200px]:max-w-[calc(66.666667%-10px)]">
           <nav aria-label="Breadcrumb">

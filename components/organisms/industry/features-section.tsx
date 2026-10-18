@@ -8,7 +8,7 @@ import { SiteImage } from "@/components/atoms/site-image";
 export function FeaturesSection() {
   return (
     <section className="pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25 relative z-1">
-      <div className="bg-center bg-cover bg-no-repeat bg-[url('/assets/bg/feature-bg-thumb-05.webp')]! h-117.5 absolute w-full bottom-0 left-0 z-[-1]"></div>
+      <div className="bg-center bg-cover bg-no-repeat h-117.5 absolute w-full bottom-0 left-0 z-[-1]"></div>
       <Container>
         <div className="flex flex-wrap mt-0 -mr-6 -ml-6 justify-center!">
           <div className="shrink-0 w-[75%] max-[992px]:w-full min-[992px]:max-[1200px]:w-[83.33333333%] max-w-full pr-6 pl-6 mt-0 flex-[0_0_auto]">
@@ -46,7 +46,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-05.webp"
+                      src="/assets/icfc/icon-industry-manufacturing.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -76,7 +76,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-06.webp"
+                      src="/assets/icfc/icon-industry-banking.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -106,7 +106,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-07.webp"
+                      src="/assets/icfc/icon-industry-energy.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -136,7 +136,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-08.webp"
+                      src="/assets/icfc/icon-industry-public-sector.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -166,7 +166,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-09.webp"
+                      src="/assets/icfc/icon-industry-healthcare.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -196,7 +196,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-08.webp"
+                      src="/assets/icfc/icon-industry-public-sector.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -226,7 +226,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-13.webp"
+                      src="/assets/icfc/icon-industry-banking.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -256,7 +256,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-14.webp"
+                      src="/assets/icfc/icon-industry-technology.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -286,7 +286,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-10.webp"
+                      src="/assets/icfc/icon-industry-food.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -316,7 +316,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-15.webp"
+                      src="/assets/icfc/icon-industry-retail.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -346,7 +346,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-16.webp"
+                      src="/assets/icfc/icon-industry-technology.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />
@@ -376,7 +376,7 @@ export function FeaturesSection() {
                 <div className="flex items-center gap-6.25">
                   <div className="w-16 h-16 min-w-16 overflow-hidden rounded-full">
                     <SiteImage
-                      src="/assets/images/feature/feature-thumb-13.webp"
+                      src="/assets/icfc/icon-industry-banking.svg"
                       alt="image"
                       className="align-middle max-w-full group-hover/feature-item:transform-[scale3d(1.1,1.1,1)] w-full transform-[scale(1.02)] [transition:all_0.8s_ease] motion-reduce:transition-none"
                     />

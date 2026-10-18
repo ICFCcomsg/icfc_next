@@ -14,7 +14,7 @@ export function BlogIso27701VsPdpaSingaporePageContent() {
       title="ISO 27701 vs PDPA: Which Comes First for Singapore Businesses?"
       description="Strategic privacy management: understanding the overlap between PDPA obligations and ISO 27701:2025"
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",

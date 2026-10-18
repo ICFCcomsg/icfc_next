@@ -11,7 +11,7 @@ export function Bloggreenplan2030PageContent() {
       title="Singapore Green Plan 2030 and ISO 14001: what manufacturers need to do now"
       description="Carbon tax S$45/t, mandatory energy management, waste reduction targets – the ISO 14001 roadmap for manufacturers"
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",

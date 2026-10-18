@@ -17,7 +17,6 @@ export function GrantsEdgePageContent() {
         <SiteBreadcrumb
           title={<Tx ns="grants">{"Grants (EDGE)"}</Tx>}
           description={<Tx ns="grants">{"What EDGE covers, eligibility, step-by-step application, standards listed under EDGE, other schemes."}</Tx>}
-          background="/assets/bg/breadcrumb-bg-thumb-01.webp"
         />
         <GrantsOverview />
         <GrantsHowToApply />

@@ -11,7 +11,7 @@ export function BlogIso42001AiPageContent() {
       title="ISO/IEC 42001: what Singapore AI companies need to know in 2026"
       description="AI governance standard, IMDA crosswalk, PDPA alignment, EDGE Grant, and certification roadmap for Singapore AI developers and users"
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",

@@ -11,7 +11,6 @@ export function TrainingCalendarPageContent() {
         <SiteBreadcrumb
           title={<Tx ns="training">{"Course calendar"}</Tx>}
           description={<Tx ns="training">{"Upcoming courses by month, booked through the ICFC Digital LMS"}</Tx>}
-          background="/assets/bg/breadcrumb-bg-thumb-01.webp"
         />
         <TrainingCalendar />
       </main>

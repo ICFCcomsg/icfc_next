@@ -30,7 +30,6 @@ export function ExcellenceSection() {
         <div className="flex flex-wrap -mt-6 -mr-6 -ml-6 justify-center!">
           <div className="shrink-0 w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-6 pl-6 mt-6 flex-[0_0_auto]">
             <div className="pt-11.25 pr-8.75 pb-11.25 pl-8.75 [background:#fff] rounded-3xl h-full [border:1px_solid_rgba(0,0,0,0.05)] relative overflow-hidden z-1 hover:transform-[translateY(-12px)] hover:border-[#AB052D] hover:shadow-[0_30px_60px_rgba(171,5,45,0.15)] hover:[background:rgba(255,255,255,0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card [transition:all_0.5s_cubic-bezier(0.4,0,0.2,1)] motion-reduce:transition-none">
-              <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-[0] transform-[scale(1.1)] z-[-1] filter-[grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:transform-[scale(1)] group-hover/service-category-card:filter-[grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-07.webp')]! [transition:all_0.6s_ease] motion-reduce:transition-none"></div>
               <span className="mb-6.25 pt-1.5 pr-4.5 pb-1.5 pl-4.5 [background:linear-gradient(90deg,#AB052D,#d40638)] text-white rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,5,45,0.2)]">
                 <Icon
                   name="star"
@@ -98,7 +97,6 @@ export function ExcellenceSection() {
           </div>
           <div className="shrink-0 w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-6 pl-6 mt-6 flex-[0_0_auto]">
             <div className="pt-11.25 pr-8.75 pb-11.25 pl-8.75 [background:#fff] rounded-3xl h-full [border:1px_solid_rgba(0,0,0,0.05)] relative overflow-hidden z-1 hover:transform-[translateY(-12px)] hover:border-[#AB052D] hover:shadow-[0_30px_60px_rgba(171,5,45,0.15)] hover:[background:rgba(255,255,255,0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card [transition:all_0.5s_cubic-bezier(0.4,0,0.2,1)] motion-reduce:transition-none">
-              <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-[0] transform-[scale(1.1)] z-[-1] filter-[grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:transform-[scale(1)] group-hover/service-category-card:filter-[grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-08.webp')]! [transition:all_0.6s_ease] motion-reduce:transition-none"></div>
               <span className="mb-6.25 pt-1.5 pr-4.5 pb-1.5 pl-4.5 [background:linear-gradient(90deg,#AB052D,#d40638)] text-white rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,5,45,0.2)]">
                 <Icon
                   name="bulb"
@@ -166,7 +164,6 @@ export function ExcellenceSection() {
           </div>
           <div className="shrink-0 w-[33.33333333%] max-[768px]:w-full min-[768px]:max-[992px]:w-[50%] max-w-full pr-6 pl-6 mt-6 flex-[0_0_auto]">
             <div className="pt-11.25 pr-8.75 pb-11.25 pl-8.75 [background:#fff] rounded-3xl h-full [border:1px_solid_rgba(0,0,0,0.05)] relative overflow-hidden z-1 hover:transform-[translateY(-12px)] hover:border-[#AB052D] hover:shadow-[0_30px_60px_rgba(171,5,45,0.15)] hover:[background:rgba(255,255,255,0.95)] hover:[backdrop-filter:blur(10px)] group/service-category-card [transition:all_0.5s_cubic-bezier(0.4,0,0.2,1)] motion-reduce:transition-none">
-              <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-[0] transform-[scale(1.1)] z-[-1] filter-[grayscale(100%)_brightness(50%)] group-hover/service-category-card:opacity-[0.15] group-hover/service-category-card:transform-[scale(1)] group-hover/service-category-card:filter-[grayscale(0%)_brightness(80%)] bg-[url('/assets/images/services/services-thumb-09.webp')]! [transition:all_0.6s_ease] motion-reduce:transition-none"></div>
               <span className="mb-6.25 pt-1.5 pr-4.5 pb-1.5 pl-4.5 [background:linear-gradient(90deg,#AB052D,#d40638)] text-white rounded-[50px] text-[11px] font-bold uppercase tracking-[1.5px] inline-block shadow-[0_4px_15px_rgba(171,5,45,0.2)]">
                 <Icon
                   name="presentation"

@@ -268,19 +268,13 @@ export function SiteHeader({ route }: { route: string }) {
                 ICFC provides audit, consulting and training for ISO management systems, cybersecurity, data protection and sustainability standards in Singapore.
               </p>
               <div className="my-6 grid grid-cols-3 gap-2">
-                {["01", "02", "03", "04", "05", "06"].map((number) => (
-                  <a
-                    key={number}
-                    href={`/assets/images/gallery/gallery-thumb-${number}.webp`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <SiteImage
-                      src={`/assets/images/gallery/gallery-thumb-${number}.webp`}
-                      alt={`ICFC gallery ${number}`}
-                      className="aspect-square w-full rounded-md object-cover"
-                    />
-                  </a>
+                {["audit", "consult", "train", "integrated-audit", "regional-reach", "hero-assurance"].map((name) => (
+                  <SiteImage
+                    key={name}
+                    src={`/assets/icfc/sketch-${name}.svg`}
+                    alt=""
+                    className="aspect-square w-full rounded-md object-cover"
+                  />
                 ))}
               </div>
             </>

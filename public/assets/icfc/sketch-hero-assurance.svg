@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t"><title id="t">ICFC assurance: shield, checklist and globe</title><rect width="800" height="600" rx="24" fill="#F8F8F9"/><g fill="none" stroke="#2B3944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M60 540 Q400.0 526 740 540" stroke="#DBDEE1" stroke-width="6"/>
+<rect x="170" y="120" width="250" height="330" rx="14" fill="#FFFFFF"/><rect x="235" y="98" width="120" height="44" rx="10" fill="#DBDEE1"/>
+<path d="M210 200 l14 14 l26 -30"/><path d="M270 200 h110"/><path d="M210 270 l14 14 l26 -30"/><path d="M270 270 h110"/><path d="M210 340 l14 14 l26 -30" stroke="#AB052D"/><path d="M270 340 h80"/><path d="M270 400 h110" stroke="#DBDEE1"/>
+<path d="M560 150 l120 45 v95 c0 85 -60 135 -120 160 c-60 -25 -120 -75 -120 -160 v-95 z" fill="#FFFFFF"/>
+<path d="M515 300 l32 32 l66 -76" stroke="#AB052D" stroke-width="7"/>
+<circle cx="640" cy="440" r="62" fill="#FFFFFF"/><path d="M578 440 h124 M640 378 v124 M640 378 c-38 40 -38 84 0 124 M640 378 c38 40 38 84 0 124"/>
+<circle cx="100" cy="90" r="5" fill="#AB052D" stroke="none"/><circle cx="126" cy="90" r="5" fill="#AB052D" stroke="none"/><circle cx="152" cy="90" r="5" fill="#AB052D" stroke="none"/><circle cx="640" cy="70" r="5" fill="#AB052D" stroke="none"/><circle cx="666" cy="70" r="5" fill="#AB052D" stroke="none"/><circle cx="692" cy="70" r="5" fill="#AB052D" stroke="none"/></g></svg>

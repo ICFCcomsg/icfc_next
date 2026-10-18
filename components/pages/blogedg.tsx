@@ -11,7 +11,7 @@ export function BlogedgPageContent() {
       title="How to apply for the Enterprise Singapore EDGE Grant for ISO certification in Singapore (2026 guide)"
       description="Step-by-step EDGE Grant application for ISO standards, with up to 50-70% support for SMEs, subject to eligibility and Enterprise Singapore's approval."
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",

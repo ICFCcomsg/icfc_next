@@ -11,7 +11,7 @@ export function BlogLegacytocloudIso27001PageContent() {
       title="ISO/IEC 42001: what Singapore AI companies need to know in 2026"
       description="AI governance is now certifiable – ISO 42001 requirements, Singapore AI Verify alignment, PDPA connection, and implementation roadmap"
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",

@@ -11,9 +11,8 @@ export function BlogWshMomPageContent() {
       ns="blog-wsh-mom"
       title="MOM WSH Act and ISO 45001: a practical integration guide for Singapore contractors"
       description="WSH Act obligations mapped to ISO 45001 clauses, SHMS audit requirements, bizSAFE STAR pathway – a practical integration guide for Singapore contractors"
-      background="https://images.pexels.com/photos/2881229/pexels-photo-2881229.jpeg?auto=compress&cs=tinysrgb&w=1600"
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",

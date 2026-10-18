@@ -24,7 +24,6 @@ export async function Ss680PageContent() {
         <SiteBreadcrumb
           title={<Tx ns="ss-680">{"Consultancy led by SS 680 certified consultants"}</Tx>}
           description={<Tx ns="ss-680">{"SS 680:2021 is the Singapore Standard for management consultants. It covers the consultancy process, competence, ethics and continuing professional development. ICFC's consultancy is led by consultants who hold SS 680:2021 certification, which Enterprise Singapore requires for consultancy support under EDGE Standards activities. The certification is held by our individual consultants, not by ICFC as a company."}</Tx>}
-          background="/assets/bg/breadcrumb-bg-thumb-01.webp"
         />
         <section className="py-20 max-[767px]:py-12">
           <Container className="grid grid-cols-2 max-[991px]:grid-cols-1 gap-6">

@@ -14,7 +14,6 @@ export function AboutPageContent() {
         <SiteBreadcrumb
           title={<Tx ns="about">{"About ICFC"}</Tx>}
           description={<Tx ns="about">{"Audit, consulting and training in Singapore since 2014."}</Tx>}
-          background="/assets/bg/breadcrumb-bg-thumb-01.webp"
         />
         <AboutStory />
         <AboutReach />

@@ -11,7 +11,7 @@ export function BlogBizsafePageContent() {
       title="WSH Act, CoP, bizSAFE and ISO 45001: a practical integration guide for Singapore companies across all industries"
       description="Four-layer workplace safety framework: legal foundation, approved codes, capability programme, international OHSMS standard"
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",

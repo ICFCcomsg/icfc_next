@@ -10,7 +10,6 @@ export function TrainingFundingPageContent() {
       <main>
         <SiteBreadcrumb
           title={<Tx ns="training">{"Funding and discounts"}</Tx>}
-          background="/assets/bg/breadcrumb-bg-thumb-01.webp"
         />
         <TrainingTerms />
       </main>

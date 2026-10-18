@@ -13,7 +13,6 @@ export async function BlogPageContent() {
         <SiteBreadcrumb
           title={<Tx ns="blog">{"Blog"}</Tx>}
           description={<Tx ns="blog">{"Latest insights on ISO certifications, cybersecurity, sustainability, and business compliance in Singapore"}</Tx>}
-          background="/assets/bg/breadcrumb-bg-thumb-01.webp"
         />
         <section
           aria-label="Latest articles"

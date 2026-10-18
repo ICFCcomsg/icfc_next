@@ -12,7 +12,7 @@ export function BlogcybersecurityPageContent() {
       title="Singapore Cybersecurity Act 2024 amendments: what CII operators need to certify now"
       description="Mandatory Cyber Trust Mark Level 5, 2-hour APT reporting & third-party CII obligations – complete compliance roadmap for CIIOs"
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",

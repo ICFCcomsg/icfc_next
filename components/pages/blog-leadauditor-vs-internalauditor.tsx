@@ -14,7 +14,7 @@ export function BlogLeadauditorVsInternalauditorPageContent() {
       title="Lead auditor vs internal auditor training: which course does your team need?"
       description="A practical guide to matching ISO training to the real job that needs doing"
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "\n                                                By\n                                                ",
         author: "ICFC Pte Ltd",
         date: "April 2026",
@@ -339,7 +339,7 @@ export function BlogLeadauditorVsInternalauditorPageContent() {
       </p>
       <div className="mb-7.5">
         <SiteImage
-          src="/assets/images/blog/details/blog-details-01.webp"
+          src="/assets/icfc/sketch-insights.svg"
           alt="image"
           className="align-middle max-w-full w-full rounded-md"
         />

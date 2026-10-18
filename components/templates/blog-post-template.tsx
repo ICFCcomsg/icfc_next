@@ -21,7 +21,6 @@ export function BlogPostTemplate({
   ns,
   title,
   description,
-  background = "/assets/bg/breadcrumb-bg-thumb-01.webp",
   meta,
   tags,
   sidebar,
@@ -31,7 +30,6 @@ export function BlogPostTemplate({
   ns: string;
   title: string;
   description: string;
-  background?: string;
   meta: BlogMeta;
   tags: [label: string, href: string][];
   sidebar?: ReactNode;
@@ -43,7 +41,6 @@ export function BlogPostTemplate({
         <SiteBreadcrumb
           title={<Tx ns={ns}>{title}</Tx>}
           description={<Tx ns={ns}>{description}</Tx>}
-          background={background}
         />
         <section className="pt-30 max-[480px]:pt-15 min-[480px]:max-[767px]:pt-17.5 min-[767px]:max-[991px]:pt-25 pb-30 max-[480px]:pb-15 min-[480px]:max-[767px]:pb-17.5 min-[767px]:max-[991px]:pb-25">
           <Container>

@@ -6,7 +6,6 @@ export function BreadcrumbSection() {
     <SiteBreadcrumb
       title={<Tx ns="industry">{"Industry"}</Tx>}
       description={<Tx ns="industry">{"Position your agency bridge between a client's big picture"}</Tx>}
-      background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
 }

@@ -28,7 +28,6 @@ function BreadcrumbAreaSection() {
     <SiteBreadcrumb
       title={<Tx ns="blog-details">{"Blog Details"}</Tx>}
       description={<Tx ns="blog-details">{"Position your agency bridge between a client’s big picture"}</Tx>}
-      background="/assets/bg/breadcrumb-bg-thumb-01.webp"
     />
   );
 }
@@ -46,7 +45,7 @@ function PostboxAreaSection() {
                     <span className="flex items-center gap-2 text-[13px]">
                       <span className="">
                         <SiteImage
-                          src="/assets/images/blog/details/blog-details-01.webp"
+                          src="/assets/images/favicon.webp"
                           alt=""
                           className="align-middle max-w-full w-10 h-10 rounded-full"
                         />
@@ -94,7 +93,7 @@ function PostboxAreaSection() {
                 </p>
                 <div className="mb-7.5">
                   <SiteImage
-                    src="/assets/images/blog/details/blog-details-01.webp"
+                    src="/assets/icfc/sketch-insights.svg"
                     alt="image"
                     className="align-middle max-w-full w-full rounded-md"
                   />

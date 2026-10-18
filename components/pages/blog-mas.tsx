@@ -11,7 +11,7 @@ export function BlogMasPageContent() {
       title="MAS TRM and ISO 27001: understanding the overlap for Singapore financial institutions"
       description="Governance, risk, incident response and third-party risk — how to build one management system that satisfies both MAS TRM and ISO/IEC 27001."
       meta={{
-        authorImage: "/assets/images/blog/details/blog-details-01.webp",
+        authorImage: "/assets/images/favicon.webp",
         by: "By ",
         author: "ICFC Pte Ltd",
         date: "April 2026",
