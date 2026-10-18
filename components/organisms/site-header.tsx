@@ -273,7 +273,7 @@ export function SiteHeader({ route }: { route: string }) {
                     key={name}
                     src={`/assets/icfc/sketch-${name}.svg`}
                     alt=""
-                    className="aspect-square w-full rounded-md object-cover"
+                    className="aspect-square w-full object-contain"
                   />
                 ))}
               </div>
