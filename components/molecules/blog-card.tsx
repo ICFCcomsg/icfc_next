@@ -29,7 +29,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
           setActive(false);
       }}
     >
-      <div className="relative overflow-hidden rounded-t-md">
+      <div className="relative overflow-hidden rounded-t-md border border-[#DBDEE1] bg-[#F8F8F9]">
         <SiteLink href={post.href} aria-label={post.title} className="block">
           <motion.div
             initial={false}
