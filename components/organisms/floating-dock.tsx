@@ -59,6 +59,7 @@ export function FloatingDock({
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [preset, setPreset] = useState<EnquiryType>("Quote");
   const [preMsg, setPreMsg] = useState("");
+  const [copied, setCopied] = useState(false);
   const [aiSeen, setAiSeen] = useState(false); // show the AI disclosure before the first chat in a page view
   const panelRef = useRef<HTMLElement>(null);
 
@@ -276,14 +277,22 @@ export function FloatingDock({
 
           {open === "wechat" && (
             <div className="icfc-wechat">
-              <p>Add us on WeChat using this ID:</p>
-              <p className="icfc-wechat-id">{wechatId}</p>
-              <button type="button" className="icfc-btn is-outline" onClick={() => navigator.clipboard?.writeText(wechatId)}>
-                Copy ID
-              </button>
-              {/* ponytail: QR placeholder until ICFC supplies the WeChat QR image */}
-              <div className="mx-auto mt-4 grid size-40 place-items-center rounded-lg border-2 border-dashed border-[#DBDEE1] text-[13px] text-[#616C74]" aria-label="WeChat QR code coming soon">
-                QR code
+              <a href="https://u.wechat.com/kBoJV0nfTBHlvV3Yi6t2iSE?s=4" target="_blank" rel="noopener" className="icfc-wechat-qr">
+                {/* eslint-disable-next-line @next/next/no-img-element -- tiny static PNG, no optimisation needed */}
+                <img src="/images/wechat-qr.png" alt="WeChat QR code to add ICFC" width={180} height={180} />
+              </a>
+              <p className="icfc-wechat-hint">Scan with WeChat to add us. On your phone? Tap the code.</p>
+              <div className="icfc-wechat-or">or search our WeChat ID</div>
+              <div className="icfc-wechat-row">
+                <span className="icfc-wechat-id">{wechatId}</span>
+                <button
+                  type="button"
+                  className="icfc-wechat-copy"
+                  onClick={() => navigator.clipboard?.writeText(wechatId).then(() => setCopied(true), () => {})}
+                  onBlur={() => setCopied(false)}
+                >
+                  {copied ? "Copied ✓" : "Copy"}
+                </button>
               </div>
             </div>
           )}
