@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { PUBLISHED_SEGMENTS, SITE_URL, alternatesFor, localizedPath } from "@/lib/i18n";
 import { services } from "@/lib/service-data";
 import { sitePageRoutes } from "@/lib/site-pages";
+import { getSiteFlags } from "@/lib/frappe";
 
 export const dynamicParams = false;
 
@@ -23,7 +24,9 @@ const esc = (s: string) => s.replace(/&/g, "&amp;");
 export async function GET(_req: Request, { params }: { params: Promise<{ file: string }> }) {
   const segment = (await params).file.replace(/\.xml$/, "");
   if (!PUBLISHED_SEGMENTS.includes(segment)) notFound();
+  const { enable_online_course } = await getSiteFlags();
   const urls = paths
+    .filter((path) => enable_online_course || path !== "/training/calendar")
     .map((path) => {
       const links = Object.entries(alternatesFor(segment, path).languages)
         .map(([hreflang, href]) => `<xhtml:link rel="alternate" hreflang="${hreflang}" href="${esc(href)}"/>`)

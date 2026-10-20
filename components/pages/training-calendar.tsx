@@ -2,9 +2,12 @@ import { Tx } from "@/components/atoms/tx";
 import { SiteBreadcrumb } from "@/components/molecules/site-breadcrumb";
 import { TrainingCalendar } from "@/components/organisms/training/training-calendar";
 import { SitePageTemplate } from "@/components/templates/site-page-template";
+import { notFound } from "next/navigation";
+import { getSiteFlags } from "@/lib/frappe";
 
 // Pack sitemap: /training/calendar, "Calendar component fed from the LMS".
-export function TrainingCalendarPageContent() {
+export async function TrainingCalendarPageContent() {
+  if (!(await getSiteFlags()).enable_online_course) notFound();
   return (
     <SitePageTemplate route="training/calendar">
       <main>

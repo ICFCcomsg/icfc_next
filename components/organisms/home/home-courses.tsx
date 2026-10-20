@@ -3,6 +3,7 @@ import { CONTAINER } from "@/components/atoms/container";
 import { getDictionary } from "@/lib/dictionary";
 import siteEn from "@/lib/i18n/site/en.json";
 import { getUpcomingCourses } from "@/lib/lms";
+import { getSiteFlags } from "@/lib/frappe";
 import { section, eyebrow, h2, p } from "./styles";
 
 const fmt = (d: Date, o: Intl.DateTimeFormatOptions) => d.toLocaleDateString("en-GB", { timeZone: "UTC", ...o });
@@ -18,6 +19,8 @@ function dateRange(start: string, end: string) {
 }
 
 export async function HomeCourses() {
+  // Courses are booked on the LMS, so the section hides with the online-course flag.
+  if (!(await getSiteFlags()).enable_online_course) return null;
   const [t, courses] = await Promise.all([getDictionary(), getUpcomingCourses()]);
   const h = { ...siteEn.home, ...t.home }; // new keys fall back to English until translated
   const next = courses.sort((a, b) => a.start.localeCompare(b.start)).slice(0, 4);

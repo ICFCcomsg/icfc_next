@@ -57,7 +57,7 @@ function subscribeScroll(update: () => void) {
 export function SiteHeader({ route, onlineCourses }: { route: string; onlineCourses: boolean }) {
   const nav = onlineCourses
     ? navigation
-    : navigation.map(([key, path, subs]) => [key, path, subs?.filter(([, href]) => href !== process.env.LMS_COURSES_URL)] as (typeof navigation)[number]);
+    : navigation.map(([key, path, subs]) => [key, path, subs?.filter(([, href]) => href !== process.env.LMS_COURSES_URL && href !== "/training/calendar")] as (typeof navigation)[number]);
   const [panel, setPanel] = useState<"menu" | "search" | null>(null);
   const [query, setQuery] = useState("");
   // The URL decides the language: "/zh-hans/..." is Simplified Chinese, unprefixed is English.
