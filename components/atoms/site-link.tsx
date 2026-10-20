@@ -17,5 +17,6 @@ function localize(href: string, prefix: string) {
 
 export function SiteLink({ href, ...props }: ComponentProps<typeof Link>) {
   const { prefix } = useI18n();
-  return <Link href={typeof href === "string" ? localize(href, prefix) : href} {...props} />;
+  // ponytail: menus/footer render ~90 links; viewport prefetch fired an RSC fetch for each. Pass prefetch per-link to opt back in.
+  return <Link prefetch={false} href={typeof href === "string" ? localize(href, prefix) : href} {...props} />;
 }
