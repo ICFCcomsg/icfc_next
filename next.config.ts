@@ -3,8 +3,13 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // "Online courses" links; inlined at build so the client header can use it.
   env: { LMS_COURSES_URL: new URL("/lms/courses", process.env.CRM_API_HOST || "https://icfc.digital").href },
+  headers() {
+    return [{ source: "/:path*", headers: [{ key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" }] }];
+  },
   redirects() {
     return [
+      // One canonical host; www currently serves a duplicate copy.
+      { source: "/:path*", has: [{ type: "host", value: "www.icfc.com.sg" }], destination: "https://icfc.com.sg/:path*", permanent: true },
       { source: "/index.html", destination: "/", permanent: true },
       { source: "/index", destination: "/", permanent: true },
       { source: "/contact-us.php", destination: "/contact-us", permanent: true },

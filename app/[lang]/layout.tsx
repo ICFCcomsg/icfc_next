@@ -52,7 +52,6 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
   return (
     <html lang={lang.code} dir="ltr" className={interTight.variable}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Unreviewed translations stay out of search until published in lib/i18n.ts. */}
         {!isPublished(segment) && <meta name="robots" content="noindex, follow" />}
         {/* Google Consent Mode defaults must run before GTM loads. */}
