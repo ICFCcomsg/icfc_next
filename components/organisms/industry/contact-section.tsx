@@ -1,3 +1,4 @@
+import { EmailLink } from "@/components/atoms/email-link";
 import { Container } from "@/components/atoms/container";
 import { Tx } from "@/components/atoms/tx";
 import { AnimatedElement, RotatingHotspots } from "@/components/atoms/animated-element";
@@ -133,12 +134,7 @@ export function ContactSection() {
                     <span className="mb-3 text-[rgba(255,255,255,0.31)] text-[24px] max-[767px]:text-[20px] block leading-[1.15]">
                       <Tx ns="industry">{"Email: "}</Tx>
                     </span>
-                    <SiteLink
-                      href="mailto:admin@icfc.com.sg"
-                      className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[20px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Tx ns="industry">{"admin@icfc.com.sg"}</Tx>
-                    </SiteLink>
+                    <EmailLink className="text-[#FFFFFF] [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[20px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none" />
                   </div>
                   <div>
                     <span className="mb-3 text-[rgba(255,255,255,0.31)] text-[24px] max-[767px]:text-[20px] block leading-[1.15]">

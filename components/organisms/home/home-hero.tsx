@@ -23,7 +23,7 @@ export async function HomeHero() {
               <QuoteButton />
             </div>
           </div>
-          <img src="/images/icfc/sketch-hero-assurance.svg" alt="" className="w-full h-auto" />
+          <img src="/images/icfc/sketch-hero-assurance.svg" alt={h.title} width={800} height={600} className="w-full h-auto" />
         </div>
       </section>
   );

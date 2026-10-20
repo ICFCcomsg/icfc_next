@@ -38,7 +38,9 @@ export function BlogCard({ post }: { post: BlogPost }) {
           >
             <SiteImage
               src={post.image}
-              alt=""
+              alt={post.title}
+              width={600}
+              height={450}
               className="block h-auto w-full"
             />
           </motion.div>

@@ -18,7 +18,7 @@ export async function HomeServiceGroups() {
               const list = services.filter((s) => s.group === g);
               return (
                 <div key={g} className="rounded-2xl border border-[#DBDEE1] bg-white p-7">
-                  <img src={`/images/icfc/${SERVICE_GROUP_ICONS[g]}.svg`} alt="" width={56} height={56} />
+                  <img src={`/images/icfc/${SERVICE_GROUP_ICONS[g]}.svg`} alt={t.groups[g as keyof typeof t.groups]} width={56} height={56} />
                   <h3 className="mt-4 mb-3 text-[20px] font-semibold text-[#2B3944]">{t.groups[g as keyof typeof t.groups]}</h3>
                   <ul className="m-0 mb-4 p-0 list-none space-y-2">
                     {list.slice(0, 4).map((s) => (

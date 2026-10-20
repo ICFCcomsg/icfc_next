@@ -1,3 +1,4 @@
+import { EmailLink } from "@/components/atoms/email-link";
 import { QuoteButton } from "@/components/atoms/quote-button";
 import { CONTAINER } from "@/components/atoms/container";
 import { getDictionary } from "@/lib/dictionary";
@@ -14,7 +15,7 @@ export async function HomeContact() {
             <p className="m-0 text-[17px] text-white/85">
               <a href="tel:+6586017001" className="text-white">+65 8601 7001</a>
               {" · "}
-              <a href="mailto:admin@icfc.com.sg" className="text-white">admin@icfc.com.sg</a>
+              <EmailLink className="text-white" />
               {" · "}
               <a href="https://wa.me/6586017001" target="_blank" rel="noopener noreferrer" className="text-white">WhatsApp</a>
             </p>

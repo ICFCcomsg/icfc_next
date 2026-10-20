@@ -1,4 +1,5 @@
 "use client";
+import { EmailLink } from "@/components/atoms/email-link";
 import { AnimatedMenuIcon } from "@/components/atoms/animated-element";
 import { Icon } from "@/components/icons/icon";
 
@@ -218,13 +219,8 @@ export function SiteHeader({ route }: { route: string }) {
             <Icon name="phone" className="mr-2" /> {copy.top.call_us_label} +65
             8601 7001
           </SiteLink>
-          <SiteLink
-            href="mailto:admin@icfc.com.sg"
-            className="whitespace-nowrap"
-          >
-            <Icon name="mail" className="mr-2" /> {copy.top.send_mail_label}{" "}
-            admin@icfc.com.sg
-          </SiteLink>
+          <EmailLink className="whitespace-nowrap">
+            <Icon name="mail" className="mr-2" /> {copy.top.send_mail_label}{" "}</EmailLink>
         </div>
       </div>
       <div aria-hidden={sticky} inert={sticky}>
@@ -272,7 +268,9 @@ export function SiteHeader({ route }: { route: string }) {
                   <SiteImage
                     key={name}
                     src={`/assets/icfc/sketch-${name}.svg`}
-                    alt=""
+                    alt={`ICFC ${name.replace("-", " ")} illustration`}
+                    width={120}
+                    height={120}
                     className="aspect-square w-full rounded-md border border-[#DBDEE1] bg-[#F8F8F9] object-contain p-1"
                   />
                 ))}
@@ -320,9 +318,7 @@ export function SiteHeader({ route }: { route: string }) {
           <p>
             <SiteLink href="tel:+6586017001">+65 8601 7001</SiteLink>
             <br />
-            <SiteLink href="mailto:admin@icfc.com.sg">
-              admin@icfc.com.sg
-            </SiteLink>
+            <EmailLink />
           </p>
         </Modal>
       )}

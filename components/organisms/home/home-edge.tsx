@@ -10,7 +10,7 @@ export async function HomeEdge() {
   return (
       <section className={section}>
         <div className={`${CONTAINER} grid grid-cols-[1fr_1.4fr] max-[991px]:grid-cols-1 items-center gap-12`}>
-          <img src="/images/icfc/sketch-edge-grant.svg" alt="" className="w-full h-auto" loading="lazy" />
+          <img src="/images/icfc/sketch-edge-grant.svg" alt={h.edge_title} width={600} height={450} className="w-full h-auto" loading="lazy" />
           <div>
             <span className={eyebrow}>{h.edge_eyebrow}</span>
             <h2 className={h2}>{h.edge_title}</h2>

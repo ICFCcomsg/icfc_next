@@ -17,7 +17,7 @@ export async function HomeIndustries() {
               <li key={key}>
                 {/* ponytail: links to the existing industry page until per-industry pages exist */}
                 <SiteLink href="/industry" className="flex h-full items-center gap-3 rounded-xl border border-[#DBDEE1] p-4 text-[#2B3944] hover:border-[#AB052D] hover:text-[#AB052D]">
-                  <img src={`/images/icfc/icon-industry-${key}.svg`} alt="" width={40} height={40} loading="lazy" />
+                  <img src={`/images/icfc/icon-industry-${key}.svg`} alt={name} width={40} height={40} loading="lazy" />
                   <span className="text-[15px] font-medium">{name}</span>
                 </SiteLink>
               </li>

@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import { EmailLink } from "@/components/atoms/email-link";
 import { EnvelopeIcon } from "@/components/icons/envelope-icon";
 import { PhoneIcon } from "@/components/icons/phone-icon";
 import { WhatsappIcon } from "@/components/icons/whatsapp-icon";
@@ -351,12 +352,7 @@ export function ContactSection() {
                     <span className="mb-1.25 text-[24px] max-[767px]:text-[20px] min-[767px]:max-[1199px]:text-[22px] block text-[#2B3944] font-semibold">
                       <Tx ns="contact-us">{"Email Support"}</Tx>
                     </span>
-                    <SiteLink
-                      href="mailto:admin@icfc.com.sg"
-                      className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none"
-                    >
-                      <Tx ns="contact-us">{"admin@icfc.com.sg"}</Tx>
-                    </SiteLink>
+                    <EmailLink className="text-inherit [text-decoration:none] focus:[text-decoration:none] focus:text-inherit hover:[text-decoration:none] hover:text-[#AB052D] [border:none] [background:transparent] text-[17px] [transition:all_0.3s_0s_ease-out] motion-reduce:transition-none" />
                   </div>
                 </li>
                 <li className="mb-8.75 pb-8.75 list-none flex items-center gap-6.25 flex-wrap [border-bottom:1px_solid_#DBDEE1] visible!">

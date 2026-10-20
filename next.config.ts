@@ -4,7 +4,13 @@ const nextConfig: NextConfig = {
   // "Online courses" links; inlined at build so the client header can use it.
   env: { LMS_COURSES_URL: new URL("/lms/courses", process.env.CRM_API_HOST || "https://icfc.digital").href },
   headers() {
-    return [{ source: "/:path*", headers: [{ key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" }] }];
+    const year = [{ key: "Cache-Control", value: "public, max-age=31536000, stale-while-revalidate=86400" }];
+    return [
+      { source: "/:path*", headers: [{ key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" }] },
+      // ponytail: public/ files aren't hashed; a changed file keeps its name, so rename it (or bump ?v=) to bust caches.
+      { source: "/images/:path*", headers: year },
+      { source: "/assets/:path*", headers: year },
+    ];
   },
   redirects() {
     return [

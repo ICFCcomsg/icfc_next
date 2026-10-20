@@ -17,7 +17,7 @@ export async function HomeWays() {
           <div className="grid grid-cols-3 max-[991px]:grid-cols-1 gap-6">
             {h.ways.map(([title, text], i) => (
               <div key={title} className="rounded-2xl bg-white p-7">
-                <img src={`/images/icfc/${WAY_IMAGES[i]}.svg`} alt="" className="mb-5 h-40 w-auto" loading="lazy" />
+                <img src={`/images/icfc/${WAY_IMAGES[i]}.svg`} alt={title} width={213} height={160} className="mb-5 h-40 w-auto" loading="lazy" />
                 <h3 className="mt-0 mb-2 text-[24px] font-semibold text-[#2B3944]">{title}</h3>
                 <p className={p}>{text}</p>
               </div>

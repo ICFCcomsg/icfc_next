@@ -1,3 +1,4 @@
+import { EmailLink } from "@/components/atoms/email-link";
 import { CookieSettingsLink } from "@/components/atoms/cookie-settings-link";
 import { SiteImage } from "@/components/atoms/site-image";
 import { SiteLink } from "@/components/atoms/site-link";
@@ -78,7 +79,7 @@ export async function SiteFooter() {
           <p className="m-0 mb-6 leading-8 text-[rgba(255,255,255,0.6)]">
             {f.call_us}: <a href="tel:+6586017001" className={link}>+65 8601 7001</a>
             <br />
-            {f.email}: <a href="mailto:admin@icfc.com.sg" className={link}>admin@icfc.com.sg</a>
+            {f.email}: <EmailLink className={link} />
           </p>
           <h2 className={title}>{f.legal_title}</h2>
           <ul className="m-0 p-0 list-none space-y-3">
