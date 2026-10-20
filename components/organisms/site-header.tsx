@@ -54,7 +54,10 @@ function subscribeScroll(update: () => void) {
   return () => window.removeEventListener("scroll", update);
 }
 
-export function SiteHeader({ route }: { route: string }) {
+export function SiteHeader({ route, onlineCourses }: { route: string; onlineCourses: boolean }) {
+  const nav = onlineCourses
+    ? navigation
+    : navigation.map(([key, path, subs]) => [key, path, subs?.filter(([, href]) => href !== process.env.LMS_COURSES_URL)] as (typeof navigation)[number]);
   const [panel, setPanel] = useState<"menu" | "search" | null>(null);
   const [query, setQuery] = useState("");
   // The URL decides the language: "/zh-hans/..." is Simplified Chinese, unprefixed is English.
@@ -93,7 +96,7 @@ export function SiteHeader({ route }: { route: string }) {
       </SiteLink>
       <nav className="ml-auto hidden min-[1200px]:block" aria-label="Main navigation">
         <ul className="m-0 flex items-center gap-9 p-0 list-none">
-          {navigation.map(([key, path, subs]) => (
+          {nav.map(([key, path, subs]) => (
             <li key={path} className={`group/nav ${subs ? "relative" : ""}`}>
               <SiteLink href={href(path)} aria-current={isCurrent(path) ? "page" : undefined} className={key === "services" ? `${topLink} ${megaBridge}` : topLink}>
                 {label(key)}
@@ -291,7 +294,7 @@ export function SiteHeader({ route }: { route: string }) {
               panel === "menu" ? "Expanded navigation" : "Search results"
             }
           >
-            {navigation
+            {nav
               .filter(([key]) => panel !== "search" || label(key).toLowerCase().includes(query.toLowerCase()))
               .map(([key, path, subs]) => (
                 <div key={path}>

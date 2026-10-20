@@ -9,7 +9,7 @@ import { CONTAINER } from "@/components/atoms/container";
 const title = "mt-0 mb-5 text-[20px] font-semibold text-white";
 const link = "text-[rgba(255,255,255,0.6)] hover:text-white";
 
-export async function SiteFooter() {
+export async function SiteFooter({ onlineCourses }: { onlineCourses: boolean }) {
   const [t, services] = await Promise.all([getDictionary(), getServices()]);
   const f = t.footer;
   return (
@@ -48,7 +48,7 @@ export async function SiteFooter() {
           <h2 className={title}>{t.nav.training}</h2>
           <ul className="m-0 p-0 list-none space-y-3">
             <li><SiteLink href="/training/calendar" className={link}>Course calendar</SiteLink></li>
-            <li><a href={process.env.LMS_COURSES_URL} target="_blank" rel="noopener" className={link}>Online courses ↗</a></li>
+            {onlineCourses && <li><a href={process.env.LMS_COURSES_URL} target="_blank" rel="noopener" className={link}>Online courses ↗</a></li>}
             <li><SiteLink href="/training/funding" className={link}>Funding</SiteLink></li>
             <li><SiteLink href="/training/lms-terms" className={link}>{f.lms_terms}</SiteLink></li>
           </ul>

@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { POST } from "./route.ts";
 
-// Validation and the Lead itself are tested in Frappe (icfc_or_evidence/test_website.py); this covers the proxy.
+// Validation and the Lead itself are tested in Frappe (icfc_grants/api/website/test_website.py); this covers the proxy.
 test("contact proxies to the Frappe guest API without credentials", async () => {
   const originalFetch = globalThis.fetch;
   const originalEnv = { ...process.env };
@@ -25,7 +25,7 @@ test("contact proxies to the Frappe guest API without credentials", async () => 
 
     const ok = await POST(request(fields));
     assert.deepEqual([ok.status, await ok.json()], [200, { success: true }]);
-    assert.equal(calls[0].url, "https://crm.example.com/api/method/icfc_or_evidence.api.website.submit_enquiry");
+    assert.equal(calls[0].url, "https://crm.example.com/api/method/icfc_grants.api.website.submit_enquiry");
     const headers = new Headers(calls[0].init.headers);
     assert.equal(headers.get("Authorization"), null);
     assert.equal(headers.get("X-Forwarded-For"), "203.0.113.7", "visitor IP forwarded for rate limits");

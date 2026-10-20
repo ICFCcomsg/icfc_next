@@ -2,15 +2,16 @@
 import { Container } from "@/components/atoms/container";
 import { SectionHeading } from "@/components/atoms/section-heading";
 import { getTranslator } from "@/lib/dictionary";
+import { getSiteFlags } from "@/lib/frappe";
 
 // Pack: "ICFC courses run in three formats: public classroom sessions, in-house sessions for your team,
 // and online courses on the ICFC Digital LMS at icfc.digital."
 export async function TrainingFormats() {
-  const t = await getTranslator("training");
+  const [t, flags] = await Promise.all([getTranslator("training"), getSiteFlags()]);
   const formats: [string, string?][] = [
     ["Public classroom sessions"],
     ["In-house sessions for your team", "#in-house"],
-    ["Online courses on the ICFC Digital LMS", process.env.LMS_COURSES_URL!],
+    ["Online courses on the ICFC Digital LMS", flags.enable_online_course ? process.env.LMS_COURSES_URL : undefined],
   ];
   return (
     <section className="py-20 max-[767px]:py-12">

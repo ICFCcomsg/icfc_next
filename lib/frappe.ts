@@ -1,5 +1,5 @@
-// Calls the website's guest API on the Frappe backend (icfc_or_evidence/api/website). No key or secret.
-const BASE = "icfc_or_evidence.api.website.";
+// Calls the website's guest API on the Frappe backend (icfc_grants/api/website). No key or secret.
+const BASE = "icfc_grants.api.website.";
 
 /** POSTs a form to a guest method, forwarding the visitor's IP for Frappe's rate limits. */
 export async function postToFrappe(request: Request, method: string, body: unknown): Promise<Response> {
@@ -41,4 +41,20 @@ export async function getFromFrappe<T>(method: string): Promise<T> {
   });
   if (!res.ok) throw new Error(`${method}: HTTP ${res.status}`);
   return (await res.json()).message;
+}
+
+/** Feature flags from ICFC Site Settings, cached for a minute. Unreachable backend → {} (every feature off). */
+export async function getSiteFlags(): Promise<Record<string, boolean>> {
+  const host = process.env.CRM_API_HOST;
+  if (!host) return {};
+  try {
+    const res = await fetch(new URL("/api/method/icfc_grants.api.website.get_flags", host), {
+      next: { revalidate: 60 },
+      signal: AbortSignal.timeout(10000),
+      redirect: "error",
+    });
+    return res.ok ? (await res.json()).message : {};
+  } catch {
+    return {};
+  }
 }

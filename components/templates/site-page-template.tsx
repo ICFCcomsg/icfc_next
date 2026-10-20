@@ -5,14 +5,16 @@ import {
 import type { ReactNode } from "react";
 import { SiteHeader } from "@/components/organisms/site-header";
 import { SiteFooter } from "@/components/organisms/site-footer";
+import { getSiteFlags } from "@/lib/frappe";
 
-export function SitePageTemplate({
+export async function SitePageTemplate({
   route,
   children,
 }: {
   route: string;
   children: ReactNode;
 }) {
+  const flags = await getSiteFlags();
   return (
     <SiteMotion>
       <div className="overflow-x-clip">
@@ -35,9 +37,9 @@ export function SitePageTemplate({
           "services",
         ].includes(route) && <CursorFollower />}
 
-        <SiteHeader route={route} />
+        <SiteHeader route={route} onlineCourses={!!flags.enable_online_course} />
         {children}
-        <SiteFooter />
+        <SiteFooter onlineCourses={!!flags.enable_online_course} />
       </div>
     </SiteMotion>
   );
