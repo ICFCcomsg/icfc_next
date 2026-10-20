@@ -133,13 +133,13 @@ export function FloatingDock({
 
   const waLink = (page: string) => `https://wa.me/${phone}?text=${encodeURIComponent(`Hello ICFC, I have an enquiry about: ${page}`)}`;
   const wa = waLink("your services");
-  const items = [
+  const items = ([
     { key: "form", label: s.enquire, icon: "enquiry", onClick: () => setOpen(open === "form" ? null : "form") },
     { key: "wa", label: "WhatsApp", icon: "whatsapp", href: wa },
     { key: "tg", label: "Telegram", icon: "telegram", href: telegram },
     { key: "wc", label: "WeChat", icon: "wechat", onClick: () => setOpen(open === "wechat" ? null : "wechat") },
     { key: "ai", label: s.chat_ai, icon: "ai", onClick: startAi },
-  ] as const;
+  ] as const).filter((it) => it.key !== "ai" || chatScriptSrc); // no chat widget configured → no dead button
 
   return (
     <>
