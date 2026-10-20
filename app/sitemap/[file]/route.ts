@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { PUBLISHED_SEGMENTS, SITE_URL, alternatesFor, localizedPath } from "@/lib/i18n";
 import { services } from "@/lib/service-data";
-import { sitePageRoutes } from "@/lib/site-pages";
+import { getSitePage, sitePageRoutes } from "@/lib/site-pages";
 import { getSiteFlags } from "@/lib/frappe";
 
 export const dynamicParams = false;
@@ -13,7 +13,8 @@ export function generateStaticParams() {
 const paths = [
   "/",
   ...sitePageRoutes()
-    .filter((r) => r !== "Version/index")
+    // Skip noindex pages and duplicates that canonicalize elsewhere.
+    .filter((r) => !getSitePage(r)?.noindex && !getSitePage(r)?.canonical)
     .map((r) => `/${r}`),
   ...services.map((s) => `/services/${s.slug}`),
 ];

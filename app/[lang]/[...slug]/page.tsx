@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { alternatesFor } from "@/lib/i18n";
+import { pageMetadata } from "@/lib/i18n";
 import { getSitePage, sitePageRoutes } from "@/lib/site-pages";
 
 type Props = { params: Promise<{ lang: string; slug: string[] }> };
@@ -14,11 +14,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = await params;
   const page = getSitePage(slug.join("/"));
-  return {
-    title: page?.title ?? "ICFC Pte Ltd",
-    description: page?.description,
-    alternates: alternatesFor(lang, "/" + slug.join("/")),
-  };
+  const meta = pageMetadata(lang, page?.canonical ?? "/" + slug.join("/"), page?.title ?? "ICFC Pte Ltd", page?.description || undefined);
+  return { ...meta, ...(page?.noindex && { robots: { index: false, follow: true } }) };
 }
 
 export default async function SitePage({ params }: Props) {

@@ -30,6 +30,13 @@ export function localizedPath(segment: string, path: string) {
   return prefix + (path === "/" && prefix ? "" : path);
 }
 
+/** Per-page title, description, canonical/hreflang and social tags (OG/Twitter don't inherit the page title). */
+export function pageMetadata(segment: string, path: string, title?: string, description?: string) {
+  const alternates = alternatesFor(segment, path);
+  const og = { title, description, url: alternates.canonical, siteName: "ICFC Pte Ltd", type: "website" as const, images: ["/images/icfc/og-image-default.png"] };
+  return { title, description, alternates, openGraph: og, twitter: { card: "summary_large_image" as const, title, description } };
+}
+
 /** Next.js metadata alternates: canonical plus hreflang for published languages only. */
 export function alternatesFor(segment: string, path: string) {
   const languages: Record<string, string> = {};

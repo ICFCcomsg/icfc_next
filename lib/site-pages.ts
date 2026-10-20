@@ -27,6 +27,15 @@ import { ServicesPageContent } from "@/components/pages/services";
 import { ContactUsPageContent } from "@/components/pages/contact-us";
 import { VersionIndexPageContent } from "@/components/pages/version-index";
 
+type SitePage = {
+  component: () => React.ReactNode;
+  title?: string;
+  description?: string;
+  /** Path of the original when this page duplicates another. */
+  canonical?: string;
+  noindex?: boolean;
+};
+
 export const sitePages = {
   "grants/edge": {
     component: GrantsEdgePageContent,
@@ -56,17 +65,19 @@ export const sitePages = {
   "about": {
     component: AboutPageContent,
     title: "About ICFC | Audit, Consulting and Training Singapore",
-    description: "",
+    description: "ICFC Pte Ltd is a Singapore firm providing audit, consulting and training for ISO management systems, cybersecurity, data protection and sustainability.",
   },
   "blog-details": {
     component: BlogDetailsPageContent,
     title: "Insights | ICFC Pte Ltd",
     description: "",
+    noindex: true,
   },
   "blog-sidebar": {
     component: BlogSidebarPageContent,
     title: "Insights | ICFC Pte Ltd",
     description: "",
+    noindex: true,
   },
   "blog": {
     component: BlogPageContent,
@@ -83,6 +94,8 @@ export const sitePages = {
   },
   "blog_ISO27701": {
     component: BlogIso27701PageContent,
+    // ponytail: same article as blogGreenPlan2030; point search engines at the original.
+    canonical: "/blogGreenPlan2030",
     title: "Singapore Green Plan 2030 and ISO 14001 for Manufacturers | ICFC",
     description:
       "Carbon tax S$45/t, mandatory energy management, waste reduction targets – ISO 14001 framework for Singapore manufacturers. Green Plan 2030 compliance roadmap.",
@@ -103,10 +116,12 @@ export const sitePages = {
     component: BlogLeadauditorVsInternalauditorPageContent,
     title:
       "Lead auditor vs internal auditor training: which course does your team need?",
-    description: "",
+    description: "Lead auditor or internal auditor training? A practical guide to matching ISO training to the job your team actually needs to do.",
   },
   "blog_LegacyToCloud_ISO27001": {
     component: BlogLegacytocloudIso27001PageContent,
+    // ponytail: same article as blog_ISO42001_AI; point search engines at the original.
+    canonical: "/blog_ISO42001_AI",
     title:
       "ISO/IEC 42001: What Singapore AI Companies Need to Know in 2026 | ICFC",
     description:
@@ -175,24 +190,25 @@ export const sitePages = {
   "services": {
     component: ServicesPageContent,
     title: "Services | Audit, Consulting and Training | ICFC Pte Ltd",
-    description: "",
+    description: "ISO certification consulting, internal and supplier audits, and training for ISO 9001, 14001, 27001, 45001, 42001 and more in Singapore.",
   },
   "contact-us": {
     component: ContactUsPageContent,
     title: "Contact ICFC Pte Ltd",
-    description: "",
+    description: "Contact ICFC Pte Ltd in Singapore for ISO audit, consulting and training enquiries.",
   },
   "Version/index": {
     component: VersionIndexPageContent,
     title: "This Page Does Not Exist",
     description: "Oops, looks like the page is lost.",
+    noindex: true,
   },
-};
+} satisfies Record<string, SitePage>;
 
 export type SiteRoute = keyof typeof sitePages;
 
 export function getSitePage(route: string) {
-  return Object.hasOwn(sitePages, route) ? sitePages[route as SiteRoute] : null;
+  return Object.hasOwn(sitePages, route) ? (sitePages[route as SiteRoute] as SitePage) : null;
 }
 
 export function sitePageRoutes() {
