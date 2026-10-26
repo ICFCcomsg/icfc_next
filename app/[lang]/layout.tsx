@@ -12,6 +12,7 @@ import { jsonLdHtml, organizationJsonLd } from "@/lib/jsonld";
 import { LANGS, getLang, isPublished } from "@/lib/i18n";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+const GA_ID = "G-MG4YJ72M3K";
 
 const interTight = localFont({
   src: "../../public/assets/fonts/inter-tight-latin.woff2",
@@ -64,6 +65,9 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',wait_for_update:500});`,
           }}
         />
+        {/* Google tag (gtag.js); gtag() itself is defined by consent-defaults above. */}
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="gtag-config" strategy="afterInteractive">{`gtag('js',new Date());gtag('config','${GA_ID}');`}</Script>
         {GTM_ID && (
           <Script id="gtm" strategy="afterInteractive">{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`}</Script>
         )}
